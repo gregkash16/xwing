@@ -9630,7 +9630,6 @@ exportObj.basicCardData = ->
         }
         {
             name: "Anakin Skywalker"
-            xws_name: "anakinskywalker"
             id: 273
             xws_name: "anakinskywalker"
             unique: true
@@ -9662,7 +9661,6 @@ exportObj.basicCardData = ->
         }
         {
             name: "Luminara Unduli"
-            xws_name: "luminaraunduli"
             id: 274
             xws_name: "luminaraunduli"
             unique: true
@@ -11011,9 +11009,8 @@ exportObj.basicCardData = ->
         }
         {
             name: "Anakin Skywalker (N-1 Starfighter)"
-            xws_name: "anakinskywalker"
             id: 322
-            xws_name: "anakinskywalker"
+            xws_name: "anakinskywalker-nabooroyaln1starfighter"
             unique: true
             faction: "Galactic Republic"
             ship: "Naboo Royal N-1 Starfighter"
@@ -11021,8 +11018,8 @@ exportObj.basicCardData = ->
             force: 1
             points: 5
             loadout: 20
-            pointsxwa: 14
-            loadoutxwa: 9
+            pointsxwa: 9
+            loadoutxwa: 6
             keyword: ["Light Side"]
             slots: [
                 "Talent"
@@ -11032,11 +11029,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Configuration"
-                "Modification"
-                "Modification"
+                "Talent"
                 "Astromech"
-                "Force"
+                "Sensor"
+                "Modifcation"
+                "Torpedo"
             ]
         }
         {
@@ -12047,17 +12044,16 @@ exportObj.basicCardData = ->
         {
             name: "Anakin Skywalker (Y-Wing)"
             unique: true
-            xws_name: "anakinskywalker"
             id: 359
-            xws_name: "anakinskywalker"
+            xws_name: "anakinskywalker-btlbywing"
             faction: "Galactic Republic"
             ship: "BTL-B Y-wing"
             skill: 6
             force: 3
             points: 6
             loadout: 20
-            pointsxwa: 14
-            loadoutxwa: 9
+            pointsxwa: 13   
+            loadoutxwa: 16
             keyword: ["Jedi", "Light Side"]
             slots: [
                 "Force"
@@ -12070,11 +12066,13 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Configuration"
-                "Modification"
-                "Modification"
-                "Astromech"
                 "Force"
+                "Astromech"
+                "Gunner"
+                "Modification"
+                "Device"
+                "Turret"
+                "Torpedo"
             ]
         }
         {
@@ -14508,7 +14506,6 @@ exportObj.basicCardData = ->
         }
         {
             name: "Aayla Secura"
-            xws_name: "aaylasecura"
             id: 439
             xws_name: "aaylasecura"
             faction: "Galactic Republic"
@@ -14540,9 +14537,8 @@ exportObj.basicCardData = ->
         }
         {
             name: "Obi-Wan Kenobi (Eta-2)"
-            xws_name: "obiwankenobi"
             id: 440
-            xws_name: "obi-wankenobi"
+            xws_name: "obiwankenobi-eta2actisinterceptor"
             faction: "Galactic Republic"
             skill: 5
             unique: true
@@ -14550,8 +14546,8 @@ exportObj.basicCardData = ->
             force: 3
             points: 5
             loadout: 15
-            pointsxwa: 13
-            loadoutxwa: 10
+            pointsxwa: 12
+            loadoutxwa: 12
             keyword: ["Jedi", "Light Side"]
             slots: [
                 "Force"
@@ -14563,18 +14559,17 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Configuration"
-                "Modification"
-                "Modification"
-                "Astromech"
                 "Force"
+                "Talent"
+                "Astromech"
+                "Modification"
+                "Cannon"
             ]
         }
         {
             name: "Anakin Skywalker (Eta-2)"
-            xws_name: "anakinskywalker"
             id: 441
-            xws_name: "anakinskywalker"
+            xws_name: "anakinskywalker-eta2actisinterceptor"
             faction: "Galactic Republic"
             skill: 6
             unique: true
@@ -14582,8 +14577,8 @@ exportObj.basicCardData = ->
             ship: "Eta-2 Actis"
             points: 5
             loadout: 15
-            pointsxwa: 14
-            loadoutxwa: 9
+            pointsxwa: 12
+            loadoutxwa: 10
             keyword: ["Jedi", "Light Side", "Dark Side"]
             slots: [
                 "Force"
@@ -14595,27 +14590,26 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Configuration"
-                "Modification"
-                "Modification"
-                "Astromech"
                 "Force"
+                "Talent"
+                "Astromech"
+                "Modification"
+                "Cannon"
             ]
         }
         {
             name: "Poe Dameron (HoH)"
             xwsaddon: 'swz68'
-            xws_name: "poedameron"
             id: 442
-            xws_name: "poedameron"
+            xws_name: "poedameron-swz68"
             unique: true
             faction: "Resistance"
             ship: "T-70 X-wing"
             skill: 6
             points: 6
             loadout: 19
-            pointsxwa: 17
-            loadoutxwa: 20
+            pointsxwa: 14
+            loadoutxwa: 11
             charge: 2
             recurring: 1
             slots: [
@@ -14642,17 +14636,16 @@ exportObj.basicCardData = ->
         {
             name: "Temmin Wexley (HoH)"
             xwsaddon: 'swz68'
-            xws_name: "temminwexley"
             id: 443
-            xws_name: "temminwexley"
+            xws_name: "temminwexley-swz68"
             unique: true
             faction: "Resistance"
             ship: "T-70 X-wing"
             skill: 4
             points: 5
             loadout: 13
-            pointsxwa: 12
-            loadoutxwa: 11
+            pointsxwa: 11
+            loadoutxwa: 5
             slots: [
                 "Talent"
                 "Tech"
@@ -17237,9 +17230,8 @@ exportObj.basicCardData = ->
         }
         {
             name: "Anakin Skywalker (Delta-7b)"
-            xws_name: "anakinskywalker"
             id: 528
-            xws_name: "anakinskywalker"
+            xws_name: "anakinskywalker-delta7Baethersprite"
             unique: true
             faction: "Galactic Republic"
             ship: "Delta-7b Aethersprite"
@@ -18415,7 +18407,6 @@ exportObj.basicCardData = ->
             name: "Anakin Skywalker (SoC)"
             xwsaddon: "siegeofcoruscant"
             unique: true
-            xws_name: "anakinskywalker-siegeofcoruscant"
             id: 574
             xws_name: "anakinskywalker-siegeofcoruscant"
             faction: "Galactic Republic"
@@ -18437,7 +18428,6 @@ exportObj.basicCardData = ->
             name: "Obi-Wan Kenobi (SoC)"
             xwsaddon: "siegeofcoruscant"
             unique: true
-            xws_name: "obiwankenobi-siegeofcoruscant"
             id: 575
             xws_name: "obi-wankenobi-siegeofcoruscant"
             faction: "Galactic Republic"
@@ -18459,7 +18449,6 @@ exportObj.basicCardData = ->
             name: "Shaak Ti (SoC)"
             xwsaddon: "siegeofcoruscant"
             unique: true
-            xws_name: "shaakti-siegeofcoruscant"
             id: 576
             xws_name: "shaakti-siegeofcoruscant"
             faction: "Galactic Republic"
