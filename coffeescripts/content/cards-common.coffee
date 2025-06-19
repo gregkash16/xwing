@@ -17736,6 +17736,7 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Sensor"
                 "Talent"
+                "VersatileShip"
             ]
         }
         {
@@ -17765,6 +17766,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Modification"
                 "Sensor"
+                "VersatileShip"
             ]
         }
         {
@@ -17788,14 +17790,10 @@ exportObj.basicCardData = ->
                 "VersatileShip"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Gunner"
-                "Gunner"
-                "Modification"
-                "Missile"
-                "Missile"
                 "Talent"
+                "Modification"
+                "Sensor"
+                "VersatileShip"
             ]
         }
         {
@@ -17818,14 +17816,10 @@ exportObj.basicCardData = ->
                 "VersatileShip"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Gunner"
-                "Gunner"
-                "Modification"
-                "Missile"
-                "Missile"
                 "Talent"
+                "Modification"
+                "Sensor"
+                "VersatileShip"
             ]
         }
         {
@@ -17852,6 +17846,8 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Modification"
                 "Sensor"
+                "VersatileShip"
+                
             ]
         }
         {
@@ -17877,6 +17873,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Modification"
                 "Sensor"
+                "VersatileShip"
             ]
         }
         {
@@ -17902,6 +17899,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Modification"
                 "Sensor"
+                "VersatileShip"
             ]
         }
         {
@@ -17928,6 +17926,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Modification"
                 "Sensor"
+                "VersatileShip"
             ]
         }
         {
@@ -17952,6 +17951,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Modification"
                 "Sensor"
+                "VersatileShip"
             ]
         }
         {
@@ -17975,6 +17975,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Modification"
                 "Sensor"
+                "VersatileShip"
             ]
         }
         {
