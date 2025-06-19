@@ -1,144 +1,63 @@
-import os
 import json
 import re
 from pathlib import Path
 
-# Path to the JSON folder and CoffeeScript input
-JSON_FOLDER = r"C:\\Users\\gregk\\Documents\\GitHub\\xwa-points\\revisions\\50P"
-JSON_FILES = [
-    "firstorder.json",
-    "galacticempire.json",
-    "galacticrepublic.json",
-    "rebelalliance.json",
-    "resistance.json",
-    "scumandvillainy.json",
-    "separatistalliance.json"
-]
-COFFEE_FILE = r"C:\Users\gregk\Documents\GitHub\xwing\reordered.coffee"
-OUTPUT_FILE = r"C:\Users\gregk\Documents\GitHub\xwing\reordered_withvalues.coffee"
-LOG_FILE = r"C:\Users\gregk\Documents\GitHub\xwing\not_found_log.txt"
+# Set up paths
+jsons_folder = Path(r"C:\Users\gregk\Documents\GitHub\xwing\jsons")
+coffee_file_path = Path(r"C:\Users\gregk\Documents\GitHub\xwing\cards_final_xwsnames.coffee")
+output_file_path = Path(r"C:\Users\gregk\Documents\GitHub\xwing\cards_final_xwsnames_updated.coffee")
+log_file_path = Path(r"C:\Users\gregk\Documents\GitHub\xwing\xws_update_log.txt")
 
-# Load JSON data
-def load_json_data():
-    pilots = {}
-    for fname in JSON_FILES:
-        path = os.path.join(JSON_FOLDER, fname)
-        with open(path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            for ship in data.values():
-                for xws, info in ship.items():
-                    pilots[xws] = info
-    return pilots
+# Read CoffeeScript file
+coffee_content = coffee_file_path.read_text(encoding="utf-8")
 
-# Format CoffeeScript slotsxwa block
-def format_slotsxwa(slots, indent):
-    block = [f"{indent}slotsxwa: [\n"]
-    for s in slots:
-        block.append(f"{indent}    \"{s}\"\n")
-    block.append(f"{indent}]\n")
-    return ''.join(block)
+# Extract pilot blocks and map them by xws_name
+pilot_blocks = list(re.finditer(r"(?P<block>\{[^{}]*?\n\s*\})", coffee_content, re.DOTALL))
+xws_name_map = {}
+for match in pilot_blocks:
+    block = match.group("block")
+    xws_match = re.search(r'xws_name:\s*["\']([^"\']+)["\']', block)
+    if xws_match:
+        xws = xws_match.group(1)
+        xws_name_map[xws] = match
 
-# Process a single pilot block
-def process_block(lines, pilots, log_missing):
-    # Extract xws_name
-    xws = None
-    for l in lines:
-        m = re.match(r"\s*xws_name:\s*\"([^\"]+)\"", l)
-        if m:
-            xws = m.group(1)
-            break
-    if not xws or xws not in pilots:
-        if xws:
-            log_missing.append(xws)
-        return lines
+# Keep track of missing keys
+not_found_log = []
+updated_coffee = coffee_content
 
-    data = pilots[xws]
-    cost = data.get('cost')
-    loadout = data.get('loadout')
-    slots = data.get('slots', [])
+# Process JSON files
+for json_file in jsons_folder.glob("*.json"):
+    data = json.loads(json_file.read_text(encoding="utf-8"))
+    
+    for ship_type, pilots in data.items():
+        for xws_key, pilot_data in pilots.items():
+            if xws_key in xws_name_map:
+                match = xws_name_map[xws_key]
+                block = match.group("block")
 
-    # Remove old xwa lines and duplicate id
-    cleaned = []
-    seen_id = False
-    i = 0
-    while i < len(lines):
-        l = lines[i]
-        # skip old pointsxwa, loadoutxwa, slotsxwa and their bracketed content
-        if re.match(r"\s*(pointsxwa|loadoutxwa):", l):
-            i += 1
-            continue
-        if re.match(r"\s*slotsxwa:\s*\[", l):
-            # skip until closing bracket
-            i += 1
-            while i < len(lines) and ']' not in lines[i]:
-                i += 1
-            i += 1
-            continue
-        # skip duplicate id
-        if re.match(r"\s*id:\s*\d+", l):
-            if not seen_id:
-                cleaned.append(l)
-                seen_id = True
-            i += 1
-            continue
-        cleaned.append(l)
-        i += 1
+                # Replace values
+                updated_block = re.sub(
+                    r'pointsxwa:\s*\d+',
+                    f'pointsxwa: {pilot_data["cost"]}',
+                    block
+                )
+                updated_block = re.sub(
+                    r'loadoutxwa:\s*\d+',
+                    f'loadoutxwa: {pilot_data["loadout"]}',
+                    updated_block
+                )
 
-    # Determine insertion indexes
-    insert_pl_index = None
-    insert_slots_index = None
-    for idx, l in enumerate(cleaned):
-        if insert_pl_index is None and re.search(r"^\s*loadout:\s*\d+", l):
-            insert_pl_index = idx
-        if insert_slots_index is None and re.match(r"\s*slots:\s*\[", l):
-            # find closing bracket
-            j = idx + 1
-            while j < len(cleaned) and ']' not in cleaned[j]:
-                j += 1
-            insert_slots_index = j
-    # If no loadout key, insert after points
-    if insert_pl_index is None:
-        for idx, l in enumerate(cleaned):
-            if insert_pl_index is None and re.search(r"^\s*points:\s*\d+", l):
-                insert_pl_index = idx
-    # Build new block
-    result = []
-    for idx, l in enumerate(cleaned):
-        result.append(l)
-        # insert pointsxwa/loadoutxwa
-        if idx == insert_pl_index:
-            indent = re.match(r"^(\s*)", l).group(1)
-            result.append(f"{indent}pointsxwa: {cost}\n")
-            if loadout is not None:
-                result.append(f"{indent}loadoutxwa: {loadout}\n")
-        # insert slotsxwa after slots closing bracket
-        if idx == insert_slots_index:
-            indent = re.match(r"^(\s*)", l).group(1)
-            if loadout is not None:
-                result.append(format_slotsxwa(slots, indent))
-    return result
+                # Replace in the full text
+                updated_coffee = updated_coffee.replace(block, updated_block)
+            else:
+                not_found_log.append(f"{xws_key} not found in CoffeeScript file (from {json_file.name})")
 
-# Main
-if __name__ == '__main__':
-    pilots = load_json_data()
-    content = Path(COFFEE_FILE).read_text(encoding='utf-8').splitlines(keepends=True)
-    output = []
-    log_missing = []
-    block = []
-    in_block = False
+# Write the updated CoffeeScript
+output_file_path.write_text(updated_coffee, encoding="utf-8")
 
-    for line in content:
-        if line.strip() == '{':
-            in_block = True
-            block = [line]
-            continue
-        if in_block:
-            block.append(line)
-            if line.strip() == '}':
-                output.extend(process_block(block, pilots, log_missing))
-                in_block = False
-            continue
-        output.append(line)
+# Write the log of unmatched pilots
+log_file_path.write_text("\n".join(not_found_log), encoding="utf-8")
 
-    Path(OUTPUT_FILE).write_text(''.join(output), encoding='utf-8')
-    Path(LOG_FILE).write_text('\n'.join(log_missing), encoding='utf-8')
+print("✅ Update complete.")
+print(f"Updated CoffeeScript saved to: {output_file_path}")
+print(f"Log of missing entries saved to: {log_file_path}")
