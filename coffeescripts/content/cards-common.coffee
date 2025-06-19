@@ -9178,14 +9178,14 @@ exportObj.basicCardData = ->
             name: "Black Squadron Ace (T-70)"
             xws_name: "blacksquadronace"
             id: 256
-            xws_name: "blacksquadronace"
+            xws_name: "blacksquadronace-t70xwing"
             faction: "Resistance"
             ship: "T-70 X-wing"
             skill: 4
             points: 5
             loadout: 10
-            pointsxwa: 6
-            loadoutxwa: 5
+            pointsxwa: 13
+            loadoutxwa: 17
             slots: [
                 "Talent"
                 "Tech"
@@ -9195,8 +9195,11 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Astromech"
+                "Modification"
+                "Tech"
+                "Configuration"
                 "HardpointShip"
             ]
         }
@@ -17772,15 +17775,15 @@ exportObj.basicCardData = ->
         {
             name: '"Hawk" (Z-95)'
             id: 546
-            xws_name: "hawk"
+            xws_name: "hawk-clonez95headhunter"
             unique: true
             faction: "Galactic Republic"
             ship: "Clone Z-95 Headhunter"
             skill: 4
             points: 3
             loadout: 8
-            pointsxwa: 12
-            loadoutxwa: 9
+            pointsxwa: 8
+            loadoutxwa: 10
             keyword: ["Clone"]
             slots: [
                 "Talent"
@@ -17799,15 +17802,15 @@ exportObj.basicCardData = ->
         {
             name: '"Warthog" (Z-95)'
             id: 547
-            xws_name: "warthog"
+            xws_name: "warthog-clonez95headhunter"
             unique: true
             faction: "Galactic Republic"
             ship: "Clone Z-95 Headhunter"
             skill: 3
             points: 3
             loadout: 10
-            pointsxwa: 13
-            loadoutxwa: 16
+            pointsxwa: 9
+            loadoutxwa: 17
             keyword: ["Clone"]
             slots: [
                 "Talent"
@@ -17956,7 +17959,6 @@ exportObj.basicCardData = ->
         }
         {
             name: "7th Sky Corps Pilot"
-            xws_name: "7thskycorpspilot"
             id: 553
             xws_name: "7thskycorpspilot"
             faction: "Galactic Republic"
