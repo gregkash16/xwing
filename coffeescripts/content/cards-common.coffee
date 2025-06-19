@@ -4489,15 +4489,15 @@ exportObj.basicCardData = ->
         {
             name: "Han Solo (Scum)"
             id: 89
-            xws_name: "hansolo-customizedyt1300lightfreighter"
+            xws_name: "hansolo"
             unique: true
-            xws: "hansolo"
             faction: "Scum and Villainy"
             ship: "Customized YT-1300 Light Freighter"
+            xws: "hansolo"
             skill: 6
             points: 5
             loadout: 10
-            pointsxwa: 6
+            pointsxwa: 16
             loadoutxwa: 20
             slots: [
                 "Talent"
@@ -4509,11 +4509,22 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Title"
             ]
+            slotsxwa: [
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Illicit"
+                "Modification"
+                "Modification"
+                "Title"
+                "Talent"
+                "Talent"
+            ]
         }
         {
             name: "Lando Calrissian (Scum)"
             id: 90
-            xws_name: "landocalrissian-customizedyt1300lightfreighter"
+            xws_name: "landocalrissian"
             unique: true
             xws: "landocalrissian"
             faction: "Scum and Villainy"
@@ -4521,8 +4532,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 5
             loadout: 10
-            pointsxwa: 5
-            loadoutxwa: 18
+            pointsxwa: 14
+            loadoutxwa: 20
             slots: [
                 "Talent"
                 "Missile"
@@ -4532,6 +4543,16 @@ exportObj.basicCardData = ->
                 "Illicit"
                 "Modification"
                 "Title"
+            ]
+            slotsxwa: [
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Illicit"
+                "Modification"
+                "Modification"
+                "Title"
+                "Talent"
             ]
         }
         {
@@ -7044,14 +7065,15 @@ exportObj.basicCardData = ->
         {
             name: '"Vizier"'
             id: 185
+            xws_name: "vizier"
             unique: true
             faction: "Galactic Empire"
             ship: "TIE Reaper"
             skill: 2
             points: 4
             loadout: 12
-            pointsxwa: 4
-            loadoutxwa: 10
+            pointsxwa: 9
+            loadoutxwa: 7
             slots: [
                 "Crew"
                 "Crew"
@@ -7112,14 +7134,15 @@ exportObj.basicCardData = ->
         {
             name: '"Double Edge"'
             id: 188
+            xws_name: "doubleedge"
             unique: true
             faction: "Galactic Empire"
             ship: "TIE/ag Aggressor"
             skill: 2
             points: 4
             loadout: 13
-            pointsxwa: 3
-            loadoutxwa: 11
+            pointsxwa: 8
+            loadoutxwa: 14
             slots: [
                 "Talent"
                 "Turret"
@@ -7128,6 +7151,13 @@ exportObj.basicCardData = ->
                 "Gunner"
                 "Modification"
             ]
+            slotsxwa: {
+                "Gunner"
+                "Sensor"
+                "Turret"
+                "Missile"
+                "Modification"
+            }
         }
         {
             name: "Onyx Squadron Scout"
@@ -7189,7 +7219,7 @@ exportObj.basicCardData = ->
             skill: 5
             points: 7
             loadout: 25
-            pointsxwa: 6
+            pointsxwa: 15
             loadoutxwa: 20
             slots: [
                 "Sensor"
@@ -7201,6 +7231,15 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Modification"
             ]
+            slotsxwa: [
+                "Missile"
+                "Torpedo"
+                "Payload"
+                "Payload"
+                "Sensor"
+                "Modification"
+                "Talent"
+            ]
         }
         {
             name: '"Deathrain"'
@@ -7211,8 +7250,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 6
             loadout: 20
-            pointsxwa: 5
-            loadoutxwa: 22
+            pointsxwa: 13
+            loadoutxwa: 24
             slots: [
                 "Talent"
                 "Sensor"
@@ -7224,13 +7263,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
-                "Gunner"
-                "Sensor"
                 "Missile"
+                "Torpedo"
+                "Payload"
+                "Payload"
+                "Sensor"
                 "Modification"
-                "Device"
-                "Device"
+                "Talent"
             ]
         }
         {
@@ -7403,14 +7442,15 @@ exportObj.basicCardData = ->
         {
             name: '"Whisper"'
             id: 199
+            xws_name: "whisper"
             unique: true
             faction: "Galactic Empire"
             ship: "TIE/ph Phantom"
             skill: 5
             points: 5
             loadout: 8
-            pointsxwa: 5
-            loadoutxwa: 13
+            pointsxwa: 13
+            loadoutxwa: 15
             slots: [
                 "Talent"
                 "Sensor"
@@ -7418,20 +7458,33 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Modification"
             ]
+            slotsxwa: [
+                "Talent"
+                "Gunner"
+                "Sensor"
+                "Modification"
+            ]
         }
         {
             name: '"Echo"'
             id: 200
+            xws_name: "echo"
             unique: true
             faction: "Galactic Empire"
             ship: "TIE/ph Phantom"
             skill: 4
             points: 5
             loadout: 9
-            pointsxwa: 4
-            loadoutxwa: 10
+            pointsxwa: 11
+            loadoutxwa: 13
             slots: [
                 "Talent"
+                "Talent"
+                "Sensor"
+                "Gunner"
+                "Modification"
+            ]
+            slotsxwa: [
                 "Talent"
                 "Sensor"
                 "Gunner"
@@ -7578,20 +7631,28 @@ exportObj.basicCardData = ->
         {
             name: '"Deathfire"'
             id: 206
+            xws_name: "deathfire"
             unique: true
             faction: "Galactic Empire"
             ship: "TIE/sa Bomber"
             skill: 2
             points: 3
             loadout: 11
-            pointsxwa: 3
-            loadoutxwa: 7
+            pointsxwa: 9
+            loadoutxwa: 12
             slots: [
                 "Torpedo"
                 "Torpedo"
                 "Missile"
                 "Gunner"
                 "Device"
+                "Modification"
+            ]
+            slotsxwa: [
+                "Torpedo"
+                "Missile"
+                "Payload"
+                "Payload"
                 "Modification"
             ]
         }
@@ -7651,12 +7712,64 @@ exportObj.basicCardData = ->
         {
             name: '"Countdown"'
             id: 209
+            xws_name: "countdown"
             unique: true
             faction: "Galactic Empire"
             ship: "TIE/sk Striker"
             skill: 4
             points: 4
+            pointsxwa: 10
             loadout: 11
+            loadoutxwa: 10
+            slots: [
+                "Talent"
+                "Talent"
+                "Gunner"
+                "Device"
+                "Modification"
+            ]
+            slotsxwa: [
+                "Gunner"
+                "Payload"
+            ]
+        }
+        {
+            name: '"Pure Sabacc"'
+            id: 210
+            xws_name: "puresabacc"
+            unique: true
+            faction: "Galactic Empire"
+            ship: "TIE/sk Striker"
+            skill: 4
+            points: 4
+            loadout: 9
+            pointsxwa: 10
+            loadoutxwa: 11
+            slots: [
+                "Talent"
+                "Gunner"
+                "Device"
+                "Modification"
+            ]
+            slotsxwa: [
+                "Gunner"
+                "Modification"
+                "Payload"
+                "Talent"
+            ]
+        }
+        {
+            name: '"Duchess"'
+            id: 211
+            xws_name: "duchess"
+            unique: true
+            faction: "Galactic Empire"
+            ship: "TIE/sk Striker"
+            skill: 5
+            points: 4
+            loadout: 7
+            pointsxwa: 11
+            loadoutxwa: 17
             slots: [
                 "Talent"
                 "Talent"
@@ -7666,46 +7779,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Talent"
                 "Gunner"
-                "Device"
-            ]
-        }
-        {
-            name: '"Pure Sabacc"'
-            id: 210
-            unique: true
-            faction: "Galactic Empire"
-            ship: "TIE/sk Striker"
-            skill: 4
-            points: 4
-            loadout: 9
-            pointsxwa: 4
-            loadoutxwa: 10
-            slots: [
-                "Talent"
-                "Gunner"
-                "Device"
                 "Modification"
-            ]
-        }
-        {
-            name: '"Duchess"'
-            id: 211
-            unique: true
-            faction: "Galactic Empire"
-            ship: "TIE/sk Striker"
-            skill: 5
-            points: 4
-            loadout: 7
-            pointsxwa: 4
-            loadoutxwa: 12
-            slots: [
-                "Talent"
-                "Talent"
-                "Gunner"
-                "Device"
                 "Modification"
+                "Payload"
             ]
         }
         {
@@ -7854,16 +7931,16 @@ exportObj.basicCardData = ->
         {
             name: '"Howlrunner"'
             id: 217
+            xws_name: "howlrunner"
             unique: true
             faction: "Galactic Empire"
             ship: "TIE/ln Fighter"
             skill: 5
             points: 4
             loadout: 8
-            pointsxwa: 4
-            loadoutxwa: 18
+            pointsxwa: 8
+            loadoutxwa: 6
             slots: [
-                "Talent"
                 "Talent"
                 "Modification"
             ]
@@ -7899,30 +7976,36 @@ exportObj.basicCardData = ->
         {
             name: '"Mauler" Mithel'
             id: 219
+            xws_name: "maulermithel"
             unique: true
             faction: "Galactic Empire"
             ship: "TIE/ln Fighter"
             skill: 5
             points: 3
             loadout: 4
-            pointsxwa: 3
-            loadoutxwa: 11
+            pointsxwa: 8
+            loadoutxwa: 9
             slots: [
                 "Talent"
                 "Cannon"
+            ]
+            slotsxwa: [
+                "Talent"
+                "Modification"
             ]
         }
         {
             name: '"Scourge" Skutu'
             id: 220
+            xws_name: "scourgeskutu"
             unique: true
             faction: "Galactic Empire"
             ship: "TIE/ln Fighter"
             skill: 5
             points: 3
             loadout: 3
-            pointsxwa: 3
-            loadoutxwa: 11
+            pointsxwa: 8
+            loadoutxwa: 9
             slots: [
                 "Talent"
             ]
@@ -7934,6 +8017,7 @@ exportObj.basicCardData = ->
         {
             name: '"Wampa"'
             id: 221
+            xws_name: "wampa"
             unique: true
             faction: "Galactic Empire"
             ship: "TIE/ln Fighter"
@@ -7942,10 +8026,9 @@ exportObj.basicCardData = ->
             charge: 1
             points: 3
             loadout: 5
-            pointsxwa: 3
-            loadoutxwa: 11
+            pointsxwa: 6
+            loadoutxwa: 2
             slots: [
-                "Talent"
                 "Modification"
             ]
         }
@@ -8049,17 +8132,17 @@ exportObj.basicCardData = ->
         {
             name: '"Night Beast"'
             id: 226
+            xws_name: "nightbeast"
             unique: true
             faction: "Galactic Empire"
             ship: "TIE/ln Fighter"
             skill: 2
             points: 3
             loadout: 4
-            pointsxwa: 3
-            loadoutxwa: 6
+            pointsxwa: 8
+            loadoutxwa: 9
             slots: [
-                "Talent"
-                "Talent"
+                "Modification"
             ]
         }
         {
@@ -12527,20 +12610,26 @@ exportObj.basicCardData = ->
         {
             name: '"Vagabond"'
             id: 395
+            xws_name: "vagabond"
             faction: "Galactic Empire"
             unique: true
             skill: 2
             ship: "TIE/sk Striker"
             points: 4
             loadout: 12
-            pointsxwa: 4
-            loadoutxwa: 20
+            pointsxwa: 9
+            loadoutxwa: 14
             slots: [
                 "Talent"
                 "Gunner"
                 "Device"
                 "Device"
                 "Modification"
+            ]
+            slotsxwa: [
+                "Gunner"
+                "Modification"
+                "Payload"
             ]
         }
         {
@@ -13187,15 +13276,24 @@ exportObj.basicCardData = ->
         {
             name: '"Rampage"'
             id: 419
+            xws_name: "rampage"
             faction: "Galactic Empire"
             skill: 4
             unique: true
             ship: "TIE/rb Heavy"
             points: 4
             loadout: 10
-            pointsxwa: 4
-            loadoutxwa: 12
+            pointsxwa: 11
+            loadoutxwa: 17
             slots: [
+                "Talent"
+                "Cannon"
+                "Cannon"
+                "Gunner"
+                "Modification"
+                "Configuration"
+            ]
+            slotsxwa: [
                 "Talent"
                 "Cannon"
                 "Cannon"
@@ -14692,7 +14790,7 @@ exportObj.basicCardData = ->
             name: "Tápusk"
             xws: "tapusk"
             id: 474
-            xws_name: "tpusk"
+            xws_name: "tapusk"
             unique: true
             faction: "Scum and Villainy"
             ship: "HWK-290 Light Freighter"
@@ -14701,8 +14799,8 @@ exportObj.basicCardData = ->
             recurring: 1
             points: 4
             loadout: 10
-            pointsxwa: 4
-            loadoutxwa: 6
+            pointsxwa: 10
+            loadoutxwa: 13
             slots: [
                 "Talent"
                 "Crew"
@@ -14712,13 +14810,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
                 "Illicit"
                 "Modification"
-                "Modification"
-                "Title"
-                "Device"
+                "Payload"
+                "Talent"
             ]
         }
         {
@@ -17117,10 +17213,11 @@ exportObj.basicCardData = ->
             xwsaddon: "battleofyavin"
             unique: true
             id: 565
+            xws_name: "backstabber-battleofyavin"
             faction: "Galactic Empire"
             ship: "TIE/ln Fighter"
             skill: 5
-            points: 4
+            points: 10
             ship_override:
                 hull: 4
                 upgrades: [
@@ -17134,11 +17231,12 @@ exportObj.basicCardData = ->
             xwsaddon: "battleofyavin"
             unique: true
             id: 566
+            xws_name: "maulermithel-battleofyavin"
             faction: "Galactic Empire"
             ship: "TIE/ln Fighter"
             skill: 5
             points: 3
-            pointsxwa: 4
+            pointsxwa: 10
             ship_override:
                 hull: 4
                 upgrades: [
@@ -17151,10 +17249,11 @@ exportObj.basicCardData = ->
             xwsaddon: "battleofyavin"
             unique: true
             id: 567
+            xws_name: "darkcurse-battleofyavin"
             faction: "Galactic Empire"
             ship: "TIE/ln Fighter"
             skill: 6
-            points: 4
+            points: 9
             ship_override:
                 hull: 4
                 upgrades: [
@@ -17167,12 +17266,13 @@ exportObj.basicCardData = ->
             xwsaddon: "battleofyavin"
             unique: true
             id: 568
+            xws_name: "wampa-battleofyavin"
             faction: "Galactic Empire"
             ship: "TIE/ln Fighter"
             skill: 1
             charge: 1
             recurring: 1
-            points: 3
+            points: 7
             ship_override:
                 hull: 4
                 actions: [
@@ -18718,12 +18818,12 @@ exportObj.basicCardData = ->
             xwsaddon: "swz105"
             unique: true
             id: 630
-            xws_name: "darthvader-swz106"
+            xws_name: "darthvader-swz105"
             faction: "Galactic Empire"
             ship: "TIE Advanced x1"
             skill: 6
             points: 6
-            pointsxwa: 7
+            pointsxwa: 17
             force: 3
             keyword: ["Dark Side", "Sith"]
             ship_override:
@@ -18739,11 +18839,11 @@ exportObj.basicCardData = ->
             xwsaddon: "swz105"
             unique: true
             id: 631
-            xws_name: "maarekstele-swz106"
+            xws_name: "maarekstele-swz105"
             faction: "Galactic Empire"
             ship: "TIE Advanced x1"
             skill: 5
-            points: 5
+            points: 13
             upgrades: [
                 "Elusive"
                 "Outmaneuver"
@@ -18754,7 +18854,7 @@ exportObj.basicCardData = ->
             xwsaddon: "swz105"
             unique: true
             id: 632
-            xws_name: "captainjonus-swz106"
+            xws_name: "captainjonus-swz105"
             faction: "Galactic Empire"
             ship: "TIE/sa Bomber"
             skill: 4
@@ -18770,12 +18870,12 @@ exportObj.basicCardData = ->
             xwsaddon: "swz105"
             unique: true
             id: 633
-            xws_name: "tomaxbren-swz106"
+            xws_name: "tomaxbren-swz105"
             faction: "Galactic Empire"
             ship: "TIE/sa Bomber"
             skill: 5
             points: 5
-            pointsxwa: 4
+            pointsxwa: 11
             upgrades: [
                 "Elusive"
                 "Barrage Rockets"
@@ -18787,11 +18887,11 @@ exportObj.basicCardData = ->
             xwsaddon: "swz105"
             unique: true
             id: 634
-            xws_name: "idenversio-swz106"
+            xws_name: "idenversio-swz105"
             faction: "Galactic Empire"
             ship: "TIE/ln Fighter"
             skill: 4
-            points: 4
+            points: 9
             charge: 1
             upgrades: [
                 "Disciplined"
@@ -18803,10 +18903,11 @@ exportObj.basicCardData = ->
             xwsaddon: "swz105"
             unique: true
             id: 635
+            xws_name: "nightbeast-swz105"
             faction: "Galactic Empire"
             ship: "TIE/ln Fighter"
             skill: 2
-            points: 3
+            points: 7
             upgrades: [
                 "Disciplined"
                 "Predator"
@@ -18817,11 +18918,11 @@ exportObj.basicCardData = ->
             xwsaddon: "swz105"
             unique: true
             id: 636
-            xws_name: "valenrudor-swz106"
+            xws_name: "valenrudor-swz105"
             faction: "Galactic Empire"
             ship: "TIE/ln Fighter"
             skill: 3
-            points: 3
+            points: 7
             upgrades: [
                 "Disciplined"
                 "Precision Ion Engines"
@@ -18947,11 +19048,12 @@ exportObj.basicCardData = ->
             xwsaddon: "swz98"
             unique: true
             id: 644
+            xws_name: "deathfire-swz98"
             faction: "Galactic Empire"
             ship: "TIE/sa Bomber"
             skill: 2
             points: 3
-            pointsxwa: 4
+            pointsxwa: 10
             charge: 2
             recurring: 1
             upgrades: [
@@ -18965,12 +19067,12 @@ exportObj.basicCardData = ->
             xwsaddon: "swz98"
             unique: true
             id: 645
-            xws_name: "majorrhymer-tiesabomber"
+            xws_name: "majorrhymer-swz98"
             faction: "Galactic Empire"
             ship: "TIE/sa Bomber"
             skill: 4
             points: 4
-            pointsxwa: 5
+            pointsxwa: 11
             upgrades: [
                 "Adv. Proton Torpedoes"
                 "Automated Loaders (TBE)"
@@ -19006,12 +19108,12 @@ exportObj.basicCardData = ->
             xwsaddon: "swz98"
             unique: true
             id: 647
-            xws_name: "tomaxbren-tiesabomber"
+            xws_name: "tomaxbren-swz98"
             faction: "Galactic Empire"
             ship: "TIE/sa Bomber"
             skill: 5
             points: 4
-            pointsxwa: 4
+            pointsxwa: 12
             charge: 2
             recurring: 1
             upgrades: [
@@ -19150,10 +19252,11 @@ exportObj.basicCardData = ->
             xwsaddon: "swz103-sl-scumandvillainy"
             unique: true
             id: 653
+            xws_name: "leebo-swz103-sl-scumandvillainy"
             faction: "Scum and Villainy"
             ship: "YT-2400 Light Freighter"
             skill: 3
-            points: 6
+            points: 16
             upgrades: [
                 "Efficient Processing (YLF)"
                 "Seeker Missiles (YLF)"
@@ -19700,12 +19803,12 @@ exportObj.basicCardData = ->
             xwsaddon: "ssl"
             unique: true
             id: 674
-            xws_name: "lieutenantkarsabi-alphaclassstarwing"
+            xws_name: "lieutenantkarsabi-ssl"
             faction: "Galactic Empire"
             ship: "Alpha-Class Star Wing"
             chassis: "Prioritized Weapons Systems"
             skill: 3
-            points: 5
+            points: 13
             ship_override:
                 actions: [
                     "Focus"
@@ -19727,13 +19830,13 @@ exportObj.basicCardData = ->
             xwsaddon: "ssl"
             unique: true
             id: 675
-            xws_name: "majorvynder-alphaclassstarwing"
+            xws_name: "majorvynder-ssl"
             faction: "Galactic Empire"
             ship: "Alpha-Class Star Wing"
             chassis: "Prioritized Weapons Systems"
             skill: 4
             points: 5
-            pointsxwa: 6
+            pointsxwa: 14
             ship_override:
                 actions: [
                     "Focus"
@@ -19755,11 +19858,12 @@ exportObj.basicCardData = ->
             xwsaddon: "ssl"
             unique: true
             id: 676
+            xws_name: "echo-ssl"
             faction: "Galactic Empire"
             ship: "TIE/ph Phantom"
             skill: 4
             points: 5
-            pointsxwa: 6
+            pointsxwa: 14
             charge: 1
             recurring: 1
             upgrades: [
@@ -19773,10 +19877,11 @@ exportObj.basicCardData = ->
             xwsaddon: "ssl"
             unique: true
             id: 677
+            xws_name: "whisper-ssl"
             faction: "Galactic Empire"
             ship: "TIE/ph Phantom"
             skill: 5
-            points: 5
+            points: 15
             pointsxwa: 6
             charge: 2
             upgrades: [
