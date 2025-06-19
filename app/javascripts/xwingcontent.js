@@ -4396,7 +4396,8 @@ exportObj.basicCardData = function() {
       "HardpointShip"],
         slotsxwa: ["Hardpoint",
       "Modification",
-      "Talent"]
+      "Talent",
+      "HardpointShip"]
       },
       {
         name: "Genesis Red",
@@ -4417,7 +4418,8 @@ exportObj.basicCardData = function() {
       "HardpointShip"],
         slotsxwa: ["Hardpoint",
       "Modification",
-      "Talent"]
+      "Talent",
+      "HardpointShip"]
       },
       {
         name: "Laetin A'shera",
@@ -4437,7 +4439,8 @@ exportObj.basicCardData = function() {
       "HardpointShip"],
         slotsxwa: ["Hardpoint",
       "Modification",
-      "Talent"]
+      "Talent",
+      "HardpointShip"]
       },
       {
         name: "Quinn Jast",
@@ -4459,7 +4462,8 @@ exportObj.basicCardData = function() {
       "HardpointShip"],
         slotsxwa: ["Hardpoint",
       "Modification",
-      "Talent"]
+      "Talent",
+      "HardpointShip"]
       },
       {
         name: "Tansarii Point Veteran",
@@ -4477,7 +4481,8 @@ exportObj.basicCardData = function() {
       "HardpointShip"],
         slotsxwa: ["Hardpoint",
       "Modification",
-      "Talent"]
+      "Talent",
+      "HardpointShip"]
       },
       {
         name: "Inaldra",
@@ -4494,7 +4499,7 @@ exportObj.basicCardData = function() {
         loadoutxwa: 8,
         slots: ["Modification",
       "HardpointShip"],
-        slotsxwa: ["Hardpoint",
+        slotsxwa: ["HardpointShip",
       "Modification"]
       },
       {
@@ -4512,7 +4517,7 @@ exportObj.basicCardData = function() {
         loadoutxwa: 10,
         slots: ["Modification",
       "HardpointShip"],
-        slotsxwa: ["Hardpoint",
+        slotsxwa: ["HardpointShip",
       "Modification"]
       },
       {
@@ -4529,7 +4534,7 @@ exportObj.basicCardData = function() {
         loadoutxwa: 3,
         slots: ["Modification",
       "HardpointShip"],
-        slotsxwa: ["Hardpoint",
+        slotsxwa: ["HardpointShip",
       "Modification"]
       },
       {
@@ -6686,7 +6691,8 @@ exportObj.basicCardData = function() {
       "Configuration",
       "Talent",
       "Talent",
-      "Title"]
+      "Title",
+      "HardpointShip"]
       },
       {
         id: 232, // duplicate, has been removed
@@ -7185,7 +7191,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "Tech",
       "Configuration",
-      "Talent"]
+      "Talent",
+      "HardpointShip"]
       },
       {
         name: "Joph Seastriker",
@@ -7209,7 +7216,8 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Astromech",
       "Modification",
       "Tech",
-      "Configuration"]
+      "Configuration",
+      "HardpointShip"]
       },
       {
         name: "Lieutenant Bastian",
@@ -7232,7 +7240,8 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Astromech",
       "Modification",
       "Tech",
-      "Configuration"]
+      "Configuration",
+      "HardpointShip"]
       },
       {
         name: "Jaycris Tubbs",
@@ -7255,7 +7264,8 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Astromech",
       "Modification",
       "Tech",
-      "Configuration"]
+      "Configuration",
+      "HardpointShip"]
       },
       {
         name: "Black Squadron Ace (T-70)",
@@ -7276,7 +7286,8 @@ exportObj.basicCardData = function() {
       "Configuration",
       "HardpointShip"],
         slotsxwa: ["Modification",
-      "Talent"]
+      "Talent",
+      "HardpointShip"]
       },
       {
         name: "Red Squadron Expert",
@@ -7300,7 +7311,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "Tech",
       "Configuration",
-      "Talent"]
+      "Talent",
+      "HardpointShip"]
       },
       {
         name: "Blue Squadron Rookie",
@@ -7322,7 +7334,8 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Astromech",
       "Modification",
       "Tech",
-      "Configuration"]
+      "Configuration",
+      "HardpointShip"]
       },
       {
         name: "Zeta Squadron Survivor",
@@ -8274,7 +8287,8 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Astromech",
       "Modification",
       "Tech",
-      "Configuration"]
+      "Configuration",
+      "HardpointShip"]
       },
       {
         name: "Temmin Wexley",
@@ -8300,7 +8314,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "Tech",
       "Configuration",
-      "Talent"]
+      "Talent",
+      "HardpointShip"]
       },
       {
         name: "Nien Nunb",
@@ -8327,7 +8342,8 @@ exportObj.basicCardData = function() {
       "Tech",
       "Configuration",
       "Talent",
-      "Tech"]
+      "Tech",
+      "HardpointShip"]
       },
       {
         name: "Ello Asty",
@@ -8353,7 +8369,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "Tech",
       "Configuration",
-      "Talent"]
+      "Talent",
+      "HardpointShip"]
       },
       {
         name: "Green Squadron Expert",
@@ -10855,7 +10872,7 @@ exportObj.basicCardData = function() {
         slots: ["Modification",
       "HardpointShip"],
         slotsxwa: ["Modification",
-      "Hardpoint"]
+      "HardpointShip"]
       },
       {
         name: "Nom Lumb",
@@ -11981,7 +11998,8 @@ exportObj.basicCardData = function() {
       "Configuration",
       "Talent",
       "Talent",
-      "Title"]
+      "Title",
+      "HardpointShip"]
       },
       {
         name: "Temmin Wexley (HoH)",
@@ -12008,7 +12026,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "Tech",
       "Configuration",
-      "Talent"]
+      "Talent",
+      "HardpointShip"]
       },
       {
         name: "Merl Cobben",
@@ -12122,7 +12141,8 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Astromech",
       "Modification",
       "Tech",
-      "Configuration"]
+      "Configuration",
+      "HardpointShip"]
       },
       {
         name: "C'ai Threnalli",
@@ -12147,7 +12167,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "Tech",
       "Configuration",
-      "Talent"]
+      "Talent",
+      "HardpointShip"]
       },
       {
         name: "Hera Syndulla (B-Wing)",
@@ -16002,7 +16023,8 @@ exportObj.basicCardData = function() {
       "Tech",
       "Configuration",
       "Talent",
-      "Missile"]
+      "Missile",
+      "HardpointShip"]
       },
       {
         name: "Zay Versio",
@@ -16028,7 +16050,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "Tech",
       "Configuration",
-      "Talent"]
+      "Talent",
+      "HardpointShip"]
       },
       {
         name: "Taka Jamoreesa",
