@@ -2160,8 +2160,8 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Torpedo"
                 "Configuration"
-                "Force Power"
-                "Force Power"
+                "Force"
+                "Force"
             ]
         }
         {
@@ -2421,7 +2421,7 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Turret"
                 "Title"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -3776,7 +3776,7 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Torpedo"
                 "Title"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -3927,7 +3927,7 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Turret"
                 "Title"
-                "Force Power"
+                "Force"
             ]
         }
 
@@ -4014,7 +4014,7 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Turret"
                 "Title"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -5669,7 +5669,7 @@ exportObj.basicCardData = ->
                 "Illicit"
                 "Illicit"
                 "Modification"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -6883,8 +6883,8 @@ exportObj.basicCardData = ->
                 "Missile"
                 "Sensor"
                 "Modification"
-                "Force Power"
-                "Force Power"
+                "Force"
+                "Force"
             ]
         }
         {
@@ -6912,7 +6912,7 @@ exportObj.basicCardData = ->
                 "Missile"
                 "Sensor"
                 "Modification"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -6937,7 +6937,7 @@ exportObj.basicCardData = ->
                 "Missile"
                 "Sensor"
                 "Modification"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -6993,8 +6993,8 @@ exportObj.basicCardData = ->
                 "Missile"
                 "Sensor"
                 "Modification"
-                "Force Power"
-                "Force Power"
+                "Force"
+                "Force"
             ]
         }
         {
@@ -8606,7 +8606,7 @@ exportObj.basicCardData = ->
                 "Missile"
                 "Torpedo"
                 "Configuration"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -8837,8 +8837,8 @@ exportObj.basicCardData = ->
                 "Illicit"
                 "Modification"
                 "Missile"
-                "Force Power"
-                "Force Power"
+                "Force"
+                "Force"
                 "Title"
             ]
         }
@@ -9619,8 +9619,8 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Sensor"
                 "Modification"
-                "Force Power"
-                "Force Power"
+                "Force"
+                "Force"
                 "Torpedo"
                 "Title"
             ]
@@ -9649,12 +9649,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
                 "Astromech"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -9679,12 +9679,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
                 "Astromech"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -9709,7 +9709,7 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
@@ -9738,7 +9738,7 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
@@ -9766,7 +9766,7 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
@@ -9798,12 +9798,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
                 "Astromech"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -10762,12 +10762,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
                 "Astromech"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -10792,12 +10792,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
                 "Astromech"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -10823,12 +10823,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
                 "Astromech"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -11028,12 +11028,12 @@ exportObj.basicCardData = ->
                 "Astromech"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
                 "Astromech"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -11378,8 +11378,8 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Sensor"
                 "Modification"
-                "Force Power"
-                "Force Power"
+                "Force"
+                "Force"
                 "Title"
             ]
         }
@@ -12066,12 +12066,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
                 "Astromech"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -13164,7 +13164,7 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Missile"
                 "Title"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -13192,7 +13192,7 @@ exportObj.basicCardData = ->
                 "Missile"
                 "Sensor"
                 "Modification"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -14434,7 +14434,7 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Force Power"
+                "Force"
                 "Astromech"
                 "Cannon"
                 "Modification"
@@ -14464,11 +14464,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Force Power"
+                "Force"
                 "Astromech"
                 "Cannon"
                 "Modification"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -14496,11 +14496,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Force Power"
+                "Force"
                 "Astromech"
                 "Cannon"
                 "Modification"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -14528,11 +14528,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Force Power"
+                "Force"
                 "Astromech"
                 "Cannon"
                 "Modification"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -14559,12 +14559,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
                 "Astromech"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -14591,12 +14591,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
                 "Astromech"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -15072,7 +15072,7 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Torpedo"
                 "Title"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -15243,7 +15243,7 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
@@ -15412,8 +15412,8 @@ exportObj.basicCardData = ->
                 "Missile"
                 "Sensor"
                 "Modification"
-                "Force Power"
-                "Force Power"
+                "Force"
+                "Force"
             ]
         }
         {
@@ -15994,7 +15994,7 @@ exportObj.basicCardData = ->
                 "Missile"
                 "Torpedo"
                 "Configuration"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -16740,8 +16740,8 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Device"
                 "Configuration"
-                "Force Power"
-                "Force Power"
+                "Force"
+                "Force"
                 "Title"
             ]
         }
@@ -17017,7 +17017,7 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Turret"
                 "Title"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -17165,12 +17165,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
                 "Astromech"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -17194,12 +17194,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
                 "Astromech"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -17224,12 +17224,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
                 "Astromech"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -17255,12 +17255,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
                 "Astromech"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -17284,12 +17284,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
                 "Astromech"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -17313,7 +17313,7 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
@@ -17341,7 +17341,7 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
@@ -17368,7 +17368,7 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
@@ -17398,12 +17398,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
                 "Astromech"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -18930,7 +18930,7 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Missile"
                 "Configuration"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -19047,7 +19047,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Modification"
                 "Configuration"
-                "Force Power"
+                "Force"
                 "Sensor"
             ]
         }
@@ -19492,7 +19492,7 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Device"
                 "Title"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -19612,12 +19612,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
                 "Astromech"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -19642,12 +19642,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Force Power"
+                "Force"
                 "Configuration"
                 "Modification"
                 "Modification"
                 "Astromech"
-                "Force Power"
+                "Force"
             ]
         }
         {
@@ -19711,11 +19711,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Force Power"
+                "Force"
                 "Astromech"
                 "Cannon"
                 "Modification"
-                "Force Power"
+                "Force"
             ]
         }
         {
