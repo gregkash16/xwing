@@ -20511,7 +20511,6 @@ exportObj.basicCardData = ->
             skill: 1
             points: 5
             pointsxwa: 12
-            loadoutxwa: 0
             charge: 2
             recurring: 1
             chassis: "Gyro-Cockpit"
