@@ -1057,11 +1057,11 @@ exportObj.basicCardData = function() {
         maneuvers: [[0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0], [0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 3, 0], [0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
       }
     },
+    
     // name field is for convenience only
     pilotsById: [
       {
         name: "Cavern Angels Zealot",
-        xws_name: "cavernangelszealot",
         id: 0,
         xws_name: "cavernangelszealot",
         faction: "Rebel Alliance",
@@ -1083,7 +1083,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Blue Squadron Escort",
-        xws_name: "bluesquadronescort",
         id: 1,
         xws_name: "bluesquadronescort",
         faction: "Rebel Alliance",
@@ -1102,7 +1101,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Red Squadron Veteran",
-        xws_name: "redsquadronveteran",
         id: 2,
         xws_name: "redsquadronveteran",
         faction: "Rebel Alliance",
@@ -1123,7 +1121,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Jek Porkins",
-        xws_name: "jekporkins",
         id: 3,
         xws_name: "jekporkins",
         unique: true,
@@ -1146,7 +1143,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Luke Skywalker",
-        xws_name: "lukeskywalker",
         id: 4,
         xws_name: "lukeskywalker",
         unique: true,
@@ -1169,12 +1165,11 @@ exportObj.basicCardData = function() {
       "Modification",
       "Torpedo",
       "Configuration",
-      "Force",
-      "Force"]
+      "Force Power",
+      "Force Power"]
       },
       {
         name: "Wedge Antilles",
-        xws_name: "wedgeantilles",
         id: 5,
         xws_name: "wedgeantilles",
         unique: true,
@@ -1199,9 +1194,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Garven Dreis (X-Wing)",
-        xws_name: "garvendreis",
         id: 6,
-        xws_name: "garvendreis",
+        xws_name: "garvendreis-t65xwing",
         unique: true,
         xwsship: true,
         faction: "Rebel Alliance",
@@ -1209,23 +1203,21 @@ exportObj.basicCardData = function() {
         skill: 4,
         points: 5,
         loadout: 16,
-        pointsxwa: 12,
-        loadoutxwa: 13,
+        pointsxwa: 11,
+        loadoutxwa: 9,
         slots: ["Talent",
       "Torpedo",
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Talent",
-      "Astromech",
-      "Gunner",
-      "Gunner",
+        slotsxwa: ["Astromech",
       "Modification",
-      "Torpedo"]
+      "Torpedo",
+      "Configuration",
+      "Talent"]
       },
       {
         name: "Biggs Darklighter",
-        xws_name: "biggsdarklighter",
         id: 7,
         xws_name: "biggsdarklighter",
         unique: true,
@@ -1246,7 +1238,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Edrio Two Tubes",
-        xws_name: "edriotwotubes",
         id: 8,
         xws_name: "edriotwotubes",
         unique: true,
@@ -1269,7 +1260,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Thane Kyrell",
-        xws_name: "thanekyrell",
         id: 9,
         xws_name: "thanekyrell",
         unique: true,
@@ -1292,7 +1282,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Leevan Tenza",
-        xws_name: "leevantenza",
         id: 10,
         xws_name: "leevantenza",
         unique: true,
@@ -1318,14 +1307,12 @@ exportObj.basicCardData = function() {
       },
       {
         name: "whoops",
-        xws_name: "whoops",
         id: 11,
         xws_name: "whoops",
         skip: true
       },
       {
         name: "Kullbee Sperado",
-        xws_name: "kullbeesperado",
         id: 12,
         xws_name: "kullbeesperado",
         unique: true,
@@ -1351,9 +1338,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Sabine Wren (TIE Fighter)",
-        xws_name: "sabinewren",
         id: 13,
-        xws_name: "sabinewren",
+        xws_name: "sabinewren-tielnfighter",
         unique: true,
         xwsship: true,
         faction: "Rebel Alliance",
@@ -1361,23 +1347,20 @@ exportObj.basicCardData = function() {
         skill: 3,
         points: 2,
         loadout: 0,
-        pointsxwa: 10,
+        pointsxwa: 8,
         loadoutxwa: 13,
         keyword: ["Spectre",
       "Mandalorian"],
         slots: ["Talent",
       "Modification"],
-        slotsxwa: ["Crew",
+        slotsxwa: ["Talent",
       "Modification",
-      "Turret",
-      "Title",
-      "Talent"]
+      "Modification"]
       },
       {
         name: "Ezra Bridger (TIE Fighter)",
-        xws_name: "ezrabridger",
         id: 14,
-        xws_name: "ezrabridger",
+        xws_name: "ezrabridger-tielnfighter",
         unique: true,
         faction: "Rebel Alliance",
         ship: "TIE/ln Fighter",
@@ -1386,22 +1369,20 @@ exportObj.basicCardData = function() {
         points: 3,
         loadout: 6,
         pointsxwa: 9,
-        loadoutxwa: 6,
+        loadoutxwa: 15,
         keyword: ["Light Side",
       "Spectre"],
         slots: ["Force",
       "Crew",
       "Modification"],
-        slotsxwa: ["Crew",
+        slotsxwa: ["Modification",
       "Modification",
-      "Turret",
-      "Title",
-      "Force"]
+      "Force Power"]
       },
       {
         name: '"Zeb" Orrelios (TIE Fighter)',
         id: 15,
-        xws_name: "zeborrelios",
+        xws_name: "zeborrelios-tielnfighter",
         xwsname: "zeborrelios-tielnfighter",
         unique: true,
         faction: "Rebel Alliance",
@@ -1409,19 +1390,16 @@ exportObj.basicCardData = function() {
         skill: 2,
         points: 3,
         loadout: 8,
-        pointsxwa: 8,
-        loadoutxwa: 6,
+        pointsxwa: 6,
+        loadoutxwa: 5,
         keyword: ["Spectre"],
         slots: ["Crew",
       "Modification"],
-        slotsxwa: ["Crew",
-      "Modification",
-      "Turret",
-      "Title"]
+        slotsxwa: ["Modification",
+      "Modification"]
       },
       {
         name: "Captain Rex",
-        xws_name: "captainrex",
         id: 16,
         xws_name: "captainrex",
         unique: true,
@@ -1444,7 +1422,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Miranda Doni",
-        xws_name: "mirandadoni",
         id: 17,
         xws_name: "mirandadoni",
         unique: true,
@@ -1465,8 +1442,8 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Torpedo",
       "Missile",
       "Missile",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Modification",
       "Gunner",
       "Crew",
@@ -1474,7 +1451,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Esege Tuketu",
-        xws_name: "esegetuketu",
         id: 18,
         xws_name: "esegetuketu",
         unique: true,
@@ -1495,22 +1471,20 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Torpedo",
       "Missile",
       "Missile",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Modification",
       "Gunner",
       "Crew"]
       },
       {
         name: "empty",
-        xws_name: "empty",
         id: 19,
         xws_name: "empty",
         skip: true
       },
       {
         name: "Warden Squadron Pilot",
-        xws_name: "wardensquadronpilot",
         id: 20,
         xws_name: "wardensquadronpilot",
         faction: "Rebel Alliance",
@@ -1528,15 +1502,14 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Torpedo",
       "Missile",
       "Missile",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Modification",
       "Gunner",
       "Crew"]
       },
       {
         name: "Corran Horn",
-        xws_name: "corranhorn",
         id: 21,
         xws_name: "corranhorn",
         unique: true,
@@ -1563,7 +1536,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Gavin Darklighter",
-        xws_name: "gavindarklighter",
         id: 22,
         xws_name: "gavindarklighter",
         unique: true,
@@ -1588,7 +1560,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Rogue Squadron Escort",
-        xws_name: "roguesquadronescort",
         id: 23,
         xws_name: "roguesquadronescort",
         faction: "Rebel Alliance",
@@ -1610,7 +1581,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Knave Squadron Escort",
-        xws_name: "knavesquadronescort",
         id: 24,
         xws_name: "knavesquadronescort",
         faction: "Rebel Alliance",
@@ -1631,33 +1601,31 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Norra Wexley (Y-Wing)",
-        xws_name: "norrawexley",
         id: 25,
-        xws_name: "norrawexley",
+        xws_name: "norrawexley-btla4ywing",
         unique: true,
         faction: "Rebel Alliance",
         ship: "BTL-A4 Y-wing",
         skill: 5,
         points: 5,
         loadout: 18,
-        pointsxwa: 13,
-        loadoutxwa: 14,
+        pointsxwa: 12,
+        loadoutxwa: 20,
         slots: ["Talent",
       "Turret",
       "Gunner",
       "Astromech",
       "Device",
       "Modification"],
-        slotsxwa: ["Talent",
-      "Astromech",
-      "Gunner",
-      "Gunner",
+        slotsxwa: ["Astromech",
       "Modification",
-      "Torpedo"]
+      "Payload",
+      "Torpedo",
+      "Turret",
+      "Talent"]
       },
       {
         name: "Horton Salm",
-        xws_name: "hortonsalm",
         id: 26,
         xws_name: "hortonsalm",
         unique: true,
@@ -1676,7 +1644,7 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Device",
+      "Payload",
       "Torpedo",
       "Turret",
       "Talent"]
@@ -1704,14 +1672,13 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Device",
+      "Payload",
       "Torpedo",
       "Turret",
       "Talent"]
       },
       {
         name: "Evaan Verlaine",
-        xws_name: "evaanverlaine",
         id: 28,
         xws_name: "evaanverlaine",
         unique: true,
@@ -1732,13 +1699,12 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Device",
+      "Payload",
       "Torpedo",
       "Turret"]
       },
       {
         name: "Gold Squadron Veteran",
-        xws_name: "goldsquadronveteran",
         id: 29,
         xws_name: "goldsquadronveteran",
         faction: "Rebel Alliance",
@@ -1753,14 +1719,13 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Device",
+      "Payload",
       "Torpedo",
       "Turret",
       "Talent"]
       },
       {
         name: "Gray Squadron Bomber",
-        xws_name: "graysquadronbomber",
         id: 30,
         xws_name: "graysquadronbomber",
         faction: "Rebel Alliance",
@@ -1775,13 +1740,12 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Device",
+      "Payload",
       "Torpedo",
       "Turret"]
       },
       {
         name: "Bodhi Rook",
-        xws_name: "bodhirook",
         id: 31,
         xws_name: "bodhirook",
         unique: true,
@@ -1805,7 +1769,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Cassian Andor",
-        xws_name: "cassianandor",
         id: 32,
         xws_name: "cassianandor",
         unique: true,
@@ -1830,7 +1793,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Heff Tobber",
-        xws_name: "hefftobber",
         id: 33,
         xws_name: "hefftobber",
         unique: true,
@@ -1856,7 +1818,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Magva Yarro",
-        xws_name: "magvayarro",
         id: 34,
         xws_name: "magvayarro",
         unique: true,
@@ -1885,7 +1846,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Saw Gerrera",
-        xws_name: "sawgerrera",
         id: 35,
         xws_name: "sawgerrera",
         unique: true,
@@ -1914,7 +1874,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Benthic Two Tubes",
-        xws_name: "benthictwotubes",
         id: 36,
         xws_name: "benthictwotubes",
         unique: true,
@@ -1943,7 +1902,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Blue Squadron Scout",
-        xws_name: "bluesquadronscout",
         id: 37,
         xws_name: "bluesquadronscout",
         faction: "Rebel Alliance",
@@ -1964,7 +1922,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Partisan Renegade",
-        xws_name: "partisanrenegade",
         id: 38,
         xws_name: "partisanrenegade",
         faction: "Rebel Alliance",
@@ -1986,7 +1943,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Dash Rendar",
-        xws_name: "dashrendar",
         id: 39,
         xws_name: "dashrendar",
         unique: true,
@@ -2048,7 +2004,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Wild Space Fringer",
-        xws_name: "wildspacefringer",
         id: 41,
         xws_name: "wildspacefringer",
         faction: "Rebel Alliance",
@@ -2072,7 +2027,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Han Solo",
-        xws_name: "hansolo",
         id: 42,
         xws_name: "hansolo-modifiedyt1300lightfreighter",
         unique: true,
@@ -2082,8 +2036,8 @@ exportObj.basicCardData = function() {
         skill: 6,
         points: 7,
         loadout: 15,
-        pointsxwa: 16,
-        loadoutxwa: 20,
+        pointsxwa: 22,
+        loadoutxwa: 25,
         slots: ["Talent",
       "Missile",
       "Crew",
@@ -2096,16 +2050,17 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Crew",
       "Crew",
       "Gunner",
+      "Gunner",
       "Illicit",
       "Modification",
       "Modification",
+      "Missile",
       "Title",
       "Talent",
       "Talent"]
       },
       {
         name: "Lando Calrissian",
-        xws_name: "landocalrissian",
         id: 43,
         xws_name: "landocalrissian-modifiedyt1300lightfreighter",
         unique: true,
@@ -2115,8 +2070,8 @@ exportObj.basicCardData = function() {
         skill: 5,
         points: 7,
         loadout: 21,
-        pointsxwa: 14,
-        loadoutxwa: 20,
+        pointsxwa: 19,
+        loadoutxwa: 18,
         slots: ["Talent",
       "Missile",
       "Crew",
@@ -2129,15 +2084,16 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Crew",
       "Crew",
       "Gunner",
+      "Gunner",
       "Illicit",
       "Modification",
       "Modification",
+      "Missile",
       "Title",
       "Talent"]
       },
       {
         name: "Chewbacca",
-        xws_name: "chewbacca",
         id: 44,
         xws_name: "chewbacca",
         unique: true,
@@ -2172,7 +2128,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Outer Rim Smuggler",
-        xws_name: "outerrimsmuggler",
         id: 45,
         xws_name: "outerrimsmuggler",
         faction: "Rebel Alliance",
@@ -2193,7 +2148,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Jan Ors",
-        xws_name: "janors",
         id: 46,
         xws_name: "janors",
         unique: true,
@@ -2214,12 +2168,11 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Talent",
       "Crew",
       "Modification",
-      "Device",
+      "Payload",
       "Title"]
       },
       {
         name: "Roark Garnet",
-        xws_name: "roarkgarnet",
         id: 47,
         xws_name: "roarkgarnet",
         unique: true,
@@ -2239,12 +2192,11 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Talent",
       "Crew",
       "Modification",
-      "Device",
+      "Payload",
       "Title"]
       },
       {
         name: "Kyle Katarn",
-        xws_name: "kylekatarn",
         id: 48,
         xws_name: "kylekatarn",
         unique: true,
@@ -2264,12 +2216,11 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Talent",
       "Crew",
       "Modification",
-      "Device",
+      "Payload",
       "Title"]
       },
       {
         name: "Rebel Scout",
-        xws_name: "rebelscout",
         id: 49,
         xws_name: "rebelscout",
         faction: "Rebel Alliance",
@@ -2283,12 +2234,11 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Crew",
       "Modification",
-      "Device",
-      "Device"]
+      "Payload",
+      "Payload"]
       },
       {
         name: "Jake Farrell",
-        xws_name: "jakefarrell",
         id: 50,
         xws_name: "jakefarrell",
         unique: true,
@@ -2312,7 +2262,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Arvel Crynyd",
-        xws_name: "arvelcrynyd",
         id: 51,
         xws_name: "arvelcrynyd",
         unique: true,
@@ -2333,7 +2282,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Green Squadron Pilot",
-        xws_name: "greensquadronpilot",
         id: 52,
         xws_name: "greensquadronpilot",
         faction: "Rebel Alliance",
@@ -2353,7 +2301,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Phoenix Squadron Pilot",
-        xws_name: "phoenixsquadronpilot",
         id: 53,
         xws_name: "phoenixsquadronpilot",
         faction: "Rebel Alliance",
@@ -2372,7 +2319,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Airen Cracken",
-        xws_name: "airencracken",
         id: 54,
         xws_name: "airencracken",
         unique: true,
@@ -2393,7 +2339,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Lieutenant Blount",
-        xws_name: "lieutenantblount",
         id: 55,
         xws_name: "lieutenantblount",
         unique: true,
@@ -2413,7 +2358,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Tala Squadron Pilot",
-        xws_name: "talasquadronpilot",
         id: 56,
         xws_name: "talasquadronpilot",
         faction: "Rebel Alliance",
@@ -2431,7 +2375,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Bandit Squadron Pilot",
-        xws_name: "banditsquadronpilot",
         id: 57,
         xws_name: "banditsquadronpilot",
         faction: "Rebel Alliance",
@@ -2487,7 +2430,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Kashyyyk Defender",
-        xws_name: "kashyyykdefender",
         id: 60,
         xws_name: "kashyyykdefender",
         faction: "Rebel Alliance",
@@ -2524,20 +2466,19 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Modification",
       "Title"],
-        slotsxwa: ["Talent",
-      "Talent",
+        slotsxwa: ["Crew",
       "Crew",
-      "Crew",
-      "Gunner",
       "Sensor",
-      "Modification",
+      "Gunner",
       "Turret",
+      "Modification",
       "Torpedo",
-      "Title"]
+      "Title",
+      "Talent",
+      "Talent"]
       },
       {
         name: "Kanan Jarrus",
-        xws_name: "kananjarrus",
         id: 62,
         xws_name: "kananjarrus",
         unique: true,
@@ -2569,7 +2510,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Torpedo",
       "Title",
-      "Force"]
+      "Force Power"]
       },
       {
         name: '"Chopper"',
@@ -2605,7 +2546,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Lothal Rebel",
-        xws_name: "lothalrebel",
         id: 64,
         xws_name: "lothalrebel",
         faction: "Rebel Alliance",
@@ -2628,7 +2568,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Hera Syndulla",
-        xws_name: "herasyndulla",
         id: 65,
         xws_name: "herasyndulla",
         unique: true,
@@ -2654,7 +2593,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Sabine Wren",
-        xws_name: "sabinewren",
         id: 66,
         xws_name: "sabinewren",
         unique: true,
@@ -2680,7 +2618,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Ezra Bridger",
-        xws_name: "ezrabridger",
         id: 67,
         xws_name: "ezrabridger",
         unique: true,
@@ -2703,7 +2640,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Turret",
       "Title",
-      "Force"]
+      "Force Power"]
       },
       {
         name: '"Zeb" Orrelios',
@@ -2730,17 +2667,16 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Fenn Rau (Sheathipede)",
-        xws_name: "fennrau",
         id: 69,
-        xws_name: "fennrau",
+        xws_name: "fennrau-sheathipedeclassshuttle",
         unique: true,
         faction: "Rebel Alliance",
         ship: "Sheathipede-Class Shuttle",
         skill: 6,
         points: 5,
         loadout: 10,
-        pointsxwa: 14,
-        loadoutxwa: 9,
+        pointsxwa: 10,
+        loadoutxwa: 10,
         keyword: ["Mandalorian",
       "Spectre"],
         slots: ["Talent",
@@ -2748,17 +2684,16 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Title"],
-        slotsxwa: ["Talent",
+        slotsxwa: ["Astromech",
+      "Crew",
       "Modification",
-      "Modification",
-      "Torpedo",
+      "Title",
       "Talent"]
       },
       {
         name: "Ezra Bridger (Sheathipede)",
-        xws_name: "ezrabridger",
         id: 70,
-        xws_name: "ezrabridger",
+        xws_name: "ezrabridger-sheathipedeclassshuttle",
         unique: true,
         faction: "Rebel Alliance",
         ship: "Sheathipede-Class Shuttle",
@@ -2767,7 +2702,7 @@ exportObj.basicCardData = function() {
         points: 4,
         loadout: 6,
         pointsxwa: 9,
-        loadoutxwa: 6,
+        loadoutxwa: 9,
         keyword: ["Light Side",
       "Spectre"],
         slots: ["Force",
@@ -2775,16 +2710,16 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Title"],
-        slotsxwa: ["Crew",
+        slotsxwa: ["Astromech",
+      "Crew",
       "Modification",
-      "Turret",
       "Title",
-      "Force"]
+      "Force Power"]
       },
       {
         name: '"Zeb" Orrelios (Sheathipede)',
         id: 71,
-        xws_name: "zeborrelios",
+        xws_name: "zeborrelios-sheathipedeclassshuttle",
         xwsname: "zeborrelios-sheathipedeclassshuttle",
         unique: true,
         faction: "Rebel Alliance",
@@ -2792,24 +2727,23 @@ exportObj.basicCardData = function() {
         skill: 2,
         points: 3,
         loadout: 3,
-        pointsxwa: 8,
-        loadoutxwa: 6,
+        pointsxwa: 7,
+        loadoutxwa: 4,
         keyword: ["Spectre"],
         slots: ["Talent",
       "Crew",
       "Astromech",
       "Modification",
       "Title"],
-        slotsxwa: ["Crew",
+        slotsxwa: ["Astromech",
+      "Crew",
       "Modification",
-      "Turret",
       "Title"]
       },
       {
         name: "AP-5",
-        xws_name: "ap5",
         id: 72,
-        xws_name: "ap-5",
+        xws_name: "ap5",
         unique: true,
         faction: "Rebel Alliance",
         ship: "Sheathipede-Class Shuttle",
@@ -2831,7 +2765,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Braylen Stramm",
-        xws_name: "braylenstramm",
         id: 73,
         xws_name: "braylenstramm",
         unique: true,
@@ -2861,7 +2794,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Ten Numb",
-        xws_name: "tennumb",
         id: 74,
         xws_name: "tennumb",
         unique: true,
@@ -2891,7 +2823,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Blade Squadron Veteran",
-        xws_name: "bladesquadronveteran",
         id: 75,
         xws_name: "bladesquadronveteran",
         faction: "Rebel Alliance",
@@ -2917,7 +2848,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Blue Squadron Pilot",
-        xws_name: "bluesquadronpilot",
         id: 76,
         xws_name: "bluesquadronpilot",
         faction: "Rebel Alliance",
@@ -2942,7 +2872,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Norra Wexley",
-        xws_name: "norrawexley",
         id: 77,
         xws_name: "norrawexley",
         unique: true,
@@ -2968,7 +2897,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Shara Bey",
-        xws_name: "sharabey",
         id: 78,
         xws_name: "sharabey",
         unique: true,
@@ -2994,7 +2922,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Garven Dreis",
-        xws_name: "garvendreis",
         id: 79,
         xws_name: "garvendreis",
         unique: true,
@@ -3020,7 +2947,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Ibtisam",
-        xws_name: "ibtisam",
         id: 80,
         xws_name: "ibtisam",
         unique: true,
@@ -3045,9 +2971,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "IG-88A",
-        xws_name: "ig88a",
         id: 81,
-        xws_name: "ig-88a",
+        xws_name: "ig88a",
         unique: true,
         faction: "Scum and Villainy",
         ship: "Aggressor Assault Fighter",
@@ -3070,16 +2995,15 @@ exportObj.basicCardData = function() {
       "Cannon",
       "Cannon",
       "Sensor",
-      "Device",
+      "Payload",
       "Illicit",
       "Modification",
       "Title"]
       },
       {
         name: "IG-88B",
-        xws_name: "ig88b",
         id: 82,
-        xws_name: "ig-88b",
+        xws_name: "ig88b",
         unique: true,
         faction: "Scum and Villainy",
         ship: "Aggressor Assault Fighter",
@@ -3102,16 +3026,15 @@ exportObj.basicCardData = function() {
       "Cannon",
       "Cannon",
       "Sensor",
-      "Device",
+      "Payload",
       "Illicit",
       "Modification",
       "Title"]
       },
       {
         name: "IG-88C",
-        xws_name: "ig88c",
         id: 83,
-        xws_name: "ig-88c",
+        xws_name: "ig88c",
         unique: true,
         faction: "Scum and Villainy",
         ship: "Aggressor Assault Fighter",
@@ -3134,16 +3057,15 @@ exportObj.basicCardData = function() {
       "Cannon",
       "Cannon",
       "Sensor",
-      "Device",
+      "Payload",
       "Illicit",
       "Modification",
       "Title"]
       },
       {
         name: "IG-88D",
-        xws_name: "ig88d",
         id: 84,
-        xws_name: "ig-88d",
+        xws_name: "ig88d",
         unique: true,
         faction: "Scum and Villainy",
         ship: "Aggressor Assault Fighter",
@@ -3166,14 +3088,13 @@ exportObj.basicCardData = function() {
       "Cannon",
       "Cannon",
       "Sensor",
-      "Device",
+      "Payload",
       "Illicit",
       "Modification",
       "Title"]
       },
       {
         name: "Kavil",
-        xws_name: "kavil",
         id: 85,
         xws_name: "kavil",
         unique: true,
@@ -3194,7 +3115,7 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Device",
+      "Payload",
       "Turret",
       "Talent",
       "Illicit",
@@ -3202,7 +3123,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Drea Renthal",
-        xws_name: "drearenthal",
         id: 86,
         xws_name: "drearenthal",
         unique: true,
@@ -3223,7 +3143,7 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Device",
+      "Payload",
       "Turret",
       "Talent",
       "Illicit",
@@ -3231,7 +3151,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Hired Gun",
-        xws_name: "hiredgun",
         id: 87,
         xws_name: "hiredgun",
         faction: "Scum and Villainy",
@@ -3248,14 +3167,13 @@ exportObj.basicCardData = function() {
       "Illicit"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Device",
+      "Payload",
       "Turret",
       "Illicit",
       "Missile"]
       },
       {
         name: "Crymorah Goon",
-        xws_name: "crymorahgoon",
         id: 88,
         xws_name: "crymorahgoon",
         faction: "Scum and Villainy",
@@ -3271,14 +3189,13 @@ exportObj.basicCardData = function() {
       "Illicit"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Device",
+      "Payload",
       "Turret",
       "Illicit",
       "Missile"]
       },
       {
         name: "Han Solo (Scum)",
-        xws_name: "hansolo",
         id: 89,
         xws_name: "hansolo",
         unique: true,
@@ -3310,7 +3227,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Lando Calrissian (Scum)",
-        xws_name: "landocalrissian",
         id: 90,
         xws_name: "landocalrissian",
         unique: true,
@@ -3341,9 +3257,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "L3-37",
-        xws_name: "l337",
         id: 91,
-        xws_name: "l3-37",
+        xws_name: "l337",
         unique: true,
         faction: "Scum and Villainy",
         ship: "Customized YT-1300 Light Freighter",
@@ -3370,7 +3285,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Freighter Captain",
-        xws_name: "freightercaptain",
         id: 92,
         xws_name: "freightercaptain",
         faction: "Scum and Villainy",
@@ -3392,32 +3306,26 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Lando Calrissian (Scum) (Escape Craft)",
-        xws_name: "landocalrissian",
         id: 93,
-        xws_name: "landocalrissian",
+        xws_name: "landocalrissian-escapecraft",
         unique: true,
         faction: "Scum and Villainy",
         ship: "Escape Craft",
         skill: 4,
         points: 3,
         loadout: 4,
-        pointsxwa: 14,
-        loadoutxwa: 20,
+        pointsxwa: 7,
+        loadoutxwa: 9,
         slots: ["Talent",
       "Crew",
       "Modification"],
         slotsxwa: ["Crew",
-      "Crew",
-      "Gunner",
       "Illicit",
       "Modification",
-      "Modification",
-      "Title",
       "Talent"]
       },
       {
         name: "Outer Rim Pioneer",
-        xws_name: "outerrimpioneer",
         id: 94,
         xws_name: "outerrimpioneer",
         unique: true,
@@ -3437,32 +3345,26 @@ exportObj.basicCardData = function() {
       },
       {
         name: "L3-37 (Escape Craft)",
-        xws_name: "l337",
         id: 95,
-        xws_name: "l3-37",
+        xws_name: "l337-escapecraft",
         unique: true,
         faction: "Scum and Villainy",
         ship: "Escape Craft",
         skill: 2,
         points: 3,
         loadout: 4,
-        pointsxwa: 12,
-        loadoutxwa: 15,
+        pointsxwa: 6,
+        loadoutxwa: 8,
         keyword: ["Droid"],
         slots: ["Talent",
       "Crew",
       "Modification"],
         slotsxwa: ["Crew",
-      "Crew",
-      "Gunner",
       "Illicit",
-      "Modification",
-      "Modification",
-      "Title"]
+      "Modification"]
       },
       {
         name: "Autopilot Drone",
-        xws_name: "autopilotdrone",
         id: 96,
         xws_name: "autopilotdrone",
         unique: true,
@@ -3480,7 +3382,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Fenn Rau",
-        xws_name: "fennrau",
         id: 97,
         xws_name: "fennrau",
         unique: true,
@@ -3505,7 +3406,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Old Teroch",
-        xws_name: "oldteroch",
         id: 98,
         xws_name: "oldteroch",
         unique: true,
@@ -3529,7 +3429,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Kad Solus",
-        xws_name: "kadsolus",
         id: 99,
         xws_name: "kadsolus",
         unique: true,
@@ -3552,7 +3451,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Joy Rekkoff",
-        xws_name: "joyrekkoff",
         id: 100,
         xws_name: "joyrekkoff",
         unique: true,
@@ -3576,7 +3474,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Skull Squadron Pilot",
-        xws_name: "skullsquadronpilot",
         id: 101,
         xws_name: "skullsquadronpilot",
         faction: "Scum and Villainy",
@@ -3596,7 +3493,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Zealous Recruit",
-        xws_name: "zealousrecruit",
         id: 102,
         xws_name: "zealousrecruit",
         faction: "Scum and Villainy",
@@ -3615,7 +3511,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Boba Fett",
-        xws_name: "bobafett",
         id: 103,
         xws_name: "bobafett",
         unique: true,
@@ -3640,14 +3535,13 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Missile",
       "Modification",
-      "Device",
+      "Payload",
       "Title",
       "Talent",
       "Modification"]
       },
       {
         name: "Emon Azzameen",
-        xws_name: "emonazzameen",
         id: 104,
         xws_name: "emonazzameen",
         unique: true,
@@ -3671,13 +3565,12 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Missile",
       "Modification",
-      "Device",
+      "Payload",
       "Title",
       "Talent"]
       },
       {
         name: "Kath Scarlet",
-        xws_name: "kathscarlet",
         id: 105,
         xws_name: "kathscarlet",
         unique: true,
@@ -3701,13 +3594,12 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Missile",
       "Modification",
-      "Device",
+      "Payload",
       "Title",
       "Talent"]
       },
       {
         name: "Koshka Frost",
-        xws_name: "koshkafrost",
         id: 106,
         xws_name: "koshkafrost",
         unique: true,
@@ -3732,12 +3624,11 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Missile",
       "Modification",
-      "Device",
+      "Payload",
       "Talent"]
       },
       {
         name: "Krassis Trelix",
-        xws_name: "krassistrelix",
         id: 107,
         xws_name: "krassistrelix",
         unique: true,
@@ -3762,12 +3653,11 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Missile",
       "Modification",
-      "Device",
+      "Payload",
       "Talent"]
       },
       {
         name: "Bounty Hunter",
-        xws_name: "bountyhunter",
         id: 108,
         xws_name: "bountyhunter",
         faction: "Scum and Villainy",
@@ -3787,13 +3677,12 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Missile",
       "Modification",
-      "Device"]
+      "Payload"]
       },
       {
         name: "4-LOM",
-        xws_name: "4lom",
         id: 109,
-        xws_name: "4-lom",
+        xws_name: "4lom",
         unique: true,
         faction: "Scum and Villainy",
         ship: "G-1A Starfighter",
@@ -3820,7 +3709,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Zuckuss",
-        xws_name: "zuckuss",
         id: 110,
         xws_name: "zuckuss",
         unique: true,
@@ -3848,7 +3736,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Gand Findsman",
-        xws_name: "gandfindsman",
         id: 111,
         xws_name: "gandfindsman",
         faction: "Scum and Villainy",
@@ -3868,7 +3755,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Palob Godalhi",
-        xws_name: "palobgodalhi",
         id: 112,
         xws_name: "palobgodalhi",
         unique: true,
@@ -3889,13 +3775,12 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Crew",
       "Illicit",
       "Modification",
-      "Device",
+      "Payload",
       "Talent",
       "Title"]
       },
       {
         name: "Dace Bonearm",
-        xws_name: "dacebonearm",
         id: 113,
         xws_name: "dacebonearm",
         unique: true,
@@ -3918,13 +3803,12 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Crew",
       "Illicit",
       "Modification",
-      "Device",
+      "Payload",
       "Talent",
       "Title"]
       },
       {
         name: "Torkil Mux",
-        xws_name: "torkilmux",
         id: 114,
         xws_name: "torkilmux",
         unique: true,
@@ -3943,11 +3827,10 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Crew",
       "Illicit",
       "Modification",
-      "Device"]
+      "Payload"]
       },
       {
         name: "Dengar",
-        xws_name: "dengar",
         id: 115,
         xws_name: "dengar",
         unique: true,
@@ -3979,7 +3862,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Tel Trevura",
-        xws_name: "teltrevura",
         id: 116,
         xws_name: "teltrevura",
         unique: true,
@@ -4008,7 +3890,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Manaroo",
-        xws_name: "manaroo",
         id: 117,
         xws_name: "manaroo",
         unique: true,
@@ -4038,7 +3919,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Contracted Scout",
-        xws_name: "contractedscout",
         id: 118,
         xws_name: "contractedscout",
         faction: "Scum and Villainy",
@@ -4058,7 +3938,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Talonbane Cobra",
-        xws_name: "talonbanecobra",
         id: 119,
         xws_name: "talonbanecobra",
         unique: true,
@@ -4084,7 +3963,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Graz",
-        xws_name: "graz",
         id: 120,
         xws_name: "graz",
         unique: true,
@@ -4111,7 +3989,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Viktor Hel",
-        xws_name: "viktorhel",
         id: 121,
         xws_name: "viktorhel",
         unique: true,
@@ -4138,7 +4015,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Captain Jostero",
-        xws_name: "captainjostero",
         id: 122,
         xws_name: "captainjostero",
         unique: true,
@@ -4162,7 +4038,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Black Sun Ace",
-        xws_name: "blacksunace",
         id: 123,
         xws_name: "blacksunace",
         faction: "Scum and Villainy",
@@ -4182,7 +4057,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Cartel Marauder",
-        xws_name: "cartelmarauder",
         id: 124,
         xws_name: "cartelmarauder",
         faction: "Scum and Villainy",
@@ -4201,7 +4075,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Asajj Ventress",
-        xws_name: "asajjventress",
         id: 125,
         xws_name: "asajjventress",
         unique: true,
@@ -4225,11 +4098,10 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Illicit",
       "Modification",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Ketsu Onyo",
-        xws_name: "ketsuonyo",
         id: 126,
         xws_name: "ketsuonyo",
         unique: true,
@@ -4257,17 +4129,16 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Sabine Wren (Scum)",
-        xws_name: "sabinewren",
         id: 127,
-        xws_name: "sabinewren",
+        xws_name: "sabinewren-lancerclasspursuitcraft",
         unique: true,
         faction: "Scum and Villainy",
         ship: "Lancer-Class Pursuit Craft",
         skill: 3,
         points: 6,
         loadout: 9,
-        pointsxwa: 10,
-        loadoutxwa: 13,
+        pointsxwa: 17,
+        loadoutxwa: 20,
         keyword: ["Bounty Hunter",
       "Mandalorian"],
         slots: ["Talent",
@@ -4277,14 +4148,14 @@ exportObj.basicCardData = function() {
       "Modification",
       "Title"],
         slotsxwa: ["Crew",
+      "Illicit",
+      "Illicit",
       "Modification",
-      "Turret",
-      "Title",
-      "Talent"]
+      "Talent",
+      "Title"]
       },
       {
         name: "Shadowport Hunter",
-        xws_name: "shadowporthunter",
         id: 128,
         xws_name: "shadowporthunter",
         faction: "Scum and Villainy",
@@ -4304,7 +4175,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Torani Kulda",
-        xws_name: "toranikulda",
         id: 129,
         xws_name: "toranikulda",
         unique: true,
@@ -4331,7 +4201,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Dalan Oberos",
-        xws_name: "dalanoberos",
         id: 130,
         xws_name: "dalanoberos",
         unique: true,
@@ -4359,7 +4228,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Cartel Executioner",
-        xws_name: "cartelexecutioner",
         id: 131,
         xws_name: "cartelexecutioner",
         faction: "Scum and Villainy",
@@ -4378,7 +4246,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Serissu",
-        xws_name: "serissu",
         id: 132,
         xws_name: "serissu",
         unique: true,
@@ -4397,12 +4264,10 @@ exportObj.basicCardData = function() {
       "HardpointShip"],
         slotsxwa: ["Hardpoint",
       "Modification",
-      "Talent",
-      "HardpointShip"]
+      "Talent"]
       },
       {
         name: "Genesis Red",
-        xws_name: "genesisred",
         id: 133,
         xws_name: "genesisred",
         unique: true,
@@ -4419,12 +4284,10 @@ exportObj.basicCardData = function() {
       "HardpointShip"],
         slotsxwa: ["Hardpoint",
       "Modification",
-      "Talent",
-      "HardpointShip"]
+      "Talent"]
       },
       {
         name: "Laetin A'shera",
-        xws_name: "laetinashera",
         id: 134,
         xws_name: "laetinashera",
         unique: true,
@@ -4440,12 +4303,10 @@ exportObj.basicCardData = function() {
       "HardpointShip"],
         slotsxwa: ["Hardpoint",
       "Modification",
-      "Talent",
-      "HardpointShip"]
+      "Talent"]
       },
       {
         name: "Quinn Jast",
-        xws_name: "quinnjast",
         id: 135,
         xws_name: "quinnjast",
         unique: true,
@@ -4463,12 +4324,10 @@ exportObj.basicCardData = function() {
       "HardpointShip"],
         slotsxwa: ["Hardpoint",
       "Modification",
-      "Talent",
-      "HardpointShip"]
+      "Talent"]
       },
       {
         name: "Tansarii Point Veteran",
-        xws_name: "tansariipointveteran",
         id: 136,
         xws_name: "tansariipointveteran",
         faction: "Scum and Villainy",
@@ -4482,12 +4341,10 @@ exportObj.basicCardData = function() {
       "HardpointShip"],
         slotsxwa: ["Hardpoint",
       "Modification",
-      "Talent",
-      "HardpointShip"]
+      "Talent"]
       },
       {
         name: "Inaldra",
-        xws_name: "inaldra",
         id: 137,
         xws_name: "inaldra",
         unique: true,
@@ -4500,12 +4357,11 @@ exportObj.basicCardData = function() {
         loadoutxwa: 8,
         slots: ["Modification",
       "HardpointShip"],
-        slotsxwa: ["HardpointShip",
+        slotsxwa: ["Hardpoint",
       "Modification"]
       },
       {
         name: "Sunny Bounder",
-        xws_name: "sunnybounder",
         id: 138,
         xws_name: "sunnybounder",
         unique: true,
@@ -4518,12 +4374,11 @@ exportObj.basicCardData = function() {
         loadoutxwa: 10,
         slots: ["Modification",
       "HardpointShip"],
-        slotsxwa: ["HardpointShip",
+        slotsxwa: ["Hardpoint",
       "Modification"]
       },
       {
         name: "Cartel Spacer",
-        xws_name: "cartelspacer",
         id: 139,
         xws_name: "cartelspacer",
         faction: "Scum and Villainy",
@@ -4535,12 +4390,11 @@ exportObj.basicCardData = function() {
         loadoutxwa: 3,
         slots: ["Modification",
       "HardpointShip"],
-        slotsxwa: ["HardpointShip",
+        slotsxwa: ["Hardpoint",
       "Modification"]
       },
       {
         name: "Constable Zuvio",
-        xws_name: "constablezuvio",
         id: 140,
         xws_name: "constablezuvio",
         unique: true,
@@ -4561,11 +4415,10 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Talent",
-      "Device"]
+      "Payload"]
       },
       {
         name: "Sarco Plank",
-        xws_name: "sarcoplank",
         id: 141,
         xws_name: "sarcoplank",
         unique: true,
@@ -4591,7 +4444,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Unkar Plutt",
-        xws_name: "unkarplutt",
         id: 142,
         xws_name: "unkarplutt",
         unique: true,
@@ -4614,7 +4466,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Jakku Gunrunner",
-        xws_name: "jakkugunrunner",
         id: 143,
         xws_name: "jakkugunrunner",
         faction: "Scum and Villainy",
@@ -4633,7 +4484,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Captain Nym",
-        xws_name: "captainnym",
         id: 144,
         xws_name: "captainnym",
         unique: true,
@@ -4657,15 +4507,14 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Crew",
       "Gunner",
       "Modification",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Turret",
       "Talent",
       "Title"]
       },
       {
         name: "Sol Sixxa",
-        xws_name: "solsixxa",
         id: 145,
         xws_name: "solsixxa",
         unique: true,
@@ -4686,15 +4535,14 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Crew",
       "Gunner",
       "Modification",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Turret",
       "Talent",
       "Illicit"]
       },
       {
         name: "Lok Revenant",
-        xws_name: "lokrevenant",
         id: 146,
         xws_name: "lokrevenant",
         faction: "Scum and Villainy",
@@ -4711,13 +4559,12 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Crew",
       "Gunner",
       "Modification",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Turret"]
       },
       {
         name: "Guri",
-        xws_name: "guri",
         id: 147,
         xws_name: "guri",
         unique: true,
@@ -4743,7 +4590,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Prince Xizor",
-        xws_name: "princexizor",
         id: 148,
         xws_name: "princexizor",
         unique: true,
@@ -4768,9 +4614,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Dalan Oberos (StarViper)",
-        xws_name: "dalanoberos",
         id: 149,
-        xws_name: "dalanoberos",
+        xws_name: "dalanoberos-starviperclassattackplatform",
         unique: true,
         faction: "Scum and Villainy",
         ship: "StarViper-class Attack Platform",
@@ -4778,22 +4623,20 @@ exportObj.basicCardData = function() {
         points: 5,
         loadout: 10,
         pointsxwa: 11,
-        loadoutxwa: 10,
+        loadoutxwa: 8,
         keyword: ["Bounty Hunter"],
         slots: ["Talent",
       "Tech",
       "Torpedo",
       "Modification"],
-        slotsxwa: ["Astromech",
-      "Illicit",
-      "Missile",
-      "Torpedo",
+        slotsxwa: ["Illicit",
       "Modification",
+      "Sensor",
+      "Torpedo",
       "Talent"]
       },
       {
         name: "Black Sun Assassin",
-        xws_name: "blacksunassassin",
         id: 150,
         xws_name: "blacksunassassin",
         faction: "Scum and Villainy",
@@ -4812,7 +4655,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Black Sun Enforcer",
-        xws_name: "blacksunenforcer",
         id: 151,
         xws_name: "blacksunenforcer",
         faction: "Scum and Villainy",
@@ -4830,7 +4672,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Moralo Eval",
-        xws_name: "moraloeval",
         id: 152,
         xws_name: "moraloeval",
         unique: true,
@@ -4859,7 +4700,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Bossk",
-        xws_name: "bossk",
         id: 153,
         xws_name: "bossk",
         unique: true,
@@ -4892,7 +4732,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Latts Razzi",
-        xws_name: "lattsrazzi",
         id: 154,
         xws_name: "lattsrazzi",
         unique: true,
@@ -4925,7 +4764,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Trandoshan Slaver",
-        xws_name: "trandoshanslaver",
         id: 155,
         xws_name: "trandoshanslaver",
         faction: "Scum and Villainy",
@@ -4946,7 +4784,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "N'dru Suhlak",
-        xws_name: "ndrusuhlak",
         id: 156,
         xws_name: "ndrusuhlak",
         unique: true,
@@ -4968,7 +4805,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Kaa'to Leeachos",
-        xws_name: "kaatoleeachos",
         id: 157,
         xws_name: "kaatoleeachos",
         unique: true,
@@ -4991,7 +4827,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Black Sun Soldier",
-        xws_name: "blacksunsoldier",
         id: 158,
         xws_name: "blacksunsoldier",
         faction: "Scum and Villainy",
@@ -5010,7 +4845,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Binayre Pirate",
-        xws_name: "binayrepirate",
         id: 159,
         xws_name: "binayrepirate",
         faction: "Scum and Villainy",
@@ -5027,7 +4861,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Nashtah Pup",
-        xws_name: "nashtahpup",
         id: 160,
         xws_name: "nashtahpup",
         unique: true,
@@ -5101,7 +4934,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Major Vynder",
-        xws_name: "majorvynder",
         id: 161,
         xws_name: "majorvynder",
         unique: true,
@@ -5124,7 +4956,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Lieutenant Karsabi",
-        xws_name: "lieutenantkarsabi",
         id: 162,
         xws_name: "lieutenantkarsabi",
         unique: true,
@@ -5147,7 +4978,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Rho Squadron Pilot",
-        xws_name: "rhosquadronpilot",
         id: 163,
         xws_name: "rhosquadronpilot",
         faction: "Galactic Empire",
@@ -5168,7 +4998,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Nu Squadron Pilot",
-        xws_name: "nusquadronpilot",
         id: 164,
         xws_name: "nusquadronpilot",
         faction: "Galactic Empire",
@@ -5188,7 +5017,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Captain Kagi",
-        xws_name: "captainkagi",
         id: 165,
         xws_name: "captainkagi",
         unique: true,
@@ -5214,7 +5042,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Lieutenant Sai",
-        xws_name: "lieutenantsai",
         id: 166,
         xws_name: "lieutenantsai",
         unique: true,
@@ -5239,7 +5066,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Colonel Jendon",
-        xws_name: "coloneljendon",
         id: 167,
         xws_name: "coloneljendon",
         unique: true,
@@ -5267,7 +5093,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Omicron Group Pilot",
-        xws_name: "omicrongrouppilot",
         id: 168,
         xws_name: "omicrongrouppilot",
         faction: "Galactic Empire",
@@ -5288,7 +5113,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Grand Inquisitor",
-        xws_name: "grandinquisitor",
         id: 169,
         xws_name: "grandinquisitor",
         unique: true,
@@ -5309,12 +5133,11 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Missile",
       "Sensor",
       "Modification",
-      "Force",
-      "Force"]
+      "Force Power",
+      "Force Power"]
       },
       {
         name: "Seventh Sister",
-        xws_name: "seventhsister",
         id: 170,
         xws_name: "seventhsister",
         unique: true,
@@ -5334,11 +5157,10 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Missile",
       "Sensor",
       "Modification",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Inquisitor",
-        xws_name: "inquisitor",
         id: 171,
         xws_name: "inquisitor",
         faction: "Galactic Empire",
@@ -5355,11 +5177,10 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Missile",
       "Sensor",
       "Modification",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Baron of the Empire",
-        xws_name: "baronoftheempire",
         id: 172,
         xws_name: "baronoftheempire",
         faction: "Galactic Empire",
@@ -5379,7 +5200,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Darth Vader",
-        xws_name: "darthvader",
         id: 173,
         xws_name: "darthvader",
         unique: true,
@@ -5404,12 +5224,11 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Missile",
       "Sensor",
       "Modification",
-      "Force",
-      "Force"]
+      "Force Power",
+      "Force Power"]
       },
       {
         name: "Maarek Stele",
-        xws_name: "maarekstele",
         id: 174,
         xws_name: "maarekstele",
         unique: true,
@@ -5433,7 +5252,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Ved Foslo",
-        xws_name: "vedfoslo",
         id: 175,
         xws_name: "vedfoslo",
         unique: true,
@@ -5455,7 +5273,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Zertik Strom",
-        xws_name: "zertikstrom",
         id: 176,
         xws_name: "zertikstrom",
         unique: true,
@@ -5475,7 +5292,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Storm Squadron Ace",
-        xws_name: "stormsquadronace",
         id: 177,
         xws_name: "stormsquadronace",
         faction: "Galactic Empire",
@@ -5495,7 +5311,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Tempest Squadron Pilot",
-        xws_name: "tempestsquadronpilot",
         id: 178,
         xws_name: "tempestsquadronpilot",
         faction: "Galactic Empire",
@@ -5513,7 +5328,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Soontir Fel",
-        xws_name: "soontirfel",
         id: 179,
         xws_name: "soontirfel",
         unique: true,
@@ -5535,7 +5349,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Turr Phennir",
-        xws_name: "turrphennir",
         id: 180,
         xws_name: "turrphennir",
         unique: true,
@@ -5556,7 +5369,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Saber Squadron Ace",
-        xws_name: "sabersquadronace",
         id: 181,
         xws_name: "sabersquadronace",
         faction: "Galactic Empire",
@@ -5574,7 +5386,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Alpha Squadron Pilot",
-        xws_name: "alphasquadronpilot",
         id: 182,
         xws_name: "alphasquadronpilot",
         faction: "Galactic Empire",
@@ -5591,7 +5402,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Major Vermeil",
-        xws_name: "majorvermeil",
         id: 183,
         xws_name: "majorvermeil",
         unique: true,
@@ -5613,7 +5423,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Captain Feroph",
-        xws_name: "captainferoph",
         id: 184,
         xws_name: "captainferoph",
         unique: true,
@@ -5653,7 +5462,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Scarif Base Pilot",
-        xws_name: "scarifbasepilot",
         id: 186,
         xws_name: "scarifbasepilot",
         faction: "Galactic Empire",
@@ -5671,7 +5479,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Lieutenant Kestal",
-        xws_name: "lieutenantkestal",
         id: 187,
         xws_name: "lieutenantkestal",
         unique: true,
@@ -5727,7 +5534,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Onyx Squadron Scout",
-        xws_name: "onyxsquadronscout",
         id: 189,
         xws_name: "onyxsquadronscout",
         faction: "Galactic Empire",
@@ -5750,7 +5556,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Sienar Specialist",
-        xws_name: "sienarspecialist",
         id: 190,
         xws_name: "sienarspecialist",
         faction: "Galactic Empire",
@@ -5792,8 +5597,8 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Missile",
       "Torpedo",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Sensor",
       "Modification",
       "Talent"]
@@ -5820,15 +5625,14 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Missile",
       "Torpedo",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Sensor",
       "Modification",
       "Talent"]
       },
       {
         name: "Cutlass Squadron Pilot",
-        xws_name: "cutlasssquadronpilot",
         id: 193,
         xws_name: "cutlasssquadronpilot",
         faction: "Galactic Empire",
@@ -5846,14 +5650,13 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Missile",
       "Torpedo",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Sensor",
       "Modification"]
       },
       {
         name: "Colonel Vessery",
-        xws_name: "colonelvessery",
         id: 194,
         xws_name: "colonelvessery",
         unique: true,
@@ -5879,7 +5682,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Countess Ryad",
-        xws_name: "countessryad",
         id: 195,
         xws_name: "countessryad",
         unique: true,
@@ -5906,7 +5708,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Rexler Brath",
-        xws_name: "rexlerbrath",
         id: 196,
         xws_name: "rexlerbrath",
         unique: true,
@@ -5932,7 +5733,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Onyx Squadron Ace",
-        xws_name: "onyxsquadronace",
         id: 197,
         xws_name: "onyxsquadronace",
         faction: "Galactic Empire",
@@ -5956,7 +5756,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Delta Squadron Pilot",
-        xws_name: "deltasquadronpilot",
         id: 198,
         xws_name: "deltasquadronpilot",
         faction: "Galactic Empire",
@@ -6021,7 +5820,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Sigma Squadron Ace",
-        xws_name: "sigmasquadronace",
         id: 201,
         xws_name: "sigmasquadronace",
         faction: "Galactic Empire",
@@ -6041,7 +5839,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Imdaar Test Pilot",
-        xws_name: "imdaartestpilot",
         id: 202,
         xws_name: "imdaartestpilot",
         faction: "Galactic Empire",
@@ -6060,7 +5857,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Captain Jonus",
-        xws_name: "captainjonus",
         id: 203,
         xws_name: "captainjonus",
         unique: true,
@@ -6081,14 +5877,13 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Torpedo",
       "Missile",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Modification",
       "Talent"]
       },
       {
         name: "Major Rhymer",
-        xws_name: "majorrhymer",
         id: 204,
         xws_name: "majorrhymer",
         unique: true,
@@ -6108,14 +5903,13 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Torpedo",
       "Missile",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Modification",
       "Talent"]
       },
       {
         name: "Tomax Bren",
-        xws_name: "tomaxbren",
         id: 205,
         xws_name: "tomaxbren",
         unique: true,
@@ -6136,8 +5930,8 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Torpedo",
       "Missile",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Modification",
       "Talent"]
       },
@@ -6161,13 +5955,12 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Torpedo",
       "Missile",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Modification"]
       },
       {
         name: "Gamma Squadron Ace",
-        xws_name: "gammasquadronace",
         id: 207,
         xws_name: "gammasquadronace",
         faction: "Galactic Empire",
@@ -6184,14 +5977,13 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Torpedo",
       "Missile",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Modification",
       "Talent"]
       },
       {
         name: "Scimitar Squadron Pilot",
-        xws_name: "scimitarsquadronpilot",
         id: 208,
         xws_name: "scimitarsquadronpilot",
         faction: "Galactic Empire",
@@ -6208,8 +6000,8 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Torpedo",
       "Missile",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Modification"]
       },
       {
@@ -6230,7 +6022,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification"],
         slotsxwa: ["Gunner",
-      "Device"]
+      "Payload"]
       },
       {
         name: '"Pure Sabacc"',
@@ -6250,7 +6042,7 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Gunner",
       "Modification",
-      "Device",
+      "Payload",
       "Talent"]
       },
       {
@@ -6272,13 +6064,12 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Gunner",
       "Modification",
-      "Device",
+      "Payload",
       "Talent",
       "Modification"]
       },
       {
         name: "Black Squadron Scout",
-        xws_name: "blacksquadronscout",
         id: 212,
         xws_name: "blacksquadronscout",
         faction: "Galactic Empire",
@@ -6293,12 +6084,11 @@ exportObj.basicCardData = function() {
       "Device"],
         slotsxwa: ["Gunner",
       "Modification",
-      "Device",
+      "Payload",
       "Talent"]
       },
       {
         name: "Planetary Sentinel",
-        xws_name: "planetarysentinel",
         id: 213,
         xws_name: "planetarysentinel",
         faction: "Galactic Empire",
@@ -6313,11 +6103,10 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Gunner",
       "Modification",
-      "Device"]
+      "Payload"]
       },
       {
         name: "Rear Admiral Chiraneau",
-        xws_name: "rearadmiralchiraneau",
         id: 214,
         xws_name: "rearadmiralchiraneau",
         unique: true,
@@ -6343,13 +6132,12 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Torpedo",
       "Modification",
-      "Device",
+      "Payload",
       "Talent",
       "Title"]
       },
       {
         name: "Captain Oicunn",
-        xws_name: "captainoicunn",
         id: 215,
         xws_name: "captainoicunn",
         unique: true,
@@ -6375,13 +6163,12 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Torpedo",
       "Modification",
-      "Device",
+      "Payload",
       "Talent",
       "Title"]
       },
       {
         name: "Patrol Leader",
-        xws_name: "patrolleader",
         id: 216,
         xws_name: "patrolleader",
         faction: "Galactic Empire",
@@ -6402,7 +6189,7 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Torpedo",
       "Modification",
-      "Device"]
+      "Payload"]
       },
       {
         name: '"Howlrunner"',
@@ -6423,7 +6210,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Iden Versio",
-        xws_name: "idenversio",
         id: 218,
         xws_name: "idenversio",
         unique: true,
@@ -6498,7 +6284,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Del Meeko",
-        xws_name: "delmeeko",
         id: 222,
         xws_name: "delmeeko",
         unique: true,
@@ -6520,7 +6305,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Gideon Hask",
-        xws_name: "gideonhask",
         id: 223,
         xws_name: "gideonhask",
         unique: true,
@@ -6543,7 +6327,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Seyn Marana",
-        xws_name: "seynmarana",
         id: 224,
         xws_name: "seynmarana",
         unique: true,
@@ -6565,7 +6348,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Valen Rudor",
-        xws_name: "valenrudor",
         id: 225,
         xws_name: "valenrudor",
         unique: true,
@@ -6598,7 +6380,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Black Squadron Ace",
-        xws_name: "blacksquadronace",
         id: 227,
         xws_name: "blacksquadronace",
         faction: "Galactic Empire",
@@ -6615,7 +6396,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Obsidian Squadron Pilot",
-        xws_name: "obsidiansquadronpilot",
         id: 228,
         xws_name: "obsidiansquadronpilot",
         faction: "Galactic Empire",
@@ -6630,7 +6410,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Academy Pilot",
-        xws_name: "academypilot",
         id: 229,
         xws_name: "academypilot",
         faction: "Galactic Empire",
@@ -6645,7 +6424,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Spice Runner",
-        xws_name: "spicerunner",
         id: 230,
         xws_name: "spicerunner",
         faction: "Scum and Villainy",
@@ -6660,11 +6438,10 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Crew",
       "Illicit",
       "Modification",
-      "Device"]
+      "Payload"]
       },
       {
         name: "Poe Dameron",
-        xws_name: "poedameron",
         id: 231,
         xws_name: "poedameron",
         unique: true,
@@ -6692,8 +6469,7 @@ exportObj.basicCardData = function() {
       "Configuration",
       "Talent",
       "Talent",
-      "Title",
-      "HardpointShip"]
+      "Title"]
       },
       {
         id: 232, // duplicate, has been removed
@@ -6748,7 +6524,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Kylo Ren",
-        xws_name: "kyloren",
         id: 236,
         xws_name: "kyloren",
         unique: true,
@@ -6773,7 +6548,7 @@ exportObj.basicCardData = function() {
       "Missile",
       "Torpedo",
       "Configuration",
-      "Force"]
+      "Force Power"]
       },
       {
         name: '"Blackout"',
@@ -6802,7 +6577,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Lieutenant Dormitz",
-        xws_name: "lieutenantdormitz",
         id: 238,
         xws_name: "lieutenantdormitz",
         unique: true,
@@ -6833,7 +6607,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "L'ulo L'ampar",
-        xws_name: "lulolampar",
         id: 239,
         xws_name: "lulolampar",
         unique: true,
@@ -6856,7 +6629,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Tallissan Lintra",
-        xws_name: "tallissanlintra",
         id: 240,
         xws_name: "tallissanlintra",
         unique: true,
@@ -6884,7 +6656,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "blanks",
-        xws_name: "blanks",
         id: 241,
         xws_name: "blanks",
         skip: true
@@ -6946,7 +6717,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Rey",
-        xws_name: "rey",
         id: 244,
         xws_name: "rey",
         unique: true,
@@ -6976,23 +6746,22 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Missile",
-      "Force",
-      "Force",
+      "Force Power",
+      "Force Power",
       "Title"]
       },
       {
         name: "Han Solo (Resistance)",
-        xws_name: "hansolo",
         id: 245,
-        xws_name: "hansolo",
+        xws_name: "hansolo-scavengedyt1300",
         unique: true,
         faction: "Resistance",
         ship: "Scavenged YT-1300",
         skill: 6,
         points: 6,
         loadout: 15,
-        pointsxwa: 16,
-        loadoutxwa: 20,
+        pointsxwa: 18,
+        loadoutxwa: 23,
         slots: ["Talent",
       "Missile",
       "Crew",
@@ -7005,18 +6774,18 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Crew",
       "Crew",
       "Gunner",
+      "Gunner",
+      "Illicit",
       "Illicit",
       "Modification",
-      "Modification",
-      "Title",
+      "Missile",
       "Talent",
-      "Talent"]
+      "Title"]
       },
       {
         name: "Chewbacca (Resistance)",
-        xws_name: "chewbacca",
         id: 246,
-        xws_name: "chewbacca",
+        xws_name: "chewbacca-scavengedyt1300",
         unique: true,
         faction: "Resistance",
         ship: "Scavenged YT-1300",
@@ -7024,7 +6793,7 @@ exportObj.basicCardData = function() {
         points: 6,
         loadout: 18,
         pointsxwa: 17,
-        loadoutxwa: 15,
+        loadoutxwa: 18,
         slots: ["Talent",
       "Talent",
       "Missile",
@@ -7040,15 +6809,14 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Gunner",
       "Illicit",
-      "Modification",
+      "Illicit",
       "Modification",
       "Missile",
-      "Title",
-      "Talent"]
+      "Talent",
+      "Title"]
       },
       {
         name: "Captain Seevor",
-        xws_name: "captainseevor",
         id: 247,
         xws_name: "captainseevor",
         unique: true,
@@ -7070,7 +6838,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Mining Guild Surveyor",
-        xws_name: "miningguildsurveyor",
         id: 248,
         xws_name: "miningguildsurveyor",
         faction: "Scum and Villainy",
@@ -7086,7 +6853,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Ahhav",
-        xws_name: "ahhav",
         id: 249,
         xws_name: "ahhav",
         unique: true,
@@ -7107,7 +6873,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Finch Dallow",
-        xws_name: "finchdallow",
         id: 250,
         xws_name: "finchdallow",
         unique: true,
@@ -7127,8 +6892,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Device",
-      "Device",
+        slotsxwa: ["Payload",
+      "Payload",
       "Crew",
       "Gunner",
       "Gunner",
@@ -7139,7 +6904,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Major Stridan",
-        xws_name: "majorstridan",
         id: 251,
         xws_name: "majorstridan",
         unique: true,
@@ -7170,7 +6934,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Kare Kun",
-        xws_name: "karekun",
         id: 252,
         xws_name: "karekun",
         unique: true,
@@ -7192,12 +6955,10 @@ exportObj.basicCardData = function() {
       "Modification",
       "Tech",
       "Configuration",
-      "Talent",
-      "HardpointShip"]
+      "Talent"]
       },
       {
         name: "Joph Seastriker",
-        xws_name: "jophseastriker",
         id: 253,
         xws_name: "jophseastriker",
         unique: true,
@@ -7217,12 +6978,10 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Astromech",
       "Modification",
       "Tech",
-      "Configuration",
-      "HardpointShip"]
+      "Configuration"]
       },
       {
         name: "Lieutenant Bastian",
-        xws_name: "lieutenantbastian",
         id: 254,
         xws_name: "lieutenantbastian",
         unique: true,
@@ -7241,12 +7000,10 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Astromech",
       "Modification",
       "Tech",
-      "Configuration",
-      "HardpointShip"]
+      "Configuration"]
       },
       {
         name: "Jaycris Tubbs",
-        xws_name: "jaycristubbs",
         id: 255,
         xws_name: "jaycristubbs",
         unique: true,
@@ -7265,12 +7022,10 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Astromech",
       "Modification",
       "Tech",
-      "Configuration",
-      "HardpointShip"]
+      "Configuration"]
       },
       {
         name: "Black Squadron Ace (T-70)",
-        xws_name: "blacksquadronace",
         id: 256,
         xws_name: "blacksquadronace-t70xwing",
         faction: "Resistance",
@@ -7286,16 +7041,15 @@ exportObj.basicCardData = function() {
       "Modification",
       "Configuration",
       "HardpointShip"],
-        slotsxwa: ["Talent",
-      "Astromech",
+        slotsxwa: ["Astromech",
       "Modification",
       "Tech",
       "Configuration",
-      "HardpointShip"]
+      "Talent",
+      "Torpedo"]
       },
       {
         name: "Red Squadron Expert",
-        xws_name: "redsquadronexpert",
         id: 257,
         xws_name: "redsquadronexpert",
         faction: "Resistance",
@@ -7315,12 +7069,10 @@ exportObj.basicCardData = function() {
       "Modification",
       "Tech",
       "Configuration",
-      "Talent",
-      "HardpointShip"]
+      "Talent"]
       },
       {
         name: "Blue Squadron Rookie",
-        xws_name: "bluesquadronrookie",
         id: 258,
         xws_name: "bluesquadronrookie",
         faction: "Resistance",
@@ -7338,12 +7090,10 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Astromech",
       "Modification",
       "Tech",
-      "Configuration",
-      "HardpointShip"]
+      "Configuration"]
       },
       {
         name: "Zeta Squadron Survivor",
-        xws_name: "zetasquadronsurvivor",
         id: 259,
         xws_name: "zetasquadronsurvivor",
         faction: "First Order",
@@ -7365,7 +7115,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Cobalt Squadron Bomber",
-        xws_name: "cobaltsquadronbomber",
         id: 260,
         xws_name: "cobaltsquadronbomber",
         faction: "Resistance",
@@ -7382,8 +7131,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Device",
-      "Device",
+        slotsxwa: ["Payload",
+      "Payload",
       "Crew",
       "Gunner",
       "Gunner",
@@ -7392,9 +7141,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "TN-3465",
-        xws_name: "tn3465",
         id: 261,
-        xws_name: "tn-3465",
+        xws_name: "tn3465",
         unique: true,
         faction: "First Order",
         ship: "TIE/fo Fighter",
@@ -7475,7 +7223,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Lieutenant Rivas",
-        xws_name: "lieutenantrivas",
         id: 265,
         xws_name: "lieutenantrivas",
         unique: true,
@@ -7495,7 +7242,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Commander Malarus",
-        xws_name: "commandermalarus",
         id: 266,
         xws_name: "commandermalarus",
         unique: true,
@@ -7521,7 +7267,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Omega Squadron Ace",
-        xws_name: "omegasquadronace",
         id: 267,
         xws_name: "omegasquadronace",
         faction: "First Order",
@@ -7542,7 +7287,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Zeta Squadron Pilot",
-        xws_name: "zetasquadronpilot",
         id: 268,
         xws_name: "zetasquadronpilot",
         faction: "First Order",
@@ -7560,7 +7304,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Epsilon Squadron Cadet",
-        xws_name: "epsilonsquadroncadet",
         id: 269,
         xws_name: "epsilonsquadroncadet",
         faction: "First Order",
@@ -7575,7 +7318,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Greer Sonnel",
-        xws_name: "greersonnel",
         id: 270,
         xws_name: "greersonnel",
         unique: true,
@@ -7597,7 +7339,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Zari Bangel",
-        xws_name: "zaribangel",
         id: 271,
         xws_name: "zaribangel",
         unique: true,
@@ -7623,7 +7364,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Darth Maul",
-        xws_name: "darthmaul",
         id: 272,
         xws_name: "darthmaul",
         unique: true,
@@ -7651,8 +7391,8 @@ exportObj.basicCardData = function() {
       "Crew",
       "Sensor",
       "Modification",
-      "Force",
-      "Force",
+      "Force Power",
+      "Force Power",
       "Torpedo",
       "Title"]
       },
@@ -7677,12 +7417,12 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force",
+        slotsxwa: ["Force Power",
       "Configuration",
       "Modification",
       "Modification",
       "Astromech",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Luminara Unduli",
@@ -7703,16 +7443,15 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force",
+        slotsxwa: ["Force Power",
       "Configuration",
       "Modification",
       "Modification",
       "Astromech",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Barriss Offee",
-        xws_name: "barrissoffee",
         id: 275,
         xws_name: "barrissoffee",
         unique: true,
@@ -7730,7 +7469,7 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force",
+        slotsxwa: ["Force Power",
       "Configuration",
       "Modification",
       "Modification",
@@ -7738,7 +7477,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Ahsoka Tano",
-        xws_name: "ahsokatano",
         id: 276,
         xws_name: "ahsokatano",
         unique: true,
@@ -7756,7 +7494,7 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force",
+        slotsxwa: ["Force Power",
       "Configuration",
       "Modification",
       "Modification",
@@ -7764,7 +7502,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Jedi Knight",
-        xws_name: "jediknight",
         id: 277,
         xws_name: "jediknight",
         faction: "Galactic Republic",
@@ -7781,7 +7518,7 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force",
+        slotsxwa: ["Force Power",
       "Configuration",
       "Modification",
       "Modification",
@@ -7789,9 +7526,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Obi-Wan Kenobi",
-        xws_name: "obiwankenobi",
         id: 278,
-        xws_name: "obi-wankenobi",
+        xws_name: "obiwankenobi",
         unique: true,
         faction: "Galactic Republic",
         ship: "Delta-7 Aethersprite",
@@ -7810,16 +7546,15 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force",
+        slotsxwa: ["Force Power",
       "Configuration",
       "Modification",
       "Modification",
       "Astromech",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Trade Federation Drone",
-        xws_name: "tradefederationdrone",
         id: 279,
         xws_name: "tradefederationdrone",
         faction: "Separatist Alliance",
@@ -7864,7 +7599,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Petty Officer Thanisson",
-        xws_name: "pettyofficerthanisson",
         id: 281,
         xws_name: "pettyofficerthanisson",
         unique: true,
@@ -7897,7 +7631,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Captain Cardinal",
-        xws_name: "captaincardinal",
         id: 282,
         xws_name: "captaincardinal",
         unique: true,
@@ -7977,7 +7710,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Omega Squadron Expert",
-        xws_name: "omegasquadronexpert",
         id: 285,
         xws_name: "omegasquadronexpert",
         faction: "First Order",
@@ -8001,9 +7733,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Sienar-Jaemus Engineer",
-        xws_name: "sienarjaemusengineer",
         id: 286,
-        xws_name: "sienar-jaemusengineer",
+        xws_name: "sienarjaemusengineer",
         faction: "First Order",
         ship: "TIE/vn Silencer",
         skill: 1,
@@ -8023,7 +7754,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "First Order Test Pilot",
-        xws_name: "firstordertestpilot",
         id: 287,
         xws_name: "firstordertestpilot",
         faction: "First Order",
@@ -8047,7 +7777,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Starkiller Base Pilot",
-        xws_name: "starkillerbasepilot",
         id: 288,
         xws_name: "starkillerbasepilot",
         faction: "First Order",
@@ -8075,7 +7804,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Lieutenant Tavson",
-        xws_name: "lieutenanttavson",
         id: 289,
         xws_name: "lieutenanttavson",
         unique: true,
@@ -8126,7 +7854,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Cat",
-        xws_name: "cat",
         id: 291,
         xws_name: "cat",
         unique: true,
@@ -8146,8 +7873,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Device",
-      "Device",
+        slotsxwa: ["Payload",
+      "Payload",
       "Crew",
       "Gunner",
       "Gunner",
@@ -8156,7 +7883,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Ben Teene",
-        xws_name: "benteene",
         id: 292,
         xws_name: "benteene",
         unique: true,
@@ -8176,8 +7902,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Device",
-      "Device",
+        slotsxwa: ["Payload",
+      "Payload",
       "Crew",
       "Gunner",
       "Gunner",
@@ -8187,7 +7913,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Edon Kappehl",
-        xws_name: "edonkappehl",
         id: 293,
         xws_name: "edonkappehl",
         unique: true,
@@ -8207,8 +7932,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Device",
-      "Device",
+        slotsxwa: ["Payload",
+      "Payload",
       "Crew",
       "Gunner",
       "Gunner",
@@ -8218,7 +7943,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Vennie",
-        xws_name: "vennie",
         id: 294,
         xws_name: "vennie",
         unique: true,
@@ -8237,8 +7961,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Device",
-      "Device",
+        slotsxwa: ["Payload",
+      "Payload",
       "Crew",
       "Gunner",
       "Gunner",
@@ -8247,7 +7971,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Resistance Sympathizer",
-        xws_name: "resistancesympathizer",
         id: 295,
         xws_name: "resistancesympathizer",
         faction: "Resistance",
@@ -8268,7 +7991,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Jessika Pava",
-        xws_name: "jessikapava",
         id: 296,
         xws_name: "jessikapava",
         unique: true,
@@ -8289,12 +8011,10 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Astromech",
       "Modification",
       "Tech",
-      "Configuration",
-      "HardpointShip"]
+      "Configuration"]
       },
       {
         name: "Temmin Wexley",
-        xws_name: "temminwexley",
         id: 297,
         xws_name: "temminwexley",
         unique: true,
@@ -8316,12 +8036,10 @@ exportObj.basicCardData = function() {
       "Modification",
       "Tech",
       "Configuration",
-      "Talent",
-      "HardpointShip"]
+      "Talent"]
       },
       {
         name: "Nien Nunb",
-        xws_name: "niennunb",
         id: 298,
         xws_name: "niennunb",
         unique: true,
@@ -8344,12 +8062,10 @@ exportObj.basicCardData = function() {
       "Tech",
       "Configuration",
       "Talent",
-      "Tech",
-      "HardpointShip"]
+      "Tech"]
       },
       {
         name: "Ello Asty",
-        xws_name: "elloasty",
         id: 299,
         xws_name: "elloasty",
         unique: true,
@@ -8371,12 +8087,10 @@ exportObj.basicCardData = function() {
       "Modification",
       "Tech",
       "Configuration",
-      "Talent",
-      "HardpointShip"]
+      "Talent"]
       },
       {
         name: "Green Squadron Expert",
-        xws_name: "greensquadronexpert",
         id: 300,
         xws_name: "greensquadronexpert",
         faction: "Resistance",
@@ -8397,7 +8111,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Blue Squadron Recruit",
-        xws_name: "bluesquadronrecruit",
         id: 301,
         xws_name: "bluesquadronrecruit",
         faction: "Resistance",
@@ -8416,7 +8129,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Foreman Proach",
-        xws_name: "foremanproach",
         id: 302,
         xws_name: "foremanproach",
         unique: true,
@@ -8437,7 +8149,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Overseer Yushyn",
-        xws_name: "overseeryushyn",
         id: 303,
         xws_name: "overseeryushyn",
         unique: true,
@@ -8458,7 +8169,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Mining Guild Sentry",
-        xws_name: "miningguildsentry",
         id: 304,
         xws_name: "miningguildsentry",
         faction: "Scum and Villainy",
@@ -8474,7 +8184,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "General Grievous",
-        xws_name: "generalgrievous",
         id: 305,
         xws_name: "generalgrievous",
         faction: "Separatist Alliance",
@@ -8497,7 +8206,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Wat Tambor",
-        xws_name: "wattambor",
         id: 306,
         xws_name: "wattambor",
         faction: "Separatist Alliance",
@@ -8519,7 +8227,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Feethan Ottraw Autopilot",
-        xws_name: "feethanottrawautopilot",
         id: 307,
         xws_name: "feethanottrawautopilot",
         faction: "Separatist Alliance",
@@ -8538,7 +8245,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Captain Sear",
-        xws_name: "captainsear",
         id: 308,
         xws_name: "captainsear",
         faction: "Separatist Alliance",
@@ -8558,7 +8264,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Precise Hunter",
-        xws_name: "precisehunter",
         id: 309,
         xws_name: "precisehunter",
         faction: "Separatist Alliance",
@@ -8578,7 +8283,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Haor Chall Prototype",
-        xws_name: "haorchallprototype",
         id: 310,
         xws_name: "haorchallprototype",
         faction: "Separatist Alliance",
@@ -8599,9 +8303,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "DFS-081",
-        xws_name: "dfs081",
         id: 311,
-        xws_name: "dfs-081",
+        xws_name: "dfs081",
         faction: "Separatist Alliance",
         ship: "Vulture-class Droid Fighter",
         skill: 3,
@@ -8620,7 +8323,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Plo Koon",
-        xws_name: "plokoon",
         id: 312,
         xws_name: "plokoon",
         unique: true,
@@ -8639,16 +8341,15 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force",
+        slotsxwa: ["Force Power",
       "Configuration",
       "Modification",
       "Modification",
       "Astromech",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Saesee Tiin",
-        xws_name: "saeseetiin",
         id: 313,
         xws_name: "saeseetiin",
         unique: true,
@@ -8666,16 +8367,15 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force",
+        slotsxwa: ["Force Power",
       "Configuration",
       "Modification",
       "Modification",
       "Astromech",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Mace Windu",
-        xws_name: "macewindu",
         id: 314,
         xws_name: "macewindu",
         unique: true,
@@ -8694,12 +8394,12 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force",
+        slotsxwa: ["Force Power",
       "Configuration",
       "Modification",
       "Modification",
       "Astromech",
-      "Force"]
+      "Force Power"]
       },
       {
         name: '"Kickback"',
@@ -8810,7 +8510,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Blue Squadron Protector",
-        xws_name: "bluesquadronprotector",
         id: 320,
         xws_name: "bluesquadronprotector",
         faction: "Galactic Republic",
@@ -8830,7 +8529,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Gold Squadron Trooper",
-        xws_name: "goldsquadrontrooper",
         id: 321,
         xws_name: "goldsquadrontrooper",
         faction: "Galactic Republic",
@@ -8866,16 +8564,15 @@ exportObj.basicCardData = function() {
       "Sensor",
       "Torpedo",
       "Astromech"],
-        slotsxwa: ["Force",
-      "Talent",
+        slotsxwa: ["Talent",
       "Astromech",
+      "Modification",
+      "Torpedo",
       "Sensor",
-      "Modifcation",
-      "Torpedo"]
+      "Force Power"]
       },
       {
         name: "Bravo Flight Officer",
-        xws_name: "bravoflightofficer",
         id: 323,
         xws_name: "bravoflightofficer",
         faction: "Galactic Republic",
@@ -8896,7 +8593,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Techno Union Bomber",
-        xws_name: "technounionbomber",
         id: 324,
         xws_name: "technounionbomber",
         faction: "Separatist Alliance",
@@ -8912,13 +8608,12 @@ exportObj.basicCardData = function() {
       "Modification",
       "Configuration"],
         slotsxwa: ["Modification",
-      "Device",
+      "Payload",
       "Configuration",
       "Torpedo"]
       },
       {
         name: "Bombardment Drone",
-        xws_name: "bombardmentdrone",
         id: 325,
         xws_name: "bombardmentdrone",
         faction: "Separatist Alliance",
@@ -8935,15 +8630,14 @@ exportObj.basicCardData = function() {
       "Modification",
       "Configuration"],
         slotsxwa: ["Modification",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Configuration"]
       },
       {
         name: "DBS-404",
-        xws_name: "dbs404",
         id: 326,
-        xws_name: "dbs-404",
+        xws_name: "dbs404",
         unique: true,
         faction: "Separatist Alliance",
         ship: "Hyena-class Droid Bomber",
@@ -8959,13 +8653,12 @@ exportObj.basicCardData = function() {
       "Modification",
       "Configuration"],
         slotsxwa: ["Modification",
-      "Device",
+      "Payload",
       "Configuration",
       "Torpedo"]
       },
       {
         name: "Separatist Bomber",
-        xws_name: "separatistbomber",
         id: 327,
         xws_name: "separatistbomber",
         faction: "Separatist Alliance",
@@ -8981,15 +8674,14 @@ exportObj.basicCardData = function() {
       "Modification",
       "Configuration"],
         slotsxwa: ["Modification",
-      "Device",
+      "Payload",
       "Configuration",
       "Missile"]
       },
       {
         name: "DBS-32C",
-        xws_name: "dbs32c",
         id: 328,
-        xws_name: "dbs-32c",
+        xws_name: "dbs32c",
         unique: true,
         faction: "Separatist Alliance",
         ship: "Hyena-class Droid Bomber",
@@ -9004,7 +8696,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Configuration"],
         slotsxwa: ["Modification",
-      "Device",
+      "Payload",
       "Configuration",
       "Missile",
       "Tactical Relay",
@@ -9019,7 +8711,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Baktoid Prototype",
-        xws_name: "baktoidprototype",
         id: 329,
         xws_name: "baktoidprototype",
         max_per_squad: 2,
@@ -9037,14 +8728,13 @@ exportObj.basicCardData = function() {
       "Modification",
       "Configuration"],
         slotsxwa: ["Modification",
-      "Device",
+      "Payload",
       "Configuration",
       "Missile",
       "Missile"]
       },
       {
         name: "Naboo Handmaiden",
-        xws_name: "naboohandmaiden",
         id: 330,
         xws_name: "naboohandmaiden",
         max_per_squad: 2,
@@ -9067,9 +8757,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Dineé Ellberger",
-        xws_name: "dineeellberger",
         id: 331,
-        xws_name: "dineéellberger",
+        xws_name: "dineeellberger",
         xws: "dineeellberger",
         unique: true,
         faction: "Galactic Republic",
@@ -9091,9 +8780,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Padmé Amidala",
-        xws_name: "padmeamidala",
         id: 332,
-        xws_name: "padméamidala",
+        xws_name: "padmeamidala",
         xws: "padmeamidala",
         unique: true,
         faction: "Galactic Republic",
@@ -9115,9 +8803,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Ric Olié",
-        xws_name: "ricolie",
         id: 333,
-        xws_name: "ricolié",
+        xws_name: "ricolie",
         xws: "ricolie",
         unique: true,
         faction: "Galactic Republic",
@@ -9141,7 +8828,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Count Dooku",
-        xws_name: "countdooku",
         id: 334,
         xws_name: "countdooku",
         unique: true,
@@ -9168,15 +8854,14 @@ exportObj.basicCardData = function() {
       "Crew",
       "Sensor",
       "Modification",
-      "Force",
-      "Force",
+      "Force Power",
+      "Force Power",
       "Title"]
       },
       {
         name: "0-66",
-        xws_name: "066",
         id: 335,
-        xws_name: "0-66",
+        xws_name: "066",
         unique: true,
         faction: "Separatist Alliance",
         ship: "Sith Infiltrator",
@@ -9202,7 +8887,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Dark Courier",
-        xws_name: "darkcourier",
         id: 336,
         xws_name: "darkcourier",
         faction: "Separatist Alliance",
@@ -9223,9 +8907,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "DFS-311",
-        xws_name: "dfs311",
         id: 337,
-        xws_name: "dfs-311",
+        xws_name: "dfs311",
         faction: "Separatist Alliance",
         ship: "Vulture-class Droid Fighter",
         skill: 1,
@@ -9247,15 +8930,15 @@ exportObj.basicCardData = function() {
       {
         name: '"Odd Ball" (ARC-170)',
         id: 338,
-        xws_name: "oddball",
+        xws_name: "oddball-arc170starfighter",
         unique: true,
         faction: "Galactic Republic",
         ship: "ARC-170 Starfighter",
         skill: 5,
         points: 4,
         loadout: 7,
-        pointsxwa: 9,
-        loadoutxwa: 16,
+        pointsxwa: 12,
+        loadoutxwa: 12,
         keyword: ["Clone"],
         slots: ["Talent",
       "Sensor",
@@ -9265,9 +8948,11 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Missile",
+        slotsxwa: ["Astromech",
+      "Gunner",
+      "Gunner",
       "Modification",
-      "Modification",
+      "Torpedo",
       "Talent"]
       },
       {
@@ -9298,7 +8983,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Squad Seven Veteran",
-        xws_name: "squadsevenveteran",
         id: 340,
         xws_name: "squadsevenveteran",
         faction: "Galactic Republic",
@@ -9323,7 +9007,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "104th Battalion Pilot",
-        xws_name: "104thbattalionpilot",
         id: 341,
         xws_name: "104thbattalionpilot",
         faction: "Galactic Republic",
@@ -9374,7 +9057,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Separatist Drone",
-        xws_name: "separatistdrone",
         id: 343,
         xws_name: "separatistdrone",
         faction: "Separatist Alliance",
@@ -9394,7 +9076,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Skakoan Ace",
-        xws_name: "skakoanace",
         id: 344,
         xws_name: "skakoanace",
         faction: "Separatist Alliance",
@@ -9413,7 +9094,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Rose Tico",
-        xws_name: "rosetico",
         id: 345,
         xws_name: "rosetico",
         unique: true,
@@ -9436,7 +9116,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Logistics Division Pilot",
-        xws_name: "logisticsdivisionpilot",
         id: 346,
         xws_name: "logisticsdivisionpilot",
         faction: "Resistance",
@@ -9461,7 +9140,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Pammich Nerro Goode",
-        xws_name: "pammichnerrogoode",
         id: 347,
         xws_name: "pammichnerrogoode",
         unique: true,
@@ -9492,7 +9170,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Vi Moradi",
-        xws_name: "vimoradi",
         id: 348,
         xws_name: "vimoradi",
         unique: true,
@@ -9513,9 +9190,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "BB-8",
-        xws_name: "bb8",
         id: 349,
-        xws_name: "bb-8",
+        xws_name: "bb8",
         unique: true,
         faction: "Resistance",
         ship: "Resistance Transport Pod",
@@ -9535,7 +9211,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Finn",
-        xws_name: "finn",
         id: 350,
         xws_name: "finn",
         unique: true,
@@ -9558,7 +9233,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Cova Nell",
-        xws_name: "covanell",
         id: 351,
         xws_name: "covanell",
         unique: true,
@@ -9590,7 +9264,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Nodin Chavdri",
-        xws_name: "nodinchavdri",
         id: 352,
         xws_name: "nodinchavdri",
         unique: true,
@@ -9619,7 +9292,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Stalgasin Hive Guard",
-        xws_name: "stalgasinhiveguard",
         id: 353,
         xws_name: "stalgasinhiveguard",
         faction: "Separatist Alliance",
@@ -9636,7 +9308,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Petranaki Arena Ace",
-        xws_name: "petranakiarenaace",
         id: 354,
         xws_name: "petranakiarenaace",
         faction: "Separatist Alliance",
@@ -9655,7 +9326,6 @@ exportObj.basicCardData = function() {
       {
         name: "Gorgol",
         unique: true,
-        xws_name: "gorgol",
         id: 355,
         xws_name: "gorgol",
         faction: "Separatist Alliance",
@@ -9674,7 +9344,6 @@ exportObj.basicCardData = function() {
       {
         name: "Chertek",
         unique: true,
-        xws_name: "chertek",
         id: 356,
         xws_name: "chertek",
         faction: "Separatist Alliance",
@@ -9694,7 +9363,6 @@ exportObj.basicCardData = function() {
       {
         name: "Sun Fac",
         unique: true,
-        xws_name: "sunfac",
         id: 357,
         xws_name: "sunfac",
         faction: "Separatist Alliance",
@@ -9717,7 +9385,6 @@ exportObj.basicCardData = function() {
       {
         name: "Berwer Kret",
         unique: true,
-        xws_name: "berwerkret",
         id: 358,
         xws_name: "berwerkret",
         faction: "Separatist Alliance",
@@ -9756,18 +9423,17 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Device",
       "Modification"],
-        slotsxwa: ["Force",
-      "Force",
-      "Astromech",
+        slotsxwa: ["Astromech",
       "Gunner",
       "Modification",
-      "Device",
+      "Payload",
+      "Torpedo",
       "Turret",
-      "Torpedo"]
+      "Force Power",
+      "Force Power"]
       },
       {
         name: "Shadow Squadron Veteran",
-        xws_name: "shadowsquadronveteran",
         id: 360,
         xws_name: "shadowsquadronveteran",
         faction: "Galactic Republic",
@@ -9787,14 +9453,13 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Astromech",
       "Gunner",
       "Modification",
-      "Device",
+      "Payload",
       "Torpedo",
       "Turret",
       "Talent"]
       },
       {
         name: "Red Squadron Bomber",
-        xws_name: "redsquadronbomber",
         id: 361,
         xws_name: "redsquadronbomber",
         faction: "Galactic Republic",
@@ -9813,15 +9478,14 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Astromech",
       "Gunner",
       "Modification",
-      "Device",
+      "Payload",
       "Torpedo",
       "Turret"]
       },
       {
         name: "R2-D2",
-        xws_name: "r2d2",
         id: 362,
-        xws_name: "r2-d2",
+        xws_name: "r2d2",
         unique: true,
         faction: "Galactic Republic",
         ship: "BTL-B Y-wing",
@@ -9840,7 +9504,7 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Gunner",
       "Modification",
-      "Device",
+      "Payload",
       "Torpedo",
       "Turret",
       "Crew"]
@@ -9869,7 +9533,7 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Astromech",
       "Gunner",
       "Modification",
-      "Device",
+      "Payload",
       "Torpedo",
       "Turret"]
       },
@@ -9894,7 +9558,7 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Astromech",
       "Gunner",
       "Modification",
-      "Device",
+      "Payload",
       "Torpedo",
       "Turret"]
       },
@@ -9919,7 +9583,7 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Astromech",
       "Gunner",
       "Modification",
-      "Device",
+      "Payload",
       "Torpedo",
       "Turret",
       "Talent"]
@@ -9927,15 +9591,15 @@ exportObj.basicCardData = function() {
       {
         name: '"Odd Ball" (Y-Wing)',
         id: 366,
-        xws_name: "oddball",
+        xws_name: "oddball-btlbywing",
         unique: true,
         faction: "Galactic Republic",
         ship: "BTL-B Y-wing",
         skill: 5,
         points: 4,
         loadout: 18,
-        pointsxwa: 9,
-        loadoutxwa: 16,
+        pointsxwa: 11,
+        loadoutxwa: 19,
         keyword: ["Clone"],
         slots: ["Talent",
       "Turret",
@@ -9944,14 +9608,16 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Missile",
+        slotsxwa: ["Astromech",
+      "Gunner",
       "Modification",
-      "Modification",
+      "Payload",
+      "Torpedo",
+      "Turret",
       "Talent"]
       },
       {
         name: "Republic Judiciary",
-        xws_name: "republicjudiciary",
         id: 367,
         xws_name: "republicjudiciary",
         faction: "Galactic Republic",
@@ -9983,7 +9649,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Alderaanian Guard",
-        xws_name: "alderaanianguard",
         id: 368,
         xws_name: "alderaanianguard",
         faction: "Rebel Alliance",
@@ -10017,7 +9682,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Outer Rim Patrol",
-        xws_name: "outerrimpatrol",
         id: 369,
         xws_name: "outerrimpatrol",
         faction: "Galactic Empire",
@@ -10053,7 +9717,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "First Order Collaborators",
-        xws_name: "firstordercollaborators",
         id: 370,
         xws_name: "firstordercollaborators",
         faction: "First Order",
@@ -10087,7 +9750,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Echo Base Evacuees",
-        xws_name: "echobaseevacuees",
         id: 371,
         xws_name: "echobaseevacuees",
         faction: "Rebel Alliance",
@@ -10119,7 +9781,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "New Republic Volunteers",
-        xws_name: "newrepublicvolunteers",
         id: 372,
         xws_name: "newrepublicvolunteers",
         faction: "Resistance",
@@ -10149,7 +9810,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Outer Rim Garrison",
-        xws_name: "outerrimgarrison",
         id: 373,
         xws_name: "outerrimgarrison",
         faction: "Galactic Empire",
@@ -10181,7 +9841,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "First Order Sympathizers",
-        xws_name: "firstordersympathizers",
         id: 374,
         xws_name: "firstordersympathizers",
         faction: "First Order",
@@ -10211,7 +9870,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Separatist Privateers",
-        xws_name: "separatistprivateers",
         id: 375,
         xws_name: "separatistprivateers",
         faction: "Separatist Alliance",
@@ -10238,12 +9896,11 @@ exportObj.basicCardData = function() {
       "Tactical Relay",
       "Team",
       "Cargo",
-      "Device",
+      "Payload",
       "Configuration"]
       },
       {
         name: "Syndicate Smugglers",
-        xws_name: "syndicatesmugglers",
         id: 376,
         xws_name: "syndicatesmugglers",
         faction: "Scum and Villainy",
@@ -10270,14 +9927,13 @@ exportObj.basicCardData = function() {
       "Crew",
       "Team",
       "Cargo",
-      "Device",
+      "Payload",
       "Illicit",
       "Title",
       "Configuration"]
       },
       {
         name: "Jarek Yeager",
-        xws_name: "jarekyeager",
         id: 377,
         xws_name: "jarekyeager",
         faction: "Resistance",
@@ -10306,7 +9962,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Kazuda Xiono",
-        xws_name: "kazudaxiono",
         id: 378,
         xws_name: "kazudaxiono",
         faction: "Resistance",
@@ -10334,9 +9989,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "R1-J5",
-        xws_name: "r1j5",
         id: 379,
-        xws_name: "r1-j5",
+        xws_name: "r1j5",
         faction: "Resistance",
         unique: true,
         ship: "Fireball",
@@ -10358,7 +10012,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Colossus Station Mechanic",
-        xws_name: "colossusstationmechanic",
         id: 380,
         xws_name: "colossusstationmechanic",
         faction: "Resistance",
@@ -10377,7 +10030,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Major Vonreg",
-        xws_name: "majorvonreg",
         id: 381,
         xws_name: "majorvonreg",
         faction: "First Order",
@@ -10450,7 +10102,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "First Order Provocateur",
-        xws_name: "firstorderprovocateur",
         id: 384,
         xws_name: "firstorderprovocateur",
         faction: "First Order",
@@ -10469,7 +10120,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Captain Phasma",
-        xws_name: "captainphasma",
         id: 385,
         xws_name: "captainphasma",
         faction: "First Order",
@@ -10519,7 +10169,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Zizi Tlo",
-        xws_name: "zizitlo",
         id: 387,
         xws_name: "zizitlo",
         faction: "Resistance",
@@ -10546,7 +10195,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Ronith Blario",
-        xws_name: "ronithblario",
         id: 388,
         xws_name: "ronithblario",
         faction: "Resistance",
@@ -10568,7 +10216,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Paige Tico",
-        xws_name: "paigetico",
         id: 389,
         xws_name: "paigetico",
         faction: "Resistance",
@@ -10589,8 +10236,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Device",
-      "Device",
+        slotsxwa: ["Payload",
+      "Payload",
       "Crew",
       "Gunner",
       "Gunner",
@@ -10602,9 +10249,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "K-2SO",
-        xws_name: "k2so",
         id: 390,
-        xws_name: "k-2so",
+        xws_name: "k2so",
         faction: "Rebel Alliance",
         unique: true,
         skill: 3,
@@ -10627,7 +10273,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Gina Moonsong",
-        xws_name: "ginamoonsong",
         id: 391,
         xws_name: "ginamoonsong",
         faction: "Rebel Alliance",
@@ -10657,7 +10302,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Alexsandr Kallus",
-        xws_name: "alexsandrkallus",
         id: 392,
         xws_name: "alexsandrkallus",
         faction: "Rebel Alliance",
@@ -10690,7 +10334,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Leia Organa",
-        xws_name: "leiaorgana",
         id: 393,
         xws_name: "leiaorgana",
         faction: "Rebel Alliance",
@@ -10720,11 +10363,10 @@ exportObj.basicCardData = function() {
       "Modification",
       "Missile",
       "Title",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Fifth Brother",
-        xws_name: "fifthbrother",
         id: 394,
         xws_name: "fifthbrother",
         faction: "Galactic Empire",
@@ -10744,7 +10386,7 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Missile",
       "Sensor",
       "Modification",
-      "Force"]
+      "Force Power"]
       },
       {
         name: '"Vagabond"',
@@ -10765,11 +10407,10 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Gunner",
       "Modification",
-      "Device"]
+      "Payload"]
       },
       {
         name: "Morna Kee",
-        xws_name: "mornakee",
         id: 396,
         xws_name: "mornakee",
         faction: "Galactic Empire",
@@ -10796,13 +10437,12 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Torpedo",
       "Modification",
-      "Device",
+      "Payload",
       "Talent",
       "Title"]
       },
       {
         name: "Lieutenant LeHuse",
-        xws_name: "lieutenantlehuse",
         id: 397,
         xws_name: "lieutenantlehuse",
         faction: "First Order",
@@ -10830,17 +10470,16 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Bossk (Z-95 Headhunter)",
-        xws_name: "bossk",
         id: 398,
-        xws_name: "bossk",
+        xws_name: "bossk-z95af4headhunter",
         faction: "Scum and Villainy",
         unique: true,
         skill: 4,
         ship: "Z-95-AF4 Headhunter",
         points: 2,
         loadout: 3,
-        pointsxwa: 16,
-        loadoutxwa: 18,
+        pointsxwa: 8,
+        loadoutxwa: 11,
         keyword: ["Bounty Hunter"],
         chassis: "Pursuit Craft",
         slots: ["Talent",
@@ -10848,15 +10487,10 @@ exportObj.basicCardData = function() {
       "Missile",
       "Illicit",
       "Modification"],
-        slotsxwa: ["Crew",
-      "Crew",
+        slotsxwa: ["Talent",
       "Illicit",
       "Modification",
-      "Cannon",
-      "Missile",
-      "Talent",
-      "Title",
-      "Gunner"]
+      "Missile"]
       },
       {
         name: "G4R-GOR V/M",
@@ -10873,12 +10507,11 @@ exportObj.basicCardData = function() {
         keyword: ["Droid"],
         slots: ["Modification",
       "HardpointShip"],
-        slotsxwa: ["Modification",
-      "HardpointShip"]
+        slotsxwa: ["Hardpoint",
+      "Modification"]
       },
       {
         name: "Nom Lumb",
-        xws_name: "nomlumb",
         id: 400,
         xws_name: "nomlumb",
         faction: "Scum and Villainy",
@@ -10905,7 +10538,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "First Order Courier",
-        xws_name: "firstordercourier",
         id: 401,
         xws_name: "firstordercourier",
         faction: "First Order",
@@ -10927,7 +10559,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Agent Terex",
-        xws_name: "agentterex",
         id: 402,
         xws_name: "agentterex",
         faction: "First Order",
@@ -10957,9 +10588,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Gideon Hask (Xi Shuttle)",
-        xws_name: "gideonhask",
         id: 403,
-        xws_name: "gideonhask",
+        xws_name: "gideonhask-xiclasslightshuttle",
         faction: "First Order",
         unique: true,
         skill: 4,
@@ -10967,7 +10597,7 @@ exportObj.basicCardData = function() {
         points: 4,
         loadout: 15,
         pointsxwa: 9,
-        loadoutxwa: 16,
+        loadoutxwa: 8,
         slots: ["Talent",
       "Talent",
       "Tech",
@@ -10975,17 +10605,16 @@ exportObj.basicCardData = function() {
       "Crew",
       "Crew",
       "Modification"],
-        slotsxwa: ["Modification",
-      "Talent",
-      "Missile",
-      "Modification",
-      "Sensor"]
+        slotsxwa: ["Tech",
+      "Tech",
+      "Crew",
+      "Crew",
+      "Modification"]
       },
       {
         name: "Commander Malarus (Xi Shuttle)",
-        xws_name: "commandermalarus",
         id: 404,
-        xws_name: "commandermalarus",
+        xws_name: "commandermalarus-xiclasslightshuttle",
         faction: "First Order",
         unique: true,
         skill: 5,
@@ -10993,7 +10622,7 @@ exportObj.basicCardData = function() {
         points: 4,
         loadout: 15,
         pointsxwa: 10,
-        loadoutxwa: 15,
+        loadoutxwa: 10,
         slots: ["Talent",
       "Tech",
       "Tech",
@@ -11001,16 +10630,15 @@ exportObj.basicCardData = function() {
       "Crew",
       "Modification",
       "Modification"],
-        slotsxwa: ["Sensor",
+        slotsxwa: ["Tech",
       "Tech",
+      "Crew",
+      "Crew",
       "Modification",
-      "Talent",
-      "Missile",
-      "Modification"]
+      "Talent"]
       },
       {
         name: "Baktoid Drone",
-        xws_name: "baktoiddrone",
         id: 405,
         xws_name: "baktoiddrone",
         faction: "Separatist Alliance",
@@ -11028,12 +10656,11 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Missile",
       "Missile",
       "Modification",
-      "Device",
+      "Payload",
       "Configuration"]
       },
       {
         name: "TransGalMeg Control Link",
-        xws_name: "transgalmegcontrollink",
         id: 406,
         xws_name: "transgalmegcontrollink",
         faction: "Galactic Republic",
@@ -11047,7 +10674,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Separatist Predator",
-        xws_name: "separatistpredator",
         id: 407,
         xws_name: "separatistpredator",
         faction: "Separatist Alliance",
@@ -11066,12 +10692,11 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Missile",
       "Missile",
       "Modification",
-      "Device",
+      "Payload",
       "Configuration"]
       },
       {
         name: "Geonosian Prototype",
-        xws_name: "geonosianprototype",
         id: 408,
         xws_name: "geonosianprototype",
         faction: "Separatist Alliance",
@@ -11091,16 +10716,15 @@ exportObj.basicCardData = function() {
       "Modification",
       "Configuration"],
         slotsxwa: ["Modification",
-      "Device",
+      "Payload",
       "Configuration",
       "Cannon",
       "Cannon"]
       },
       {
         name: "DGS-047",
-        xws_name: "dgs047",
         id: 409,
-        xws_name: "dgs-047",
+        xws_name: "dgs047",
         faction: "Separatist Alliance",
         skill: 1,
         unique: true,
@@ -11120,15 +10744,14 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Missile",
       "Missile",
       "Modification",
-      "Device",
+      "Payload",
       "Configuration",
       "Tactical Relay"]
       },
       {
         name: "DGS-286",
-        xws_name: "dgs286",
         id: 410,
-        xws_name: "dgs-286",
+        xws_name: "dgs286",
         faction: "Separatist Alliance",
         skill: 3,
         unique: true,
@@ -11148,14 +10771,13 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Missile",
       "Missile",
       "Modification",
-      "Device",
+      "Payload",
       "Configuration",
       "Tactical Relay",
       "Torpedo"]
       },
       {
         name: "Onderon Oppressor",
-        xws_name: "onderonoppressor",
         id: 411,
         xws_name: "onderonoppressor",
         faction: "Separatist Alliance",
@@ -11176,12 +10798,11 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Missile",
       "Missile",
       "Modification",
-      "Device",
+      "Payload",
       "Configuration"]
       },
       {
         name: "212th Battalion Pilot",
-        xws_name: "212thbattalionpilot",
         id: 412,
         xws_name: "212thbattalionpilot",
         faction: "Galactic Republic",
@@ -11306,7 +10927,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Carida Academy Cadet",
-        xws_name: "caridaacademycadet",
         id: 416,
         xws_name: "caridaacademycadet",
         faction: "Galactic Empire",
@@ -11327,7 +10947,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Onyx Squadron Sentry",
-        xws_name: "onyxsquadronsentry",
         id: 417,
         xws_name: "onyxsquadronsentry",
         faction: "Galactic Empire",
@@ -11350,7 +10969,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Lyttan Dree",
-        xws_name: "lyttandree",
         id: 418,
         xws_name: "lyttandree",
         faction: "Galactic Empire",
@@ -11400,7 +11018,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Fearsome Predator",
-        xws_name: "fearsomepredator",
         id: 420,
         xws_name: "fearsomepredator",
         faction: "Separatist Alliance",
@@ -11428,9 +11045,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "DIS-347",
-        xws_name: "dis347",
         id: 421,
-        xws_name: "dis-347",
+        xws_name: "dis347",
         faction: "Separatist Alliance",
         skill: 3,
         unique: true,
@@ -11455,9 +11071,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "DIS-T81",
-        xws_name: "dist81",
         id: 422,
-        xws_name: "dis-t81",
+        xws_name: "dist81",
         faction: "Separatist Alliance",
         skill: 4,
         unique: true,
@@ -11482,9 +11097,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Phlac-Arphocc Prototype",
-        xws_name: "phlacarphoccprototype",
         id: 423,
-        xws_name: "phlac-arphoccprototype",
+        xws_name: "phlacarphoccprototype",
         faction: "Separatist Alliance",
         skill: 5,
         max_per_squad: 2,
@@ -11509,7 +11123,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Colicoid Interceptor",
-        xws_name: "colicoidinterceptor",
         id: 424,
         xws_name: "colicoidinterceptor",
         faction: "Separatist Alliance",
@@ -11531,7 +11144,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Separatist Interceptor",
-        xws_name: "separatistinterceptor",
         id: 425,
         xws_name: "separatistinterceptor",
         faction: "Separatist Alliance",
@@ -11555,7 +11167,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Separatist Racketeer",
-        xws_name: "separatistracketeer",
         id: 426,
         xws_name: "separatistracketeer",
         faction: "Separatist Alliance",
@@ -11573,21 +11184,20 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Missile",
       "Modification",
-      "Device"]
+      "Payload"]
       },
       {
         name: "Boba Fett (Separatist)",
-        xws_name: "bobafett",
         id: 427,
-        xws_name: "bobafett",
+        xws_name: "bobafett-firesprayclasspatrolcraft",
         faction: "Separatist Alliance",
         unique: true,
         skill: 3,
         ship: "Firespray-class Patrol Craft",
         points: 7,
         loadout: 16,
-        pointsxwa: 20,
-        loadoutxwa: 20,
+        pointsxwa: 16,
+        loadoutxwa: 9,
         keyword: ["Bounty Hunter"],
         slots: ["Cannon",
       "Missile",
@@ -11601,14 +11211,11 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Missile",
       "Modification",
-      "Device",
-      "Title",
-      "Talent",
-      "Modification"]
+      "Payload",
+      "Title"]
       },
       {
         name: "Zam Wesell",
-        xws_name: "zamwesell",
         id: 428,
         xws_name: "zamwesell",
         faction: "Separatist Alliance",
@@ -11634,7 +11241,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Missile",
       "Modification",
-      "Device",
+      "Payload",
       "Title",
       "Talent"],
         applies_condition: [`You'd Better Mean Business`.canonicalize(),
@@ -11642,7 +11249,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Jango Fett",
-        xws_name: "jangofett",
         id: 429,
         xws_name: "jangofett",
         faction: "Separatist Alliance",
@@ -11668,13 +11274,12 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Missile",
       "Modification",
-      "Device",
+      "Payload",
       "Title",
       "Talent"]
       },
       {
         name: "Loyalist Volunteer",
-        xws_name: "loyalistvolunteer",
         id: 430,
         xws_name: "loyalistvolunteer",
         faction: "Galactic Republic",
@@ -11692,7 +11297,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Shadow Squadron Escort",
-        xws_name: "shadowsquadronescort",
         id: 431,
         xws_name: "shadowsquadronescort",
         faction: "Galactic Republic",
@@ -11712,7 +11316,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Wilhuff Tarkin",
-        xws_name: "wilhufftarkin",
         id: 432,
         xws_name: "wilhufftarkin",
         faction: "Galactic Republic",
@@ -11780,29 +11383,28 @@ exportObj.basicCardData = function() {
       {
         name: '"Odd Ball" (V-wing)',
         id: 435,
-        xws_name: "oddball",
+        xws_name: "oddball-nimbusclassvwing",
         faction: "Galactic Republic",
         skill: 5,
         unique: true,
         ship: "Nimbus-class V-wing",
         points: 3,
         loadout: 9,
-        pointsxwa: 9,
-        loadoutxwa: 16,
+        pointsxwa: 10,
+        loadoutxwa: 12,
         keyword: ["Clone"],
         slots: ["Talent",
       "Torpedo",
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Missile",
-      "Modification",
+        slotsxwa: ["Astromech",
+      "Configuration",
       "Modification",
       "Talent"]
       },
       {
         name: "Jedi General",
-        xws_name: "jedigeneral",
         id: 436,
         xws_name: "jedigeneral",
         faction: "Galactic Republic",
@@ -11820,14 +11422,13 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification"],
         slotsxwa: ["Talent",
-      "Force",
+      "Force Power",
       "Astromech",
       "Cannon",
       "Modification"]
       },
       {
         name: "Yoda",
-        xws_name: "yoda",
         id: 437,
         xws_name: "yoda",
         faction: "Galactic Republic",
@@ -11847,15 +11448,14 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification"],
         slotsxwa: ["Talent",
-      "Force",
+      "Force Power",
       "Astromech",
       "Cannon",
       "Modification",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Shaak Ti",
-        xws_name: "shaakti",
         id: 438,
         xws_name: "shaakti",
         faction: "Galactic Republic",
@@ -11876,11 +11476,11 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification"],
         slotsxwa: ["Talent",
-      "Force",
+      "Force Power",
       "Astromech",
       "Cannon",
       "Modification",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Aayla Secura",
@@ -11904,16 +11504,16 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification"],
         slotsxwa: ["Talent",
-      "Force",
+      "Force Power",
       "Astromech",
       "Cannon",
       "Modification",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Obi-Wan Kenobi (Eta-2)",
         id: 440,
-        xws_name: "obiwankenobi-eta2actisinterceptor",
+        xws_name: "obiwankenobi-eta2actis",
         faction: "Galactic Republic",
         skill: 5,
         unique: true,
@@ -11931,17 +11531,17 @@ exportObj.basicCardData = function() {
       "Cannon",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force",
-      "Force",
-      "Talent",
+        slotsxwa: ["Talent",
+      "Force Power",
       "Astromech",
+      "Cannon",
       "Modification",
-      "Cannon"]
+      "Force Power"]
       },
       {
         name: "Anakin Skywalker (Eta-2)",
         id: 441,
-        xws_name: "anakinskywalker-eta2actisinterceptor",
+        xws_name: "anakinskywalker-eta2actis",
         faction: "Galactic Republic",
         skill: 6,
         unique: true,
@@ -11960,12 +11560,12 @@ exportObj.basicCardData = function() {
       "Cannon",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force",
-      "Force",
-      "Talent",
+        slotsxwa: ["Talent",
+      "Force Power",
       "Astromech",
+      "Cannon",
       "Modification",
-      "Cannon"]
+      "Force Power"]
       },
       {
         name: "Poe Dameron (HoH)",
@@ -11995,9 +11595,7 @@ exportObj.basicCardData = function() {
       "Tech",
       "Configuration",
       "Talent",
-      "Talent",
-      "Title",
-      "HardpointShip"]
+      "Sensor"]
       },
       {
         name: "Temmin Wexley (HoH)",
@@ -12023,12 +11621,10 @@ exportObj.basicCardData = function() {
       "Modification",
       "Tech",
       "Configuration",
-      "Talent",
-      "HardpointShip"]
+      "Talent"]
       },
       {
         name: "Merl Cobben",
-        xws_name: "merlcobben",
         id: 444,
         xws_name: "merlcobben",
         faction: "Resistance",
@@ -12050,7 +11646,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Suralinda Javos",
-        xws_name: "suralindajavos",
         id: 445,
         xws_name: "suralindajavos",
         faction: "Resistance",
@@ -12073,7 +11668,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Wrobie Tyce",
-        xws_name: "wrobietyce",
         id: 446,
         xws_name: "wrobietyce",
         faction: "Resistance",
@@ -12095,7 +11689,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Seftin Vanik",
-        xws_name: "seftinvanik",
         id: 447,
         xws_name: "seftinvanik",
         faction: "Resistance",
@@ -12119,7 +11712,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Nimi Chireen",
-        xws_name: "nimichireen",
         id: 448,
         xws_name: "nimichireen",
         unique: true,
@@ -12138,12 +11730,10 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Astromech",
       "Modification",
       "Tech",
-      "Configuration",
-      "HardpointShip"]
+      "Configuration"]
       },
       {
         name: "C'ai Threnalli",
-        xws_name: "caithrenalli",
         id: 449,
         xws_name: "caithrenalli",
         unique: true,
@@ -12164,14 +11754,12 @@ exportObj.basicCardData = function() {
       "Modification",
       "Tech",
       "Configuration",
-      "Talent",
-      "HardpointShip"]
+      "Talent"]
       },
       {
         name: "Hera Syndulla (B-Wing)",
-        xws_name: "herasyndulla",
         id: 450,
-        xws_name: "herasyndulla",
+        xws_name: "herasyndulla-asf01bwing",
         unique: true,
         faction: "Rebel Alliance",
         keyword: ["Spectre"],
@@ -12179,8 +11767,8 @@ exportObj.basicCardData = function() {
         skill: 6,
         points: 5,
         loadout: 14,
-        pointsxwa: 10,
-        loadoutxwa: 12,
+        pointsxwa: 15,
+        loadoutxwa: 21,
         slots: ["Talent",
       "Sensor",
       "Cannon",
@@ -12191,12 +11779,16 @@ exportObj.basicCardData = function() {
       "Modification",
       "Configuration",
       "Title"],
-        slotsxwa: ["Crew",
+        slotsxwa: ["Cannon",
+      "Cannon",
+      "Missile",
       "Modification",
-      "Turret",
-      "Title",
+      "Sensor",
+      "Torpedo",
+      "Configuration",
       "Talent",
-      "Talent"]
+      "Talent",
+      "Title"]
       },
       {
         name: "Hera Syndulla (A-Wing)",
@@ -12218,10 +11810,10 @@ exportObj.basicCardData = function() {
       "Configuration",
       "Modification"],
         slotsxwa: ["Talent",
-      "Talent",
       "Modification",
       "Missile",
-      "Configuration"]
+      "Configuration",
+      "Talent"]
       },
       {
         name: "Wedge Antilles (A-Wing)",
@@ -12240,10 +11832,10 @@ exportObj.basicCardData = function() {
       "Modification",
       "Configuration"],
         slotsxwa: ["Talent",
-      "Talent",
       "Modification",
       "Missile",
-      "Configuration"]
+      "Configuration",
+      "Talent"]
       },
       {
         name: "Sabine Wren (A-Wing)",
@@ -12269,7 +11861,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Vult Skerris",
-        xws_name: "vultskerris",
         id: 454,
         xws_name: "vultskerris",
         unique: true,
@@ -12298,7 +11889,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Ciena Ree",
-        xws_name: "cienaree",
         id: 455,
         xws_name: "cienaree",
         unique: true,
@@ -12319,27 +11909,25 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Gideon Hask (TIE Interceptor)",
-        xws_name: "gideonhask",
         id: 456,
-        xws_name: "gideonhask",
+        xws_name: "gideonhask-tieininterceptor",
         unique: true,
         faction: "Galactic Empire",
         ship: "TIE/in Interceptor",
         skill: 4,
         points: 4,
         loadout: 7,
-        pointsxwa: 9,
-        loadoutxwa: 16,
+        pointsxwa: 11,
+        loadoutxwa: 10,
         slots: ["Talent",
       "Talent",
       "Missile",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Modification",
-      "Talent",
-      "Missile",
+        slotsxwa: ["Talent",
       "Modification",
-      "Sensor"]
+      "Configuration",
+      "Modification"]
       },
       {
         name: "Kanan Jarrus (HWK-290)",
@@ -12362,15 +11950,14 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Modification"],
-        slotsxwa: ["Force",
-      "Crew",
+        slotsxwa: ["Crew",
       "Illicit",
-      "Modifcation",
-      "Device"]
+      "Modification",
+      "Payload",
+      "Force Power"]
       },
       {
         name: "Leema Kai",
-        xws_name: "leemakai",
         id: 458,
         xws_name: "leemakai",
         unique: true,
@@ -12389,14 +11976,13 @@ exportObj.basicCardData = function() {
       "Device"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Device",
+      "Payload",
       "Torpedo",
       "Turret",
       "Talent"]
       },
       {
         name: "Arliz Hadrassian",
-        xws_name: "arlizhadrassian",
         id: 459,
         xws_name: "arlizhadrassian",
         unique: true,
@@ -12415,14 +12001,13 @@ exportObj.basicCardData = function() {
       "Device"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Device",
+      "Payload",
       "Torpedo",
       "Turret",
       "Talent"]
       },
       {
         name: "Padric",
-        xws_name: "padric",
         id: 460,
         xws_name: "padric",
         unique: true,
@@ -12443,14 +12028,13 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Device",
+      "Payload",
       "Torpedo",
       "Turret",
       "Talent"]
       },
       {
         name: "Derek Klivian",
-        xws_name: "derekklivian",
         id: 461,
         xws_name: "derekklivian",
         unique: true,
@@ -12471,32 +12055,29 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Shara Bey (A-Wing)",
-        xws_name: "sharabey",
         id: 462,
-        xws_name: "sharabey",
+        xws_name: "sharabey-rz1awing",
         unique: true,
         faction: "Rebel Alliance",
         ship: "RZ-1 A-wing",
         skill: 4,
         points: 4,
         loadout: 7,
-        pointsxwa: 12,
-        loadoutxwa: 13,
+        pointsxwa: 10,
+        loadoutxwa: 12,
         slots: ["Talent",
       "Missile",
       "Configuration"],
         slotsxwa: ["Talent",
-      "Astromech",
-      "Gunner",
-      "Gunner",
       "Modification",
-      "Torpedo"]
+      "Missile",
+      "Configuration",
+      "Talent"]
       },
       {
         name: "Ahsoka Tano (A-Wing)",
-        xws_name: "ahsokatano",
         id: 463,
-        xws_name: "ahsokatano",
+        xws_name: "ahsokatano-rz1awing",
         unique: true,
         faction: "Rebel Alliance",
         ship: "RZ-1 A-wing",
@@ -12505,23 +12086,22 @@ exportObj.basicCardData = function() {
         force: 3,
         points: 4,
         loadout: 7,
-        pointsxwa: 10,
-        loadoutxwa: 8,
+        pointsxwa: 12,
+        loadoutxwa: 9,
         slots: ["Force",
       "Force",
       "Talent",
       "Missile",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force",
+        slotsxwa: ["Modification",
+      "Missile",
       "Configuration",
-      "Modification",
-      "Modification",
-      "Astromech"]
+      "Force Power",
+      "Force Power"]
       },
       {
         name: "Netrem Pollard",
-        xws_name: "netrempollard",
         id: 464,
         xws_name: "netrempollard",
         unique: true,
@@ -12550,7 +12130,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Commandant Goran",
-        xws_name: "commandantgoran",
         id: 465,
         xws_name: "commandantgoran",
         unique: true,
@@ -12570,7 +12149,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Nash Windrider",
-        xws_name: "nashwindrider",
         id: 466,
         xws_name: "nashwindrider",
         unique: true,
@@ -12591,7 +12169,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Lieutenant Lorrir",
-        xws_name: "lieutenantlorrir",
         id: 467,
         xws_name: "lieutenantlorrir",
         unique: true,
@@ -12611,9 +12188,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Vult Skerris (TIE Interceptor)",
-        xws_name: "vultskerris",
         id: 468,
-        xws_name: "vultskerris",
+        xws_name: "vultskerris-tieininterceptor",
         unique: true,
         faction: "Galactic Empire",
         ship: "TIE/in Interceptor",
@@ -12622,24 +12198,20 @@ exportObj.basicCardData = function() {
         recurring: -1,
         points: 4,
         loadout: 9,
-        pointsxwa: 17,
-        loadoutxwa: 11,
+        pointsxwa: 10,
+        loadoutxwa: 8,
         slots: ["Talent",
       "Modification",
       "Configuration"],
         slotsxwa: ["Talent",
-      "Cannon",
-      "Missile",
       "Modification",
-      "Sensor",
       "Configuration",
       "Talent"]
       },
       {
         name: "Darth Vader (TIE Defender)",
-        xws_name: "darthvader",
         id: 469,
-        xws_name: "darthvader",
+        xws_name: "darthvader-tieddefender",
         unique: true,
         faction: "Galactic Empire",
         ship: "TIE/d Defender",
@@ -12649,22 +12221,22 @@ exportObj.basicCardData = function() {
         force: 3,
         points: 9,
         loadout: 10,
-        pointsxwa: 15,
-        loadoutxwa: 7,
+        pointsxwa: 21,
+        loadoutxwa: 14,
         slots: ["Force",
       "Tech",
       "Cannon",
       "Missile",
       "Configuration"],
-        slotsxwa: ["Missile",
-      "Sensor",
+        slotsxwa: ["Cannon",
+      "Missile",
       "Modification",
-      "Force",
-      "Force"]
+      "Configuration",
+      "Force Power",
+      "Force Power"]
       },
       {
         name: "Captain Dobbs",
-        xws_name: "captaindobbs",
         id: 470,
         xws_name: "captaindobbs",
         unique: true,
@@ -12689,7 +12261,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Jinata Security Officer",
-        xws_name: "jinatasecurityofficer",
         id: 471,
         xws_name: "jinatasecurityofficer",
         faction: "Scum and Villainy",
@@ -12705,13 +12276,12 @@ exportObj.basicCardData = function() {
       "Device"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Device",
+      "Payload",
       "Torpedo",
       "Turret"]
       },
       {
         name: "Amaxine Warrior",
-        xws_name: "amaxinewarrior",
         id: 472,
         xws_name: "amaxinewarrior",
         faction: "Scum and Villainy",
@@ -12728,14 +12298,13 @@ exportObj.basicCardData = function() {
       "Device"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Device",
+      "Payload",
       "Torpedo",
       "Turret",
       "Talent"]
       },
       {
         name: "Gamut Key",
-        xws_name: "gamutkey",
         id: 473,
         xws_name: "gamutkey",
         unique: true,
@@ -12757,15 +12326,14 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Crew",
       "Illicit",
       "Modification",
-      "Device",
+      "Payload",
       "Talent"]
       },
       {
         name: "Tápusk",
         xws: "tapusk",
-        xws_name: "tapusk",
         id: 474,
-        xws_name: "tápusk",
+        xws_name: "tapusk",
         unique: true,
         faction: "Scum and Villainy",
         ship: "HWK-290 Light Freighter",
@@ -12785,12 +12353,11 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Crew",
       "Illicit",
       "Modification",
-      "Device",
+      "Payload",
       "Talent"]
       },
       {
         name: "Colicoid Destroyer",
-        xws_name: "colicoiddestroyer",
         id: 475,
         xws_name: "colicoiddestroyer",
         faction: "Separatist Alliance",
@@ -12824,7 +12391,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Lawless Pirates",
-        xws_name: "lawlesspirates",
         id: 476,
         xws_name: "lawlesspirates",
         faction: "Scum and Villainy",
@@ -12858,7 +12424,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Zorii Bliss",
-        xws_name: "zoriibliss",
         id: 477,
         xws_name: "zoriibliss",
         unique: true,
@@ -12884,13 +12449,12 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Tech",
-      "Device",
+      "Payload",
       "Talent",
       "Illicit"]
       },
       {
         name: "Teza Nasz",
-        xws_name: "tezanasz",
         id: 478,
         xws_name: "tezanasz",
         unique: true,
@@ -12915,12 +12479,11 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Tech",
-      "Device",
+      "Payload",
       "Talent"]
       },
       {
         name: "Wilsa Teshlo",
-        xws_name: "wilsateshlo",
         id: 479,
         xws_name: "wilsateshlo",
         unique: true,
@@ -12945,12 +12508,11 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Tech",
-      "Device",
+      "Payload",
       "Talent"]
       },
       {
         name: "Shasa Zaro",
-        xws_name: "shasazaro",
         id: 480,
         xws_name: "shasazaro",
         unique: true,
@@ -12973,12 +12535,11 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Tech",
-      "Device",
+      "Payload",
       "Talent"]
       },
       {
         name: "Lega Fossang",
-        xws_name: "legafossang",
         id: 481,
         xws_name: "legafossang",
         unique: true,
@@ -13002,11 +12563,10 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Tech",
-      "Device"]
+      "Payload"]
       },
       {
         name: "Aftab Ackbar",
-        xws_name: "aftabackbar",
         id: 482,
         xws_name: "aftabackbar",
         unique: true,
@@ -13030,11 +12590,10 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Tech",
-      "Device"]
+      "Payload"]
       },
       {
         name: "Corus Kapellim",
-        xws_name: "coruskapellim",
         id: 483,
         xws_name: "coruskapellim",
         unique: true,
@@ -13058,22 +12617,21 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Tech",
-      "Device",
+      "Payload",
       "Illicit"]
       },
       {
         name: "C'ai Threnalli (Y-Wing)",
-        xws_name: "caithrenalli",
         id: 484,
-        xws_name: "caithrenalli",
+        xws_name: "caithrenalli-btanr2ywing",
         unique: true,
         faction: "Resistance",
         ship: "BTA-NR2 Y-wing",
         skill: 2,
         points: 4,
         loadout: 10,
-        pointsxwa: 12,
-        loadoutxwa: 14,
+        pointsxwa: 7,
+        loadoutxwa: 8,
         slots: ["Talent",
       "Tech",
       "Turret",
@@ -13083,14 +12641,15 @@ exportObj.basicCardData = function() {
       "Modification",
       "Configuration"],
         slotsxwa: ["Astromech",
+      "Turret",
+      "Modification",
       "Modification",
       "Tech",
-      "Configuration",
+      "Payload",
       "Talent"]
       },
       {
         name: "New Republic Patrol",
-        xws_name: "newrepublicpatrol",
         id: 485,
         xws_name: "newrepublicpatrol",
         faction: "Resistance",
@@ -13112,11 +12671,10 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Tech",
-      "Device"]
+      "Payload"]
       },
       {
         name: "Kijimi Spice Runner",
-        xws_name: "kijimispicerunner",
         id: 486,
         xws_name: "kijimispicerunner",
         faction: "Resistance",
@@ -13138,14 +12696,13 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Tech",
-      "Device",
+      "Payload",
       "Illicit"]
       },
       {
         name: "Kylo Ren (TIE Whisper)",
-        xws_name: "kyloren",
         id: 487,
-        xws_name: "kyloren",
+        xws_name: "kyloren-tiewiwhispermodifiedinterceptor",
         unique: true,
         faction: "First Order",
         ship: "TIE/wi Whisper Modified Interceptor",
@@ -13155,8 +12712,8 @@ exportObj.basicCardData = function() {
         force: 3,
         points: 5,
         loadout: 14,
-        pointsxwa: 16,
-        loadoutxwa: 10,
+        pointsxwa: 15,
+        loadoutxwa: 15,
         slots: ["Force",
       "Force",
       "Talent",
@@ -13166,11 +12723,12 @@ exportObj.basicCardData = function() {
       "Modification",
       "Configuration"],
         slotsxwa: ["Tech",
+      "Tech",
       "Modification",
       "Missile",
-      "Torpedo",
       "Configuration",
-      "Force"]
+      "Force Power",
+      "Force Power"]
       },
       {
         name: '"Wrath"',
@@ -13251,7 +12809,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "709th Legion Ace",
-        xws_name: "709thlegionace",
         id: 491,
         xws_name: "709thlegionace",
         faction: "First Order",
@@ -13276,7 +12833,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Red Fury Zealot",
-        xws_name: "redfuryzealot",
         id: 492,
         xws_name: "redfuryzealot",
         faction: "First Order",
@@ -13321,8 +12877,8 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Gunner",
       "Modification",
       "Tech",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Missile",
       "Talent",
       "Torpedo"]
@@ -13330,7 +12886,7 @@ exportObj.basicCardData = function() {
       {
         name: '"Scorch" (TIE/Se Bomber)',
         id: 494,
-        xws_name: "scorch",
+        xws_name: "scorch-tiesebomber",
         unique: true,
         faction: "First Order",
         ship: "TIE/se Bomber",
@@ -13347,11 +12903,13 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Modification"],
-        slotsxwa: ["Sensor",
-      "Tech",
+        slotsxwa: ["Gunner",
       "Modification",
-      "Talent",
-      "Modification"]
+      "Tech",
+      "Payload",
+      "Payload",
+      "Missile",
+      "Talent"]
       },
       {
         name: '"Dread"',
@@ -13375,8 +12933,8 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Gunner",
       "Modification",
       "Tech",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Missile",
       "Talent"]
       },
@@ -13402,13 +12960,12 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Gunner",
       "Modification",
       "Tech",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Missile"]
       },
       {
         name: "First Order Cadet",
-        xws_name: "firstordercadet",
         id: 497,
         xws_name: "firstordercadet",
         faction: "First Order",
@@ -13428,16 +12985,15 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Gunner",
       "Modification",
       "Tech",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Missile",
       "Torpedo"]
       },
       {
         name: "Sienar-Jaemus Test Pilot",
-        xws_name: "sienarjaemustestpilot",
         id: 498,
-        xws_name: "sienar-jaemustestpilot",
+        xws_name: "sienarjaemustestpilot",
         faction: "First Order",
         ship: "TIE/se Bomber",
         skill: 2,
@@ -13454,13 +13010,12 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Gunner",
       "Modification",
       "Tech",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Missile"]
       },
       {
         name: "Bodica Venj",
-        xws_name: "bodicavenj",
         id: 499,
         xws_name: "bodicavenj",
         faction: "Rebel Alliance",
@@ -13485,7 +13040,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Dirk Ullodin",
-        xws_name: "dirkullodin",
         id: 500,
         xws_name: "dirkullodin",
         faction: "Rebel Alliance",
@@ -13507,7 +13061,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Fenn Rau (Rebel Fang)",
-        xws_name: "fennrau",
         id: 501,
         xws_name: "fennrau-fangfighter",
         faction: "Rebel Alliance",
@@ -13517,8 +13070,8 @@ exportObj.basicCardData = function() {
         skill: 6,
         points: 5,
         loadout: 9,
-        pointsxwa: 14,
-        loadoutxwa: 9,
+        pointsxwa: 13,
+        loadoutxwa: 10,
         keyword: ["Mandalorian"],
         slots: ["Talent",
       "Talent",
@@ -13533,7 +13086,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Clan Wren Volunteer",
-        xws_name: "clanwrenvolunteer",
         id: 502,
         xws_name: "clanwrenvolunteer",
         faction: "Rebel Alliance",
@@ -13556,7 +13108,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Moff Gideon",
-        xws_name: "moffgideon",
         id: 503,
         xws_name: "moffgideon",
         unique: true,
@@ -13580,7 +13131,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "ISB Jingoist",
-        xws_name: "isbjingoist",
         id: 504,
         xws_name: "isbjingoist",
         faction: "Galactic Empire",
@@ -13598,7 +13148,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Mandalorian Royal Guard",
-        xws_name: "mandalorianroyalguard",
         id: 505,
         xws_name: "mandalorianroyalguard",
         faction: "Scum and Villainy",
@@ -13621,14 +13170,12 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Bo-Katan Kryze",
-        xws_name: "bokatankryze",
         id: 506,
-        xws_name: "bo-katankryze",
+        xws_name: "bokatankryze",
         skip: true
       },
       {
         name: "Pre Vizsla",
-        xws_name: "previzsla",
         id: 507,
         xws_name: "previzsla",
         faction: "Separatist Alliance",
@@ -13654,13 +13201,12 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Modification",
-      "Device",
+      "Payload",
       "Configuration",
       "Talent"]
       },
       {
         name: "Death Watch Warrior",
-        xws_name: "deathwatchwarrior",
         id: 508,
         xws_name: "deathwatchwarrior",
         faction: "Separatist Alliance",
@@ -13684,14 +13230,13 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Modification",
-      "Device",
+      "Payload",
       "Configuration"]
       },
       {
         name: "Bo-Katan Kryze",
-        xws_name: "bokatankryze",
         id: 509,
-        xws_name: "bo-katankryze-separatistalliance",
+        xws_name: "bokatankryze-separatistalliance",
         faction: "Separatist Alliance",
         xwsaddon: "separatistalliance",
         ship: "Gauntlet Fighter",
@@ -13718,7 +13263,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Modification",
-      "Device",
+      "Payload",
       "Configuration",
       "Talent",
       "Title"]
@@ -13726,9 +13271,8 @@ exportObj.basicCardData = function() {
       {
         name: "Bo-Katan Kryze (Republic)",
         xws: "bokatankryze",
-        xws_name: "bokatankryze",
         id: 510,
-        xws_name: "bo-katankryze",
+        xws_name: "bokatankryze-gauntletfighter",
         faction: "Galactic Republic",
         ship: "Gauntlet Fighter",
         skill: 4,
@@ -13760,7 +13304,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Nite Owl Liberator",
-        xws_name: "niteowlliberator",
         id: 511,
         xws_name: "niteowlliberator",
         faction: "Galactic Republic",
@@ -13784,12 +13327,11 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Modification",
-      "Device",
+      "Payload",
       "Configuration"]
       },
       {
         name: "Maul",
-        xws_name: "maul",
         id: 512,
         xws_name: "maul",
         faction: "Scum and Villainy",
@@ -13819,15 +13361,14 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Modification",
-      "Device",
+      "Payload",
       "Configuration",
-      "Force",
-      "Force",
+      "Force Power",
+      "Force Power",
       "Title"]
       },
       {
         name: "Shadow Collective Operator",
-        xws_name: "shadowcollectiveoperator",
         id: 513,
         xws_name: "shadowcollectiveoperator",
         faction: "Scum and Villainy",
@@ -13850,12 +13391,11 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Modification",
-      "Device",
+      "Payload",
       "Configuration"]
       },
       {
         name: "Rook Kast",
-        xws_name: "rookkast",
         id: 514,
         xws_name: "rookkast",
         faction: "Scum and Villainy",
@@ -13879,13 +13419,12 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Modification",
-      "Device",
+      "Payload",
       "Configuration",
       "Talent"]
       },
       {
         name: "Captain Hark",
-        xws_name: "captainhark",
         id: 515,
         xws_name: "captainhark",
         faction: "Galactic Empire",
@@ -13909,13 +13448,12 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Modification",
-      "Device",
+      "Payload",
       "Configuration",
       "Talent"]
       },
       {
         name: "Imperial Super Commando",
-        xws_name: "imperialsupercommando",
         id: 516,
         xws_name: "imperialsupercommando",
         faction: "Galactic Empire",
@@ -13939,12 +13477,11 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Modification",
-      "Device",
+      "Payload",
       "Configuration"]
       },
       {
         name: "Gar Saxon",
-        xws_name: "garsaxon",
         id: 517,
         xws_name: "garsaxon",
         faction: "Galactic Empire",
@@ -13971,13 +13508,12 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Modification",
-      "Device",
+      "Payload",
       "Configuration",
       "Talent"]
       },
       {
         name: "Mandalorian Resistance Pilot",
-        xws_name: "mandalorianresistancepilot",
         id: 518,
         xws_name: "mandalorianresistancepilot",
         faction: "Rebel Alliance",
@@ -14001,7 +13537,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Modification",
-      "Device",
+      "Payload",
       "Configuration",
       "Title",
       "Talent"]
@@ -14009,7 +13545,7 @@ exportObj.basicCardData = function() {
       {
         name: '"Chopper" (Gauntlet Fighter)',
         id: 519,
-        xws_name: "chopper",
+        xws_name: "chopper-gauntletfighter",
         xwsname: "chopper-gauntletfighter",
         faction: "Rebel Alliance",
         ship: "Gauntlet Fighter",
@@ -14017,7 +13553,7 @@ exportObj.basicCardData = function() {
         points: 6,
         loadout: 10,
         pointsxwa: 16,
-        loadoutxwa: 12,
+        loadoutxwa: 18,
         keyword: ["Droid",
       "Spectre"],
         unique: true,
@@ -14030,27 +13566,26 @@ exportObj.basicCardData = function() {
       "Configuration",
       "Title"],
         slotsxwa: ["Crew",
-      "Crew",
-      "Sensor",
       "Gunner",
-      "Turret",
+      "Illicit",
       "Modification",
-      "Torpedo",
+      "Modification",
+      "Payload",
+      "Configuration",
       "Title"]
       },
       {
         name: "Ezra Bridger (Gauntlet Fighter)",
-        xws_name: "ezrabridger",
         id: 520,
-        xws_name: "ezrabridger",
+        xws_name: "ezrabridger-gauntletfighter",
         faction: "Rebel Alliance",
         ship: "Gauntlet Fighter",
         skill: 3,
         force: 1,
         points: 6,
         loadout: 12,
-        pointsxwa: 9,
-        loadoutxwa: 6,
+        pointsxwa: 16,
+        loadoutxwa: 15,
         keyword: ["Light Side",
       "Spectre"],
         unique: true,
@@ -14065,16 +13600,20 @@ exportObj.basicCardData = function() {
       "Title",
       "Configuration"],
         slotsxwa: ["Crew",
+      "Gunner",
+      "Illicit",
       "Modification",
-      "Turret",
+      "Modification",
+      "Payload",
+      "Configuration",
       "Title",
-      "Force"]
+      "Force Power",
+      "Force Power"]
       },
       {
         name: "Q9-0",
-        xws_name: "q90",
         id: 521,
-        xws_name: "q9-0",
+        xws_name: "q90",
         faction: "Scum and Villainy",
         ship: "ST-70 Assault Ship",
         skill: 5,
@@ -14100,7 +13639,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "The Mandalorian",
-        xws_name: "themandalorian",
         id: 522,
         xws_name: "themandalorian",
         faction: "Scum and Villainy",
@@ -14130,7 +13668,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Guild Bounty Hunter",
-        xws_name: "guildbountyhunter",
         id: 523,
         xws_name: "guildbountyhunter",
         faction: "Scum and Villainy",
@@ -14157,7 +13694,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Outer Rim Enforcer",
-        xws_name: "outerrimenforcer",
         id: 524,
         xws_name: "outerrimenforcer",
         faction: "Scum and Villainy",
@@ -14180,9 +13716,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Plo Koon (Delta-7b)",
-        xws_name: "plokoon",
         id: 525,
-        xws_name: "plokoon",
+        xws_name: "plokoon-delta7baethersprite",
         unique: true,
         faction: "Galactic Republic",
         ship: "Delta-7b Aethersprite",
@@ -14190,7 +13725,7 @@ exportObj.basicCardData = function() {
         force: 2,
         points: 7,
         loadout: 19,
-        pointsxwa: 12,
+        pointsxwa: 14,
         loadoutxwa: 8,
         keyword: ["Jedi",
       "Light Side"],
@@ -14198,18 +13733,15 @@ exportObj.basicCardData = function() {
       "Talent",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force",
-      "Configuration",
-      "Modification",
+        slotsxwa: ["Force Power",
       "Modification",
       "Astromech",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Saesee Tiin (Delta-7b)",
-        xws_name: "saeseetiin",
         id: 526,
-        xws_name: "saeseetiin",
+        xws_name: "saeseetiin-delta7baethersprite",
         unique: true,
         faction: "Galactic Republic",
         ship: "Delta-7b Aethersprite",
@@ -14217,25 +13749,22 @@ exportObj.basicCardData = function() {
         force: 2,
         points: 6,
         loadout: 9,
-        pointsxwa: 10,
-        loadoutxwa: 7,
+        pointsxwa: 13,
+        loadoutxwa: 8,
         keyword: ["Jedi",
       "Light Side"],
         slots: ["Force",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force",
-      "Configuration",
-      "Modification",
+        slotsxwa: ["Force Power",
       "Modification",
       "Astromech",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Mace Windu (Delta-7b)",
-        xws_name: "macewindu",
         id: 527,
-        xws_name: "macewindu",
+        xws_name: "macewindu-delta7baethersprite",
         unique: true,
         faction: "Galactic Republic",
         ship: "Delta-7b Aethersprite",
@@ -14243,25 +13772,23 @@ exportObj.basicCardData = function() {
         force: 3,
         points: 5,
         loadout: 7,
-        pointsxwa: 11,
-        loadoutxwa: 7,
+        pointsxwa: 14,
+        loadoutxwa: 11,
         keyword: ["Jedi",
       "Light Side"],
         slots: ["Force",
       "Force",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force",
-      "Configuration",
-      "Modification",
+        slotsxwa: ["Force Power",
       "Modification",
       "Astromech",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Anakin Skywalker (Delta-7b)",
         id: 528,
-        xws_name: "anakinskywalker-delta7Baethersprite",
+        xws_name: "anakinskywalker-delta7baethersprite",
         unique: true,
         faction: "Galactic Republic",
         ship: "Delta-7b Aethersprite",
@@ -14269,8 +13796,8 @@ exportObj.basicCardData = function() {
         force: 3,
         points: 7,
         loadout: 15,
-        pointsxwa: 14,
-        loadoutxwa: 9,
+        pointsxwa: 16,
+        loadoutxwa: 12,
         keyword: ["Jedi",
       "Light Side"],
         slots: ["Force",
@@ -14278,18 +13805,15 @@ exportObj.basicCardData = function() {
       "Talent",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force",
-      "Configuration",
-      "Modification",
+        slotsxwa: ["Force Power",
       "Modification",
       "Astromech",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Luminara Unduli (Delta-7b)",
-        xws_name: "luminaraunduli",
         id: 529,
-        xws_name: "luminaraunduli",
+        xws_name: "luminaraunduli-delta7baethersprite",
         unique: true,
         faction: "Galactic Republic",
         ship: "Delta-7b Aethersprite",
@@ -14297,25 +13821,22 @@ exportObj.basicCardData = function() {
         force: 2,
         points: 6,
         loadout: 7,
-        pointsxwa: 10,
-        loadoutxwa: 7,
+        pointsxwa: 13,
+        loadoutxwa: 8,
         keyword: ["Jedi",
       "Light Side"],
         slots: ["Force",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force",
-      "Configuration",
-      "Modification",
+        slotsxwa: ["Force Power",
       "Modification",
       "Astromech",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Barriss Offee (Delta-7b)",
-        xws_name: "barrissoffee",
         id: 530,
-        xws_name: "barrissoffee",
+        xws_name: "barrissoffee-delta7baethersprite",
         unique: true,
         faction: "Galactic Republic",
         ship: "Delta-7b Aethersprite",
@@ -14323,24 +13844,21 @@ exportObj.basicCardData = function() {
         force: 1,
         points: 5,
         loadout: 10,
-        pointsxwa: 10,
-        loadoutxwa: 10,
+        pointsxwa: 12,
+        loadoutxwa: 9,
         keyword: ["Jedi",
       "Light Side"],
         slots: ["Force",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force",
-      "Configuration",
-      "Modification",
+        slotsxwa: ["Force Power",
       "Modification",
       "Astromech"]
       },
       {
         name: "Ahsoka Tano (Delta-7b)",
-        xws_name: "ahsokatano",
         id: 531,
-        xws_name: "ahsokatano",
+        xws_name: "ahsokatano-delta7baethersprite",
         unique: true,
         faction: "Galactic Republic",
         ship: "Delta-7b Aethersprite",
@@ -14348,48 +13866,42 @@ exportObj.basicCardData = function() {
         force: 2,
         points: 5,
         loadout: 10,
-        pointsxwa: 10,
-        loadoutxwa: 8,
+        pointsxwa: 13,
+        loadoutxwa: 10,
         keyword: ["Jedi",
       "Light Side"],
         slots: ["Force",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force",
-      "Configuration",
-      "Modification",
+        slotsxwa: ["Force Power",
       "Modification",
       "Astromech"]
       },
       {
         name: "Jedi Knight (Delta-7b)",
-        xws_name: "jediknight",
         id: 532,
-        xws_name: "jediknight",
+        xws_name: "jediknight-delta7baethersprite",
         faction: "Galactic Republic",
         ship: "Delta-7b Aethersprite",
         skill: 3,
         force: 1,
         points: 6,
         loadout: 8,
-        pointsxwa: 9,
-        loadoutxwa: 6,
+        pointsxwa: 11,
+        loadoutxwa: 4,
         keyword: ["Jedi",
       "Light Side"],
         slots: ["Force",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force",
-      "Configuration",
-      "Modification",
+        slotsxwa: ["Force Power",
       "Modification",
       "Astromech"]
       },
       {
         name: "Obi-Wan Kenobi (Delta-7b)",
-        xws_name: "obiwankenobi",
         id: 533,
-        xws_name: "obi-wankenobi",
+        xws_name: "obiwankenobi-delta7baethersprite",
         unique: true,
         faction: "Galactic Republic",
         ship: "Delta-7b Aethersprite",
@@ -14397,8 +13909,8 @@ exportObj.basicCardData = function() {
         force: 3,
         points: 7,
         loadout: 15,
-        pointsxwa: 13,
-        loadoutxwa: 10,
+        pointsxwa: 15,
+        loadoutxwa: 11,
         keyword: ["Jedi",
       "Light Side"],
         slots: ["Force",
@@ -14406,16 +13918,13 @@ exportObj.basicCardData = function() {
       "Talent",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force",
-      "Configuration",
-      "Modification",
+        slotsxwa: ["Force Power",
       "Modification",
       "Astromech",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Cad Bane",
-        xws_name: "cadbane",
         id: 534,
         xws_name: "cadbane",
         unique: true,
@@ -14448,17 +13957,16 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Viktor Hel (Rogue)",
-        xws_name: "viktorhel",
         id: 535,
-        xws_name: "viktorhel",
+        xws_name: "viktorhel-rogueclassstarfighter",
         unique: true,
         faction: "Scum and Villainy",
         ship: "Rogue-class Starfighter",
         skill: 4,
         points: 4,
         loadout: 11,
-        pointsxwa: 11,
-        loadoutxwa: 14,
+        pointsxwa: 10,
+        loadoutxwa: 11,
         keyword: ["Bounty Hunter"],
         slots: ["Talent",
       "Cannon",
@@ -14466,26 +13974,25 @@ exportObj.basicCardData = function() {
       "Missile",
       "Illicit",
       "Modification"],
-        slotsxwa: ["Illicit",
+        slotsxwa: ["Cannon",
+      "Cannon",
       "Illicit",
       "Modification",
       "Modification",
-      "Missile",
       "Talent"]
       },
       {
         name: "Nom Lumb (Rogue)",
-        xws_name: "nomlumb",
         id: 536,
-        xws_name: "nomlumb",
+        xws_name: "nomlumb-rogueclassstarfighter",
         unique: true,
         faction: "Scum and Villainy",
         ship: "Rogue-class Starfighter",
         skill: 1,
         points: 4,
         loadout: 11,
-        pointsxwa: 11,
-        loadoutxwa: 13,
+        pointsxwa: 10,
+        loadoutxwa: 12,
         keyword: ["Bounty Hunter"],
         slots: ["Talent",
       "Cannon",
@@ -14495,14 +14002,13 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification"],
         slotsxwa: ["Cannon",
-      "Gunner",
+      "Cannon",
       "Illicit",
       "Modification",
-      "Torpedo"]
+      "Modification"]
       },
       {
         name: "Outer Rim Hunter",
-        xws_name: "outerrimhunter",
         id: 537,
         xws_name: "outerrimhunter",
         faction: "Scum and Villainy",
@@ -14525,7 +14031,6 @@ exportObj.basicCardData = function() {
       {
         name: "Cad Bane (Separatist)",
         xwsaddon: "separatistalliance",
-        xws_name: "cadbane-separatistalliance",
         id: 538,
         xws_name: "cadbane-separatistalliance",
         unique: true,
@@ -14558,9 +14063,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "IG-101",
-        xws_name: "ig101",
         id: 539,
-        xws_name: "ig-101",
+        xws_name: "ig101",
         unique: true,
         faction: "Separatist Alliance",
         ship: "Rogue-class Starfighter",
@@ -14583,9 +14087,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "IG-102",
-        xws_name: "ig102",
         id: 540,
-        xws_name: "ig-102",
+        xws_name: "ig102",
         unique: true,
         faction: "Separatist Alliance",
         ship: "Rogue-class Starfighter",
@@ -14608,9 +14111,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "IG-111",
-        xws_name: "ig111",
         id: 541,
-        xws_name: "ig-111",
+        xws_name: "ig111",
         unique: true,
         faction: "Separatist Alliance",
         ship: "Rogue-class Starfighter",
@@ -14632,7 +14134,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "MagnaGuard Protector",
-        xws_name: "magnaguardprotector",
         id: 542,
         xws_name: "magnaguardprotector",
         max_per_squad: 2,
@@ -14658,7 +14159,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "MagnaGuard Executioner",
-        xws_name: "magnaguardexecutioner",
         id: 543,
         xws_name: "magnaguardexecutioner",
         faction: "Separatist Alliance",
@@ -14699,8 +14199,7 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Talent",
       "Modification",
       "Sensor",
-      "Talent",
-      "VersatileShip"]
+      "Talent"]
       },
       {
         name: '"Slider"',
@@ -14725,8 +14224,7 @@ exportObj.basicCardData = function() {
       "VersatileShip"],
         slotsxwa: ["Talent",
       "Modification",
-      "Sensor",
-      "VersatileShip"]
+      "Sensor"]
       },
       {
         name: '"Hawk" (Z-95)',
@@ -14748,8 +14246,7 @@ exportObj.basicCardData = function() {
       "VersatileShip"],
         slotsxwa: ["Talent",
       "Modification",
-      "Sensor",
-      "VersatileShip"]
+      "Sensor"]
       },
       {
         name: '"Warthog" (Z-95)',
@@ -14770,8 +14267,7 @@ exportObj.basicCardData = function() {
       "VersatileShip"],
         slotsxwa: ["Talent",
       "Modification",
-      "Sensor",
-      "VersatileShip"]
+      "Sensor"]
       },
       {
         name: '"Boost"',
@@ -14793,8 +14289,7 @@ exportObj.basicCardData = function() {
       "VersatileShip"],
         slotsxwa: ["Talent",
       "Modification",
-      "Sensor",
-      "VersatileShip"]
+      "Sensor"]
       },
       {
         name: '"Drift"',
@@ -14815,8 +14310,7 @@ exportObj.basicCardData = function() {
       "VersatileShip"],
         slotsxwa: ["Talent",
       "Modification",
-      "Sensor",
-      "VersatileShip"]
+      "Sensor"]
       },
       {
         name: '"Stub"',
@@ -14837,8 +14331,7 @@ exportObj.basicCardData = function() {
       "VersatileShip"],
         slotsxwa: ["Talent",
       "Modification",
-      "Sensor",
-      "VersatileShip"]
+      "Sensor"]
       },
       {
         name: '"Killer"',
@@ -14860,12 +14353,10 @@ exportObj.basicCardData = function() {
       "Modification",
       "VersatileShip"],
         slotsxwa: ["Modification",
-      "Sensor",
-      "VersatileShip"]
+      "Sensor"]
       },
       {
         name: "Reaper Squadron Scout",
-        xws_name: "reapersquadronscout",
         id: 552,
         xws_name: "reapersquadronscout",
         faction: "Galactic Republic",
@@ -14881,8 +14372,7 @@ exportObj.basicCardData = function() {
       "VersatileShip"],
         slotsxwa: ["Talent",
       "Modification",
-      "Sensor",
-      "VersatileShip"]
+      "Sensor"]
       },
       {
         name: "7th Sky Corps Pilot",
@@ -14900,14 +14390,12 @@ exportObj.basicCardData = function() {
       "Modification",
       "VersatileShip"],
         slotsxwa: ["Modification",
-      "Sensor",
-      "VersatileShip"]
+      "Sensor"]
       },
       {
         name: "Garven Dreis (BoY)",
         xwsaddon: "battleofyavin",
         unique: true,
-        xws_name: "garvendreis-battleofyavin",
         id: 554,
         xws_name: "garvendreis-battleofyavin",
         faction: "Rebel Alliance",
@@ -14924,7 +14412,6 @@ exportObj.basicCardData = function() {
         name: "Luke Skywalker (BoY)",
         xwsaddon: "battleofyavin",
         unique: true,
-        xws_name: "lukeskywalker-battleofyavin",
         id: 555,
         xws_name: "lukeskywalker-battleofyavin",
         faction: "Rebel Alliance",
@@ -14944,7 +14431,6 @@ exportObj.basicCardData = function() {
         name: "Jek Porkins (BoY)",
         xwsaddon: "battleofyavin",
         unique: true,
-        xws_name: "jekporkins-battleofyavin",
         id: 556,
         xws_name: "jekporkins-battleofyavin",
         faction: "Rebel Alliance",
@@ -14962,7 +14448,6 @@ exportObj.basicCardData = function() {
         name: "Biggs Darklighter (BoY)",
         xwsaddon: "battleofyavin",
         unique: true,
-        xws_name: "biggsdarklighter-battleofyavin",
         id: 557,
         xws_name: "biggsdarklighter-battleofyavin",
         faction: "Rebel Alliance",
@@ -14981,7 +14466,6 @@ exportObj.basicCardData = function() {
         name: "Wedge Antilles (BoY)",
         xwsaddon: "battleofyavin",
         unique: true,
-        xws_name: "wedgeantilles-battleofyavin",
         id: 558,
         xws_name: "wedgeantilles-battleofyavin",
         faction: "Rebel Alliance",
@@ -15000,7 +14484,6 @@ exportObj.basicCardData = function() {
         name: "Han Solo (BoY)",
         xwsaddon: "battleofyavin",
         unique: true,
-        xws_name: "hansolo-battleofyavin",
         id: 559,
         xws_name: "hansolo-battleofyavin",
         faction: "Rebel Alliance",
@@ -15038,7 +14521,6 @@ exportObj.basicCardData = function() {
         name: "Dex Tiree (BoY)",
         xwsaddon: "battleofyavin",
         unique: true,
-        xws_name: "dextiree-battleofyavin",
         id: 561,
         xws_name: "dextiree-battleofyavin",
         faction: "Rebel Alliance",
@@ -15074,7 +14556,6 @@ exportObj.basicCardData = function() {
         name: "Hol Okand (BoY)",
         xwsaddon: "battleofyavin",
         unique: true,
-        xws_name: "holokand-battleofyavin",
         id: 563,
         xws_name: "holokand-battleofyavin",
         faction: "Rebel Alliance",
@@ -15092,7 +14573,6 @@ exportObj.basicCardData = function() {
         name: "Darth Vader (BoY)",
         xwsaddon: "battleofyavin",
         unique: true,
-        xws_name: "darthvader-battleofyavin",
         id: 564,
         xws_name: "darthvader-battleofyavin",
         faction: "Galactic Empire",
@@ -15194,7 +14674,6 @@ exportObj.basicCardData = function() {
         name: "Iden Versio (BoY)",
         xwsaddon: "battleofyavin",
         unique: true,
-        xws_name: "idenversio-battleofyavin",
         id: 569,
         xws_name: "idenversio-battleofyavin",
         faction: "Galactic Empire",
@@ -15216,7 +14695,6 @@ exportObj.basicCardData = function() {
         name: "Sigma 4 (BoY)",
         xwsaddon: "battleofyavin",
         unique: true,
-        xws_name: "sigma4-battleofyavin",
         id: 570,
         xws_name: "sigma4-battleofyavin",
         faction: "Galactic Empire",
@@ -15237,7 +14715,6 @@ exportObj.basicCardData = function() {
         name: "Sigma 5 (BoY)",
         xwsaddon: "battleofyavin",
         unique: true,
-        xws_name: "sigma5-battleofyavin",
         id: 571,
         xws_name: "sigma5-battleofyavin",
         faction: "Galactic Empire",
@@ -15258,7 +14735,6 @@ exportObj.basicCardData = function() {
         name: "Sigma 6 (BoY)",
         xwsaddon: "battleofyavin",
         unique: true,
-        xws_name: "sigma6-battleofyavin",
         id: 572,
         xws_name: "sigma6-battleofyavin",
         faction: "Galactic Empire",
@@ -15279,7 +14755,6 @@ exportObj.basicCardData = function() {
         name: "Sigma 7 (BoY)",
         xwsaddon: "battleofyavin",
         unique: true,
-        xws_name: "sigma7-battleofyavin",
         id: 573,
         xws_name: "sigma7-battleofyavin",
         faction: "Galactic Empire",
@@ -15327,7 +14802,7 @@ exportObj.basicCardData = function() {
         xwsaddon: "siegeofcoruscant",
         unique: true,
         id: 575,
-        xws_name: "obi-wankenobi-siegeofcoruscant",
+        xws_name: "obiwankenobi-siegeofcoruscant",
         faction: "Galactic Republic",
         ship: "Eta-2 Actis",
         skill: 5,
@@ -15500,7 +14975,6 @@ exportObj.basicCardData = function() {
         name: "Count Dooku (SoC)",
         xwsaddon: "siegeofcoruscant",
         unique: true,
-        xws_name: "countdooku-siegeofcoruscant",
         id: 584,
         xws_name: "countdooku-siegeofcoruscant",
         faction: "Separatist Alliance",
@@ -15519,9 +14993,8 @@ exportObj.basicCardData = function() {
         name: "DBS-32C (SoC)",
         xwsaddon: "siegeofcoruscant",
         unique: true,
-        xws_name: "dbs32c-siegeofcoruscant",
         id: 585,
-        xws_name: "dbs-32c-siegeofcoruscant",
+        xws_name: "dbs32c-siegeofcoruscant",
         faction: "Separatist Alliance",
         ship: "Hyena-class Droid Bomber",
         skill: 3,
@@ -15544,9 +15017,8 @@ exportObj.basicCardData = function() {
         name: "DBS-404 (SoC)",
         xwsaddon: "siegeofcoruscant",
         unique: true,
-        xws_name: "dbs404-siegeofcoruscant",
         id: 586,
-        xws_name: "dbs-404-siegeofcoruscant",
+        xws_name: "dbs404-siegeofcoruscant",
         faction: "Separatist Alliance",
         ship: "Hyena-class Droid Bomber",
         skill: 4,
@@ -15560,7 +15032,6 @@ exportObj.basicCardData = function() {
       {
         name: "Baktoid Prototype (SoC)",
         xwsaddon: "siegeofcoruscant",
-        xws_name: "baktoidprototype-siegeofcoruscant",
         id: 587,
         xws_name: "baktoidprototype-siegeofcoruscant",
         faction: "Separatist Alliance",
@@ -15578,9 +15049,8 @@ exportObj.basicCardData = function() {
         name: "DIS-347 (SoC)",
         xwsaddon: "siegeofcoruscant",
         unique: true,
-        xws_name: "dis347-siegeofcoruscant",
         id: 588,
-        xws_name: "dis-347-siegeofcoruscant",
+        xws_name: "dis347-siegeofcoruscant",
         faction: "Separatist Alliance",
         ship: "Droid Tri-fighter",
         skill: 3,
@@ -15595,9 +15065,8 @@ exportObj.basicCardData = function() {
         name: "DIS-T81 (SoC)",
         xwsaddon: "siegeofcoruscant",
         unique: true,
-        xws_name: "dist81-siegeofcoruscant",
         id: 589,
-        xws_name: "dis-t81-siegeofcoruscant",
+        xws_name: "dist81-siegeofcoruscant",
         faction: "Separatist Alliance",
         ship: "Droid Tri-fighter",
         skill: 4,
@@ -15611,9 +15080,8 @@ exportObj.basicCardData = function() {
       {
         name: "Phlac-Arphocc Prototype (SoC)",
         xwsaddon: "siegeofcoruscant",
-        xws_name: "phlacarphoccprototype-siegeofcoruscant",
         id: 590,
-        xws_name: "phlac-arphoccprototype-siegeofcoruscant",
+        xws_name: "phlacarphoccprototype-siegeofcoruscant",
         faction: "Separatist Alliance",
         ship: "Droid Tri-fighter",
         skill: 5,
@@ -15629,9 +15097,8 @@ exportObj.basicCardData = function() {
         name: "DFS-081 (SoC)",
         xwsaddon: "siegeofcoruscant",
         unique: true,
-        xws_name: "dfs081-siegeofcoruscant",
         id: 591,
-        xws_name: "dfs-081-siegeofcoruscant",
+        xws_name: "dfs081-siegeofcoruscant",
         faction: "Separatist Alliance",
         ship: "Vulture-class Droid Fighter",
         skill: 3,
@@ -15647,9 +15114,8 @@ exportObj.basicCardData = function() {
         name: "DFS-311 (SoC)",
         xwsaddon: "siegeofcoruscant",
         unique: true,
-        xws_name: "dfs311-siegeofcoruscant",
         id: 592,
-        xws_name: "dfs-311-siegeofcoruscant",
+        xws_name: "dfs311-siegeofcoruscant",
         faction: "Separatist Alliance",
         ship: "Vulture-class Droid Fighter",
         skill: 1,
@@ -15663,7 +15129,6 @@ exportObj.basicCardData = function() {
       {
         name: "Haor Chall Prototype (SoC)",
         xwsaddon: "siegeofcoruscant",
-        xws_name: "haorchallprototype-siegeofcoruscant",
         id: 593,
         xws_name: "haorchallprototype-siegeofcoruscant",
         faction: "Separatist Alliance",
@@ -15679,31 +15144,28 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Corran Horn (X-Wing)",
-        xws_name: "corranhorn",
         id: 594,
-        xws_name: "corranhorn",
+        xws_name: "corranhorn-t65xwing",
         unique: true,
         faction: "Rebel Alliance",
         ship: "T-65 X-wing",
         skill: 5,
         points: 4,
         loadout: 9,
-        pointsxwa: 14,
-        loadoutxwa: 12,
+        pointsxwa: 12,
+        loadoutxwa: 10,
         slots: ["Talent",
       "Missile",
       "Astromech",
       "Configuration"],
-        slotsxwa: ["Torpedo",
+        slotsxwa: ["Astromech",
       "Modification",
-      "Sensor",
-      "Astromech",
-      "Talent",
+      "Torpedo",
+      "Configuration",
       "Talent"]
       },
       {
         name: "Wes Janson",
-        xws_name: "wesjanson",
         id: 595,
         xws_name: "wesjanson",
         unique: true,
@@ -15729,7 +15191,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Tycho Celchu",
-        xws_name: "tychocelchu",
         id: 596,
         xws_name: "tychocelchu",
         unique: true,
@@ -15753,7 +15214,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Keo Venzee",
-        xws_name: "keovenzee",
         id: 597,
         xws_name: "keovenzee",
         unique: true,
@@ -15772,7 +15232,7 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Modification",
       "Missile",
       "Configuration",
-      "Force"]
+      "Force Power"]
       },
       {
         name: '"Pops" Krail',
@@ -15796,13 +15256,12 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Device",
+      "Payload",
       "Torpedo",
       "Turret"]
       },
       {
         name: "Flight Leader Ubbel",
-        xws_name: "flightleaderubbel",
         id: 599,
         xws_name: "flightleaderubbel",
         unique: true,
@@ -15829,7 +15288,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Juno Eclipse",
-        xws_name: "junoeclipse",
         id: 600,
         xws_name: "junoeclipse",
         unique: true,
@@ -15853,7 +15311,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Second Sister",
-        xws_name: "secondsister",
         id: 601,
         xws_name: "secondsister",
         unique: true,
@@ -15873,12 +15330,11 @@ exportObj.basicCardData = function() {
       "Configuration"],
         slotsxwa: ["Modification",
       "Configuration",
-      "Force",
+      "Force Power",
       "Sensor"]
       },
       {
         name: "Magna Tolvan",
-        xws_name: "magnatolvan",
         id: 602,
         xws_name: "magnatolvan",
         unique: true,
@@ -15897,7 +15353,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Yrica Quell",
-        xws_name: "yricaquell",
         id: 603,
         xws_name: "yricaquell",
         unique: true,
@@ -15916,9 +15371,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Poe Dameron (YT-1300)",
-        xws_name: "poedameron",
         id: 604,
-        xws_name: "poedameron",
+        xws_name: "poedameron-scavengedyt1300",
         unique: true,
         faction: "Resistance",
         ship: "Scavenged YT-1300",
@@ -15927,8 +15381,8 @@ exportObj.basicCardData = function() {
         recurring: 1,
         points: 7,
         loadout: 25,
-        pointsxwa: 17,
-        loadoutxwa: 20,
+        pointsxwa: 19,
+        loadoutxwa: 24,
         slots: ["Talent",
       "Talent",
       "Missile",
@@ -15937,19 +15391,22 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Title"],
-        slotsxwa: ["Astromech",
+        slotsxwa: ["Crew",
+      "Crew",
+      "Gunner",
+      "Gunner",
+      "Illicit",
+      "Illicit",
       "Modification",
-      "Tech",
-      "Configuration",
+      "Missile",
       "Talent",
       "Talent",
       "Title"]
       },
       {
         name: "Lando Calrissian (Resistance)",
-        xws_name: "landocalrissian",
         id: 605,
-        xws_name: "landocalrissian",
+        xws_name: "landocalrissian-scavengedyt1300",
         unique: true,
         faction: "Resistance",
         ship: "Scavenged YT-1300",
@@ -15958,7 +15415,7 @@ exportObj.basicCardData = function() {
         recurring: 1,
         points: 7,
         loadout: 20,
-        pointsxwa: 14,
+        pointsxwa: 18,
         loadoutxwa: 20,
         slots: ["Talent",
       "Missile",
@@ -15972,15 +15429,16 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Crew",
       "Crew",
       "Gunner",
+      "Gunner",
+      "Illicit",
       "Illicit",
       "Modification",
-      "Modification",
-      "Title",
-      "Talent"]
+      "Missile",
+      "Talent",
+      "Title"]
       },
       {
         name: "Venisa Doza",
-        xws_name: "venisadoza",
         id: 606,
         xws_name: "venisadoza",
         unique: true,
@@ -16005,12 +15463,10 @@ exportObj.basicCardData = function() {
       "Tech",
       "Configuration",
       "Talent",
-      "Missile",
-      "HardpointShip"]
+      "Missile"]
       },
       {
         name: "Zay Versio",
-        xws_name: "zayversio",
         id: 607,
         xws_name: "zayversio",
         unique: true,
@@ -16032,12 +15488,10 @@ exportObj.basicCardData = function() {
       "Modification",
       "Tech",
       "Configuration",
-      "Talent",
-      "HardpointShip"]
+      "Talent"]
       },
       {
         name: "Taka Jamoreesa",
-        xws_name: "takajamoreesa",
         id: 608,
         xws_name: "takajamoreesa",
         unique: true,
@@ -16065,7 +15519,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Hondo Ohnaka",
-        xws_name: "hondoohnaka",
         id: 609,
         xws_name: "hondoohnaka",
         unique: true,
@@ -16090,12 +15543,11 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Missile",
       "Modification",
-      "Device",
+      "Payload",
       "Title"]
       },
       {
         name: "Tor Phun",
-        xws_name: "torphun",
         id: 610,
         xws_name: "torphun",
         unique: true,
@@ -16118,7 +15570,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Durge",
-        xws_name: "durge",
         id: 611,
         xws_name: "durge",
         unique: true,
@@ -16146,7 +15597,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Doctor Aphra",
-        xws_name: "doctoraphra",
         id: 612,
         xws_name: "doctoraphra",
         unique: true,
@@ -16177,7 +15627,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Lapin",
-        xws_name: "lapin",
         id: 613,
         xws_name: "lapin",
         unique: true,
@@ -16198,7 +15647,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Volan Das",
-        xws_name: "volandas",
         id: 614,
         xws_name: "volandas",
         unique: true,
@@ -16234,7 +15682,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Aurra Sing",
-        xws_name: "aurrasing",
         id: 615,
         xws_name: "aurrasing",
         unique: true,
@@ -16260,14 +15707,13 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Missile",
       "Modification",
-      "Device",
+      "Payload",
       "Title",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Durge (Separatist)",
         xwsaddon: "separatistalliance",
-        xws_name: "durge-separatistalliance",
         id: 616,
         xws_name: "durge-separatistalliance",
         unique: true,
@@ -16297,7 +15743,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "The Iron Assembler",
-        xws_name: "theironassembler",
         id: 617,
         xws_name: "theironassembler",
         unique: true,
@@ -16321,9 +15766,8 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Kelrodo-Ai Holdout",
-        xws_name: "kelrodoaiholdout",
         id: 618,
-        xws_name: "kelrodo-aiholdout",
+        xws_name: "kelrodoaiholdout",
         faction: "Separatist Alliance",
         ship: "Vulture-class Droid Fighter",
         skill: 1,
@@ -16347,7 +15791,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Adi Gallia",
-        xws_name: "adigallia",
         id: 619,
         xws_name: "adigallia",
         unique: true,
@@ -16366,18 +15809,17 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force",
+        slotsxwa: ["Force Power",
       "Configuration",
       "Modification",
       "Modification",
       "Astromech",
-      "Force"]
+      "Force Power"]
       },
       {
         name: "Adi Gallia (Delta-7B)",
-        xws_name: "adigallia",
         id: 620,
-        xws_name: "adigallia",
+        xws_name: "adigallia-delta7baethersprite",
         unique: true,
         faction: "Galactic Republic",
         ship: "Delta-7b Aethersprite",
@@ -16385,20 +15827,18 @@ exportObj.basicCardData = function() {
         force: 2,
         points: 7,
         loadout: 18,
-        pointsxwa: 12,
-        loadoutxwa: 6,
+        pointsxwa: 14,
+        loadoutxwa: 7,
         keyword: ["Jedi",
       "Light Side"],
         slots: ["Force",
       "Talent",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force",
-      "Configuration",
-      "Modification",
+        slotsxwa: ["Force Power",
       "Modification",
       "Astromech",
-      "Force"]
+      "Force Power"]
       },
       {
         name: '"Sicko"',
@@ -16434,7 +15874,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Kit Fisto",
-        xws_name: "kitfisto",
         id: 622,
         xws_name: "kitfisto",
         unique: true,
@@ -16455,11 +15894,11 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification"],
         slotsxwa: ["Talent",
-      "Force",
+      "Force Power",
       "Astromech",
       "Cannon",
       "Modification",
-      "Force"]
+      "Force Power"]
       },
       {
         name: '"Slammer"',
@@ -16486,7 +15925,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Gavyn Sykes",
-        xws_name: "gavynsykes",
         id: 624,
         xws_name: "gavynsykes",
         unique: true,
@@ -16510,7 +15948,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Lieutenant Galek",
-        xws_name: "lieutenantgalek",
         id: 625,
         xws_name: "lieutenantgalek",
         unique: true,
@@ -16534,7 +15971,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Jul Jerjerrod",
-        xws_name: "juljerjerrod",
         id: 626,
         xws_name: "juljerjerrod",
         unique: true,
@@ -16558,17 +15994,16 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Gunner",
       "Modification",
       "Tech",
-      "Device",
-      "Device",
+      "Payload",
+      "Payload",
       "Missile",
       "Talent",
       "Torpedo"]
       },
       {
         name: "DT-798",
-        xws_name: "dt798",
         id: 627,
-        xws_name: "dt-798",
+        xws_name: "dt798",
         unique: true,
         faction: "First Order",
         ship: "TIE/fo Fighter",
@@ -16588,7 +16023,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Lin Gaava",
-        xws_name: "lingaava",
         id: 628,
         xws_name: "lingaava",
         unique: true,
@@ -16611,7 +16045,6 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Agent Tierny",
-        xws_name: "agenttierny",
         id: 629,
         xws_name: "agenttierny",
         unique: true,
@@ -16647,7 +16080,6 @@ exportObj.basicCardData = function() {
         name: "Darth Vader (SSP)",
         xwsaddon: "swz105",
         unique: true,
-        xws_name: "darthvader-swz105",
         id: 630,
         xws_name: "darthvader-swz105",
         faction: "Galactic Empire",
@@ -16670,7 +16102,6 @@ exportObj.basicCardData = function() {
         name: "Maarek Stele (SSP)",
         xwsaddon: "swz105",
         unique: true,
-        xws_name: "maarekstele-swz105",
         id: 631,
         xws_name: "maarekstele-swz105",
         faction: "Galactic Empire",
@@ -16687,7 +16118,6 @@ exportObj.basicCardData = function() {
         name: "Captain Jonus (SSP)",
         xwsaddon: "swz105",
         unique: true,
-        xws_name: "captainjonus-swz105",
         id: 632,
         xws_name: "captainjonus-swz105",
         faction: "Galactic Empire",
@@ -16704,7 +16134,6 @@ exportObj.basicCardData = function() {
         name: "Tomax Bren (SSP)",
         xwsaddon: "swz105",
         unique: true,
-        xws_name: "tomaxbren-swz105",
         id: 633,
         xws_name: "tomaxbren-swz105",
         faction: "Galactic Empire",
@@ -16721,7 +16150,6 @@ exportObj.basicCardData = function() {
         name: "Iden Versio (SSP)",
         xwsaddon: "swz105",
         unique: true,
-        xws_name: "idenversio-swz105",
         id: 634,
         xws_name: "idenversio-swz105",
         faction: "Galactic Empire",
@@ -16753,7 +16181,6 @@ exportObj.basicCardData = function() {
         name: "Valen Rudor (SSP)",
         xwsaddon: "swz105",
         unique: true,
-        xws_name: "valenrudor-swz105",
         id: 636,
         xws_name: "valenrudor-swz105",
         faction: "Galactic Empire",
@@ -16785,7 +16212,6 @@ exportObj.basicCardData = function() {
         name: "Horton Salm (SSP)",
         xwsaddon: "swz106",
         unique: true,
-        xws_name: "hortonsalm-swz106",
         id: 638,
         xws_name: "hortonsalm-swz106",
         faction: "Rebel Alliance",
@@ -16801,7 +16227,6 @@ exportObj.basicCardData = function() {
         name: "Arvel Crynyd (SSP)",
         xwsaddon: "swz106",
         unique: true,
-        xws_name: "arvelcrynyd-swz106",
         id: 639,
         xws_name: "arvelcrynyd-swz106",
         faction: "Rebel Alliance",
@@ -16817,7 +16242,6 @@ exportObj.basicCardData = function() {
         name: "Jake Farrell (SSP)",
         xwsaddon: "swz106",
         unique: true,
-        xws_name: "jakefarrell-swz106",
         id: 640,
         xws_name: "jakefarrell-swz106",
         faction: "Rebel Alliance",
@@ -16834,7 +16258,6 @@ exportObj.basicCardData = function() {
         name: "Jek Porkins (SSP)",
         xwsaddon: "swz106",
         unique: true,
-        xws_name: "jekporkins-swz106",
         id: 641,
         xws_name: "jekporkins-swz106",
         faction: "Rebel Alliance",
@@ -16851,7 +16274,6 @@ exportObj.basicCardData = function() {
         name: "Luke Skywalker (SSP)",
         xwsaddon: "swz106",
         unique: true,
-        xws_name: "lukeskywalker-swz106",
         id: 642,
         xws_name: "lukeskywalker-swz106",
         faction: "Rebel Alliance",
@@ -16869,7 +16291,6 @@ exportObj.basicCardData = function() {
         name: "Shara Bey (SSP)",
         xwsaddon: "swz106",
         unique: true,
-        xws_name: "sharabey-swz106",
         id: 643,
         xws_name: "sharabey-swz106",
         faction: "Rebel Alliance",
@@ -16903,7 +16324,6 @@ exportObj.basicCardData = function() {
         name: "Major Rhymer (TBE)",
         xwsaddon: "swz98",
         unique: true,
-        xws_name: "majorrhymer-swz98",
         id: 645,
         xws_name: "majorrhymer-swz98",
         faction: "Galactic Empire",
@@ -16920,7 +16340,6 @@ exportObj.basicCardData = function() {
         name: "Captain Jonus (TBE)",
         xwsaddon: "swz98",
         unique: true,
-        xws_name: "captainjonus-swz98",
         id: 646,
         xws_name: "captainjonus-swz98",
         faction: "Galactic Empire",
@@ -16944,7 +16363,6 @@ exportObj.basicCardData = function() {
         name: "Tomax Bren (TBE)",
         xwsaddon: "swz98",
         unique: true,
-        xws_name: "tomaxbren-swz98",
         id: 647,
         xws_name: "tomaxbren-swz98",
         faction: "Galactic Empire",
@@ -16963,7 +16381,6 @@ exportObj.basicCardData = function() {
         name: "Dash Rendar (YLF)",
         xwsaddon: "swz103-rebelalliance",
         unique: true,
-        xws_name: "dashrendar-swz103-rebelalliance",
         id: 648,
         xws_name: "dashrendar-swz103-rebelalliance",
         faction: "Rebel Alliance",
@@ -16992,7 +16409,6 @@ exportObj.basicCardData = function() {
         name: "Dash Rendar (YLF-SL)",
         xwsaddon: "swz103-sl-rebelalliance",
         unique: true,
-        xws_name: "dashrendar-swz103-sl-rebelalliance",
         id: 649,
         xws_name: "dashrendar-swz103-sl-rebelalliance",
         faction: "Rebel Alliance",
@@ -17010,7 +16426,6 @@ exportObj.basicCardData = function() {
         name: "Dash Rendar (Scum)",
         xwsaddon: "swz103-sl-scumandvillainy",
         unique: true,
-        xws_name: "dashrendar-swz103-sl-scumandvillainy",
         id: 650,
         xws_name: "dashrendar-swz103-sl-scumandvillainy",
         faction: "Scum and Villainy",
@@ -17102,7 +16517,6 @@ exportObj.basicCardData = function() {
         name: "Arvel Crynyd (BoE)",
         xwsaddon: "battleoverendor",
         unique: true,
-        xws_name: "arvelcrynyd-battleoverendor",
         id: 654,
         xws_name: "arvelcrynyd-battleoverendor",
         faction: "Rebel Alliance",
@@ -17131,7 +16545,6 @@ exportObj.basicCardData = function() {
         name: "Gemmer Sojan (BoE)",
         xwsaddon: "battleoverendor",
         unique: true,
-        xws_name: "gemmersojan-battleoverendor",
         id: 655,
         xws_name: "gemmersojan-battleoverendor",
         faction: "Rebel Alliance",
@@ -17209,7 +16622,6 @@ exportObj.basicCardData = function() {
         name: "Braylen Stramm (BoE)",
         xwsaddon: "battleoverendor",
         unique: true,
-        xws_name: "braylenstramm-battleoverendor",
         id: 658,
         xws_name: "braylenstramm-battleoverendor",
         faction: "Rebel Alliance",
@@ -17239,7 +16651,6 @@ exportObj.basicCardData = function() {
         name: "Gina Moonsong (BoE)",
         xwsaddon: "battleoverendor",
         unique: true,
-        xws_name: "ginamoonsong-battleoverendor",
         id: 659,
         xws_name: "ginamoonsong-battleoverendor",
         faction: "Rebel Alliance",
@@ -17269,7 +16680,6 @@ exportObj.basicCardData = function() {
         name: "Kendy Idele (BoE)",
         xwsaddon: "battleoverendor",
         unique: true,
-        xws_name: "kendyidele-battleoverendor",
         id: 660,
         xws_name: "kendyidele-battleoverendor",
         faction: "Rebel Alliance",
@@ -17296,7 +16706,6 @@ exportObj.basicCardData = function() {
         name: "Wedge Antilles (BoE)",
         xwsaddon: "battleoverendor",
         unique: true,
-        xws_name: "wedgeantilles-battleoverendor",
         id: 661,
         xws_name: "wedgeantilles-battleoverendor",
         faction: "Rebel Alliance",
@@ -17324,7 +16733,6 @@ exportObj.basicCardData = function() {
         name: "Yendor (BoE)",
         xwsaddon: "battleoverendor",
         unique: true,
-        xws_name: "yendor-battleoverendor",
         id: 662,
         xws_name: "yendor-battleoverendor",
         faction: "Rebel Alliance",
@@ -17350,7 +16758,6 @@ exportObj.basicCardData = function() {
         name: "Lando Calrissian (BoE)",
         xwsaddon: "battleoverendor",
         unique: true,
-        xws_name: "landocalrissian-battleoverendor",
         id: 663,
         xws_name: "landocalrissian-battleoverendor",
         faction: "Rebel Alliance",
@@ -17379,7 +16786,6 @@ exportObj.basicCardData = function() {
       {
         name: "Captain Yorr (BoE)",
         xwsaddon: "battleoverendor",
-        xws_name: "captainyorr-battleoverendor",
         id: 664,
         xws_name: "captainyorr-battleoverendor",
         unique: true,
@@ -17407,7 +16813,6 @@ exportObj.basicCardData = function() {
       {
         name: "Colonel Jendon (BoE)",
         xwsaddon: "battleoverendor",
-        xws_name: "coloneljendon-battleoverendor",
         id: 665,
         xws_name: "coloneljendon-battleoverendor",
         unique: true,
@@ -17435,7 +16840,6 @@ exportObj.basicCardData = function() {
         name: "Maus Monare (BoE)",
         xwsaddon: "battleoverendor",
         unique: true,
-        xws_name: "mausmonare-battleoverendor",
         id: 666,
         xws_name: "mausmonare-battleoverendor",
         faction: "Galactic Empire",
@@ -17456,7 +16860,6 @@ exportObj.basicCardData = function() {
         name: "Sapphire 2 (BoE)",
         xwsaddon: "battleoverendor",
         unique: true,
-        xws_name: "sapphire2-battleoverendor",
         id: 667,
         xws_name: "sapphire2-battleoverendor",
         faction: "Galactic Empire",
@@ -17475,7 +16878,6 @@ exportObj.basicCardData = function() {
         name: "Soontir Fel (BoE)",
         xwsaddon: "battleoverendor",
         unique: true,
-        xws_name: "soontirfel-battleoverendor",
         id: 668,
         xws_name: "soontirfel-battleoverendor",
         faction: "Galactic Empire",
@@ -17495,7 +16897,6 @@ exportObj.basicCardData = function() {
         name: "Lieutenant Hebsly (BoE)",
         xwsaddon: "battleoverendor",
         unique: true,
-        xws_name: "lieutenanthebsly-battleoverendor",
         id: 669,
         xws_name: "lieutenanthebsly-battleoverendor",
         faction: "Galactic Empire",
@@ -17521,7 +16922,6 @@ exportObj.basicCardData = function() {
         name: "Major Mianda (BoE)",
         xwsaddon: "battleoverendor",
         unique: true,
-        xws_name: "majormianda-battleoverendor",
         id: 670,
         xws_name: "majormianda-battleoverendor",
         faction: "Galactic Empire",
@@ -17547,7 +16947,6 @@ exportObj.basicCardData = function() {
         name: "Scythe 6 (BoE)",
         xwsaddon: "battleoverendor",
         unique: true,
-        xws_name: "scythe6-battleoverendor",
         id: 671,
         xws_name: "scythe6-battleoverendor",
         faction: "Galactic Empire",
@@ -17573,7 +16972,6 @@ exportObj.basicCardData = function() {
         name: "Scimitar 1 (BoE)",
         xwsaddon: "battleoverendor",
         unique: true,
-        xws_name: "scimitar1-battleoverendor",
         id: 672,
         xws_name: "scimitar1-battleoverendor",
         faction: "Galactic Empire",
@@ -17592,7 +16990,6 @@ exportObj.basicCardData = function() {
         name: "Scimitar 3 (BoE)",
         xwsaddon: "battleoverendor",
         unique: true,
-        xws_name: "scimitar3-battleoverendor",
         id: 673,
         xws_name: "scimitar3-battleoverendor",
         faction: "Galactic Empire",
@@ -17611,7 +17008,6 @@ exportObj.basicCardData = function() {
         name: "Lieutenant Karsabi (SSL)",
         xwsaddon: "ssl",
         unique: true,
-        xws_name: "lieutenantkarsabi-ssl",
         id: 674,
         xws_name: "lieutenantkarsabi-ssl",
         faction: "Galactic Empire",
@@ -17638,7 +17034,6 @@ exportObj.basicCardData = function() {
         name: "Major Vynder (SSL)",
         xwsaddon: "ssl",
         unique: true,
-        xws_name: "majorvynder-ssl",
         id: 675,
         xws_name: "majorvynder-ssl",
         faction: "Galactic Empire",
@@ -17700,9 +17095,8 @@ exportObj.basicCardData = function() {
         name: "Raymus Antilles",
         xwsaddon: "epicsl-rebelalliance",
         unique: true,
-        xws_name: "raymusantilles-epicsl-rebelalliance",
         id: 678,
-        xws_name: "raymusantilles-epicsl-rebelalliance",
+        xws_name: "raymusantilles",
         faction: "Rebel Alliance",
         ship: "CR90 Corellian Corvette",
         skill: 8,
@@ -17727,9 +17121,8 @@ exportObj.basicCardData = function() {
         name: "Raymus Antilles (Republic)",
         xwsaddon: "epicsl-galacticrepublic",
         unique: true,
-        xws_name: "raymusantilles-epicsl-galacticrepublic",
         id: 679,
-        xws_name: "raymusantilles-epicsl-galacticrepublic",
+        xws_name: "raymusantilles-epicslgalacticrepublic",
         faction: "Galactic Republic",
         ship: "CR90 Corellian Corvette",
         skill: 8,
@@ -17756,7 +17149,6 @@ exportObj.basicCardData = function() {
         name: "Leia Organa (CR90)",
         xwsaddon: "epicsl",
         unique: true,
-        xws_name: "leiaorgana-epicsl",
         id: 680,
         xws_name: "leiaorgana-epicsl",
         faction: "Resistance",
@@ -17785,7 +17177,6 @@ exportObj.basicCardData = function() {
         name: "Iden Versio (Raider)",
         xwsaddon: "epicsl",
         unique: true,
-        xws_name: "idenversio-epicsl",
         id: 681,
         xws_name: "idenversio-epicsl",
         faction: "Galactic Empire",
@@ -17814,7 +17205,6 @@ exportObj.basicCardData = function() {
         name: "Gideon Hask (Raider)",
         xwsaddon: "epicsl",
         unique: true,
-        xws_name: "gideonhask-epicsl",
         id: 682,
         xws_name: "gideonhask-epicsl",
         faction: "First Order",
@@ -17841,9 +17231,8 @@ exportObj.basicCardData = function() {
         name: "Aut-0",
         xwsaddon: "epicsl",
         unique: true,
-        xws_name: "aut0-epicsl",
         id: 683,
-        xws_name: "aut-0-epicsl",
+        xws_name: "aut0",
         faction: "Separatist Alliance",
         ship: "Gozanti-class Cruiser",
         skill: 7,
@@ -17867,9 +17256,8 @@ exportObj.basicCardData = function() {
         name: "Cerra Fellian",
         xwsaddon: "epicsl",
         unique: true,
-        xws_name: "cerrafellian-epicsl",
         id: 684,
-        xws_name: "cerrafellian-epicsl",
+        xws_name: "cerrafellian",
         faction: "First Order",
         ship: "Gozanti-class Cruiser",
         skill: 7,
@@ -17892,9 +17280,8 @@ exportObj.basicCardData = function() {
         name: "Rik Virgilio",
         xwsaddon: "epicsl",
         unique: true,
-        xws_name: "rikvirgilio-epicsl",
         id: 685,
-        xws_name: "rikvirgilio-epicsl",
+        xws_name: "rikvirgilio",
         faction: "Galactic Empire",
         ship: "Gozanti-class Cruiser",
         skill: 7,
@@ -17919,9 +17306,8 @@ exportObj.basicCardData = function() {
         name: "Wez Synat",
         xwsaddon: "epicsl",
         unique: true,
-        xws_name: "wezsynat-epicsl",
         id: 686,
-        xws_name: "wezsynat-epicsl",
+        xws_name: "wezsynat",
         faction: "Galactic Republic",
         ship: "Gozanti-class Cruiser",
         skill: 7,
@@ -17946,9 +17332,8 @@ exportObj.basicCardData = function() {
         name: "Oraf Desyk",
         xwsaddon: "epicsl",
         unique: true,
-        xws_name: "orafdesyk-epicsl",
         id: 687,
-        xws_name: "orafdesyk-epicsl",
+        xws_name: "orafdesyk",
         faction: "Resistance",
         ship: "GR-75 Medium Transport",
         skill: 7,
@@ -17972,9 +17357,8 @@ exportObj.basicCardData = function() {
         name: "Trebor Zednem",
         xwsaddon: "epicsl",
         unique: true,
-        xws_name: "treborzednem-epicsl",
         id: 688,
-        xws_name: "treborzednem-epicsl",
+        xws_name: "treborzednem",
         faction: "Rebel Alliance",
         ship: "GR-75 Medium Transport",
         skill: 7,
@@ -17998,9 +17382,8 @@ exportObj.basicCardData = function() {
         name: "Cikatro Vizago",
         xwsaddon: "epicsl",
         unique: true,
-        xws_name: "cikatrovizago-epicsl",
         id: 689,
-        xws_name: "cikatrovizago-epicsl",
+        xws_name: "cikatrovizago",
         faction: "Scum and Villainy",
         ship: "C-ROC Cruiser",
         skill: 7,
@@ -18026,7 +17409,6 @@ exportObj.basicCardData = function() {
         name: "Asajj Ventress (Trident)",
         xwsaddon: "epicsl",
         unique: true,
-        xws_name: "asajjventress-epicsl",
         id: 690,
         xws_name: "asajjventress-epicsl",
         faction: "Separatist Alliance",
@@ -18053,9 +17435,8 @@ exportObj.basicCardData = function() {
         name: "Sorc Tormo",
         xwsaddon: "epicsl",
         unique: true,
-        xws_name: "sorctormo-epicsl",
         id: 691,
-        xws_name: "sorctormo-epicsl",
+        xws_name: "sorctormo",
         faction: "Scum and Villainy",
         ship: "Trident-class Assault Ship",
         skill: 8,
@@ -18079,7 +17460,6 @@ exportObj.basicCardData = function() {
         name: "Kylo Ren (EoD)",
         xwsaddon: "evacuationofdqar",
         unique: true,
-        xws_name: "kyloren-evacuationofdqar",
         id: 692,
         xws_name: "kyloren-evacuationofdqar",
         faction: "First Order",
@@ -18148,7 +17528,6 @@ exportObj.basicCardData = function() {
         name: "Zeta 5 (EoD)",
         xwsaddon: "evacuationofdqar",
         unique: true,
-        xws_name: "zeta5-evacuationofdqar",
         id: 696,
         xws_name: "zeta5-evacuationofdqar",
         faction: "First Order",
@@ -18166,7 +17545,6 @@ exportObj.basicCardData = function() {
         name: "Omega 2 (EoD)",
         xwsaddon: "evacuationofdqar",
         unique: true,
-        xws_name: "omega2-evacuationofdqar",
         id: 697,
         xws_name: "omega2-evacuationofdqar",
         faction: "First Order",
@@ -18190,7 +17568,6 @@ exportObj.basicCardData = function() {
         name: "Lieutenant LeHuse (EoD)",
         xwsaddon: "evacuationofdqar",
         unique: true,
-        xws_name: "lieutenantlehuse-evacuationofdqar",
         id: 698,
         xws_name: "lieutenantlehuse-evacuationofdqar",
         faction: "First Order",
@@ -18216,7 +17593,6 @@ exportObj.basicCardData = function() {
         name: "Theta 3 (EoD)",
         xwsaddon: "evacuationofdqar",
         unique: true,
-        xws_name: "theta3-evacuationofdqar",
         id: 699,
         xws_name: "theta3-evacuationofdqar",
         faction: "First Order",
@@ -18243,7 +17619,6 @@ exportObj.basicCardData = function() {
         name: "Theta 4 (EoD)",
         xwsaddon: "evacuationofdqar",
         unique: true,
-        xws_name: "theta4-evacuationofdqar",
         id: 700,
         xws_name: "theta4-evacuationofdqar",
         faction: "First Order",
@@ -18269,7 +17644,6 @@ exportObj.basicCardData = function() {
         name: "Petty Officer Thanisson (EoD)",
         xwsaddon: "evacuationofdqar",
         unique: true,
-        xws_name: "pettyofficerthanisson-evacuationofdqar",
         id: 701,
         xws_name: "pettyofficerthanisson-evacuationofdqar",
         faction: "First Order",
@@ -18289,7 +17663,6 @@ exportObj.basicCardData = function() {
         name: "Poe Dameron (EoD)",
         xwsaddon: "evacuationofdqar",
         unique: true,
-        xws_name: "poedameron-evacuationofdqar",
         id: 702,
         xws_name: "poedameron-evacuationofdqar",
         faction: "Resistance",
@@ -18318,7 +17691,6 @@ exportObj.basicCardData = function() {
         name: "Jaycris Tubbs (EoD)",
         xwsaddon: "evacuationofdqar",
         unique: true,
-        xws_name: "jaycristubbs-evacuationofdqar",
         id: 703,
         xws_name: "jaycristubbs-evacuationofdqar",
         faction: "Resistance",
@@ -18343,7 +17715,6 @@ exportObj.basicCardData = function() {
         name: "Stomeroni Starck (EoD)",
         xwsaddon: "evacuationofdqar",
         unique: true,
-        xws_name: "stomeronistarck-evacuationofdqar",
         id: 704,
         xws_name: "stomeronistarck-evacuationofdqar",
         faction: "Resistance",
@@ -18417,7 +17788,6 @@ exportObj.basicCardData = function() {
         name: "C'ai Threnalli (EoD)",
         xwsaddon: "evacuationofdqar",
         unique: true,
-        xws_name: "caithrenalli-evacuationofdqar",
         id: 705,
         xws_name: "caithrenalli-evacuationofdqar",
         faction: "Resistance",
@@ -18444,7 +17814,6 @@ exportObj.basicCardData = function() {
         name: "Ronith Blario (EoD)",
         xwsaddon: "evacuationofdqar",
         unique: true,
-        xws_name: "ronithblario-evacuationofdqar",
         id: 706,
         xws_name: "ronithblario-evacuationofdqar",
         faction: "Resistance",
@@ -18461,7 +17830,6 @@ exportObj.basicCardData = function() {
         name: "Tallissan Lintra (EoD)",
         xwsaddon: "evacuationofdqar",
         unique: true,
-        xws_name: "tallissanlintra-evacuationofdqar",
         id: 707,
         xws_name: "tallissanlintra-evacuationofdqar",
         faction: "Resistance",
@@ -18489,7 +17857,6 @@ exportObj.basicCardData = function() {
         name: "Zizi Tlo (EoD)",
         xwsaddon: "evacuationofdqar",
         unique: true,
-        xws_name: "zizitlo-evacuationofdqar",
         id: 708,
         xws_name: "zizitlo-evacuationofdqar",
         faction: "Resistance",
@@ -18508,7 +17875,6 @@ exportObj.basicCardData = function() {
         name: "Pammich Nerro Goode (EoD)",
         xwsaddon: "evacuationofdqar",
         unique: true,
-        xws_name: "pammichnerrogoode-evacuationofdqar",
         id: 709,
         xws_name: "pammichnerrogoode-evacuationofdqar",
         faction: "Resistance",
@@ -18526,7 +17892,6 @@ exportObj.basicCardData = function() {
         name: "Finch Dallow (EoD)",
         xwsaddon: "evacuationofdqar",
         unique: true,
-        xws_name: "finchdallow-evacuationofdqar",
         id: 710,
         xws_name: "finchdallow-evacuationofdqar",
         faction: "Resistance",
@@ -18552,7 +17917,6 @@ exportObj.basicCardData = function() {
         name: "Vennie (EoD)",
         xwsaddon: "evacuationofdqar",
         unique: true,
-        xws_name: "vennie-evacuationofdqar",
         id: 711,
         xws_name: "vennie-evacuationofdqar",
         faction: "Resistance",
@@ -18577,7 +17941,6 @@ exportObj.basicCardData = function() {
         name: "Boba Fett (AaD)",
         xwsaddon: "armedanddangerous",
         unique: true,
-        xws_name: "bobafett-armedanddangerous",
         id: 712,
         xws_name: "bobafett-armedanddangerous",
         faction: "Scum and Villainy",
@@ -18601,7 +17964,6 @@ exportObj.basicCardData = function() {
         name: "The Mandalorian (AaD)",
         xwsaddon: "armedanddangerous",
         unique: true,
-        xws_name: "themandalorian-armedanddangerous",
         id: 713,
         xws_name: "themandalorian-armedanddangerous",
         faction: "Scum and Villainy",
@@ -18630,7 +17992,6 @@ exportObj.basicCardData = function() {
         name: "Han Solo (AaD)",
         xwsaddon: "armedanddangerous",
         unique: true,
-        xws_name: "hansolo-armedanddangerous",
         id: 714,
         xws_name: "hansolo-armedanddangerous",
         faction: "Scum and Villainy",
@@ -18658,9 +18019,8 @@ exportObj.basicCardData = function() {
         name: "Bo-Katan Kryze (AaD)",
         xwsaddon: "armedanddangerous",
         unique: true,
-        xws_name: "bokatankryze-armedanddangerous",
         id: 715,
-        xws_name: "bo-katankryze-armedanddangerous",
+        xws_name: "bokatankryze-armedanddangerous",
         faction: "Scum and Villainy",
         ship: "Gauntlet Fighter",
         skill: 4,
@@ -18677,7 +18037,6 @@ exportObj.basicCardData = function() {
         name: "Dengar (AaD)",
         xwsaddon: "armedanddangerous",
         unique: true,
-        xws_name: "dengar-armedanddangerous",
         id: 716,
         xws_name: "dengar-armedanddangerous",
         faction: "Scum and Villainy",
@@ -18697,7 +18056,6 @@ exportObj.basicCardData = function() {
         name: "Bossk (AaD)",
         xwsaddon: "armedanddangerous",
         unique: true,
-        xws_name: "bossk-armedanddangerous",
         id: 717,
         xws_name: "bossk-armedanddangerous",
         faction: "Scum and Villainy",
@@ -18715,7 +18073,6 @@ exportObj.basicCardData = function() {
         name: "Cad Bane (AaD)",
         xwsaddon: "armedanddangerous",
         unique: true,
-        xws_name: "cadbane-armedanddangerous",
         id: 718,
         xws_name: "cadbane-armedanddangerous",
         faction: "Scum and Villainy",
@@ -18744,7 +18101,6 @@ exportObj.basicCardData = function() {
         name: "Fenn Rau (AaD)",
         xwsaddon: "armedanddangerous",
         unique: true,
-        xws_name: "fennrau-armedanddangerous",
         id: 719,
         xws_name: "fennrau-armedanddangerous",
         faction: "Scum and Villainy",
@@ -18764,7 +18120,6 @@ exportObj.basicCardData = function() {
         name: "Prince Xizor (AaD)",
         xwsaddon: "armedanddangerous",
         unique: true,
-        xws_name: "princexizor-armedanddangerous",
         id: 720,
         xws_name: "princexizor-armedanddangerous",
         faction: "Scum and Villainy",
@@ -18786,7 +18141,6 @@ exportObj.basicCardData = function() {
         name: "Zuckuss (AaD)",
         xwsaddon: "armedanddangerous",
         unique: true,
-        xws_name: "zuckuss-armedanddangerous",
         id: 721,
         xws_name: "zuckuss-armedanddangerous",
         faction: "Scum and Villainy",
