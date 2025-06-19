@@ -18285,10 +18285,10 @@ exportObj.basicCardData = ->
                     "Evade"
                     "Barrel Roll"
                 ]
-                upgrades: [
-                    "Elusive"
-                    "Vengeful (BoY)"
-                ]
+            upgrades: [
+                "Elusive"
+                "Vengeful (BoY)"
+            ]
         }
         {
             name: "Iden Versio (BoY)"
@@ -18308,10 +18308,10 @@ exportObj.basicCardData = ->
             chassis: "Sensitive Controls"
             ship_override:
                 shields: 1
-                upgrades: [
-                    "Predator"
-                    "Fanatic (BoY)"
-                ]
+            upgrades: [
+                "Predator"
+                "Fanatic (BoY)"
+            ]
         }
         {
             name: "Sigma 4 (BoY)"
@@ -18330,10 +18330,10 @@ exportObj.basicCardData = ->
             chassis: "Sensitive Controls"
             ship_override:
                 hull: 4
-                upgrades: [
-                    "Disciplined"
-                    "Primed Thrusters"
-                ]
+            upgrades: [
+                "Disciplined"
+                "Primed Thrusters"
+            ]
         }
         {
             name: "Sigma 5 (BoY)"
@@ -18352,10 +18352,10 @@ exportObj.basicCardData = ->
             chassis: "Sensitive Controls"
             ship_override:
                 hull: 4
-                upgrades: [
-                    "Sensor Jammer (BoY)"
-                    "Elusive"
-                ]
+            upgrades: [
+                "Sensor Jammer (BoY)"
+                "Elusive"
+            ]
         }
         {
             name: "Sigma 6 (BoY)"
@@ -18374,10 +18374,10 @@ exportObj.basicCardData = ->
             chassis: "Sensitive Controls"
             ship_override:
                 hull: 4
-                upgrades: [
-                    "Daredevil"
-                    "Afterburners"
-                ]
+            upgrades: [
+                "Daredevil"
+                "Afterburners"
+            ]
         }
         {
             name: "Sigma 7 (BoY)"
@@ -18403,10 +18403,10 @@ exportObj.basicCardData = ->
                     "Boost"
                     "Lock"
                 ]
-                upgrades: [
-                    "Marksmanship"
-                    "Fire-Control System"
-                ]
+            upgrades: [
+                "Marksmanship"
+                "Fire-Control System"
+            ]
         }
         {
             name: "Anakin Skywalker (SoC)"
@@ -18490,11 +18490,11 @@ exportObj.basicCardData = ->
             chassis: "Born for This"
             ship_override:
                 shields: 4
-                upgrades: [
-                    "Selfless"
-                    "Veteran Tail Gunner"
-                    "R4-P Astromech"
-                ]
+            upgrades: [
+                "Selfless"
+                "Veteran Tail Gunner"
+                "R4-P Astromech"
+            ]
         }
         {
             name: '"Wolffe" (SoC)'
@@ -18572,11 +18572,11 @@ exportObj.basicCardData = ->
             chassis: "Born for This"
             ship_override:
                 shields: 3
-                upgrades: [
-                    "R3 Astromech"
-                    "Precision Ion Engines"
-                    'Alpha-3E "Esk"'
-                ]
+            upgrades: [
+                "R3 Astromech"
+                "Precision Ion Engines"
+                'Alpha-3E "Esk"'
+            ]
         }
         {
             name: '"Kickback" (SoC)'
@@ -18593,10 +18593,10 @@ exportObj.basicCardData = ->
             chassis: "Born for This"
             ship_override:
                 hull: 6
-                upgrades: [
-                    "Diamond-Boron Missiles"
-                    "Munitions Failsafe"
-                ]
+            upgrades: [
+                "Diamond-Boron Missiles"
+                "Munitions Failsafe"
+            ]
         }
         {
             name: '"Axe" (SoC)'
@@ -18613,10 +18613,10 @@ exportObj.basicCardData = ->
             chassis: "Born for This"
             ship_override:
                 hull: 6
-                upgrades: [
-                    "Deadeye Shot"
-                    "Barrage Rockets"
-                ]
+            upgrades: [
+                "Deadeye Shot"
+                "Barrage Rockets"
+            ]
         }
         {
             name: "Count Dooku (SoC)"
@@ -18661,11 +18661,11 @@ exportObj.basicCardData = ->
                     "R-> Lock"
                     "R-Jam"
                 ]
-                upgrades: [
-                    "Plasma Torpedoes"
-                    "Contingency Protocol (SoC)"
-                    "Strut-Lock Override (SoC)"
-                ]
+            upgrades: [
+                "Plasma Torpedoes"
+                "Contingency Protocol (SoC)"
+                "Strut-Lock Override (SoC)"
+            ]
         }
         {
             name: "DBS-404 (SoC)"
@@ -19946,11 +19946,11 @@ exportObj.basicCardData = ->
             keyword: ["Dark Side", "Sith"]
             ship_override:
                 shields: 3
-                upgrades: [
-                    "Hate"
-                    "Ion Missiles"
-                    "Afterburners"
-                ]
+            upgrades: [
+                "Hate"
+                "Ion Missiles"
+                "Afterburners"
+            ]
         }
         {
             name: "Maarek Stele (SSP)"
@@ -20458,15 +20458,15 @@ exportObj.basicCardData = ->
                 attackt: 2
                 attack: 0
                 shields: 3
-                actions: [
-                    "Focus"
-                    "Evade"
-                    "Lock"
-                    "Barrel Roll"
-                    "R-> Focus"
-                    "Boost"
-                    "Slam"
-                ]
+            actions: [
+                "Focus"
+                "Evade"
+                "Lock"
+                "Barrel Roll"
+                "R-> Focus"
+                "Boost"
+                "Slam"
+            ]
         }
         {
             name: "Gemmer Sojan (BoE)"
@@ -20516,12 +20516,12 @@ exportObj.basicCardData = ->
                     "Boost"
                     "R-> Evade"
                 ]
-                upgrades: [
-                    "It's A Trap! (BoE)"
-                    "Juke"
-                    "Proton Rockets"
-                    "Chaff Particles (BoE)"
-                ]
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Juke"
+                "Proton Rockets"
+                "Chaff Particles (BoE)"
+            ]
         }
         {
             name: "Adon Fox (BoE)"
@@ -20546,12 +20546,12 @@ exportObj.basicCardData = ->
                     "R-> Lock"
                     "R-Reload"
                 ]
-                upgrades: [
-                    "It's A Trap! (BoE)"
-                    "Parting Gift (BoE)"
-                    "Proton Rockets"
-                    "Proton Bombs"
-                ]
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Parting Gift (BoE)"
+                "Proton Rockets"
+                "Proton Bombs"
+            ]
         }
         {
             name: "Braylen Stramm (BoE)"
@@ -20579,12 +20579,12 @@ exportObj.basicCardData = ->
                     "R-> Lock"
                     "R-Reload"
                 ]
-                upgrades: [
-                    "It's A Trap! (BoE)"
-                    "Homing Missiles"
-                    "Proton Bombs"
-                    "Delayed Fuses"
-                ]
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Homing Missiles"
+                "Proton Bombs"
+                "Delayed Fuses"
+            ]
         }
         {
             name: "Gina Moonsong (BoE)"
@@ -20612,12 +20612,12 @@ exportObj.basicCardData = ->
                     "R-> Lock"
                     "R-Reload"
                 ]
-                upgrades: [
-                    "It's A Trap! (BoE)"
-                    "Juke"
-                    "Proton Torpedoes"
-                    "Ion Bombs"
-                ]
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Juke"
+                "Proton Torpedoes"
+                "Ion Bombs"
+            ]
         }
         {
             name: "Kendy Idele (BoE)"
@@ -20642,12 +20642,12 @@ exportObj.basicCardData = ->
                     "R-> Focus"
                     "Boost"
                 ]
-                upgrades: [
-                    "It's A Trap! (BoE)"
-                    "Ion Missiles"
-                    "Modified R4-P unit (BoE)"
-                    "Chaff Particles (BoE)"
-                ]
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Ion Missiles"
+                "Modified R4-P unit (BoE)"
+                "Chaff Particles (BoE)"
+            ]
         }
         {
             name: "Wedge Antilles (BoE)"
@@ -20673,12 +20673,12 @@ exportObj.basicCardData = ->
                     "R-> Focus"
                     "Boost"
                 ]
-                upgrades: [
-                    "It's A Trap! (BoE)"
-                    "Predator"
-                    "Adv. Proton Torpedoes"
-                    "R2-A3 (BoE)"
-                ]
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Predator"
+                "Adv. Proton Torpedoes"
+                "R2-A3 (BoE)"
+            ]
         }
         {
             name: "Yendor (BoE)"
@@ -20703,11 +20703,11 @@ exportObj.basicCardData = ->
                     "R-> Focus"
                     "Boost"
                 ]
-                upgrades: [
-                    "It's A Trap! (BoE)"
-                    "Plasma Torpedoes"
-                    "Stabilizing Astromech (BoE)"
-                ]
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Plasma Torpedoes"
+                "Stabilizing Astromech (BoE)"
+            ]
         }
         {
             name: "Lando Calrissian (BoE)"
@@ -20734,13 +20734,13 @@ exportObj.basicCardData = ->
                     "R-Coordinate"
                     "R-> Focus"
                 ]
-                upgrades: [
-                    "Ace In The Hole (BoE)"
-                    "It's A Trap! (BoE)"
-                    "Nien Nunb"
-                    "Airen Cracken (BoE)"
-                    "Millennium Falcon (BoE)"
-                ]
+            upgrades: [
+                "Ace In The Hole (BoE)"
+                "It's A Trap! (BoE)"
+                "Nien Nunb"
+                "Airen Cracken (BoE)"
+                "Millennium Falcon (BoE)"
+            ]
         }
         {
             name: "Captain Yorr (BoE)"
@@ -20766,12 +20766,12 @@ exportObj.basicCardData = ->
                     "Barrel Roll"
                     "Boost"
                 ]
-                upgrades: [
-                    "No Escape (BoE)"
-                    "Predator"
-                    "Ion Cannon"
-                    "Computer-Assisted Handling (BoE)"
-                ]
+            upgrades: [
+                "No Escape (BoE)"
+                "Predator"
+                "Ion Cannon"
+                "Computer-Assisted Handling (BoE)"
+            ]
         }
         {
             name: "Colonel Jendon (BoE)"
@@ -20796,12 +20796,12 @@ exportObj.basicCardData = ->
                     "Barrel Roll"
                     "Boost"
                 ]
-                upgrades: [
-                    "No Escape (BoE)"
-                    "Push The Limit (BoE)"
-                    "Proton Cannons"
-                    "Computer-Assisted Handling (BoE)"
-                ]
+            upgrades: [
+                "No Escape (BoE)"
+                "Push The Limit (BoE)"
+                "Proton Cannons"
+                "Computer-Assisted Handling (BoE)"
+            ]
         }
         {
             name: "Maus Monare (BoE)"
@@ -20891,11 +20891,11 @@ exportObj.basicCardData = ->
                     "R-> Evade"
                     "R-Boost"
                 ]
-                upgrades: [
-                    "Collected (BoE)"
-                    "Elusive"
-                    "No Escape (BoE)"
-                ]
+            upgrades: [
+                "Collected (BoE)"
+                "Elusive"
+                "No Escape (BoE)"
+            ]
         }
         {
             name: "Major Mianda (BoE)"
@@ -20920,11 +20920,11 @@ exportObj.basicCardData = ->
                     "R-> Evade"
                     "R-Coordinate"
                 ]
-                upgrades: [
-                    "Ruthless"
-                    "Swarm Tactics"
-                    "No Escape (BoE)"
-                ]
+            upgrades: [
+                "Ruthless"
+                "Swarm Tactics"
+                "No Escape (BoE)"
+            ]
         }
         {
             name: "Scythe 6 (BoE)"
@@ -20948,12 +20948,12 @@ exportObj.basicCardData = ->
                     "Barrel Roll"
                     "R-> Evade"
                 ]
-                upgrades: [
-                    "No Escape (BoE)"
-                    "Predator"
-                    "Ion Maneuvering Jet (BoE)"
-                    "Targeting Matrix (BoE)"
-                ]
+            upgrades: [
+                "No Escape (BoE)"
+                "Predator"
+                "Ion Maneuvering Jet (BoE)"
+                "Targeting Matrix (BoE)"
+            ]
         }
         {
             name: "Scimitar 1 (BoE)"
@@ -21021,11 +21021,11 @@ exportObj.basicCardData = ->
                     "R-> Reload"
                     "Reload"
                 ]
-                upgrades: [
-                    "Proton Torpedoes"
-                    "Saturation Rockets (SL)"
-                    "Electronic Baffle"
-                ]
+            upgrades: [
+                "Proton Torpedoes"
+                "Saturation Rockets (SL)"
+                "Electronic Baffle"
+            ]
         }
         {
             name: "Major Vynder (SSL)"
@@ -21051,11 +21051,11 @@ exportObj.basicCardData = ->
                     "R-> Reload"
                     "Reload"
                 ]
-                upgrades: [
-                    "Long-Range Scanners (SL)"
-                    "Ion Cannon"
-                    "Heavy Plasma Missiles (SL)"
-                ]
+            upgrades: [
+                "Long-Range Scanners (SL)"
+                "Ion Cannon"
+                "Heavy Plasma Missiles (SL)"
+            ]
         }
         {
             name: '"Echo" (SSL)'
@@ -21118,13 +21118,13 @@ exportObj.basicCardData = ->
                     "Jam"
                     "Rotate Arc"
                 ]
-                upgrades: [
-                    "Leia Organa (Epic)"
-                    "R2-D2 (Epic)"
-                    "C-3PO (Epic)"
-                    "Turbolaser Battery"
-                    "Tantive IV"
-                ]
+            upgrades: [
+                "Leia Organa (Epic)"
+                "R2-D2 (Epic)"
+                "C-3PO (Epic)"
+                "Turbolaser Battery"
+                "Tantive IV"
+            ]
         }
         {
             name: "Raymus Antilles (Republic)"
@@ -21150,13 +21150,13 @@ exportObj.basicCardData = ->
                     "Jam"
                     "Rotate Arc"
                 ]
-                upgrades: [
-                    "Born for This (Epic)"
-                    "Bail Organa (Epic)"
-                    "Secret Provisions (Epic)"
-                    "Turbolaser Battery"
-                    "Tantive IV (Republic)"
-                ]
+            upgrades: [
+                "Born for This (Epic)"
+                "Bail Organa (Epic)"
+                "Secret Provisions (Epic)"
+                "Turbolaser Battery"
+                "Tantive IV (Republic)"
+            ]
         }
         {
             name: "Leia Organa (CR90)"
@@ -21182,13 +21182,13 @@ exportObj.basicCardData = ->
                     "Jam"
                     "Rotate Arc"
                 ]
-                upgrades: [
-                    "Nien Nunb (Epic)"
-                    "Urcos Furdam (Epic)"
-                    "Tibanna Reserves"
-                    "Turbolaser Battery"
-                    "Tantive IV (Resistance)"
-                ]
+            upgrades: [
+                "Nien Nunb (Epic)"
+                "Urcos Furdam (Epic)"
+                "Tibanna Reserves"
+                "Turbolaser Battery"
+                "Tantive IV (Resistance)"
+            ]
         }
         {
             name: "Iden Versio (Raider)"
@@ -21214,13 +21214,13 @@ exportObj.basicCardData = ->
                     "Jam"
                     "Rotate Arc"
                 ]
-                upgrades: [
-                    "Ruthless"
-                    "Fanatical (Epic)"
-                    "Inferno Squad (Epic)"
-                    "Twin Missile Launcher (Epic)"
-                    "Corvus (Epic)"
-                ]
+            upgrades: [
+                "Ruthless"
+                "Fanatical (Epic)"
+                "Inferno Squad (Epic)"
+                "Twin Missile Launcher (Epic)"
+                "Corvus (Epic)"
+            ]
         }
         {
             name: "Gideon Hask (Raider)"
@@ -21244,13 +21244,13 @@ exportObj.basicCardData = ->
                     "Jam"
                     "Rotate Arc"
                 ]
-                upgrades: [
-                    "Agent Terex (Epic)"
-                    "Protectorate Gleb (Epic)"
-                    "Jinata Security Forces (Epic)"
-                    "Twin Missile Launcher (Epic)"
-                    "Precursor (Epic)"
-                ]
+            upgrades: [
+                "Agent Terex (Epic)"
+                "Protectorate Gleb (Epic)"
+                "Jinata Security Forces (Epic)"
+                "Twin Missile Launcher (Epic)"
+                "Precursor (Epic)"
+            ]
         }
         {
             name: "Aut-0"
@@ -21275,11 +21275,11 @@ exportObj.basicCardData = ->
                     "Coordinate"
                     "Jam"
                 ]
-                upgrades: [
-                    "TX-25 (Epic)"
-                    "Endless Hordes (Epic)"
-                    "Alpha Revue (Epic)"
-                ]
+            upgrades: [
+                "TX-25 (Epic)"
+                "Endless Hordes (Epic)"
+                "Alpha Revue (Epic)"
+            ]
         }
         {
             name: "Cerra Fellian"
@@ -21303,11 +21303,11 @@ exportObj.basicCardData = ->
                     "Jam"
                     "Rotate Arc"
                 ]
-                upgrades: [
-                    "Petty Officer Thanisson (Epic)"
-                    "Ion Cannon Battery"
-                    "Malefactor (Epic)"
-                ]
+            upgrades: [
+                "Petty Officer Thanisson (Epic)"
+                "Ion Cannon Battery"
+                "Malefactor (Epic)"
+            ]
         }
         {
             name: "Rik Virgilio"
@@ -21333,11 +21333,11 @@ exportObj.basicCardData = ->
                     "Jam"
                     "Rotate Arc"
                 ]
-                upgrades: [
-                    "Thrawn (Epic)"
-                    "Heavy Laser Cannon Turret (Epic)"
-                    "Blood Crow (Epic)"
-                ]
+            upgrades: [
+                "Thrawn (Epic)"
+                "Heavy Laser Cannon Turret (Epic)"
+                "Blood Crow (Epic)"
+            ]
         }
         {
             name: "Wez Synat"
@@ -21363,11 +21363,11 @@ exportObj.basicCardData = ->
                     "Jam"
                     "Rotate Arc"
                 ]
-                upgrades: [
-                    "Clone Commander Cody"
-                    "Point Defense Battery (Epic)"
-                    "Spectre of Nayr (Epic)"
-                ]
+            upgrades: [
+                "Clone Commander Cody"
+                "Point Defense Battery (Epic)"
+                "Spectre of Nayr (Epic)"
+            ]
         }
         {
             name: "Oraf Desyk"
@@ -21392,11 +21392,11 @@ exportObj.basicCardData = ->
                     "Coordinate"
                     "Jam"
                 ]
-                upgrades: [
-                    "GA-75 (Epic)"
-                    "Adaptive Shields"
-                    "Hosnian Lament (Epic)"
-                ]
+            upgrades: [
+                "GA-75 (Epic)"
+                "Adaptive Shields"
+                "Hosnian Lament (Epic)"
+            ]
         }
         {
             name: "Trebor Zednem"
@@ -21421,11 +21421,11 @@ exportObj.basicCardData = ->
                     "Coordinate"
                     "Jam"
                 ]
-                upgrades: [
-                    "Toryn Farr"
-                    "Planetary Ion Bombardment (Epic)"
-                    "Bright Hope"
-                ]
+            upgrades: [
+                "Toryn Farr"
+                "Planetary Ion Bombardment (Epic)"
+                "Bright Hope"
+            ]
         }
         {
             name: "Cikatro Vizago"
@@ -21451,12 +21451,12 @@ exportObj.basicCardData = ->
                     "Jam"
                     "Rotate Arc"
                 ]
-                upgrades: [
-                    "Azmorigan (Epic)"
-                    "Illegal Countermeasures (Epic)"
-                    "Modified Dorsal Turret (Epic)"
-                    "Broken Horn"
-                ]
+            upgrades: [
+                "Azmorigan (Epic)"
+                "Illegal Countermeasures (Epic)"
+                "Modified Dorsal Turret (Epic)"
+                "Broken Horn"
+            ]
         }
         {
             name: "Asajj Ventress (Trident)"
@@ -21481,12 +21481,12 @@ exportObj.basicCardData = ->
                     "Lock"
                     "R-Coordinate"
                 ]
-                upgrades: [
-                    "AQ-Series Battle Droids (Epic)"
-                    "Tractor Tentacles"
-                    "Drill Beak (Epic)"
-                    "Trident (Epic)"
-                ]
+            upgrades: [
+                "AQ-Series Battle Droids (Epic)"
+                "Tractor Tentacles"
+                "Drill Beak (Epic)"
+                "Trident (Epic)"
+            ]
         }
         {
             name: "Sorc Tormo"
@@ -21510,12 +21510,12 @@ exportObj.basicCardData = ->
                     "Lock"
                     "R-Coordinate"
                 ]
-                upgrades: [
-                    "Caij Vanda (Epic)"
-                    "Tractor Tentacles"
-                    "Drill Beak (Epic)"
-                    "Nautolan's Revenge (Epic)"
-                ]
+            upgrades: [
+                "Caij Vanda (Epic)"
+                "Tractor Tentacles"
+                "Drill Beak (Epic)"
+                "Nautolan's Revenge (Epic)"
+            ]
         }
         {
             name: "Kylo Ren (EoD)"
@@ -21636,10 +21636,10 @@ exportObj.basicCardData = ->
                     "Barrel Roll"
                     "R-> Evade"
                 ]
-                upgrades: [
-                    "Determination (EoD)"
-                    "Targeting Relay (EoD)"
-                ]
+            upgrades: [
+                "Determination (EoD)"
+                "Targeting Relay (EoD)"
+            ]
         }
         {
             name: "Lieutenant LeHuse (EoD)"
@@ -21664,11 +21664,11 @@ exportObj.basicCardData = ->
                     "Reload"
                     "> Lock"
                 ]
-                upgrades: [
-                    "Determination (EoD)"
-                    "Concussion Missiles"
-                    "First Order Ordnance Tech (EoD)"
-                ]
+            upgrades: [
+                "Determination (EoD)"
+                "Concussion Missiles"
+                "First Order Ordnance Tech (EoD)"
+            ]
         }
         {
             name: "Theta 3 (EoD)"
@@ -21694,11 +21694,11 @@ exportObj.basicCardData = ->
                     "Reload"
                     "> Lock"
                 ]
-                upgrades: [
-                    "Seeker Missiles (YLF)"
-                    "Passive Sensors"
-                    "First Order Ordnance Tech (EoD)"
-                ]
+            upgrades: [
+                "Seeker Missiles (YLF)"
+                "Passive Sensors"
+                "First Order Ordnance Tech (EoD)"
+            ]
         }
         {
             name: "Theta 4 (EoD)"
@@ -21723,11 +21723,11 @@ exportObj.basicCardData = ->
                     "Barrel Roll"
                 ]
                 chassis: "Heavy Weapon Turret (EoD)"
-                upgrades: [
-                    "Determination (EoD)"
-                    "Barrage Rockets"
-                    "Pattern Analyzer"
-                ]
+            upgrades: [
+                "Determination (EoD)"
+                "Barrage Rockets"
+                "Pattern Analyzer"
+            ]
         }
         {
             name: "Petty Officer Thanisson (EoD)"
@@ -21776,12 +21776,12 @@ exportObj.basicCardData = ->
                     "Boost"
                     "Slam"
                 ]
-                upgrades: [
-                    "Heroic"
-                    "BB-8 (EoD)"
-                    "Primed Overdrive Thrusters (EoD)"
-                    "Black One (EoD)"
-                ]
+            upgrades: [
+                "Heroic"
+                "BB-8 (EoD)"
+                "Primed Overdrive Thrusters (EoD)"
+                "Black One (EoD)"
+            ]
         }
         {
             name: "Jaycris Tubbs (EoD)"
@@ -21806,10 +21806,10 @@ exportObj.basicCardData = ->
                     "Boost"
                     "R-> Focus"
                 ]
-                upgrades: [
-                    "For The Cause (EoD)"
-                    "R0 Astromech (EoD)"
-                ]
+            upgrades: [
+                "For The Cause (EoD)"
+                "R0 Astromech (EoD)"
+            ]
         }
         {
             name: "Stomeroni Starck (EoD)"
@@ -21871,12 +21871,12 @@ exportObj.basicCardData = ->
                     "Boost"
                     "R-> Focus"
                 ]
-                upgrades: [
-                    "For The Cause (EoD)"
-                    "Heroic"
-                    "BB Astromech"
-                    "Repulsorlift Engines (EoD)"
-                ]
+            upgrades: [
+                "For The Cause (EoD)"
+                "Heroic"
+                "BB Astromech"
+                "Repulsorlift Engines (EoD)"
+            ]
         }
         {
             name: "Ronith Blario (EoD)"
@@ -21921,12 +21921,12 @@ exportObj.basicCardData = ->
                     "Barrel Roll"
                     "Boost"
                 ]
-                upgrades: [
-                    "For The Cause (EoD)"
-                    "Heroic"
-                    "Push The Limit (BoE)"
-                    "XX-23 S-Thread Tracers"
-                ]
+            upgrades: [
+                "For The Cause (EoD)"
+                "Heroic"
+                "Push The Limit (BoE)"
+                "XX-23 S-Thread Tracers"
+            ]
         }
         {
             name: "Zizi Tlo (EoD)"
@@ -21991,12 +21991,12 @@ exportObj.basicCardData = ->
                     "Reload"
                     "R-> Reinforce"
                 ]
-                upgrades: [
-                    "Nix Jerd (EoD)"
-                    "Paige Tico (EoD)"
-                    "Proton Bombs"
-                    "Thermal Detonators"
-                ]
+            upgrades: [
+                "Nix Jerd (EoD)"
+                "Paige Tico (EoD)"
+                "Proton Bombs"
+                "Thermal Detonators"
+            ]
         }
         {
             name: "Vennie (EoD)"
@@ -22020,11 +22020,11 @@ exportObj.basicCardData = ->
                     "R-> Focus"
                     "Reload"
                 ]
-                upgrades: [
-                    "Perceptive Copilot"
-                    "Dedicated Gunners (EoD)"
-                    "Proton Bombs"
-                ]
+            upgrades: [
+                "Perceptive Copilot"
+                "Dedicated Gunners (EoD)"
+                "Proton Bombs"
+            ]
         }
         {
             name: "Boba Fett (AaD)"
@@ -22046,12 +22046,12 @@ exportObj.basicCardData = ->
                     "Boost"
                     "R-> Lock"
                 ]
-                upgrades: [
-                    "Homing Beacon (AaD)"
-                    "Fennec Shand (AaD)"
-                    "Seismic Charges"
-                    "Slave I (Separatist)"
-                ]
+            upgrades: [
+                "Homing Beacon (AaD)"
+                "Fennec Shand (AaD)"
+                "Seismic Charges"
+                "Slave I (Separatist)"
+            ]
         }
         {
             name: "The Mandalorian (AaD)"
@@ -22078,12 +22078,12 @@ exportObj.basicCardData = ->
                     "Slam"
                     "R-> Lock"
                 ]
-                upgrades: [
-                    "Outmaneuver"
-                    "The Child (AaD)"
-                    "Kineso-Switch (AaD)"
-                    "Calibrated Laser Targeting"
-                ]
+            upgrades: [
+                "Outmaneuver"
+                "The Child (AaD)"
+                "Kineso-Switch (AaD)"
+                "Calibrated Laser Targeting"
+            ]
         }
         {
             name: "Han Solo (AaD)"
@@ -22109,12 +22109,12 @@ exportObj.basicCardData = ->
                     "Rotate Arc"
                     "R-> Focus"
                 ]
-                upgrades: [
-                    "Chewbacca (AaD)"
-                    "L3-37 (AaD)"
-                    "Tobias Beckett (AaD)"
-                    "Lando's Millennium Falcon (AaD)"
-                ]
+            upgrades: [
+                "Chewbacca (AaD)"
+                "L3-37 (AaD)"
+                "Tobias Beckett (AaD)"
+                "Lando's Millennium Falcon (AaD)"
+            ]
         }
         {
             name: "Bo-Katan Kryze (AaD)"
@@ -22205,11 +22205,11 @@ exportObj.basicCardData = ->
                     "Lock"
                     "R-Cloak"
                 ]
-                upgrades: [
-                    "Flechette Cannons (AaD)"
-                    "Todo 360 (AaD)"
-                    "Xanadu Blood (AaD)"
-                ]
+            upgrades: [
+                "Flechette Cannons (AaD)"
+                "Todo 360 (AaD)"
+                "Xanadu Blood (AaD)"
+            ]
         }
         {
             name: "Fenn Rau (AaD)"
@@ -22226,11 +22226,11 @@ exportObj.basicCardData = ->
             loadoutxwa: 0
             ship_override:
                 hull: 5
-                upgrades: [
-                    "Fearless"
-                    "Adaptable Power Systems (AaD)"
-                    "Beskar Reinforced Plating"
-                ]
+            upgrades: [
+                "Fearless"
+                "Adaptable Power Systems (AaD)"
+                "Beskar Reinforced Plating"
+            ]
         }
         {
             name: "Prince Xizor (AaD)"
@@ -22249,11 +22249,11 @@ exportObj.basicCardData = ->
             chassis: "Adaptative Microthrusters"
             ship_override:
                 shields: 2
-                upgrades: [
-                    "Crime Lord (AaD)"
-                    "Mandalorian Optics"
-                    "Virago (AaD)"
-                ]
+            upgrades: [
+                "Crime Lord (AaD)"
+                "Mandalorian Optics"
+                "Virago (AaD)"
+            ]
         }
         {
             name: "Zuckuss (AaD)"
@@ -22279,12 +22279,12 @@ exportObj.basicCardData = ->
                     "Jam"
                     "R-> Calculate"
                 ]
-                upgrades: [
-                    "Persistent Tracker (AaD)"
-                    "Tractor Beam"
-                    "4-LOM (AaD)"
-                    "Mist Hunter (AaD)"
-                ]
+            upgrades: [
+                "Persistent Tracker (AaD)"
+                "Tractor Beam"
+                "4-LOM (AaD)"
+                "Mist Hunter (AaD)"
+            ]
         }
     ]
 
