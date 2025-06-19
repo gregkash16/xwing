@@ -3149,7 +3149,7 @@ exportObj.basicCardData = ->
         {
             name: "Han Solo"
             id: 42
-            xws_name: "hansolo"
+            xws_name: "hansolo-modifiedyt1300lightfreighter"
             unique: true
             xwsaddon: "modifiedyt1300lightfreighter"
             faction: "Rebel Alliance"
@@ -3157,8 +3157,8 @@ exportObj.basicCardData = ->
             skill: 6
             points: 7
             loadout: 15
-            pointsxwa: 16
-            loadoutxwa: 20
+            pointsxwa: 22
+            loadoutxwa: 25
             slots: [
                 "Talent"
                 "Missile"
@@ -3172,11 +3172,12 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Talent"
                 "Crew"
                 "Crew"
                 "Gunner"
+                "Gunner"
                 "Illicit"
+                "Missile"
                 "Modification"
                 "Modification"
                 "Title"
@@ -3185,7 +3186,7 @@ exportObj.basicCardData = ->
         {
             name: "Lando Calrissian"
             id: 43
-            xws_name: "landocalrissian"
+            xws_name: "landocalrissian-modifiedyt1300lightfreighter"
             unique: true
             xwsaddon: "modifiedyt1300lightfreighter"
             faction: "Rebel Alliance"
@@ -3211,7 +3212,9 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Crew"
                 "Gunner"
+                "Gunner"
                 "Illicit"
+                "Missile"
                 "Modification"
                 "Modification"
                 "Title"
