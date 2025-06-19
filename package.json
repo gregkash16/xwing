@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "install": "^0.13.0",
-    "sass": "^1.85.0"
+    "sass": "^1.85.0",
+    "react-scripts": "*"
   }
 }
