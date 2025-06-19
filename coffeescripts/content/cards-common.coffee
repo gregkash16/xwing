@@ -5868,6 +5868,7 @@ exportObj.basicCardData = ->
                 "Hardpoint"
                 "Modification"
                 "Talent"
+                "HardpointShip"
             ]
         }
         {
@@ -5893,6 +5894,7 @@ exportObj.basicCardData = ->
                 "Hardpoint"
                 "Modification"
                 "Talent"
+                "HardpointShip"
             ]
         }
         {
@@ -5917,6 +5919,7 @@ exportObj.basicCardData = ->
                 "Hardpoint"
                 "Modification"
                 "Talent"
+                "HardpointShip"
             ]
         }
         {
@@ -5943,6 +5946,7 @@ exportObj.basicCardData = ->
                 "Hardpoint"
                 "Modification"
                 "Talent"
+                "HardpointShip"
             ]
         }
         {
@@ -5965,6 +5969,7 @@ exportObj.basicCardData = ->
                 "Hardpoint"
                 "Modification"
                 "Talent"
+                "HardpointShip"
             ]
         }
         {
@@ -5985,7 +5990,7 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Hardpoint"
+                "HardpointShip"
                 "Modification"
             ]
         }
@@ -6007,7 +6012,7 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Hardpoint"
+                "HardpointShip"
                 "Modification"
             ]
         }
@@ -6028,7 +6033,7 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Hardpoint"
+                "HardpointShip"
                 "Modification"
             ]
         }
@@ -8509,6 +8514,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Talent"
                 "Title"
+                "HardpointShip"
             ]
         }
         {
@@ -9080,6 +9086,7 @@ exportObj.basicCardData = ->
                 "Tech"
                 "Configuration"
                 "Talent"
+                "HardpointShip"
             ]
         }
         {
@@ -9108,6 +9115,7 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Tech"
                 "Configuration"
+                "HardpointShip"
             ]
         }
         {
@@ -9135,6 +9143,7 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Tech"
                 "Configuration"
+                "HardpointShip"
             ]
         }
         {
@@ -9162,6 +9171,7 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Tech"
                 "Configuration"
+                "HardpointShip"
             ]
         }
         {
@@ -9187,6 +9197,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Modification"
                 "Talent"
+                "HardpointShip"
             ]
         }
         {
@@ -9215,6 +9226,7 @@ exportObj.basicCardData = ->
                 "Tech"
                 "Configuration"
                 "Talent"
+                "HardpointShip"
             ]
         }
         {
@@ -9241,6 +9253,7 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Tech"
                 "Configuration"
+                "HardpointShip"
             ]
         }
         {
@@ -10337,6 +10350,7 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Tech"
                 "Configuration"
+                "HardpointShip"
             ]
         }
         {
@@ -10367,6 +10381,7 @@ exportObj.basicCardData = ->
                 "Tech"
                 "Configuration"
                 "Talent"
+                "HardpointShip"
             ]
         }
         {
@@ -10398,6 +10413,7 @@ exportObj.basicCardData = ->
                 "Configuration"
                 "Talent"
                 "Tech"
+                "HardpointShip"
             ]
         }
         {
@@ -10428,6 +10444,7 @@ exportObj.basicCardData = ->
                 "Tech"
                 "Configuration"
                 "Talent"
+                "HardpointShip"
             ]
         }
         {
@@ -13325,7 +13342,7 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Modification"
-                "Hardpoint"
+                "HardpointShip"
             ]
         }
         {
@@ -14616,6 +14633,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Talent"
                 "Title"
+                "HardpointShip"
             ]
         }
         {
@@ -14647,6 +14665,7 @@ exportObj.basicCardData = ->
                 "Tech"
                 "Configuration"
                 "Talent"
+                "HardpointShip"
             ]
         }
         {
@@ -14781,6 +14800,7 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Tech"
                 "Configuration"
+                "HardpointShip"
             ]
         }
         {
@@ -14810,6 +14830,7 @@ exportObj.basicCardData = ->
                 "Tech"
                 "Configuration"
                 "Talent"
+                "HardpointShip"
             ]
         }
         {
@@ -19179,6 +19200,7 @@ exportObj.basicCardData = ->
                 "Configuration"
                 "Talent"
                 "Missile"
+                "HardpointShip"
             ]
         }
         {
@@ -19209,6 +19231,7 @@ exportObj.basicCardData = ->
                 "Tech"
                 "Configuration"
                 "Talent"
+                "HardpointShip"
             ]
         }
         {
