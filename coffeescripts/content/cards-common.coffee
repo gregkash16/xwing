@@ -23112,7 +23112,7 @@ exportObj.basicCardData = ->
             id: 90
             slot: "Gunner"
             points: 3
-            pointsxwa: 4
+            pointsxwa: 6
             restrictions: [
                 ["Action", "Rotate Arc"]
             ]
@@ -23992,7 +23992,7 @@ exportObj.basicCardData = ->
             name: "Special Forces Gunner"
             id: 182
             slot: "Gunner"
-            points: 0
+            points: 9
             faction: "First Order"
             ship: "TIE/sf Fighter"
         }
@@ -27083,7 +27083,7 @@ exportObj.basicCardData = ->
             name: "Drop-Seat Bay"
             id: 465
             points: 5
-            pointsxwa: 2
+            pointsxwa: 0
             slot: "Modification"
             ship: "Gauntlet Fighter"
             unequips_upgrades: [
