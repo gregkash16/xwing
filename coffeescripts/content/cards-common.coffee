@@ -2050,10 +2050,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
+                "Illicit"
+                "Missile"
                 "Modification"
                 "Configuration"
-                "Missile"
-                "Illicit"
             ]
         }
         {
@@ -2073,8 +2073,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Modification"
                 "Torpedo"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -2095,11 +2095,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Torpedo"
-                "Configuration"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -2121,11 +2121,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Torpedo"
-                "Configuration"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -2151,12 +2151,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Force Power"
+                "Force Power"
                 "Astromech"
-                "Modification"
                 "Torpedo"
+                "Modification"
                 "Configuration"
-                "Force Power"
-                "Force Power"
             ]
         }
         {
@@ -2180,11 +2180,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Torpedo"
-                "Configuration"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -2208,11 +2208,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Torpedo"
-                "Configuration"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -2234,8 +2234,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Modification"
                 "Torpedo"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -2259,10 +2259,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
+                "Illicit"
+                "Missile"
                 "Modification"
                 "Configuration"
-                "Missile"
-                "Illicit"
             ]
         }
         {
@@ -2284,11 +2284,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Torpedo"
-                "Configuration"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -2312,12 +2312,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
+                "Illicit"
+                "Missile"
                 "Modification"
                 "Configuration"
-                "Missile"
-                "Illicit"
-                "Talent"
             ]
         }
         {
@@ -2346,12 +2346,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
+                "Illicit"
+                "Missile"
                 "Modification"
                 "Configuration"
-                "Missile"
-                "Illicit"
-                "Talent"
             ]
         }
         {
@@ -2398,25 +2398,30 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
-                "Modification"
                 "Force Power"
+                "Modification"
+                "Modification"
             ]
         }
         {
             name: '"Zeb" Orrelios (TIE Fighter)'
             id: 15
+            xwsname: "zeborrelios-tielnfighter"
             unique: true
             faction: "Rebel Alliance"
             ship: "TIE/ln Fighter"
             skill: 2
             points: 3
             loadout: 8
-            pointsxwa: 3
-            loadoutxwa: 11
+            pointsxwa: 6
+            loadoutxwa: 5
             keyword: ["Spectre"]
             slots: [
                 "Crew"
+                "Modification"
+            ]
+            slotsxwa: [
+                "Modification"
                 "Modification"
             ]
         }
@@ -2440,9 +2445,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Modification"
             ]
             applies_condition: 'Suppressive Fire'.canonicalize()
         }
@@ -2468,15 +2473,15 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
+                "Crew"
+                "Gunner"
                 "Torpedo"
                 "Missile"
                 "Missile"
                 "Payload"
                 "Payload"
                 "Modification"
-                "Gunner"
-                "Crew"
-                "Talent"
             ]
         }
         {
@@ -2501,14 +2506,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Crew"
+                "Gunner"
                 "Torpedo"
                 "Missile"
                 "Missile"
                 "Payload"
                 "Payload"
                 "Modification"
-                "Gunner"
-                "Crew"
             ]
         }
         {
@@ -2535,14 +2540,14 @@ exportObj.basicCardData = ->
                 "Device"
             ]
             slotsxwa: [
+                "Crew"
+                "Gunner"
                 "Torpedo"
                 "Missile"
                 "Missile"
                 "Payload"
                 "Payload"
                 "Modification"
-                "Gunner"
-                "Crew"
             ]
         }
         {
@@ -2567,12 +2572,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
+                "Astromech"
+                "Sensor"
                 "Torpedo"
                 "Modification"
-                "Sensor"
-                "Astromech"
-                "Talent"
-                "Talent"
             ]
         }
         {
@@ -2596,11 +2601,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
+                "Astromech"
+                "Sensor"
                 "Torpedo"
                 "Modification"
-                "Sensor"
-                "Astromech"
-                "Talent"
             ]
         }
         {
@@ -2621,11 +2626,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
+                "Astromech"
+                "Sensor"
                 "Torpedo"
                 "Modification"
-                "Sensor"
-                "Astromech"
-                "Talent"
             ]
         }
         {
@@ -2646,10 +2651,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Astromech"
+                "Sensor"
                 "Torpedo"
                 "Modification"
-                "Sensor"
-                "Astromech"
             ]
         }
         {
@@ -2673,12 +2678,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Payload"
-                "Torpedo"
-                "Turret"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Payload"
+                "Modification"
+                "Turret"
             ]
         }
         {
@@ -2702,25 +2707,26 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Payload"
-                "Torpedo"
-                "Turret"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Payload"
+                "Modification"
+                "Turret"
             ]
         }
         {
             name: '"Dutch" Vander'
             id: 27
+            xwsname: "dutchvander"
             unique: true
             faction: "Rebel Alliance"
             ship: "BTL-A4 Y-wing"
             skill: 4
             points: 4
             loadout: 12
-            pointsxwa: 4
-            loadoutxwa: 10
+            pointsxwa: 11
+            loadoutxwa: 18
             slots: [
                 "Talent"
                 "Turret"
@@ -2730,6 +2736,14 @@ exportObj.basicCardData = ->
                 "Device"
                 "Device"
                 "Modification"
+            ]
+            slotsxwa: [
+                "Talent"
+                "Astromech"
+                "Modification"
+                "Payload"
+                "Turret"
+                "Torpedo"
             ]
         }
         {
@@ -2756,9 +2770,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Modification"
-                "Payload"
                 "Torpedo"
+                "Payload"
+                "Modification"
                 "Turret"
             ]
         }
@@ -2779,12 +2793,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Payload"
-                "Torpedo"
-                "Turret"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Payload"
+                "Modification"
+                "Turret"
             ]
         }
         {
@@ -2805,9 +2819,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Modification"
-                "Payload"
                 "Torpedo"
+                "Payload"
+                "Modification"
                 "Turret"
             ]
         }
@@ -2858,12 +2872,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Sensor"
                 "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
         {
@@ -2887,12 +2901,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Sensor"
                 "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
         {
@@ -2918,13 +2932,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Sensor"
+                "Illicit"
                 "Modification"
                 "Configuration"
-                "Talent"
-                "Illicit"
             ]
         }
         {
@@ -2950,13 +2964,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Sensor"
+                "Illicit"
                 "Modification"
                 "Configuration"
-                "Talent"
-                "Illicit"
             ]
         }
         {
@@ -2982,13 +2996,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Sensor"
+                "Illicit"
                 "Modification"
                 "Configuration"
-                "Talent"
-                "Illicit"
             ]
         }
         {
@@ -3007,12 +3021,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Sensor"
                 "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
         {
@@ -3035,9 +3049,9 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Crew"
                 "Sensor"
+                "Illicit"
                 "Modification"
                 "Configuration"
-                "Illicit"
             ]
         }
         {
@@ -3066,8 +3080,8 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Illicit"
                 "Illicit"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
             chassis: "Sensor Blindspot"
             ship_override:
@@ -3076,14 +3090,15 @@ exportObj.basicCardData = ->
         {
             name: '"Leebo"'
             id: 40
+            xwsname: "leebo"
             unique: true
             faction: "Rebel Alliance"
             ship: "YT-2400 Light Freighter"
             skill: 3
             points: 8
             loadout: 16
-            pointsxwa: 7
-            loadoutxwa: 22
+            pointsxwa: 20
+            loadoutxwa: 19
             keyword: ["Droid"]
             slots: [
                 "Talent"
@@ -3095,9 +3110,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
+                "Crew"
+                "Illicit"
+                "Illicit"
                 "Missile"
-                "Illicit"
-                "Illicit"
                 "Modification"
             ]
             chassis: "Sensor Blindspot"
@@ -3123,8 +3139,8 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Illicit"
                 "Illicit"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
             chassis: "Sensor Blindspot"
             ship_override:
@@ -3155,6 +3171,8 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Crew"
                 "Crew"
                 "Gunner"
@@ -3162,8 +3180,6 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Modification"
                 "Title"
-                "Talent"
-                "Talent"
             ]
         }
         {
@@ -3191,6 +3207,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Gunner"
@@ -3198,7 +3215,6 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Modification"
                 "Title"
-                "Talent"
             ]
         }
         {
@@ -3227,16 +3243,16 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Gunner"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Missile"
+                "Modification"
+                "Modification"
                 "Title"
-                "Talent"
             ]
         }
         {
@@ -3258,9 +3274,9 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Crew"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Missile"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -3287,8 +3303,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Crew"
-                "Modification"
                 "Payload"
+                "Modification"
                 "Title"
             ]
         }
@@ -3315,8 +3331,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Crew"
-                "Modification"
                 "Payload"
+                "Modification"
                 "Title"
             ]
         }
@@ -3343,8 +3359,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Crew"
-                "Modification"
                 "Payload"
+                "Modification"
                 "Title"
             ]
         }
@@ -3365,9 +3381,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Crew"
+                "Payload"
+                "Payload"
                 "Modification"
-                "Payload"
-                "Payload"
             ]
         }
         {
@@ -3391,10 +3407,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Missile"
-                "Configuration"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -3416,8 +3432,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Missile"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -3439,8 +3455,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Missile"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -3461,8 +3477,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Missile"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -3486,8 +3502,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
         }
         {
@@ -3509,8 +3525,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
         }
         {
@@ -3530,8 +3546,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
         }
         {
@@ -3550,8 +3566,8 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Missile"
+                "Modification"
             ]
         }
         {
@@ -3573,9 +3589,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Modification"
-                "Talent"
             ]
         }
         {
@@ -3646,16 +3662,16 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Crew"
                 "Crew"
-                "Sensor"
                 "Gunner"
-                "Turret"
-                "Modification"
+                "Sensor"
                 "Torpedo"
+                "Modification"
                 "Title"
-                "Talent"
-                "Talent"
+                "Turret"
             ]
         }
         {
@@ -3684,27 +3700,28 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Sensor"
-                "Gunner"
-                "Turret"
-                "Modification"
-                "Torpedo"
-                "Title"
                 "Force Power"
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Sensor"
+                "Torpedo"
+                "Modification"
+                "Title"
+                "Turret"
             ]
         }
         {
             name: '"Chopper"'
             id: 63
+            xwsname: "chopper"
             unique: true
             faction: "Rebel Alliance"
             ship: "VCX-100 Light Freighter"
             skill: 2
             points: 6
             loadout: 14
-            pointsxwa: 6
+            pointsxwa: 16
             loadoutxwa: 12
             keyword: ["Droid","Spectre"]
             slots: [
@@ -3718,12 +3735,12 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Crew"
+                "Crew"
                 "Sensor"
+                "Gunner"
                 "Turret"
                 "Torpedo"
-                "Crew"
-                "Crew"
-                "Crew"
                 "Modification"
                 "Title"
             ]
@@ -3747,11 +3764,11 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Crew"
                 "Crew"
-                "Sensor"
                 "Gunner"
-                "Turret"
-                "Modification"
+                "Sensor"
                 "Torpedo"
+                "Modification"
+                "Turret"
             ]
         }
         {
@@ -3775,12 +3792,12 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Crew"
                 "Modification"
-                "Turret"
                 "Title"
-                "Talent"
-                "Talent"
+                "Turret"
             ]
         }
         {
@@ -3804,11 +3821,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Modification"
-                "Turret"
                 "Title"
-                "Talent"
+                "Turret"
             ]
         }
         {
@@ -3833,28 +3850,35 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Force Power"
                 "Crew"
                 "Modification"
-                "Turret"
                 "Title"
-                "Force Power"
+                "Turret"
             ]
         }
 
         {
             name: '"Zeb" Orrelios'
             id: 68
+            xws_name: "zeborrelios"
             unique: true
             faction: "Rebel Alliance"
             ship: "Attack Shuttle"
             skill: 2
             points: 3
             loadout: 10
-            pointsxwa: 3
+            pointsxwa: 8
             loadoutxwa: 6
             keyword: ["Spectre"]
             slots: [
                 "Talent"
+                "Turret"
+                "Crew"
+                "Modification"
+                "Title"
+            ]
+            slotsxwa: [
                 "Turret"
                 "Crew"
                 "Modification"
@@ -3882,11 +3906,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Crew"
                 "Modification"
                 "Title"
-                "Talent"
             ]
         }
         {
@@ -3911,16 +3935,17 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Force Power"
                 "Astromech"
                 "Crew"
                 "Modification"
                 "Title"
-                "Force Power"
             ]
         }
         {
             name: '"Zeb" Orrelios (Sheathipede)'
             id: 71
+            xwsname: "zeborrelios-sheathipedeclassshuttle"
             unique: true
             faction: "Rebel Alliance"
             ship: "Sheathipede-Class Shuttle"
@@ -3934,6 +3959,12 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Crew"
                 "Astromech"
+                "Modification"
+                "Title"
+            ]
+            slotsxwa: [
+                "Astromech"
+                "Crew"
                 "Modification"
                 "Title"
             ]
@@ -3987,14 +4018,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
+                "Sensor"
                 "Cannon"
                 "Cannon"
+                "Torpedo"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Torpedo"
                 "Configuration"
-                "Talent"
             ]
         }
         {
@@ -4020,14 +4051,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
+                "Sensor"
                 "Cannon"
                 "Cannon"
+                "Torpedo"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Torpedo"
                 "Configuration"
-                "Talent"
             ]
         }
         {
@@ -4049,14 +4080,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
+                "Sensor"
                 "Cannon"
                 "Cannon"
+                "Torpedo"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Torpedo"
                 "Configuration"
-                "Talent"
             ]
         }
         {
@@ -4078,12 +4109,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Sensor"
                 "Cannon"
                 "Cannon"
+                "Torpedo"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Torpedo"
                 "Configuration"
             ]
         }
@@ -4112,8 +4143,8 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Gunner"
                 "Gunner"
-                "Modification"
                 "Torpedo"
+                "Modification"
             ]
         }
         {
@@ -4141,8 +4172,8 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Gunner"
                 "Gunner"
-                "Modification"
                 "Torpedo"
+                "Modification"
             ]
         }
         {
@@ -4170,8 +4201,8 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Gunner"
                 "Gunner"
-                "Modification"
                 "Torpedo"
+                "Modification"
             ]
         }
         {
@@ -4198,8 +4229,8 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Gunner"
                 "Gunner"
-                "Modification"
                 "Torpedo"
+                "Modification"
             ]
         }
         {
@@ -4227,11 +4258,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Cannon"
-                "Cannon"
                 "Sensor"
-                "Payload"
                 "Illicit"
+                "Cannon"
+                "Cannon"
+                "Payload"
                 "Modification"
                 "Title"
             ]
@@ -4261,11 +4292,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Cannon"
-                "Cannon"
                 "Sensor"
-                "Payload"
                 "Illicit"
+                "Cannon"
+                "Cannon"
+                "Payload"
                 "Modification"
                 "Title"
             ]
@@ -4295,11 +4326,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Cannon"
-                "Cannon"
                 "Sensor"
-                "Payload"
                 "Illicit"
+                "Cannon"
+                "Cannon"
+                "Payload"
                 "Modification"
                 "Title"
             ]
@@ -4329,11 +4360,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Cannon"
-                "Cannon"
                 "Sensor"
-                "Payload"
                 "Illicit"
+                "Cannon"
+                "Cannon"
+                "Payload"
                 "Modification"
                 "Title"
             ]
@@ -4361,13 +4392,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Payload"
-                "Turret"
                 "Talent"
+                "Astromech"
                 "Illicit"
                 "Missile"
+                "Payload"
+                "Modification"
+                "Turret"
             ]
         }
         {
@@ -4393,13 +4424,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Payload"
-                "Turret"
                 "Talent"
+                "Astromech"
                 "Illicit"
                 "Missile"
+                "Payload"
+                "Modification"
+                "Turret"
             ]
         }
         {
@@ -4422,11 +4453,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Modification"
-                "Payload"
-                "Turret"
                 "Illicit"
                 "Missile"
+                "Payload"
+                "Modification"
+                "Turret"
             ]
         }
         {
@@ -4448,11 +4479,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Modification"
-                "Payload"
-                "Turret"
                 "Illicit"
                 "Missile"
+                "Payload"
+                "Modification"
+                "Turret"
             ]
         }
         {
@@ -4578,10 +4609,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Illicit"
                 "Modification"
-                "Talent"
             ]
         }
         {
@@ -4670,10 +4701,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
-                "Torpedo"
                 "Talent"
+                "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -4698,9 +4729,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -4724,9 +4755,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -4751,9 +4782,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -4774,9 +4805,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -4796,9 +4827,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
-                "Modification"
                 "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -4825,15 +4856,15 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Payload"
-                "Title"
-                "Talent"
                 "Modification"
+                "Modification"
+                "Title"
             ]
         }
         {
@@ -4859,14 +4890,14 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Payload"
+                "Modification"
                 "Title"
-                "Talent"
             ]
         }
         {
@@ -4892,14 +4923,14 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Payload"
+                "Modification"
                 "Title"
-                "Talent"
             ]
         }
         {
@@ -4926,13 +4957,13 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Payload"
-                "Talent"
+                "Modification"
             ]
         }
         {
@@ -4959,13 +4990,13 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Payload"
-                "Talent"
+                "Modification"
             ]
         }
         {
@@ -4987,12 +5018,12 @@ exportObj.basicCardData = ->
                 "Illicit"
             ]
             slotsxwa: [
-                "Cannon"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Payload"
+                "Modification"
             ]
         }
         {
@@ -5017,13 +5048,13 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
+                "Sensor"
                 "Illicit"
                 "Missile"
-                "Sensor"
                 "Modification"
                 "Title"
-                "Talent"
             ]
         }
         {
@@ -5048,13 +5079,13 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
+                "Sensor"
                 "Illicit"
                 "Missile"
-                "Sensor"
                 "Modification"
                 "Title"
-                "Talent"
             ]
         }
         {
@@ -5074,9 +5105,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Crew"
+                "Sensor"
                 "Illicit"
                 "Missile"
-                "Sensor"
                 "Modification"
             ]
         }
@@ -5102,11 +5133,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Illicit"
-                "Modification"
                 "Payload"
-                "Talent"
+                "Modification"
                 "Title"
             ]
         }
@@ -5134,11 +5165,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Illicit"
-                "Modification"
                 "Payload"
-                "Talent"
+                "Modification"
                 "Title"
             ]
         }
@@ -5164,8 +5195,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Crew"
                 "Illicit"
-                "Modification"
                 "Payload"
+                "Modification"
             ]
         }
         {
@@ -5194,12 +5225,12 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Gunner"
                 "Illicit"
-                "Modification"
+                "Cannon"
                 "Torpedo"
-                "Talent"
+                "Modification"
                 "Title"
             ]
         }
@@ -5227,12 +5258,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Gunner"
                 "Illicit"
-                "Modification"
+                "Cannon"
                 "Torpedo"
-                "Talent"
+                "Modification"
             ]
         }
         {
@@ -5259,12 +5290,12 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Gunner"
                 "Illicit"
-                "Modification"
+                "Cannon"
                 "Torpedo"
-                "Talent"
+                "Modification"
                 "Title"
             ]
         }
@@ -5285,9 +5316,9 @@ exportObj.basicCardData = ->
                 "Illicit"
             ]
             slotsxwa: [
-                "Cannon"
                 "Gunner"
                 "Illicit"
+                "Cannon"
                 "Modification"
             ]
         }
@@ -5312,12 +5343,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Talent"
+                "Illicit"
+                "Illicit"
+                "Missile"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -5342,12 +5373,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Talent"
+                "Illicit"
+                "Illicit"
+                "Missile"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -5372,12 +5403,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Talent"
+                "Illicit"
+                "Illicit"
+                "Missile"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -5402,9 +5433,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Illicit"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Missile"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -5422,12 +5453,12 @@ exportObj.basicCardData = ->
                 "Talent"
             ]
             slotsxwa: [
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Talent"
+                "Illicit"
+                "Illicit"
+                "Missile"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -5447,9 +5478,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Illicit"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Missile"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -5475,11 +5506,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Force Power"
                 "Crew"
                 "Illicit"
                 "Illicit"
                 "Modification"
-                "Force Power"
             ]
         }
         {
@@ -5504,11 +5535,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Illicit"
                 "Illicit"
                 "Modification"
-                "Talent"
                 "Title"
             ]
         }
@@ -5534,11 +5565,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Illicit"
                 "Illicit"
                 "Modification"
-                "Talent"
                 "Title"
             ]
         }
@@ -5587,12 +5618,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Illicit"
-                "Missile"
                 "Torpedo"
+                "Missile"
                 "Modification"
-                "Talent"
             ]
         }
         {
@@ -5618,12 +5649,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Illicit"
-                "Missile"
                 "Torpedo"
+                "Missile"
                 "Modification"
-                "Talent"
             ]
         }
         {
@@ -5643,8 +5674,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Illicit"
-                "Missile"
                 "Torpedo"
+                "Missile"
                 "Modification"
             ]
         }
@@ -5669,9 +5700,9 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Hardpoint"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Hardpoint"
             ]
         }
         {
@@ -5693,9 +5724,9 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Hardpoint"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Hardpoint"
             ]
         }
         {
@@ -5716,9 +5747,9 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Hardpoint"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Hardpoint"
             ]
         }
         {
@@ -5741,9 +5772,9 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Hardpoint"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Hardpoint"
             ]
         }
         {
@@ -5762,9 +5793,9 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Hardpoint"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Hardpoint"
             ]
         }
         {
@@ -5784,8 +5815,8 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Hardpoint"
                 "Modification"
+                "Hardpoint"
             ]
         }
         {
@@ -5805,8 +5836,8 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Hardpoint"
                 "Modification"
+                "Hardpoint"
             ]
         }
         {
@@ -5825,8 +5856,8 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Hardpoint"
                 "Modification"
+                "Hardpoint"
             ]
         }
         {
@@ -5850,11 +5881,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Illicit"
-                "Modification"
-                "Talent"
                 "Payload"
+                "Modification"
             ]
         }
         {
@@ -5881,8 +5912,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Crew"
                 "Illicit"
-                "Modification"
                 "Illicit"
+                "Modification"
                 "Tech"
             ]
         }
@@ -5959,14 +5990,14 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Gunner"
+                "Payload"
+                "Payload"
                 "Modification"
-                "Payload"
-                "Payload"
-                "Turret"
-                "Talent"
                 "Title"
+                "Turret"
             ]
         }
         {
@@ -5991,14 +6022,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Gunner"
-                "Modification"
-                "Payload"
-                "Payload"
-                "Turret"
-                "Talent"
                 "Illicit"
+                "Payload"
+                "Payload"
+                "Modification"
+                "Turret"
             ]
         }
         {
@@ -6021,9 +6052,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Crew"
                 "Gunner"
+                "Payload"
+                "Payload"
                 "Modification"
-                "Payload"
-                "Payload"
                 "Turret"
             ]
         }
@@ -6048,11 +6079,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Illicit"
-                "Modification"
-                "Sensor"
-                "Torpedo"
                 "Talent"
+                "Sensor"
+                "Illicit"
+                "Torpedo"
+                "Modification"
                 "Title"
             ]
         }
@@ -6076,11 +6107,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Illicit"
-                "Modification"
-                "Sensor"
-                "Torpedo"
                 "Talent"
+                "Sensor"
+                "Illicit"
+                "Torpedo"
+                "Modification"
                 "Title"
             ]
         }
@@ -6104,11 +6135,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Illicit"
-                "Modification"
-                "Sensor"
-                "Torpedo"
                 "Talent"
+                "Sensor"
+                "Illicit"
+                "Torpedo"
+                "Modification"
             ]
         }
         {
@@ -6126,11 +6157,11 @@ exportObj.basicCardData = ->
                 "Tech"
             ]
             slotsxwa: [
-                "Illicit"
-                "Modification"
-                "Sensor"
-                "Torpedo"
                 "Talent"
+                "Sensor"
+                "Illicit"
+                "Torpedo"
+                "Modification"
             ]
         }
         {
@@ -6148,10 +6179,10 @@ exportObj.basicCardData = ->
                 "Tech"
             ]
             slotsxwa: [
-                "Illicit"
-                "Modification"
                 "Sensor"
+                "Illicit"
                 "Torpedo"
+                "Modification"
             ]
         }
         {
@@ -6178,12 +6209,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
+                "Gunner"
                 "Illicit"
                 "Modification"
-                "Talent"
-                "Gunner"
             ]
         }
         {
@@ -6211,15 +6242,15 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
+                "Gunner"
                 "Illicit"
-                "Modification"
                 "Cannon"
                 "Missile"
-                "Talent"
+                "Modification"
                 "Title"
-                "Gunner"
             ]
         }
         {
@@ -6247,15 +6278,15 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
+                "Gunner"
                 "Illicit"
-                "Modification"
                 "Cannon"
                 "Missile"
-                "Talent"
+                "Modification"
                 "Title"
-                "Gunner"
             ]
         }
         {
@@ -6277,9 +6308,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Crew"
                 "Crew"
+                "Gunner"
                 "Illicit"
                 "Modification"
-                "Gunner"
             ]
         }
         {
@@ -6303,8 +6334,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Illicit"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
         }
         {
@@ -6329,8 +6360,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Illicit"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
         }
         {
@@ -6351,8 +6382,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Illicit"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
         }
         {
@@ -6371,8 +6402,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Illicit"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
         }
         {
@@ -6426,10 +6457,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
-                "Sensor"
-                "Configuration"
                 "Talent"
+                "Sensor"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -6452,10 +6483,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
-                "Sensor"
-                "Configuration"
                 "Talent"
+                "Sensor"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -6476,10 +6507,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
-                "Sensor"
-                "Configuration"
                 "Talent"
+                "Sensor"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -6500,8 +6531,8 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
                 "Sensor"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -6526,12 +6557,12 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Cannon"
-                "Sensor"
-                "Modification"
                 "Talent"
+                "Crew"
+                "Crew"
+                "Sensor"
+                "Cannon"
+                "Modification"
             ]
         }
         {
@@ -6557,8 +6588,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Crew"
                 "Crew"
-                "Cannon"
                 "Sensor"
+                "Cannon"
                 "Modification"
             ]
         }
@@ -6584,12 +6615,12 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Cannon"
-                "Sensor"
-                "Modification"
                 "Talent"
+                "Crew"
+                "Crew"
+                "Sensor"
+                "Cannon"
+                "Modification"
                 "Title"
             ]
         }
@@ -6612,8 +6643,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Crew"
                 "Crew"
-                "Cannon"
                 "Sensor"
+                "Cannon"
                 "Modification"
             ]
         }
@@ -6639,11 +6670,11 @@ exportObj.basicCardData = ->
                 "Missile"
             ]
             slotsxwa: [
-                "Missile"
+                "Force Power"
+                "Force Power"
                 "Sensor"
+                "Missile"
                 "Modification"
-                "Force Power"
-                "Force Power"
             ]
         }
         {
@@ -6667,10 +6698,10 @@ exportObj.basicCardData = ->
                 "Missile"
             ]
             slotsxwa: [
-                "Missile"
-                "Sensor"
-                "Modification"
                 "Force Power"
+                "Sensor"
+                "Missile"
+                "Modification"
             ]
         }
         {
@@ -6691,10 +6722,10 @@ exportObj.basicCardData = ->
                 "Sensor"
             ]
             slotsxwa: [
-                "Missile"
-                "Sensor"
-                "Modification"
                 "Force Power"
+                "Sensor"
+                "Missile"
+                "Modification"
             ]
         }
         {
@@ -6714,10 +6745,10 @@ exportObj.basicCardData = ->
                 "Missile"
             ]
             slotsxwa: [
-                "Missile"
-                "Sensor"
-                "Modification"
                 "Talent"
+                "Sensor"
+                "Missile"
+                "Modification"
             ]
         }
         {
@@ -6745,11 +6776,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
+                "Force Power"
+                "Force Power"
                 "Sensor"
+                "Missile"
                 "Modification"
-                "Force Power"
-                "Force Power"
             ]
         }
         {
@@ -6772,11 +6803,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
+                "Talent"
+                "Talent"
                 "Sensor"
+                "Missile"
                 "Modification"
-                "Talent"
-                "Talent"
             ]
         }
         {
@@ -6798,10 +6829,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Sensor"
-                "Modification"
                 "Talent"
+                "Sensor"
+                "Missile"
+                "Modification"
             ]
         }
         {
@@ -6822,8 +6853,8 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
                 "Sensor"
+                "Missile"
                 "Modification"
             ]
         }
@@ -6844,10 +6875,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Sensor"
-                "Modification"
                 "Talent"
+                "Sensor"
+                "Missile"
+                "Modification"
             ]
         }
         {
@@ -6866,8 +6897,8 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
                 "Sensor"
+                "Missile"
                 "Modification"
             ]
         }
@@ -6891,9 +6922,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
+                "Talent"
                 "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
         {
@@ -6980,10 +7011,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Modification"
-                "Talent"
             ]
         }
         {
@@ -7070,12 +7101,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Gunner"
-                "Turret"
+                "Sensor"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Talent"
+                "Turret"
             ]
         }
         {
@@ -7116,12 +7147,12 @@ exportObj.basicCardData = ->
                 "Gunner"
             ]
             slotsxwa: [
+                "Talent"
                 "Gunner"
-                "Turret"
+                "Sensor"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Talent"
+                "Turret"
             ]
         }
         {
@@ -7143,10 +7174,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Gunner"
-                "Turret"
-                "Missile"
                 "Sensor"
+                "Missile"
                 "Modification"
+                "Turret"
             ]
         }
         {
@@ -7194,12 +7225,12 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
+                "Gunner"
                 "Sensor"
                 "Missile"
-                "Gunner"
-                "Device"
-                "Device"
                 "Modification"
+                "Device"
+                "Device"
             ]
         }
         {
@@ -7222,11 +7253,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Torpedo"
-                "Payload"
-                "Payload"
                 "Sensor"
+                "Torpedo"
+                "Missile"
+                "Payload"
+                "Payload"
                 "Modification"
             ]
         }
@@ -7251,12 +7282,12 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
+                "Sensor"
+                "Cannon"
                 "Cannon"
                 "Missile"
                 "Modification"
-                "Sensor"
                 "Configuration"
-                "Cannon"
             ]
         }
         {
@@ -7281,12 +7312,12 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
+                "Sensor"
                 "Cannon"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -7311,10 +7342,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
+                "Sensor"
                 "Cannon"
                 "Missile"
                 "Modification"
-                "Sensor"
                 "Configuration"
             ]
         }
@@ -7338,10 +7369,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
+                "Sensor"
                 "Cannon"
                 "Missile"
                 "Modification"
-                "Sensor"
                 "Configuration"
             ]
         }
@@ -7362,10 +7393,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Sensor"
                 "Cannon"
                 "Missile"
                 "Modification"
-                "Sensor"
                 "Configuration"
             ]
         }
@@ -7426,8 +7457,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Gunner"
-                "Modification"
                 "Sensor"
+                "Modification"
             ]
         }
         {
@@ -7448,8 +7479,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Gunner"
-                "Modification"
                 "Sensor"
+                "Modification"
             ]
         }
         {
@@ -7475,12 +7506,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Torpedo"
                 "Missile"
                 "Payload"
                 "Payload"
                 "Modification"
-                "Talent"
             ]
         }
         {
@@ -7505,12 +7536,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Torpedo"
                 "Missile"
                 "Payload"
                 "Payload"
                 "Modification"
-                "Talent"
             ]
         }
         {
@@ -7536,12 +7567,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Torpedo"
                 "Missile"
                 "Payload"
                 "Payload"
                 "Modification"
-                "Talent"
             ]
         }
         {
@@ -7583,12 +7614,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Torpedo"
                 "Missile"
                 "Payload"
                 "Payload"
                 "Modification"
-                "Talent"
             ]
         }
         {
@@ -7694,10 +7725,10 @@ exportObj.basicCardData = ->
                 "Device"
             ]
             slotsxwa: [
-                "Gunner"
-                "Modification"
-                "Payload"
                 "Talent"
+                "Gunner"
+                "Payload"
+                "Modification"
             ]
         }
         {
@@ -7718,8 +7749,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Gunner"
-                "Modification"
                 "Payload"
+                "Modification"
             ]
         }
         {
@@ -7746,14 +7777,14 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Gunner"
                 "Gunner"
                 "Torpedo"
-                "Modification"
                 "Payload"
-                "Talent"
+                "Modification"
                 "Title"
             ]
         }
@@ -7781,14 +7812,14 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Gunner"
                 "Gunner"
                 "Torpedo"
-                "Modification"
                 "Payload"
-                "Talent"
+                "Modification"
                 "Title"
             ]
         }
@@ -7816,8 +7847,8 @@ exportObj.basicCardData = ->
                 "Gunner"
                 "Gunner"
                 "Torpedo"
-                "Modification"
                 "Payload"
+                "Modification"
             ]
         }
         {
@@ -7858,11 +7889,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Sensor"
                 "Missile"
                 "Modification"
-                "Sensor"
+                "Modification"
             ]
         }
         {
@@ -7936,11 +7967,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Sensor"
                 "Missile"
                 "Modification"
-                "Sensor"
+                "Modification"
             ]
         }
         {
@@ -7962,11 +7993,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Sensor"
                 "Missile"
                 "Modification"
-                "Sensor"
+                "Modification"
             ]
         }
         {
@@ -7987,11 +8018,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Sensor"
                 "Missile"
                 "Modification"
-                "Sensor"
+                "Modification"
             ]
         }
         {
@@ -8011,8 +8042,8 @@ exportObj.basicCardData = ->
                 "Talent"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Modification"
             ]
         }
         {
@@ -8047,8 +8078,8 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Modification"
             ]
         }
         {
@@ -8101,8 +8132,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Crew"
                 "Illicit"
-                "Modification"
                 "Payload"
+                "Modification"
             ]
         }
         {
@@ -8131,13 +8162,13 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
-                "Talent"
-                "Talent"
                 "Title"
+                "Tech"
             ]
         }
         {
@@ -8166,10 +8197,10 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Talent"
                 "Sensor"
-                "Tech"
                 "Missile"
                 "Modification"
                 "Modification"
+                "Tech"
             ]
         }
         {
@@ -8192,8 +8223,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Sensor"
-                "Tech"
                 "Modification"
+                "Tech"
             ]
         }
         {
@@ -8220,12 +8251,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Tech"
-                "Modification"
-                "Missile"
-                "Torpedo"
-                "Configuration"
                 "Force Power"
+                "Torpedo"
+                "Missile"
+                "Modification"
+                "Configuration"
+                "Tech"
             ]
         }
         {
@@ -8272,14 +8303,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
+                "Crew"
+                "Crew"
+                "Crew"
                 "Sensor"
-                "Tech"
-                "Tech"
-                "Crew"
-                "Crew"
-                "Crew"
+                "Cannon"
                 "Modification"
+                "Tech"
+                "Tech"
             ]
         }
         {
@@ -8301,11 +8332,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Missile"
-                "Tech"
                 "Modification"
-                "Talent"
-                "Talent"
+                "Tech"
             ]
         }
         {
@@ -8331,12 +8362,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Tech"
-                "Modification"
                 "Talent"
                 "Talent"
                 "Sensor"
+                "Missile"
+                "Modification"
+                "Tech"
             ]
         }
         {
@@ -8365,13 +8396,13 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Sensor"
-                "Tech"
-                "Missile"
-                "Missile"
                 "Gunner"
+                "Sensor"
+                "Missile"
+                "Missile"
                 "Modification"
                 "Modification"
+                "Tech"
             ]
         }
         {
@@ -8420,16 +8451,16 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Force Power"
+                "Force Power"
                 "Crew"
                 "Crew"
                 "Gunner"
                 "Gunner"
                 "Illicit"
                 "Illicit"
-                "Modification"
                 "Missile"
-                "Force Power"
-                "Force Power"
+                "Modification"
                 "Title"
             ]
         }
@@ -8457,15 +8488,15 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Gunner"
-                "Gunner"
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Missile"
                 "Talent"
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Gunner"
+                "Illicit"
+                "Illicit"
+                "Missile"
+                "Modification"
                 "Title"
             ]
         }
@@ -8494,15 +8525,15 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Gunner"
-                "Gunner"
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Missile"
                 "Talent"
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Gunner"
+                "Illicit"
+                "Illicit"
+                "Missile"
+                "Modification"
                 "Title"
             ]
         }
@@ -8526,9 +8557,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -8569,9 +8600,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -8598,15 +8629,15 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Payload"
-                "Payload"
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Gunner"
-                "Tech"
-                "Modification"
-                "Talent"
                 "Sensor"
+                "Payload"
+                "Payload"
+                "Modification"
+                "Tech"
             ]
         }
         {
@@ -8632,15 +8663,15 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
-                "Sensor"
-                "Tech"
-                "Tech"
-                "Crew"
-                "Crew"
-                "Crew"
-                "Modification"
                 "Talent"
+                "Crew"
+                "Crew"
+                "Crew"
+                "Sensor"
+                "Cannon"
+                "Modification"
+                "Tech"
+                "Tech"
             ]
         }
         {
@@ -8665,11 +8696,11 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
-                "Talent"
+                "Tech"
             ]
         }
         {
@@ -8695,8 +8726,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
+                "Tech"
             ]
         }
         {
@@ -8721,8 +8752,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
+                "Tech"
             ]
         }
         {
@@ -8747,8 +8778,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
+                "Tech"
             ]
         }
         {
@@ -8771,12 +8802,12 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Tech"
-                "Configuration"
                 "Talent"
+                "Astromech"
                 "Torpedo"
+                "Modification"
+                "Configuration"
+                "Tech"
             ]
         }
         {
@@ -8799,11 +8830,11 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
-                "Talent"
+                "Tech"
             ]
         }
         {
@@ -8827,8 +8858,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
+                "Tech"
             ]
         }
         {
@@ -8849,11 +8880,11 @@ exportObj.basicCardData = ->
                 "Sensor"
             ]
             slotsxwa: [
-                "Sensor"
                 "Gunner"
+                "Sensor"
+                "Missile"
                 "Modification"
                 "Tech"
-                "Missile"
             ]
         }
         {
@@ -8877,13 +8908,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Payload"
-                "Payload"
                 "Crew"
                 "Gunner"
                 "Gunner"
-                "Tech"
+                "Payload"
+                "Payload"
                 "Modification"
+                "Tech"
             ]
         }
         {
@@ -8904,8 +8935,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Sensor"
-                "Tech"
                 "Modification"
+                "Tech"
             ]
         }
         {
@@ -8929,9 +8960,9 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Talent"
                 "Sensor"
-                "Tech"
                 "Missile"
                 "Modification"
+                "Tech"
             ]
         }
         {
@@ -8954,9 +8985,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Sensor"
-                "Tech"
-                "Tech"
                 "Modification"
+                "Tech"
+                "Tech"
             ]
         }
         {
@@ -8979,8 +9010,8 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Talent"
                 "Sensor"
-                "Tech"
                 "Modification"
+                "Tech"
             ]
         }
         {
@@ -9002,8 +9033,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Sensor"
-                "Tech"
                 "Modification"
+                "Tech"
             ]
         }
         {
@@ -9027,12 +9058,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Sensor"
                 "Missile"
                 "Modification"
+                "Modification"
+                "Tech"
             ]
         }
         {
@@ -9053,10 +9084,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Sensor"
+                "Modification"
+                "Tech"
             ]
         }
         {
@@ -9076,8 +9107,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Sensor"
-                "Tech"
                 "Modification"
+                "Tech"
             ]
         }
         {
@@ -9097,8 +9128,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Sensor"
-                "Tech"
                 "Modification"
+                "Tech"
             ]
         }
         {
@@ -9120,10 +9151,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Tech"
             ]
         }
         {
@@ -9148,11 +9179,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Missile"
-                "Tech"
                 "Modification"
-                "Talent"
-                "Talent"
+                "Tech"
             ]
         }
         {
@@ -9182,13 +9213,13 @@ exportObj.basicCardData = ->
                 "Tactical Relay"
             ]
             slotsxwa: [
+                "Force Power"
+                "Force Power"
                 "Crew"
                 "Crew"
                 "Sensor"
-                "Modification"
-                "Force Power"
-                "Force Power"
                 "Torpedo"
+                "Modification"
                 "Title"
             ]
         }
@@ -9216,11 +9247,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Configuration"
-                "Modification"
-                "Modification"
-                "Astromech"
                 "Force Power"
+                "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -9245,11 +9276,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Configuration"
-                "Modification"
-                "Modification"
-                "Astromech"
                 "Force Power"
+                "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -9274,10 +9305,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Configuration"
-                "Modification"
-                "Modification"
                 "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -9302,10 +9333,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Configuration"
-                "Modification"
-                "Modification"
                 "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -9329,10 +9360,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Configuration"
-                "Modification"
-                "Modification"
                 "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -9360,11 +9391,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Configuration"
-                "Modification"
-                "Modification"
-                "Astromech"
                 "Force Power"
+                "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -9436,14 +9467,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
+                "Crew"
+                "Crew"
+                "Crew"
                 "Sensor"
-                "Tech"
-                "Tech"
-                "Crew"
-                "Crew"
-                "Crew"
+                "Cannon"
                 "Modification"
+                "Tech"
+                "Tech"
             ]
         }
         {
@@ -9471,15 +9502,15 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
-                "Sensor"
-                "Tech"
-                "Tech"
-                "Crew"
-                "Crew"
-                "Crew"
-                "Modification"
                 "Talent"
+                "Crew"
+                "Crew"
+                "Crew"
+                "Sensor"
+                "Cannon"
+                "Modification"
+                "Tech"
+                "Tech"
             ]
         }
         {
@@ -9539,12 +9570,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
+                "Talent"
                 "Gunner"
+                "Sensor"
+                "Missile"
                 "Modification"
                 "Tech"
-                "Missile"
-                "Talent"
             ]
         }
         {
@@ -9566,10 +9597,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Tech"
-                "Missile"
                 "Torpedo"
+                "Missile"
                 "Configuration"
+                "Tech"
             ]
         }
         {
@@ -9591,12 +9622,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Tech"
-                "Modification"
-                "Missile"
-                "Torpedo"
-                "Configuration"
                 "Talent"
+                "Torpedo"
+                "Missile"
+                "Modification"
+                "Configuration"
+                "Tech"
             ]
         }
         {
@@ -9620,14 +9651,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
+                "Crew"
+                "Crew"
+                "Crew"
                 "Sensor"
-                "Tech"
-                "Tech"
-                "Crew"
-                "Crew"
-                "Crew"
+                "Cannon"
                 "Modification"
+                "Tech"
+                "Tech"
             ]
         }
         {
@@ -9654,14 +9685,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
+                "Crew"
+                "Crew"
+                "Crew"
                 "Sensor"
-                "Tech"
-                "Tech"
-                "Crew"
-                "Crew"
-                "Crew"
+                "Cannon"
                 "Modification"
+                "Tech"
+                "Tech"
             ]
         }
         {
@@ -9685,9 +9716,9 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Talent"
                 "Sensor"
-                "Tech"
-                "Tech"
                 "Modification"
+                "Tech"
+                "Tech"
             ]
         }
         {
@@ -9714,13 +9745,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Payload"
-                "Payload"
                 "Crew"
                 "Gunner"
                 "Gunner"
-                "Tech"
+                "Payload"
+                "Payload"
                 "Modification"
+                "Tech"
             ]
         }
         {
@@ -9747,13 +9778,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Payload"
-                "Payload"
                 "Crew"
                 "Gunner"
                 "Gunner"
-                "Tech"
+                "Payload"
+                "Payload"
                 "Modification"
+                "Tech"
             ]
             applies_condition: 'Rattled'.canonicalize()
         }
@@ -9781,14 +9812,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Payload"
-                "Payload"
                 "Crew"
                 "Gunner"
                 "Gunner"
-                "Tech"
-                "Modification"
                 "Sensor"
+                "Payload"
+                "Payload"
+                "Modification"
+                "Tech"
             ]
         }
         {
@@ -9814,13 +9845,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Payload"
-                "Payload"
                 "Crew"
                 "Gunner"
                 "Gunner"
-                "Tech"
+                "Payload"
+                "Payload"
                 "Modification"
+                "Tech"
             ]
         }
         {
@@ -9871,8 +9902,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
+                "Tech"
             ]
         }
         {
@@ -9897,11 +9928,11 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
-                "Talent"
+                "Tech"
             ]
         }
         {
@@ -9926,11 +9957,11 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
-                "Talent"
+                "Tech"
                 "Tech"
             ]
         }
@@ -9956,11 +9987,11 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
-                "Talent"
+                "Tech"
             ]
         }
         {
@@ -9980,11 +10011,11 @@ exportObj.basicCardData = ->
                 "Tech"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Missile"
-                "Tech"
                 "Modification"
-                "Talent"
-                "Talent"
+                "Tech"
             ]
         }
         {
@@ -10003,10 +10034,10 @@ exportObj.basicCardData = ->
                 "Tech"
             ]
             slotsxwa: [
-                "Missile"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Tech"
             ]
         }
         {
@@ -10027,10 +10058,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
-                "Modification"
                 "Talent"
                 "Illicit"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -10052,9 +10083,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
-                "Modification"
                 "Illicit"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -10096,9 +10127,9 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Modification"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Modification"
                 "Title"
             ]
         }
@@ -10121,10 +10152,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Modification"
                 "Modification"
                 "Tactical Relay"
-                "Talent"
             ]
         }
         {
@@ -10214,9 +10245,9 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Missile"
                 "Modification"
                 "Configuration"
-                "Missile"
             ]
         }
         {
@@ -10238,9 +10269,9 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Missile"
                 "Modification"
                 "Configuration"
-                "Missile"
             ]
         }
         {
@@ -10266,11 +10297,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Configuration"
-                "Modification"
-                "Modification"
-                "Astromech"
                 "Force Power"
+                "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -10295,11 +10326,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Configuration"
-                "Modification"
-                "Modification"
-                "Astromech"
                 "Force Power"
+                "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -10325,11 +10356,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Configuration"
-                "Modification"
-                "Modification"
-                "Astromech"
                 "Force Power"
+                "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -10442,10 +10473,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Missile"
                 "Modification"
                 "Modification"
-                "Talent"
             ]
         }
         {
@@ -10492,12 +10523,12 @@ exportObj.basicCardData = ->
                 "Astromech"
             ]
             slotsxwa: [
+                "Force Power"
                 "Talent"
                 "Astromech"
-                "Modification"
-                "Torpedo"
                 "Sensor"
-                "Force Power"
+                "Torpedo"
+                "Modification"
             ]
         }
         {
@@ -10519,9 +10550,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Astromech"
-                "Modification"
-                "Torpedo"
                 "Sensor"
+                "Torpedo"
+                "Modification"
             ]
         }
         {
@@ -10543,10 +10574,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
-                "Payload"
-                "Configuration"
                 "Torpedo"
+                "Payload"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -10569,9 +10600,9 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Payload"
+                "Payload"
                 "Modification"
-                "Payload"
-                "Payload"
                 "Configuration"
             ]
         }
@@ -10596,10 +10627,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
-                "Payload"
-                "Configuration"
                 "Torpedo"
+                "Payload"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -10621,10 +10652,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
-                "Payload"
-                "Configuration"
                 "Missile"
+                "Payload"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -10647,12 +10678,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
-                "Payload"
-                "Configuration"
-                "Missile"
-                "Tactical Relay"
                 "Sensor"
+                "Missile"
+                "Payload"
+                "Modification"
+                "Configuration"
+                "Tactical Relay"
             ]
             ship_override:
                 actions: [
@@ -10684,11 +10715,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
+                "Missile"
+                "Missile"
                 "Payload"
+                "Modification"
                 "Configuration"
-                "Missile"
-                "Missile"
             ]
         }
         {
@@ -10712,9 +10743,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Astromech"
-                "Modification"
-                "Torpedo"
                 "Sensor"
+                "Torpedo"
+                "Modification"
             ]
         }
         {
@@ -10800,12 +10831,12 @@ exportObj.basicCardData = ->
                 "Tactical Relay"
             ]
             slotsxwa: [
+                "Force Power"
+                "Force Power"
                 "Crew"
                 "Crew"
                 "Sensor"
                 "Modification"
-                "Force Power"
-                "Force Power"
                 "Title"
             ]
         }
@@ -10834,10 +10865,10 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Crew"
                 "Sensor"
-                "Modification"
                 "Torpedo"
-                "Tactical Relay"
+                "Modification"
                 "Title"
+                "Tactical Relay"
             ]
         }
         {
@@ -10884,10 +10915,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
-                "Configuration"
                 "Missile"
                 "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -10955,12 +10986,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Gunner"
                 "Gunner"
-                "Modification"
                 "Torpedo"
-                "Talent"
+                "Modification"
             ]
         }
         {
@@ -10986,8 +11017,8 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Gunner"
                 "Gunner"
-                "Modification"
                 "Torpedo"
+                "Modification"
             ]
         }
         {
@@ -11013,10 +11044,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Torpedo"
+                "Astromech"
                 "Crew"
                 "Gunner"
-                "Astromech"
+                "Torpedo"
                 "Modification"
             ]
         }
@@ -11038,9 +11069,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Missile"
                 "Modification"
                 "Configuration"
-                "Missile"
             ]
         }
         {
@@ -11060,9 +11091,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -11085,10 +11116,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Modification"
                 "Tech"
-                "Talent"
             ]
         }
         {
@@ -11110,13 +11141,13 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
+                "Astromech"
                 "Crew"
                 "Crew"
-                "Modification"
-                "Tech"
                 "Cannon"
                 "Torpedo"
-                "Astromech"
+                "Modification"
+                "Tech"
             ]
         }
         {
@@ -11146,11 +11177,11 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Crew"
                 "Crew"
-                "Modification"
-                "Tech"
+                "Cannon"
                 "Cannon"
                 "Torpedo"
-                "Cannon"
+                "Modification"
+                "Tech"
             ]
         }
         {
@@ -11222,10 +11253,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Modification"
                 "Tech"
-                "Talent"
             ]
         }
         {
@@ -11252,15 +11283,15 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Crew"
                 "Crew"
-                "Modification"
-                "Tech"
+                "Cannon"
                 "Cannon"
                 "Torpedo"
-                "Talent"
-                "Cannon"
+                "Modification"
+                "Tech"
             ]
         }
         {
@@ -11289,10 +11320,10 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Crew"
                 "Crew"
-                "Modification"
-                "Tech"
                 "Cannon"
                 "Torpedo"
+                "Modification"
+                "Tech"
             ]
         }
         {
@@ -11376,9 +11407,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -11401,10 +11432,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Talent"
                 "Talent"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -11425,9 +11456,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -11454,14 +11485,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Force Power"
+                "Force Power"
                 "Astromech"
                 "Gunner"
-                "Modification"
-                "Payload"
                 "Torpedo"
+                "Payload"
+                "Modification"
                 "Turret"
-                "Force Power"
-                "Force Power"
             ]
         }
         {
@@ -11485,13 +11516,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Gunner"
-                "Modification"
-                "Payload"
                 "Torpedo"
+                "Payload"
+                "Modification"
                 "Turret"
-                "Talent"
             ]
         }
         {
@@ -11516,9 +11547,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Gunner"
-                "Modification"
-                "Payload"
                 "Torpedo"
+                "Payload"
+                "Modification"
                 "Turret"
             ]
         }
@@ -11545,12 +11576,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Gunner"
-                "Modification"
-                "Payload"
-                "Torpedo"
-                "Turret"
                 "Crew"
+                "Gunner"
+                "Torpedo"
+                "Payload"
+                "Modification"
+                "Turret"
             ]
         }
         {
@@ -11660,15 +11691,15 @@ exportObj.basicCardData = ->
                 "Cargo"
             ]
             slotsxwa: [
-                "Command"
-                "Hardpoint"
-                "Hardpoint"
                 "Crew"
                 "Crew"
                 "Gunner"
-                "Team"
-                "Team"
                 "Cargo"
+                "Command"
+                "Hardpoint"
+                "Hardpoint"
+                "Team"
+                "Team"
             ]
         }
         {
@@ -11696,16 +11727,16 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Command"
-                "Hardpoint"
-                "Hardpoint"
                 "Crew"
                 "Crew"
                 "Gunner"
-                "Team"
-                "Team"
-                "Cargo"
                 "Title"
+                "Cargo"
+                "Command"
+                "Hardpoint"
+                "Hardpoint"
+                "Team"
+                "Team"
             ]
         }
         {
@@ -11734,17 +11765,17 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Command"
-                "Missile"
+                "Crew"
+                "Crew"
                 "Torpedo"
-                "Hardpoint"
-                "Hardpoint"
-                "Crew"
-                "Crew"
-                "Team"
-                "Team"
-                "Cargo"
+                "Missile"
                 "Title"
+                "Cargo"
+                "Command"
+                "Hardpoint"
+                "Hardpoint"
+                "Team"
+                "Team"
             ]
         }
         {
@@ -11772,16 +11803,16 @@ exportObj.basicCardData = ->
                 "Cargo"
             ]
             slotsxwa: [
-                "Command"
+                "Crew"
+                "Crew"
                 "Torpedo"
                 "Missile"
-                "Hardpoint"
-                "Hardpoint"
-                "Crew"
-                "Crew"
-                "Team"
-                "Team"
                 "Cargo"
+                "Command"
+                "Hardpoint"
+                "Hardpoint"
+                "Team"
+                "Team"
             ]
         }
         {
@@ -11808,15 +11839,15 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Crew"
+                "Crew"
+                "Title"
+                "Cargo"
+                "Cargo"
                 "Command"
                 "Hardpoint"
-                "Turret"
-                "Crew"
-                "Crew"
                 "Team"
-                "Cargo"
-                "Cargo"
-                "Title"
+                "Turret"
             ]
         }
         {
@@ -11842,14 +11873,14 @@ exportObj.basicCardData = ->
                 "Cargo"
             ]
             slotsxwa: [
+                "Crew"
+                "Crew"
+                "Cargo"
+                "Cargo"
                 "Command"
                 "Hardpoint"
-                "Turret"
-                "Crew"
-                "Crew"
                 "Team"
-                "Cargo"
-                "Cargo"
+                "Turret"
             ]
         }
         {
@@ -11876,15 +11907,15 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Command"
+                "Crew"
                 "Crew"
                 "Gunner"
-                "Cargo"
                 "Title"
-                "Hardpoint"
-                "Crew"
-                "Team"
                 "Cargo"
+                "Cargo"
+                "Command"
+                "Hardpoint"
+                "Team"
             ]
         }
         {
@@ -11910,14 +11941,14 @@ exportObj.basicCardData = ->
                 "Cargo"
             ]
             slotsxwa: [
-                "Command"
-                "Hardpoint"
                 "Crew"
                 "Crew"
                 "Gunner"
+                "Cargo"
+                "Cargo"
+                "Command"
+                "Hardpoint"
                 "Team"
-                "Cargo"
-                "Cargo"
             ]
         }
         {
@@ -11944,15 +11975,15 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Command"
-                "Hardpoint"
                 "Crew"
                 "Crew"
-                "Tactical Relay"
-                "Team"
-                "Cargo"
                 "Payload"
                 "Configuration"
+                "Cargo"
+                "Command"
+                "Hardpoint"
+                "Tactical Relay"
+                "Team"
             ]
         }
         {
@@ -11980,16 +12011,16 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Crew"
+                "Crew"
+                "Illicit"
+                "Payload"
+                "Configuration"
+                "Title"
+                "Cargo"
                 "Command"
                 "Hardpoint"
-                "Crew"
-                "Crew"
                 "Team"
-                "Cargo"
-                "Payload"
-                "Illicit"
-                "Title"
-                "Configuration"
             ]
         }
         {
@@ -12015,11 +12046,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Modification"
+                "Talent"
                 "Astromech"
                 "Illicit"
                 "Missile"
-                "Talent"
+                "Modification"
                 "Modification"
                 "Title"
             ]
@@ -12046,11 +12077,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Modification"
+                "Talent"
                 "Astromech"
                 "Illicit"
                 "Missile"
-                "Talent"
+                "Modification"
                 "Modification"
                 "Title"
             ]
@@ -12075,10 +12106,10 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Modification"
+                "Crew"
                 "Illicit"
                 "Missile"
-                "Crew"
+                "Modification"
                 "Title"
             ]
         }
@@ -12098,10 +12129,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Astromech"
                 "Illicit"
                 "Missile"
+                "Modification"
             ]
         }
         {
@@ -12125,12 +12156,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Missile"
+                "Modification"
+                "Modification"
                 "Tech"
-                "Modification"
-                "Talent"
-                "Talent"
-                "Modification"
             ]
         }
         {
@@ -12186,9 +12217,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Tech"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Tech"
             ]
         }
         {
@@ -12213,12 +12244,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
+                "Talent"
                 "Gunner"
+                "Sensor"
+                "Missile"
                 "Modification"
                 "Tech"
-                "Missile"
-                "Talent"
             ]
         }
         {
@@ -12262,11 +12293,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Missile"
-                "Tech"
                 "Modification"
-                "Talent"
-                "Talent"
+                "Tech"
                 "Tech"
             ]
         }
@@ -12289,10 +12320,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Tech"
             ]
         }
         {
@@ -12320,16 +12351,16 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Payload"
-                "Payload"
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Gunner"
-                "Tech"
-                "Modification"
-                "Talent"
                 "Sensor"
+                "Payload"
+                "Payload"
                 "Modification"
+                "Modification"
+                "Tech"
             ]
         }
         {
@@ -12383,14 +12414,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
+                "Sensor"
                 "Cannon"
                 "Cannon"
+                "Torpedo"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Torpedo"
                 "Configuration"
-                "Talent"
             ]
         }
         {
@@ -12418,15 +12449,15 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Sensor"
-                "Gunner"
-                "Turret"
-                "Modification"
-                "Torpedo"
-                "Title"
                 "Talent"
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Sensor"
+                "Torpedo"
+                "Modification"
+                "Title"
+                "Turret"
             ]
         }
         {
@@ -12454,16 +12485,16 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Force Power"
                 "Crew"
                 "Crew"
                 "Gunner"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Missile"
+                "Modification"
+                "Modification"
                 "Title"
-                "Force Power"
             ]
         }
         {
@@ -12487,10 +12518,10 @@ exportObj.basicCardData = ->
                 "Missile"
             ]
             slotsxwa: [
-                "Missile"
-                "Sensor"
-                "Modification"
                 "Force Power"
+                "Sensor"
+                "Missile"
+                "Modification"
             ]
         }
         {
@@ -12537,14 +12568,14 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Gunner"
                 "Gunner"
                 "Torpedo"
-                "Modification"
                 "Payload"
-                "Talent"
+                "Modification"
                 "Title"
             ]
         }
@@ -12570,13 +12601,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
+                "Talent"
                 "Gunner"
+                "Sensor"
+                "Missile"
+                "Modification"
                 "Modification"
                 "Tech"
-                "Missile"
-                "Talent"
-                "Modification"
             ]
         }
         {
@@ -12603,8 +12634,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Illicit"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
         }
         {
@@ -12625,8 +12656,8 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Hardpoint"
                 "Modification"
+                "Hardpoint"
             ]
         }
         {
@@ -12652,11 +12683,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
                 "Gunner"
                 "Illicit"
-                "Modification"
+                "Cannon"
                 "Torpedo"
+                "Modification"
             ]
         }
         {
@@ -12677,11 +12708,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Tech"
-                "Tech"
                 "Crew"
                 "Crew"
                 "Modification"
+                "Tech"
+                "Tech"
             ]
         }
         {
@@ -12707,14 +12738,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Tech"
-                "Tech"
                 "Crew"
                 "Crew"
+                "Illicit"
+                "Illicit"
+                "Illicit"
                 "Modification"
-                "Illicit"
-                "Illicit"
-                "Illicit"
+                "Tech"
+                "Tech"
             ]
         }
         {
@@ -12739,11 +12770,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Tech"
-                "Tech"
                 "Crew"
                 "Crew"
                 "Modification"
+                "Tech"
+                "Tech"
             ]
         }
         {
@@ -12768,12 +12799,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Tech"
-                "Tech"
+                "Talent"
                 "Crew"
                 "Crew"
                 "Modification"
-                "Talent"
+                "Tech"
+                "Tech"
             ]
         }
         {
@@ -12797,8 +12828,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Missile"
                 "Missile"
-                "Modification"
                 "Payload"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -12840,8 +12871,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Missile"
                 "Missile"
-                "Modification"
                 "Payload"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -12868,11 +12899,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
+                "Cannon"
+                "Cannon"
                 "Payload"
+                "Modification"
                 "Configuration"
-                "Cannon"
-                "Cannon"
             ]
         }
         {
@@ -12900,8 +12931,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Missile"
                 "Missile"
-                "Modification"
                 "Payload"
+                "Modification"
                 "Configuration"
                 "Tactical Relay"
             ]
@@ -12929,13 +12960,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Torpedo"
                 "Missile"
                 "Missile"
-                "Modification"
                 "Payload"
+                "Modification"
                 "Configuration"
                 "Tactical Relay"
-                "Torpedo"
             ]
         }
         {
@@ -12962,8 +12993,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Missile"
                 "Missile"
-                "Modification"
                 "Payload"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -12995,9 +13026,9 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Gunner"
                 "Gunner"
+                "Missile"
+                "Missile"
                 "Modification"
-                "Missile"
-                "Missile"
             ]
         }
         {
@@ -13092,9 +13123,9 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
                 "Gunner"
+                "Cannon"
+                "Cannon"
                 "Modification"
                 "Configuration"
             ]
@@ -13117,12 +13148,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
+                "Talent"
                 "Gunner"
+                "Cannon"
+                "Cannon"
                 "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
         {
@@ -13146,9 +13177,9 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
                 "Gunner"
+                "Cannon"
+                "Cannon"
                 "Modification"
                 "Configuration"
             ]
@@ -13196,10 +13227,10 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Sensor"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Cannon"
+                "Missile"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
             applies_condition: '''Fearful Prey'''.canonicalize()
@@ -13227,10 +13258,10 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Sensor"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Cannon"
+                "Missile"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -13257,10 +13288,10 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Sensor"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Cannon"
+                "Missile"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -13287,10 +13318,10 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Sensor"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Cannon"
+                "Missile"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -13312,10 +13343,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Sensor"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Cannon"
+                "Missile"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -13339,10 +13370,10 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Sensor"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Cannon"
+                "Missile"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -13363,12 +13394,12 @@ exportObj.basicCardData = ->
                 "Device"
             ]
             slotsxwa: [
-                "Cannon"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Payload"
+                "Modification"
             ]
         }
         {
@@ -13394,12 +13425,12 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Payload"
+                "Modification"
                 "Title"
             ]
         }
@@ -13428,14 +13459,14 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Payload"
+                "Modification"
                 "Title"
-                "Talent"
             ]
             applies_condition: ['''You'd Better Mean Business'''.canonicalize(),'You Should Thank Me'.canonicalize()]
         }
@@ -13464,14 +13495,14 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Payload"
+                "Modification"
                 "Title"
-                "Talent"
             ]
         }
         {
@@ -13491,8 +13522,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -13512,10 +13543,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Astromech"
-                "Configuration"
-                "Modification"
                 "Talent"
+                "Astromech"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -13539,8 +13570,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -13623,8 +13654,8 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
                 "Force Power"
+                "Talent"
                 "Astromech"
                 "Cannon"
                 "Modification"
@@ -13652,12 +13683,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
                 "Force Power"
+                "Force Power"
+                "Talent"
                 "Astromech"
                 "Cannon"
                 "Modification"
-                "Force Power"
             ]
         }
         {
@@ -13683,12 +13714,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
                 "Force Power"
+                "Force Power"
+                "Talent"
                 "Astromech"
                 "Cannon"
                 "Modification"
-                "Force Power"
             ]
         }
         {
@@ -13714,12 +13745,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
                 "Force Power"
+                "Force Power"
+                "Talent"
                 "Astromech"
                 "Cannon"
                 "Modification"
-                "Force Power"
             ]
         }
         {
@@ -13745,12 +13776,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
                 "Force Power"
+                "Force Power"
+                "Talent"
                 "Astromech"
                 "Cannon"
                 "Modification"
-                "Force Power"
             ]
         }
         {
@@ -13776,12 +13807,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
                 "Force Power"
+                "Force Power"
+                "Talent"
                 "Astromech"
                 "Cannon"
                 "Modification"
-                "Force Power"
             ]
         }
         {
@@ -13852,10 +13883,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Tech"
             ]
         }
         {
@@ -13878,10 +13909,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Tech"
             ]
         }
         {
@@ -13903,10 +13934,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Tech"
             ]
         }
         {
@@ -13929,11 +13960,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Missile"
-                "Tech"
                 "Modification"
-                "Talent"
-                "Talent"
+                "Tech"
             ]
         }
         {
@@ -13958,8 +13989,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
+                "Tech"
             ]
         }
         {
@@ -13983,11 +14014,11 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
-                "Talent"
+                "Tech"
             ]
         }
         {
@@ -14016,15 +14047,15 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
+                "Sensor"
                 "Cannon"
                 "Cannon"
+                "Torpedo"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Torpedo"
                 "Configuration"
-                "Talent"
-                "Talent"
                 "Title"
             ]
         }
@@ -14051,10 +14082,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Missile"
-                "Configuration"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -14077,10 +14108,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Missile"
-                "Configuration"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -14104,8 +14135,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Missile"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -14133,12 +14164,12 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
+                "Talent"
+                "Sensor"
                 "Cannon"
                 "Missile"
                 "Modification"
-                "Sensor"
                 "Configuration"
-                "Talent"
             ]
         }
         {
@@ -14187,8 +14218,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Modification"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -14214,11 +14245,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Force Power"
                 "Crew"
                 "Illicit"
-                "Modification"
                 "Payload"
-                "Force Power"
+                "Modification"
             ]
         }
         {
@@ -14242,12 +14273,12 @@ exportObj.basicCardData = ->
                 "Device"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Payload"
-                "Torpedo"
-                "Turret"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Payload"
+                "Modification"
+                "Turret"
             ]
         }
         {
@@ -14271,12 +14302,12 @@ exportObj.basicCardData = ->
                 "Device"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Payload"
-                "Torpedo"
-                "Turret"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Payload"
+                "Modification"
+                "Turret"
             ]
         }
         {
@@ -14302,12 +14333,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Payload"
-                "Torpedo"
-                "Turret"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Payload"
+                "Modification"
+                "Turret"
             ]
         }
         {
@@ -14329,8 +14360,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Missile"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -14353,10 +14384,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Missile"
-                "Configuration"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -14382,11 +14413,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
+                "Force Power"
+                "Force Power"
                 "Missile"
+                "Modification"
                 "Configuration"
-                "Force Power"
-                "Force Power"
             ]
         }
         {
@@ -14412,12 +14443,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Sensor"
                 "Cannon"
                 "Cannon"
+                "Torpedo"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Torpedo"
                 "Configuration"
             ]
         }
@@ -14512,9 +14543,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
+                "Talent"
                 "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
         {
@@ -14539,12 +14570,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Force Power"
+                "Force Power"
                 "Cannon"
                 "Missile"
                 "Modification"
                 "Configuration"
-                "Force Power"
-                "Force Power"
             ]
         }
         {
@@ -14568,10 +14599,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
+                "Sensor"
                 "Cannon"
                 "Missile"
                 "Modification"
-                "Sensor"
                 "Configuration"
             ]
         }
@@ -14594,9 +14625,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Modification"
-                "Payload"
                 "Torpedo"
+                "Payload"
+                "Modification"
                 "Turret"
             ]
         }
@@ -14619,12 +14650,12 @@ exportObj.basicCardData = ->
                 "Device"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Payload"
-                "Torpedo"
-                "Turret"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Payload"
+                "Modification"
+                "Turret"
             ]
         }
         {
@@ -14650,11 +14681,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Illicit"
-                "Modification"
                 "Payload"
-                "Talent"
+                "Modification"
             ]
         }
         {
@@ -14683,11 +14714,11 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Crew"
-                "Device"
                 "Illicit"
                 "Modification"
                 "Modification"
                 "Title"
+                "Device"
             ]
         }
         {
@@ -14715,16 +14746,16 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Command"
-                "Torpedo"
-                "Hardpoint"
-                "Hardpoint"
                 "Crew"
                 "Crew"
                 "Gunner"
-                "Team"
-                "Cargo"
+                "Torpedo"
                 "Title"
+                "Cargo"
+                "Command"
+                "Hardpoint"
+                "Hardpoint"
+                "Team"
             ]
         }
         {
@@ -14752,16 +14783,16 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Command"
-                "Torpedo"
-                "Hardpoint"
-                "Hardpoint"
                 "Crew"
                 "Crew"
                 "Gunner"
-                "Team"
-                "Cargo"
+                "Torpedo"
                 "Title"
+                "Cargo"
+                "Command"
+                "Hardpoint"
+                "Hardpoint"
+                "Team"
             ]
         }
         {
@@ -14789,14 +14820,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
-                "Turret"
+                "Illicit"
+                "Payload"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Payload"
-                "Talent"
-                "Illicit"
+                "Turret"
             ]
         }
         {
@@ -14823,13 +14854,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
-                "Turret"
+                "Payload"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Payload"
-                "Talent"
+                "Turret"
             ]
         }
         {
@@ -14856,13 +14887,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
-                "Turret"
+                "Payload"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Payload"
-                "Talent"
+                "Turret"
             ]
         }
         {
@@ -14887,13 +14918,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
-                "Turret"
+                "Payload"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Payload"
-                "Talent"
+                "Turret"
             ]
         }
         {
@@ -14920,11 +14951,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Turret"
+                "Payload"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Payload"
+                "Turret"
             ]
         }
         {
@@ -14951,11 +14982,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Turret"
+                "Payload"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Payload"
+                "Turret"
             ]
         }
         {
@@ -14982,12 +15013,12 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Turret"
+                "Illicit"
+                "Payload"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Payload"
-                "Illicit"
+                "Turret"
             ]
         }
         {
@@ -15013,13 +15044,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
-                "Turret"
+                "Payload"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Payload"
-                "Talent"
+                "Turret"
             ]
         }
         {
@@ -15044,11 +15075,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Turret"
+                "Payload"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Payload"
+                "Turret"
             ]
         }
         {
@@ -15073,12 +15104,12 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Turret"
+                "Illicit"
+                "Payload"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Payload"
-                "Illicit"
+                "Turret"
             ]
         }
         {
@@ -15106,13 +15137,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Tech"
-                "Tech"
-                "Modification"
+                "Force Power"
+                "Force Power"
                 "Missile"
+                "Modification"
                 "Configuration"
-                "Force Power"
-                "Force Power"
+                "Tech"
+                "Tech"
             ]
         }
         {
@@ -15193,13 +15224,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Gunner"
-                "Tech"
-                "Tech"
-                "Modification"
-                "Missile"
-                "Configuration"
                 "Talent"
+                "Gunner"
+                "Missile"
+                "Modification"
+                "Configuration"
+                "Tech"
+                "Tech"
             ]
         }
         {
@@ -15222,10 +15253,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Gunner"
-                "Tech"
-                "Tech"
-                "Modification"
                 "Missile"
+                "Modification"
+                "Tech"
+                "Tech"
             ]
         }
         {
@@ -15337,12 +15368,12 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Gunner"
+                "Torpedo"
+                "Missile"
+                "Payload"
+                "Payload"
                 "Modification"
                 "Tech"
-                "Payload"
-                "Payload"
-                "Missile"
-                "Torpedo"
             ]
         }
         {
@@ -15366,11 +15397,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Gunner"
+                "Missile"
+                "Payload"
+                "Payload"
                 "Modification"
                 "Tech"
-                "Payload"
-                "Payload"
-                "Missile"
             ]
         }
         {
@@ -15395,10 +15426,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
-                "Torpedo"
                 "Talent"
+                "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -15421,9 +15452,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -15449,10 +15480,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
-                "Torpedo"
                 "Talent"
+                "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -15476,9 +15507,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -15503,9 +15534,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
-                "Illicit"
                 "Talent"
+                "Illicit"
+                "Modification"
             ]
         }
         {
@@ -15525,8 +15556,8 @@ exportObj.basicCardData = ->
                 "Illicit"
             ]
             slotsxwa: [
-                "Modification"
                 "Illicit"
+                "Modification"
             ]
         }
         {
@@ -15550,9 +15581,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -15585,14 +15616,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Payload"
+                "Modification"
+                "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
         {
@@ -15621,9 +15652,9 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Payload"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -15655,14 +15686,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Payload"
+                "Modification"
+                "Modification"
                 "Configuration"
-                "Talent"
                 "Title"
             ]
         }
@@ -15717,9 +15748,9 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Payload"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -15751,15 +15782,15 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Force Power"
+                "Force Power"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Payload"
+                "Modification"
+                "Modification"
                 "Configuration"
-                "Force Power"
-                "Force Power"
                 "Title"
             ]
         }
@@ -15788,9 +15819,9 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Payload"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -15817,14 +15848,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Payload"
+                "Modification"
+                "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
         {
@@ -15850,14 +15881,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Payload"
+                "Modification"
+                "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
         {
@@ -15886,9 +15917,9 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Payload"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -15918,14 +15949,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Payload"
+                "Modification"
+                "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
         {
@@ -15951,27 +15982,28 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Payload"
+                "Modification"
+                "Modification"
                 "Configuration"
                 "Title"
-                "Talent"
             ]
         }
         {
             name: '"Chopper" (Gauntlet Fighter)'
             id: 519
+            xwsname: "chopper-gauntletfighter"
             faction: "Rebel Alliance"
             ship: "Gauntlet Fighter"
             skill: 2
             points: 6
             loadout: 10
-            pointsxwa: 6
-            loadoutxwa: 15
+            pointsxwa: 16
+            loadoutxwa: 18
             keyword: ["Droid","Spectre"]
             unique: true
             slots: [
@@ -15981,6 +16013,16 @@ exportObj.basicCardData = ->
                 "Illicit"
                 "Modification"
                 "Modification"
+                "Configuration"
+                "Title"
+            ]
+            slotsxwa: [
+                "Crew"
+                "Gunner"
+                "Illicit"
+                "Modification"
+                "Modification"
+                "Payload"
                 "Configuration"
                 "Title"
             ]
@@ -16012,16 +16054,16 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Force Power"
+                "Force Power"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Payload"
+                "Modification"
+                "Modification"
                 "Configuration"
                 "Title"
-                "Force Power"
-                "Force Power"
             ]
         }
         {
@@ -16046,12 +16088,12 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Illicit"
                 "Illicit"
                 "Modification"
-                "Talent"
                 "Title"
             ]
         }
@@ -16078,12 +16120,12 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Illicit"
                 "Illicit"
                 "Modification"
-                "Talent"
                 "Title"
             ]
         }
@@ -16109,12 +16151,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Illicit"
                 "Illicit"
                 "Modification"
-                "Talent"
             ]
         }
         {
@@ -16165,9 +16207,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Modification"
-                "Astromech"
                 "Force Power"
+                "Astromech"
+                "Modification"
             ]
         }
         {
@@ -16191,9 +16233,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Modification"
-                "Astromech"
                 "Force Power"
+                "Astromech"
+                "Modification"
             ]
         }
         {
@@ -16218,9 +16260,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Modification"
-                "Astromech"
                 "Force Power"
+                "Astromech"
+                "Modification"
             ]
         }
         {
@@ -16246,9 +16288,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Modification"
-                "Astromech"
                 "Force Power"
+                "Astromech"
+                "Modification"
             ]
         }
         {
@@ -16272,9 +16314,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Modification"
-                "Astromech"
                 "Force Power"
+                "Astromech"
+                "Modification"
             ]
         }
         {
@@ -16298,8 +16340,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Modification"
                 "Astromech"
+                "Modification"
             ]
         }
         {
@@ -16323,8 +16365,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Modification"
                 "Astromech"
+                "Modification"
             ]
         }
         {
@@ -16347,8 +16389,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Modification"
                 "Astromech"
+                "Modification"
             ]
         }
         {
@@ -16374,9 +16416,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Modification"
-                "Astromech"
                 "Force Power"
+                "Astromech"
+                "Modification"
             ]
         }
         {
@@ -16405,13 +16447,13 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
-                "Illicit"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Talent"
+                "Illicit"
+                "Cannon"
+                "Cannon"
+                "Missile"
+                "Modification"
+                "Modification"
                 "Title"
             ]
         }
@@ -16437,12 +16479,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
-                "Illicit"
-                "Modification"
-                "Modification"
                 "Talent"
+                "Illicit"
+                "Cannon"
+                "Cannon"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -16468,9 +16510,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
                 "Illicit"
+                "Cannon"
+                "Cannon"
                 "Modification"
                 "Modification"
             ]
@@ -16494,10 +16536,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Cannon"
                 "Cannon"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -16546,11 +16588,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
-                "Modification"
-                "Modification"
                 "Talent"
+                "Cannon"
+                "Cannon"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -16574,11 +16616,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
-                "Modification"
-                "Modification"
                 "Talent"
+                "Cannon"
+                "Cannon"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -16629,11 +16671,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
-                "Modification"
-                "Modification"
                 "Talent"
+                "Cannon"
+                "Cannon"
+                "Modification"
+                "Modification"
             ]
             applies_condition: 'Guarded'.canonicalize()
         }
@@ -16840,8 +16882,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Sensor"
+                "Modification"
             ]
         }
         {
@@ -16862,8 +16904,8 @@ exportObj.basicCardData = ->
                 "VersatileShip"
             ]
             slotsxwa: [
-                "Modification"
                 "Sensor"
+                "Modification"
             ]
         }
         {
@@ -16984,10 +17026,11 @@ exportObj.basicCardData = ->
             xwsaddon: "battleofyavin"
             unique: true
             id: 560
+            xwsname: "dutchvander-battleofyavin"
             faction: "Rebel Alliance"
             ship: "BTL-A4 Y-wing"
             skill: 4
-            points: 4
+            points: 10
             chassis: "Hope"
             upgrades: [
                 "Ion Cannon Turret"
@@ -17018,10 +17061,11 @@ exportObj.basicCardData = ->
             xwsaddon: "battleofyavin"
             unique: true
             id: 562
+            xwsname: "popskrail-battleofyavin"
             faction: "Rebel Alliance"
             ship: "BTL-A4 Y-wing"
             skill: 4
-            points: 4
+            points: 10
             chassis: "Hope"
             upgrades: [
                 "Ion Cannon Turret"
@@ -17631,11 +17675,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Torpedo"
-                "Configuration"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -17660,11 +17704,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Torpedo"
-                "Configuration"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -17688,10 +17732,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Missile"
-                "Configuration"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -17714,23 +17758,24 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
-                "Missile"
-                "Configuration"
                 "Force Power"
+                "Missile"
+                "Modification"
+                "Configuration"
             ]
         }
         {
             name: '"Pops" Krail'
             id: 598
+            xwsname : "popskrail"
             unique: true
             faction: "Rebel Alliance"
             ship: "BTL-A4 Y-wing"
             skill: 3
             points: 4
             loadout: 16
-            pointsxwa: 3
-            loadoutxwa: 4
+            pointsxwa: 9
+            loadoutxwa: 11
             slots: [
                 "Talent"
                 "Turret"
@@ -17739,6 +17784,13 @@ exportObj.basicCardData = ->
                 "Device"
                 "Missile"
                 "Modification"
+            ]
+            slotsxwa: [
+                "Astromech"
+                "Torpedo"
+                "Payload"
+                "Modification"
+                "Turret"
             ]
         }
         {
@@ -17763,12 +17815,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
+                "Talent"
                 "Gunner"
+                "Cannon"
+                "Cannon"
                 "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
         {
@@ -17791,11 +17843,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
+                "Talent"
+                "Talent"
                 "Sensor"
+                "Missile"
                 "Modification"
-                "Talent"
-                "Talent"
             ]
         }
         {
@@ -17820,10 +17872,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
-                "Configuration"
                 "Force Power"
                 "Sensor"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -17844,8 +17896,8 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Modification"
             ]
         }
         {
@@ -17866,8 +17918,8 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Modification"
             ]
         }
         {
@@ -17895,16 +17947,16 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Crew"
                 "Crew"
                 "Gunner"
                 "Gunner"
                 "Illicit"
                 "Illicit"
-                "Modification"
                 "Missile"
-                "Talent"
-                "Talent"
+                "Modification"
                 "Title"
             ]
         }
@@ -17934,15 +17986,15 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Gunner"
-                "Gunner"
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Missile"
                 "Talent"
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Gunner"
+                "Illicit"
+                "Illicit"
+                "Missile"
+                "Modification"
                 "Title"
             ]
         }
@@ -17970,12 +18022,12 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Tech"
-                "Configuration"
                 "Talent"
+                "Astromech"
                 "Missile"
+                "Modification"
+                "Configuration"
+                "Tech"
             ]
         }
         {
@@ -18000,11 +18052,11 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
-                "Talent"
+                "Tech"
             ]
         }
         {
@@ -18033,9 +18085,9 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Crew"
                 "Crew"
+                "Torpedo"
                 "Modification"
                 "Tech"
-                "Torpedo"
             ]
         }
         {
@@ -18062,12 +18114,12 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Payload"
+                "Modification"
                 "Title"
             ]
         }
@@ -18092,9 +18144,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -18119,13 +18171,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Modification"
                 "Talent"
+                "Illicit"
+                "Illicit"
+                "Cannon"
+                "Cannon"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -18154,12 +18206,12 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
+                "Gunner"
                 "Illicit"
                 "Modification"
-                "Talent"
-                "Gunner"
             ]
         }
         {
@@ -18181,9 +18233,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Modification"
             ]
         }
         {
@@ -18209,11 +18261,11 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Sensor"
-                "Modification"
-                "Modification"
-                "Missile"
-                "Cannon"
                 "Illicit"
+                "Cannon"
+                "Missile"
+                "Modification"
+                "Modification"
             ]
             ship_override:
                 actions: [
@@ -18250,14 +18302,14 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Force Power"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Payload"
+                "Modification"
                 "Title"
-                "Force Power"
             ]
         }
         {
@@ -18286,9 +18338,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Cannon"
-                "Cannon"
                 "Illicit"
+                "Cannon"
+                "Cannon"
                 "Modification"
                 "Modification"
             ]
@@ -18314,10 +18366,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
-                "Configuration"
                 "Missile"
                 "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -18373,11 +18425,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Configuration"
-                "Modification"
-                "Modification"
-                "Astromech"
                 "Force Power"
+                "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
         {
@@ -18402,9 +18454,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force Power"
-                "Modification"
-                "Astromech"
                 "Force Power"
+                "Astromech"
+                "Modification"
             ]
         }
         {
@@ -18454,12 +18506,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
                 "Force Power"
+                "Force Power"
+                "Talent"
                 "Astromech"
                 "Cannon"
                 "Modification"
-                "Force Power"
             ]
         }
         {
@@ -18505,9 +18557,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Astromech"
-                "Modification"
-                "Torpedo"
                 "Sensor"
+                "Torpedo"
+                "Modification"
             ]
         }
         {
@@ -18530,10 +18582,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Sensor"
+                "Modification"
+                "Tech"
                 "Tech"
             ]
         }
@@ -18562,14 +18614,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Gunner"
+                "Torpedo"
+                "Missile"
+                "Payload"
+                "Payload"
                 "Modification"
                 "Tech"
-                "Payload"
-                "Payload"
-                "Missile"
-                "Talent"
-                "Torpedo"
             ]
         }
         {
@@ -18591,10 +18643,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Sensor"
+                "Modification"
+                "Tech"
             ]
         }
         {
@@ -18616,10 +18668,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Sensor"
+                "Modification"
+                "Tech"
             ]
             applies_condition: '''Primed For Speed'''.canonicalize()
         }
@@ -18645,12 +18697,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Tech"
-                "Tech"
+                "Talent"
                 "Crew"
                 "Crew"
                 "Modification"
-                "Talent"
+                "Tech"
+                "Tech"
             ]
             ship_override:
                 actions: [
@@ -18696,2121 +18748,2134 @@ exportObj.basicCardData = ->
                 "Elusive"
                 "Outmaneuver"
                 "Afterburners"            ]
-            }
-            {
-                name: "Captain Jonus (SSP)"
-                xwsaddon: "swz105"
-                unique: true
-                id: 632
-                xws_name: "captainjonus-swz106"
-                faction: "Galactic Empire"
-                ship: "TIE/sa Bomber"
-                skill: 4
-                points: 4
-                upgrades: [
-                    "Feedback Ping"
-                    "Plasma Torpedoes"
-                    "Proton Bombs"
+        }
+        {
+            name: "Captain Jonus (SSP)"
+            xwsaddon: "swz105"
+            unique: true
+            id: 632
+            xws_name: "captainjonus-swz106"
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            skill: 4
+            points: 4
+            upgrades: [
+                "Feedback Ping"
+                "Plasma Torpedoes"
+                "Proton Bombs"
+            ]
+        }
+        {
+            name: "Tomax Bren (SSP)"
+            xwsaddon: "swz105"
+            unique: true
+            id: 633
+            xws_name: "tomaxbren-swz106"
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            skill: 5
+            points: 5
+            pointsxwa: 4
+            upgrades: [
+                "Elusive"
+                "Barrage Rockets"
+                "Proximity Mines"
+            ]
+        }
+        {
+            name: "Iden Versio (SSP)"
+            xwsaddon: "swz105"
+            unique: true
+            id: 634
+            xws_name: "idenversio-swz106"
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            skill: 4
+            points: 4
+            charge: 1
+            upgrades: [
+                "Disciplined"
+                "Elusive"
+            ]
+        }
+        {
+            name: '"Night Beast" (SSP)'
+            xwsaddon: "swz105"
+            unique: true
+            id: 635
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            skill: 2
+            points: 3
+            upgrades: [
+                "Disciplined"
+                "Predator"
+            ]
+        }
+        {
+            name: "Valen Rudor (SSP)"
+            xwsaddon: "swz105"
+            unique: true
+            id: 636
+            xws_name: "valenrudor-swz106"
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            skill: 3
+            points: 3
+            upgrades: [
+                "Disciplined"
+                "Precision Ion Engines"
+            ]
+        }
+        {
+            name: '"Dutch" Vander (SSP)'
+            xwsaddon: "swz106"
+            unique: true
+            id: 637
+            xwsname : "dutchvander-swz106"
+            faction: "Rebel Alliance"
+            ship: "BTL-A4 Y-wing"
+            skill: 4
+            points: 9
+            upgrades: [
+                "Ion Cannon Turret"
+                "Proton Bombs"
+            ]
+        }
+        {
+            name: "Horton Salm (SSP)"
+            xwsaddon: "swz106"
+            unique: true
+            id: 638
+            xws_name: "hortonsalm-swz106"
+            faction: "Rebel Alliance"
+            ship: "BTL-A4 Y-wing"
+            skill: 4
+            points: 4
+            pointsxwa: 9
+            upgrades: [
+                "Ion Cannon Turret"
+                "Proximity Mines"
+            ]
+        }
+        {
+            name: "Arvel Crynyd (SSP)"
+            xwsaddon: "swz106"
+            unique: true
+            id: 639
+            xws_name: "arvelcrynyd-swz106"
+            faction: "Rebel Alliance"
+            ship: "RZ-1 A-wing"
+            skill: 3
+            points: 4
+            pointsxwa: 9
+            upgrades: [
+                "Predator"
+                "Afterburners"
+            ]
+        }
+        {
+            name: "Jake Farrell (SSP)"
+            xwsaddon: "swz106"
+            unique: true
+            id: 640
+            xws_name: "jakefarrell-swz106"
+            faction: "Rebel Alliance"
+            ship: "RZ-1 A-wing"
+            skill: 4
+            points: 5
+            pointsxwa: 10
+            upgrades: [
+                "Elusive"
+                "Outmaneuver"
+                "Ion Missiles"
+            ]
+        }
+        {
+            name: "Jek Porkins (SSP)"
+            xwsaddon: "swz106"
+            unique: true
+            id: 641
+            xws_name: "jekporkins-swz106"
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            skill: 4
+            points: 5
+            pointsxwa: 13
+            upgrades: [
+                "Predator"
+                "Proton Torpedoes"
+                "R5-D8"
+            ]
+        }
+        {
+            name: "Luke Skywalker (SSP)"
+            xwsaddon: "swz106"
+            unique: true
+            id: 642
+            xws_name: "lukeskywalker-swz106"
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            skill: 5
+            force: 2
+            points: 6
+            pointsxwa: 16
+            upgrades: [
+                "Instinctive Aim"
+                "Proton Torpedoes"
+                "R2-D2"
+            ]
+        }
+        {
+            name: "Shara Bey (SSP)"
+            xwsaddon: "swz106"
+            unique: true
+            id: 643
+            xws_name: "sharabey-swz106"
+            faction: "Rebel Alliance"
+            ship: "RZ-1 A-wing"
+            skill: 4
+            points: 4
+            pointsxwa: 9
+            upgrades: [
+                "Hopeful"
+                "Concussion Missiles"
+            ]
+        }
+        {
+            name: '"Deathfire" (TBE)'
+            xwsaddon: "swz98"
+            unique: true
+            id: 644
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            skill: 2
+            points: 3
+            pointsxwa: 4
+            charge: 2
+            recurring: 1
+            upgrades: [
+                "Swift Approach (TBE)"
+                "Conner Nets"
+                "Proton Bombs"
+            ]
+        }
+        {
+            name: "Major Rhymer (TBE)"
+            xwsaddon: "swz98"
+            unique: true
+            id: 645
+            xws_name: "majorrhymer-tiesabomber"
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            skill: 4
+            points: 4
+            pointsxwa: 5
+            upgrades: [
+                "Adv. Proton Torpedoes"
+                "Automated Loaders (TBE)"
+                "Afterburners"
+            ]
+        }
+        {
+            name: "Captain Jonus (TBE)"
+            xwsaddon: "swz98"
+            unique: true
+            id: 646
+            xws_name: "captainjonus-tiesabomber"
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            skill: 4
+            points: 5
+            upgrades: [
+                "Top Cover (TBE)"
+                "Barrage Rockets"
+                "Proton Bombs"
+            ]
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Lock"
+                    "Reload"
                 ]
-            }
-            {
-                name: "Tomax Bren (SSP)"
-                xwsaddon: "swz105"
-                unique: true
-                id: 633
-                xws_name: "tomaxbren-swz106"
-                faction: "Galactic Empire"
-                ship: "TIE/sa Bomber"
-                skill: 5
-                points: 5
-                pointsxwa: 4
-                upgrades: [
-                    "Elusive"
-                    "Barrage Rockets"
-                    "Proximity Mines"
+        }
+        {
+            name: "Tomax Bren (TBE)"
+            xwsaddon: "swz98"
+            unique: true
+            id: 647
+            xws_name: "tomaxbren-tiesabomber"
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            skill: 5
+            points: 4
+            pointsxwa: 4
+            charge: 2
+            recurring: 1
+            upgrades: [
+                "True Grit (TBE)"
+                "Plasma Torpedoes"
+                "Ion Bombs"
+            ]
+        }
+        {
+            name: "Dash Rendar (YLF)"
+            xwsaddon: "swz103-rebelalliance"
+            unique: true
+            id: 648
+            xws_name: "dashrendar-swz103-rebelalliance"
+            faction: "Rebel Alliance"
+            ship: "YT-2400 Light Freighter"
+            skill: 5
+            points: 7
+            loadout: 20
+            pointsxwa: 19
+            loadoutxwa: 20
+            slots: [
+                "Talent"
+                "Missile"
+                "Crew"
+                "Illicit"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+            slotsxwa: [
+                "Talent"
+                "Crew"
+                "Illicit"
+                "Illicit"
+                "Modification"
+                "Missile"
+                "Title"
+            ]
+        }
+        {
+            name: "Dash Rendar (YLF-SL)"
+            xwsaddon: "swz103-sl-rebelalliance"
+            unique: true
+            id: 649
+            xws_name: "dashrendar-swz103-sl-rebelalliance"
+            faction: "Rebel Alliance"
+            ship: "YT-2400 Light Freighter"
+            skill: 5
+            points: 6
+            pointsxwa: 18
+            upgrades: [
+                "Mercenary (YLF)"
+                "Seeker Missiles (YLF)"
+                '"Leebo" (YLF)'
+                "Outrider"
+            ]
+        }
+        {
+            name: "Dash Rendar (Scum)"
+            xwsaddon: "swz103-sl-scumandvillainy"
+            unique: true
+            id: 650
+            xws_name: "dashrendar-swz103-sl-scumandvillainy"
+            faction: "Scum and Villainy"
+            ship: "YT-2400 Light Freighter"
+            skill: 5
+            points: 6
+            pointsxwa: 18
+            upgrades: [
+                "Mercenary (YLF)"
+                "Seeker Missiles (YLF)"
+                '"Leebo" (YLF)'
+                "Outrider"
+            ]
+        }
+        {
+            name: '"Leebo" (YLF)'
+            xwsaddon: "swz103-rebelalliance"
+            unique: true
+            id: 651
+            xwsname: "leebo-swz103-rebelalliance"
+            faction: "Rebel Alliance"
+            ship: "YT-2400 Light Freighter"
+            skill: 3
+            points: 6
+            loadout: 16
+            pointsxwa: 17
+            loadoutxwa: 10
+            keyword: ["Droid"]
+            slots: [
+                "Talent"
+                "Missile"
+                "Illicit"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+            slotsxwa: [
+                "Talent"
+                "Crew"
+                "Illicit"
+                "Illicit"
+                "Modification"
+                "Missile"
+                "Title"
+            ]
+        }
+        {
+            name: '"Leebo" (YLF-SL)'
+            xwsaddon: "swz103-sl-rebelalliance"
+            unique: true
+            id: 652
+            xwsname: "leebo-swz103-sl-rebelalliance"
+            faction: "Rebel Alliance"
+            ship: "YT-2400 Light Freighter"
+            skill: 3
+            points: 6
+            pointsxwa: 16
+            upgrades: [
+                "Efficient Processing (YLF)"
+                "Seeker Missiles (YLF)"
+                "Outrider"
+            ]
+            ship_override:
+                actions: [
+                    "Calculate"
+                    "Lock"
+                    "R-> Rotate Arc"
+                    "R-Barrel Roll"
+                    "Rotate Arc"
                 ]
-            }
-            {
-                name: "Iden Versio (SSP)"
-                xwsaddon: "swz105"
-                unique: true
-                id: 634
-                xws_name: "idenversio-swz106"
-                faction: "Galactic Empire"
-                ship: "TIE/ln Fighter"
-                skill: 4
-                points: 4
-                charge: 1
-                upgrades: [
-                    "Disciplined"
-                    "Elusive"
+        }
+        {
+            name: '"Leebo" (Scum)'
+            xwsaddon: "swz103-sl-scumandvillainy"
+            unique: true
+            id: 653
+            faction: "Scum and Villainy"
+            ship: "YT-2400 Light Freighter"
+            skill: 3
+            points: 6
+            upgrades: [
+                "Efficient Processing (YLF)"
+                "Seeker Missiles (YLF)"
+                "Outrider"
+            ]
+            ship_override:
+                actions: [
+                    "Calculate"
+                    "Lock"
+                    "R-> Rotate Arc"
+                    "R-Barrel Roll"
+                    "Rotate Arc"
                 ]
-            }
-            {
-                name: '"Night Beast" (SSP)'
-                xwsaddon: "swz105"
-                unique: true
-                id: 635
-                faction: "Galactic Empire"
-                ship: "TIE/ln Fighter"
-                skill: 2
-                points: 3
-                upgrades: [
-                    "Disciplined"
-                    "Predator"
+        }
+        {
+            name: "Arvel Crynyd (BoE)"
+            xwsaddon: "battleoverendor"
+            unique: true
+            id: 654
+            xws_name: "arvelcrynyd-battleoverendor"
+            faction: "Rebel Alliance"
+            ship: "RZ-1 A-wing"
+            skill: 3
+            points: 4
+            pointsxwa: 10
+            chassis: "Vectored Cannons"
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Heroic Sacrifice (BoE)"
+                "Proton Rockets"
+            ]
+            ship_override:
+                attackt: 2
+                attack: 0
+                shields: 3
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Focus"
+                    "Boost"
+                    "Slam"
                 ]
-            }
-            {
-                name: "Valen Rudor (SSP)"
-                xwsaddon: "swz105"
-                unique: true
-                id: 636
-                xws_name: "valenrudor-swz106"
-                faction: "Galactic Empire"
-                ship: "TIE/ln Fighter"
-                skill: 3
-                points: 3
-                upgrades: [
-                    "Disciplined"
-                    "Precision Ion Engines"
+        }
+        {
+            name: "Gemmer Sojan (BoE)"
+            xwsaddon: "battleoverendor"
+            unique: true
+            id: 655
+            xws_name: "gemmersojan-battleoverendor"
+            faction: "Rebel Alliance"
+            ship: "RZ-1 A-wing"
+            skill: 2
+            points: 4
+            pointsxwa: 9
+            chassis: "Vectored Cannons"
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Precision-Tuned Cannons (BoE)"
+                "Chaff Particles (BoE)"
+                "Target-Assist Algorithm (BoE)"
+            ]
+            ship_override:
+                attackt: 2
+                attack: 0
+        }
+        {
+            name: "Tycho Celchu (BoE)"
+            xwsaddon: "battleoverendor"
+            unique: true
+            id: 656
+            xws_name: "tychocelchu-battleoverendor"
+            faction: "Rebel Alliance"
+            ship: "RZ-1 A-wing"
+            skill: 5
+            points: 4
+            pointsxwa: 11
+            chassis: "Vectored Cannons"
+            ship_override:
+                attackt: 2
+                attack: 0
+                shields: 3
+                actions: [
+                    "Focus"
+                    "R-> Reload"
+                    "Evade"
+                    "Lock"
+                    "Barrel Roll"
+                    "Boost"
+                    "R-> Evade"
                 ]
-            }
-            {
-                name: '"Dutch" Vander (SSP)'
-                xwsaddon: "swz106"
-                unique: true
-                id: 637
-                faction: "Rebel Alliance"
-                ship: "BTL-A4 Y-wing"
-                skill: 4
-                points: 4
-                upgrades: [
-                    "Ion Cannon Turret"
-                    "Proton Bombs"
-                ]
-            }
-            {
-                name: "Horton Salm (SSP)"
-                xwsaddon: "swz106"
-                unique: true
-                id: 638
-                xws_name: "hortonsalm-swz106"
-                faction: "Rebel Alliance"
-                ship: "BTL-A4 Y-wing"
-                skill: 4
-                points: 4
-                pointsxwa: 9
-                upgrades: [
-                    "Ion Cannon Turret"
-                    "Proximity Mines"
-                ]
-            }
-            {
-                name: "Arvel Crynyd (SSP)"
-                xwsaddon: "swz106"
-                unique: true
-                id: 639
-                xws_name: "arvelcrynyd-swz106"
-                faction: "Rebel Alliance"
-                ship: "RZ-1 A-wing"
-                skill: 3
-                points: 4
-                pointsxwa: 9
-                upgrades: [
-                    "Predator"
-                    "Afterburners"
-                ]
-            }
-            {
-                name: "Jake Farrell (SSP)"
-                xwsaddon: "swz106"
-                unique: true
-                id: 640
-                xws_name: "jakefarrell-swz106"
-                faction: "Rebel Alliance"
-                ship: "RZ-1 A-wing"
-                skill: 4
-                points: 5
-                pointsxwa: 10
-                upgrades: [
-                    "Elusive"
-                    "Outmaneuver"
-                    "Ion Missiles"
-                ]
-            }
-            {
-                name: "Jek Porkins (SSP)"
-                xwsaddon: "swz106"
-                unique: true
-                id: 641
-                xws_name: "jekporkins-swz106"
-                faction: "Rebel Alliance"
-                ship: "T-65 X-wing"
-                skill: 4
-                points: 5
-                pointsxwa: 13
-                upgrades: [
-                    "Predator"
-                    "Proton Torpedoes"
-                    "R5-D8"
-                ]
-            }
-            {
-                name: "Luke Skywalker (SSP)"
-                xwsaddon: "swz106"
-                unique: true
-                id: 642
-                xws_name: "lukeskywalker-swz106"
-                faction: "Rebel Alliance"
-                ship: "T-65 X-wing"
-                skill: 5
-                force: 2
-                points: 6
-                pointsxwa: 16
-                upgrades: [
-                    "Instinctive Aim"
-                    "Proton Torpedoes"
-                    "R2-D2"
-                ]
-            }
-            {
-                name: "Shara Bey (SSP)"
-                xwsaddon: "swz106"
-                unique: true
-                id: 643
-                xws_name: "sharabey-swz106"
-                faction: "Rebel Alliance"
-                ship: "RZ-1 A-wing"
-                skill: 4
-                points: 4
-                pointsxwa: 9
-                upgrades: [
-                    "Hopeful"
-                    "Concussion Missiles"
-                ]
-            }
-            {
-                name: '"Deathfire" (TBE)'
-                xwsaddon: "swz98"
-                unique: true
-                id: 644
-                faction: "Galactic Empire"
-                ship: "TIE/sa Bomber"
-                skill: 2
-                points: 3
-                pointsxwa: 4
-                charge: 2
-                recurring: 1
-                upgrades: [
-                    "Swift Approach (TBE)"
-                    "Conner Nets"
-                    "Proton Bombs"
-                ]
-            }
-            {
-                name: "Major Rhymer (TBE)"
-                xwsaddon: "swz98"
-                unique: true
-                id: 645
-                xws_name: "majorrhymer-tiesabomber"
-                faction: "Galactic Empire"
-                ship: "TIE/sa Bomber"
-                skill: 4
-                points: 4
-                pointsxwa: 5
-                upgrades: [
-                    "Adv. Proton Torpedoes"
-                    "Automated Loaders (TBE)"
-                    "Afterburners"
-                ]
-            }
-            {
-                name: "Captain Jonus (TBE)"
-                xwsaddon: "swz98"
-                unique: true
-                id: 646
-                xws_name: "captainjonus-tiesabomber"
-                faction: "Galactic Empire"
-                ship: "TIE/sa Bomber"
-                skill: 4
-                points: 5
-                upgrades: [
-                    "Top Cover (TBE)"
-                    "Barrage Rockets"
-                    "Proton Bombs"
-                ]
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Lock"
-                        "Barrel Roll"
-                        "R-> Lock"
-                        "Reload"
-                    ]
-            }
-            {
-                name: "Tomax Bren (TBE)"
-                xwsaddon: "swz98"
-                unique: true
-                id: 647
-                xws_name: "tomaxbren-tiesabomber"
-                faction: "Galactic Empire"
-                ship: "TIE/sa Bomber"
-                skill: 5
-                points: 4
-                pointsxwa: 4
-                charge: 2
-                recurring: 1
-                upgrades: [
-                    "True Grit (TBE)"
-                    "Plasma Torpedoes"
-                    "Ion Bombs"
-                ]
-            }
-            {
-                name: "Dash Rendar (YLF)"
-                xwsaddon: "swz103-rebelalliance"
-                unique: true
-                id: 648
-                xws_name: "dashrendar-yt2400lightfreighter"
-                faction: "Rebel Alliance"
-                ship: "YT-2400 Light Freighter"
-                skill: 5
-                points: 7
-                loadout: 20
-                pointsxwa: 7
-                loadoutxwa: 12
-                slots: [
-                    "Talent"
-                    "Missile"
-                    "Crew"
-                    "Illicit"
-                    "Illicit"
-                    "Modification"
-                    "Title"
-                ]
-            }
-            {
-                name: "Dash Rendar (YLF-SL)"
-                xwsaddon: "swz103-sl-rebelalliance"
-                unique: true
-                id: 649
-                xws_name: "dashrendar-yt2400lightfreighter"
-                faction: "Rebel Alliance"
-                ship: "YT-2400 Light Freighter"
-                skill: 5
-                points: 6
-                pointsxwa: 7
-                upgrades: [
-                    "Mercenary (YLF)"
-                    "Seeker Missiles (YLF)"
-                    '"Leebo" (YLF)'
-                    "Outrider"
-                ]
-            }
-            {
-                name: "Dash Rendar (Scum)"
-                xwsaddon: "swz103-sl-scumandvillainy"
-                unique: true
-                id: 650
-                xws_name: "dashrendar-yt2400lightfreighter"
-                faction: "Scum and Villainy"
-                ship: "YT-2400 Light Freighter"
-                skill: 5
-                points: 6
-                pointsxwa: 7
-                upgrades: [
-                    "Mercenary (YLF)"
-                    "Seeker Missiles (YLF)"
-                    '"Leebo" (YLF)'
-                    "Outrider"
-                ]
-            }
-            {
-                name: '"Leebo" (YLF)'
-                xwsaddon: "swz103-rebelalliance"
-                unique: true
-                id: 651
-                faction: "Rebel Alliance"
-                ship: "YT-2400 Light Freighter"
-                skill: 3
-                points: 6
-                loadout: 16
-                pointsxwa: 6
-                loadoutxwa: 7
-                keyword: ["Droid"]
-                slots: [
-                    "Talent"
-                    "Missile"
-                    "Illicit"
-                    "Illicit"
-                    "Modification"
-                    "Title"
-                ]
-                slotsxwa: [
-                    "Talent"
-                    "Missile"
-                    "Crew"
-                    "Illicit"
-                    "Illicit"
-                    "Title"
-                ]
-            }
-            {
-                name: '"Leebo" (YLF-SL)'
-                xwsaddon: "swz103-sl-rebelalliance"
-                unique: true
-                id: 652
-                faction: "Rebel Alliance"
-                ship: "YT-2400 Light Freighter"
-                skill: 3
-                points: 6
-                pointsxwa: 7
-                upgrades: [
-                    "Efficient Processing (YLF)"
-                    "Seeker Missiles (YLF)"
-                    "Outrider"
-                ]
-                ship_override:
-                    actions: [
-                        "Calculate"
-                        "Lock"
-                        "R-> Rotate Arc"
-                        "R-Barrel Roll"
-                        "Rotate Arc"
-                    ]
-            }
-            {
-                name: '"Leebo" (Scum)'
-                xwsaddon: "swz103-sl-scumandvillainy"
-                unique: true
-                id: 653
-                faction: "Scum and Villainy"
-                ship: "YT-2400 Light Freighter"
-                skill: 3
-                points: 6
-                upgrades: [
-                    "Efficient Processing (YLF)"
-                    "Seeker Missiles (YLF)"
-                    "Outrider"
-                ]
-                ship_override:
-                    actions: [
-                        "Calculate"
-                        "Lock"
-                        "R-> Rotate Arc"
-                        "R-Barrel Roll"
-                        "Rotate Arc"
-                    ]
-            }
-            {
-                name: "Arvel Crynyd (BoE)"
-                xwsaddon: "battleoverendor"
-                unique: true
-                id: 654
-                xws_name: "arvelcrynyd-battleoverendor"
-                faction: "Rebel Alliance"
-                ship: "RZ-1 A-wing"
-                skill: 3
-                points: 4
-                pointsxwa: 10
-                chassis: "Vectored Cannons"
                 upgrades: [
                     "It's A Trap! (BoE)"
-                    "Heroic Sacrifice (BoE)"
+                    "Juke"
                     "Proton Rockets"
+                    "Chaff Particles (BoE)"
                 ]
-                ship_override:
-                    attackt: 2
-                    attack: 0
-                    shields: 3
-                    actions: [
-                        "Focus"
-                        "Evade"
-                        "Lock"
-                        "Barrel Roll"
-                        "R-> Focus"
-                        "Boost"
-                        "Slam"
-                    ]
-            }
-            {
-                name: "Gemmer Sojan (BoE)"
-                xwsaddon: "battleoverendor"
-                unique: true
-                id: 655
-                xws_name: "gemmersojan-battleoverendor"
-                faction: "Rebel Alliance"
-                ship: "RZ-1 A-wing"
-                skill: 2
-                points: 4
-                pointsxwa: 9
-                chassis: "Vectored Cannons"
+        }
+        {
+            name: "Adon Fox (BoE)"
+            xwsaddon: "battleoverendor"
+            unique: true
+            id: 657
+            xws_name: "adonfox-battleoverendor"
+            faction: "Rebel Alliance"
+            ship: "A/SF-01 B-wing"
+            skill: 1
+            points: 5
+            pointsxwa: 12
+            charge: 2
+            recurring: 1
+            chassis: "Gyro-Cockpit"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Lock"
+                    "R-Reload"
+                ]
                 upgrades: [
                     "It's A Trap! (BoE)"
-                    "Precision-Tuned Cannons (BoE)"
-                    "Chaff Particles (BoE)"
-                    "Target-Assist Algorithm (BoE)"
+                    "Parting Gift (BoE)"
+                    "Proton Rockets"
+                    "Proton Bombs"
                 ]
-                ship_override:
-                    attackt: 2
-                    attack: 0
-            }
-            {
-                name: "Tycho Celchu (BoE)"
-                xwsaddon: "battleoverendor"
-                unique: true
-                id: 656
-                xws_name: "tychocelchu-battleoverendor"
-                faction: "Rebel Alliance"
-                ship: "RZ-1 A-wing"
-                skill: 5
-                points: 4
-                pointsxwa: 11
-                chassis: "Vectored Cannons"
-                ship_override:
-                    attackt: 2
-                    attack: 0
-                    shields: 3
-                    actions: [
-                        "Focus"
-                        "R-> Reload"
-                        "Evade"
-                        "Lock"
-                        "Barrel Roll"
-                        "Boost"
-                        "R-> Evade"
-                    ]
-                    upgrades: [
-                        "It's A Trap! (BoE)"
-                        "Juke"
-                        "Proton Rockets"
-                        "Chaff Particles (BoE)"
-                    ]
-            }
-            {
-                name: "Adon Fox (BoE)"
-                xwsaddon: "battleoverendor"
-                unique: true
-                id: 657
-                xws_name: "adonfox-battleoverendor"
-                faction: "Rebel Alliance"
-                ship: "A/SF-01 B-wing"
-                skill: 1
-                points: 5
-                pointsxwa: 12
-                charge: 2
-                recurring: 1
-                chassis: "Gyro-Cockpit"
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "R-> Barrel Roll"
-                        "Lock"
-                        "Barrel Roll"
-                        "R-> Lock"
-                        "R-Reload"
-                    ]
-                    upgrades: [
-                        "It's A Trap! (BoE)"
-                        "Parting Gift (BoE)"
-                        "Proton Rockets"
-                        "Proton Bombs"
-                    ]
-            }
-            {
-                name: "Braylen Stramm (BoE)"
-                xwsaddon: "battleoverendor"
-                unique: true
-                id: 658
-                xws_name: "braylenstramm-battleoverendor"
-                faction: "Rebel Alliance"
-                ship: "A/SF-01 B-wing"
-                skill: 4
-                points: 5
-                pointsxwa: 13
-                charge: 2
-                recurring: 1
-                chassis: "Gyro-Cockpit"
-                ship_override:
-                    shields: 5
-                    actions: [
-                        "Focus"
-                        "R-> Barrel Roll"
-                        "Lock"
-                        "Barrel Roll"
-                        "R-> Lock"
-                        "R-Reload"
-                    ]
-                    upgrades: [
-                        "It's A Trap! (BoE)"
-                        "Homing Missiles"
-                        "Proton Bombs"
-                        "Delayed Fuses"
-                    ]
-            }
-            {
-                name: "Gina Moonsong (BoE)"
-                xwsaddon: "battleoverendor"
-                unique: true
-                id: 659
-                xws_name: "ginamoonsong-battleoverendor"
-                faction: "Rebel Alliance"
-                ship: "A/SF-01 B-wing"
-                skill: 5
-                points: 5
-                pointsxwa: 16
-                charge: 2
-                recurring: 1
-                chassis: "Gyro-Cockpit"
-                ship_override:
-                    shields: 5
-                    actions: [
-                        "Focus"
-                        "R-> Barrel Roll"
-                        "Lock"
-                        "Barrel Roll"
-                        "R-> Lock"
-                        "R-Reload"
-                    ]
-                    upgrades: [
-                        "It's A Trap! (BoE)"
-                        "Juke"
-                        "Proton Torpedoes"
-                        "Ion Bombs"
-                    ]
-            }
-            {
-                name: "Kendy Idele (BoE)"
-                xwsaddon: "battleoverendor"
-                unique: true
-                id: 660
-                xws_name: "kendyidele-battleoverendor"
-                faction: "Rebel Alliance"
-                ship: "T-65 X-wing"
-                skill: 4
-                points: 4
-                pointsxwa: 10
-                chassis: "Locked S-Foils"
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "R-> Boost"
-                        "Lock"
-                        "Barrel Roll"
-                        "R-> Focus"
-                        "Boost"
-                    ]
-                    upgrades: [
-                        "It's A Trap! (BoE)"
-                        "Ion Missiles"
-                        "Modified R4-P unit (BoE)"
-                        "Chaff Particles (BoE)"
-                    ]
-            }
-            {
-                name: "Wedge Antilles (BoE)"
-                xwsaddon: "battleoverendor"
-                unique: true
-                id: 661
-                xws_name: "wedgeantilles-battleoverendor"
-                faction: "Rebel Alliance"
-                ship: "T-65 X-wing"
-                skill: 6
-                points: 5
-                pointsxwa: 16
-                chassis: "Locked S-Foils"
-                ship_override:
-                    shields: 3
-                    actions: [
-                        "Focus"
-                        "R-> Boost"
-                        "Lock"
-                        "Barrel Roll"
-                        "R-> Focus"
-                        "Boost"
-                    ]
-                    upgrades: [
-                        "It's A Trap! (BoE)"
-                        "Predator"
-                        "Adv. Proton Torpedoes"
-                        "R2-A3 (BoE)"
-                    ]
-            }
-            {
-                name: "Yendor (BoE)"
-                xwsaddon: "battleoverendor"
-                unique: true
-                id: 662
-                xws_name: "yendor-battleoverendor"
-                faction: "Rebel Alliance"
-                ship: "T-65 X-wing"
-                skill: 5
-                points: 5
-                pointsxwa: 12
-                chassis: "Locked S-Foils"
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "R-> Boost"
-                        "Lock"
-                        "Barrel Roll"
-                        "R-> Focus"
-                        "Boost"
-                    ]
-                    upgrades: [
-                        "It's A Trap! (BoE)"
-                        "Plasma Torpedoes"
-                        "Stabilizing Astromech (BoE)"
-                    ]
-            }
-            {
-                name: "Lando Calrissian (BoE)"
-                xwsaddon: "battleoverendor"
-                unique: true
-                id: 663
-                xws_name: "landocalrissian-battleoverendor"
-                faction: "Rebel Alliance"
-                ship: "Modified YT-1300 Light Freighter"
-                skill: 5
-                points: 7
-                pointsxwa: 18
-                charge: 2
-                chassis: "High Stakes"
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Lock"
-                        "Evade"
-                        "R-Boost"
-                        "Rotate Arc"
-                        "R-Coordinate"
-                        "R-> Focus"
-                    ]
-                    upgrades: [
-                        "Ace In The Hole (BoE)"
-                        "It's A Trap! (BoE)"
-                        "Nien Nunb"
-                        "Airen Cracken (BoE)"
-                        "Millennium Falcon (BoE)"
-                    ]
-            }
-            {
-                name: "Captain Yorr (BoE)"
-                xwsaddon: "battleoverendor"
-                id: 664
-                xws_name: "captainyorr-battleoverendor"
-                unique: true
-                faction: "Galactic Empire"
-                ship: "TIE/d Defender"
-                skill: 4
-                charge: 2
-                points: 6
-                pointsxwa: 17
-                chassis: "Chiss Engineering"
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Evade"
-                        "R-> Barrel Roll"
-                        "Lock"
-                        "Barrel Roll"
-                        "Boost"
-                    ]
-                    upgrades: [
-                        "No Escape (BoE)"
-                        "Predator"
-                        "Ion Cannon"
-                        "Computer-Assisted Handling (BoE)"
-                    ]
-            }
-            {
-                name: "Colonel Jendon (BoE)"
-                xwsaddon: "battleoverendor"
-                id: 665
-                xws_name: "coloneljendon-battleoverendor"
-                unique: true
-                faction: "Galactic Empire"
-                ship: "TIE/d Defender"
-                skill: 6
-                points: 7
-                pointsxwa: 19
-                chassis: "Chiss Engineering"
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Evade"
-                        "R-> Barrel Roll"
-                        "Lock"
-                        "Barrel Roll"
-                        "Boost"
-                    ]
-                    upgrades: [
-                        "No Escape (BoE)"
-                        "Push The Limit (BoE)"
-                        "Proton Cannons"
-                        "Computer-Assisted Handling (BoE)"
-                    ]
-            }
-            {
-                name: "Maus Monare (BoE)"
-                xwsaddon: "battleoverendor"
-                unique: true
-                id: 666
-                xws_name: "mausmonare-battleoverendor"
-                faction: "Galactic Empire"
-                ship: "TIE/in Interceptor"
-                skill: 3
-                points: 5
-                pointsxwa: 10
-                chassis: "Sensitive Controls"
-                upgrades: [
-                    "No Escape (BoE)"
-                    "Outmaneuver"
-                    "Fuel Injection Override (BoE)"
+        }
+        {
+            name: "Braylen Stramm (BoE)"
+            xwsaddon: "battleoverendor"
+            unique: true
+            id: 658
+            xws_name: "braylenstramm-battleoverendor"
+            faction: "Rebel Alliance"
+            ship: "A/SF-01 B-wing"
+            skill: 4
+            points: 5
+            pointsxwa: 13
+            charge: 2
+            recurring: 1
+            chassis: "Gyro-Cockpit"
+            ship_override:
+                shields: 5
+                actions: [
+                    "Focus"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Lock"
+                    "R-Reload"
                 ]
-                ship_override:
-                    shields: 1
-            }
-            {
-                name: "Sapphire 2 (BoE)"
-                xwsaddon: "battleoverendor"
-                unique: true
-                id: 667
-                xws_name: "sapphire2-battleoverendor"
-                faction: "Galactic Empire"
-                ship: "TIE/in Interceptor"
-                skill: 1
-                points: 4
-                pointsxwa: 10
-                chassis: "Sensitive Controls"
                 upgrades: [
-                    "No Escape (BoE)"
-                    "Reckless (BoE)"
-                    "Targeting Matrix (BoE)"
-                    "Primed Thrusters"
+                    "It's A Trap! (BoE)"
+                    "Homing Missiles"
+                    "Proton Bombs"
+                    "Delayed Fuses"
                 ]
-            }
-            {
-                name: "Soontir Fel (BoE)"
-                xwsaddon: "battleoverendor"
-                unique: true
-                id: 668
-                xws_name: "soontirfel-battleoverendor"
-                faction: "Galactic Empire"
-                ship: "TIE/in Interceptor"
-                skill: 6
-                charge: 2
-                points: 5
-                pointsxwa: 13
-                chassis: "Sensitive Controls"
-                upgrades: [
-                    "Apex Predator (BoE)"
-                    "No Escape (BoE)"
-                    "Blank Signature (BoE)"
-                    "Feedback Emitter (BoE)"
+        }
+        {
+            name: "Gina Moonsong (BoE)"
+            xwsaddon: "battleoverendor"
+            unique: true
+            id: 659
+            xws_name: "ginamoonsong-battleoverendor"
+            faction: "Rebel Alliance"
+            ship: "A/SF-01 B-wing"
+            skill: 5
+            points: 5
+            pointsxwa: 16
+            charge: 2
+            recurring: 1
+            chassis: "Gyro-Cockpit"
+            ship_override:
+                shields: 5
+                actions: [
+                    "Focus"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Lock"
+                    "R-Reload"
                 ]
-            }
-            {
-                name: "Lieutenant Hebsly (BoE)"
-                xwsaddon: "battleoverendor"
-                unique: true
-                id: 669
-                xws_name: "lieutenanthebsly-battleoverendor"
-                faction: "Galactic Empire"
-                ship: "TIE/ln Fighter"
-                skill: 3
-                points: 3
-                pointsxwa: 8
-                chassis: "Formed Up"
-                ship_override:
-                    hull: 4
-                    actions: [
-                        "Focus"
-                        "Evade"
-                        "Barrel Roll"
-                        "R-> Evade"
-                        "R-Boost"
-                    ]
-                    upgrades: [
-                        "Collected (BoE)"
-                        "Elusive"
-                        "No Escape (BoE)"
-                    ]
-            }
-            {
-                name: "Major Mianda (BoE)"
-                xwsaddon: "battleoverendor"
-                unique: true
-                id: 670
-                xws_name: "majormianda-battleoverendor"
-                faction: "Galactic Empire"
-                ship: "TIE/ln Fighter"
-                skill: 5
-                points: 4
-                pointsxwa: 10
-                chassis: "Formed Up"
-                ship_override:
-                    shields: 1
-                    actions: [
-                        "Focus"
-                        "Evade"
-                        "Barrel Roll"
-                        "R-> Evade"
-                        "R-Coordinate"
-                    ]
-                    upgrades: [
-                        "Ruthless"
-                        "Swarm Tactics"
-                        "No Escape (BoE)"
-                    ]
-            }
-            {
-                name: "Scythe 6 (BoE)"
-                xwsaddon: "battleoverendor"
-                unique: true
-                id: 671
-                xws_name: "scythe6-battleoverendor"
-                faction: "Galactic Empire"
-                ship: "TIE/ln Fighter"
-                skill: 2
-                points: 3
-                pointsxwa: 9
-                chassis: "Formed Up"
-                ship_override:
-                    hull: 4
-                    actions: [
-                        "Focus"
-                        "Evade"
-                        "Barrel Roll"
-                        "R-> Evade"
-                    ]
-                    upgrades: [
-                        "No Escape (BoE)"
-                        "Predator"
-                        "Ion Maneuvering Jet (BoE)"
-                        "Targeting Matrix (BoE)"
-                    ]
-            }
-            {
-                name: "Scimitar 1 (BoE)"
-                xwsaddon: "battleoverendor"
-                unique: true
-                id: 672
-                xws_name: "scimitar1-battleoverendor"
-                faction: "Galactic Empire"
-                ship: "TIE/sa Bomber"
-                skill: 3
-                points: 4
-                pointsxwa: 12
-                charge: 2
                 upgrades: [
-                    "Marksmanship"
-                    "No Escape (BoE)"
+                    "It's A Trap! (BoE)"
+                    "Juke"
                     "Proton Torpedoes"
                     "Ion Bombs"
                 ]
-            }
-            {
-                name: "Scimitar 3 (BoE)"
-                xwsaddon: "battleoverendor"
-                unique: true
-                id: 673
-                xws_name: "scimitar3-battleoverendor"
-                faction: "Galactic Empire"
-                ship: "TIE/sa Bomber"
-                skill: 4
-                points: 4
-                pointsxwa: 10
-                charge: 2
+        }
+        {
+            name: "Kendy Idele (BoE)"
+            xwsaddon: "battleoverendor"
+            unique: true
+            id: 660
+            xws_name: "kendyidele-battleoverendor"
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            skill: 4
+            points: 4
+            pointsxwa: 10
+            chassis: "Locked S-Foils"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "R-> Boost"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Focus"
+                    "Boost"
+                ]
+                upgrades: [
+                    "It's A Trap! (BoE)"
+                    "Ion Missiles"
+                    "Modified R4-P unit (BoE)"
+                    "Chaff Particles (BoE)"
+                ]
+        }
+        {
+            name: "Wedge Antilles (BoE)"
+            xwsaddon: "battleoverendor"
+            unique: true
+            id: 661
+            xws_name: "wedgeantilles-battleoverendor"
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            skill: 6
+            points: 5
+            pointsxwa: 16
+            chassis: "Locked S-Foils"
+            ship_override:
+                shields: 3
+                actions: [
+                    "Focus"
+                    "R-> Boost"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Focus"
+                    "Boost"
+                ]
+                upgrades: [
+                    "It's A Trap! (BoE)"
+                    "Predator"
+                    "Adv. Proton Torpedoes"
+                    "R2-A3 (BoE)"
+                ]
+        }
+        {
+            name: "Yendor (BoE)"
+            xwsaddon: "battleoverendor"
+            unique: true
+            id: 662
+            xws_name: "yendor-battleoverendor"
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            skill: 5
+            points: 5
+            pointsxwa: 12
+            chassis: "Locked S-Foils"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "R-> Boost"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Focus"
+                    "Boost"
+                ]
+                upgrades: [
+                    "It's A Trap! (BoE)"
+                    "Plasma Torpedoes"
+                    "Stabilizing Astromech (BoE)"
+                ]
+        }
+        {
+            name: "Lando Calrissian (BoE)"
+            xwsaddon: "battleoverendor"
+            unique: true
+            id: 663
+            xws_name: "landocalrissian-battleoverendor"
+            faction: "Rebel Alliance"
+            ship: "Modified YT-1300 Light Freighter"
+            skill: 5
+            points: 7
+            pointsxwa: 18
+            charge: 2
+            chassis: "High Stakes"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "Evade"
+                    "R-Boost"
+                    "Rotate Arc"
+                    "R-Coordinate"
+                    "R-> Focus"
+                ]
+                upgrades: [
+                    "Ace In The Hole (BoE)"
+                    "It's A Trap! (BoE)"
+                    "Nien Nunb"
+                    "Airen Cracken (BoE)"
+                    "Millennium Falcon (BoE)"
+                ]
+        }
+        {
+            name: "Captain Yorr (BoE)"
+            xwsaddon: "battleoverendor"
+            id: 664
+            xws_name: "captainyorr-battleoverendor"
+            unique: true
+            faction: "Galactic Empire"
+            ship: "TIE/d Defender"
+            skill: 4
+            charge: 2
+            points: 6
+            pointsxwa: 17
+            chassis: "Chiss Engineering"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "Barrel Roll"
+                    "Boost"
+                ]
                 upgrades: [
                     "No Escape (BoE)"
-                    "Parting Gift (BoE)"
-                    "Proton Torpedoes"
-                    "Proton Bombs"
+                    "Predator"
+                    "Ion Cannon"
+                    "Computer-Assisted Handling (BoE)"
                 ]
-            }
-            {
-                name: "Lieutenant Karsabi (SSL)"
-                xwsaddon: "ssl"
-                unique: true
-                id: 674
-                xws_name: "lieutenantkarsabi-alphaclassstarwing"
-                faction: "Galactic Empire"
-                ship: "Alpha-Class Star Wing"
-                chassis: "Prioritized Weapons Systems"
-                skill: 3
-                points: 5
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Lock"
-                        "Slam"
-                        "R-> Lock"
-                        "Slam"
-                        "R-> Reload"
-                        "Reload"
-                    ]
-                    upgrades: [
-                        "Proton Torpedoes"
-                        "Saturation Rockets (SL)"
-                        "Electronic Baffle"
-                    ]
-            }
-            {
-                name: "Major Vynder (SSL)"
-                xwsaddon: "ssl"
-                unique: true
-                id: 675
-                xws_name: "majorvynder-alphaclassstarwing"
-                faction: "Galactic Empire"
-                ship: "Alpha-Class Star Wing"
-                chassis: "Prioritized Weapons Systems"
-                skill: 4
-                points: 5
-                pointsxwa: 6
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Lock"
-                        "Slam"
-                        "R-> Lock"
-                        "Slam"
-                        "R-> Reload"
-                        "Reload"
-                    ]
-                    upgrades: [
-                        "Long-Range Scanners (SL)"
-                        "Ion Cannon"
-                        "Heavy Plasma Missiles (SL)"
-                    ]
-            }
-            {
-                name: '"Echo" (SSL)'
-                xwsaddon: "ssl"
-                unique: true
-                id: 676
-                faction: "Galactic Empire"
-                ship: "TIE/ph Phantom"
-                skill: 4
-                points: 5
-                pointsxwa: 6
-                charge: 1
-                recurring: 1
-                upgrades: [
-                    "Silent Hunter (SL)"
-                    "Stealth Gambit (SL)"
-                    "Manual Ailerons (SL)"
+        }
+        {
+            name: "Colonel Jendon (BoE)"
+            xwsaddon: "battleoverendor"
+            id: 665
+            xws_name: "coloneljendon-battleoverendor"
+            unique: true
+            faction: "Galactic Empire"
+            ship: "TIE/d Defender"
+            skill: 6
+            points: 7
+            pointsxwa: 19
+            chassis: "Chiss Engineering"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "Barrel Roll"
+                    "Boost"
                 ]
-            }
-            {
-                name: '"Whisper" (SSL)'
-                xwsaddon: "ssl"
-                unique: true
-                id: 677
-                faction: "Galactic Empire"
-                ship: "TIE/ph Phantom"
-                skill: 5
-                points: 5
-                pointsxwa: 6
-                charge: 2
                 upgrades: [
-                    "Without A Trace (SL)"
-                    "Relay System (SL)"
-                    "Stygium Reserve (SL)"
+                    "No Escape (BoE)"
+                    "Push The Limit (BoE)"
+                    "Proton Cannons"
+                    "Computer-Assisted Handling (BoE)"
                 ]
-            }
-            {
-                name: "Raymus Antilles"
-                xwsaddon: "epicsl-rebelalliance"
-                unique: true
-                id: 678
-                xws_name: "raymusantilles"
-                faction: "Rebel Alliance"
-                ship: "CR90 Corellian Corvette"
-                skill: 8
-                engagement: 0
-                points: 12
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Reinforce"
-                        "R-> Focus"
-                        "Lock"
-                        "R-Coordinate"
-                        "Jam"
-                        "Rotate Arc"
-                    ]
-                    upgrades: [
-                        "Leia Organa (Epic)"
-                        "R2-D2 (Epic)"
-                        "C-3PO (Epic)"
-                        "Turbolaser Battery"
-                        "Tantive IV"
-                    ]
-            }
-            {
-                name: "Raymus Antilles (Republic)"
-                xwsaddon: "epicsl-galacticrepublic"
-                unique: true
-                id: 679
-                xws_name: "raymusantilles-cr90corelliancorvette"
-                faction: "Galactic Republic"
-                ship: "CR90 Corellian Corvette"
-                skill: 8
-                engagement: 0
-                points: 12
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Reinforce"
-                        "R-> Focus"
-                        "Lock"
-                        "R-Coordinate"
-                        "Jam"
-                        "Rotate Arc"
-                    ]
-                    upgrades: [
-                        "Born for This (Epic)"
-                        "Bail Organa (Epic)"
-                        "Secret Provisions (Epic)"
-                        "Turbolaser Battery"
-                        "Tantive IV (Republic)"
-                    ]
-            }
-            {
-                name: "Leia Organa (CR90)"
-                xwsaddon: "epicsl"
-                unique: true
-                id: 680
-                xws_name: "leiaorgana-cr90corelliancorvette"
-                faction: "Resistance"
-                ship: "CR90 Corellian Corvette"
-                skill: 8
-                engagement: 0
-                points: 12
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Reinforce"
-                        "R-> Focus"
-                        "Lock"
-                        "R-Coordinate"
-                        "Jam"
-                        "Rotate Arc"
-                    ]
-                    upgrades: [
-                        "Nien Nunb (Epic)"
-                        "Urcos Furdam (Epic)"
-                        "Tibanna Reserves"
-                        "Turbolaser Battery"
-                        "Tantive IV (Resistance)"
-                    ]
-            }
-            {
-                name: "Iden Versio (Raider)"
-                xwsaddon: "epicsl"
-                unique: true
-                id: 681
-                xws_name: "idenversio-raiderclasscorvette"
-                faction: "Galactic Empire"
-                ship: "Raider-class Corvette"
-                skill: 8
-                engagement: 0
-                points: 13
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Reinforce"
-                        "R-> Focus"
-                        "Lock"
-                        "Coordinate"
-                        "Jam"
-                        "Rotate Arc"
-                    ]
-                    upgrades: [
-                        "Ruthless"
-                        "Fanatical (Epic)"
-                        "Inferno Squad (Epic)"
-                        "Twin Missile Launcher (Epic)"
-                        "Corvus (Epic)"
-                    ]
-            }
-            {
-                name: "Gideon Hask (Raider)"
-                xwsaddon: "epicsl"
-                unique: true
-                id: 682
-                xws_name: "gideonhask-raiderclasscorvette"
-                faction: "First Order"
-                ship: "Raider-class Corvette"
-                skill: 8
-                engagement: 0
-                points: 13
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Reinforce"
-                        "R-> Focus"
-                        "Lock"
-                        "Coordinate"
-                        "Jam"
-                        "Rotate Arc"
-                    ]
-                    upgrades: [
-                        "Agent Terex (Epic)"
-                        "Protectorate Gleb (Epic)"
-                        "Jinata Security Forces (Epic)"
-                        "Twin Missile Launcher (Epic)"
-                        "Precursor (Epic)"
-                    ]
-            }
-            {
-                name: "Aut-0"
-                xwsaddon: "epicsl"
-                unique: true
-                id: 683
-                xws_name: "aut0"
-                faction: "Separatist Alliance"
-                ship: "Gozanti-class Cruiser"
-                skill: 7
-                engagement: 1
-                points: 8
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Reinforce"
-                        "R-> Coordinate"
-                        "Lock"
-                        "Coordinate"
-                        "Jam"
-                    ]
-                    upgrades: [
-                        "TX-25 (Epic)"
-                        "Endless Hordes (Epic)"
-                        "Alpha Revue (Epic)"
-                    ]
-            }
-            {
-                name: "Cerra Fellian"
-                xwsaddon: "epicsl"
-                unique: true
-                id: 684
-                xws_name: "cerrafellian"
-                faction: "First Order"
-                ship: "Gozanti-class Cruiser"
-                skill: 7
-                engagement: 1
-                points: 8
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Reinforce"
-                        "R-> Coordinate"
-                        "Lock"
-                        "Coordinate"
-                        "Jam"
-                        "Rotate Arc"
-                    ]
-                    upgrades: [
-                        "Petty Officer Thanisson (Epic)"
-                        "Ion Cannon Battery"
-                        "Malefactor (Epic)"
-                    ]
-            }
-            {
-                name: "Rik Virgilio"
-                xwsaddon: "epicsl"
-                unique: true
-                id: 685
-                xws_name: "rikvirgilio"
-                faction: "Galactic Empire"
-                ship: "Gozanti-class Cruiser"
-                skill: 7
-                engagement: 1
-                points: 8
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Reinforce"
-                        "R-> Coordinate"
-                        "Lock"
-                        "Coordinate"
-                        "Jam"
-                        "Rotate Arc"
-                    ]
-                    upgrades: [
-                        "Thrawn (Epic)"
-                        "Heavy Laser Cannon Turret (Epic)"
-                        "Blood Crow (Epic)"
-                    ]
-            }
-            {
-                name: "Wez Synat"
-                xwsaddon: "epicsl"
-                unique: true
-                id: 686
-                xws_name: "wezsynat"
-                faction: "Galactic Republic"
-                ship: "Gozanti-class Cruiser"
-                skill: 7
-                engagement: 1
-                points: 8
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Reinforce"
-                        "R-> Coordinate"
-                        "Lock"
-                        "Coordinate"
-                        "Jam"
-                        "Rotate Arc"
-                    ]
-                    upgrades: [
-                        "Clone Commander Cody"
-                        "Point Defense Battery (Epic)"
-                        "Spectre of Nayr (Epic)"
-                    ]
-            }
-            {
-                name: "Oraf Desyk"
-                xwsaddon: "epicsl"
-                unique: true
-                id: 687
-                xws_name: "orafdesyk"
-                faction: "Resistance"
-                ship: "GR-75 Medium Transport"
-                skill: 7
-                engagement: 1
-                points: 8
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Reinforce"
-                        "R-> Coordinate"
-                        "R-Lock"
-                        "Coordinate"
-                        "Jam"
-                    ]
-                    upgrades: [
-                        "GA-75 (Epic)"
-                        "Adaptive Shields"
-                        "Hosnian Lament (Epic)"
-                    ]
-            }
-            {
-                name: "Trebor Zednem"
-                xwsaddon: "epicsl"
-                unique: true
-                id: 688
-                xws_name: "treborzednem"
-                faction: "Rebel Alliance"
-                ship: "GR-75 Medium Transport"
-                skill: 7
-                engagement: 1
-                points: 8
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Reinforce"
-                        "R-> Coordinate"
-                        "R-Lock"
-                        "Coordinate"
-                        "Jam"
-                    ]
-                    upgrades: [
-                        "Toryn Farr"
-                        "Planetary Ion Bombardment (Epic)"
-                        "Bright Hope"
-                    ]
-            }
-            {
-                name: "Cikatro Vizago"
-                xwsaddon: "epicsl"
-                unique: true
-                id: 689
-                xws_name: "cikatrovizago"
-                faction: "Scum and Villainy"
-                ship: "C-ROC Cruiser"
-                skill: 7
-                engagement: 1
-                points: 8
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Reinforce"
-                        "R-> Jam"
-                        "Lock"
-                        "R-Coordinate"
-                        "Jam"
-                        "Rotate Arc"
-                    ]
-                    upgrades: [
-                        "Azmorigan (Epic)"
-                        "Illegal Countermeasures (Epic)"
-                        "Modified Dorsal Turret (Epic)"
-                        "Broken Horn"
-                    ]
-            }
-            {
-                name: "Asajj Ventress (Trident)"
-                xwsaddon: "epicsl"
-                unique: true
-                id: 690
-                xws_name: "asajjventress-tridentclassassaultship"
-                faction: "Separatist Alliance"
-                ship: "Trident-class Assault Ship"
-                skill: 8
-                engagement: 1
-                points: 8
-                force: 1
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "R-Evade"
-                        "Reinforce"
-                        "Lock"
-                        "R-Coordinate"
-                    ]
-                    upgrades: [
-                        "AQ-Series Battle Droids (Epic)"
-                        "Tractor Tentacles"
-                        "Drill Beak (Epic)"
-                        "Trident (Epic)"
-                    ]
-            }
-            {
-                name: "Sorc Tormo"
-                xwsaddon: "epicsl"
-                unique: true
-                id: 691
-                xws_name: "sorctormo"
-                faction: "Scum and Villainy"
-                ship: "Trident-class Assault Ship"
-                skill: 8
-                engagement: 1
-                points: 8
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "R-Evade"
-                        "Reinforce"
-                        "Lock"
-                        "R-Coordinate"
-                    ]
-                    upgrades: [
-                        "Caij Vanda (Epic)"
-                        "Tractor Tentacles"
-                        "Drill Beak (Epic)"
-                        "Nautolan's Revenge (Epic)"
-                    ]
-            }
-            {
-                name: "Kylo Ren (EoD)"
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 692
-                xws_name: "kyloren-evacuationofdqar"
-                faction: "First Order"
-                ship: "TIE/vn Silencer"
-                skill: 5
-                points: 7
-                pointsxwa: 18
-                force: 3
-                upgrades: [
-                    "Determination (EoD)"
-                    "Malice"
-                    "Proton Torpedoes"
+        }
+        {
+            name: "Maus Monare (BoE)"
+            xwsaddon: "battleoverendor"
+            unique: true
+            id: 666
+            xws_name: "mausmonare-battleoverendor"
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            skill: 3
+            points: 5
+            pointsxwa: 10
+            chassis: "Sensitive Controls"
+            upgrades: [
+                "No Escape (BoE)"
+                "Outmaneuver"
+                "Fuel Injection Override (BoE)"
+            ]
+            ship_override:
+                shields: 1
+        }
+        {
+            name: "Sapphire 2 (BoE)"
+            xwsaddon: "battleoverendor"
+            unique: true
+            id: 667
+            xws_name: "sapphire2-battleoverendor"
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            skill: 1
+            points: 4
+            pointsxwa: 10
+            chassis: "Sensitive Controls"
+            upgrades: [
+                "No Escape (BoE)"
+                "Reckless (BoE)"
+                "Targeting Matrix (BoE)"
+                "Primed Thrusters"
+            ]
+        }
+        {
+            name: "Soontir Fel (BoE)"
+            xwsaddon: "battleoverendor"
+            unique: true
+            id: 668
+            xws_name: "soontirfel-battleoverendor"
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            skill: 6
+            charge: 2
+            points: 5
+            pointsxwa: 13
+            chassis: "Sensitive Controls"
+            upgrades: [
+                "Apex Predator (BoE)"
+                "No Escape (BoE)"
+                "Blank Signature (BoE)"
+                "Feedback Emitter (BoE)"
+            ]
+        }
+        {
+            name: "Lieutenant Hebsly (BoE)"
+            xwsaddon: "battleoverendor"
+            unique: true
+            id: 669
+            xws_name: "lieutenanthebsly-battleoverendor"
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            skill: 3
+            points: 3
+            pointsxwa: 8
+            chassis: "Formed Up"
+            ship_override:
+                hull: 4
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Barrel Roll"
+                    "R-> Evade"
+                    "R-Boost"
                 ]
-            }
-            {
-                name: '"Scorch" (EoD)'
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 693
-                faction: "First Order"
-                ship: "TIE/fo Fighter"
-                skill: 4
-                points: 4
-                chassis: "Merciless"
                 upgrades: [
-                    "Determination (EoD)"
-                    "Fanatical"
-                    "Threat Sensors (EoD)"
+                    "Collected (BoE)"
+                    "Elusive"
+                    "No Escape (BoE)"
                 ]
-            }
-            {
-                name: '"Longshot" (EoD)'
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 694
-                faction: "First Order"
-                ship: "TIE/fo Fighter"
-                skill: 3
-                points: 3
-                chassis: "Merciless"
-                upgrades: [
-                    "Determination (EoD)"
-                    "Fanatical"
-                    "Experimental Scanners (EoD)"
+        }
+        {
+            name: "Major Mianda (BoE)"
+            xwsaddon: "battleoverendor"
+            unique: true
+            id: 670
+            xws_name: "majormianda-battleoverendor"
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            skill: 5
+            points: 4
+            pointsxwa: 10
+            chassis: "Formed Up"
+            ship_override:
+                shields: 1
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Barrel Roll"
+                    "R-> Evade"
+                    "R-Coordinate"
                 ]
-            }
-            {
-                name: '"Midnight" (EoD)'
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 695
-                faction: "First Order"
-                ship: "TIE/fo Fighter"
-                skill: 6
-                points: 4
-                chassis: "Merciless"
                 upgrades: [
-                    "Determination (EoD)"
-                    "Targeting Synchronizer"
-                    "Advanced Warning Systems (EoD)"
+                    "Ruthless"
+                    "Swarm Tactics"
+                    "No Escape (BoE)"
                 ]
-            }
-            {
-                name: "Zeta 5 (EoD)"
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 696
-                xws_name: "zeta5-evacuationofdqar"
-                faction: "First Order"
-                ship: "TIE/fo Fighter"
-                skill: 2
-                points: 3
-                pointsxwa: 8
-                chassis: "Merciless"
+        }
+        {
+            name: "Scythe 6 (BoE)"
+            xwsaddon: "battleoverendor"
+            unique: true
+            id: 671
+            xws_name: "scythe6-battleoverendor"
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            skill: 2
+            points: 3
+            pointsxwa: 9
+            chassis: "Formed Up"
+            ship_override:
+                hull: 4
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Barrel Roll"
+                    "R-> Evade"
+                ]
                 upgrades: [
-                    "Determination (EoD)"
-                    "Pattern Analyzer"
+                    "No Escape (BoE)"
+                    "Predator"
+                    "Ion Maneuvering Jet (BoE)"
                     "Targeting Matrix (BoE)"
                 ]
-            }
-            {
-                name: "Omega 2 (EoD)"
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 697
-                xws_name: "omega2-evacuationofdqar"
-                faction: "First Order"
-                ship: "TIE/fo Fighter"
-                skill: 3
-                points: 3
-                pointsxwa: 7
-                chassis: "Merciless"
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Evade"
-                        "Lock"
-                        "Barrel Roll"
-                        "R-> Evade"
-                    ]
-                    upgrades: [
-                        "Determination (EoD)"
-                        "Targeting Relay (EoD)"
-                    ]
-            }
-            {
-                name: "Lieutenant LeHuse (EoD)"
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 698
-                xws_name: "lieutenantlehuse-evacuationofdqar"
-                faction: "First Order"
-                ship: "TIE/sf Fighter"
-                skill: 5
-                points: 4
-                pointsxwa: 11
+        }
+        {
+            name: "Scimitar 1 (BoE)"
+            xwsaddon: "battleoverendor"
+            unique: true
+            id: 672
+            xws_name: "scimitar1-battleoverendor"
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            skill: 3
+            points: 4
+            pointsxwa: 12
+            charge: 2
+            upgrades: [
+                "Marksmanship"
+                "No Escape (BoE)"
+                "Proton Torpedoes"
+                "Ion Bombs"
+            ]
+        }
+        {
+            name: "Scimitar 3 (BoE)"
+            xwsaddon: "battleoverendor"
+            unique: true
+            id: 673
+            xws_name: "scimitar3-battleoverendor"
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            skill: 4
+            points: 4
+            pointsxwa: 10
+            charge: 2
+            upgrades: [
+                "No Escape (BoE)"
+                "Parting Gift (BoE)"
+                "Proton Torpedoes"
+                "Proton Bombs"
+            ]
+        }
+        {
+            name: "Lieutenant Karsabi (SSL)"
+            xwsaddon: "ssl"
+            unique: true
+            id: 674
+            xws_name: "lieutenantkarsabi-alphaclassstarwing"
+            faction: "Galactic Empire"
+            ship: "Alpha-Class Star Wing"
+            chassis: "Prioritized Weapons Systems"
+            skill: 3
+            points: 5
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "Slam"
+                    "R-> Lock"
+                    "Slam"
+                    "R-> Reload"
+                    "Reload"
+                ]
+                upgrades: [
+                    "Proton Torpedoes"
+                    "Saturation Rockets (SL)"
+                    "Electronic Baffle"
+                ]
+        }
+        {
+            name: "Major Vynder (SSL)"
+            xwsaddon: "ssl"
+            unique: true
+            id: 675
+            xws_name: "majorvynder-alphaclassstarwing"
+            faction: "Galactic Empire"
+            ship: "Alpha-Class Star Wing"
+            chassis: "Prioritized Weapons Systems"
+            skill: 4
+            points: 5
+            pointsxwa: 6
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "Slam"
+                    "R-> Lock"
+                    "Slam"
+                    "R-> Reload"
+                    "Reload"
+                ]
+                upgrades: [
+                    "Long-Range Scanners (SL)"
+                    "Ion Cannon"
+                    "Heavy Plasma Missiles (SL)"
+                ]
+        }
+        {
+            name: '"Echo" (SSL)'
+            xwsaddon: "ssl"
+            unique: true
+            id: 676
+            faction: "Galactic Empire"
+            ship: "TIE/ph Phantom"
+            skill: 4
+            points: 5
+            pointsxwa: 6
+            charge: 1
+            recurring: 1
+            upgrades: [
+                "Silent Hunter (SL)"
+                "Stealth Gambit (SL)"
+                "Manual Ailerons (SL)"
+            ]
+        }
+        {
+            name: '"Whisper" (SSL)'
+            xwsaddon: "ssl"
+            unique: true
+            id: 677
+            faction: "Galactic Empire"
+            ship: "TIE/ph Phantom"
+            skill: 5
+            points: 5
+            pointsxwa: 6
+            charge: 2
+            upgrades: [
+                "Without A Trace (SL)"
+                "Relay System (SL)"
+                "Stygium Reserve (SL)"
+            ]
+        }
+        {
+            name: "Raymus Antilles"
+            xwsaddon: "epicsl-rebelalliance"
+            unique: true
+            id: 678
+            xws_name: "raymusantilles"
+            faction: "Rebel Alliance"
+            ship: "CR90 Corellian Corvette"
+            skill: 8
+            engagement: 0
+            points: 12
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Reinforce"
+                    "R-> Focus"
+                    "Lock"
+                    "R-Coordinate"
+                    "Jam"
+                    "Rotate Arc"
+                ]
+                upgrades: [
+                    "Leia Organa (Epic)"
+                    "R2-D2 (Epic)"
+                    "C-3PO (Epic)"
+                    "Turbolaser Battery"
+                    "Tantive IV"
+                ]
+        }
+        {
+            name: "Raymus Antilles (Republic)"
+            xwsaddon: "epicsl-galacticrepublic"
+            unique: true
+            id: 679
+            xws_name: "raymusantilles-cr90corelliancorvette"
+            faction: "Galactic Republic"
+            ship: "CR90 Corellian Corvette"
+            skill: 8
+            engagement: 0
+            points: 12
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Reinforce"
+                    "R-> Focus"
+                    "Lock"
+                    "R-Coordinate"
+                    "Jam"
+                    "Rotate Arc"
+                ]
+                upgrades: [
+                    "Born for This (Epic)"
+                    "Bail Organa (Epic)"
+                    "Secret Provisions (Epic)"
+                    "Turbolaser Battery"
+                    "Tantive IV (Republic)"
+                ]
+        }
+        {
+            name: "Leia Organa (CR90)"
+            xwsaddon: "epicsl"
+            unique: true
+            id: 680
+            xws_name: "leiaorgana-cr90corelliancorvette"
+            faction: "Resistance"
+            ship: "CR90 Corellian Corvette"
+            skill: 8
+            engagement: 0
+            points: 12
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Reinforce"
+                    "R-> Focus"
+                    "Lock"
+                    "R-Coordinate"
+                    "Jam"
+                    "Rotate Arc"
+                ]
+                upgrades: [
+                    "Nien Nunb (Epic)"
+                    "Urcos Furdam (Epic)"
+                    "Tibanna Reserves"
+                    "Turbolaser Battery"
+                    "Tantive IV (Resistance)"
+                ]
+        }
+        {
+            name: "Iden Versio (Raider)"
+            xwsaddon: "epicsl"
+            unique: true
+            id: 681
+            xws_name: "idenversio-raiderclasscorvette"
+            faction: "Galactic Empire"
+            ship: "Raider-class Corvette"
+            skill: 8
+            engagement: 0
+            points: 13
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Reinforce"
+                    "R-> Focus"
+                    "Lock"
+                    "Coordinate"
+                    "Jam"
+                    "Rotate Arc"
+                ]
+                upgrades: [
+                    "Ruthless"
+                    "Fanatical (Epic)"
+                    "Inferno Squad (Epic)"
+                    "Twin Missile Launcher (Epic)"
+                    "Corvus (Epic)"
+                ]
+        }
+        {
+            name: "Gideon Hask (Raider)"
+            xwsaddon: "epicsl"
+            unique: true
+            id: 682
+            xws_name: "gideonhask-raiderclasscorvette"
+            faction: "First Order"
+            ship: "Raider-class Corvette"
+            skill: 8
+            engagement: 0
+            points: 13
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Reinforce"
+                    "R-> Focus"
+                    "Lock"
+                    "Coordinate"
+                    "Jam"
+                    "Rotate Arc"
+                ]
+                upgrades: [
+                    "Agent Terex (Epic)"
+                    "Protectorate Gleb (Epic)"
+                    "Jinata Security Forces (Epic)"
+                    "Twin Missile Launcher (Epic)"
+                    "Precursor (Epic)"
+                ]
+        }
+        {
+            name: "Aut-0"
+            xwsaddon: "epicsl"
+            unique: true
+            id: 683
+            xws_name: "aut0"
+            faction: "Separatist Alliance"
+            ship: "Gozanti-class Cruiser"
+            skill: 7
+            engagement: 1
+            points: 8
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Reinforce"
+                    "R-> Coordinate"
+                    "Lock"
+                    "Coordinate"
+                    "Jam"
+                ]
+                upgrades: [
+                    "TX-25 (Epic)"
+                    "Endless Hordes (Epic)"
+                    "Alpha Revue (Epic)"
+                ]
+        }
+        {
+            name: "Cerra Fellian"
+            xwsaddon: "epicsl"
+            unique: true
+            id: 684
+            xws_name: "cerrafellian"
+            faction: "First Order"
+            ship: "Gozanti-class Cruiser"
+            skill: 7
+            engagement: 1
+            points: 8
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Reinforce"
+                    "R-> Coordinate"
+                    "Lock"
+                    "Coordinate"
+                    "Jam"
+                    "Rotate Arc"
+                ]
+                upgrades: [
+                    "Petty Officer Thanisson (Epic)"
+                    "Ion Cannon Battery"
+                    "Malefactor (Epic)"
+                ]
+        }
+        {
+            name: "Rik Virgilio"
+            xwsaddon: "epicsl"
+            unique: true
+            id: 685
+            xws_name: "rikvirgilio"
+            faction: "Galactic Empire"
+            ship: "Gozanti-class Cruiser"
+            skill: 7
+            engagement: 1
+            points: 8
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Reinforce"
+                    "R-> Coordinate"
+                    "Lock"
+                    "Coordinate"
+                    "Jam"
+                    "Rotate Arc"
+                ]
+                upgrades: [
+                    "Thrawn (Epic)"
+                    "Heavy Laser Cannon Turret (Epic)"
+                    "Blood Crow (Epic)"
+                ]
+        }
+        {
+            name: "Wez Synat"
+            xwsaddon: "epicsl"
+            unique: true
+            id: 686
+            xws_name: "wezsynat"
+            faction: "Galactic Republic"
+            ship: "Gozanti-class Cruiser"
+            skill: 7
+            engagement: 1
+            points: 8
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Reinforce"
+                    "R-> Coordinate"
+                    "Lock"
+                    "Coordinate"
+                    "Jam"
+                    "Rotate Arc"
+                ]
+                upgrades: [
+                    "Clone Commander Cody"
+                    "Point Defense Battery (Epic)"
+                    "Spectre of Nayr (Epic)"
+                ]
+        }
+        {
+            name: "Oraf Desyk"
+            xwsaddon: "epicsl"
+            unique: true
+            id: 687
+            xws_name: "orafdesyk"
+            faction: "Resistance"
+            ship: "GR-75 Medium Transport"
+            skill: 7
+            engagement: 1
+            points: 8
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Reinforce"
+                    "R-> Coordinate"
+                    "R-Lock"
+                    "Coordinate"
+                    "Jam"
+                ]
+                upgrades: [
+                    "GA-75 (Epic)"
+                    "Adaptive Shields"
+                    "Hosnian Lament (Epic)"
+                ]
+        }
+        {
+            name: "Trebor Zednem"
+            xwsaddon: "epicsl"
+            unique: true
+            id: 688
+            xws_name: "treborzednem"
+            faction: "Rebel Alliance"
+            ship: "GR-75 Medium Transport"
+            skill: 7
+            engagement: 1
+            points: 8
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Reinforce"
+                    "R-> Coordinate"
+                    "R-Lock"
+                    "Coordinate"
+                    "Jam"
+                ]
+                upgrades: [
+                    "Toryn Farr"
+                    "Planetary Ion Bombardment (Epic)"
+                    "Bright Hope"
+                ]
+        }
+        {
+            name: "Cikatro Vizago"
+            xwsaddon: "epicsl"
+            unique: true
+            id: 689
+            xws_name: "cikatrovizago"
+            faction: "Scum and Villainy"
+            ship: "C-ROC Cruiser"
+            skill: 7
+            engagement: 1
+            points: 8
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Reinforce"
+                    "R-> Jam"
+                    "Lock"
+                    "R-Coordinate"
+                    "Jam"
+                    "Rotate Arc"
+                ]
+                upgrades: [
+                    "Azmorigan (Epic)"
+                    "Illegal Countermeasures (Epic)"
+                    "Modified Dorsal Turret (Epic)"
+                    "Broken Horn"
+                ]
+        }
+        {
+            name: "Asajj Ventress (Trident)"
+            xwsaddon: "epicsl"
+            unique: true
+            id: 690
+            xws_name: "asajjventress-tridentclassassaultship"
+            faction: "Separatist Alliance"
+            ship: "Trident-class Assault Ship"
+            skill: 8
+            engagement: 1
+            points: 8
+            force: 1
+            ship_override:
+                actions: [
+                    "Focus"
+                    "R-Evade"
+                    "Reinforce"
+                    "Lock"
+                    "R-Coordinate"
+                ]
+                upgrades: [
+                    "AQ-Series Battle Droids (Epic)"
+                    "Tractor Tentacles"
+                    "Drill Beak (Epic)"
+                    "Trident (Epic)"
+                ]
+        }
+        {
+            name: "Sorc Tormo"
+            xwsaddon: "epicsl"
+            unique: true
+            id: 691
+            xws_name: "sorctormo"
+            faction: "Scum and Villainy"
+            ship: "Trident-class Assault Ship"
+            skill: 8
+            engagement: 1
+            points: 8
+            ship_override:
+                actions: [
+                    "Focus"
+                    "R-Evade"
+                    "Reinforce"
+                    "Lock"
+                    "R-Coordinate"
+                ]
+                upgrades: [
+                    "Caij Vanda (Epic)"
+                    "Tractor Tentacles"
+                    "Drill Beak (Epic)"
+                    "Nautolan's Revenge (Epic)"
+                ]
+        }
+        {
+            name: "Kylo Ren (EoD)"
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 692
+            xws_name: "kyloren-evacuationofdqar"
+            faction: "First Order"
+            ship: "TIE/vn Silencer"
+            skill: 5
+            points: 7
+            pointsxwa: 18
+            force: 3
+            upgrades: [
+                "Determination (EoD)"
+                "Malice"
+                "Proton Torpedoes"
+            ]
+        }
+        {
+            name: '"Scorch" (EoD)'
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 693
+            faction: "First Order"
+            ship: "TIE/fo Fighter"
+            skill: 4
+            points: 4
+            chassis: "Merciless"
+            upgrades: [
+                "Determination (EoD)"
+                "Fanatical"
+                "Threat Sensors (EoD)"
+            ]
+        }
+        {
+            name: '"Longshot" (EoD)'
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 694
+            faction: "First Order"
+            ship: "TIE/fo Fighter"
+            skill: 3
+            points: 3
+            chassis: "Merciless"
+            upgrades: [
+                "Determination (EoD)"
+                "Fanatical"
+                "Experimental Scanners (EoD)"
+            ]
+        }
+        {
+            name: '"Midnight" (EoD)'
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 695
+            faction: "First Order"
+            ship: "TIE/fo Fighter"
+            skill: 6
+            points: 4
+            chassis: "Merciless"
+            upgrades: [
+                "Determination (EoD)"
+                "Targeting Synchronizer"
+                "Advanced Warning Systems (EoD)"
+            ]
+        }
+        {
+            name: "Zeta 5 (EoD)"
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 696
+            xws_name: "zeta5-evacuationofdqar"
+            faction: "First Order"
+            ship: "TIE/fo Fighter"
+            skill: 2
+            points: 3
+            pointsxwa: 8
+            chassis: "Merciless"
+            upgrades: [
+                "Determination (EoD)"
+                "Pattern Analyzer"
+                "Targeting Matrix (BoE)"
+            ]
+        }
+        {
+            name: "Omega 2 (EoD)"
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 697
+            xws_name: "omega2-evacuationofdqar"
+            faction: "First Order"
+            ship: "TIE/fo Fighter"
+            skill: 3
+            points: 3
+            pointsxwa: 7
+            chassis: "Merciless"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Evade"
+                ]
+                upgrades: [
+                    "Determination (EoD)"
+                    "Targeting Relay (EoD)"
+                ]
+        }
+        {
+            name: "Lieutenant LeHuse (EoD)"
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 698
+            xws_name: "lieutenantlehuse-evacuationofdqar"
+            faction: "First Order"
+            ship: "TIE/sf Fighter"
+            skill: 5
+            points: 4
+            pointsxwa: 11
+            chassis: "Heavy Weapon Turret (EoD)"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Lock"
+                    "Barrel Roll"
+                    "Reload"
+                    "> Lock"
+                ]
+                upgrades: [
+                    "Determination (EoD)"
+                    "Concussion Missiles"
+                    "First Order Ordnance Tech (EoD)"
+                ]
+        }
+        {
+            name: "Theta 3 (EoD)"
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 699
+            xws_name: "theta3-evacuationofdqar"
+            faction: "First Order"
+            ship: "TIE/sf Fighter"
+            skill: 3
+            points: 4
+            pointsxwa: 11
+            charge: 2
+            chassis: "Heavy Weapon Turret (EoD)"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Lock"
+                    "Barrel Roll"
+                    "Reload"
+                    "> Lock"
+                ]
+                upgrades: [
+                    "Seeker Missiles (YLF)"
+                    "Passive Sensors"
+                    "First Order Ordnance Tech (EoD)"
+                ]
+        }
+        {
+            name: "Theta 4 (EoD)"
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 700
+            xws_name: "theta4-evacuationofdqar"
+            faction: "First Order"
+            ship: "TIE/sf Fighter"
+            skill: 4
+            points: 4
+            pointsxwa: 11
+            charge: 1
+            recurring: 1
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Lock"
+                    "Barrel Roll"
+                ]
                 chassis: "Heavy Weapon Turret (EoD)"
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Evade"
-                        "Lock"
-                        "Barrel Roll"
-                        "Reload"
-                        "> Lock"
-                    ]
-                    upgrades: [
-                        "Determination (EoD)"
-                        "Concussion Missiles"
-                        "First Order Ordnance Tech (EoD)"
-                    ]
-            }
-            {
-                name: "Theta 3 (EoD)"
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 699
-                xws_name: "theta3-evacuationofdqar"
-                faction: "First Order"
-                ship: "TIE/sf Fighter"
-                skill: 3
-                points: 4
-                pointsxwa: 11
-                charge: 2
-                chassis: "Heavy Weapon Turret (EoD)"
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Evade"
-                        "Lock"
-                        "Barrel Roll"
-                        "Reload"
-                        "> Lock"
-                    ]
-                    upgrades: [
-                        "Seeker Missiles (YLF)"
-                        "Passive Sensors"
-                        "First Order Ordnance Tech (EoD)"
-                    ]
-            }
-            {
-                name: "Theta 4 (EoD)"
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 700
-                xws_name: "theta4-evacuationofdqar"
-                faction: "First Order"
-                ship: "TIE/sf Fighter"
-                skill: 4
-                points: 4
-                pointsxwa: 11
-                charge: 1
-                recurring: 1
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Evade"
-                        "Lock"
-                        "Barrel Roll"
-                    ]
-                    chassis: "Heavy Weapon Turret (EoD)"
-                    upgrades: [
-                        "Determination (EoD)"
-                        "Barrage Rockets"
-                        "Pattern Analyzer"
-                    ]
-            }
-            {
-                name: "Petty Officer Thanisson (EoD)"
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 701
-                xws_name: "pettyofficerthanisson-evacuationofdqar"
-                faction: "First Order"
-                ship: "Upsilon-Class Command Shuttle"
-                skill: 1
-                points: 6
-                pointsxwa: 16
-                charge: 1
-                recurring: 1
-                chassis: ""
                 upgrades: [
-                    "General Hux (EoD)"
-                    "Advanced Sensors"
-                    "Interference Array (EoD)"
+                    "Determination (EoD)"
+                    "Barrage Rockets"
+                    "Pattern Analyzer"
                 ]
-            }
-            {
-                name: "Poe Dameron (EoD)"
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 702
-                xws_name: "poedameron-evacuationofdqar"
-                faction: "Resistance"
-                ship: "T-70 X-wing"
-                skill: 6
-                points: 6
-                pointsxwa: 16
-                charge: 1
-                recurring: 1
-                chassis: "Adaptive S-Foils"
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "R-> Barrel Roll"
-                        "Lock"
-                        "Barrel Roll"
-                        "Boost"
-                        "Slam"
-                    ]
-                    upgrades: [
-                        "Heroic"
-                        "BB-8 (EoD)"
-                        "Primed Overdrive Thrusters (EoD)"
-                        "Black One (EoD)"
-                    ]
-            }
-            {
-                name: "Jaycris Tubbs (EoD)"
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 703
-                xws_name: "jaycristubbs-evacuationofdqar"
-                faction: "Resistance"
-                ship: "T-70 X-wing"
-                skill: 1
-                points: 4
-                pointsxwa: 10
-                chassis: "Adaptive S-Foils"
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "R-> Barrel Roll"
-                        "Lock"
-                        "Barrel Roll"
-                        "Boost"
-                        "R-> Focus"
-                    ]
-                    upgrades: [
-                        "For The Cause (EoD)"
-                        "R0 Astromech (EoD)"
-                    ]
-            }
-            {
-                name: "Stomeroni Starck (EoD)"
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 704
-                xws_name: "stomeronistarck-evacuationofdqar"
-                faction: "Resistance"
-                ship: "T-70 X-wing"
-                skill: 4
-                points: 5
-                pointsxwa: 12
-                chassis: "Adaptive S-Foils"
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "R-> Barrel Roll"
-                        "Lock"
-                        "Barrel Roll"
-                        "Boost"
-                        "R-> Focus"
-                    ]
-                maneuvers: [
-                    [ 0, 0, 0, 0, 0, 0, 0, 0]
-                    [ 2, 0, 0, 0, 2, 0, 0, 0]
-                    [ 1, 1, 1, 1, 1, 0, 0, 0]
-                    [ 2, 1, 1, 1, 2, 0, 3, 3]
-                    [ 0, 0, 1, 0, 0, 0, 0, 0]
-                    [ 0, 0, 1, 0, 0, 3, 0, 0]
+        }
+        {
+            name: "Petty Officer Thanisson (EoD)"
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 701
+            xws_name: "pettyofficerthanisson-evacuationofdqar"
+            faction: "First Order"
+            ship: "Upsilon-Class Command Shuttle"
+            skill: 1
+            points: 6
+            pointsxwa: 16
+            charge: 1
+            recurring: 1
+            chassis: ""
+            upgrades: [
+                "General Hux (EoD)"
+                "Advanced Sensors"
+                "Interference Array (EoD)"
+            ]
+        }
+        {
+            name: "Poe Dameron (EoD)"
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 702
+            xws_name: "poedameron-evacuationofdqar"
+            faction: "Resistance"
+            ship: "T-70 X-wing"
+            skill: 6
+            points: 6
+            pointsxwa: 16
+            charge: 1
+            recurring: 1
+            chassis: "Adaptive S-Foils"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "Barrel Roll"
+                    "Boost"
+                    "Slam"
+                ]
+                upgrades: [
+                    "Heroic"
+                    "BB-8 (EoD)"
+                    "Primed Overdrive Thrusters (EoD)"
+                    "Black One (EoD)"
+                ]
+        }
+        {
+            name: "Jaycris Tubbs (EoD)"
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 703
+            xws_name: "jaycristubbs-evacuationofdqar"
+            faction: "Resistance"
+            ship: "T-70 X-wing"
+            skill: 1
+            points: 4
+            pointsxwa: 10
+            chassis: "Adaptive S-Foils"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "Barrel Roll"
+                    "Boost"
+                    "R-> Focus"
                 ]
                 upgrades: [
                     "For The Cause (EoD)"
-                    "Accelerated Sensor Array (EoD)"
-                    "R5-X3"
+                    "R0 Astromech (EoD)"
                 ]
-            }
-            {
-                name: "C'ai Threnalli (EoD)"
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 705
-                xws_name: "caithrenalli-evacuationofdqar"
-                faction: "Resistance"
-                ship: "T-70 X-wing"
-                skill: 4
-                points: 4
-                pointsxwa: 11
-                chassis: "Adaptive S-Foils"
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "R-> Barrel Roll"
-                        "Lock"
-                        "Barrel Roll"
-                        "Boost"
-                        "R-> Focus"
-                    ]
-                    upgrades: [
-                        "For The Cause (EoD)"
-                        "Heroic"
-                        "BB Astromech"
-                        "Repulsorlift Engines (EoD)"
-                    ]
-            }
-            {
-                name: "Ronith Blario (EoD)"
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 706
-                xws_name: "ronithblario-evacuationofdqar"
-                faction: "Resistance"
-                ship: "RZ-2 A-wing"
-                skill: 2
-                points: 3
-                pointsxwa: 9
-                upgrades: [
-                    "Escort Fighter (EoD)"
-                    "Heroic"
-                    "Starbird Slash"
+        }
+        {
+            name: "Stomeroni Starck (EoD)"
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 704
+            xws_name: "stomeronistarck-evacuationofdqar"
+            faction: "Resistance"
+            ship: "T-70 X-wing"
+            skill: 4
+            points: 5
+            pointsxwa: 12
+            chassis: "Adaptive S-Foils"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "Barrel Roll"
+                    "Boost"
+                    "R-> Focus"
                 ]
-            }
-            {
-                name: "Tallissan Lintra (EoD)"
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 707
-                xws_name: "tallissanlintra-evacuationofdqar"
-                faction: "Resistance"
-                ship: "RZ-2 A-wing"
-                skill: 5
-                points: 4
-                pointsxwa: 11
-                charge: 1
-                recurring: 1
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "R-> Coordinate"
-                        "Evade"
-                        "Lock"
-                        "Barrel Roll"
-                        "Boost"
-                    ]
-                    upgrades: [
-                        "For The Cause (EoD)"
-                        "Heroic"
-                        "Push The Limit (BoE)"
-                        "XX-23 S-Thread Tracers"
-                    ]
-            }
-            {
-                name: "Zizi Tlo (EoD)"
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 708
-                xws_name: "zizitlo-evacuationofdqar"
-                faction: "Resistance"
-                ship: "RZ-2 A-wing"
-                skill: 5
-                points: 4
-                pointsxwa: 11
-                charge: 1
-                recurring: 1
+            maneuvers: [
+                [ 0, 0, 0, 0, 0, 0, 0, 0]
+                [ 2, 0, 0, 0, 2, 0, 0, 0]
+                [ 1, 1, 1, 1, 1, 0, 0, 0]
+                [ 2, 1, 1, 1, 2, 0, 3, 3]
+                [ 0, 0, 1, 0, 0, 0, 0, 0]
+                [ 0, 0, 1, 0, 0, 3, 0, 0]
+            ]
+            upgrades: [
+                "For The Cause (EoD)"
+                "Accelerated Sensor Array (EoD)"
+                "R5-X3"
+            ]
+        }
+        {
+            name: "C'ai Threnalli (EoD)"
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 705
+            xws_name: "caithrenalli-evacuationofdqar"
+            faction: "Resistance"
+            ship: "T-70 X-wing"
+            skill: 4
+            points: 4
+            pointsxwa: 11
+            chassis: "Adaptive S-Foils"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "Barrel Roll"
+                    "Boost"
+                    "R-> Focus"
+                ]
                 upgrades: [
                     "For The Cause (EoD)"
                     "Heroic"
-                    "Precision Holo-Targeter (EoD)"
+                    "BB Astromech"
+                    "Repulsorlift Engines (EoD)"
                 ]
-            }
-            {
-                name: "Pammich Nerro Goode (EoD)"
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 709
-                xws_name: "pammichnerrogoode-evacuationofdqar"
-                faction: "Resistance"
-                ship: "Resistance Transport"
-                skill: 3
-                points: 4
-                pointsxwa: 9
-                chassis: "Leave No One Behind"
+        }
+        {
+            name: "Ronith Blario (EoD)"
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 706
+            xws_name: "ronithblario-evacuationofdqar"
+            faction: "Resistance"
+            ship: "RZ-2 A-wing"
+            skill: 2
+            points: 3
+            pointsxwa: 9
+            upgrades: [
+                "Escort Fighter (EoD)"
+                "Heroic"
+                "Starbird Slash"
+            ]
+        }
+        {
+            name: "Tallissan Lintra (EoD)"
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 707
+            xws_name: "tallissanlintra-evacuationofdqar"
+            faction: "Resistance"
+            ship: "RZ-2 A-wing"
+            skill: 5
+            points: 4
+            pointsxwa: 11
+            charge: 1
+            recurring: 1
+            ship_override:
+                actions: [
+                    "Focus"
+                    "R-> Coordinate"
+                    "Evade"
+                    "Lock"
+                    "Barrel Roll"
+                    "Boost"
+                ]
                 upgrades: [
                     "For The Cause (EoD)"
-                    "R0-GR (EoD)"
-                    "Black Squadron R4 (EoD)"
+                    "Heroic"
+                    "Push The Limit (BoE)"
+                    "XX-23 S-Thread Tracers"
                 ]
-            }
-            {
-                name: "Finch Dallow (EoD)"
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 710
-                xws_name: "finchdallow-evacuationofdqar"
-                faction: "Resistance"
-                ship: "MG-100 StarFortress"
-                skill: 4
-                points: 6
-                pointsxwa: 16
-                chassis: "Modular Bombing Magazine"
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Lock"
-                        "Rotate Arc"
-                        "Reload"
-                        "R-> Reinforce"
-                    ]
-                    upgrades: [
-                        "Nix Jerd (EoD)"
-                        "Paige Tico (EoD)"
-                        "Proton Bombs"
-                        "Thermal Detonators"
-                    ]
-            }
-            {
-                name: "Vennie (EoD)"
-                xwsaddon: "evacuationofdqar"
-                unique: true
-                id: 711
-                xws_name: "vennie-evacuationofdqar"
-                faction: "Resistance"
-                ship: "MG-100 StarFortress"
-                skill: 2
-                points: 6
-                pointsxwa: 16
-                chassis: "Modular Bombing Magazine"
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Lock"
-                        "Rotate Arc"
-                        "R-> Focus"
-                        "Reload"
-                    ]
-                    upgrades: [
-                        "Perceptive Copilot"
-                        "Dedicated Gunners (EoD)"
-                        "Proton Bombs"
-                    ]
-            }
-            {
-                name: "Boba Fett (AaD)"
-                xwsaddon: "armedanddangerous"
-                unique: true
-                id: 712
-                xws_name: "bobafett-armedanddangerous"
-                faction: "Scum and Villainy"
-                ship: "Firespray-class Patrol Craft"
-                skill: 5
-                points: 7
-                pointsxwa: 18
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Lock"
-                        "Boost"
-                        "R-> Lock"
-                    ]
-                    upgrades: [
-                        "Homing Beacon (AaD)"
-                        "Fennec Shand (AaD)"
-                        "Seismic Charges"
-                        "Slave I (Separatist)"
-                    ]
-            }
-            {
-                name: "The Mandalorian (AaD)"
-                xwsaddon: "armedanddangerous"
-                unique: true
-                id: 713
-                xws_name: "themandalorian-armedanddangerous"
-                faction: "Scum and Villainy"
-                ship: "Naboo Royal N-1 Starfighter"
-                skill: 5
-                points: 4
-                pointsxwa: 11
-                chassis: "Restored Speedster"
-                force: 2
-                forcerecurring: 0
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "Lock"
-                        "Barrel Roll"
-                        "Boost"
-                        "Slam"
-                        "R-> Lock"
-                    ]
-                    upgrades: [
-                        "Outmaneuver"
-                        "The Child (AaD)"
-                        "Kineso-Switch (AaD)"
-                        "Calibrated Laser Targeting"
-                    ]
-            }
-            {
-                name: "Han Solo (AaD)"
-                xwsaddon: "armedanddangerous"
-                unique: true
-                id: 714
-                xws_name: "hansolo-armedanddangerous"
-                faction: "Scum and Villainy"
-                ship: "Customized YT-1300 Light Freighter"
-                skill: 6
-                points: 6
-                pointsxwa: 17
-                charge: 1
-                chassis: "Coaxium Injectors"
-                ship_override:
-                    shields: 5
-                    actions: [
-                        "Focus"
-                        "Lock"
-                        "R-Boost"
-                        "Rotate Arc"
-                        "R-> Focus"
-                    ]
-                    upgrades: [
-                        "Chewbacca (AaD)"
-                        "L3-37 (AaD)"
-                        "Tobias Beckett (AaD)"
-                        "Lando's Millennium Falcon (AaD)"
-                    ]
-            }
-            {
-                name: "Bo-Katan Kryze (AaD)"
-                xwsaddon: "armedanddangerous"
-                unique: true
-                id: 715
-                xws_name: "bokatankryze-armedanddangerous"
-                faction: "Scum and Villainy"
-                ship: "Gauntlet Fighter"
-                skill: 4
-                points: 6
-                pointsxwa: 16
-                charge: 2
-                chassis: "Winged Reversal"
+        }
+        {
+            name: "Zizi Tlo (EoD)"
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 708
+            xws_name: "zizitlo-evacuationofdqar"
+            faction: "Resistance"
+            ship: "RZ-2 A-wing"
+            skill: 5
+            points: 4
+            pointsxwa: 11
+            charge: 1
+            recurring: 1
+            upgrades: [
+                "For The Cause (EoD)"
+                "Heroic"
+                "Precision Holo-Targeter (EoD)"
+            ]
+        }
+        {
+            name: "Pammich Nerro Goode (EoD)"
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 709
+            xws_name: "pammichnerrogoode-evacuationofdqar"
+            faction: "Resistance"
+            ship: "Resistance Transport"
+            skill: 3
+            points: 4
+            pointsxwa: 9
+            chassis: "Leave No One Behind"
+            upgrades: [
+                "For The Cause (EoD)"
+                "R0-GR (EoD)"
+                "Black Squadron R4 (EoD)"
+            ]
+        }
+        {
+            name: "Finch Dallow (EoD)"
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 710
+            xws_name: "finchdallow-evacuationofdqar"
+            faction: "Resistance"
+            ship: "MG-100 StarFortress"
+            skill: 4
+            points: 6
+            pointsxwa: 16
+            chassis: "Modular Bombing Magazine"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "Rotate Arc"
+                    "Reload"
+                    "R-> Reinforce"
+                ]
                 upgrades: [
-                    "Mandalorian Tactics (AaD)"
-                    "Nite Owl Sentries (AaD)"
-                    "Veteran Tail Gunner"
+                    "Nix Jerd (EoD)"
+                    "Paige Tico (EoD)"
+                    "Proton Bombs"
+                    "Thermal Detonators"
                 ]
-            }
-            {
-                name: "Dengar (AaD)"
-                xwsaddon: "armedanddangerous"
-                unique: true
-                id: 716
-                xws_name: "dengar-armedanddangerous"
-                faction: "Scum and Villainy"
-                ship: "JumpMaster 5000"
-                skill: 6
-                points: 6
-                pointsxwa: 15
-                charge: 1
-                recurring: 1
+        }
+        {
+            name: "Vennie (EoD)"
+            xwsaddon: "evacuationofdqar"
+            unique: true
+            id: 711
+            xws_name: "vennie-evacuationofdqar"
+            faction: "Resistance"
+            ship: "MG-100 StarFortress"
+            skill: 2
+            points: 6
+            pointsxwa: 16
+            chassis: "Modular Bombing Magazine"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "Rotate Arc"
+                    "R-> Focus"
+                    "Reload"
+                ]
                 upgrades: [
-                    "R2-G8 (AaD)"
-                    "Synchronized Handling (AaD)"
-                    "Starboard Thrusters (AaD)"
-                    "Punishing One"
+                    "Perceptive Copilot"
+                    "Dedicated Gunners (EoD)"
+                    "Proton Bombs"
                 ]
-            }
-            {
-                name: "Bossk (AaD)"
-                xwsaddon: "armedanddangerous"
-                unique: true
-                id: 717
-                xws_name: "bossk-armedanddangerous"
-                faction: "Scum and Villainy"
-                ship: "YV-666 Light Freighter"
-                skill: 4
-                points: 6
-                pointsxwa: 15
-                chassis: "Imposing Behemoth"
+        }
+        {
+            name: "Boba Fett (AaD)"
+            xwsaddon: "armedanddangerous"
+            unique: true
+            id: 712
+            xws_name: "bobafett-armedanddangerous"
+            faction: "Scum and Villainy"
+            ship: "Firespray-class Patrol Craft"
+            skill: 5
+            points: 7
+            pointsxwa: 18
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "Boost"
+                    "R-> Lock"
+                ]
                 upgrades: [
-                    "Embo (AaD)"
-                    "Contraband Cybernetics"
-                    "Hound's Tooth (AaD)"
+                    "Homing Beacon (AaD)"
+                    "Fennec Shand (AaD)"
+                    "Seismic Charges"
+                    "Slave I (Separatist)"
                 ]
-            }
-            {
-                name: "Cad Bane (AaD)"
-                xwsaddon: "armedanddangerous"
-                unique: true
-                id: 718
-                xws_name: "cadbane-armedanddangerous"
-                faction: "Scum and Villainy"
-                ship: "Rogue-class Starfighter"
-                skill: 4
-                points: 4
-                pointsxwa: 10
-                charge: 2
-                recurring: 1
-                ship_override:
-                    actions: [
-                        "Focus"
-                        "R-> Boost"
-                        "Focus"
-                        "R-> Barrel Roll"
-                        "Evade"
-                        "R-> Barrel Roll"
-                        "Lock"
-                        "R-Cloak"
-                    ]
-                    upgrades: [
-                        "Flechette Cannons (AaD)"
-                        "Todo 360 (AaD)"
-                        "Xanadu Blood (AaD)"
-                    ]
-            }
-            {
-                name: "Fenn Rau (AaD)"
-                xwsaddon: "armedanddangerous"
-                unique: true
-                id: 719
-                xws_name: "fennrau-armedanddangerous"
-                faction: "Scum and Villainy"
-                ship: "Fang Fighter"
-                skill: 6
-                points: 6
-                pointsxwa: 15
-                ship_override:
-                    hull: 5
-                    upgrades: [
-                        "Fearless"
-                        "Adaptable Power Systems (AaD)"
-                        "Beskar Reinforced Plating"
-                    ]
-            }
-            {
-                name: "Prince Xizor (AaD)"
-                xwsaddon: "armedanddangerous"
-                unique: true
-                id: 720
-                xws_name: "princexizor-armedanddangerous"
-                faction: "Scum and Villainy"
-                ship: "StarViper-class Attack Platform"
-                skill: 4
-                points: 5
-                pointsxwa: 13
-                charge: 3
-                chassis: "Adaptative Microthrusters"
-                ship_override:
-                    shields: 2
-                    upgrades: [
-                        "Crime Lord (AaD)"
-                        "Mandalorian Optics"
-                        "Virago (AaD)"
-                    ]
-            }
-            {
-                name: "Zuckuss (AaD)"
-                xwsaddon: "armedanddangerous"
-                unique: true
-                id: 721
-                xws_name: "zuckuss-armedanddangerous"
-                faction: "Scum and Villainy"
-                ship: "G-1A Starfighter"
-                skill: 3
-                points: 5
-                pointsxwa: 13
-                chassis: "Enduring Limitations"
-                ship_override:
-                    shields: 5
-                    actions: [
-                        "Focus"
-                        "Lock"
-                        "Barrel Roll"
-                        "R-> Calculate"
-                        "Jam"
-                        "R-> Calculate"
-                    ]
-                    upgrades: [
-                        "Persistent Tracker (AaD)"
-                        "Tractor Beam"
-                        "4-LOM (AaD)"
-                        "Mist Hunter (AaD)"
-                    ]
-            }
+        }
+        {
+            name: "The Mandalorian (AaD)"
+            xwsaddon: "armedanddangerous"
+            unique: true
+            id: 713
+            xws_name: "themandalorian-armedanddangerous"
+            faction: "Scum and Villainy"
+            ship: "Naboo Royal N-1 Starfighter"
+            skill: 5
+            points: 4
+            pointsxwa: 11
+            chassis: "Restored Speedster"
+            force: 2
+            forcerecurring: 0
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "Barrel Roll"
+                    "Boost"
+                    "Slam"
+                    "R-> Lock"
+                ]
+                upgrades: [
+                    "Outmaneuver"
+                    "The Child (AaD)"
+                    "Kineso-Switch (AaD)"
+                    "Calibrated Laser Targeting"
+                ]
+        }
+        {
+            name: "Han Solo (AaD)"
+            xwsaddon: "armedanddangerous"
+            unique: true
+            id: 714
+            xws_name: "hansolo-armedanddangerous"
+            faction: "Scum and Villainy"
+            ship: "Customized YT-1300 Light Freighter"
+            skill: 6
+            points: 6
+            pointsxwa: 17
+            charge: 1
+            chassis: "Coaxium Injectors"
+            ship_override:
+                shields: 5
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "R-Boost"
+                    "Rotate Arc"
+                    "R-> Focus"
+                ]
+                upgrades: [
+                    "Chewbacca (AaD)"
+                    "L3-37 (AaD)"
+                    "Tobias Beckett (AaD)"
+                    "Lando's Millennium Falcon (AaD)"
+                ]
+        }
+        {
+            name: "Bo-Katan Kryze (AaD)"
+            xwsaddon: "armedanddangerous"
+            unique: true
+            id: 715
+            xws_name: "bokatankryze-armedanddangerous"
+            faction: "Scum and Villainy"
+            ship: "Gauntlet Fighter"
+            skill: 4
+            points: 6
+            pointsxwa: 16
+            charge: 2
+            chassis: "Winged Reversal"
+            upgrades: [
+                "Mandalorian Tactics (AaD)"
+                "Nite Owl Sentries (AaD)"
+                "Veteran Tail Gunner"
+            ]
+        }
+        {
+            name: "Dengar (AaD)"
+            xwsaddon: "armedanddangerous"
+            unique: true
+            id: 716
+            xws_name: "dengar-armedanddangerous"
+            faction: "Scum and Villainy"
+            ship: "JumpMaster 5000"
+            skill: 6
+            points: 6
+            pointsxwa: 15
+            charge: 1
+            recurring: 1
+            upgrades: [
+                "R2-G8 (AaD)"
+                "Synchronized Handling (AaD)"
+                "Starboard Thrusters (AaD)"
+                "Punishing One"
+            ]
+        }
+        {
+            name: "Bossk (AaD)"
+            xwsaddon: "armedanddangerous"
+            unique: true
+            id: 717
+            xws_name: "bossk-armedanddangerous"
+            faction: "Scum and Villainy"
+            ship: "YV-666 Light Freighter"
+            skill: 4
+            points: 6
+            pointsxwa: 15
+            chassis: "Imposing Behemoth"
+            upgrades: [
+                "Embo (AaD)"
+                "Contraband Cybernetics"
+                "Hound's Tooth (AaD)"
+            ]
+        }
+        {
+            name: "Cad Bane (AaD)"
+            xwsaddon: "armedanddangerous"
+            unique: true
+            id: 718
+            xws_name: "cadbane-armedanddangerous"
+            faction: "Scum and Villainy"
+            ship: "Rogue-class Starfighter"
+            skill: 4
+            points: 4
+            pointsxwa: 10
+            charge: 2
+            recurring: 1
+            ship_override:
+                actions: [
+                    "Focus"
+                    "R-> Boost"
+                    "Focus"
+                    "R-> Barrel Roll"
+                    "Evade"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "R-Cloak"
+                ]
+                upgrades: [
+                    "Flechette Cannons (AaD)"
+                    "Todo 360 (AaD)"
+                    "Xanadu Blood (AaD)"
+                ]
+        }
+        {
+            name: "Fenn Rau (AaD)"
+            xwsaddon: "armedanddangerous"
+            unique: true
+            id: 719
+            xws_name: "fennrau-armedanddangerous"
+            faction: "Scum and Villainy"
+            ship: "Fang Fighter"
+            skill: 6
+            points: 6
+            pointsxwa: 15
+            ship_override:
+                hull: 5
+                upgrades: [
+                    "Fearless"
+                    "Adaptable Power Systems (AaD)"
+                    "Beskar Reinforced Plating"
+                ]
+        }
+        {
+            name: "Prince Xizor (AaD)"
+            xwsaddon: "armedanddangerous"
+            unique: true
+            id: 720
+            xws_name: "princexizor-armedanddangerous"
+            faction: "Scum and Villainy"
+            ship: "StarViper-class Attack Platform"
+            skill: 4
+            points: 5
+            pointsxwa: 13
+            charge: 3
+            chassis: "Adaptative Microthrusters"
+            ship_override:
+                shields: 2
+                upgrades: [
+                    "Crime Lord (AaD)"
+                    "Mandalorian Optics"
+                    "Virago (AaD)"
+                ]
+        }
+        {
+            name: "Zuckuss (AaD)"
+            xwsaddon: "armedanddangerous"
+            unique: true
+            id: 721
+            xws_name: "zuckuss-armedanddangerous"
+            faction: "Scum and Villainy"
+            ship: "G-1A Starfighter"
+            skill: 3
+            points: 5
+            pointsxwa: 13
+            chassis: "Enduring Limitations"
+            ship_override:
+                shields: 5
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Calculate"
+                    "Jam"
+                    "R-> Calculate"
+                ]
+                upgrades: [
+                    "Persistent Tracker (AaD)"
+                    "Tractor Beam"
+                    "4-LOM (AaD)"
+                    "Mist Hunter (AaD)"
+                ]
+        }
     ]
 
     upgradesById: [
