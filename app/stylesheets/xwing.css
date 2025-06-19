@@ -2,39 +2,32 @@
   font-family: kimberley;
   src: url("../fonts/kimberley bl.ttf");
 }
-
 @font-face {
   font-family: EurostileStandard;
   src: url("../fonts/EurostileLTStd.otf");
 }
-
 @font-face {
   font-family: EurostileStandardBold;
   src: url("../fonts/EurostileLTStd-Bold.otf");
 }
-
 @font-face {
   font-family: EurostileStandardOblique;
   src: url("../fonts/EurostileLTStd-Oblique.otf");
 }
-
 @font-face {
   font-family: EurostileStandardBoldOblique;
   src: url("../fonts/EurostileLTStd-BoldOblique.otf");
 }
-
 @font-face {
   font-family: BankGothicMediumBT;
   src: url("../fonts/Bank Gothic Medium BT.ttf");
 }
-
 @font-face {
   font-family: BankGothicHD;
   src: url("../fonts/bankgthd.ttf");
 }
-
 body {
-  background-color: #0A1E40;
+  background-color: #202020;
   font-family: EurostileStandard;
   color: white;
   overflow-x: hidden;
@@ -51,8 +44,7 @@ body {
   font-size: 1em;
 }
 
-.btn-inverse,
-.btn-modal:hover {
+.btn-inverse, .btn-modal:hover {
   font-size: 1em;
   background-color: #337ab7;
   color: white;
@@ -85,8 +77,7 @@ strong {
   text-align: right;
 }
 
-.div .tags-display,
-.div .squad-display-mode {
+.div .tags-display, .div .squad-display-mode {
   overflow-x: scroll;
 }
 
@@ -95,8 +86,7 @@ em {
   font-style: normal;
 }
 
-strong em,
-em strong {
+strong em, em strong {
   font-family: EurostileStandardBoldOblique;
   font-style: normal;
   font-weight: normal;
@@ -106,28 +96,22 @@ em strong {
   .side-button {
     margin-top: 5px;
   }
-
   .hide-on-mobile {
     display: none;
   }
-
   .squad-name-container {
     text-align: center;
   }
-
   .squad-name-and-points-row {
     gap: 4px;
   }
-
   .display-name {
     margin: 4px;
   }
-
   .dropdown-menu-right {
     margin-right: 2px;
   }
 }
-
 .flavor_text {
   display: none;
 }
@@ -136,7 +120,7 @@ em strong {
   display: unset;
 }
 
-.ship-container>.row {
+.ship-container > .row {
   padding: 10px 0px;
 }
 
@@ -148,23 +132,12 @@ em strong {
   width: 100%;
 }
 
-.card-stat,
-.info-maneuvers table>tbody>tr>td:first-child,
-.info-data.info-charge,
-.info-data.info-force,
-.info-data.info-shields,
-.info-data.info-hull,
-.info-data.info-agility,
-.info-data.info-energy,
-.info-data.info-attack,
-.info-data.info-skill,
-.info-data.info-engagement {
+.card-stat, .info-maneuvers table > tbody > tr > td:first-child, .info-data.info-charge, .info-data.info-force, .info-data.info-shields, .info-data.info-hull, .info-data.info-agility, .info-data.info-energy, .info-data.info-attack, .info-data.info-skill, .info-data.info-engagement {
   font-family: kimberley;
   font-size: 1.5em;
 }
 
-.info-data.info-skill,
-.info-data.info-engagement {
+.info-data.info-skill, .info-data.info-engagement {
   color: #CD6D2D;
 }
 
@@ -172,18 +145,7 @@ em strong {
   color: #EF232B;
 }
 
-.card-icon,
-i.header-charge,
-i.header-force,
-i.header-shield,
-i.header-hull,
-i.header-agility,
-i.header-energy,
-i.header-attack,
-i.xwing-miniatures-font-attack,
-i.xwing-miniatures-font-attack-turret,
-i.xwing-miniatures-font-attack-frontback,
-i.xwing-miniatures-font-attack-180 {
+.card-icon, i.header-charge, i.header-force, i.header-shield, i.header-hull, i.header-agility, i.header-energy, i.header-attack, i.xwing-miniatures-font-attack, i.xwing-miniatures-font-attack-turret, i.xwing-miniatures-font-attack-frontback, i.xwing-miniatures-font-attack-180 {
   background: black;
   border-radius: 50%;
   padding: 2px;
@@ -207,20 +169,11 @@ i.xwing-miniatures-font-focus {
   font-size: 0.8em;
 }
 
-i.xwing-miniatures-font-rebel,
-i.xwing-miniatures-font-empire,
-i.xwing-miniatures-font-scum,
-i.xwing-miniatures-font-rebel-outline,
-i.xwing-miniatures-font-firstorder,
-i.xwing-miniatures-font-republic,
-i.xwing-miniatures-font-separatists {
+i.xwing-miniatures-font-rebel, i.xwing-miniatures-font-empire, i.xwing-miniatures-font-scum, i.xwing-miniatures-font-rebel-outline, i.xwing-miniatures-font-firstorder, i.xwing-miniatures-font-republic, i.xwing-miniatures-font-separatists {
   font-size: 2.3em !important;
 }
 
-i.xwing-miniatures-font-attack,
-i.xwing-miniatures-font-attack-turret,
-i.xwing-miniatures-font-attack-frontback,
-i.xwing-miniatures-font-attack-180 {
+i.xwing-miniatures-font-attack, i.xwing-miniatures-font-attack-turret, i.xwing-miniatures-font-attack-frontback, i.xwing-miniatures-font-attack-180 {
   color: #EF232B;
 }
 
@@ -228,20 +181,14 @@ i.header-attack {
   color: #EF232B;
 }
 
-i.xwing-miniatures-font-frontarc,
-i.xwing-miniatures-font-reararc,
-i.xwing-miniatures-font-bullseyearc,
-i.xwing-miniatures-font-fullfrontarc,
-i.xwing-miniatures-font-rightarc,
-i.xwing-miniatures-font-leftarc {
+i.xwing-miniatures-font-frontarc, i.xwing-miniatures-font-reararc, i.xwing-miniatures-font-bullseyearc, i.xwing-miniatures-font-fullfrontarc, i.xwing-miniatures-font-rightarc, i.xwing-miniatures-font-leftarc {
   padding-left: 9px;
   padding-right: 9px;
   padding-bottom: 7px;
   padding-top: 7px;
 }
 
-i.xwing-miniatures-font-singleturretarc,
-i.xwing-miniatures-font-doubleturretarc {
+i.xwing-miniatures-font-singleturretarc, i.xwing-miniatures-font-doubleturretarc {
   padding-left: 11px;
   padding-right: 11px;
   padding-bottom: 7px;
@@ -349,11 +296,11 @@ f {
   max-width: 300px;
 }
 
-.info-maneuvers table>tbody>tr>td {
+.info-maneuvers table > tbody > tr > td {
   border: 2px solid #d6c9d2;
 }
 
-.info-maneuvers table>tbody>tr>td:first-child {
+.info-maneuvers table > tbody > tr > td:first-child {
   color: white;
   text-align: center;
   padding: 3px;
@@ -362,7 +309,7 @@ f {
   background-size: 5px 5px;
 }
 
-.info-maneuvers table>tbody>tr>td~td {
+.info-maneuvers table > tbody > tr > td ~ td {
   background-color: #a29199;
 }
 
@@ -376,8 +323,7 @@ f {
   font-size: 1em;
 }
 
-.info-type,
-.info-data.info-sources {
+.info-type, .info-data.info-sources {
   font-family: BankGothicHD;
   font-size: 1.2em;
 }
@@ -391,15 +337,14 @@ f {
   padding-right: 0px;
 }
 
-.info-well,
-.intro {
+.info-well, .intro {
   color: black;
   margin-bottom: 15px;
   margin-right: 15px;
   padding: 8px;
 }
 
-.info-well table>tbody>tr>td:first-child {
+.info-well table > tbody > tr > td:first-child {
   font-weight: bold;
   padding-right: 5px;
 }
@@ -430,11 +375,11 @@ ul.squad-list {
   text-align: center;
 }
 
-.points-display-container>.upgrade-points {
+.points-display-container > .upgrade-points {
   font-size: 0.7em !important;
 }
 
-.points-display-container>div {
+.points-display-container > div {
   background: rgba(32, 32, 32, 0.6784313725);
 }
 
@@ -455,7 +400,7 @@ div.tab-content {
   overflow: visible;
 }
 
-.squad-list>li:hover {
+.squad-list > li:hover {
   background-color: #ccc;
 }
 
@@ -481,27 +426,21 @@ select.card-selector {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.25em;
 }
-
 .simple-list table {
   width: 100%;
 }
-
 .simple-list .name {
   font-style: oblique;
 }
-
 .simple-list .points {
   text-align: right;
 }
-
 .simple-list .simple-pilot .name {
   font-weight: bold;
 }
-
 .simple-list .simple-addon .name {
   padding-left: 20px;
 }
-
 .simple-list .simple-ship-total {
   font-weight: bold;
   text-align: right;
@@ -512,7 +451,6 @@ ul.nav li.dropdown ul.dropdown-menu li {
   padding: 1px 5px;
   cursor: pointer;
 }
-
 ul.nav li.dropdown ul.dropdown-menu li:hover {
   color: white;
   background-color: #333;
@@ -524,8 +462,7 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-input[type=search].card-search-text,
-input[type=search].rule-search-text {
+input[type=search].card-search-text, input[type=search].rule-search-text {
   width: 90%;
   min-width: 100px;
   max-width: 230px;
@@ -537,8 +474,7 @@ input[type=search].rule-search-text {
   border: none;
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
   background-color: #151515;
@@ -589,11 +525,11 @@ input::-webkit-inner-spin-button {
   color: green;
 }
 
-span.select2-chosen>i.xwing-miniatures-font {
+span.select2-chosen > i.xwing-miniatures-font {
   font-size: 1.1em;
 }
 
-.upgrade-box>.select2-container .select2-choice {
+.upgrade-box > .select2-container .select2-choice {
   width: 100%;
   margin-right: -200px;
 }
@@ -601,11 +537,9 @@ span.select2-chosen>i.xwing-miniatures-font {
 .select2-results {
   max-height: 250px !important;
 }
-
 .select2-results .select2-result-not-in-collection {
   color: #a00;
 }
-
 .select2-results .select2-disabled {
   color: gray;
   background-color: lightgray;
@@ -665,17 +599,11 @@ li.squad-summary {
   list-style-type: none;
 }
 
-svg>g.maneuver.backwards {
+svg > g.maneuver.backwards {
   transform: translate(200px, 200px) rotate(180deg);
 }
 
-#rebelTab,
-#empireTab,
-#scumTab,
-#resistanceTab,
-#firstorderTab,
-#republicTab,
-#separatistTab {
+#rebelTab, #empireTab, #scumTab, #resistanceTab, #firstorderTab, #republicTab, #separatistTab {
   padding-top: 5px;
 }
 
@@ -694,47 +622,40 @@ svg>g.maneuver.backwards {
   margin-bottom: 10px;
 }
 
-.tabbable>.nav {
+.tabbable > .nav {
   display: table;
   width: 100%;
 }
 
-.main-top-nav-bar>.nav-item {
+.main-top-nav-bar > .nav-item {
   float: left;
 }
 
-#rebel-builder>.container-fluid>.squad-save-buttons,
-#rebel-builder>.container-fluid>.row>.ship-container>.obstacles-container {
+#rebel-builder > .container-fluid > .squad-save-buttons, #rebel-builder > .container-fluid > .row > .ship-container > .obstacles-container {
   background-color: rgba(215, 55, 55, 0.3333333333);
 }
 
-#empire-builder>.container-fluid>.squad-save-buttons,
-#empire-builder>.container-fluid>.row>.ship-container>.obstacles-container {
+#empire-builder > .container-fluid > .squad-save-buttons, #empire-builder > .container-fluid > .row > .ship-container > .obstacles-container {
   background-color: rgba(47, 78, 159, 0.3333333333);
 }
 
-#scum-builder>.container-fluid>.squad-save-buttons,
-#scum-builder>.container-fluid>.row>.ship-container>.obstacles-container {
+#scum-builder > .container-fluid > .squad-save-buttons, #scum-builder > .container-fluid > .row > .ship-container > .obstacles-container {
   background-color: rgba(183, 158, 51, 0.3333333333);
 }
 
-#resistance-builder>.container-fluid>.squad-save-buttons,
-#resistance-builder>.container-fluid>.row>.ship-container>.obstacles-container {
+#resistance-builder > .container-fluid > .squad-save-buttons, #resistance-builder > .container-fluid > .row > .ship-container > .obstacles-container {
   background-color: rgba(255, 165, 0, 0.3333333333);
 }
 
-#firstorder-builder>.container-fluid>.squad-save-buttons,
-#firstorder-builder>.container-fluid>.row>.ship-container>.obstacles-container {
+#firstorder-builder > .container-fluid > .squad-save-buttons, #firstorder-builder > .container-fluid > .row > .ship-container > .obstacles-container {
   background-color: rgba(135, 36, 36, 0.3333333333);
 }
 
-#republic-builder>.container-fluid>.squad-save-buttons,
-#republic-builder>.container-fluid>.row>.ship-container>.obstacles-container {
+#republic-builder > .container-fluid > .squad-save-buttons, #republic-builder > .container-fluid > .row > .ship-container > .obstacles-container {
   background-color: rgba(161, 119, 71, 0.3333333333);
 }
 
-#separatist-builder>.container-fluid>.squad-save-buttons,
-#separatist-builder>.container-fluid>.row>.ship-container>.obstacles-container {
+#separatist-builder > .container-fluid > .squad-save-buttons, #separatist-builder > .container-fluid > .row > .ship-container > .obstacles-container {
   background-color: rgba(54, 60, 163, 0.3333333333);
 }
 
@@ -775,14 +696,14 @@ svg>g.maneuver.backwards {
   background-color: #337ab7;
 }
 
-.nav-item>.nav-link {
+.nav-item > .nav-link {
   padding-left: 0.75em;
   padding-right: 0.75em;
   padding-bottom: 0em;
   color: #337ab7;
 }
 
-.nav-item>.nav-link:hover {
+.nav-item > .nav-link:hover {
   color: #FFF;
   background-color: #337ab7;
 }
@@ -845,9 +766,7 @@ h6 {
   margin-bottom: 1px;
 }
 
-.ship-query-modal,
-.pilot-query-modal,
-.upgrade-query-modal {
+.ship-query-modal, .pilot-query-modal, .upgrade-query-modal {
   padding: 0px 12px;
   height: 26px;
   margin-left: 2px;
