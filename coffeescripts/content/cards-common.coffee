@@ -3639,7 +3639,6 @@ exportObj.basicCardData = ->
         }
         {
             name: "Wullffwarro"
-            xws_name: "wullffwarro"
             id: 58
             xws_name: "wullffwarro"
             unique: true
@@ -3664,7 +3663,6 @@ exportObj.basicCardData = ->
         }
         {
             name: "Lowhhrick"
-            xws_name: "lowhhrick"
             id: 59
             xws_name: "lowhhrick"
             unique: true
@@ -3709,17 +3707,16 @@ exportObj.basicCardData = ->
         }
         {
             name: "Hera Syndulla (VCX-100)"
-            xws_name: "herasyndulla"
             id: 61
-            xws_name: "herasyndulla"
+            xws_name: "herasyndulla-vcx100lightfreighter"
             unique: true
             faction: "Rebel Alliance"
             ship: "VCX-100 Light Freighter"
             skill: 5
             points: 7
             loadout: 20
-            pointsxwa: 10
-            loadoutxwa: 12
+            pointsxwa: 18
+            loadoutxwa: 19
             keyword: ["Spectre"]
             slots: [
                 "Talent"
@@ -3733,12 +3730,16 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Crew"
+                "Crew"
+                "Gunner"
+                "Sensor"
                 "Modification"
                 "Turret"
+                "Torpedo"
                 "Title"
-                "Talent"
-                "Talent"
             ]
         }
         {
@@ -14866,9 +14867,8 @@ exportObj.basicCardData = ->
         }
         {
             name: "Hera Syndulla (A-Wing)"
-            xws_name: "herasyndulla"
             id: 451
-            xws_name: "herasyndulla"
+            xws_name: "herasyndulla-rz1awing"
             unique: true
             faction: "Rebel Alliance"
             ship: "RZ-1 A-wing"
@@ -14876,8 +14876,8 @@ exportObj.basicCardData = ->
             skill: 6
             points: 4
             loadout: 5
-            pointsxwa: 10
-            loadoutxwa: 12
+            pointsxwa: 12
+            loadoutxwa: 15
             slots: [
                 "Talent"
                 "Talent"
@@ -14887,27 +14887,25 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Crew"
+                "Talent"
+                "Talent"
                 "Modification"
-                "Turret"
-                "Title"
-                "Talent"
-                "Talent"
+                "Missile"
+                "Configuration"
             ]
         }
         {
             name: "Wedge Antilles (A-Wing)"
-            xws_name: "wedgeantilles"
             id: 452
-            xws_name: "wedgeantilles"
+            xws_name: "wedgeantilles-rz1awing"
             unique: true
             faction: "Rebel Alliance"
             ship: "RZ-1 A-wing"
             skill: 4
             points: 3
             loadout: 5
-            pointsxwa: 14
-            loadoutxwa: 13
+            pointsxwa: 11
+            loadoutxwa: 16
             slots: [
                 "Talent"
                 "Talent"
@@ -14915,18 +14913,17 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Torpedo"
-                "Configuration"
                 "Talent"
+                "Talent"
+                "Modification"
+                "Missile"
+                "Configuration"
             ]
         }
         {
             name: "Sabine Wren (A-Wing)"
-            xws_name: "sabinewren"
             id: 453
-            xws_name: "sabinewren"
+            xws_name: "sabinewren-rz1awing"
             unique: true
             faction: "Rebel Alliance"
             keyword: ["Mandalorian"]
@@ -14934,8 +14931,8 @@ exportObj.basicCardData = ->
             skill: 3
             points: 3
             loadout: 7
-            pointsxwa: 10
-            loadoutxwa: 13
+            pointsxwa: 8
+            loadoutxwa: 4
             slots: [
                 "Talent"
                 "Modification"
@@ -14943,11 +14940,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Crew"
-                "Modification"
-                "Turret"
-                "Title"
                 "Talent"
+                "Modification"
+                "Missile"
+                "Configuration"
             ]
         }
         {
@@ -15038,9 +15034,8 @@ exportObj.basicCardData = ->
         }
         {
             name: "Kanan Jarrus (HWK-290)"
-            xws_name: "kananjarrus"
             id: 457
-            xws_name: "kananjarrus"
+            xws_name: "kananjarrus-hwk290lightfreighter"
             unique: true
             faction: "Scum and Villainy"
             keyword: ["Light Side", "Jedi"]
@@ -15049,8 +15044,8 @@ exportObj.basicCardData = ->
             force: 1
             points: 4
             loadout: 6
-            pointsxwa: 19
-            loadoutxwa: 20
+            pointsxwa: 9
+            loadoutxwa: 5
             slots: [
                 "Force"
                 "Crew"
@@ -15060,15 +15055,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Sensor"
-                "Gunner"
-                "Turret"
-                "Modification"
-                "Torpedo"
-                "Title"
                 "Force"
+                "Crew"
+                "Illicit"
+                "Modifcation"
+                "Device"
             ]
         }
         {
