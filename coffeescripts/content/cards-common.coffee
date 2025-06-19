@@ -13917,15 +13917,15 @@ exportObj.basicCardData = ->
             name: "Poe Dameron (HoH)"
             xwsaddon: 'swz68'
             id: 442
-            xws_name: "poedameron-t70xwing"
+            xws_name: "poedameron-swz68"
             unique: true
             faction: "Resistance"
             ship: "T-70 X-wing"
             skill: 6
             points: 6
             loadout: 19
-            pointsxwa: 5
-            loadoutxwa: 7
+            pointsxwa: 14
+            loadoutxwa: 11
             charge: 2
             recurring: 1
             slots: [
@@ -13938,20 +13938,29 @@ exportObj.basicCardData = ->
                 "Configuration"
                 "HardpointShip"
             ]
+            slotsxwa: [
+                "Astromech"
+                "Modification"
+                "Tech"
+                "Configuration"
+                "Talent"
+                "Sensor"
+                "HardpointShip"
+            ]
         }
         {
             name: "Temmin Wexley (HoH)"
             xwsaddon: 'swz68'
             id: 443
-            xws_name: "temminwexley-t70xwing"
+            xws_name: "temminwexley-swz68"
             unique: true
             faction: "Resistance"
             ship: "T-70 X-wing"
             skill: 4
             points: 5
             loadout: 13
-            pointsxwa: 5
-            loadoutxwa: 12
+            pointsxwa: 11
+            loadoutxwa: 5
             slots: [
                 "Talent"
                 "Tech"
@@ -13959,6 +13968,14 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Modification"
                 "Configuration"
+                "HardpointShip"
+            ]
+            slotsxwa: [
+                "Astromech"
+                "Modification"
+                "Tech"
+                "Configuration"
+                "Talent"
                 "HardpointShip"
             ]
         }
