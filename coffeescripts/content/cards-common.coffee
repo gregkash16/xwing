@@ -20374,7 +20374,6 @@ exportObj.basicCardData = ->
             skill: 3
             points: 6
             pointsxwa: 16
-            loadoutxwa: 0
             upgrades: [
                 "Efficient Processing (YLF)"
                 "Seeker Missiles (YLF)"
@@ -20400,7 +20399,6 @@ exportObj.basicCardData = ->
             skill: 3
             points: 16
             pointsxwa: 16
-            loadoutxwa: 0
             upgrades: [
                 "Efficient Processing (YLF)"
                 "Seeker Missiles (YLF)"
@@ -20427,7 +20425,6 @@ exportObj.basicCardData = ->
             skill: 3
             points: 4
             pointsxwa: 10
-            loadoutxwa: 0
             chassis: "Vectored Cannons"
             upgrades: [
                 "It's A Trap! (BoE)"
@@ -20460,7 +20457,6 @@ exportObj.basicCardData = ->
             skill: 2
             points: 4
             pointsxwa: 9
-            loadoutxwa: 0
             chassis: "Vectored Cannons"
             upgrades: [
                 "It's A Trap! (BoE)"
@@ -20476,7 +20472,6 @@ exportObj.basicCardData = ->
             name: "Tycho Celchu (BoE)"
             xwsaddon: "battleoverendor"
             unique: true
-            xws_name: "tychocelchu-battleoverendor"
             id: 656
             xws_name: "tychocelchu-battleoverendor"
             faction: "Rebel Alliance"
@@ -20484,7 +20479,6 @@ exportObj.basicCardData = ->
             skill: 5
             points: 4
             pointsxwa: 11
-            loadoutxwa: 0
             chassis: "Vectored Cannons"
             ship_override:
                 attackt: 2
@@ -20510,7 +20504,6 @@ exportObj.basicCardData = ->
             name: "Adon Fox (BoE)"
             xwsaddon: "battleoverendor"
             unique: true
-            xws_name: "adonfox-battleoverendor"
             id: 657
             xws_name: "adonfox-battleoverendor"
             faction: "Rebel Alliance"
