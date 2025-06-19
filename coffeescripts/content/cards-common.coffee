@@ -13308,9 +13308,8 @@ exportObj.basicCardData = ->
         }
         {
             name: "G4R-GOR V/M"
-            xws_name: "g4rgorv/m"
             id: 399
-            xws_name: "g4r-gorv/m"
+            xws_name: "g4rgorvm"
             faction: "Scum and Villainy"
             unique: true
             skill: 0
