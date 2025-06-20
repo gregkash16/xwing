@@ -1165,8 +1165,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "Torpedo",
       "Configuration",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Wedge Antilles",
@@ -1377,7 +1377,7 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Modification",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: '"Zeb" Orrelios (TIE Fighter)',
@@ -2510,7 +2510,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Torpedo",
       "Title",
-      "Force Power"]
+      "Force"]
       },
       {
         name: '"Chopper"',
@@ -2640,7 +2640,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Turret",
       "Title",
-      "Force Power"]
+      "Force"]
       },
       {
         name: '"Zeb" Orrelios',
@@ -2714,7 +2714,7 @@ exportObj.basicCardData = function() {
       "Crew",
       "Modification",
       "Title",
-      "Force Power"]
+      "Force"]
       },
       {
         name: '"Zeb" Orrelios (Sheathipede)',
@@ -4098,7 +4098,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Illicit",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Ketsu Onyo",
@@ -5133,8 +5133,8 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Missile",
       "Sensor",
       "Modification",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Seventh Sister",
@@ -5157,7 +5157,7 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Missile",
       "Sensor",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Inquisitor",
@@ -5177,7 +5177,7 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Missile",
       "Sensor",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Baron of the Empire",
@@ -5224,8 +5224,8 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Missile",
       "Sensor",
       "Modification",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Maarek Stele",
@@ -6549,7 +6549,7 @@ exportObj.basicCardData = function() {
       "Missile",
       "Torpedo",
       "Configuration",
-      "Force Power"]
+      "Force"]
       },
       {
         name: '"Blackout"',
@@ -6747,8 +6747,8 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Missile",
-      "Force Power",
-      "Force Power",
+      "Force",
+      "Force",
       "Title"]
       },
       {
@@ -7399,8 +7399,8 @@ exportObj.basicCardData = function() {
       "Crew",
       "Sensor",
       "Modification",
-      "Force Power",
-      "Force Power",
+      "Force",
+      "Force",
       "Torpedo",
       "Title"]
       },
@@ -7425,12 +7425,12 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Configuration",
       "Modification",
       "Modification",
       "Astromech",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Luminara Unduli",
@@ -7451,12 +7451,12 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Configuration",
       "Modification",
       "Modification",
       "Astromech",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Barriss Offee",
@@ -7477,7 +7477,7 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Configuration",
       "Modification",
       "Modification",
@@ -7502,7 +7502,7 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Configuration",
       "Modification",
       "Modification",
@@ -7526,7 +7526,7 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Configuration",
       "Modification",
       "Modification",
@@ -7554,12 +7554,12 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Configuration",
       "Modification",
       "Modification",
       "Astromech",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Trade Federation Drone",
@@ -8353,12 +8353,12 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Configuration",
       "Modification",
       "Modification",
       "Astromech",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Saesee Tiin",
@@ -8379,12 +8379,12 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Configuration",
       "Modification",
       "Modification",
       "Astromech",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Mace Windu",
@@ -8406,12 +8406,12 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Configuration",
       "Modification",
       "Modification",
       "Astromech",
-      "Force Power"]
+      "Force"]
       },
       {
         name: '"Kickback"',
@@ -8581,7 +8581,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Torpedo",
       "Sensor",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Bravo Flight Officer",
@@ -8866,8 +8866,8 @@ exportObj.basicCardData = function() {
       "Crew",
       "Sensor",
       "Modification",
-      "Force Power",
-      "Force Power",
+      "Force",
+      "Force",
       "Title"]
       },
       {
@@ -9441,8 +9441,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Torpedo",
       "Turret",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Shadow Squadron Veteran",
@@ -10375,7 +10375,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Missile",
       "Title",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Fifth Brother",
@@ -10398,7 +10398,7 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Missile",
       "Sensor",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: '"Vagabond"',
@@ -11434,7 +11434,7 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification"],
         slotsxwa: ["Talent",
-      "Force Power",
+      "Force",
       "Astromech",
       "Cannon",
       "Modification"]
@@ -11460,11 +11460,11 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification"],
         slotsxwa: ["Talent",
-      "Force Power",
+      "Force",
       "Astromech",
       "Cannon",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Shaak Ti",
@@ -11488,11 +11488,11 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification"],
         slotsxwa: ["Talent",
-      "Force Power",
+      "Force",
       "Astromech",
       "Cannon",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Aayla Secura",
@@ -11516,11 +11516,11 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification"],
         slotsxwa: ["Talent",
-      "Force Power",
+      "Force",
       "Astromech",
       "Cannon",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Obi-Wan Kenobi (Eta-2)",
@@ -11544,11 +11544,11 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification"],
         slotsxwa: ["Talent",
-      "Force Power",
+      "Force",
       "Astromech",
       "Cannon",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Anakin Skywalker (Eta-2)",
@@ -11573,11 +11573,11 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification"],
         slotsxwa: ["Talent",
-      "Force Power",
+      "Force",
       "Astromech",
       "Cannon",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Poe Dameron (HoH)",
@@ -11970,7 +11970,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Device",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Leema Kai",
@@ -12113,8 +12113,8 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Modification",
       "Missile",
       "Configuration",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Netrem Pollard",
@@ -12248,8 +12248,8 @@ exportObj.basicCardData = function() {
       "Missile",
       "Modification",
       "Configuration",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Captain Dobbs",
@@ -12743,8 +12743,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "Missile",
       "Configuration",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: '"Wrath"',
@@ -13379,8 +13379,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "Device",
       "Configuration",
-      "Force Power",
-      "Force Power",
+      "Force",
+      "Force",
       "Title"]
       },
       {
@@ -13623,8 +13623,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Configuration",
       "Title",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Q9-0",
@@ -13749,10 +13749,10 @@ exportObj.basicCardData = function() {
       "Talent",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Modification",
       "Astromech",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Saesee Tiin (Delta-7b)",
@@ -13772,10 +13772,10 @@ exportObj.basicCardData = function() {
         slots: ["Force",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Modification",
       "Astromech",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Mace Windu (Delta-7b)",
@@ -13796,10 +13796,10 @@ exportObj.basicCardData = function() {
       "Force",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Modification",
       "Astromech",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Anakin Skywalker (Delta-7b)",
@@ -13821,10 +13821,10 @@ exportObj.basicCardData = function() {
       "Talent",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Modification",
       "Astromech",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Luminara Unduli (Delta-7b)",
@@ -13844,10 +13844,10 @@ exportObj.basicCardData = function() {
         slots: ["Force",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Modification",
       "Astromech",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Barriss Offee (Delta-7b)",
@@ -13867,7 +13867,7 @@ exportObj.basicCardData = function() {
         slots: ["Force",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Modification",
       "Astromech"]
       },
@@ -13889,7 +13889,7 @@ exportObj.basicCardData = function() {
         slots: ["Force",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Modification",
       "Astromech"]
       },
@@ -13910,7 +13910,7 @@ exportObj.basicCardData = function() {
         slots: ["Force",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Modification",
       "Astromech"]
       },
@@ -13934,10 +13934,10 @@ exportObj.basicCardData = function() {
       "Talent",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Modification",
       "Astromech",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Cad Bane",
@@ -15258,7 +15258,7 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Modification",
       "Missile",
       "Configuration",
-      "Force Power"]
+      "Force"]
       },
       {
         name: '"Pops" Krail',
@@ -15356,7 +15356,7 @@ exportObj.basicCardData = function() {
       "Configuration"],
         slotsxwa: ["Modification",
       "Configuration",
-      "Force Power",
+      "Force",
       "Sensor"]
       },
       {
@@ -15737,7 +15737,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Device",
       "Title",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Durge (Separatist)",
@@ -15837,12 +15837,12 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Configuration",
       "Modification",
       "Modification",
       "Astromech",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Adi Gallia (Delta-7B)",
@@ -15863,10 +15863,10 @@ exportObj.basicCardData = function() {
       "Talent",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Force Power",
+        slotsxwa: ["Force",
       "Modification",
       "Astromech",
-      "Force Power"]
+      "Force"]
       },
       {
         name: '"Sicko"',
@@ -15922,11 +15922,11 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification"],
         slotsxwa: ["Talent",
-      "Force Power",
+      "Force",
       "Astromech",
       "Cannon",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: '"Slammer"',
