@@ -3854,6 +3854,7 @@ exportObj.basicCardData = function() {
       "Title"],
         slotsxwa: ["Cannon",
       "Gunner",
+      "Crew",
       "Illicit",
       "Modification",
       "Torpedo",
@@ -3882,6 +3883,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification"],
         slotsxwa: ["Cannon",
+      "Crew",
       "Gunner",
       "Illicit",
       "Modification",
@@ -3911,6 +3913,7 @@ exportObj.basicCardData = function() {
       "Title"],
         slotsxwa: ["Cannon",
       "Gunner",
+      "Crew",
       "Illicit",
       "Modification",
       "Torpedo",
@@ -3932,6 +3935,7 @@ exportObj.basicCardData = function() {
       "Cannon",
       "Illicit"],
         slotsxwa: ["Cannon",
+      "Crew",
       "Gunner",
       "Illicit",
       "Modification"]
@@ -10544,6 +10548,7 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Cannon",
       "Gunner",
+      "Crew",
       "Illicit",
       "Modification",
       "Torpedo"]
@@ -20275,7 +20280,7 @@ exportObj.basicCardData = function() {
         id: 211,
         faction: "Galactic Republic",
         slot: "Modification",
-        points: 1,
+        points: 2,
         restrictions: [["Action",
       "Lock"]]
       },
