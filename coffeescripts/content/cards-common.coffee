@@ -5487,6 +5487,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Cannon"
                 "Gunner"
+                "Crew"
                 "Illicit"
                 "Modification"
                 "Torpedo"
@@ -5521,6 +5522,7 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Cannon"
+                "Crew"
                 "Gunner"
                 "Illicit"
                 "Modification"
@@ -5556,6 +5558,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Cannon"
                 "Gunner"
+                "Crew"
                 "Illicit"
                 "Modification"
                 "Torpedo"
@@ -5583,6 +5586,7 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Cannon"
+                "Crew"
                 "Gunner"
                 "Illicit"
                 "Modification"
@@ -13811,6 +13815,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Cannon"
                 "Gunner"
+                "Crew"
                 "Illicit"
                 "Modification"
                 "Torpedo"
@@ -24956,7 +24961,7 @@ exportObj.basicCardData = ->
             id: 211
             faction: "Galactic Republic"
             slot: "Modification"
-            points: 1
+            points: 2
             restrictions: [
                 ["Action", "Lock"]
             ]
