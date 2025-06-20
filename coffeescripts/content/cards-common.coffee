@@ -5994,7 +5994,6 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Hardpoint"
                 "Modification"
                 "Talent"
                 "HardpointShip"
@@ -6021,7 +6020,6 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Hardpoint"
                 "Modification"
                 "Talent"
                 "HardpointShip"
@@ -6047,7 +6045,6 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Hardpoint"
                 "Modification"
                 "Talent"
                 "HardpointShip"
@@ -6075,7 +6072,6 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Hardpoint"
                 "Modification"
                 "Talent"
                 "HardpointShip"
@@ -6099,7 +6095,6 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Hardpoint"
                 "Modification"
                 "Talent"
                 "HardpointShip"
@@ -6124,7 +6119,6 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Hardpoint"
                 "Modification"
                 "HardpointShip"
 

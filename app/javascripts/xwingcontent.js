@@ -4262,8 +4262,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "HardpointShip"],
-        slotsxwa: ["Hardpoint",
-      "Modification",
+        slotsxwa: ["Modification",
       "Talent",
       "HardpointShip"]
       },
@@ -4283,8 +4282,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "HardpointShip"],
-        slotsxwa: ["Hardpoint",
-      "Modification",
+        slotsxwa: ["Modification",
       "Talent",
       "HardpointShip"]
       },
@@ -4303,8 +4301,7 @@ exportObj.basicCardData = function() {
         slots: ["Talent",
       "Modification",
       "HardpointShip"],
-        slotsxwa: ["Hardpoint",
-      "Modification",
+        slotsxwa: ["Modification",
       "Talent",
       "HardpointShip"]
       },
@@ -4325,8 +4322,7 @@ exportObj.basicCardData = function() {
       "Cannon",
       "Modification",
       "HardpointShip"],
-        slotsxwa: ["Hardpoint",
-      "Modification",
+        slotsxwa: ["Modification",
       "Talent",
       "HardpointShip"]
       },
@@ -4343,8 +4339,7 @@ exportObj.basicCardData = function() {
         loadoutxwa: 5,
         slots: ["Modification",
       "HardpointShip"],
-        slotsxwa: ["Hardpoint",
-      "Modification",
+        slotsxwa: ["Modification",
       "Talent",
       "HardpointShip"]
       },
@@ -4362,8 +4357,7 @@ exportObj.basicCardData = function() {
         loadoutxwa: 8,
         slots: ["Modification",
       "HardpointShip"],
-        slotsxwa: ["Hardpoint",
-      "Modification",
+        slotsxwa: ["Modification",
       "HardpointShip"]
       },
       {
