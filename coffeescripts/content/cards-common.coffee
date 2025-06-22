@@ -26672,7 +26672,7 @@ exportObj.basicCardData = ->
         {
             name: "Independent Calculations"
             id: 367
-            points: 2
+            points: 0
             standardized: true
             slot: "Modification"
             chassis: "Independent Calculations"
