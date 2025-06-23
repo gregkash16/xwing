@@ -4379,7 +4379,7 @@ exportObj.basicCardData = function() {
         skill: 1,
         points: 3,
         loadout: 8,
-        pointsxwa: 10,
+        pointsxwa: 8,
         loadoutxwa: 10,
         slots: ["Modification",
       "HardpointShip"],
