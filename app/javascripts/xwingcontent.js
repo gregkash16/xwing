@@ -5529,12 +5529,7 @@ exportObj.basicCardData = function() {
       "Turret",
       "Missile",
       "Sensor",
-      "Modification"],
-        slotsxwa: {"Gunner": "Gunner",
-      "Sensor": "Sensor",
-      "Turret": "Turret",
-      "Missile": "Missile",
-      "Modification": "Modification"}
+      "Modification"]
       },
       {
         name: "Onyx Squadron Scout",
@@ -22110,7 +22105,7 @@ exportObj.basicCardData = function() {
       {
         name: "Independent Calculations",
         id: 367,
-        points: 2,
+        points: 0,
         standardized: true,
         slot: "Modification",
         chassis: "Independent Calculations",
