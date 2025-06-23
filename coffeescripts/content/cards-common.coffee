@@ -5988,7 +5988,7 @@ exportObj.basicCardData = ->
             points: 4
             loadout: 12
             pointsxwa: 10
-            loadoutxwa: 9
+            loadoutxwa: 11
             slots: [
                 "Talent"
                 "Talent"
@@ -6016,7 +6016,7 @@ exportObj.basicCardData = ->
             points: 4
             loadout: 14
             pointsxwa: 10
-            loadoutxwa: 13
+            loadoutxwa: 14
             slots: [
                 "Talent"
                 "Illicit"
@@ -6026,6 +6026,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Modification"
                 "Talent"
+                "Illicit"
                 "HardpointShip"
 
             ]
@@ -6041,7 +6042,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 3
             loadout: 9
-            pointsxwa: 9
+            pointsxwa: 11
             loadoutxwa: 10
             slots: [
                 "Talent"
@@ -6051,6 +6052,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Modification"
                 "Talent"
+                "Illicit"
                 "HardpointShip"
 
             ]
@@ -6067,7 +6069,7 @@ exportObj.basicCardData = ->
             points: 3
             loadout: 12
             pointsxwa: 9
-            loadoutxwa: 12
+            loadoutxwa: 13
             keyword: ["Bounty Hunter"]
             slots: [
                 "Talent"
@@ -6078,6 +6080,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Modification"
                 "Talent"
+                "Illicit"
                 "HardpointShip"
 
             ]
@@ -6093,7 +6096,7 @@ exportObj.basicCardData = ->
             points: 3
             loadout: 3
             pointsxwa: 8
-            loadoutxwa: 5
+            loadoutxwa: 7
             slots: [
                 "Modification"
                 "HardpointShip"
@@ -6101,6 +6104,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Modification"
                 "Talent"
+                "Illicit"
                 "HardpointShip"
 
             ]
@@ -6117,13 +6121,14 @@ exportObj.basicCardData = ->
             points: 3
             loadout: 11
             pointsxwa: 8
-            loadoutxwa: 8
+            loadoutxwa: 10
             slots: [
                 "Modification"
                 "HardpointShip"
             ]
             slotsxwa: [
                 "Modification"
+                "Illicit"
                 "HardpointShip"
 
             ]
@@ -6139,7 +6144,7 @@ exportObj.basicCardData = ->
             skill: 1
             points: 3
             loadout: 8
-            pointsxwa: 8
+            pointsxwa: 10
             loadoutxwa: 10
             slots: [
                 "Modification"
@@ -6162,13 +6167,14 @@ exportObj.basicCardData = ->
             points: 3
             loadout: 4
             pointsxwa: 7
-            loadoutxwa: 3
+            loadoutxwa: 5
             slots: [
                 "Modification"
                 "HardpointShip"
             ]
             slotsxwa: [
                 "HardpointShip"
+                "Illicit"
                 "Modification"
 
             ]
@@ -13769,7 +13775,7 @@ exportObj.basicCardData = ->
             points: 3
             loadout: 9
             pointsxwa: 7
-            loadoutxwa: 5
+            loadoutxwa: 7
             keyword: ["Droid"]
             slots: [
                 "Modification"
