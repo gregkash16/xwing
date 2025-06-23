@@ -7554,14 +7554,6 @@ exportObj.basicCardData = ->
                 "Sensor"
                 "Modification"
             ]
-            slotsxwa: {
-                "Gunner"
-                "Sensor"
-                "Turret"
-                "Missile"
-                "Modification"
-            }
-
         }
         {
             name: "Onyx Squadron Scout"
