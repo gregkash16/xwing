@@ -893,6 +893,18 @@ exportObj.basicCardData = function() {
         actions: ["Focus", "R-Lock", "R-Barrel Roll", "R-Boost"],
         maneuvers: [[0, 0, 0, 0, 0, 0], [0, 1, 1, 1, 0, 0], [2, 2, 1, 2, 2, 0], [3, 2, 1, 2, 3, 0], [0, 0, 3, 0, 0, 0], [0, 0, 0, 0, 0, 3]]
       },
+      "BTA-NR2-W Y-wing": {
+        name: "BTA-NR2-W Y-wing",
+        factions: ["Resistance"],
+        attack: 2,
+        agility: 1,
+        hull: 4,
+        shields: 3,
+        chassis: "Intuitive Interface",
+        actions: ["Focus", "R-Lock", "R-Barrel Roll", "R-Boost"],
+        maneuvers: [[0, 0, 0, 0, 0, 0], [0, 1, 1, 1, 0, 0], [2, 2, 1, 2, 2, 0], [3, 2, 1, 2, 3, 0], [0, 0, 3, 0, 0, 0], [0, 0, 0, 0, 0, 3]],
+        autoequip: ["Wartime Loadout"]
+      },
       "TIE/wi Whisper Modified Interceptor": {
         name: "TIE/wi Whisper Modified Interceptor",
         factions: ["First Order"],
@@ -1431,7 +1443,7 @@ exportObj.basicCardData = function() {
         points: 5,
         loadout: 14,
         pointsxwa: 12,
-        loadoutxwa: 19,
+        loadoutxwa: 13,
         slots: ["Torpedo",
       "Missile",
       "Gunner",
@@ -1460,7 +1472,7 @@ exportObj.basicCardData = function() {
         points: 5,
         loadout: 16,
         pointsxwa: 12,
-        loadoutxwa: 16,
+        loadoutxwa: 11,
         slots: ["Torpedo",
       "Missile",
       "Missile",
@@ -1493,7 +1505,7 @@ exportObj.basicCardData = function() {
         points: 5,
         loadout: 7,
         pointsxwa: 11,
-        loadoutxwa: 18,
+        loadoutxwa: 12,
         slots: ["Torpedo",
       "Missile",
       "Gunner",
@@ -7407,6 +7419,7 @@ exportObj.basicCardData = function() {
       "Force",
       "Force",
       "Torpedo",
+      "Device",
       "Title"]
       },
       {
@@ -7576,7 +7589,7 @@ exportObj.basicCardData = function() {
         points: 2,
         loadout: 0,
         pointsxwa: 5,
-        loadoutxwa: 2,
+        loadoutxwa: 0,
         keyword: ["Droid"],
         slots: ["Modification",
       "Configuration"],
@@ -8288,14 +8301,15 @@ exportObj.basicCardData = function() {
         skill: 3,
         points: 3,
         loadout: 8,
-        pointsxwa: 5,
-        loadoutxwa: 0,
+        pointsxwa: 6,
+        loadoutxwa: 5,
         max_per_squad: 3,
         keyword: ["Droid"],
         slots: ["Cannon",
       "Configuration",
       "Modification"],
-        slotsxwa: ["Modification",
+        slotsxwa: ["Cannon",
+      "Modification",
       "Configuration"]
       },
       {
@@ -8640,16 +8654,15 @@ exportObj.basicCardData = function() {
         keyword: ["Droid"],
         points: 3,
         loadout: 8,
-        pointsxwa: 8,
-        loadoutxwa: 8,
+        pointsxwa: 9,
+        loadoutxwa: 9,
         slots: ["Device",
       "Device",
       "Modification",
       "Configuration"],
         slotsxwa: ["Modification",
       "Device",
-      "Device",
-      "Configuration"]
+      "Device"]
       },
       {
         name: "DBS-404",
@@ -8873,6 +8886,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Force",
       "Force",
+      "Device",
       "Title"]
       },
       {
@@ -8900,6 +8914,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Torpedo",
       "Tactical Relay",
+      "Device",
       "Title"]
       },
       {
@@ -8920,6 +8935,7 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Crew",
       "Crew",
       "Sensor",
+      "Device",
       "Modification"]
       },
       {
@@ -8931,16 +8947,15 @@ exportObj.basicCardData = function() {
         skill: 1,
         points: 3,
         loadout: 10,
-        pointsxwa: 7,
-        loadoutxwa: 11,
+        pointsxwa: 6,
+        loadoutxwa: 6,
         unique: true,
         keyword: ["Droid"],
         slots: ["Missile",
       "Modification",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Modification",
-      "Configuration",
+        slotsxwa: ["Configuration",
       "Missile",
       "Modification"]
       },
@@ -9410,7 +9425,7 @@ exportObj.basicCardData = function() {
         points: 4,
         loadout: 7,
         pointsxwa: 9,
-        loadoutxwa: 7,
+        loadoutxwa: 9,
         slots: ["Talent",
       "Talent"],
         slotsxwa: ["Talent",
@@ -10846,7 +10861,7 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Modification",
       "Missile",
-      "Missile"]
+      "Torpedo"]
       },
       {
         name: '"Hound"',
@@ -10876,7 +10891,7 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Gunner",
       "Modification",
-      "Missile",
+      "Torpedo",
       "Missile"]
       },
       {
@@ -10908,7 +10923,7 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Modification",
       "Missile",
-      "Missile",
+      "Torpedo",
       "Talent"]
       },
       {
@@ -10940,7 +10955,7 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Modification",
       "Missile",
-      "Missile",
+      "Torpedo",
       "Talent"]
       },
       {
@@ -11045,7 +11060,7 @@ exportObj.basicCardData = function() {
         points: 3,
         loadout: 3,
         pointsxwa: 9,
-        loadoutxwa: 4,
+        loadoutxwa: 6,
         slots: ["Talent",
       "Sensor",
       "Missile",
@@ -11072,7 +11087,7 @@ exportObj.basicCardData = function() {
         points: 3,
         loadout: 4,
         pointsxwa: 9,
-        loadoutxwa: 6,
+        loadoutxwa: 8,
         slots: ["Talent",
       "Sensor",
       "Missile",
@@ -11149,7 +11164,7 @@ exportObj.basicCardData = function() {
         points: 3,
         loadout: 4,
         pointsxwa: 8,
-        loadoutxwa: 3,
+        loadoutxwa: 5,
         slots: ["Talent",
       "Modification",
       "Configuration"],
@@ -11170,7 +11185,7 @@ exportObj.basicCardData = function() {
         points: 3,
         loadout: 3,
         pointsxwa: 9,
-        loadoutxwa: 6,
+        loadoutxwa: 8,
         slots: ["Talent",
       "Missile",
       "Modification",
@@ -11372,7 +11387,8 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Astromech",
+        slotsxwa: ["Talent",
+      "Astromech",
       "Configuration",
       "Modification"]
       },
@@ -12186,7 +12202,8 @@ exportObj.basicCardData = function() {
         slots: ["Missile",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Modification",
+        slotsxwa: ["Talent",
+      "Modification",
       "Configuration"]
       },
       {
@@ -14094,7 +14111,7 @@ exportObj.basicCardData = function() {
         points: 4,
         loadout: 11,
         pointsxwa: 9,
-        loadoutxwa: 8,
+        loadoutxwa: 10,
         chassis: "Networked Calculations",
         keyword: ["Droid"],
         slots: ["Cannon",
@@ -14118,7 +14135,7 @@ exportObj.basicCardData = function() {
         points: 4,
         loadout: 11,
         pointsxwa: 9,
-        loadoutxwa: 7,
+        loadoutxwa: 9,
         chassis: "Networked Calculations",
         keyword: ["Droid"],
         slots: ["Cannon",
@@ -14142,7 +14159,7 @@ exportObj.basicCardData = function() {
         points: 4,
         loadout: 12,
         pointsxwa: 10,
-        loadoutxwa: 9,
+        loadoutxwa: 11,
         chassis: "Networked Calculations",
         keyword: ["Droid"],
         slots: ["Cannon",
@@ -14165,7 +14182,7 @@ exportObj.basicCardData = function() {
         points: 4,
         loadout: 10,
         pointsxwa: 10,
-        loadoutxwa: 8,
+        loadoutxwa: 10,
         chassis: "Networked Calculations",
         keyword: ["Droid"],
         slots: ["Cannon",
@@ -14189,7 +14206,7 @@ exportObj.basicCardData = function() {
         points: 4,
         loadout: 6,
         pointsxwa: 9,
-        loadoutxwa: 9,
+        loadoutxwa: 11,
         chassis: "Networked Calculations",
         keyword: ["Droid"],
         slots: ["Cannon",
@@ -15690,7 +15707,7 @@ exportObj.basicCardData = function() {
         points: 4,
         loadout: 12,
         pointsxwa: 10,
-        loadoutxwa: 7,
+        loadoutxwa: 9,
         chassis: "Modified for Organics",
         keyword: ["Bounty Hunter"],
         slots: ["Talent",
@@ -15786,8 +15803,8 @@ exportObj.basicCardData = function() {
         charge: 3,
         points: 2,
         loadout: 5,
-        pointsxwa: 7,
-        loadoutxwa: 10,
+        pointsxwa: 6,
+        loadoutxwa: 3,
         keyword: ["Droid"],
         slots: ["Missile",
       "Modification",
@@ -15902,7 +15919,7 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Gunner",
       "Modification",
-      "Missile",
+      "Torpedo",
       "Missile"],
         applies_condition: 'Sickening Maneuver'.canonicalize()
       },
@@ -18785,7 +18802,7 @@ exportObj.basicCardData = function() {
         id: 57,
         slot: "Crew",
         points: 3,
-        pointsxwa: 5,
+        pointsxwa: 6,
         unique: true,
         faction: "Rebel Alliance"
       },
@@ -19050,7 +19067,7 @@ exportObj.basicCardData = function() {
         id: 86,
         slot: "Gunner",
         points: 6,
-        pointsxwa: 5
+        pointsxwa: 7
       },
       {
         name: "Luke Skywalker",
@@ -19197,7 +19214,7 @@ exportObj.basicCardData = function() {
         id: 102,
         slot: "Missile",
         points: 8,
-        pointsxwa: 6,
+        pointsxwa: 7,
         attackbull: 5,
         range: `1-2`,
         rangebonus: true,
@@ -20257,7 +20274,7 @@ exportObj.basicCardData = function() {
         rangebonus: true,
         charge: 1,
         points: 4,
-        pointsxwa: 2,
+        pointsxwa: 3,
         restrictions: [["Action",
       "Calculate"]],
         restrictionsxwa: [["Action",
@@ -20272,7 +20289,7 @@ exportObj.basicCardData = function() {
         faction: "Galactic Republic",
         slot: "Talent",
         points: 3,
-        pointsxwa: 5,
+        pointsxwa: 3,
         restrictions: [["Keyword",
       "Clone"]]
       },
@@ -20436,7 +20453,7 @@ exportObj.basicCardData = function() {
         charge: 1,
         max_per_squad: 3,
         points: 2,
-        pointsxwa: 4,
+        pointsxwa: 3,
         applies_condition: `Buzz Droid Swarm`.canonicalize()
       },
       {
@@ -20586,7 +20603,7 @@ exportObj.basicCardData = function() {
         slot: "Tactical Relay",
         solitary: true,
         faction: "Separatist Alliance",
-        points: 6
+        points: 5
       },
       {
         name: "Passive Sensors",
