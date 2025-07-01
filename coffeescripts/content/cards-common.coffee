@@ -16225,6 +16225,44 @@ exportObj.basicCardData = ->
         }
 
         {
+            name: "Zorii Bliss"
+            id: 4772
+            xws_name: "zoriibliss-wartime",
+            unique: true
+            faction: "Resistance"
+            ship: "BTA-NR2-W Y-wing"
+            skill: 5
+            points: 4
+            loadout: 9
+            pointsxwa: 12
+            loadoutxwa: 20
+            charge: 1
+            recurring: 1
+            slots: [
+                "Talent"
+                "Tech"
+                "Turret"
+                "Astromech"
+                "Device"
+                "Modification"
+                "Illicit"
+                "Configuration"
+            ]
+            slotsxwa: [
+                "Astromech"
+                "Turret"
+                "Modification"
+                "Modification"
+                "Tech"
+                "Device"
+                "Talent"
+                "Illicit"
+                "Configuration"
+
+            ]
+        }
+
+        {
             name: "Teza Nasz"
             id: 478
             xws_name: "tezanasz",
@@ -16255,6 +16293,42 @@ exportObj.basicCardData = ->
                 "Tech"
                 "Device"
                 "Talent"
+
+            ]
+        }
+
+        {
+            name: "Teza Nasz"
+            id: 4781
+            xws_name: "tezanasz-wartime",
+            unique: true
+            faction: "Resistance"
+            ship: "BTA-NR2-W Y-wing"
+            skill: 4
+            points: 4
+            loadout: 12
+            pointsxwa: 11
+            loadoutxwa: 18
+            slots: [
+                "Talent"
+                "Tech"
+                "Missile"
+                "Turret"
+                "Astromech"
+                "Device"
+                "Modification"
+                "Modification"
+                "Configuration"
+            ]
+            slotsxwa: [
+                "Astromech"
+                "Turret"
+                "Modification"
+                "Modification"
+                "Tech"
+                "Device"
+                "Talent"
+                "Configuration"
 
             ]
         }
@@ -16295,6 +16369,41 @@ exportObj.basicCardData = ->
         }
 
         {
+            name: "Wilsa Teshlo"
+            id: 4791
+            xws_name: "wilsateshlo-wartime",
+            unique: true
+            faction: "Resistance"
+            ship: "BTA-NR2-W Y-wing"
+            skill: 4
+            points: 4
+            loadout: 12
+            pointsxwa: 11
+            loadoutxwa: 17
+            slots: [
+                "Tech"
+                "Turret"
+                "Missile"
+                "Astromech"
+                "Device"
+                "Device"
+                "Modification"
+                "Modification"
+                "Configuration"
+            ]
+            slotsxwa: [
+                "Astromech"
+                "Turret"
+                "Modification"
+                "Modification"
+                "Tech"
+                "Device"
+                "Talent"
+                "Configuration"              
+            ]
+        }
+
+        {
             name: "Shasa Zaro"
             id: 480
             xws_name: "shasazaro",
@@ -16324,6 +16433,39 @@ exportObj.basicCardData = ->
                 "Device"
                 "Talent"
 
+            ]
+        }
+
+        {
+            name: "Shasa Zaro"
+            id: 4801
+            xws_name: "shasazaro-wartime",
+            unique: true
+            faction: "Resistance"
+            ship: "BTA-NR2-W Y-wing"
+            skill: 3
+            points: 3
+            loadout: 9
+            pointsxwa: 11
+            loadoutxwa: 15
+            slots: [
+                "Tech"
+                "Turret"
+                "Astromech"
+                "Device"
+                "Modification"
+                "Modification"
+                "Configuration"
+            ]
+            slotsxwa: [
+                "Astromech"
+                "Turret"
+                "Modification"
+                "Modification"
+                "Tech"
+                "Device"
+                "Talent"
+                "Configuration"
             ]
         }
 
@@ -16361,6 +16503,39 @@ exportObj.basicCardData = ->
         }
 
         {
+            name: "Lega Fossang"
+            id: 4811
+            xws_name: "legafossang-wartime",
+            unique: true
+            faction: "Resistance"
+            ship: "BTA-NR2-W Y-wing"
+            skill: 3
+            points: 3
+            loadout: 7
+            pointsxwa: 10
+            loadoutxwa: 10
+            slots: [
+                "Tech"
+                "Turret"
+                "Missile"
+                "Astromech"
+                "Device"
+                "Modification"
+                "Modification"
+                "Configuration"
+            ]
+            slotsxwa: [
+                "Astromech"
+                "Turret"
+                "Modification"
+                "Modification"
+                "Tech"
+                "Device"
+                "Configuration"
+            ]
+        }
+
+        {
             name: "Aftab Ackbar"
             id: 482
             xws_name: "aftabackbar",
@@ -16390,6 +16565,39 @@ exportObj.basicCardData = ->
                 "Tech"
                 "Device"
 
+            ]
+        }
+
+        {
+            name: "Aftab Ackbar"
+            id: 4821
+            xws_name: "aftabackbar-wartime",
+            unique: true
+            faction: "Resistance"
+            ship: "BTA-NR2-W Y-wing"
+            skill: 2
+            points: 4
+            loadout: 13
+            pointsxwa: 10
+            loadoutxwa: 13
+            slots: [
+                "Talent"
+                "Talent"
+                "Tech"
+                "Turret"
+                "Astromech"
+                "Device"
+                "Modification"
+                "Configuration"
+            ]
+            slotsxwa: [
+                "Astromech"
+                "Turret"
+                "Modification"
+                "Modification"
+                "Tech"
+                "Device"
+                "Configuration"
             ]
         }
 
@@ -16428,6 +16636,40 @@ exportObj.basicCardData = ->
         }
 
         {
+            name: "Corus Kapellim"
+            id: 4831
+            xws_name: "coruskapellim-wartime",
+            unique: true
+            faction: "Resistance"
+            ship: "BTA-NR2-W Y-wing"
+            skill: 1
+            points: 3
+            loadout: 8
+            pointsxwa: 11
+            loadoutxwa: 18
+            slots: [
+                "Tech"
+                "Turret"
+                "Astromech"
+                "Device"
+                "Modification"
+                "Modification"
+                "Illicit"
+                "Configuration"
+            ]
+            slotsxwa: [
+                "Astromech"
+                "Turret"
+                "Modification"
+                "Modification"
+                "Tech"
+                "Device"
+                "Illicit"
+                "Configuration"
+            ]
+        }
+
+        {
             name: "C'ai Threnalli (Y-Wing)"
             id: 484
             xws_name: "caithrenalli-btanr2ywing",
@@ -16458,6 +16700,40 @@ exportObj.basicCardData = ->
                 "Device"
                 "Talent"
 
+            ]
+        }
+
+        {
+            name: "C'ai Threnalli (Y-Wing)"
+            id: 484
+            xws_name: "caithrenalli-wartime",
+            unique: true
+            faction: "Resistance"
+            ship: "BTA-NR2-W Y-wing"
+            skill: 2
+            points: 4
+            loadout: 10
+            pointsxwa: 10
+            loadoutxwa: 12
+            slots: [
+                "Talent"
+                "Tech"
+                "Turret"
+                "Astromech"
+                "Device"
+                "Modification"
+                "Modification"
+                "Configuration"
+            ]
+            slotsxwa: [
+                "Astromech"
+                "Turret"
+                "Modification"
+                "Modification"
+                "Tech"
+                "Device"
+                "Talent"
+                "Configuration"
             ]
         }
 
@@ -16493,6 +16769,37 @@ exportObj.basicCardData = ->
         }
 
         {
+            name: "New Republic Patrol"
+            id: 4851
+            xws_name: "newrepublicpatrol-wartime",
+            faction: "Resistance"
+            ship: "BTA-NR2-W Y-wing"
+            skill: 3
+            points: 4
+            loadout: 7
+            pointsxwa: 10
+            loadoutxwa: 11
+            slots: [
+                "Talent"
+                "Tech"
+                "Turret"
+                "Astromech"
+                "Device"
+                "Modification"
+                "Configuration"
+            ]
+            slotsxwa: [
+                "Astromech"
+                "Turret"
+                "Modification"
+                "Modification"
+                "Tech"
+                "Device"
+                "Configuration"
+            ]
+        }
+
+        {
             name: "Kijimi Spice Runner"
             id: 486
             xws_name: "kijimispicerunner",
@@ -16521,6 +16828,38 @@ exportObj.basicCardData = ->
                 "Device"
                 "Illicit"
 
+            ]
+        }
+
+        {
+            name: "Kijimi Spice Runner"
+            id: 4861
+            xws_name: "kijimispicerunner-wartime",
+            faction: "Resistance"
+            ship: "BTA-NR2-W Y-wing"
+            skill: 2
+            points: 4
+            loadout: 4
+            pointsxwa: 11
+            loadoutxwa: 16
+            slots: [
+                "Tech"
+                "Turret"
+                "Astromech"
+                "Device"
+                "Modification"
+                "Illicit"
+                "Configuration"
+            ]
+            slotsxwa: [
+                "Astromech"
+                "Turret"
+                "Modification"
+                "Modification"
+                "Tech"
+                "Device"
+                "Illicit"
+                "Configuration"
             ]
         }
 
