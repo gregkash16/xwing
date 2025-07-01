@@ -893,18 +893,6 @@ exportObj.basicCardData = function() {
         actions: ["Focus", "R-Lock", "R-Barrel Roll", "R-Boost"],
         maneuvers: [[0, 0, 0, 0, 0, 0], [0, 1, 1, 1, 0, 0], [2, 2, 1, 2, 2, 0], [3, 2, 1, 2, 3, 0], [0, 0, 3, 0, 0, 0], [0, 0, 0, 0, 0, 3]]
       },
-      "BTA-NR2-W Y-wing": {
-        name: "BTA-NR2-W Y-wing",
-        factions: ["Resistance"],
-        attack: 2,
-        agility: 1,
-        hull: 4,
-        shields: 3,
-        chassis: "Intuitive Interface",
-        actions: ["Focus", "R-Lock", "R-Barrel Roll", "R-Boost"],
-        maneuvers: [[0, 0, 0, 0, 0, 0], [0, 1, 1, 1, 0, 0], [2, 2, 1, 2, 2, 0], [3, 2, 1, 2, 3, 0], [0, 0, 3, 0, 0, 0], [0, 0, 0, 0, 0, 3]],
-        autoequip: ["Wartime Loadout"]
-      },
       "TIE/wi Whisper Modified Interceptor": {
         name: "TIE/wi Whisper Modified Interceptor",
         factions: ["First Order"],
