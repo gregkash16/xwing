@@ -2637,8 +2637,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 5
             loadout: 18
-            pointsxwa: 14
-            loadoutxwa: 14
+            pointsxwa: 15
+            loadoutxwa: 18
             slots: [
                 "Talent"
                 "Tech"
@@ -3246,8 +3246,8 @@ exportObj.basicCardData = ->
             skill: 6
             points: 7
             loadout: 15
-            pointsxwa: 22
-            loadoutxwa: 25
+            pointsxwa: 21
+            loadoutxwa: 23
             slots: [
                 "Talent"
                 "Missile"
@@ -4135,7 +4135,7 @@ exportObj.basicCardData = ->
             points: 3
             loadout: 5
             pointsxwa: 8
-            loadoutxwa: 7
+            loadoutxwa: 6
             keyword: ["Droid","Spectre"]
             slots: [
                 "Crew"
@@ -4686,8 +4686,8 @@ exportObj.basicCardData = ->
             skill: 6
             points: 5
             loadout: 10
-            pointsxwa: 16
-            loadoutxwa: 20
+            pointsxwa: 15
+            loadoutxwa: 18
             slots: [
                 "Talent"
                 "Missile"
@@ -9892,8 +9892,8 @@ exportObj.basicCardData = ->
             keyword: ["Dark Side","Sith"]
             points: 6
             loadout: 14
-            pointsxwa: 17
-            loadoutxwa: 14
+            pointsxwa: 18
+            loadoutxwa: 20
             slots: [
                 "Force"
                 "Force"
@@ -11724,7 +11724,7 @@ exportObj.basicCardData = ->
             points: 7
             loadout: 24
             pointsxwa: 15
-            loadoutxwa: 8
+            loadoutxwa: 10
             keyword: ["Dark Side","Sith"]
             slots: [
                 "Force"
