@@ -8086,7 +8086,7 @@ exportObj.basicCardData = ->
             points: 7
             loadout: 20
             pointsxwa: 20
-            loadoutxwa: 24
+            loadoutxwa: 27
             slots: [
                 "Talent"
                 "Torpedo"
@@ -19139,8 +19139,8 @@ exportObj.basicCardData = ->
             skill: 3
             points: 3
             loadout: 10
-            pointsxwa: 7
-            loadoutxwa: 5
+            pointsxwa: 8
+            loadoutxwa: 9
             slots: [
                 "Talent"
                 "Cannon"
@@ -22520,7 +22520,7 @@ exportObj.basicCardData = ->
             id: 14
             slot: "Crew"
             points: 16
-            pointsxwa: 25
+            pointsxwa: 50
             unique: true
             faction: "Galactic Empire"
         }
