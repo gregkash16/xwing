@@ -2482,8 +2482,6 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Modification"
                 "Modification"
-                "Talent"
-
             ]
             applies_condition: 'Suppressive Fire'.canonicalize()
         }

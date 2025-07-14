@@ -1416,8 +1416,7 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Talent",
       "Modification",
-      "Modification",
-      "Talent"],
+      "Modification"],
         applies_condition: 'Suppressive Fire'.canonicalize()
       },
       {
