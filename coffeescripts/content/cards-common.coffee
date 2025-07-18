@@ -4697,6 +4697,7 @@ exportObj.basicCardData = ->
             xws_name: "freightercaptain",
             faction: "Scum and Villainy"
             ship: "Customized YT-1300 Light Freighter"
+            max_per_squad: 3
             skill: 1
             points: 5
             loadout: 6
@@ -5459,6 +5460,7 @@ exportObj.basicCardData = ->
             xws_name: "contractedscout",
             faction: "Scum and Villainy"
             ship: "JumpMaster 5000"
+            max_per_squad: 3
             skill: 2
             points: 5
             loadout: 4
@@ -23049,6 +23051,7 @@ exportObj.basicCardData = ->
             name: "Proximity Mines"
             id: 70
             slot: "Device"
+            max_per_squad: 3
             points: 10
             pointsxwa: 9
             charge: 2
@@ -23088,6 +23091,7 @@ exportObj.basicCardData = ->
             name: "Sense"
             id: 75
             slot: "Force"
+            isUnique: true
             points: 6
             pointsxwa: 10
         }
@@ -23191,6 +23195,7 @@ exportObj.basicCardData = ->
             name: "Hotshot Gunner"
             id: 86
             slot: "Gunner"
+            max_per_squad: 2
             points: 6
             pointsxwa: 7
         }
@@ -23225,6 +23230,7 @@ exportObj.basicCardData = ->
             name: "Veteran Turret Gunner"
             id: 90
             slot: "Gunner"
+            max_per_squad: 3
             points: 3
             pointsxwa: 6
             restrictions: [
@@ -23282,6 +23288,7 @@ exportObj.basicCardData = ->
             name: "Barrage Rockets"
             id: 97
             slot: "Missile"
+            max_per_squad: 3
             points: 6
             pointsxwa: 8
             attack: 3
@@ -23319,6 +23326,7 @@ exportObj.basicCardData = ->
             name: "Homing Missiles"
             id: 100
             slot: "Missile"
+            max_per_squad: 2
             points: 5
             attack: 4
             range: """2-3"""
@@ -23340,6 +23348,7 @@ exportObj.basicCardData = ->
             name: "Proton Rockets"
             id: 102
             slot: "Missile"
+            max_per_squad: 3
             points: 8
             pointsxwa: 7
             attackbull: 5
@@ -23438,6 +23447,7 @@ exportObj.basicCardData = ->
         {
             name: "Trajectory Simulator"
             id: 114
+            max_per_squad: 2
             slot: "Sensor"
             points: 8
             pointsxwa: 10
@@ -23516,6 +23526,7 @@ exportObj.basicCardData = ->
             slot: "Talent"
             points: 3
             pointsxwa: 7
+            isUnique: true
             restrictionsxwa: [
                 ["isUnique", true]
                 ["Base", "Small", "Medium"]
@@ -23525,6 +23536,7 @@ exportObj.basicCardData = ->
             name: "Juke"
             id: 123
             slot: "Talent"
+            max_per_squad: 2
             points: 7
             restrictions: [
                 ["Base", "Small", "Medium"]
@@ -23597,6 +23609,7 @@ exportObj.basicCardData = ->
             name: "Swarm Tactics"
             id: 132
             slot: "Talent"
+            max_per_squad: 3
             points: 5
             pointsxwa: 7
         }
@@ -23631,6 +23644,7 @@ exportObj.basicCardData = ->
             name: "Proton Torpedoes"
             id: 136
             slot: "Torpedo"
+            max_per_squad: 3
             points: 12
             pointsxwa: 14
             attack: 4
@@ -24592,6 +24606,7 @@ exportObj.basicCardData = ->
         {
             name: "Autoblasters"
             id: 232
+            max_per_squad: 3
             slot: "Cannon"
             points: 7
             attack: 2
@@ -24753,6 +24768,7 @@ exportObj.basicCardData = ->
             name: "Ensnare"
             id: 248
             slot: "Talent"
+            max_per_squad: 2
             points: 10
             ship: "Nantex-Class Starfighter"
         }
@@ -25916,6 +25932,7 @@ exportObj.basicCardData = ->
         {
             name: "Suppressive Gunner"
             id: 350
+            max_per_squad: 2
             slot: "Gunner"
             points: 7
         }
@@ -26111,6 +26128,7 @@ exportObj.basicCardData = ->
         {
             name: "False Transponder Codes"
             id: 369
+            max_per_squad: 3
             points: 5
             charge: 1
             slot: "Illicit"
@@ -27296,6 +27314,7 @@ exportObj.basicCardData = ->
             name: "Homing Torpedoes"
             id: 471
             slot: "Torpedo"
+            max_per_squad: 2
             points: 5
             pointsxwa: 4
             attack: 4
