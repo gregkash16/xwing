@@ -25673,7 +25673,7 @@ exportObj.standardShipInclusions = [
     faction: 'Resistance'
   },
   {
-    name: 'BTA-NR2W Y-Wing',
+    name: 'BTA-NR2W Y-wing',
     faction: 'Resistance'
   },
   {
