@@ -15759,7 +15759,7 @@ exportObj.basicCardData = ->
 
         {
             name: "Zorii Bliss (Wartime)"
-            id: 801
+            id: 477
             xws_name: "zoriibliss-wartime",
             unique: true
             faction: "Resistance"
