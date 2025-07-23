@@ -29390,7 +29390,7 @@ exportObj.standardShipInclusions = [
     {name: 'T-70 X-wing', faction: 'Resistance'}
     {name: 'RZ-2 A-wing', faction: 'Resistance'}
     {name: 'BTA-NR2 Y-wing', faction: 'Resistance'}
-    {name: 'BTA-NR2W Y-wing', faction: 'Resistance'}
+    {name: 'BTA-NR2W Y-Wing', faction: 'Resistance'}
     {name: 'Resistance Transport', faction: 'Resistance'}
     {name: 'Resistance Transport Pod', faction: 'Resistance'}
     {name: 'Scavenged YT-1300', faction: 'Resistance'}
