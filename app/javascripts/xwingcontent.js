@@ -12496,7 +12496,6 @@ exportObj.basicCardData = function() {
       {
         name: "Zorii Bliss (Wartime)",
         xws_name: "zoriibliss-wartime",
-        id: 477,
         unique: true,
         faction: "Resistance",
         ship: "BTA-NR2W Y-wing",
