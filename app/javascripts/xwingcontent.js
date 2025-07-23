@@ -893,6 +893,18 @@ exportObj.basicCardData = function() {
         actions: ["Focus", "R-Lock", "R-Barrel Roll", "R-Boost"],
         maneuvers: [[0, 0, 0, 0, 0, 0], [0, 1, 1, 1, 0, 0], [2, 2, 1, 2, 2, 0], [3, 2, 1, 2, 3, 0], [0, 0, 3, 0, 0, 0], [0, 0, 0, 0, 0, 3]]
       },
+      "BTA-NR2W Y-wing": {
+        name: "BTA-NR2W Y-wing",
+        factions: ["Resistance"],
+        attack: 2,
+        agility: 1,
+        hull: 4,
+        shields: 3,
+        chassis: "Intuitive Interface",
+        actions: ["Focus", "R-Lock", "R-Barrel Roll", "R-Boost"],
+        maneuvers: [[0, 0, 0, 0, 0, 0], [0, 1, 1, 1, 0, 0], [2, 2, 1, 2, 2, 0], [3, 2, 1, 2, 3, 0], [0, 0, 3, 0, 0, 0], [0, 0, 0, 0, 0, 3]],
+        autoequip: ["Wartime Loadout"]
+      },
       "TIE/wi Whisper Modified Interceptor": {
         name: "TIE/wi Whisper Modified Interceptor",
         factions: ["First Order"],
@@ -12482,6 +12494,37 @@ exportObj.basicCardData = function() {
       "Modification"]
       },
       {
+        name: "Zorii Bliss (Wartime)",
+        id: 477,
+        xws_name: "zoriibliss-wartime",
+        unique: true,
+        faction: "Resistance",
+        ship: "BTA-NR2W Y-wing",
+        skill: 5,
+        points: 4,
+        loadout: 9,
+        pointsxwa: 9,
+        loadoutxwa: 10,
+        charge: 1,
+        recurring: 1,
+        slots: ["Talent",
+      "Tech",
+      "Turret",
+      "Astromech",
+      "Device",
+      "Modification",
+      "Illicit",
+      "Configuration"],
+        slotsxwa: ["Talent",
+      "Turret",
+      "Tech",
+      "Astromech",
+      "Device",
+      "Illicit",
+      "Modification",
+      "Modification"]
+      },
+      {
         name: "Teza Nasz",
         id: 478,
         xws_name: "tezanasz",
@@ -22648,7 +22691,7 @@ exportObj.basicCardData = function() {
         slot: "Configuration",
         points: 2,
         pointsxwa: 0,
-        ship: "BTA-NR2 Y-wing",
+        ship: "BTA-NR2W Y-wing",
         standardized: true,
         standardizedxwa: false,
         chassis: "Devastating Barrage",
@@ -25627,6 +25670,10 @@ exportObj.standardShipInclusions = [
   },
   {
     name: 'BTA-NR2 Y-wing',
+    faction: 'Resistance'
+  },
+  {
+    name: 'BTA-NR2W Y-Wing',
     faction: 'Resistance'
   },
   {
