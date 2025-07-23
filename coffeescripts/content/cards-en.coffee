@@ -1566,6 +1566,9 @@ exportObj.cardLoaders.English = () ->
            text: """After you execute a red basic maneuver or perform a red action, if you have exactly 1 stress token, you may gain 1 strain token to remove that stress token. """
         "Zorii Bliss":
            text: """After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 %CHARGE% to perform that action, treating it as red."""
+        "Zorii Bliss (Wartime)":
+           display_name: """Zorii Bliss"""
+           text: """After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 %CHARGE% to perform that action, treating it as red."""
         "Kylo Ren (TIE Whisper)":
            display_name: """Kylo Ren"""
            text: """Before an enemy ship in your %BULLSEYEARC% is dealt a facedown damage card, you may spend 1 %FORCE%. If you do, that damage card is dealt faceup instead. """
