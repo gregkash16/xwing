@@ -3414,7 +3414,7 @@ exportObj.basicCardData = function() {
         skill: 5,
         points: 5,
         loadout: 10,
-        pointsxwa: 2,
+        pointsxwa: 12,
         loadoutxwa: 8,
         keyword: ["Mandalorian"],
         slots: ["Talent",
