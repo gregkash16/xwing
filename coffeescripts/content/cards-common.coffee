@@ -4598,7 +4598,7 @@ exportObj.basicCardData = ->
             skill: 6
             points: 5
             loadout: 10
-            pointsxwa: 15
+            pointsxwa: 14
             loadoutxwa: 18
             slots: [
                 "Talent"
@@ -4634,8 +4634,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 5
             loadout: 10
-            pointsxwa: 14
-            loadoutxwa: 20
+            pointsxwa: 13
+            loadoutxwa: 16
             slots: [
                 "Talent"
                 "Missile"
@@ -4697,12 +4697,12 @@ exportObj.basicCardData = ->
             xws_name: "freightercaptain"
             faction: "Scum and Villainy"
             ship: "Customized YT-1300 Light Freighter"
-            max_per_squad: 3
+            max_per_squad: 1
             skill: 1
             points: 5
             loadout: 6
-            pointsxwa: 13
-            loadoutxwa: 16
+            pointsxwa: 11
+            loadoutxwa: 9
             slots: [
                 "Missile"
                 "Gunner"
@@ -4820,8 +4820,8 @@ exportObj.basicCardData = ->
             skill: 6
             points: 6
             loadout: 12
-            pointsxwa: 14
-            loadoutxwa: 9
+            pointsxwa: 12
+            loadoutxwa: 3
             keyword: ["Mandalorian"]
             slots: [
                 "Talent"
@@ -4849,8 +4849,8 @@ exportObj.basicCardData = ->
             skill: 5
             points: 5
             loadout: 10
-            pointsxwa: 13
-            loadoutxwa: 12
+            pointsxwa: 2
+            loadoutxwa: 8
             keyword: ["Mandalorian"]
             slots: [
                 "Talent"
@@ -4904,8 +4904,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 4
             loadout: 7
-            pointsxwa: 12
-            loadoutxwa: 12
+            pointsxwa: 11
+            loadoutxwa: 8
             keyword: ["Mandalorian"]
             slots: [
                 "Talent"
@@ -5460,12 +5460,12 @@ exportObj.basicCardData = ->
             xws_name: "contractedscout"
             faction: "Scum and Villainy"
             ship: "JumpMaster 5000"
-            max_per_squad: 3
+            max_per_squad: 2
             skill: 2
             points: 5
             loadout: 4
-            pointsxwa: 11
-            loadoutxwa: 11
+            pointsxwa: 10
+            loadoutxwa: 8
             slots: [
                 "Torpedo"
                 "Cannon"
@@ -5490,8 +5490,8 @@ exportObj.basicCardData = ->
             skill: 5
             points: 5
             loadout: 12
-            pointsxwa: 12
-            loadoutxwa: 15
+            pointsxwa: 11
+            loadoutxwa: 8
             slots: [
                 "Talent"
                 "Missile"
@@ -5520,8 +5520,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 4
             loadout: 8
-            pointsxwa: 11
-            loadoutxwa: 12
+            pointsxwa: 10
+            loadoutxwa: 10
             keyword: ["Bounty Hunter"]
             slots: [
                 "Talent"
@@ -5551,8 +5551,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 4
             loadout: 10
-            pointsxwa: 11
-            loadoutxwa: 14
+            pointsxwa: 10
+            loadoutxwa: 10
             keyword: ["Bounty Hunter"]
             slots: [
                 "Talent"
@@ -5609,8 +5609,8 @@ exportObj.basicCardData = ->
             skill: 3
             points: 4
             loadout: 3
-            pointsxwa: 11
-            loadoutxwa: 16
+            pointsxwa: 10
+            loadoutxwa: 11
             slots: [
                 "Talent"
             ]
@@ -5657,8 +5657,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 8
             loadout: 20
-            pointsxwa: 18
-            loadoutxwa: 20
+            pointsxwa: 16
+            loadoutxwa: 16
             force: 2
             keyword: ["Bounty Hunter","Dark Side"]
             slots: [
@@ -5688,8 +5688,8 @@ exportObj.basicCardData = ->
             skill: 5
             points: 7
             loadout: 15
-            pointsxwa: 18
-            loadoutxwa: 18
+            pointsxwa: 16
+            loadoutxwa: 15
             keyword: ["Bounty Hunter","Mandalorian"]
             slots: [
                 "Talent"
@@ -5719,8 +5719,8 @@ exportObj.basicCardData = ->
             skill: 3
             points: 6
             loadout: 9
-            pointsxwa: 17
-            loadoutxwa: 20
+            pointsxwa: 15
+            loadoutxwa: 14
             keyword: ["Bounty Hunter","Mandalorian"]
             slots: [
                 "Talent"
@@ -5750,7 +5750,7 @@ exportObj.basicCardData = ->
             points: 6
             loadout: 6
             pointsxwa: 14
-            loadoutxwa: 7
+            loadoutxwa: 10
             keyword: ["Bounty Hunter"]
             slots: [
                 "Illicit"
@@ -5965,7 +5965,7 @@ exportObj.basicCardData = ->
             points: 3
             loadout: 3
             pointsxwa: 8
-            loadoutxwa: 7
+            loadoutxwa: 10
             slots: [
                 "Modification"
                 "HardpointShip"
@@ -6032,8 +6032,8 @@ exportObj.basicCardData = ->
             skill: 1
             points: 3
             loadout: 4
-            pointsxwa: 7
-            loadoutxwa: 5
+            pointsxwa: 6
+            loadoutxwa: 0
             slots: [
                 "Modification"
                 "HardpointShip"
@@ -6260,8 +6260,8 @@ exportObj.basicCardData = ->
             skill: 5
             points: 7
             loadout: 20
-            pointsxwa: 14
-            loadoutxwa: 14
+            pointsxwa: 13
+            loadoutxwa: 10
             keyword: ["Droid"]
             slots: [
                 "Talent"
@@ -6290,8 +6290,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 5
             loadout: 7
-            pointsxwa: 13
-            loadoutxwa: 16
+            pointsxwa: 12
+            loadoutxwa: 12
             slots: [
                 "Talent"
                 "Tech"
@@ -6319,8 +6319,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 5
             loadout: 10
-            pointsxwa: 11
-            loadoutxwa: 8
+            pointsxwa: 10
+            loadoutxwa: 6
             keyword: ["Bounty Hunter"]
             slots: [
                 "Talent"
@@ -6346,8 +6346,8 @@ exportObj.basicCardData = ->
             skill: 3
             points: 5
             loadout: 6
-            pointsxwa: 12
-            loadoutxwa: 11
+            pointsxwa: 11
+            loadoutxwa: 9
             slots: [
                 "Tech"
             ]
@@ -8087,7 +8087,7 @@ exportObj.basicCardData = ->
             skill: 5
             points: 7
             loadout: 20
-            pointsxwa: 20
+            pointsxwa: 19
             loadoutxwa: 27
             slots: [
                 "Talent"
@@ -8123,7 +8123,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 7
             loadout: 19
-            pointsxwa: 18
+            pointsxwa: 17
             loadoutxwa: 18
             slots: [
                 "Talent"
@@ -11813,7 +11813,7 @@ exportObj.basicCardData = ->
             points: 3
             loadout: 6
             pointsxwa: 6
-            loadoutxwa: 8
+            loadoutxwa: 6
             applies_condition: '''Compromising Intel'''.canonicalize()
             slots: [
                 "Tech"
@@ -11838,7 +11838,7 @@ exportObj.basicCardData = ->
             points: 2
             loadout: 4
             pointsxwa: 6
-            loadoutxwa: 9
+            loadoutxwa: 6
             keyword: ["Droid"]
             slots: [
                 "Tech"
@@ -13292,7 +13292,7 @@ exportObj.basicCardData = ->
             ship: "VT-49 Decimator"
             points: 7
             loadout: 22
-            pointsxwa: 18
+            pointsxwa: 17
             loadoutxwa: 16
             charge: 3
             slots: [
@@ -21920,7 +21920,7 @@ exportObj.basicCardData = ->
             ship: "T-70 X-wing"
             skill: 4
             points: 5
-            pointsxwa: 12
+            pointsxwa: 13
             loadoutxwa: 0
             chassis: "Adaptive S-Foils"
             ship_override:
@@ -22194,7 +22194,7 @@ exportObj.basicCardData = ->
             ship: "Customized YT-1300 Light Freighter"
             skill: 6
             points: 6
-            pointsxwa: 17
+            pointsxwa: 16
             loadoutxwa: 0
             charge: 1
             chassis: "Coaxium Injectors"
@@ -22320,7 +22320,7 @@ exportObj.basicCardData = ->
             ship: "Fang Fighter"
             skill: 6
             points: 6
-            pointsxwa: 15
+            pointsxwa: 14
             loadoutxwa: 0
             ship_override:
                 hull: 5
@@ -22364,7 +22364,7 @@ exportObj.basicCardData = ->
             ship: "G-1A Starfighter"
             skill: 3
             points: 5
-            pointsxwa: 13
+            pointsxwa: 12
             loadoutxwa: 0
             chassis: "Enduring Limitations"
             ship_override:
