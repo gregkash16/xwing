@@ -3205,8 +3205,8 @@ exportObj.basicCardData = ->
             skill: 6
             points: 7
             loadout: 15
-            pointsxwa: 21
-            loadoutxwa: 23
+            pointsxwa: 20
+            loadoutxwa: 21
             slots: [
                 "Talent"
                 "Missile"
@@ -6735,7 +6735,7 @@ exportObj.basicCardData = ->
             points: 5
             loadout: 7
             pointsxwa: 9
-            loadoutxwa: 12
+            loadoutxwa: 10
             slots: [
                 "Sensor"
                 "Cannon"
@@ -7708,8 +7708,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 5
             loadout: 9
-            pointsxwa: 11
-            loadoutxwa: 13
+            pointsxwa: 12
+            loadoutxwa: 15
             slots: [
                 "Talent"
                 "Talent"
@@ -7734,8 +7734,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 6
             loadout: 9
-            pointsxwa: 11
-            loadoutxwa: 10
+            pointsxwa: 12
+            loadoutxwa: 14
             slots: [
                 "Talent"
                 "Sensor"
@@ -7758,8 +7758,8 @@ exportObj.basicCardData = ->
             skill: 3
             points: 5
             loadout: 6
-            pointsxwa: 10
-            loadoutxwa: 9
+            pointsxwa: 11
+            loadoutxwa: 13
             slots: [
                 "Sensor"
                 "Gunner"
@@ -10933,7 +10933,7 @@ exportObj.basicCardData = ->
             points: 4
             loadout: 13
             pointsxwa: 8
-            loadoutxwa: 10
+            loadoutxwa: 12
             keyword: ["Clone"]
             slots: [
                 "Talent"
@@ -10959,8 +10959,8 @@ exportObj.basicCardData = ->
             skill: 3
             points: 3
             loadout: 8
-            pointsxwa: 9
-            loadoutxwa: 17
+            pointsxwa: 7
+            loadoutxwa: 7
             keyword: ["Clone"]
             slots: [
                 "Talent"
@@ -11010,8 +11010,8 @@ exportObj.basicCardData = ->
             skill: 3
             points: 4
             loadout: 4
-            pointsxwa: 9
-            loadoutxwa: 16
+            pointsxwa: 8
+            loadoutxwa: 10
             keyword: ["Clone"]
             slots: [
                 "Missile"
@@ -11034,8 +11034,8 @@ exportObj.basicCardData = ->
             skill: 2
             points: 4
             loadout: 6
-            pointsxwa: 7
-            loadoutxwa: 5
+            pointsxwa: 6
+            loadoutxwa: 0
             keyword: ["Clone"]
             slots: [
                 "Talent"
@@ -18029,8 +18029,8 @@ exportObj.basicCardData = ->
             skill: 2
             points: 3
             loadout: 3
-            pointsxwa: 6
-            loadoutxwa: 3
+            pointsxwa: 7
+            loadoutxwa: 8
             keyword: ["Clone"]
             slots: [
                 "Sensor"
@@ -23107,7 +23107,7 @@ exportObj.basicCardData = ->
             id: 77
             slot: "Gunner"
             points: 8
-            pointsxwa: 12
+            pointsxwa: 15
             unique: true
             faction: "Rebel Alliance"
         }
@@ -24387,7 +24387,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             slot: "Talent"
             points: 3
-            pointsxwa: 3
+            pointsxwa: 2
             restrictions: [
                 ["Keyword", "Clone"]
             ]
