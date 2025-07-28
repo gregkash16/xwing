@@ -5839,7 +5839,8 @@ exportObj.basicCardData = function() {
       "Sensor",
       "Gunner",
       "Modification"],
-        slotsxwa: ["Sensor",
+        slotsxwa: ["Talent",
+      "Sensor",
       "Gunner",
       "Modification"]
       },
