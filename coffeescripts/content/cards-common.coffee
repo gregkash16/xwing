@@ -9858,6 +9858,7 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Modification"
+                "Missile"
                 "Configuration"
             ]
         }
