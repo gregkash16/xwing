@@ -3532,8 +3532,8 @@ exportObj.basicCardData = ->
             skill: 1
             points: 4
             loadout: 3
-            pointsxwa: 8
-            loadoutxwa: 5
+            pointsxwa: 7
+            loadoutxwa: 1
             slots: [
                 "Talent"
                 "Configuration"
@@ -4599,7 +4599,7 @@ exportObj.basicCardData = ->
             points: 5
             loadout: 10
             pointsxwa: 14
-            loadoutxwa: 18
+            loadoutxwa: 16
             slots: [
                 "Talent"
                 "Missile"
@@ -4820,8 +4820,8 @@ exportObj.basicCardData = ->
             skill: 6
             points: 6
             loadout: 12
-            pointsxwa: 12
-            loadoutxwa: 3
+            pointsxwa: 13
+            loadoutxwa: 5
             keyword: ["Mandalorian"]
             slots: [
                 "Talent"
@@ -7681,7 +7681,7 @@ exportObj.basicCardData = ->
             skill: 5
             points: 5
             loadout: 8
-            pointsxwa: 13
+            pointsxwa: 14
             loadoutxwa: 15
             slots: [
                 "Talent"
@@ -7708,7 +7708,7 @@ exportObj.basicCardData = ->
             skill: 4
             points: 5
             loadout: 9
-            pointsxwa: 12
+            pointsxwa: 13
             loadoutxwa: 15
             slots: [
                 "Talent"
@@ -7735,7 +7735,7 @@ exportObj.basicCardData = ->
             points: 6
             loadout: 9
             pointsxwa: 12
-            loadoutxwa: 14
+            loadoutxwa: 11
             slots: [
                 "Talent"
                 "Sensor"
@@ -7760,7 +7760,7 @@ exportObj.basicCardData = ->
             points: 5
             loadout: 6
             pointsxwa: 11
-            loadoutxwa: 13
+            loadoutxwa: 10
             slots: [
                 "Sensor"
                 "Gunner"
@@ -9850,7 +9850,7 @@ exportObj.basicCardData = ->
             points: 2
             loadout: 0
             pointsxwa: 5
-            loadoutxwa: 0
+            loadoutxwa: 2
             keyword: ["Droid"]
             slots: [
                 "Modification"
@@ -22321,7 +22321,7 @@ exportObj.basicCardData = ->
             ship: "Fang Fighter"
             skill: 6
             points: 6
-            pointsxwa: 14
+            pointsxwa: 15
             loadoutxwa: 0
             ship_override:
                 hull: 5
@@ -24534,7 +24534,7 @@ exportObj.basicCardData = ->
             charge: 1
             max_per_squad: 3
             points: 2
-            pointsxwa: 3
+            pointsxwa: 2
             applies_condition: '''Buzz Droid Swarm'''.canonicalize()
         }
         {
@@ -26112,7 +26112,7 @@ exportObj.basicCardData = ->
         {
             name: "Independent Calculations"
             id: 367
-            points: 0
+            points: 1
             standardized: true
             slot: "Modification"
             chassis: "Independent Calculations"
