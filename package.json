@@ -13,17 +13,17 @@
   "devDependencies": {
     "bower": "*",
     "coffeescript": "*",
-    "grunt": "*",
+    "grunt": "^1.6.1",
     "grunt-bower-task": "*",
+    "grunt-contrib-coffee": "*",
     "grunt-contrib-copy": "*",
     "grunt-contrib-pug": "*",
     "grunt-contrib-uglify": "*",
-    "grunt-contrib-coffee": "*",
     "grunt-sass": "*",
     "jstransformer-coffee-script": "*",
     "jstransformer-markdown": "*",
-    "sass": "*",
-    "phantomjs-prebuilt": "*"
+    "phantomjs-prebuilt": "*",
+    "sass": "*"
   },
   "engines": {
     "node": "*"

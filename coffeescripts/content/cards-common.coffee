@@ -3245,7 +3245,7 @@ exportObj.basicCardData = ->
             points: 7
             loadout: 21
             pointsxwa: 19
-            loadoutxwa: 18
+            loadoutxwa: 20
             slots: [
                 "Talent"
                 "Missile"
@@ -3433,7 +3433,7 @@ exportObj.basicCardData = ->
             points: 4
             loadout: 6
             pointsxwa: 7
-            loadoutxwa: 7
+            loadoutxwa: 5
             slots: [
                 "Device"
                 "Modification"
@@ -6029,6 +6029,7 @@ exportObj.basicCardData = ->
             xws_name: "cartelspacer"
             faction: "Scum and Villainy"
             ship: "M3-A Interceptor"
+            max_per_squad: 3
             skill: 1
             points: 3
             loadout: 4
@@ -9551,6 +9552,7 @@ exportObj.basicCardData = ->
             xws_name: "epsilonsquadroncadet"
             faction: "First Order"
             ship: "TIE/fo Fighter"
+            max_per_squad: 4
             skill: 1
             points: 3
             loadout: 2
@@ -13203,8 +13205,8 @@ exportObj.basicCardData = ->
             keyword: ["Light Side"]
             points: 7
             loadout: 24
-            pointsxwa: 19
-            loadoutxwa: 17
+            pointsxwa: 18
+            loadoutxwa: 16
             force: 1
             slots: [
                 "Force"
@@ -14333,7 +14335,7 @@ exportObj.basicCardData = ->
             points: 3
             loadout: 4
             pointsxwa: 7
-            loadoutxwa: 1
+            loadoutxwa: 3
             slots: [
                 "Modification"
                 "Configuration"
@@ -23290,7 +23292,7 @@ exportObj.basicCardData = ->
             name: "Barrage Rockets"
             id: 97
             slot: "Missile"
-            max_per_squad: 3
+            max_per_squad: 2
             points: 6
             pointsxwa: 8
             attack: 3
