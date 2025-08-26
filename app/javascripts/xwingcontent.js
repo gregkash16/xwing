@@ -16898,7 +16898,7 @@ exportObj.basicCardData = function() {
         ship: "TIE/in Interceptor",
         skill: 3,
         points: 5,
-        pointsxwa: 9,
+        pointsxwa: 11,
         loadoutxwa: 0,
         chassis: "Sensitive Controls",
         upgrades: ["No Escape (BoE)",
