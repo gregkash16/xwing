@@ -11626,6 +11626,7 @@ exportObj.basicCardData = function() {
       "Configuration",
       "HardpointShip"],
         slotsxwa: ["Talent",
+      "Talent",
       "Sensor",
       "Tech",
       "Astromech",
