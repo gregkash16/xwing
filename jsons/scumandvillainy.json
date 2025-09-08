@@ -231,7 +231,7 @@
       "subtitle": "",
       "limited": 0,
       "cost": 7,
-      "loadout": 4,
+      "loadout": 5,
       "slots": [
         "Astromech",
         "Modification",
@@ -273,7 +273,7 @@
       "subtitle": "",
       "limited": 0,
       "cost": 8,
-      "loadout": 7,
+      "loadout": 8,
       "slots": [
         "Astromech",
         "Modification",
@@ -294,7 +294,7 @@
       "name": "Cikatro Vizago",
       "subtitle": "Broken Horn",
       "limited": 1,
-      "cost": 8,
+      "cost": 20,
       "loadout": 0,
       "slots": [],
       "keywords": [],
@@ -306,7 +306,7 @@
       "name": "Syndicate Smugglers",
       "subtitle": "",
       "limited": 0,
-      "cost": 10,
+      "cost": 24,
       "loadout": 30,
       "slots": [
         "Command",
@@ -331,7 +331,7 @@
       "name": "Han Solo",
       "subtitle": "Armed and Dangerous",
       "limited": 1,
-      "cost": 17,
+      "cost": 16,
       "loadout": 0,
       "slots": [],
       "keywords": [
@@ -346,8 +346,8 @@
       "name": "Han Solo",
       "subtitle": "The Corellian Kid",
       "limited": 1,
-      "cost": 16,
-      "loadout": 20,
+      "cost": 14,
+      "loadout": 16,
       "slots": [
         "Crew",
         "Crew",
@@ -395,8 +395,8 @@
       "name": "Lando Calrissian",
       "subtitle": "Smooth-talking Gambler",
       "limited": 1,
-      "cost": 14,
-      "loadout": 20,
+      "cost": 13,
+      "loadout": 16,
       "slots": [
         "Crew",
         "Crew",
@@ -418,9 +418,9 @@
     "freightercaptain": {
       "name": "Freighter Captain",
       "subtitle": "",
-      "limited": 0,
-      "cost": 13,
-      "loadout": 16,
+      "limited": 1,
+      "cost": 11,
+      "loadout": 9,
       "slots": [
         "Crew",
         "Crew",
@@ -431,7 +431,8 @@
       ],
       "keywords": [
         "Freighter",
-        "YT-1300"
+        "YT-1300",
+        "Restricted 1"
       ],
       "standard": "Yes",
       "extended": "Yes",
@@ -457,8 +458,8 @@
       "name": "L3-37",
       "subtitle": "Droid Revolutionary",
       "limited": 1,
-      "cost": 6,
-      "loadout": 8,
+      "cost": 7,
+      "loadout": 10,
       "slots": [
         "Crew",
         "Illicit",
@@ -524,8 +525,8 @@
       "name": "Fenn Rau",
       "subtitle": "Skull Leader",
       "limited": 1,
-      "cost": 14,
-      "loadout": 9,
+      "cost": 13,
+      "loadout": 5,
       "slots": [
         "Talent",
         "Modification",
@@ -544,8 +545,8 @@
       "name": "Joy Rekkoff",
       "subtitle": "Skull Squadron Ace",
       "limited": 1,
-      "cost": 12,
-      "loadout": 12,
+      "cost": 11,
+      "loadout": 8,
       "slots": [
         "Talent",
         "Modification",
@@ -601,8 +602,8 @@
       "name": "Old Teroch",
       "subtitle": "Mandalorian Mentor",
       "limited": 1,
-      "cost": 13,
-      "loadout": 12,
+      "cost": 12,
+      "loadout": 8,
       "slots": [
         "Talent",
         "Modification",
@@ -866,7 +867,7 @@
       "name": "Zuckuss",
       "subtitle": "Armed and Dangerous",
       "limited": 1,
-      "cost": 13,
+      "cost": 12,
       "loadout": 0,
       "slots": [],
       "keywords": [
@@ -987,7 +988,7 @@
       "subtitle": "",
       "limited": 0,
       "cost": 15,
-      "loadout": 16,
+      "loadout": 20,
       "slots": [
         "Crew",
         "Gunner",
@@ -1113,8 +1114,8 @@
       "name": "T\u00e1pusk",
       "subtitle": "Order 66 Informant",
       "limited": 1,
-      "cost": 10,
-      "loadout": 13,
+      "cost": 8,
+      "loadout": 6,
       "slots": [
         "Crew",
         "Illicit",
@@ -1172,6 +1173,7 @@
       "loadout": 18,
       "slots": [
         "Cannon",
+        "Crew",
         "Gunner",
         "Illicit",
         "Modification",
@@ -1194,6 +1196,7 @@
       "loadout": 13,
       "slots": [
         "Cannon",
+        "Crew",
         "Gunner",
         "Illicit",
         "Modification",
@@ -1216,6 +1219,7 @@
       "loadout": 13,
       "slots": [
         "Cannon",
+        "Crew",
         "Gunner",
         "Illicit",
         "Modification",
@@ -1236,6 +1240,7 @@
       "loadout": 21,
       "slots": [
         "Cannon",
+        "Crew",
         "Gunner",
         "Illicit",
         "Modification",
@@ -1250,16 +1255,19 @@
     "contractedscout": {
       "name": "Contracted Scout",
       "subtitle": "",
-      "limited": 0,
-      "cost": 11,
-      "loadout": 11,
+      "limited": 2,
+      "cost": 10,
+      "loadout": 8,
       "slots": [
         "Cannon",
+        "Crew",
         "Gunner",
         "Illicit",
         "Modification"
       ],
-      "keywords": [],
+      "keywords": [
+        "Restricted 2"
+      ],
       "standard": "Yes",
       "extended": "Yes",
       "epic": "Yes"
@@ -1289,7 +1297,7 @@
       "subtitle": "The Hunter",
       "limited": 1,
       "cost": 11,
-      "loadout": 12,
+      "loadout": 14,
       "slots": [
         "Illicit",
         "Illicit",
@@ -1310,7 +1318,7 @@
       "subtitle": "Scourge of Tansarii Point",
       "limited": 1,
       "cost": 12,
-      "loadout": 15,
+      "loadout": 13,
       "slots": [
         "Illicit",
         "Illicit",
@@ -1328,8 +1336,8 @@
       "name": "Viktor Hel",
       "subtitle": "Storied Bounty Hunter",
       "limited": 1,
-      "cost": 11,
-      "loadout": 14,
+      "cost": 10,
+      "loadout": 8,
       "slots": [
         "Illicit",
         "Illicit",
@@ -1349,8 +1357,8 @@
       "name": "Black Sun Ace",
       "subtitle": "",
       "limited": 0,
-      "cost": 11,
-      "loadout": 16,
+      "cost": 10,
+      "loadout": 9,
       "slots": [
         "Illicit",
         "Illicit",
@@ -1388,8 +1396,8 @@
       "name": "Asajj Ventress",
       "subtitle": "Force of Her Own",
       "limited": 1,
-      "cost": 18,
-      "loadout": 20,
+      "cost": 16,
+      "loadout": 16,
       "slots": [
         "Crew",
         "Illicit",
@@ -1409,8 +1417,8 @@
       "name": "Ketsu Onyo",
       "subtitle": "Black Sun Contractor",
       "limited": 1,
-      "cost": 18,
-      "loadout": 18,
+      "cost": 16,
+      "loadout": 15,
       "slots": [
         "Crew",
         "Illicit",
@@ -1431,8 +1439,8 @@
       "name": "Sabine Wren",
       "subtitle": "Artistic Saboteur",
       "limited": 1,
-      "cost": 17,
-      "loadout": 20,
+      "cost": 15,
+      "loadout": 16,
       "slots": [
         "Crew",
         "Illicit",
@@ -1454,7 +1462,7 @@
       "subtitle": "",
       "limited": 0,
       "cost": 14,
-      "loadout": 7,
+      "loadout": 14,
       "slots": [
         "Crew",
         "Illicit",
@@ -1537,9 +1545,8 @@
       "subtitle": "Tilted Droid",
       "limited": 1,
       "cost": 7,
-      "loadout": 5,
+      "loadout": 7,
       "slots": [
-        "Hardpoint",
         "Modification"
       ],
       "keywords": [
@@ -1554,11 +1561,11 @@
       "subtitle": "Tansarii Point Crime Lord",
       "limited": 1,
       "cost": 10,
-      "loadout": 13,
+      "loadout": 14,
       "slots": [
-        "Hardpoint",
         "Modification",
-        "Talent"
+        "Talent",
+        "Illicit"
       ],
       "keywords": [],
       "standard": "Yes",
@@ -1570,10 +1577,10 @@
       "subtitle": "Tansarii Point Boss",
       "limited": 1,
       "cost": 8,
-      "loadout": 8,
+      "loadout": 10,
       "slots": [
-        "Hardpoint",
-        "Modification"
+        "Modification",
+        "Illicit"
       ],
       "keywords": [],
       "standard": "Yes",
@@ -1585,11 +1592,11 @@
       "subtitle": "Car\u2019das Enforcer",
       "limited": 1,
       "cost": 9,
-      "loadout": 10,
+      "loadout": 12,
       "slots": [
-        "Hardpoint",
         "Modification",
-        "Talent"
+        "Talent",
+        "Illicit"
       ],
       "keywords": [],
       "standard": "Yes",
@@ -1601,11 +1608,11 @@
       "subtitle": "Fortune Seeker",
       "limited": 1,
       "cost": 9,
-      "loadout": 12,
+      "loadout": 13,
       "slots": [
-        "Hardpoint",
         "Modification",
-        "Talent"
+        "Talent",
+        "Illicit"
       ],
       "keywords": [
         "Bounty Hunter"
@@ -1619,9 +1626,8 @@
       "subtitle": "Flight Instructor",
       "limited": 1,
       "cost": 10,
-      "loadout": 9,
+      "loadout": 11,
       "slots": [
-        "Hardpoint",
         "Modification",
         "Talent"
       ],
@@ -1635,9 +1641,8 @@
       "subtitle": "Incurable Optimist",
       "limited": 1,
       "cost": 8,
-      "loadout": 10,
+      "loadout": 12,
       "slots": [
-        "Hardpoint",
         "Modification"
       ],
       "keywords": [],
@@ -1648,12 +1653,12 @@
     "cartelspacer": {
       "name": "Cartel Spacer",
       "subtitle": "",
-      "limited": 0,
-      "cost": 7,
-      "loadout": 3,
+      "limited": 3,
+      "cost": 6,
+      "loadout": 0,
       "slots": [
-        "Hardpoint",
-        "Modification"
+        "Modification",
+        "Illicit"
       ],
       "keywords": [],
       "standard": "Yes",
@@ -1665,11 +1670,11 @@
       "subtitle": "",
       "limited": 0,
       "cost": 8,
-      "loadout": 5,
+      "loadout": 10,
       "slots": [
-        "Hardpoint",
         "Modification",
-        "Talent"
+        "Talent",
+        "Illicit"
       ],
       "keywords": [],
       "standard": "Yes",
@@ -2168,8 +2173,8 @@
       "name": "Dalan Oberos",
       "subtitle": "Elite Bounty Hunter",
       "limited": 1,
-      "cost": 11,
-      "loadout": 8,
+      "cost": 10,
+      "loadout": 6,
       "slots": [
         "Illicit",
         "Modification",
@@ -2188,8 +2193,8 @@
       "name": "Guri",
       "subtitle": "Prince Xizor\u2019s Bodyguard",
       "limited": 1,
-      "cost": 14,
-      "loadout": 14,
+      "cost": 13,
+      "loadout": 11,
       "slots": [
         "Illicit",
         "Modification",
@@ -2221,8 +2226,8 @@
       "name": "Prince Xizor",
       "subtitle": "Black Sun Kingpin",
       "limited": 1,
-      "cost": 13,
-      "loadout": 16,
+      "cost": 12,
+      "loadout": 12,
       "slots": [
         "Illicit",
         "Modification",
@@ -2240,8 +2245,8 @@
       "name": "Black Sun Assassin",
       "subtitle": "",
       "limited": 0,
-      "cost": 12,
-      "loadout": 11,
+      "cost": 11,
+      "loadout": 9,
       "slots": [
         "Illicit",
         "Modification",
@@ -2277,7 +2282,7 @@
       "name": "Sorc Tormo",
       "subtitle": "Nautolan's Revenge",
       "limited": 1,
-      "cost": 8,
+      "cost": 19,
       "loadout": 0,
       "slots": [],
       "keywords": [],
@@ -2289,7 +2294,7 @@
       "name": "Lawless Pirates",
       "subtitle": "",
       "limited": 0,
-      "cost": 11,
+      "cost": 26,
       "loadout": 45,
       "slots": [
         "Command",
@@ -2314,7 +2319,7 @@
       "name": "Dash Rendar",
       "subtitle": "In it for Himself",
       "limited": 1,
-      "cost": 18,
+      "cost": 17,
       "loadout": 0,
       "slots": [],
       "keywords": [

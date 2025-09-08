@@ -454,7 +454,7 @@
       "name": "Leia Organa",
       "subtitle": "Tantive IV",
       "limited": 1,
-      "cost": 12,
+      "cost": 32,
       "loadout": 0,
       "slots": [],
       "keywords": [],
@@ -547,7 +547,7 @@
       "name": "Oraf Desyk",
       "subtitle": "Hosnian Lament",
       "limited": 1,
-      "cost": 8,
+      "cost": 18,
       "loadout": 0,
       "slots": [],
       "keywords": [],
@@ -559,7 +559,7 @@
       "name": "New Republic Volunteers",
       "subtitle": "",
       "limited": 0,
-      "cost": 10,
+      "cost": 23,
       "loadout": 25,
       "slots": [
         "Command",
@@ -1151,7 +1151,7 @@
       "name": "BB-8",
       "subtitle": "Full of Surprises",
       "limited": 1,
-      "cost": 6,
+      "cost": 7,
       "loadout": 9,
       "slots": [
         "Crew",
@@ -1169,7 +1169,7 @@
       "name": "Finn",
       "subtitle": "Big Deal",
       "limited": 1,
-      "cost": 9,
+      "cost": 10,
       "loadout": 16,
       "slots": [
         "Crew",
@@ -1186,8 +1186,8 @@
       "name": "Rose Tico",
       "subtitle": "Earnest Engineer",
       "limited": 1,
-      "cost": 7,
-      "loadout": 11,
+      "cost": 8,
+      "loadout": 14,
       "slots": [
         "Crew",
         "Modification",
@@ -1204,7 +1204,7 @@
       "subtitle": "Starling",
       "limited": 1,
       "cost": 6,
-      "loadout": 8,
+      "loadout": 5,
       "slots": [
         "Crew",
         "Modification",
@@ -1601,6 +1601,7 @@
         "Tech",
         "Configuration",
         "Talent",
+        "Talent",
         "Sensor"
       ],
       "keywords": [
@@ -1614,8 +1615,8 @@
       "name": "Poe Dameron",
       "subtitle": "Trigger-Happy Flyboy",
       "limited": 1,
-      "cost": 17,
-      "loadout": 20,
+      "cost": 18,
+      "loadout": 24,
       "slots": [
         "Astromech",
         "Modification",
@@ -1636,7 +1637,7 @@
       "name": "Stomeroni Starck",
       "subtitle": "Evacuation of D'Qar",
       "limited": 1,
-      "cost": 12,
+      "cost": 13,
       "loadout": 0,
       "slots": [],
       "keywords": [
@@ -1753,7 +1754,7 @@
       "subtitle": "",
       "limited": 0,
       "cost": 10,
-      "loadout": 5,
+      "loadout": 4,
       "slots": [
         "Astromech",
         "Modification",

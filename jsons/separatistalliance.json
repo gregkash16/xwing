@@ -90,7 +90,7 @@
       "name": "Separatists Privateers",
       "subtitle": "",
       "limited": 0,
-      "cost": 10,
+      "cost": 24,
       "loadout": 30,
       "slots": [
         "Command",
@@ -129,7 +129,7 @@
       "subtitle": "Target Acquired",
       "limited": 1,
       "cost": 9,
-      "loadout": 6,
+      "loadout": 8,
       "slots": [
         "Talent",
         "Sensor",
@@ -187,7 +187,7 @@
       "subtitle": "Fixated Pursuit",
       "limited": 3,
       "cost": 9,
-      "loadout": 4,
+      "loadout": 6,
       "slots": [
         "Talent",
         "Sensor",
@@ -245,7 +245,7 @@
       "subtitle": "Impatient Invader",
       "limited": 1,
       "cost": 10,
-      "loadout": 7,
+      "loadout": 9,
       "slots": [
         "Talent",
         "Sensor",
@@ -267,7 +267,7 @@
       "subtitle": "",
       "limited": 0,
       "cost": 8,
-      "loadout": 3,
+      "loadout": 5,
       "slots": [
         "Sensor",
         "Modification",
@@ -288,7 +288,7 @@
       "subtitle": "",
       "limited": 0,
       "cost": 9,
-      "loadout": 6,
+      "loadout": 8,
       "slots": [
         "Talent",
         "Sensor",
@@ -449,7 +449,7 @@
       "subtitle": "Fanatical Adherent",
       "limited": 1,
       "cost": 15,
-      "loadout": 14,
+      "loadout": 20,
       "slots": [
         "Crew",
         "Gunner",
@@ -495,7 +495,7 @@
       "name": "Aut-0",
       "subtitle": "Alpha Revue",
       "limited": 1,
-      "cost": 8,
+      "cost": 20,
       "loadout": 0,
       "slots": [],
       "keywords": [],
@@ -510,7 +510,7 @@
       "subtitle": "Adaptive Intelligence",
       "limited": 1,
       "cost": 9,
-      "loadout": 6,
+      "loadout": 8,
       "slots": [
         "Missile",
         "Missile",
@@ -593,7 +593,7 @@
       "subtitle": "",
       "limited": 0,
       "cost": 10,
-      "loadout": 11,
+      "loadout": 13,
       "slots": [
         "Missile",
         "Missile",
@@ -668,13 +668,12 @@
       "name": "Bombardment Drone",
       "subtitle": "Time on Target",
       "limited": 3,
-      "cost": 8,
-      "loadout": 8,
+      "cost": 9,
+      "loadout": 9,
       "slots": [
         "Modification",
         "Payload",
-        "Payload",
-        "Configuration"
+        "Payload"
       ],
       "keywords": [
         "Droid"
@@ -796,7 +795,7 @@
       "subtitle": "Hive Guard Captain",
       "limited": 1,
       "cost": 9,
-      "loadout": 7,
+      "loadout": 9,
       "slots": [
         "Talent",
         "Modification",
@@ -943,7 +942,7 @@
       "subtitle": "Tenacious Bodyguard",
       "limited": 1,
       "cost": 9,
-      "loadout": 8,
+      "loadout": 10,
       "slots": [
         "Cannon",
         "Cannon",
@@ -963,7 +962,7 @@
       "subtitle": "Dueling Droid",
       "limited": 1,
       "cost": 9,
-      "loadout": 7,
+      "loadout": 9,
       "slots": [
         "Cannon",
         "Cannon",
@@ -983,7 +982,7 @@
       "subtitle": "One Eye",
       "limited": 1,
       "cost": 10,
-      "loadout": 9,
+      "loadout": 11,
       "slots": [
         "Cannon",
         "Cannon",
@@ -1002,7 +1001,7 @@
       "subtitle": "Implacable Escort",
       "limited": 2,
       "cost": 10,
-      "loadout": 8,
+      "loadout": 10,
       "slots": [
         "Cannon",
         "Cannon",
@@ -1022,7 +1021,7 @@
       "subtitle": "",
       "limited": 0,
       "cost": 9,
-      "loadout": 9,
+      "loadout": 11,
       "slots": [
         "Cannon",
         "Cannon",
@@ -1051,6 +1050,7 @@
         "Modification",
         "Torpedo",
         "Tactical Relay",
+        "Payload",
         "Title"
       ],
       "keywords": [
@@ -1065,7 +1065,7 @@
       "subtitle": "Darth Tyranus",
       "limited": 1,
       "cost": 15,
-      "loadout": 8,
+      "loadout": 10,
       "slots": [
         "Crew",
         "Crew",
@@ -1073,6 +1073,7 @@
         "Modification",
         "Force Power",
         "Force Power",
+        "Payload",
         "Title"
       ],
       "keywords": [
@@ -1103,7 +1104,7 @@
       "subtitle": "Sith Assassin",
       "limited": 1,
       "cost": 17,
-      "loadout": 14,
+      "loadout": 20,
       "slots": [
         "Crew",
         "Crew",
@@ -1112,6 +1113,7 @@
         "Force Power",
         "Force Power",
         "Torpedo",
+        "Payload",
         "Title"
       ],
       "keywords": [
@@ -1132,6 +1134,7 @@
         "Crew",
         "Crew",
         "Sensor",
+        "Payload",
         "Modification"
       ],
       "keywords": [],
@@ -1145,7 +1148,7 @@
       "name": "Asajj Ventress",
       "subtitle": "Trident",
       "limited": 1,
-      "cost": 8,
+      "cost": 19,
       "loadout": 0,
       "slots": [],
       "keywords": [],
@@ -1157,7 +1160,7 @@
       "name": "Colicoid Destroyer",
       "subtitle": "",
       "limited": 0,
-      "cost": 11,
+      "cost": 26,
       "loadout": 45,
       "slots": [
         "Command",
@@ -1214,10 +1217,9 @@
       "name": "DFS-311",
       "subtitle": "Scouting Drone",
       "limited": 1,
-      "cost": 7,
-      "loadout": 11,
+      "cost": 6,
+      "loadout": 6,
       "slots": [
-        "Modification",
         "Configuration",
         "Missile",
         "Modification"
@@ -1294,10 +1296,11 @@
       "name": "Precise Hunter",
       "subtitle": "Pinpoint Protocols",
       "limited": 3,
-      "cost": 5,
-      "loadout": 0,
+      "cost": 6,
+      "loadout": 5,
       "slots": [
         "Modification",
+        "Cannon",
         "Configuration"
       ],
       "keywords": [
@@ -1352,6 +1355,7 @@
       "loadout": 2,
       "slots": [
         "Modification",
+        "Missile",
         "Configuration"
       ],
       "keywords": [

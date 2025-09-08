@@ -211,7 +211,7 @@
       "subtitle": "Red Leader",
       "limited": 1,
       "cost": 12,
-      "loadout": 13,
+      "loadout": 15,
       "slots": [
         "Talent",
         "Astromech",
@@ -249,7 +249,7 @@
       "subtitle": "Gold Nine",
       "limited": 1,
       "cost": 13,
-      "loadout": 14,
+      "loadout": 16,
       "slots": [
         "Talent",
         "Astromech",
@@ -268,7 +268,7 @@
       "subtitle": "Green Four",
       "limited": 1,
       "cost": 12,
-      "loadout": 13,
+      "loadout": 17,
       "slots": [
         "Talent",
         "Astromech",
@@ -651,7 +651,7 @@
       "subtitle": "Selfless Hero",
       "limited": 1,
       "cost": 12,
-      "loadout": 16,
+      "loadout": 11,
       "slots": [
         "Torpedo",
         "Missile",
@@ -672,7 +672,7 @@
       "subtitle": "Heavy Hitter",
       "limited": 1,
       "cost": 12,
-      "loadout": 19,
+      "loadout": 13,
       "slots": [
         "Torpedo",
         "Missile",
@@ -694,7 +694,7 @@
       "subtitle": "",
       "limited": 0,
       "cost": 11,
-      "loadout": 18,
+      "loadout": 12,
       "slots": [
         "Torpedo",
         "Missile",
@@ -716,7 +716,7 @@
       "name": "Raymus Antilles",
       "subtitle": "Tantive IV",
       "limited": 1,
-      "cost": 12,
+      "cost": 32,
       "loadout": 0,
       "slots": [],
       "keywords": [],
@@ -728,7 +728,7 @@
       "name": "Alderaanian Guard",
       "subtitle": "",
       "limited": 0,
-      "cost": 14,
+      "cost": 36,
       "loadout": 40,
       "slots": [
         "Command",
@@ -772,8 +772,8 @@
       "name": "Gavin Darklighter",
       "subtitle": "Bold Wingman",
       "limited": 1,
-      "cost": 14,
-      "loadout": 14,
+      "cost": 15,
+      "loadout": 18,
       "slots": [
         "Torpedo",
         "Modification",
@@ -907,7 +907,7 @@
       "name": "Trebor Zednem",
       "subtitle": "Bright Hope",
       "limited": 1,
-      "cost": 8,
+      "cost": 19,
       "loadout": 0,
       "slots": [],
       "keywords": [],
@@ -919,7 +919,7 @@
       "name": "Echo Base Evacuees",
       "subtitle": "",
       "limited": 0,
-      "cost": 10,
+      "cost": 23,
       "loadout": 25,
       "slots": [
         "Command",
@@ -992,7 +992,7 @@
     "mandalorianresistancepilot": {
       "name": "Mandalorian Resistance Pilot",
       "subtitle": "Clan Loyalist",
-      "limited": 0,
+      "limited": 1,
       "cost": 15,
       "loadout": 20,
       "slots": [
@@ -1080,7 +1080,7 @@
       "subtitle": "",
       "limited": 0,
       "cost": 7,
-      "loadout": 7,
+      "loadout": 5,
       "slots": [
         "Crew",
         "Modification",
@@ -1141,8 +1141,8 @@
       "name": "Han Solo",
       "subtitle": "Scoundrel for Hire",
       "limited": 1,
-      "cost": 22,
-      "loadout": 25,
+      "cost": 20,
+      "loadout": 21,
       "slots": [
         "Crew",
         "Crew",
@@ -1184,7 +1184,7 @@
       "subtitle": "General of the Alliance",
       "limited": 1,
       "cost": 19,
-      "loadout": 18,
+      "loadout": 20,
       "slots": [
         "Crew",
         "Crew",
@@ -1209,8 +1209,8 @@
       "name": "Leia Organa",
       "subtitle": "There Is Another",
       "limited": 1,
-      "cost": 19,
-      "loadout": 17,
+      "cost": 18,
+      "loadout": 16,
       "slots": [
         "Crew",
         "Crew",
@@ -1261,7 +1261,7 @@
       "subtitle": "Fulcrum",
       "limited": 1,
       "cost": 12,
-      "loadout": 9,
+      "loadout": 12,
       "slots": [
         "Modification",
         "Missile",
@@ -1314,7 +1314,7 @@
       "name": "Arvel Crynyd",
       "subtitle": "Green Leader",
       "limited": 1,
-      "cost": 9,
+      "cost": 8,
       "loadout": 0,
       "slots": [],
       "keywords": [
@@ -1455,8 +1455,8 @@
       "name": "Shara Bey",
       "subtitle": "Green Four",
       "limited": 1,
-      "cost": 10,
-      "loadout": 12,
+      "cost": 9,
+      "loadout": 10,
       "slots": [
         "Talent",
         "Modification",
@@ -1475,7 +1475,7 @@
       "name": "Shara Bey",
       "subtitle": "Green Four",
       "limited": 1,
-      "cost": 9,
+      "cost": 8,
       "loadout": 0,
       "slots": [],
       "keywords": [
@@ -1562,8 +1562,8 @@
       "name": "Phoenix Squadron Pilot",
       "subtitle": "",
       "limited": 0,
-      "cost": 8,
-      "loadout": 5,
+      "cost": 7,
+      "loadout": 1,
       "slots": [
         "Talent",
         "Modification",
@@ -1584,7 +1584,7 @@
       "subtitle": "Escaped Analyst Droid",
       "limited": 1,
       "cost": 8,
-      "loadout": 7,
+      "loadout": 6,
       "slots": [
         "Astromech",
         "Crew",
@@ -1700,7 +1700,7 @@
       "subtitle": "Rogue Nine",
       "limited": 1,
       "cost": 12,
-      "loadout": 10,
+      "loadout": 13,
       "slots": [
         "Astromech",
         "Modification",
@@ -2099,8 +2099,7 @@
       "slots": [
         "Talent",
         "Modification",
-        "Modification",
-        "Talent"
+        "Modification"
       ],
       "keywords": [
         "Clone",
@@ -2528,7 +2527,7 @@
       "name": "Dash Rendar",
       "subtitle": "In it for Himself",
       "limited": 1,
-      "cost": 18,
+      "cost": 17,
       "loadout": 0,
       "slots": [],
       "keywords": [

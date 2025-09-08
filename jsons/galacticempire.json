@@ -5,10 +5,11 @@
       "subtitle": "Brash Noble",
       "limited": 1,
       "cost": 10,
-      "loadout": 17,
+      "loadout": 14,
       "slots": [
         "Modification",
         "Sensor",
+        "Missile",
         "Configuration",
         "Talent"
       ],
@@ -46,10 +47,11 @@
       "subtitle": "Pragmatic Survivor",
       "limited": 1,
       "cost": 11,
-      "loadout": 17,
+      "loadout": 16,
       "slots": [
         "Modification",
         "Sensor",
+        "Missile",
         "Configuration",
         "Talent"
       ],
@@ -63,10 +65,11 @@
       "subtitle": "",
       "limited": 0,
       "cost": 9,
-      "loadout": 12,
+      "loadout": 8,
       "slots": [
         "Modification",
         "Sensor",
+        "Missile",
         "Configuration"
       ],
       "keywords": [],
@@ -78,11 +81,12 @@
       "name": "Rho Squadron Pilot",
       "subtitle": "",
       "limited": 0,
-      "cost": 10,
-      "loadout": 14,
+      "cost": 11,
+      "loadout": 17,
       "slots": [
         "Modification",
         "Sensor",
+        "Missile",
         "Configuration",
         "Talent"
       ],
@@ -167,7 +171,7 @@
       "name": "Rik Virgilio",
       "subtitle": "Blood Crow",
       "limited": 1,
-      "cost": 8,
+      "cost": 20,
       "loadout": 0,
       "slots": [],
       "keywords": [],
@@ -179,7 +183,7 @@
       "name": "Outer Rim Garrison",
       "subtitle": "",
       "limited": 0,
-      "cost": 11,
+      "cost": 26,
       "loadout": 40,
       "slots": [
         "Command",
@@ -280,7 +284,7 @@
       "name": "Iden Versio",
       "subtitle": "Corvus",
       "limited": 1,
-      "cost": 13,
+      "cost": 33,
       "loadout": 0,
       "slots": [],
       "keywords": [],
@@ -292,7 +296,7 @@
       "name": "Outer Rim Patrol",
       "subtitle": "",
       "limited": 0,
-      "cost": 15,
+      "cost": 39,
       "loadout": 50,
       "slots": [
         "Command",
@@ -746,8 +750,8 @@
       "name": "Countess Ryad",
       "subtitle": "Cutthroat Politico",
       "limited": 1,
-      "cost": 17,
-      "loadout": 13,
+      "cost": 16,
+      "loadout": 9,
       "slots": [
         "Talent",
         "Cannon",
@@ -877,11 +881,12 @@
       "name": "\u201cDouble Edge\u201d",
       "subtitle": "Contingency Planner",
       "limited": 1,
-      "cost": 8,
-      "loadout": 14,
+      "cost": 9,
+      "loadout": 17,
       "slots": [
         "Gunner",
         "Turret",
+        "Missile",
         "Missile",
         "Sensor",
         "Modification"
@@ -898,10 +903,11 @@
       "subtitle": "Innate Deadeye",
       "limited": 1,
       "cost": 9,
-      "loadout": 17,
+      "loadout": 15,
       "slots": [
         "Gunner",
         "Turret",
+        "Missile",
         "Missile",
         "Modification",
         "Sensor",
@@ -919,10 +925,11 @@
       "subtitle": "",
       "limited": 0,
       "cost": 8,
-      "loadout": 9,
+      "loadout": 10,
       "slots": [
         "Gunner",
         "Turret",
+        "Missile",
         "Missile",
         "Modification",
         "Sensor",
@@ -945,6 +952,7 @@
         "Gunner",
         "Turret",
         "Missile",
+        "Missile",
         "Sensor",
         "Modification"
       ],
@@ -964,6 +972,7 @@
       "cost": 13,
       "loadout": 24,
       "slots": [
+        "Missile",
         "Missile",
         "Torpedo",
         "Payload",
@@ -987,6 +996,7 @@
       "loadout": 20,
       "slots": [
         "Missile",
+        "Missile",
         "Torpedo",
         "Payload",
         "Payload",
@@ -1008,6 +1018,7 @@
       "cost": 10,
       "loadout": 14,
       "slots": [
+        "Missile",
         "Missile",
         "Torpedo",
         "Payload",
@@ -1083,7 +1094,7 @@
       "name": "Iden Versio",
       "subtitle": "Battle of Yavin",
       "limited": 1,
-      "cost": 12,
+      "cost": 11,
       "loadout": 0,
       "slots": [],
       "keywords": [
@@ -1115,7 +1126,7 @@
       "name": "Maus Monare",
       "subtitle": "Battle Over Endor",
       "limited": 1,
-      "cost": 10,
+      "cost": 11,
       "loadout": 0,
       "slots": [],
       "keywords": [
@@ -1132,6 +1143,7 @@
       "cost": 9,
       "loadout": 6,
       "slots": [
+        "Talent",
         "Modification",
         "Configuration"
       ],
@@ -1493,8 +1505,8 @@
       "name": "Magna Tolvan",
       "subtitle": "Cold Tyrant",
       "limited": 1,
-      "cost": 7,
-      "loadout": 5,
+      "cost": 8,
+      "loadout": 9,
       "slots": [
         "Modification",
         "Talent"
@@ -1655,7 +1667,7 @@
       "subtitle": "Braggadocious Baron",
       "limited": 1,
       "cost": 8,
-      "loadout": 8,
+      "loadout": 11,
       "slots": [
         "Modification",
         "Talent"
@@ -1795,8 +1807,8 @@
       "name": "\u201cEcho\u201d",
       "subtitle": "Slippery Trickster",
       "limited": 1,
-      "cost": 11,
-      "loadout": 13,
+      "cost": 13,
+      "loadout": 15,
       "slots": [
         "Gunner",
         "Modification",
@@ -1814,7 +1826,7 @@
       "name": "\u201cWhisper\u201d",
       "subtitle": "Soft-Spoken Slayer",
       "limited": 1,
-      "cost": 13,
+      "cost": 14,
       "loadout": 15,
       "slots": [
         "Gunner",
@@ -1847,8 +1859,8 @@
       "name": "Imdaar Test Pilot",
       "subtitle": "",
       "limited": 0,
-      "cost": 10,
-      "loadout": 9,
+      "cost": 11,
+      "loadout": 10,
       "slots": [
         "Gunner",
         "Modification",
@@ -1865,9 +1877,10 @@
       "name": "Sigma Squadron Ace",
       "subtitle": "",
       "limited": 0,
-      "cost": 11,
-      "loadout": 10,
+      "cost": 12,
+      "loadout": 11,
       "slots": [
+        "Talent",
         "Gunner",
         "Modification",
         "Sensor"
@@ -2186,7 +2199,7 @@
       "subtitle": "",
       "limited": 0,
       "cost": 10,
-      "loadout": 14,
+      "loadout": 16,
       "slots": [
         "Torpedo",
         "Missile",
@@ -2207,7 +2220,7 @@
       "subtitle": "",
       "limited": 0,
       "cost": 8,
-      "loadout": 5,
+      "loadout": 8,
       "slots": [
         "Torpedo",
         "Missile",
@@ -2341,7 +2354,7 @@
       "name": "Captain Oicunn",
       "subtitle": "Inspired Tactician",
       "limited": 1,
-      "cost": 18,
+      "cost": 17,
       "loadout": 18,
       "slots": [
         "Crew",
@@ -2363,7 +2376,7 @@
       "name": "Morna Kee",
       "subtitle": "Determined Attach\u00e9",
       "limited": 1,
-      "cost": 18,
+      "cost": 17,
       "loadout": 16,
       "slots": [
         "Crew",
@@ -2385,8 +2398,8 @@
       "name": "Rear Admiral Chiraneau",
       "subtitle": "Advisor to Admiral Piett",
       "limited": 1,
-      "cost": 20,
-      "loadout": 24,
+      "cost": 19,
+      "loadout": 27,
       "slots": [
         "Crew",
         "Crew",

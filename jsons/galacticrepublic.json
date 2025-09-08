@@ -129,8 +129,8 @@
       "name": "104th Battalion Pilot",
       "subtitle": "",
       "limited": 0,
-      "cost": 11,
-      "loadout": 8,
+      "cost": 10,
+      "loadout": 3,
       "slots": [
         "Astromech",
         "Gunner",
@@ -356,7 +356,7 @@
       "name": "Raymus Antilles",
       "subtitle": "Tantive IV",
       "limited": 1,
-      "cost": 12,
+      "cost": 35,
       "loadout": 0,
       "slots": [],
       "keywords": [],
@@ -368,7 +368,7 @@
       "name": "Republic Judiciary",
       "subtitle": "",
       "limited": 0,
-      "cost": 14,
+      "cost": 36,
       "loadout": 40,
       "slots": [
         "Command",
@@ -536,8 +536,8 @@
       "name": "7th Sky Corps Pilot",
       "subtitle": "",
       "limited": 0,
-      "cost": 6,
-      "loadout": 3,
+      "cost": 7,
+      "loadout": 8,
       "slots": [
         "Modification",
         "Sensor"
@@ -617,7 +617,7 @@
       "subtitle": "Hero of the Republic",
       "limited": 1,
       "cost": 14,
-      "loadout": 9,
+      "loadout": 12,
       "slots": [
         "Force Power",
         "Configuration",
@@ -682,7 +682,7 @@
       "subtitle": "Harsh Traditionalist",
       "limited": 1,
       "cost": 11,
-      "loadout": 7,
+      "loadout": 10,
       "slots": [
         "Force Power",
         "Configuration",
@@ -890,8 +890,8 @@
       "name": "Mace Windu",
       "subtitle": "Harsh Traditionalist",
       "limited": 1,
-      "cost": 14,
-      "loadout": 11,
+      "cost": 13,
+      "loadout": 8,
       "slots": [
         "Force Power",
         "Modification",
@@ -1036,7 +1036,7 @@
       "name": "Anakin Skywalker",
       "subtitle": "Siege of Coruscant",
       "limited": 1,
-      "cost": 13,
+      "cost": 12,
       "loadout": 0,
       "slots": [],
       "keywords": [
@@ -1241,7 +1241,7 @@
       "name": "Wez Synat",
       "subtitle": "Spectre of Nayr",
       "limited": 1,
-      "cost": 8,
+      "cost": 20,
       "loadout": 0,
       "slots": [],
       "keywords": [],
@@ -1264,7 +1264,7 @@
         "Gunner",
         "Modification",
         "Missile",
-        "Missile",
+        "Torpedo",
         "Talent"
       ],
       "keywords": [
@@ -1286,7 +1286,7 @@
         "Gunner",
         "Gunner",
         "Modification",
-        "Missile",
+        "Torpedo",
         "Missile"
       ],
       "keywords": [
@@ -1308,7 +1308,7 @@
         "Gunner",
         "Gunner",
         "Modification",
-        "Missile",
+        "Torpedo",
         "Missile"
       ],
       "keywords": [
@@ -1331,7 +1331,7 @@
         "Gunner",
         "Modification",
         "Missile",
-        "Missile",
+        "Torpedo",
         "Talent"
       ],
       "keywords": [
@@ -1353,7 +1353,7 @@
         "Gunner",
         "Gunner",
         "Modification",
-        "Missile",
+        "Torpedo",
         "Missile"
       ],
       "keywords": [
@@ -1537,6 +1537,7 @@
       "cost": 10,
       "loadout": 14,
       "slots": [
+        "Talent",
         "Astromech",
         "Configuration",
         "Modification"
@@ -1566,8 +1567,8 @@
       "name": "\u201cOdd Ball\u201d",
       "subtitle": "CC-2237",
       "limited": 1,
-      "cost": 10,
-      "loadout": 12,
+      "cost": 9,
+      "loadout": 9,
       "slots": [
         "Astromech",
         "Configuration",
@@ -1602,7 +1603,7 @@
       "subtitle": "",
       "limited": 0,
       "cost": 7,
-      "loadout": 1,
+      "loadout": 3,
       "slots": [
         "Astromech",
         "Configuration",
@@ -1638,8 +1639,8 @@
       "name": "TransGalMeg Control Link",
       "subtitle": "",
       "limited": 0,
-      "cost": 2,
-      "loadout": 0,
+      "cost": 1,
+      "loadout": 5,
       "slots": [
         "Hyperdrive"
       ],
@@ -1654,8 +1655,8 @@
       "name": "\u201cAxe\u201d",
       "subtitle": "Blue Two",
       "limited": 1,
-      "cost": 9,
-      "loadout": 17,
+      "cost": 7,
+      "loadout": 7,
       "slots": [
         "Missile",
         "Modification",
@@ -1758,7 +1759,7 @@
       "subtitle": "Blue Six",
       "limited": 1,
       "cost": 8,
-      "loadout": 10,
+      "loadout": 12,
       "slots": [
         "Missile",
         "Modification",
@@ -1794,8 +1795,8 @@
       "name": "Blue Squadron Protector",
       "subtitle": "",
       "limited": 0,
-      "cost": 9,
-      "loadout": 16,
+      "cost": 8,
+      "loadout": 10,
       "slots": [
         "Missile",
         "Modification",
@@ -1813,8 +1814,8 @@
       "name": "Gold Squadron Trooper",
       "subtitle": "",
       "limited": 0,
-      "cost": 7,
-      "loadout": 5,
+      "cost": 6,
+      "loadout": 2,
       "slots": [
         "Missile",
         "Modification",

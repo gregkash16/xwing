@@ -2,62 +2,209 @@ import json
 import re
 from pathlib import Path
 
-# Set up paths
+# ==== CONFIG ====
 jsons_folder = Path(r"C:\Users\gregk\Documents\GitHub\xwing\jsons")
-coffee_file_path = Path(r"C:\Users\gregk\Documents\GitHub\xwing\cards_final_xwsnames.coffee")
-output_file_path = Path(r"C:\Users\gregk\Documents\GitHub\xwing\cards_final_xwsnames_updated.coffee")
+coffee_file_path = Path(r"C:\Users\gregk\Documents\GitHub\xwing\coffeescripts\content\cards-common.coffee")
+output_file_path = Path(r"C:\Users\gregk\Documents\GitHub\xwing\coffeescripts\content\cards-common.updated.coffee")
+backup_file_path = Path(r"C:\Users\gregk\Documents\GitHub\xwing\coffeescripts\content\cards-common.backup.coffee")
 log_file_path = Path(r"C:\Users\gregk\Documents\GitHub\xwing\xws_update_log.txt")
 
-# Read CoffeeScript file
-coffee_content = coffee_file_path.read_text(encoding="utf-8")
+# ==== Helpers ====
+XWS_RE = re.compile(r'^\s*xws_name:\s*["\']([^"\']+)["\']\s*$')
+POINTSXWA_RE = re.compile(r'^(\s*pointsxwa:\s*)(\d+)(\s*)$')
+LOADOUTXWA_RE = re.compile(r'^(\s*loadoutxwa:\s*)(\d+)(\s*)$')
 
-# Extract pilot blocks and map them by xws_name
-pilot_blocks = list(re.finditer(r"(?P<block>\{[^{}]*?\n\s*\})", coffee_content, re.DOTALL))
-xws_name_map = {}
-for match in pilot_blocks:
-    block = match.group("block")
-    xws_match = re.search(r'xws_name:\s*["\']([^"\']+)["\']', block)
-    if xws_match:
-        xws = xws_match.group(1)
-        xws_name_map[xws] = match
+def discover_json_pilots(folder):
+    """
+    Walks every *.json and returns {xws_key: {"cost": int, "loadout": int, "source": filename}}
+    Accepts a few common shapes:
+      - { ship_type: { xws_key: {cost, loadout, ...}, ...}, ...}
+      - [{...pilot...}, ...] where entries contain xws/xws_name and cost/loadout
+      - arbitrarily nested dicts/lists; we scan for dicts with ('xws' or 'xws_name') and ('cost','loadout')
+    """
+    found = {}
+    def maybe_add(d, source):
+        xws = d.get("xws") or d.get("xws_name")
+        cost = d.get("cost")
+        loadout = d.get("loadout")
+        if xws is not None and isinstance(cost, int) and isinstance(loadout, int):
+            found[xws] = {"cost": cost, "loadout": loadout, "source": source}
 
-# Keep track of missing keys
-not_found_log = []
-updated_coffee = coffee_content
+    def walk(node, source):
+        if isinstance(node, dict):
+            maybe_add(node, source)
+            for v in node.values():
+                walk(v, source)
+        elif isinstance(node, list):
+            for v in node:
+                walk(v, source)
 
-# Process JSON files
-for json_file in jsons_folder.glob("*.json"):
-    data = json.loads(json_file.read_text(encoding="utf-8"))
-    
-    for ship_type, pilots in data.items():
-        for xws_key, pilot_data in pilots.items():
-            if xws_key in xws_name_map:
-                match = xws_name_map[xws_key]
-                block = match.group("block")
+    for jf in folder.glob("*.json"):
+        try:
+            data = json.loads(jf.read_text(encoding="utf-8"))
+            walk(data, jf.name)
+        except Exception as e:
+            # skip malformed json but note in found using a special key
+            found.setdefault("__errors__", []).append(f"JSON parse error in {jf.name}: {e}")
+    return found
 
-                # Replace values
-                updated_block = re.sub(
-                    r'pointsxwa:\s*\d+',
-                    f'pointsxwa: {pilot_data["cost"]}',
-                    block
-                )
-                updated_block = re.sub(
-                    r'loadoutxwa:\s*\d+',
-                    f'loadoutxwa: {pilot_data["loadout"]}',
-                    updated_block
-                )
+def update_coffee_lines(lines, json_map):
+    """
+    Goes through the CoffeeScript file, finds pilot objects by xws_name, and
+    edits/creates pointsxwa and loadoutxwa lines within that object only.
+    """
+    updated = []
+    missing_in_coffee = []
+    inserted_counters = {"pointsxwa": 0, "loadoutxwa": 0}
+    # Track which xws keys we actually matched
+    seen = set()
 
-                # Replace in the full text
-                updated_coffee = updated_coffee.replace(block, updated_block)
-            else:
-                not_found_log.append(f"{xws_key} not found in CoffeeScript file (from {json_file.name})")
+    i = 0
+    n = len(lines)
+    while i < n:
+        line = lines[i]
+        m = XWS_RE.match(line)
+        if not m:
+            i += 1
+            continue
 
-# Write the updated CoffeeScript
-output_file_path.write_text(updated_coffee, encoding="utf-8")
+        xws_key = m.group(1)
+        # Only proceed if this xws exists in the JSON map
+        if xws_key not in json_map:
+            i += 1
+            continue
 
-# Write the log of unmatched pilots
-log_file_path.write_text("\n".join(not_found_log), encoding="utf-8")
+        seen.add(xws_key)
+        target_cost = json_map[xws_key]["cost"]
+        target_loadout = json_map[xws_key]["loadout"]
+
+        # Determine pilot object indentation from the xws_name line
+        indent = len(line) - len(line.lstrip(" "))
+        # Assume the object region continues until we hit a line with less indent than the object's opening "{"
+        # We’ll find the top of the object by scanning upwards for a line that starts with '{' at <= indent
+        # and then scan downwards until its matching '}' at same or less indentation.
+        # If that’s too brittle, fall back to indent-based region.
+
+        # Fallback: indent-based region scan (practical and safe in CoffeeScript)
+        start = i
+        j = i + 1
+        # Move up to the closest '{' above (optional; not strictly needed)
+        k = i
+        while k >= 0 and '{' not in lines[k]:
+            k -= 1
+        # Downward scan until dedent to less indentation or a line with just '}' at <= indent
+        end = j
+        while end < n:
+            ln = lines[end]
+            if ln.strip().startswith('}') and (len(ln) - len(ln.lstrip(" ")) <= indent):
+                end += 1
+                break
+            if (len(ln) - len(ln.lstrip(" "))) < indent and ln.strip():
+                break
+            end += 1
+
+        # Now within [start, end), update/insert the fields
+        region = lines[start:end]
+        # Find existing lines
+        px_idx = None
+        lx_idx = None
+        for idx, ln in enumerate(region):
+            if POINTSXWA_RE.match(ln):
+                px_idx = idx
+            elif LOADOUTXWA_RE.match(ln):
+                lx_idx = idx
+
+        # Compose new lines using region indentation where the keys already live, else use xws indent + 4 spaces
+        def make_line(key, value, base_indent):
+            return " " * base_indent + f"{key}: {value}\n"
+
+        # Preferred insertion anchor order
+        anchors = ["points:", "loadout:", "skill:", "initiative:", "id:", "ship:", "faction:"]
+
+        # Update or insert pointsxwa
+        if px_idx is not None:
+            pre, _, post = POINTSXWA_RE.match(region[px_idx]).groups()
+            region[px_idx] = f"{pre}{target_cost}{post}\n" if not region[px_idx].endswith("\n") else f"{pre}{target_cost}{post}"
+        else:
+            # insert
+            base_indent = indent
+            inserted_at = None
+            for idx, ln in enumerate(region):
+                if any(ln.lstrip().startswith(a) for a in anchors):
+                    base_indent = len(ln) - len(ln.lstrip(" "))
+                    inserted_at = idx + 1
+                    break
+            if inserted_at is None:
+                inserted_at = 1
+            region.insert(inserted_at, make_line("pointsxwa", target_cost, base_indent))
+            inserted_counters["pointsxwa"] += 1
+
+        # Update or insert loadoutxwa
+        if lx_idx is not None:
+            pre, _, post = LOADOUTXWA_RE.match(region[lx_idx]).groups()
+            region[lx_idx] = f"{pre}{target_loadout}{post}\n" if not region[lx_idx].endswith("\n") else f"{pre}{target_loadout}{post}"
+        else:
+            base_indent = indent
+            inserted_at = None
+            # place after pointsxwa if we just inserted/updated it
+            for idx, ln in enumerate(region):
+                if ln.lstrip().startswith("pointsxwa:"):
+                    base_indent = len(ln) - len(ln.lstrip(" "))
+                    inserted_at = idx + 1
+                    break
+            if inserted_at is None:
+                for idx, ln in enumerate(region):
+                    if any(ln.lstrip().startswith(a) for a in anchors):
+                        base_indent = len(ln) - len(ln.lstrip(" "))
+                        inserted_at = idx + 1
+                        break
+            if inserted_at is None:
+                inserted_at = 1
+            region.insert(inserted_at, make_line("loadoutxwa", target_loadout, base_indent))
+            inserted_counters["loadoutxwa"] += 1
+
+        # Write region back
+        lines[start:end] = region
+        updated.append(xws_key)
+        # Continue after the region
+        i = start + len(region)
+
+    # Anything found in JSON but never seen in Coffee gets logged
+    for xws_key in json_map.keys():
+        if xws_key.startswith("__"):
+            continue
+        if xws_key not in seen:
+            missing_in_coffee.append(xws_key)
+
+    return lines, updated, missing_in_coffee, inserted_counters
+
+# ==== Run ====
+coffee_text = coffee_file_path.read_text(encoding="utf-8")
+lines = coffee_text.splitlines(keepends=True)
+
+# Backup original (once)
+if not backup_file_path.exists():
+    backup_file_path.write_text(coffee_text, encoding="utf-8")
+
+json_map = discover_json_pilots(jsons_folder)
+new_lines, updated_keys, missing_keys, inserted_counts = update_coffee_lines(lines, json_map)
+
+output_file_path.write_text("".join(new_lines), encoding="utf-8")
+
+log_lines = []
+if "__errors__" in json_map:
+    log_lines.extend(json_map["__errors__"])
+log_lines.append(f"Updated pilots: {len(updated_keys)}")
+if updated_keys:
+    log_lines.append(", ".join(sorted(updated_keys)))
+log_lines.append(f"Missing in Coffee: {len(missing_keys)}")
+if missing_keys:
+    log_lines.append(", ".join(sorted(missing_keys)))
+log_lines.append(f"Inserted lines — pointsxwa: {inserted_counts['pointsxwa']}, loadoutxwa: {inserted_counts['loadoutxwa']}")
+
+log_file_path.write_text("\n".join(log_lines), encoding="utf-8")
 
 print("✅ Update complete.")
-print(f"Updated CoffeeScript saved to: {output_file_path}")
-print(f"Log of missing entries saved to: {log_file_path}")
+print(f"Output written to: {output_file_path}")
+print(f"Backup saved at:   {backup_file_path}")
+print(f"Log written to:    {log_file_path}")
