@@ -5876,6 +5876,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Modification"
+                "HardpointShip"
             ]
         }
 
@@ -5901,6 +5902,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Illicit"
                 "Modification"
+                "HardpointShip"
             ]
         }
 
@@ -5925,6 +5927,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Illicit"
                 "Modification"
+                "HardpointShip"
             ]
         }
 
@@ -5951,6 +5954,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Illicit"
                 "Modification"
+                "HardpointShip"
             ]
         }
 
@@ -5973,6 +5977,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Illicit"
                 "Modification"
+                "HardpointShip"
             ]
         }
 
@@ -5995,6 +6000,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Illicit"
                 "Modification"
+                "HardpointShip"
             ]
         }
 
@@ -6016,6 +6022,7 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Modification"
+                "HardpointShip"
             ]
         }
 
@@ -6038,6 +6045,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Illicit"
                 "Modification"
+                "HardpointShip"
             ]
         }
 
@@ -8537,6 +8545,7 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Title"
                 "Configuration"
+                "HardpointShip"
             ]
         }
 
@@ -9116,6 +9125,7 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Modification"
                 "Configuration"
+                "HardpointShip"
             ]
         }
 
@@ -9144,6 +9154,7 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Modification"
                 "Configuration"
+                "HardpointShip"
             ]
         }
 
@@ -9171,6 +9182,7 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Modification"
                 "Configuration"
+                "HardpointShip"
             ]
         }
 
@@ -9198,6 +9210,7 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Modification"
                 "Configuration"
+                "HardpointShip"
             ]
         }
 
@@ -9227,6 +9240,7 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Modification"
                 "Configuration"
+                "HardpointShip"
             ]
         }
 
@@ -9255,6 +9269,7 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Modification"
                 "Configuration"
+                "HardpointShip"
             ]
         }
 
@@ -9281,6 +9296,7 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Modification"
                 "Configuration"
+                "HardpointShip"
             ]
         }
 
@@ -10388,6 +10404,7 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Modification"
                 "Configuration"
+                "HardpointShip"
             ]
         }
 
@@ -10418,6 +10435,7 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Modification"
                 "Configuration"
+                "HardpointShip"
             ]
         }
 
@@ -10449,6 +10467,7 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Modification"
                 "Configuration"
+                "HardpointShip"
             ]
         }
 
@@ -10479,6 +10498,7 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Modification"
                 "Configuration"
+                "HardpointShip"
             ]
         }
 
@@ -12371,8 +12391,8 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Crew"
                 "Gunner"
-                "HardpointShip"
-                "HardpointShip"
+                "Hardpoint"
+                "Hardpoint"
                 "Team"
                 "Team"
             ]
@@ -12408,8 +12428,8 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Crew"
                 "Gunner"
-                "HardpointShip"
-                "HardpointShip"
+                "Hardpoint"
+                "Hardpoint"
                 "Title"
                 "Team"
                 "Team"
@@ -12448,8 +12468,8 @@ exportObj.basicCardData = ->
                 "Torpedo"
                 "Crew"
                 "Crew"
-                "HardpointShip"
-                "HardpointShip"
+                "Hardpoint"
+                "Hardpoint"
                 "Title"
                 "Team"
                 "Team"
@@ -12487,8 +12507,8 @@ exportObj.basicCardData = ->
                 "Torpedo"
                 "Crew"
                 "Crew"
-                "HardpointShip"
-                "HardpointShip"
+                "Hardpoint"
+                "Hardpoint"
                 "Team"
                 "Team"
             ]
@@ -12524,7 +12544,7 @@ exportObj.basicCardData = ->
                 "Turret"
                 "Crew"
                 "Crew"
-                "HardpointShip"
+                "Hardpoint"
                 "Title"
                 "Team"
             ]
@@ -12559,7 +12579,7 @@ exportObj.basicCardData = ->
                 "Turret"
                 "Crew"
                 "Crew"
-                "HardpointShip"
+                "Hardpoint"
                 "Team"
             ]
         }
@@ -12594,7 +12614,7 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Crew"
                 "Gunner"
-                "HardpointShip"
+                "Hardpoint"
                 "Title"
                 "Team"
             ]
@@ -12629,7 +12649,7 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Crew"
                 "Gunner"
-                "HardpointShip"
+                "Hardpoint"
                 "Team"
             ]
         }
@@ -12664,7 +12684,7 @@ exportObj.basicCardData = ->
                 "Tactical Relay"
                 "Crew"
                 "Crew"
-                "HardpointShip"
+                "Hardpoint"
                 "Configuration"
                 "Team"
             ]
@@ -12701,7 +12721,7 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Crew"
                 "Illicit"
-                "HardpointShip"
+                "Hardpoint"
                 "Title"
                 "Configuration"
                 "Team"
@@ -13397,6 +13417,7 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Modification"
+                "HardpointShip"
             ]
         }
 
@@ -14694,6 +14715,7 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Modification"
                 "Configuration"
+                "HardpointShip"
             ]
         }
 
@@ -14725,6 +14747,7 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Modification"
                 "Configuration"
+                "HardpointShip"
             ]
         }
 
@@ -14859,6 +14882,7 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Modification"
                 "Configuration"
+                "HardpointShip"
             ]
         }
 
@@ -14888,6 +14912,7 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Modification"
                 "Configuration"
+                "HardpointShip"
             ]
         }
 
@@ -15646,8 +15671,8 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Crew"
                 "Gunner"
-                "HardpointShip"
-                "HardpointShip"
+                "Hardpoint"
+                "Hardpoint"
                 "Title"
                 "Team"
             ]
@@ -15684,8 +15709,8 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Crew"
                 "Gunner"
-                "HardpointShip"
-                "HardpointShip"
+                "Hardpoint"
+                "Hardpoint"
                 "Title"
                 "Team"
             ]
@@ -19402,6 +19427,7 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Modification"
                 "Configuration"
+                "HardpointShip"
             ]
         }
 
@@ -19432,6 +19458,7 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Modification"
                 "Configuration"
+                "HardpointShip"
             ]
         }
 
