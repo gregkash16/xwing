@@ -1,7 +1,3 @@
-"""FIX THE HARDPOINT ISSUE"""
-"""Force Power JSON = Force Coffee"""
-"""Payload JSON = Device"""
-
 import json
 import re
 from pathlib import Path
@@ -23,16 +19,41 @@ XWS_RE = re.compile(r'^\s*xws_name:\s*["\']([^"\']+)["\']\s*$')
 POINTSXWA_RE = re.compile(r'^(\s*pointsxwa:\s*)(\d+)(\s*)$')
 LOADOUTXWA_RE = re.compile(r'^(\s*loadoutxwa:\s*)(\d+)(\s*)$')
 SLOTSXWA_KEY_RE = re.compile(r'^\s*slotsxwa\s*:')
+XWA_SLOTS_KEY_RE = re.compile(r'^\s*xwa_slots\s*:')
 
 # =======================
 # SLOT MAPPINGS (JSON → CoffeeScript)
 # =======================
 SLOT_MAP = {
     "Hardpoint": "HardpointShip",
-    "Device": "Payload",
+    "Payload": "Device",
+    "Force Power": "Force",
 }
 def map_slot(name: str) -> str:
     return SLOT_MAP.get(name, name)
+
+# =======================
+# PREFERRED ORDER (as provided) → then mapped to Coffee names
+# =======================
+USER_SLOT_ORDER_JSON = [
+    "Force Power", "Talent", "Astromech", "Crew", "Gunner", "Sensor", "Illicit", "Cannon",
+    "Torpedo", "Missile", "HardpointShip", "Payload", "Modification",
+    "Configuration", "Title"
+]
+# Convert to Coffee names for ordering (e.g., Payload→Device, Force Power→Force)
+COFFEE_SLOT_ORDER = []
+_seen = set()
+for token in USER_SLOT_ORDER_JSON:
+    mapped = map_slot(token)
+    if mapped not in _seen:
+        COFFEE_SLOT_ORDER.append(mapped)
+        _seen.add(mapped)
+# Build index lookup for ordering (unknowns go to the end)
+ORDER_INDEX = {name: i for i, name in enumerate(COFFEE_SLOT_ORDER)}
+
+def sort_slots_coffee(slots: List[str]) -> List[str]:
+    # Stable sort by our order, then by name to keep unknowns deterministic
+    return sorted(slots, key=lambda s: (ORDER_INDEX.get(s, 999), s))
 
 # =======================
 # JSON DISCOVERY
@@ -41,27 +62,15 @@ def discover_json_pilots(jsons_dir: Path) -> Dict[str, Dict]:
     """
     Walk all *.json in jsons_dir and return:
       { xws_key: {"cost": int, "loadout": int, "slots": [str], "source": filename} }
-    Accepts nested dicts/lists and looks for dicts containing a pilot keyed by xws key,
-    following the structure exemplified by firstorder.json.
+    Assumes nested dicts where the parent key of a dict containing cost/loadout/slots is the xws key.
     """
     pilots: Dict[str, Dict] = {}
 
-    def maybe_add(d: dict, source: str):
-        # 'd' is a potential pilot dict; we need keys: cost, loadout, slots
-        if not isinstance(d, dict):
-            return
-        # We don't know the xws key here; the xws key is actually the key that pointed to this dict.
-        # So 'maybe_add' is used only when we call it with context that includes that key.
-        pass
-
     def walk(node, source: str, parent_key: Optional[str] = None):
-        # If node is a pilot dict reached via a key (the xws name), record it.
         if isinstance(node, dict):
-            # Heuristic: if node looks like a pilot (has cost, loadout, slots), and parent_key is non-empty,
-            # then parent_key is the xws key.
             if parent_key and "cost" in node and "loadout" in node and "slots" in node and isinstance(node["slots"], list):
                 xws = parent_key
-                slots = [map_slot(str(s)) for s in node.get("slots", [])]
+                mapped_slots = [map_slot(str(s)) for s in node.get("slots", [])]
                 try:
                     cost = int(node.get("cost"))
                 except Exception:
@@ -74,10 +83,9 @@ def discover_json_pilots(jsons_dir: Path) -> Dict[str, Dict]:
                     pilots[xws] = {
                         "cost": cost,
                         "loadout": loadout,
-                        "slots": slots,
+                        "slots": mapped_slots,
                         "source": source,
                     }
-            # Continue walking nested values; pass key names as potential xws
             for k, v in node.items():
                 walk(v, source, parent_key=k)
         elif isinstance(node, list):
@@ -89,7 +97,6 @@ def discover_json_pilots(jsons_dir: Path) -> Dict[str, Dict]:
             data = json.loads(jf.read_text(encoding="utf-8"))
             walk(data, jf.name, parent_key=None)
         except Exception as e:
-            # Put parse errors into the pilots dict under a special key
             pilots.setdefault("__errors__", []).append(f"JSON parse error in {jf.name}: {e}")
 
     return pilots
@@ -98,14 +105,9 @@ def discover_json_pilots(jsons_dir: Path) -> Dict[str, Dict]:
 # COFFEE PARSING HELPERS
 # =======================
 def find_object_region(lines: List[str], xws_idx: int) -> Tuple[int, int]:
-    """
-    Given index of xws_name line, return (obj_start, obj_end_exclusive).
-    Uses indentation + brace heuristics safe for CoffeeScript objects.
-    """
     indent = len(lines[xws_idx]) - len(lines[xws_idx].lstrip(" "))
     n = len(lines)
 
-    # Search upwards for the opening '{' at <= indent or until dedent
     obj_start = xws_idx
     k = xws_idx
     while k >= 0:
@@ -119,7 +121,6 @@ def find_object_region(lines: List[str], xws_idx: int) -> Tuple[int, int]:
             break
         k -= 1
 
-    # Search downwards for closing '}' at <= indent or dedent
     end = xws_idx + 1
     while end < n:
         ln = lines[end]
@@ -136,55 +137,33 @@ def find_object_region(lines: List[str], xws_idx: int) -> Tuple[int, int]:
 def get_indent(s: str) -> int:
     return len(s) - len(s.lstrip(" "))
 
-def parse_slotsxwa(region: List[str]) -> Tuple[Optional[int], Optional[int], List[str]]:
-    """
-    Find slotsxwa in region and parse its list of strings.
-    Returns (slots_line_idx, arr_end_idx, slots_list).
-    If not found, returns (None, None, []).
-    """
-    slots_line_idx = None
-    # find key line
+def parse_array_block(region: List[str], key_re: re.Pattern) -> Tuple[Optional[int], Optional[int], List[str]]:
+    key_idx = None
     for idx, ln in enumerate(region):
-        if SLOTSXWA_KEY_RE.match(ln):
-            slots_line_idx = idx
+        if key_re.match(ln):
+            key_idx = idx
             break
-    if slots_line_idx is None:
+    if key_idx is None:
         return None, None, []
 
-    # Determine array span (inline or multi-line)
-    # Find '['
-    i = slots_line_idx
+    i = key_idx
     while i < len(region) and "[" not in region[i]:
         i += 1
     if i >= len(region):
-        # malformed; treat no array content
-        return slots_line_idx, slots_line_idx + 1, []
+        return key_idx, key_idx + 1, []
 
-    # Find closing ']'
     j = i
     while j < len(region) and "]" not in region[j]:
         j += 1
     arr_end_idx = min(j + 1, len(region))
 
-    # Extract between i and arr_end_idx
-    body_lines = region[i:arr_end_idx]
-    body = "".join(body_lines)
-
-    # Pull out quoted strings
-    # Accept both "A" and 'A', separated by commas or newlines
+    body = "".join(region[i:arr_end_idx])
     items = re.findall(r'["\']([^"\']+)["\']', body)
-    return slots_line_idx, arr_end_idx, items
+    return key_idx, arr_end_idx, items
 
-def render_slots_block(key_indent: int, items: List[str]) -> List[str]:
-    """
-    Render a clean multi-line CoffeeScript slotsxwa block:
-      <indent>slotsxwa: [
-      <indent+4>"A"
-      ...
-      <indent>]
-    """
+def render_array_block(key: str, key_indent: int, items: List[str]) -> List[str]:
     out = []
-    out.append(" " * key_indent + "slotsxwa: [\n")
+    out.append(" " * key_indent + f"{key}: [\n")
     for s in items:
         out.append(" " * (key_indent + 4) + f"\"{s}\"\n")
     out.append(" " * key_indent + "]\n")
@@ -195,10 +174,6 @@ def render_slots_block(key_indent: int, items: List[str]) -> List[str]:
 # =======================
 def upsert_number_line(region: List[str], regex: re.Pattern, key: str, new_val: int,
                        anchors: List[str], xws_indent: int, changes: List[str], xws_name: str) -> List[str]:
-    """
-    Update existing numeric line (pointsxwa/loadoutxwa) or insert near anchors.
-    Log changes when value differs or when inserting.
-    """
     idx_match = None
     old_val = None
     for i, ln in enumerate(region):
@@ -211,15 +186,11 @@ def upsert_number_line(region: List[str], regex: re.Pattern, key: str, new_val: 
     if idx_match is not None:
         if old_val != new_val:
             pre, _, post = regex.match(region[idx_match]).groups()
-            # Preserve newline end
             newline = "" if region[idx_match].endswith("\n") else "\n"
             region[idx_match] = f"{pre}{new_val}{post}{newline}"
             changes.append(f'{xws_name}: {key} {old_val} -> {new_val}')
-        # else no change
         return region
 
-    # Insert if not present
-    # pick indentation from nearest anchor, else from xws line
     insert_at = 1
     base_indent = xws_indent
     for i, ln in enumerate(region):
@@ -233,27 +204,33 @@ def upsert_number_line(region: List[str], regex: re.Pattern, key: str, new_val: 
     changes.append(f'{xws_name}: inserted {key} = {new_val}')
     return region
 
-def upsert_slots_block(region: List[str], new_items: List[str], xws_indent: int,
-                       anchors: List[str], changes: List[str], xws_name: str) -> List[str]:
+def upsert_slotsxwa(region: List[str], new_items: List[str], xws_indent: int,
+                    anchors: List[str], changes: List[str], xws_name: str) -> List[str]:
     """
-    Update/insert slotsxwa array. Compare normalized content; if different, rewrite as multi-line.
+    Update/insert slotsxwa array.
+    - Map already applied upstream.
+    - Enforce preferred order when writing.
+    - Rewrite if set/order differs.
     """
-    slots_line_idx, arr_end_idx, current_items = parse_slotsxwa(region)
-    norm_cur = current_items[:]  # already strings
-    norm_new = new_items[:]      # already mapped/strings
+    key_idx, arr_end_idx, current_items = parse_array_block(region, SLOTSXWA_KEY_RE)
 
-    if slots_line_idx is not None:
-        if norm_cur != norm_new:
-            key_indent = get_indent(region[slots_line_idx])
-            new_block = render_slots_block(key_indent, norm_new)
-            pre = region[:slots_line_idx]
+    desired = sort_slots_coffee(list(new_items))  # enforce order
+    current_sorted = sort_slots_coffee(list(current_items))
+
+    # Rewrite if different (either content or order)
+    needs_rewrite = (current_sorted != desired)
+
+    if key_idx is not None:
+        if needs_rewrite:
+            key_indent = get_indent(region[key_idx])
+            new_block = render_array_block("slotsxwa", key_indent, desired)
+            pre = region[:key_idx]
             post = region[arr_end_idx:]
             region[:] = pre + new_block + post
-            changes.append(f'{xws_name}: slotsxwa {norm_cur} -> {norm_new}')
-        # else no change
+            changes.append(f'{xws_name}: slotsxwa {current_items} -> {desired}')
         return region
 
-    # Insert if not present
+    # Insert if missing
     insert_at = 1
     key_indent = xws_indent
     for i, ln in enumerate(region):
@@ -261,22 +238,54 @@ def upsert_slots_block(region: List[str], new_items: List[str], xws_indent: int,
             key_indent = get_indent(ln)
             insert_at = i + 1
             break
-    new_block = render_slots_block(key_indent, norm_new)
+    new_block = render_array_block("slotsxwa", key_indent, desired)
     region[insert_at:insert_at] = new_block
-    changes.append(f'{xws_name}: inserted slotsxwa = {norm_new}')
+    changes.append(f'{xws_name}: inserted slotsxwa = {desired}')
+    return region
+
+def ensure_xwa_slots_hardpoint(region: List[str], require_hp: bool, xws_indent: int,
+                               anchors: List[str], changes: List[str], xws_name: str) -> List[str]:
+    """
+    If require_hp is True (slotsxwa contains 'HardpointShip'), ensure xwa_slots exists and includes 'HardpointShip'.
+    """
+    if not require_hp:
+        return region
+
+    key_idx, arr_end_idx, items = parse_array_block(region, XWA_SLOTS_KEY_RE)
+
+    if key_idx is None:
+        insert_at = 1
+        key_indent = xws_indent
+        for i, ln in enumerate(region):
+            if any(ln.lstrip().startswith(a) for a in anchors):
+                key_indent = get_indent(ln)
+                insert_at = i + 1
+                break
+        new_block = render_array_block("xwa_slots", key_indent, ["HardpointShip"])
+        region[insert_at:insert_at] = new_block
+        changes.append(f'{xws_name}: inserted xwa_slots = ["HardpointShip"]')
+        return region
+
+    if "HardpointShip" not in items:
+        new_items = items + ["HardpointShip"]
+        key_indent = get_indent(region[key_idx])
+        new_block = render_array_block("xwa_slots", key_indent, new_items)
+        pre = region[:key_idx]
+        post = region[arr_end_idx:]
+        region[:] = pre + new_block + post
+        changes.append(f'{xws_name}: xwa_slots appended HardpointShip (was {items} -> {new_items})')
     return region
 
 # =======================
 # MAIN SYNC
 # =======================
 def main():
-    # Read coffee and make backup
+    # Backup once
     coffee_text = COFFEE_PATH.read_text(encoding="utf-8")
     if not COFFEE_BACKUP_PATH.exists():
         COFFEE_BACKUP_PATH.write_text(coffee_text, encoding="utf-8")
 
     lines = coffee_text.splitlines(keepends=True)
-
     json_map = discover_json_pilots(JSONS_DIR)
 
     changes: List[str] = []
@@ -284,8 +293,8 @@ def main():
     if "__errors__" in json_map:
         changes.extend(json_map["__errors__"])
 
-    # Anchors to keep new fields near other stats/upgrades
-    anchors = ["upgrades:", "slots:", "loadoutxwa:", "pointsxwa:", "loadout:", "points:", "skill:", "initiative:", "id:", "ship:", "faction:"]
+    anchors = ["upgrades:", "slots:", "xwa_slots:", "slotsxwa:", "loadoutxwa:", "pointsxwa:",
+               "loadout:", "points:", "skill:", "initiative:", "id:", "ship:", "faction:"]
 
     i = 0
     n = len(lines)
@@ -299,7 +308,6 @@ def main():
             continue
 
         xws = m.group(1)
-        # Only sync if we have JSON for this xws
         if xws not in json_map:
             i += 1
             continue
@@ -308,7 +316,7 @@ def main():
         target = json_map[xws]
         cost = target["cost"]
         loadout = target["loadout"]
-        slots = target["slots"]
+        slots = target["slots"]  # already mapped to Coffee names
 
         obj_start, obj_end = find_object_region(lines, i)
         region = lines[obj_start:obj_end]
@@ -318,13 +326,16 @@ def main():
         region = upsert_number_line(region, POINTSXWA_RE, "pointsxwa", cost, anchors, xws_indent, changes, xws)
         # loadoutxwa
         region = upsert_number_line(region, LOADOUTXWA_RE, "loadoutxwa", loadout, anchors, xws_indent, changes, xws)
-        # slotsxwa
-        region = upsert_slots_block(region, slots, xws_indent, anchors, changes, xws)
+        # slotsxwa (ordered)
+        region = upsert_slotsxwa(region, slots, xws_indent, anchors, changes, xws)
+        # ensure xwa_slots has HardpointShip if slotsxwa has it
+        require_hp = "HardpointShip" in slots
+        region = ensure_xwa_slots_hardpoint(region, require_hp, xws_indent, anchors, changes, xws)
 
         # write region back
         lines[obj_start:obj_end] = region
 
-        # advance past rewritten region
+        # advance after rewritten region
         delta = len(region)
         i = obj_start + delta
         n = len(lines)
@@ -336,7 +347,6 @@ def main():
         if k not in seen_xws:
             missing_in_coffee.append(k)
 
-    # Append missing info to log
     if missing_in_coffee:
         for k in sorted(missing_in_coffee):
             changes.append(f'{k}: NOT FOUND in Coffee (present in JSON)')
