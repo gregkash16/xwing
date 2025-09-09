@@ -20,6 +20,7 @@ POINTSXWA_RE = re.compile(r'^(\s*pointsxwa:\s*)(\d+)(\s*)$')
 LOADOUTXWA_RE = re.compile(r'^(\s*loadoutxwa:\s*)(\d+)(\s*)$')
 SLOTSXWA_KEY_RE = re.compile(r'^\s*slotsxwa\s*:')
 SLOTS_KEY_RE = re.compile(r'^\s*slots\s*:')          # Coffee base slots
+
 # =======================
 # SLOT MAPPINGS (JSON → Coffee)
 # =======================
@@ -34,23 +35,15 @@ def map_slot(name: str) -> str:
 # Preferred order (Coffee names)
 COFFEE_SLOT_ORDER = [
     "Force", "Talent", "Astromech", "Crew", "Gunner", "Sensor", "Illicit", "Cannon",
-    "Torpedo", "Missile", "HardpointShip", "Device", "Modification", "Tech",
+    "Torpedo", "Missile", "HardpointShip", "Device", "Modification",
     "Configuration", "Title"
 ]
 ORDER_INDEX = {name: i for i, name in enumerate(COFFEE_SLOT_ORDER)}
 
 def sort_slots_coffee(slots: List[str]) -> List[str]:
-    # Stable sort by our order; unknowns to end (alpha for determinism)
+    # Stable sort by our index; unknowns to end (alpha for determinism).
+    # Duplicates are preserved because Python's sort is stable.
     return sorted(slots, key=lambda s: (ORDER_INDEX.get(s, 999), s))
-
-def uniq_in_order(items: List[str]) -> List[str]:
-    seen = set()
-    out = []
-    for x in items:
-        if x not in seen:
-            seen.add(x)
-            out.append(x)
-    return out
 
 # =======================
 # JSON DISCOVERY
@@ -58,7 +51,7 @@ def uniq_in_order(items: List[str]) -> List[str]:
 def discover_json_pilots(jsons_dir: Path) -> Dict[str, Dict]:
     """
     Return:
-      { xws_key: {"cost": int, "loadout": int, "slots": [str], "source": filename} }
+      { xws_key: {"cost": int, "loadout": int, "slots": List[str], "source": filename} }
     Walk nested dicts/lists; use parent key of a dict with cost/loadout/slots as xws key.
     """
     pilots: Dict[str, Dict] = {}
@@ -67,7 +60,7 @@ def discover_json_pilots(jsons_dir: Path) -> Dict[str, Dict]:
         if isinstance(node, dict):
             if parent_key and "cost" in node and "loadout" in node and "slots" in node and isinstance(node["slots"], list):
                 xws = parent_key
-                mapped_slots = [map_slot(str(s)) for s in node.get("slots", [])]
+                mapped_slots = [map_slot(str(s)) for s in node.get("slots", [])]  # keep duplicates
                 try:
                     cost = int(node.get("cost"))
                 except Exception:
@@ -137,6 +130,7 @@ def get_indent(s: str) -> int:
 def parse_array_block(region: List[str], key_re: re.Pattern) -> Tuple[Optional[int], Optional[int], List[str]]:
     """
     Returns (key_line_idx, arr_end_idx, items) for an array block by key regex.
+    Keeps duplicates as they appear in the file.
     """
     key_idx = None
     for idx, ln in enumerate(region):
@@ -158,6 +152,7 @@ def parse_array_block(region: List[str], key_re: re.Pattern) -> Tuple[Optional[i
     arr_end_idx = min(j + 1, len(region))
 
     body = "".join(region[i:arr_end_idx])
+    # capture duplicates in order
     items = re.findall(r'["\']([^"\']+)["\']', body)
     return key_idx, arr_end_idx, items
 
@@ -208,7 +203,7 @@ def upsert_slotsxwa(region: List[str], desired_items: List[str], xws_indent: int
                     anchors: List[str], changes: List[str], xws_name: str) -> List[str]:
     """
     Update/insert slotsxwa using an explicit desired_items list (Coffee names, ordered).
-    Rewrite if current items != desired_items (exact list/order).
+    Rewrite if current items != desired_items (exact list/order, including duplicates).
     """
     key_idx, arr_end_idx, current_items = parse_array_block(region, SLOTSXWA_KEY_RE)
     needs_rewrite = (current_items != desired_items)
@@ -269,14 +264,14 @@ def main():
 
         xws = m.group(1)
         if xws not in json_map:
-            i += 1            # nothing to sync for this pilot
+            i += 1
             continue
 
         seen_xws.add(xws)
         target = json_map[xws]
         cost = target["cost"]
         loadout = target["loadout"]
-        mapped_from_json = target["slots"]  # mapped to Coffee names already
+        mapped_from_json = list(target["slots"])  # keep duplicates exactly
 
         obj_start, obj_end = find_object_region(lines, i)
         region = lines[obj_start:obj_end]
@@ -286,16 +281,19 @@ def main():
         region = upsert_number_line(region, POINTSXWA_RE, "pointsxwa", cost, anchors, xws_indent, changes, xws)
         region = upsert_number_line(region, LOADOUTXWA_RE, "loadoutxwa", loadout, anchors, xws_indent, changes, xws)
 
-        # 2) ensure HardpointShip in slotsxwa if Coffee 'slots:' has it
+        # 2) count HardpointShip in Coffee 'slots:' and ensure slotsxwa has at least that many
         _slots_key_idx, _slots_arr_end_idx, coffee_slots_items = parse_array_block(region, SLOTS_KEY_RE)
-        extra = ["HardpointShip"] if "HardpointShip" in coffee_slots_items else []
+        coffee_hp_count = sum(1 for s in coffee_slots_items if s == "HardpointShip")
+        json_hp_count = sum(1 for s in mapped_from_json if s == "HardpointShip")
+        extra_hp_needed = max(0, coffee_hp_count - json_hp_count)
 
-        # 3) desired slotsxwa = (JSON-mapped slots) ∪ (extra from coffee slots) ⇒ ordered
-        desired = uniq_in_order(mapped_from_json + extra)
-        desired = sort_slots_coffee(desired)
+        desired_multiset = list(mapped_from_json) + (["HardpointShip"] * extra_hp_needed)
+
+        # 3) order the full MULTISET (duplicates preserved)
+        desired_ordered = sort_slots_coffee(desired_multiset)
 
         # 4) write slotsxwa
-        region = upsert_slotsxwa(region, desired, xws_indent, anchors, changes, xws)
+        region = upsert_slotsxwa(region, desired_ordered, xws_indent, anchors, changes, xws)
 
         # write region back
         lines[obj_start:obj_end] = region
