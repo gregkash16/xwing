@@ -36,8 +36,8 @@ def map_slot(name: str) -> str:
 # PREFERRED ORDER (as provided) → then mapped to Coffee names
 # =======================
 USER_SLOT_ORDER_JSON = [
-    "Force Power", "Talent", "Astromech", "Crew", "Gunner", "Sensor", "Illicit", "Cannon",
-    "Torpedo", "Missile", "HardpointShip", "Payload", "Modification",
+    "Force", "Talent", "Astromech", "Crew", "Gunner", "Sensor", "Illicit", "Cannon",
+    "Torpedo", "Missile", "HardpointShip", "Device", "Modification",
     "Configuration", "Title"
 ]
 # Convert to Coffee names for ordering (e.g., Payload→Device, Force Power→Force)
