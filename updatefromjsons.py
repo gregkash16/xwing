@@ -1,5 +1,6 @@
 """FIX THE HARDPOINT ISSUE"""
-
+"""Force Power JSON = Force Coffee"""
+"""Payload JSON = Device"""
 
 import json
 import re
