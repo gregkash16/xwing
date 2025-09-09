@@ -19,6 +19,7 @@ XWS_RE = re.compile(r'^\s*xws_name:\s*["\']([^"\']+)["\']\s*$')
 POINTSXWA_RE = re.compile(r'^(\s*pointsxwa:\s*)(\d+)(\s*)$')
 LOADOUTXWA_RE = re.compile(r'^(\s*loadoutxwa:\s*)(\d+)(\s*)$')
 SLOTSXWA_KEY_RE = re.compile(r'^\s*slotsxwa\s*:')
+SLOTS_KEY_RE = re.compile(r'^\s*slots\s*:')          # ← Coffee's base slots
 XWA_SLOTS_KEY_RE = re.compile(r'^\s*xwa_slots\s*:')
 
 # =======================
@@ -33,26 +34,16 @@ def map_slot(name: str) -> str:
     return SLOT_MAP.get(name, name)
 
 # =======================
-# PREFERRED ORDER (as provided) → then mapped to Coffee names
+# PREFERRED ORDER (Coffee names)
 # =======================
-USER_SLOT_ORDER_JSON = [
+COFFEE_SLOT_ORDER = [
     "Force", "Talent", "Astromech", "Crew", "Gunner", "Sensor", "Illicit", "Cannon",
     "Torpedo", "Missile", "HardpointShip", "Device", "Modification",
     "Configuration", "Title"
 ]
-# Convert to Coffee names for ordering (e.g., Payload→Device, Force Power→Force)
-COFFEE_SLOT_ORDER = []
-_seen = set()
-for token in USER_SLOT_ORDER_JSON:
-    mapped = map_slot(token)
-    if mapped not in _seen:
-        COFFEE_SLOT_ORDER.append(mapped)
-        _seen.add(mapped)
-# Build index lookup for ordering (unknowns go to the end)
 ORDER_INDEX = {name: i for i, name in enumerate(COFFEE_SLOT_ORDER)}
-
 def sort_slots_coffee(slots: List[str]) -> List[str]:
-    # Stable sort by our order, then by name to keep unknowns deterministic
+    # stable order: by our index; unknowns to the end (sorted by name for determinism)
     return sorted(slots, key=lambda s: (ORDER_INDEX.get(s, 999), s))
 
 # =======================
@@ -60,9 +51,9 @@ def sort_slots_coffee(slots: List[str]) -> List[str]:
 # =======================
 def discover_json_pilots(jsons_dir: Path) -> Dict[str, Dict]:
     """
-    Walk all *.json in jsons_dir and return:
+    Return:
       { xws_key: {"cost": int, "loadout": int, "slots": [str], "source": filename} }
-    Assumes nested dicts where the parent key of a dict containing cost/loadout/slots is the xws key.
+    Walks nested dicts/lists; uses parent key of a dict with cost/loadout/slots as xws key.
     """
     pilots: Dict[str, Dict] = {}
 
@@ -138,6 +129,11 @@ def get_indent(s: str) -> int:
     return len(s) - len(s.lstrip(" "))
 
 def parse_array_block(region: List[str], key_re: re.Pattern) -> Tuple[Optional[int], Optional[int], List[str]]:
+    """
+    Find an array block within region by key regex (e.g., slotsxwa, slots, xwa_slots).
+    Returns (key_line_idx, arr_end_idx, items).
+    If not found, returns (None, None, []).
+    """
     key_idx = None
     for idx, ln in enumerate(region):
         if key_re.match(ln):
@@ -146,12 +142,14 @@ def parse_array_block(region: List[str], key_re: re.Pattern) -> Tuple[Optional[i
     if key_idx is None:
         return None, None, []
 
+    # Find '[' start
     i = key_idx
     while i < len(region) and "[" not in region[i]:
         i += 1
     if i >= len(region):
         return key_idx, key_idx + 1, []
 
+    # Find closing ']'
     j = i
     while j < len(region) and "]" not in region[j]:
         j += 1
@@ -208,17 +206,15 @@ def upsert_slotsxwa(region: List[str], new_items: List[str], xws_indent: int,
                     anchors: List[str], changes: List[str], xws_name: str) -> List[str]:
     """
     Update/insert slotsxwa array.
-    - Map already applied upstream.
+    - new_items already mapped to Coffee names.
     - Enforce preferred order when writing.
-    - Rewrite if set/order differs.
+    - Rewrite if set OR order differs from what's currently in Coffee.
     """
     key_idx, arr_end_idx, current_items = parse_array_block(region, SLOTSXWA_KEY_RE)
 
-    desired = sort_slots_coffee(list(new_items))  # enforce order
-    current_sorted = sort_slots_coffee(list(current_items))
-
-    # Rewrite if different (either content or order)
-    needs_rewrite = (current_sorted != desired)
+    desired = sort_slots_coffee(list(new_items))   # enforce order on Coffee names
+    # Compare EXACT current order to desired (not sorted copy of current)
+    needs_rewrite = (current_items != desired)
 
     if key_idx is not None:
         if needs_rewrite:
@@ -243,17 +239,23 @@ def upsert_slotsxwa(region: List[str], new_items: List[str], xws_indent: int,
     changes.append(f'{xws_name}: inserted slotsxwa = {desired}')
     return region
 
-def ensure_xwa_slots_hardpoint(region: List[str], require_hp: bool, xws_indent: int,
+def ensure_xwa_slots_hardpoint(region: List[str], xws_indent: int,
                                anchors: List[str], changes: List[str], xws_name: str) -> List[str]:
     """
-    If require_hp is True (slotsxwa contains 'HardpointShip'), ensure xwa_slots exists and includes 'HardpointShip'.
+    Look at Coffee's *slots:* (not slotsxwa). If it contains 'HardpointShip',
+    ensure xwa_slots exists and includes 'HardpointShip'.
     """
+    # Parse Coffee 'slots:' array right now
+    slots_key_idx, slots_arr_end_idx, slots_items = parse_array_block(region, SLOTS_KEY_RE)
+    require_hp = ("HardpointShip" in slots_items)
+
     if not require_hp:
         return region
 
     key_idx, arr_end_idx, items = parse_array_block(region, XWA_SLOTS_KEY_RE)
 
     if key_idx is None:
+        # create xwa_slots with HardpointShip
         insert_at = 1
         key_indent = xws_indent
         for i, ln in enumerate(region):
@@ -263,9 +265,10 @@ def ensure_xwa_slots_hardpoint(region: List[str], require_hp: bool, xws_indent: 
                 break
         new_block = render_array_block("xwa_slots", key_indent, ["HardpointShip"])
         region[insert_at:insert_at] = new_block
-        changes.append(f'{xws_name}: inserted xwa_slots = ["HardpointShip"]')
+        changes.append(f'{xws_name}: inserted xwa_slots = ["HardpointShip"] (because slots contains HardpointShip)')
         return region
 
+    # Already has xwa_slots: ensure HardpointShip present
     if "HardpointShip" not in items:
         new_items = items + ["HardpointShip"]
         key_indent = get_indent(region[key_idx])
@@ -326,11 +329,10 @@ def main():
         region = upsert_number_line(region, POINTSXWA_RE, "pointsxwa", cost, anchors, xws_indent, changes, xws)
         # loadoutxwa
         region = upsert_number_line(region, LOADOUTXWA_RE, "loadoutxwa", loadout, anchors, xws_indent, changes, xws)
-        # slotsxwa (ordered)
+        # slotsxwa (ordered on Coffee names)
         region = upsert_slotsxwa(region, slots, xws_indent, anchors, changes, xws)
-        # ensure xwa_slots has HardpointShip if slotsxwa has it
-        require_hp = "HardpointShip" in slots
-        region = ensure_xwa_slots_hardpoint(region, require_hp, xws_indent, anchors, changes, xws)
+        # ensure xwa_slots has HardpointShip if Coffee *slots:* has it
+        region = ensure_xwa_slots_hardpoint(region, xws_indent, anchors, changes, xws)
 
         # write region back
         lines[obj_start:obj_end] = region

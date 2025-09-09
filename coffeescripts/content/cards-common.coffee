@@ -2052,10 +2052,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
+                "Illicit"
+                "Missile"
                 "Modification"
                 "Configuration"
-                "Missile"
-                "Illicit"
             ]
         }
 
@@ -2076,8 +2076,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Modification"
                 "Torpedo"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -2099,11 +2099,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Torpedo"
-                "Configuration"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -2126,11 +2126,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Torpedo"
-                "Configuration"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -2157,12 +2157,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Force"
+                "Force"
                 "Astromech"
-                "Modification"
                 "Torpedo"
+                "Modification"
                 "Configuration"
-                "Force"
-                "Force"
             ]
         }
 
@@ -2187,11 +2187,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Torpedo"
-                "Configuration"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -2216,11 +2216,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Torpedo"
-                "Configuration"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -2243,8 +2243,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Modification"
                 "Torpedo"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -2269,10 +2269,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
+                "Illicit"
+                "Missile"
                 "Modification"
                 "Configuration"
-                "Missile"
-                "Illicit"
             ]
         }
 
@@ -2295,11 +2295,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Torpedo"
-                "Configuration"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -2324,12 +2324,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
+                "Illicit"
+                "Missile"
                 "Modification"
                 "Configuration"
-                "Missile"
-                "Illicit"
-                "Talent"
             ]
         }
 
@@ -2361,12 +2361,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
+                "Illicit"
+                "Missile"
                 "Modification"
                 "Configuration"
-                "Missile"
-                "Illicit"
-                "Talent"
             ]
         }
 
@@ -2415,9 +2415,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
-                "Modification"
                 "Force"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -2493,15 +2493,15 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
+                "Crew"
+                "Gunner"
                 "Torpedo"
                 "Missile"
                 "Missile"
                 "Device"
                 "Device"
                 "Modification"
-                "Gunner"
-                "Crew"
-                "Talent"
             ]
         }
 
@@ -2527,14 +2527,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Crew"
+                "Gunner"
                 "Torpedo"
                 "Missile"
                 "Missile"
                 "Device"
                 "Device"
                 "Modification"
-                "Gunner"
-                "Crew"
             ]
         }
 
@@ -2564,14 +2564,14 @@ exportObj.basicCardData = ->
                 "Device"
             ]
             slotsxwa: [
+                "Crew"
+                "Gunner"
                 "Torpedo"
                 "Missile"
                 "Missile"
                 "Device"
                 "Device"
                 "Modification"
-                "Gunner"
-                "Crew"
             ]
         }
 
@@ -2597,12 +2597,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
+                "Astromech"
+                "Sensor"
                 "Torpedo"
                 "Modification"
-                "Sensor"
-                "Astromech"
-                "Talent"
-                "Talent"
             ]
         }
 
@@ -2627,11 +2627,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
+                "Astromech"
+                "Sensor"
                 "Torpedo"
                 "Modification"
-                "Sensor"
-                "Astromech"
-                "Talent"
             ]
         }
 
@@ -2653,11 +2653,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
+                "Astromech"
+                "Sensor"
                 "Torpedo"
                 "Modification"
-                "Sensor"
-                "Astromech"
-                "Talent"
             ]
         }
 
@@ -2679,10 +2679,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Astromech"
+                "Sensor"
                 "Torpedo"
                 "Modification"
-                "Sensor"
-                "Astromech"
             ]
         }
 
@@ -2707,12 +2707,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Device"
-                "Torpedo"
-                "Turret"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Device"
+                "Modification"
+                "Turret"
             ]
         }
 
@@ -2737,12 +2737,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Device"
-                "Torpedo"
-                "Turret"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Device"
+                "Modification"
+                "Turret"
             ]
         }
 
@@ -2770,12 +2770,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Device"
-                "Torpedo"
-                "Turret"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Device"
+                "Modification"
+                "Turret"
             ]
         }
 
@@ -2803,9 +2803,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Modification"
-                "Device"
                 "Torpedo"
+                "Device"
+                "Modification"
                 "Turret"
             ]
         }
@@ -2827,12 +2827,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Device"
-                "Torpedo"
-                "Turret"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Device"
+                "Modification"
+                "Turret"
             ]
         }
 
@@ -2854,9 +2854,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Modification"
-                "Device"
                 "Torpedo"
+                "Device"
+                "Modification"
                 "Turret"
             ]
         }
@@ -2909,12 +2909,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Sensor"
                 "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -2939,12 +2939,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Sensor"
                 "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -2971,13 +2971,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Sensor"
+                "Illicit"
                 "Modification"
                 "Configuration"
-                "Talent"
-                "Illicit"
             ]
         }
 
@@ -3004,13 +3004,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Sensor"
+                "Illicit"
                 "Modification"
                 "Configuration"
-                "Talent"
-                "Illicit"
             ]
         }
 
@@ -3037,13 +3037,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Sensor"
+                "Illicit"
                 "Modification"
                 "Configuration"
-                "Talent"
-                "Illicit"
             ]
         }
 
@@ -3063,12 +3063,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Sensor"
                 "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -3092,9 +3092,9 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Crew"
                 "Sensor"
+                "Illicit"
                 "Modification"
                 "Configuration"
-                "Illicit"
             ]
         }
 
@@ -3124,8 +3124,8 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Illicit"
                 "Illicit"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
             chassis: "Sensor Blindspot"
             ship_override:
@@ -3159,8 +3159,8 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Illicit"
                 "Illicit"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
             chassis: "Sensor Blindspot"
             ship_override:
@@ -3186,8 +3186,8 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Illicit"
                 "Illicit"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
             chassis: "Sensor Blindspot"
             ship_override:
@@ -3219,17 +3219,17 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Crew"
                 "Crew"
                 "Gunner"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Missile"
+                "Modification"
+                "Modification"
                 "Title"
-                "Talent"
-                "Talent"
             ]
         }
 
@@ -3258,16 +3258,16 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Gunner"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Missile"
+                "Modification"
+                "Modification"
                 "Title"
-                "Talent"
             ]
         }
 
@@ -3297,16 +3297,16 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Gunner"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Missile"
+                "Modification"
+                "Modification"
                 "Title"
-                "Talent"
             ]
         }
 
@@ -3329,9 +3329,9 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Crew"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Missile"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -3359,8 +3359,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Crew"
-                "Modification"
                 "Device"
+                "Modification"
                 "Title"
             ]
         }
@@ -3388,8 +3388,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Crew"
-                "Modification"
                 "Device"
+                "Modification"
                 "Title"
             ]
         }
@@ -3417,8 +3417,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Crew"
-                "Modification"
                 "Device"
+                "Modification"
                 "Title"
             ]
         }
@@ -3440,9 +3440,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Crew"
+                "Device"
+                "Device"
                 "Modification"
-                "Device"
-                "Device"
             ]
         }
 
@@ -3467,10 +3467,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Missile"
-                "Configuration"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -3493,8 +3493,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Missile"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -3517,8 +3517,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Missile"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -3540,8 +3540,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Missile"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -3566,8 +3566,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
         }
 
@@ -3590,8 +3590,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
         }
 
@@ -3612,8 +3612,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
         }
 
@@ -3633,8 +3633,8 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Missile"
+                "Modification"
             ]
         }
 
@@ -3657,9 +3657,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Modification"
-                "Talent"
             ]
         }
 
@@ -3733,16 +3733,16 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Crew"
                 "Crew"
-                "Sensor"
                 "Gunner"
-                "Turret"
-                "Modification"
+                "Sensor"
                 "Torpedo"
+                "Modification"
                 "Title"
-                "Talent"
-                "Talent"
+                "Turret"
             ]
         }
 
@@ -3772,15 +3772,15 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Sensor"
-                "Gunner"
-                "Turret"
-                "Modification"
-                "Torpedo"
-                "Title"
                 "Force"
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Sensor"
+                "Torpedo"
+                "Modification"
+                "Title"
+                "Turret"
             ]
         }
 
@@ -3811,12 +3811,12 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Crew"
                 "Crew"
-                "Sensor"
                 "Gunner"
-                "Turret"
-                "Modification"
+                "Sensor"
                 "Torpedo"
+                "Modification"
                 "Title"
+                "Turret"
             ]
         }
 
@@ -3839,11 +3839,11 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Crew"
                 "Crew"
-                "Sensor"
                 "Gunner"
-                "Turret"
-                "Modification"
+                "Sensor"
                 "Torpedo"
+                "Modification"
+                "Turret"
             ]
         }
 
@@ -3868,12 +3868,12 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Crew"
                 "Modification"
-                "Turret"
                 "Title"
-                "Talent"
-                "Talent"
+                "Turret"
             ]
         }
 
@@ -3898,11 +3898,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Modification"
-                "Turret"
                 "Title"
-                "Talent"
+                "Turret"
             ]
         }
 
@@ -3928,11 +3928,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Force"
                 "Crew"
                 "Modification"
-                "Turret"
                 "Title"
-                "Force"
+                "Turret"
             ]
         }
 
@@ -3960,8 +3960,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Crew"
                 "Modification"
-                "Turret"
                 "Title"
+                "Turret"
             ]
         }
 
@@ -3986,11 +3986,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Crew"
                 "Modification"
                 "Title"
-                "Talent"
             ]
         }
 
@@ -4016,11 +4016,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Force"
                 "Astromech"
                 "Crew"
                 "Modification"
                 "Title"
-                "Force"
             ]
         }
 
@@ -4103,14 +4103,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
+                "Sensor"
                 "Cannon"
                 "Cannon"
+                "Torpedo"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Torpedo"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -4137,14 +4137,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
+                "Sensor"
                 "Cannon"
                 "Cannon"
+                "Torpedo"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Torpedo"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -4167,14 +4167,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
+                "Sensor"
                 "Cannon"
                 "Cannon"
+                "Torpedo"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Torpedo"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -4197,12 +4197,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Sensor"
                 "Cannon"
                 "Cannon"
+                "Torpedo"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Torpedo"
                 "Configuration"
             ]
         }
@@ -4232,8 +4232,8 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Gunner"
                 "Gunner"
-                "Modification"
                 "Torpedo"
+                "Modification"
             ]
         }
 
@@ -4262,8 +4262,8 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Gunner"
                 "Gunner"
-                "Modification"
                 "Torpedo"
+                "Modification"
             ]
         }
 
@@ -4292,8 +4292,8 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Gunner"
                 "Gunner"
-                "Modification"
                 "Torpedo"
+                "Modification"
             ]
         }
 
@@ -4321,8 +4321,8 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Gunner"
                 "Gunner"
-                "Modification"
                 "Torpedo"
+                "Modification"
             ]
         }
 
@@ -4351,11 +4351,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Cannon"
-                "Cannon"
                 "Sensor"
-                "Device"
                 "Illicit"
+                "Cannon"
+                "Cannon"
+                "Device"
                 "Modification"
                 "Title"
             ]
@@ -4386,11 +4386,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Cannon"
-                "Cannon"
                 "Sensor"
-                "Device"
                 "Illicit"
+                "Cannon"
+                "Cannon"
+                "Device"
                 "Modification"
                 "Title"
             ]
@@ -4421,11 +4421,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Cannon"
-                "Cannon"
                 "Sensor"
-                "Device"
                 "Illicit"
+                "Cannon"
+                "Cannon"
+                "Device"
                 "Modification"
                 "Title"
             ]
@@ -4456,11 +4456,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Cannon"
-                "Cannon"
                 "Sensor"
-                "Device"
                 "Illicit"
+                "Cannon"
+                "Cannon"
+                "Device"
                 "Modification"
                 "Title"
             ]
@@ -4489,13 +4489,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Device"
-                "Turret"
                 "Talent"
+                "Astromech"
                 "Illicit"
                 "Missile"
+                "Device"
+                "Modification"
+                "Turret"
             ]
         }
 
@@ -4522,13 +4522,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Device"
-                "Turret"
                 "Talent"
+                "Astromech"
                 "Illicit"
                 "Missile"
+                "Device"
+                "Modification"
+                "Turret"
             ]
         }
 
@@ -4552,11 +4552,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Modification"
-                "Device"
-                "Turret"
                 "Illicit"
                 "Missile"
+                "Device"
+                "Modification"
+                "Turret"
             ]
         }
 
@@ -4579,11 +4579,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Modification"
-                "Device"
-                "Turret"
                 "Illicit"
                 "Missile"
+                "Device"
+                "Modification"
+                "Turret"
             ]
         }
 
@@ -4611,6 +4611,8 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Crew"
                 "Crew"
                 "Gunner"
@@ -4618,8 +4620,6 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Modification"
                 "Title"
-                "Talent"
-                "Talent"
             ]
         }
 
@@ -4647,6 +4647,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Gunner"
@@ -4654,7 +4655,6 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Modification"
                 "Title"
-                "Talent"
             ]
         }
 
@@ -4736,10 +4736,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Illicit"
                 "Modification"
-                "Talent"
             ]
         }
 
@@ -4835,10 +4835,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
-                "Torpedo"
                 "Talent"
+                "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -4864,9 +4864,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -4891,9 +4891,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -4919,9 +4919,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -4943,9 +4943,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -4966,9 +4966,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
-                "Modification"
                 "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -4996,15 +4996,15 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Device"
-                "Title"
-                "Talent"
                 "Modification"
+                "Modification"
+                "Title"
             ]
         }
 
@@ -5031,14 +5031,14 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Device"
+                "Modification"
                 "Title"
-                "Talent"
             ]
         }
 
@@ -5065,14 +5065,14 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Device"
+                "Modification"
                 "Title"
-                "Talent"
             ]
         }
 
@@ -5100,13 +5100,13 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Device"
-                "Talent"
+                "Modification"
             ]
         }
 
@@ -5134,13 +5134,13 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Device"
-                "Talent"
+                "Modification"
             ]
         }
 
@@ -5163,12 +5163,12 @@ exportObj.basicCardData = ->
                 "Illicit"
             ]
             slotsxwa: [
-                "Cannon"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Device"
+                "Modification"
             ]
         }
 
@@ -5194,13 +5194,13 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
+                "Sensor"
                 "Illicit"
                 "Missile"
-                "Sensor"
                 "Modification"
                 "Title"
-                "Talent"
             ]
         }
 
@@ -5226,13 +5226,13 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
+                "Sensor"
                 "Illicit"
                 "Missile"
-                "Sensor"
                 "Modification"
                 "Title"
-                "Talent"
             ]
         }
 
@@ -5253,9 +5253,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Crew"
+                "Sensor"
                 "Illicit"
                 "Missile"
-                "Sensor"
                 "Modification"
             ]
         }
@@ -5282,11 +5282,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Illicit"
-                "Modification"
                 "Device"
-                "Talent"
+                "Modification"
                 "Title"
             ]
         }
@@ -5315,11 +5315,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Illicit"
-                "Modification"
                 "Device"
-                "Talent"
+                "Modification"
                 "Title"
             ]
         }
@@ -5346,8 +5346,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Crew"
                 "Illicit"
-                "Modification"
                 "Device"
+                "Modification"
             ]
         }
 
@@ -5377,13 +5377,13 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
+                "Cannon"
                 "Torpedo"
-                "Talent"
+                "Modification"
                 "Title"
             ]
         }
@@ -5412,13 +5412,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
+                "Cannon"
                 "Torpedo"
-                "Talent"
+                "Modification"
             ]
         }
 
@@ -5446,13 +5446,13 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
+                "Cannon"
                 "Torpedo"
-                "Talent"
+                "Modification"
                 "Title"
             ]
         }
@@ -5475,10 +5475,10 @@ exportObj.basicCardData = ->
                 "Illicit"
             ]
             slotsxwa: [
-                "Cannon"
                 "Crew"
                 "Gunner"
                 "Illicit"
+                "Cannon"
                 "Modification"
             ]
         }
@@ -5504,12 +5504,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Talent"
+                "Illicit"
+                "Illicit"
+                "Missile"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -5535,12 +5535,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Talent"
+                "Illicit"
+                "Illicit"
+                "Missile"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -5566,12 +5566,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Talent"
+                "Illicit"
+                "Illicit"
+                "Missile"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -5597,9 +5597,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Illicit"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Missile"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -5618,12 +5618,12 @@ exportObj.basicCardData = ->
                 "Talent"
             ]
             slotsxwa: [
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Talent"
+                "Illicit"
+                "Illicit"
+                "Missile"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -5644,9 +5644,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Illicit"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Missile"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -5673,11 +5673,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Force"
                 "Crew"
                 "Illicit"
                 "Illicit"
                 "Modification"
-                "Force"
             ]
         }
 
@@ -5703,11 +5703,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Illicit"
                 "Illicit"
                 "Modification"
-                "Talent"
                 "Title"
             ]
         }
@@ -5734,11 +5734,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Illicit"
                 "Illicit"
                 "Modification"
-                "Talent"
                 "Title"
             ]
         }
@@ -5789,12 +5789,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Illicit"
-                "Missile"
                 "Torpedo"
+                "Missile"
                 "Modification"
-                "Talent"
             ]
         }
 
@@ -5821,12 +5821,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Illicit"
-                "Missile"
                 "Torpedo"
+                "Missile"
                 "Modification"
-                "Talent"
             ]
         }
 
@@ -5847,8 +5847,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Illicit"
-                "Missile"
                 "Torpedo"
+                "Missile"
                 "Modification"
             ]
         }
@@ -5856,6 +5856,9 @@ exportObj.basicCardData = ->
         {
             name: "Serissu"
             id: 132
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "serissu"
             unique: true
             faction: "Scum and Villainy"
@@ -5874,14 +5877,17 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Modification"
             ]
         }
 
         {
             name: "Genesis Red"
             id: 133
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "genesisred"
             unique: true
             faction: "Scum and Villainy"
@@ -5898,15 +5904,18 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
                 "Illicit"
+                "Modification"
             ]
         }
 
         {
             name: "Laetin A'shera"
             id: 134
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "laetinashera"
             unique: true
             faction: "Scum and Villainy"
@@ -5922,15 +5931,18 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
                 "Illicit"
+                "Modification"
             ]
         }
 
         {
             name: "Quinn Jast"
             id: 135
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "quinnjast"
             unique: true
             faction: "Scum and Villainy"
@@ -5948,15 +5960,18 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
                 "Illicit"
+                "Modification"
             ]
         }
 
         {
             name: "Tansarii Point Veteran"
             id: 136
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "tansariipointveteran"
             faction: "Scum and Villainy"
             ship: "M3-A Interceptor"
@@ -5970,15 +5985,18 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
                 "Illicit"
+                "Modification"
             ]
         }
 
         {
             name: "Inaldra"
             id: 137
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "inaldra"
             unique: true
             faction: "Scum and Villainy"
@@ -5993,14 +6011,17 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Modification"
                 "Illicit"
+                "Modification"
             ]
         }
 
         {
             name: "Sunny Bounder"
             id: 138
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "sunnybounder"
             unique: true
             faction: "Scum and Villainy"
@@ -6022,6 +6043,9 @@ exportObj.basicCardData = ->
         {
             name: "Cartel Spacer"
             id: 139
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "cartelspacer"
             faction: "Scum and Villainy"
             ship: "M3-A Interceptor"
@@ -6036,8 +6060,8 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Modification"
                 "Illicit"
+                "Modification"
             ]
         }
 
@@ -6062,11 +6086,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Illicit"
-                "Modification"
-                "Talent"
                 "Device"
+                "Modification"
             ]
         }
 
@@ -6094,8 +6118,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Crew"
                 "Illicit"
-                "Modification"
                 "Illicit"
+                "Modification"
                 "Tech"
             ]
         }
@@ -6175,14 +6199,14 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Gunner"
+                "Device"
+                "Device"
                 "Modification"
-                "Device"
-                "Device"
-                "Turret"
-                "Talent"
                 "Title"
+                "Turret"
             ]
         }
 
@@ -6208,14 +6232,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Gunner"
-                "Modification"
-                "Device"
-                "Device"
-                "Turret"
-                "Talent"
                 "Illicit"
+                "Device"
+                "Device"
+                "Modification"
+                "Turret"
             ]
         }
 
@@ -6239,9 +6263,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Crew"
                 "Gunner"
+                "Device"
+                "Device"
                 "Modification"
-                "Device"
-                "Device"
                 "Turret"
             ]
         }
@@ -6267,11 +6291,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Illicit"
-                "Modification"
-                "Sensor"
-                "Torpedo"
                 "Talent"
+                "Sensor"
+                "Illicit"
+                "Torpedo"
+                "Modification"
                 "Title"
             ]
         }
@@ -6296,11 +6320,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Illicit"
-                "Modification"
-                "Sensor"
-                "Torpedo"
                 "Talent"
+                "Sensor"
+                "Illicit"
+                "Torpedo"
+                "Modification"
                 "Title"
             ]
         }
@@ -6325,11 +6349,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Illicit"
-                "Modification"
-                "Sensor"
-                "Torpedo"
                 "Talent"
+                "Sensor"
+                "Illicit"
+                "Torpedo"
+                "Modification"
             ]
         }
 
@@ -6348,11 +6372,11 @@ exportObj.basicCardData = ->
                 "Tech"
             ]
             slotsxwa: [
-                "Illicit"
-                "Modification"
-                "Sensor"
-                "Torpedo"
                 "Talent"
+                "Sensor"
+                "Illicit"
+                "Torpedo"
+                "Modification"
             ]
         }
 
@@ -6371,10 +6395,10 @@ exportObj.basicCardData = ->
                 "Tech"
             ]
             slotsxwa: [
-                "Illicit"
-                "Modification"
                 "Sensor"
+                "Illicit"
                 "Torpedo"
+                "Modification"
             ]
         }
 
@@ -6402,12 +6426,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
+                "Gunner"
                 "Illicit"
                 "Modification"
-                "Talent"
-                "Gunner"
             ]
         }
 
@@ -6436,15 +6460,15 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
+                "Gunner"
                 "Illicit"
-                "Modification"
                 "Cannon"
                 "Missile"
-                "Talent"
+                "Modification"
                 "Title"
-                "Gunner"
             ]
         }
 
@@ -6473,15 +6497,15 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
+                "Gunner"
                 "Illicit"
-                "Modification"
                 "Cannon"
                 "Missile"
-                "Talent"
+                "Modification"
                 "Title"
-                "Gunner"
             ]
         }
 
@@ -6504,9 +6528,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Crew"
                 "Crew"
+                "Gunner"
                 "Illicit"
                 "Modification"
-                "Gunner"
             ]
         }
 
@@ -6531,8 +6555,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Illicit"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
         }
 
@@ -6558,8 +6582,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Illicit"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
         }
 
@@ -6581,8 +6605,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Illicit"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
         }
 
@@ -6602,8 +6626,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Illicit"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
         }
 
@@ -6662,11 +6686,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
+                "Talent"
                 "Sensor"
                 "Missile"
+                "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -6690,11 +6714,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
+                "Talent"
                 "Sensor"
                 "Missile"
+                "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -6716,11 +6740,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
+                "Talent"
                 "Sensor"
                 "Missile"
+                "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -6742,9 +6766,9 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
                 "Sensor"
                 "Missile"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -6770,12 +6794,12 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Cannon"
-                "Sensor"
-                "Modification"
                 "Talent"
+                "Crew"
+                "Crew"
+                "Sensor"
+                "Cannon"
+                "Modification"
             ]
         }
 
@@ -6802,8 +6826,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Crew"
                 "Crew"
-                "Cannon"
                 "Sensor"
+                "Cannon"
                 "Modification"
             ]
         }
@@ -6830,12 +6854,12 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Cannon"
-                "Sensor"
-                "Modification"
                 "Talent"
+                "Crew"
+                "Crew"
+                "Sensor"
+                "Cannon"
+                "Modification"
                 "Title"
             ]
         }
@@ -6859,8 +6883,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Crew"
                 "Crew"
-                "Cannon"
                 "Sensor"
+                "Cannon"
                 "Modification"
             ]
         }
@@ -6887,11 +6911,11 @@ exportObj.basicCardData = ->
                 "Missile"
             ]
             slotsxwa: [
-                "Missile"
+                "Force"
+                "Force"
                 "Sensor"
+                "Missile"
                 "Modification"
-                "Force"
-                "Force"
             ]
         }
 
@@ -6916,10 +6940,10 @@ exportObj.basicCardData = ->
                 "Missile"
             ]
             slotsxwa: [
-                "Missile"
-                "Sensor"
-                "Modification"
                 "Force"
+                "Sensor"
+                "Missile"
+                "Modification"
             ]
         }
 
@@ -6941,10 +6965,10 @@ exportObj.basicCardData = ->
                 "Sensor"
             ]
             slotsxwa: [
-                "Missile"
-                "Sensor"
-                "Modification"
                 "Force"
+                "Sensor"
+                "Missile"
+                "Modification"
             ]
         }
 
@@ -6965,10 +6989,10 @@ exportObj.basicCardData = ->
                 "Missile"
             ]
             slotsxwa: [
-                "Missile"
-                "Sensor"
-                "Modification"
                 "Talent"
+                "Sensor"
+                "Missile"
+                "Modification"
             ]
         }
 
@@ -6997,11 +7021,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
+                "Force"
+                "Force"
                 "Sensor"
+                "Missile"
                 "Modification"
-                "Force"
-                "Force"
             ]
         }
 
@@ -7025,11 +7049,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
+                "Talent"
+                "Talent"
                 "Sensor"
+                "Missile"
                 "Modification"
-                "Talent"
-                "Talent"
             ]
         }
 
@@ -7052,10 +7076,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Sensor"
-                "Modification"
                 "Talent"
+                "Sensor"
+                "Missile"
+                "Modification"
             ]
         }
 
@@ -7077,8 +7101,8 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
                 "Sensor"
+                "Missile"
                 "Modification"
             ]
         }
@@ -7100,10 +7124,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Sensor"
-                "Modification"
                 "Talent"
+                "Sensor"
+                "Missile"
+                "Modification"
             ]
         }
 
@@ -7123,8 +7147,8 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
                 "Sensor"
+                "Missile"
                 "Modification"
             ]
         }
@@ -7149,9 +7173,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
+                "Talent"
                 "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -7242,10 +7266,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Modification"
-                "Talent"
             ]
         }
 
@@ -7342,13 +7366,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Gunner"
-                "Turret"
+                "Sensor"
                 "Missile"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Talent"
+                "Turret"
             ]
         }
 
@@ -7374,11 +7398,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Gunner"
-                "Turret"
-                "Missile"
-                "Missile"
                 "Sensor"
+                "Missile"
+                "Missile"
                 "Modification"
+                "Turret"
             ]
         }
         {
@@ -7399,13 +7423,13 @@ exportObj.basicCardData = ->
                 "Gunner"
             ]
             slotsxwa: [
+                "Talent"
                 "Gunner"
-                "Turret"
+                "Sensor"
                 "Missile"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Talent"
+                "Turret"
             ]
         }
 
@@ -7428,11 +7452,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Gunner"
-                "Turret"
-                "Missile"
-                "Missile"
                 "Sensor"
+                "Missile"
+                "Missile"
                 "Modification"
+                "Turret"
             ]
         }
 
@@ -7459,14 +7483,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Missile"
-                "Torpedo"
-                "Device"
-                "Device"
-                "Sensor"
-                "Modification"
                 "Talent"
+                "Sensor"
+                "Torpedo"
+                "Missile"
+                "Missile"
+                "Device"
+                "Device"
+                "Modification"
             ]
         }
 
@@ -7493,14 +7517,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Missile"
-                "Torpedo"
-                "Device"
-                "Device"
-                "Sensor"
-                "Modification"
                 "Talent"
+                "Sensor"
+                "Torpedo"
+                "Missile"
+                "Missile"
+                "Device"
+                "Device"
+                "Modification"
             ]
         }
 
@@ -7524,12 +7548,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Missile"
-                "Torpedo"
-                "Device"
-                "Device"
                 "Sensor"
+                "Torpedo"
+                "Missile"
+                "Missile"
+                "Device"
+                "Device"
                 "Modification"
             ]
         }
@@ -7555,12 +7579,12 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
+                "Sensor"
+                "Cannon"
                 "Cannon"
                 "Missile"
                 "Modification"
-                "Sensor"
                 "Configuration"
-                "Cannon"
             ]
         }
 
@@ -7586,12 +7610,12 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
+                "Sensor"
                 "Cannon"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
 
@@ -7617,10 +7641,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
+                "Sensor"
                 "Cannon"
                 "Missile"
                 "Modification"
-                "Sensor"
                 "Configuration"
             ]
         }
@@ -7645,10 +7669,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
+                "Sensor"
                 "Cannon"
                 "Missile"
                 "Modification"
-                "Sensor"
                 "Configuration"
             ]
         }
@@ -7670,10 +7694,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Sensor"
                 "Cannon"
                 "Missile"
                 "Modification"
-                "Sensor"
                 "Configuration"
             ]
         }
@@ -7698,10 +7722,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Gunner"
-                "Modification"
-                "Sensor"
                 "Talent"
+                "Gunner"
+                "Sensor"
+                "Modification"
             ]
         }
 
@@ -7725,10 +7749,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Gunner"
-                "Modification"
-                "Sensor"
                 "Talent"
+                "Gunner"
+                "Sensor"
+                "Modification"
             ]
         }
 
@@ -7752,8 +7776,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Gunner"
-                "Modification"
                 "Sensor"
+                "Modification"
             ]
         }
 
@@ -7775,8 +7799,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Gunner"
-                "Modification"
                 "Sensor"
+                "Modification"
             ]
         }
 
@@ -7803,12 +7827,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Torpedo"
                 "Missile"
                 "Device"
                 "Device"
                 "Modification"
-                "Talent"
             ]
         }
 
@@ -7834,12 +7858,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Torpedo"
                 "Missile"
                 "Device"
                 "Device"
                 "Modification"
-                "Talent"
             ]
         }
 
@@ -7866,12 +7890,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Torpedo"
                 "Missile"
                 "Device"
                 "Device"
                 "Modification"
-                "Talent"
             ]
         }
 
@@ -7923,12 +7947,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Torpedo"
                 "Missile"
                 "Device"
                 "Device"
                 "Modification"
-                "Talent"
             ]
         }
 
@@ -8003,10 +8027,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Gunner"
-                "Modification"
-                "Device"
                 "Talent"
+                "Gunner"
+                "Device"
+                "Modification"
             ]
         }
 
@@ -8030,10 +8054,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Gunner"
-                "Modification"
-                "Device"
                 "Talent"
+                "Gunner"
+                "Device"
+                "Modification"
                 "Modification"
             ]
         }
@@ -8055,10 +8079,10 @@ exportObj.basicCardData = ->
                 "Device"
             ]
             slotsxwa: [
-                "Gunner"
-                "Modification"
-                "Device"
                 "Talent"
+                "Gunner"
+                "Device"
+                "Modification"
             ]
         }
 
@@ -8080,8 +8104,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Gunner"
-                "Modification"
                 "Device"
+                "Modification"
             ]
         }
 
@@ -8109,14 +8133,14 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Gunner"
                 "Gunner"
                 "Torpedo"
-                "Modification"
                 "Device"
-                "Talent"
+                "Modification"
                 "Title"
             ]
         }
@@ -8145,14 +8169,14 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Gunner"
                 "Gunner"
                 "Torpedo"
-                "Modification"
                 "Device"
-                "Talent"
+                "Modification"
                 "Title"
             ]
         }
@@ -8181,8 +8205,8 @@ exportObj.basicCardData = ->
                 "Gunner"
                 "Gunner"
                 "Torpedo"
-                "Modification"
                 "Device"
+                "Modification"
             ]
         }
 
@@ -8203,8 +8227,8 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Modification"
             ]
         }
 
@@ -8229,11 +8253,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Sensor"
                 "Missile"
                 "Modification"
-                "Sensor"
+                "Modification"
             ]
         }
 
@@ -8254,8 +8278,8 @@ exportObj.basicCardData = ->
                 "Cannon"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Modification"
             ]
         }
 
@@ -8275,8 +8299,8 @@ exportObj.basicCardData = ->
                 "Talent"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Modification"
             ]
         }
 
@@ -8320,11 +8344,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Sensor"
                 "Missile"
                 "Modification"
-                "Sensor"
+                "Modification"
             ]
         }
 
@@ -8347,11 +8371,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Sensor"
                 "Missile"
                 "Modification"
-                "Sensor"
+                "Modification"
             ]
         }
 
@@ -8373,11 +8397,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Sensor"
                 "Missile"
                 "Modification"
-                "Sensor"
+                "Modification"
             ]
         }
 
@@ -8398,8 +8422,8 @@ exportObj.basicCardData = ->
                 "Talent"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Modification"
             ]
         }
 
@@ -8439,8 +8463,8 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Modification"
             ]
         }
 
@@ -8499,14 +8523,17 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Crew"
                 "Illicit"
-                "Modification"
                 "Device"
+                "Modification"
             ]
         }
 
         {
             name: "Poe Dameron"
             id: 231
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "poedameron"
             unique: true
             faction: "Resistance"
@@ -8530,13 +8557,13 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
-                "Talent"
-                "Talent"
                 "Title"
+                "Tech"
             ]
         }
 
@@ -8565,12 +8592,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Sensor"
                 "Missile"
                 "Modification"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -8596,10 +8623,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Sensor"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -8627,12 +8654,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Tech"
-                "Modification"
-                "Missile"
-                "Torpedo"
-                "Configuration"
                 "Force"
+                "Torpedo"
+                "Missile"
+                "Modification"
+                "Configuration"
+                "Tech"
             ]
         }
 
@@ -8657,12 +8684,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Tech"
-                "Modification"
-                "Missile"
-                "Torpedo"
-                "Configuration"
                 "Talent"
+                "Torpedo"
+                "Missile"
+                "Modification"
+                "Configuration"
+                "Tech"
             ]
         }
 
@@ -8690,14 +8717,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
+                "Crew"
+                "Crew"
+                "Crew"
                 "Sensor"
-                "Tech"
-                "Tech"
-                "Crew"
-                "Crew"
-                "Crew"
+                "Cannon"
                 "Modification"
+                "Tech"
+                "Tech"
             ]
         }
 
@@ -8720,11 +8747,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Missile"
-                "Tech"
                 "Modification"
-                "Talent"
-                "Talent"
+                "Tech"
             ]
         }
 
@@ -8751,12 +8778,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Tech"
-                "Modification"
                 "Talent"
                 "Talent"
                 "Sensor"
+                "Missile"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -8788,13 +8815,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
+                "Talent"
                 "Gunner"
+                "Sensor"
+                "Missile"
+                "Modification"
                 "Modification"
                 "Tech"
-                "Missile"
-                "Talent"
-                "Modification"
             ]
         }
 
@@ -8821,14 +8848,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
+                "Talent"
+                "Talent"
                 "Gunner"
+                "Sensor"
+                "Missile"
+                "Modification"
                 "Modification"
                 "Tech"
-                "Missile"
-                "Talent"
-                "Talent"
-                "Modification"
             ]
         }
 
@@ -8858,16 +8885,16 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Force"
+                "Force"
                 "Crew"
                 "Crew"
                 "Gunner"
                 "Gunner"
                 "Illicit"
                 "Illicit"
-                "Modification"
                 "Missile"
-                "Force"
-                "Force"
+                "Modification"
                 "Title"
             ]
         }
@@ -8896,15 +8923,15 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Gunner"
-                "Gunner"
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Missile"
                 "Talent"
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Gunner"
+                "Illicit"
+                "Illicit"
+                "Missile"
+                "Modification"
                 "Title"
             ]
         }
@@ -8934,15 +8961,15 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Gunner"
-                "Gunner"
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Missile"
                 "Talent"
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Gunner"
+                "Illicit"
+                "Illicit"
+                "Missile"
+                "Modification"
                 "Title"
             ]
         }
@@ -8967,9 +8994,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -9012,9 +9039,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -9042,15 +9069,15 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Device"
-                "Device"
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Gunner"
-                "Tech"
-                "Modification"
-                "Talent"
                 "Sensor"
+                "Device"
+                "Device"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -9077,21 +9104,24 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
-                "Sensor"
-                "Tech"
-                "Tech"
-                "Crew"
-                "Crew"
-                "Crew"
-                "Modification"
                 "Talent"
+                "Crew"
+                "Crew"
+                "Crew"
+                "Sensor"
+                "Cannon"
+                "Modification"
+                "Tech"
+                "Tech"
             ]
         }
 
         {
             name: "Kare Kun"
             id: 252
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "karekun"
             unique: true
             faction: "Resistance"
@@ -9111,17 +9141,20 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
-                "Talent"
+                "Tech"
             ]
         }
 
         {
             name: "Joph Seastriker"
             id: 253
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "jophseastriker"
             unique: true
             faction: "Resistance"
@@ -9142,14 +9175,17 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
+                "Tech"
             ]
         }
 
         {
             name: "Lieutenant Bastian"
             id: 254
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "lieutenantbastian"
             unique: true
             faction: "Resistance"
@@ -9169,14 +9205,17 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
+                "Tech"
             ]
         }
 
         {
             name: "Jaycris Tubbs"
             id: 255
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "jaycristubbs"
             unique: true
             faction: "Resistance"
@@ -9196,14 +9235,17 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
+                "Tech"
             ]
         }
 
         {
             name: "Black Squadron Ace (T-70)"
             id: 256
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "blacksquadronace-t70xwing"
             faction: "Resistance"
             ship: "T-70 X-wing"
@@ -9221,18 +9263,21 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Tech"
-                "Configuration"
                 "Talent"
+                "Astromech"
                 "Torpedo"
+                "Modification"
+                "Configuration"
+                "Tech"
             ]
         }
 
         {
             name: "Red Squadron Expert"
             id: 257
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "redsquadronexpert"
             faction: "Resistance"
             ship: "T-70 X-wing"
@@ -9250,17 +9295,20 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
-                "Talent"
+                "Tech"
             ]
         }
 
         {
             name: "Blue Squadron Rookie"
             id: 258
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "bluesquadronrookie"
             faction: "Resistance"
             ship: "T-70 X-wing"
@@ -9279,8 +9327,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
+                "Tech"
             ]
         }
 
@@ -9302,11 +9350,11 @@ exportObj.basicCardData = ->
                 "Sensor"
             ]
             slotsxwa: [
-                "Sensor"
                 "Gunner"
+                "Sensor"
+                "Missile"
                 "Modification"
                 "Tech"
-                "Missile"
             ]
         }
 
@@ -9331,13 +9379,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Device"
-                "Device"
                 "Crew"
                 "Gunner"
                 "Gunner"
-                "Tech"
+                "Device"
+                "Device"
                 "Modification"
+                "Tech"
             ]
         }
 
@@ -9359,8 +9407,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Sensor"
-                "Tech"
                 "Modification"
+                "Tech"
             ]
         }
 
@@ -9383,11 +9431,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Sensor"
                 "Modification"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -9411,8 +9459,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Sensor"
-                "Tech"
                 "Modification"
+                "Tech"
             ]
         }
 
@@ -9436,10 +9484,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Sensor"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -9462,8 +9510,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Sensor"
-                "Tech"
                 "Modification"
+                "Tech"
             ]
         }
 
@@ -9488,12 +9536,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Sensor"
                 "Missile"
                 "Modification"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -9515,10 +9563,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Sensor"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -9539,8 +9587,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Sensor"
-                "Tech"
                 "Modification"
+                "Tech"
             ]
         }
 
@@ -9583,10 +9631,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -9612,11 +9660,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Missile"
-                "Tech"
                 "Modification"
-                "Talent"
-                "Talent"
+                "Tech"
             ]
         }
 
@@ -9647,14 +9695,14 @@ exportObj.basicCardData = ->
                 "Tactical Relay"
             ]
             slotsxwa: [
+                "Force"
+                "Force"
                 "Crew"
                 "Crew"
                 "Sensor"
-                "Modification"
-                "Force"
-                "Force"
                 "Torpedo"
                 "Device"
+                "Modification"
                 "Title"
             ]
         }
@@ -9683,11 +9731,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Configuration"
-                "Modification"
-                "Modification"
-                "Astromech"
                 "Force"
+                "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -9713,11 +9761,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Configuration"
-                "Modification"
-                "Modification"
-                "Astromech"
                 "Force"
+                "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -9743,10 +9791,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Configuration"
-                "Modification"
-                "Modification"
                 "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -9772,10 +9820,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Configuration"
-                "Modification"
-                "Modification"
                 "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -9800,10 +9848,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Configuration"
-                "Modification"
-                "Modification"
                 "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -9832,11 +9880,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Configuration"
-                "Modification"
-                "Modification"
-                "Astromech"
                 "Force"
+                "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -9857,8 +9905,8 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
                 "Missile"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -9886,12 +9934,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Gunner"
                 "Gunner"
-                "Modification"
                 "Torpedo"
-                "Talent"
+                "Modification"
             ]
         }
 
@@ -9921,14 +9969,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
+                "Crew"
+                "Crew"
+                "Crew"
                 "Sensor"
-                "Tech"
-                "Tech"
-                "Crew"
-                "Crew"
-                "Crew"
+                "Cannon"
                 "Modification"
+                "Tech"
+                "Tech"
             ]
         }
 
@@ -9957,15 +10005,15 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
-                "Sensor"
-                "Tech"
-                "Tech"
-                "Crew"
-                "Crew"
-                "Crew"
-                "Modification"
                 "Talent"
+                "Crew"
+                "Crew"
+                "Crew"
+                "Sensor"
+                "Cannon"
+                "Modification"
+                "Tech"
+                "Tech"
             ]
         }
 
@@ -9989,11 +10037,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Tech"
-                "Modification"
-                "Missile"
                 "Torpedo"
+                "Missile"
+                "Modification"
                 "Configuration"
+                "Tech"
             ]
         }
 
@@ -10017,12 +10065,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Tech"
-                "Modification"
-                "Missile"
-                "Torpedo"
-                "Configuration"
                 "Talent"
+                "Torpedo"
+                "Missile"
+                "Modification"
+                "Configuration"
+                "Tech"
             ]
         }
 
@@ -10045,12 +10093,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
+                "Talent"
                 "Gunner"
+                "Sensor"
+                "Missile"
                 "Modification"
                 "Tech"
-                "Missile"
-                "Talent"
             ]
         }
 
@@ -10073,10 +10121,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Tech"
-                "Missile"
                 "Torpedo"
+                "Missile"
                 "Configuration"
+                "Tech"
             ]
         }
 
@@ -10099,12 +10147,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Tech"
-                "Modification"
-                "Missile"
-                "Torpedo"
-                "Configuration"
                 "Talent"
+                "Torpedo"
+                "Missile"
+                "Modification"
+                "Configuration"
+                "Tech"
             ]
         }
 
@@ -10129,14 +10177,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
+                "Crew"
+                "Crew"
+                "Crew"
                 "Sensor"
-                "Tech"
-                "Tech"
-                "Crew"
-                "Crew"
-                "Crew"
+                "Cannon"
                 "Modification"
+                "Tech"
+                "Tech"
             ]
         }
 
@@ -10164,14 +10212,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
+                "Crew"
+                "Crew"
+                "Crew"
                 "Sensor"
-                "Tech"
-                "Tech"
-                "Crew"
-                "Crew"
-                "Crew"
+                "Cannon"
                 "Modification"
+                "Tech"
+                "Tech"
             ]
         }
 
@@ -10195,8 +10243,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Sensor"
-                "Tech"
                 "Modification"
+                "Tech"
             ]
         }
 
@@ -10224,13 +10272,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Device"
-                "Device"
                 "Crew"
                 "Gunner"
                 "Gunner"
-                "Tech"
+                "Device"
+                "Device"
                 "Modification"
+                "Tech"
             ]
         }
 
@@ -10258,13 +10306,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Device"
-                "Device"
                 "Crew"
                 "Gunner"
                 "Gunner"
-                "Tech"
+                "Device"
+                "Device"
                 "Modification"
+                "Tech"
             ]
             applies_condition: 'Rattled'.canonicalize()
         }
@@ -10293,14 +10341,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Device"
-                "Device"
                 "Crew"
                 "Gunner"
                 "Gunner"
-                "Tech"
-                "Modification"
                 "Sensor"
+                "Device"
+                "Device"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -10327,13 +10375,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Device"
-                "Device"
                 "Crew"
                 "Gunner"
                 "Gunner"
-                "Tech"
+                "Device"
+                "Device"
                 "Modification"
+                "Tech"
             ]
         }
 
@@ -10365,6 +10413,9 @@ exportObj.basicCardData = ->
         {
             name: "Jessika Pava"
             id: 296
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "jessikapava"
             unique: true
             faction: "Resistance"
@@ -10386,14 +10437,17 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
+                "Tech"
             ]
         }
 
         {
             name: "Temmin Wexley"
             id: 297
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "temminwexley"
             unique: true
             faction: "Resistance"
@@ -10413,17 +10467,20 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
-                "Talent"
+                "Tech"
             ]
         }
 
         {
             name: "Nien Nunb"
             id: 298
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "niennunb"
             unique: true
             faction: "Resistance"
@@ -10443,11 +10500,11 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
-                "Talent"
+                "Tech"
                 "Tech"
             ]
         }
@@ -10455,6 +10512,9 @@ exportObj.basicCardData = ->
         {
             name: "Ello Asty"
             id: 299
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "elloasty"
             unique: true
             faction: "Resistance"
@@ -10474,11 +10534,11 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
-                "Talent"
+                "Tech"
             ]
         }
 
@@ -10499,11 +10559,11 @@ exportObj.basicCardData = ->
                 "Tech"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Missile"
-                "Tech"
                 "Modification"
-                "Talent"
-                "Talent"
+                "Tech"
             ]
         }
 
@@ -10523,10 +10583,10 @@ exportObj.basicCardData = ->
                 "Tech"
             ]
             slotsxwa: [
-                "Missile"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -10548,10 +10608,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
-                "Modification"
                 "Talent"
                 "Illicit"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -10574,9 +10634,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
-                "Modification"
                 "Illicit"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -10620,9 +10680,9 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Modification"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Modification"
                 "Title"
             ]
         }
@@ -10646,10 +10706,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Modification"
                 "Modification"
                 "Tactical Relay"
-                "Talent"
             ]
         }
 
@@ -10719,8 +10779,8 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Cannon"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -10744,9 +10804,9 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Missile"
                 "Modification"
                 "Configuration"
-                "Missile"
             ]
         }
 
@@ -10769,9 +10829,9 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Missile"
                 "Modification"
                 "Configuration"
-                "Missile"
             ]
         }
 
@@ -10798,11 +10858,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Configuration"
-                "Modification"
-                "Modification"
-                "Astromech"
                 "Force"
+                "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -10828,11 +10888,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Configuration"
-                "Modification"
-                "Modification"
-                "Astromech"
                 "Force"
+                "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -10859,11 +10919,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Configuration"
-                "Modification"
-                "Modification"
-                "Astromech"
                 "Force"
+                "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -10886,10 +10946,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Missile"
                 "Modification"
                 "Modification"
-                "Talent"
             ]
         }
 
@@ -10913,10 +10973,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Missile"
                 "Modification"
                 "Modification"
-                "Talent"
             ]
         }
 
@@ -10940,10 +11000,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Missile"
                 "Modification"
                 "Modification"
-                "Talent"
             ]
         }
 
@@ -10966,10 +11026,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Missile"
                 "Modification"
                 "Modification"
-                "Talent"
             ]
         }
 
@@ -11016,10 +11076,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Missile"
                 "Modification"
                 "Modification"
-                "Talent"
             ]
         }
 
@@ -11068,12 +11128,12 @@ exportObj.basicCardData = ->
                 "Astromech"
             ]
             slotsxwa: [
+                "Force"
                 "Talent"
                 "Astromech"
-                "Modification"
-                "Torpedo"
                 "Sensor"
-                "Force"
+                "Torpedo"
+                "Modification"
             ]
         }
 
@@ -11096,9 +11156,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Astromech"
-                "Modification"
-                "Torpedo"
                 "Sensor"
+                "Torpedo"
+                "Modification"
             ]
         }
 
@@ -11121,10 +11181,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
-                "Device"
-                "Configuration"
                 "Torpedo"
+                "Device"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -11148,9 +11208,9 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Device"
+                "Device"
                 "Modification"
-                "Device"
-                "Device"
             ]
         }
 
@@ -11175,10 +11235,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
-                "Device"
-                "Configuration"
                 "Torpedo"
+                "Device"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -11201,10 +11261,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
-                "Device"
-                "Configuration"
                 "Missile"
+                "Device"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -11228,12 +11288,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
-                "Device"
-                "Configuration"
-                "Missile"
-                "Tactical Relay"
                 "Sensor"
+                "Missile"
+                "Device"
+                "Modification"
+                "Configuration"
+                "Tactical Relay"
             ]
             ship_override:
                 actions: [
@@ -11266,11 +11326,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
+                "Missile"
+                "Missile"
                 "Device"
+                "Modification"
                 "Configuration"
-                "Missile"
-                "Missile"
             ]
         }
 
@@ -11295,9 +11355,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Astromech"
-                "Modification"
-                "Torpedo"
                 "Sensor"
+                "Torpedo"
+                "Modification"
             ]
         }
 
@@ -11323,9 +11383,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Astromech"
-                "Modification"
-                "Torpedo"
                 "Sensor"
+                "Torpedo"
+                "Modification"
             ]
         }
 
@@ -11351,9 +11411,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Astromech"
-                "Modification"
-                "Torpedo"
                 "Sensor"
+                "Torpedo"
+                "Modification"
             ]
         }
 
@@ -11379,11 +11439,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Astromech"
-                "Modification"
-                "Torpedo"
-                "Sensor"
                 "Talent"
+                "Astromech"
+                "Sensor"
+                "Torpedo"
+                "Modification"
             ]
         }
 
@@ -11413,13 +11473,13 @@ exportObj.basicCardData = ->
                 "Tactical Relay"
             ]
             slotsxwa: [
+                "Force"
+                "Force"
                 "Crew"
                 "Crew"
                 "Sensor"
-                "Modification"
-                "Force"
-                "Force"
                 "Device"
+                "Modification"
                 "Title"
             ]
         }
@@ -11449,11 +11509,11 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Crew"
                 "Sensor"
-                "Modification"
                 "Torpedo"
-                "Tactical Relay"
                 "Device"
+                "Modification"
                 "Title"
+                "Tactical Relay"
             ]
         }
 
@@ -11503,9 +11563,9 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Configuration"
                 "Missile"
                 "Modification"
+                "Configuration"
             ]
         }
 
@@ -11533,12 +11593,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Gunner"
                 "Gunner"
-                "Modification"
                 "Torpedo"
-                "Talent"
+                "Modification"
             ]
         }
 
@@ -11568,8 +11628,8 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Gunner"
                 "Gunner"
-                "Modification"
                 "Torpedo"
+                "Modification"
             ]
         }
 
@@ -11593,12 +11653,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Gunner"
                 "Gunner"
-                "Modification"
                 "Torpedo"
-                "Talent"
+                "Modification"
             ]
         }
 
@@ -11625,8 +11685,8 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Gunner"
                 "Gunner"
-                "Modification"
                 "Torpedo"
+                "Modification"
             ]
         }
 
@@ -11653,12 +11713,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Gunner"
                 "Gunner"
-                "Modification"
                 "Torpedo"
-                "Talent"
+                "Modification"
             ]
         }
 
@@ -11680,9 +11740,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Missile"
                 "Modification"
                 "Configuration"
-                "Missile"
             ]
         }
 
@@ -11703,9 +11763,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -11729,10 +11789,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Modification"
                 "Tech"
-                "Talent"
             ]
         }
 
@@ -11755,13 +11815,13 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
+                "Astromech"
                 "Crew"
                 "Crew"
-                "Modification"
-                "Tech"
                 "Cannon"
                 "Torpedo"
-                "Astromech"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -11792,11 +11852,11 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Crew"
                 "Crew"
-                "Modification"
-                "Tech"
+                "Cannon"
                 "Cannon"
                 "Torpedo"
-                "Cannon"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -11871,10 +11931,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Modification"
                 "Tech"
-                "Talent"
             ]
         }
 
@@ -11902,15 +11962,15 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Crew"
                 "Crew"
-                "Modification"
-                "Tech"
+                "Cannon"
                 "Cannon"
                 "Torpedo"
-                "Talent"
-                "Cannon"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -11940,10 +12000,10 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Crew"
                 "Crew"
-                "Modification"
-                "Tech"
                 "Cannon"
                 "Torpedo"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -12031,9 +12091,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -12057,10 +12117,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Talent"
                 "Talent"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -12082,9 +12142,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -12112,14 +12172,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Force"
+                "Force"
                 "Astromech"
                 "Gunner"
-                "Modification"
-                "Device"
                 "Torpedo"
+                "Device"
+                "Modification"
                 "Turret"
-                "Force"
-                "Force"
             ]
         }
 
@@ -12144,13 +12204,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Gunner"
-                "Modification"
-                "Device"
                 "Torpedo"
+                "Device"
+                "Modification"
                 "Turret"
-                "Talent"
             ]
         }
 
@@ -12176,9 +12236,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Gunner"
-                "Modification"
-                "Device"
                 "Torpedo"
+                "Device"
+                "Modification"
                 "Turret"
             ]
         }
@@ -12206,12 +12266,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Gunner"
-                "Modification"
-                "Device"
-                "Torpedo"
-                "Turret"
                 "Crew"
+                "Gunner"
+                "Torpedo"
+                "Device"
+                "Modification"
+                "Turret"
             ]
         }
 
@@ -12241,9 +12301,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Gunner"
-                "Modification"
-                "Device"
                 "Torpedo"
+                "Device"
+                "Modification"
                 "Turret"
             ]
         }
@@ -12271,9 +12331,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Gunner"
-                "Modification"
-                "Device"
                 "Torpedo"
+                "Device"
+                "Modification"
                 "Turret"
             ]
         }
@@ -12299,13 +12359,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Gunner"
-                "Modification"
-                "Device"
                 "Torpedo"
+                "Device"
+                "Modification"
                 "Turret"
-                "Talent"
             ]
         }
 
@@ -12332,13 +12392,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Gunner"
-                "Modification"
-                "Device"
                 "Torpedo"
+                "Device"
+                "Modification"
                 "Turret"
-                "Talent"
             ]
         }
 
@@ -12369,15 +12429,15 @@ exportObj.basicCardData = ->
                 "Cargo"
             ]
             slotsxwa: [
-                "Command"
-                "HardpointShip"
-                "HardpointShip"
                 "Crew"
                 "Crew"
                 "Gunner"
-                "Team"
-                "Team"
+                "HardpointShip"
+                "HardpointShip"
                 "Cargo"
+                "Command"
+                "Team"
+                "Team"
             ]
         }
 
@@ -12409,16 +12469,16 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Command"
-                "HardpointShip"
-                "HardpointShip"
                 "Crew"
                 "Crew"
                 "Gunner"
-                "Team"
-                "Team"
-                "Cargo"
+                "HardpointShip"
+                "HardpointShip"
                 "Title"
+                "Cargo"
+                "Command"
+                "Team"
+                "Team"
             ]
         }
 
@@ -12451,17 +12511,17 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Command"
-                "Missile"
+                "Crew"
+                "Crew"
                 "Torpedo"
+                "Missile"
                 "HardpointShip"
                 "HardpointShip"
-                "Crew"
-                "Crew"
-                "Team"
-                "Team"
-                "Cargo"
                 "Title"
+                "Cargo"
+                "Command"
+                "Team"
+                "Team"
             ]
         }
 
@@ -12493,16 +12553,16 @@ exportObj.basicCardData = ->
                 "Cargo"
             ]
             slotsxwa: [
-                "Command"
+                "Crew"
+                "Crew"
                 "Torpedo"
                 "Missile"
                 "HardpointShip"
                 "HardpointShip"
-                "Crew"
-                "Crew"
-                "Team"
-                "Team"
                 "Cargo"
+                "Command"
+                "Team"
+                "Team"
             ]
         }
 
@@ -12533,15 +12593,15 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Command"
+                "Crew"
+                "Crew"
                 "HardpointShip"
-                "Turret"
-                "Crew"
-                "Crew"
-                "Team"
-                "Cargo"
-                "Cargo"
                 "Title"
+                "Cargo"
+                "Cargo"
+                "Command"
+                "Team"
+                "Turret"
             ]
         }
 
@@ -12571,14 +12631,14 @@ exportObj.basicCardData = ->
                 "Cargo"
             ]
             slotsxwa: [
-                "Command"
+                "Crew"
+                "Crew"
                 "HardpointShip"
-                "Turret"
-                "Crew"
-                "Crew"
+                "Cargo"
+                "Cargo"
+                "Command"
                 "Team"
-                "Cargo"
-                "Cargo"
+                "Turret"
             ]
         }
 
@@ -12609,15 +12669,15 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Command"
+                "Crew"
                 "Crew"
                 "Gunner"
-                "Cargo"
-                "Title"
                 "HardpointShip"
-                "Crew"
-                "Team"
+                "Title"
                 "Cargo"
+                "Cargo"
+                "Command"
+                "Team"
             ]
         }
 
@@ -12647,14 +12707,14 @@ exportObj.basicCardData = ->
                 "Cargo"
             ]
             slotsxwa: [
-                "Command"
-                "HardpointShip"
                 "Crew"
                 "Crew"
                 "Gunner"
+                "HardpointShip"
+                "Cargo"
+                "Cargo"
+                "Command"
                 "Team"
-                "Cargo"
-                "Cargo"
             ]
         }
 
@@ -12685,15 +12745,15 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Command"
+                "Crew"
+                "Crew"
                 "HardpointShip"
-                "Crew"
-                "Crew"
-                "Tactical Relay"
-                "Team"
-                "Cargo"
                 "Device"
                 "Configuration"
+                "Cargo"
+                "Command"
+                "Tactical Relay"
+                "Team"
             ]
         }
 
@@ -12725,16 +12785,16 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Command"
-                "HardpointShip"
                 "Crew"
                 "Crew"
-                "Team"
-                "Cargo"
-                "Device"
                 "Illicit"
-                "Title"
+                "HardpointShip"
+                "Device"
                 "Configuration"
+                "Title"
+                "Cargo"
+                "Command"
+                "Team"
             ]
         }
 
@@ -12761,11 +12821,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Modification"
+                "Talent"
                 "Astromech"
                 "Illicit"
                 "Missile"
-                "Talent"
+                "Modification"
                 "Modification"
                 "Title"
             ]
@@ -12793,11 +12853,11 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Modification"
+                "Talent"
                 "Astromech"
                 "Illicit"
                 "Missile"
-                "Talent"
+                "Modification"
                 "Modification"
                 "Title"
             ]
@@ -12823,10 +12883,10 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Modification"
+                "Crew"
                 "Illicit"
                 "Missile"
-                "Crew"
+                "Modification"
                 "Title"
             ]
         }
@@ -12847,10 +12907,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Astromech"
                 "Illicit"
                 "Missile"
+                "Modification"
             ]
         }
 
@@ -12875,12 +12935,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Missile"
+                "Modification"
+                "Modification"
                 "Tech"
-                "Modification"
-                "Talent"
-                "Talent"
-                "Modification"
             ]
         }
 
@@ -12904,12 +12964,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Missile"
+                "Modification"
+                "Modification"
                 "Tech"
-                "Modification"
-                "Talent"
-                "Talent"
-                "Modification"
             ]
         }
 
@@ -12933,11 +12993,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Missile"
                 "Modification"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -12958,9 +13018,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Tech"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -12986,12 +13046,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
+                "Talent"
                 "Gunner"
+                "Sensor"
+                "Missile"
                 "Modification"
                 "Tech"
-                "Missile"
-                "Talent"
             ]
         }
 
@@ -13015,11 +13075,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Tech"
-                "Modification"
-                "Missile"
                 "Torpedo"
+                "Missile"
+                "Modification"
                 "Configuration"
+                "Tech"
             ]
         }
 
@@ -13045,11 +13105,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Missile"
-                "Tech"
                 "Modification"
-                "Talent"
-                "Talent"
+                "Tech"
                 "Tech"
             ]
         }
@@ -13073,10 +13133,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -13105,16 +13165,16 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Device"
-                "Device"
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Gunner"
-                "Tech"
-                "Modification"
-                "Talent"
                 "Sensor"
+                "Device"
+                "Device"
                 "Modification"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -13170,14 +13230,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
+                "Sensor"
                 "Cannon"
                 "Cannon"
+                "Torpedo"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Torpedo"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -13206,15 +13266,15 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Sensor"
-                "Gunner"
-                "Turret"
-                "Modification"
-                "Torpedo"
-                "Title"
                 "Talent"
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Sensor"
+                "Torpedo"
+                "Modification"
+                "Title"
+                "Turret"
             ]
         }
 
@@ -13243,16 +13303,16 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Force"
                 "Crew"
                 "Crew"
                 "Gunner"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Missile"
+                "Modification"
+                "Modification"
                 "Title"
-                "Force"
             ]
         }
 
@@ -13277,10 +13337,10 @@ exportObj.basicCardData = ->
                 "Missile"
             ]
             slotsxwa: [
-                "Missile"
-                "Sensor"
-                "Modification"
                 "Force"
+                "Sensor"
+                "Missile"
+                "Modification"
             ]
         }
 
@@ -13305,8 +13365,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Gunner"
-                "Modification"
                 "Device"
+                "Modification"
             ]
         }
 
@@ -13335,14 +13395,14 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Gunner"
                 "Gunner"
                 "Torpedo"
-                "Modification"
                 "Device"
-                "Talent"
+                "Modification"
                 "Title"
             ]
         }
@@ -13369,13 +13429,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
+                "Talent"
                 "Gunner"
+                "Sensor"
+                "Missile"
+                "Modification"
                 "Modification"
                 "Tech"
-                "Missile"
-                "Talent"
-                "Modification"
             ]
         }
 
@@ -13403,14 +13463,17 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Illicit"
-                "Modification"
                 "Missile"
+                "Modification"
             ]
         }
 
         {
             name: "G4R-GOR V/M"
             id: 399
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "g4rgorvm"
             faction: "Scum and Villainy"
             unique: true
@@ -13453,12 +13516,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
+                "Cannon"
                 "Torpedo"
+                "Modification"
             ]
         }
 
@@ -13480,11 +13543,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Tech"
-                "Tech"
                 "Crew"
                 "Crew"
                 "Modification"
+                "Tech"
+                "Tech"
             ]
         }
 
@@ -13511,14 +13574,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Tech"
-                "Tech"
                 "Crew"
                 "Crew"
+                "Illicit"
+                "Illicit"
+                "Illicit"
                 "Modification"
-                "Illicit"
-                "Illicit"
-                "Illicit"
+                "Tech"
+                "Tech"
             ]
         }
 
@@ -13544,11 +13607,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Tech"
-                "Tech"
                 "Crew"
                 "Crew"
                 "Modification"
+                "Tech"
+                "Tech"
             ]
         }
 
@@ -13574,12 +13637,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Tech"
-                "Tech"
+                "Talent"
                 "Crew"
                 "Crew"
                 "Modification"
-                "Talent"
+                "Tech"
+                "Tech"
             ]
         }
 
@@ -13604,8 +13667,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Missile"
                 "Missile"
-                "Modification"
                 "Device"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -13650,8 +13713,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Missile"
                 "Missile"
-                "Modification"
                 "Device"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -13679,11 +13742,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
+                "Cannon"
+                "Cannon"
                 "Device"
+                "Modification"
                 "Configuration"
-                "Cannon"
-                "Cannon"
             ]
         }
 
@@ -13712,8 +13775,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Missile"
                 "Missile"
-                "Modification"
                 "Device"
+                "Modification"
                 "Configuration"
                 "Tactical Relay"
             ]
@@ -13742,13 +13805,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Torpedo"
                 "Missile"
                 "Missile"
-                "Modification"
                 "Device"
+                "Modification"
                 "Configuration"
                 "Tactical Relay"
-                "Torpedo"
             ]
         }
 
@@ -13776,8 +13839,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Missile"
                 "Missile"
-                "Modification"
                 "Device"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -13810,9 +13873,9 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Gunner"
                 "Gunner"
-                "Modification"
                 "Torpedo"
                 "Missile"
+                "Modification"
             ]
         }
 
@@ -13846,9 +13909,9 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Gunner"
                 "Gunner"
-                "Modification"
                 "Torpedo"
                 "Missile"
+                "Modification"
             ]
         }
 
@@ -13878,14 +13941,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Gunner"
-                "Gunner"
-                "Modification"
-                "Missile"
-                "Torpedo"
                 "Talent"
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Gunner"
+                "Torpedo"
+                "Missile"
+                "Modification"
             ]
         }
 
@@ -13915,14 +13978,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Gunner"
-                "Gunner"
-                "Modification"
-                "Missile"
-                "Torpedo"
                 "Talent"
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Gunner"
+                "Torpedo"
+                "Missile"
+                "Modification"
             ]
         }
 
@@ -13943,9 +14006,9 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
                 "Gunner"
+                "Cannon"
+                "Cannon"
                 "Modification"
                 "Configuration"
             ]
@@ -13969,12 +14032,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
+                "Talent"
                 "Gunner"
+                "Cannon"
+                "Cannon"
                 "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -13999,9 +14062,9 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
                 "Gunner"
+                "Cannon"
+                "Cannon"
                 "Modification"
                 "Configuration"
             ]
@@ -14028,12 +14091,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
+                "Talent"
                 "Gunner"
+                "Cannon"
+                "Cannon"
                 "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -14060,10 +14123,10 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Sensor"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Cannon"
+                "Missile"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
             applies_condition: '''Fearful Prey'''.canonicalize()
@@ -14092,10 +14155,10 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Sensor"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Cannon"
+                "Missile"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -14123,10 +14186,10 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Sensor"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Cannon"
+                "Missile"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -14154,10 +14217,10 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Sensor"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Cannon"
+                "Missile"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -14180,10 +14243,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Sensor"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Cannon"
+                "Missile"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -14208,10 +14271,10 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Sensor"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Cannon"
+                "Missile"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -14233,12 +14296,12 @@ exportObj.basicCardData = ->
                 "Device"
             ]
             slotsxwa: [
-                "Cannon"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Device"
+                "Modification"
             ]
         }
 
@@ -14265,12 +14328,12 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Device"
+                "Modification"
                 "Title"
             ]
         }
@@ -14300,14 +14363,14 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Device"
+                "Modification"
                 "Title"
-                "Talent"
             ]
             applies_condition: ['''You'd Better Mean Business'''.canonicalize(),'You Should Thank Me'.canonicalize()]
         }
@@ -14337,14 +14400,14 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Talent"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Device"
+                "Modification"
                 "Title"
-                "Talent"
             ]
         }
 
@@ -14365,8 +14428,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
 
@@ -14387,10 +14450,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Astromech"
-                "Configuration"
-                "Modification"
                 "Talent"
+                "Astromech"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -14415,8 +14478,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
 
@@ -14444,8 +14507,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Astromech"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
 
@@ -14469,10 +14532,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Astromech"
-                "Configuration"
-                "Modification"
                 "Talent"
+                "Astromech"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -14497,10 +14560,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Astromech"
-                "Configuration"
-                "Modification"
                 "Talent"
+                "Astromech"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -14524,8 +14587,8 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
                 "Force"
+                "Talent"
                 "Astromech"
                 "Cannon"
                 "Modification"
@@ -14554,12 +14617,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
                 "Force"
+                "Force"
+                "Talent"
                 "Astromech"
                 "Cannon"
                 "Modification"
-                "Force"
             ]
         }
 
@@ -14586,12 +14649,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
                 "Force"
+                "Force"
+                "Talent"
                 "Astromech"
                 "Cannon"
                 "Modification"
-                "Force"
             ]
         }
 
@@ -14618,12 +14681,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
                 "Force"
+                "Force"
+                "Talent"
                 "Astromech"
                 "Cannon"
                 "Modification"
-                "Force"
             ]
         }
 
@@ -14650,12 +14713,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
                 "Force"
+                "Force"
+                "Talent"
                 "Astromech"
                 "Cannon"
                 "Modification"
-                "Force"
             ]
         }
 
@@ -14682,12 +14745,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
                 "Force"
+                "Force"
+                "Talent"
                 "Astromech"
                 "Cannon"
                 "Modification"
-                "Force"
             ]
         }
 
@@ -14695,6 +14758,9 @@ exportObj.basicCardData = ->
             name: "Poe Dameron (HoH)"
             xwsaddon: 'swz68'
             id: 442
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "poedameron-swz68"
             unique: true
             faction: "Resistance"
@@ -14717,13 +14783,13 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Astromech"
-                "Modification"
-                "Tech"
-                "Configuration"
-                "Talent"
-                "Talent"
                 "Sensor"
+                "Modification"
+                "Configuration"
+                "Tech"
             ]
         }
 
@@ -14731,6 +14797,9 @@ exportObj.basicCardData = ->
             name: "Temmin Wexley (HoH)"
             xwsaddon: 'swz68'
             id: 443
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "temminwexley-swz68"
             unique: true
             faction: "Resistance"
@@ -14750,11 +14819,11 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
-                "Talent"
+                "Tech"
             ]
         }
 
@@ -14777,10 +14846,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -14804,10 +14873,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -14830,10 +14899,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -14857,17 +14926,20 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Missile"
-                "Tech"
                 "Modification"
-                "Talent"
-                "Talent"
+                "Tech"
             ]
         }
 
         {
             name: "Nimi Chireen"
             id: 448
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "nimichireen"
             unique: true
             faction: "Resistance"
@@ -14887,14 +14959,17 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
+                "Tech"
             ]
         }
 
         {
             name: "C'ai Threnalli"
             id: 449
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "caithrenalli"
             unique: true
             faction: "Resistance"
@@ -14913,11 +14988,11 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
-                "Talent"
+                "Tech"
             ]
         }
 
@@ -14947,15 +15022,15 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
+                "Sensor"
                 "Cannon"
                 "Cannon"
+                "Torpedo"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Torpedo"
                 "Configuration"
-                "Talent"
-                "Talent"
                 "Title"
             ]
         }
@@ -14983,10 +15058,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Missile"
-                "Configuration"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -15010,10 +15085,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Missile"
-                "Configuration"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -15038,8 +15113,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Missile"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -15068,12 +15143,12 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
+                "Talent"
+                "Sensor"
                 "Cannon"
                 "Missile"
                 "Modification"
-                "Sensor"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -15124,8 +15199,8 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Modification"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
 
@@ -15152,11 +15227,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Force"
                 "Crew"
                 "Illicit"
-                "Modification"
                 "Device"
-                "Force"
+                "Modification"
             ]
         }
 
@@ -15181,12 +15256,12 @@ exportObj.basicCardData = ->
                 "Device"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Device"
-                "Torpedo"
-                "Turret"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Device"
+                "Modification"
+                "Turret"
             ]
         }
 
@@ -15211,12 +15286,12 @@ exportObj.basicCardData = ->
                 "Device"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Device"
-                "Torpedo"
-                "Turret"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Device"
+                "Modification"
+                "Turret"
             ]
         }
 
@@ -15243,12 +15318,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Device"
-                "Torpedo"
-                "Turret"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Device"
+                "Modification"
+                "Turret"
             ]
         }
 
@@ -15271,8 +15346,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Missile"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -15296,10 +15371,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Missile"
-                "Configuration"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -15326,11 +15401,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
+                "Force"
+                "Force"
                 "Missile"
+                "Modification"
                 "Configuration"
-                "Force"
-                "Force"
             ]
         }
 
@@ -15357,12 +15432,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Sensor"
                 "Cannon"
                 "Cannon"
+                "Torpedo"
                 "Missile"
                 "Modification"
-                "Sensor"
-                "Torpedo"
                 "Configuration"
             ]
         }
@@ -15462,9 +15537,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
+                "Talent"
                 "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -15490,12 +15565,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Force"
+                "Force"
                 "Cannon"
                 "Missile"
                 "Modification"
                 "Configuration"
-                "Force"
-                "Force"
             ]
         }
 
@@ -15520,10 +15595,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
+                "Sensor"
                 "Cannon"
                 "Missile"
                 "Modification"
-                "Sensor"
                 "Configuration"
             ]
         }
@@ -15547,9 +15622,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Modification"
-                "Device"
                 "Torpedo"
+                "Device"
+                "Modification"
                 "Turret"
             ]
         }
@@ -15573,12 +15648,12 @@ exportObj.basicCardData = ->
                 "Device"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Device"
-                "Torpedo"
-                "Turret"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Device"
+                "Modification"
+                "Turret"
             ]
         }
 
@@ -15605,11 +15680,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Illicit"
-                "Modification"
                 "Device"
-                "Talent"
+                "Modification"
             ]
         }
 
@@ -15637,11 +15712,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Illicit"
-                "Modification"
                 "Device"
-                "Talent"
+                "Modification"
             ]
         }
 
@@ -15673,16 +15748,16 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Command"
-                "Torpedo"
-                "HardpointShip"
-                "HardpointShip"
                 "Crew"
                 "Crew"
                 "Gunner"
-                "Team"
-                "Cargo"
+                "Torpedo"
+                "HardpointShip"
+                "HardpointShip"
                 "Title"
+                "Cargo"
+                "Command"
+                "Team"
             ]
         }
 
@@ -15714,16 +15789,16 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Command"
-                "Torpedo"
-                "HardpointShip"
-                "HardpointShip"
                 "Crew"
                 "Crew"
                 "Gunner"
-                "Team"
-                "Cargo"
+                "Torpedo"
+                "HardpointShip"
+                "HardpointShip"
                 "Title"
+                "Cargo"
+                "Command"
+                "Team"
             ]
         }
 
@@ -15752,14 +15827,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
-                "Turret"
+                "Illicit"
+                "Device"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Device"
-                "Talent"
-                "Illicit"
+                "Turret"
             ]
         }
 
@@ -15787,13 +15862,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
-                "Turret"
+                "Device"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Device"
-                "Talent"
+                "Turret"
             ]
         }
 
@@ -15821,13 +15896,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
-                "Turret"
+                "Device"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Device"
-                "Talent"
+                "Turret"
             ]
         }
 
@@ -15853,13 +15928,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
-                "Turret"
+                "Device"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Device"
-                "Talent"
+                "Turret"
             ]
         }
 
@@ -15887,11 +15962,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Turret"
+                "Device"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Device"
+                "Turret"
             ]
         }
 
@@ -15919,11 +15994,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Turret"
+                "Device"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Device"
+                "Turret"
             ]
         }
 
@@ -15951,12 +16026,12 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Turret"
+                "Illicit"
+                "Device"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Device"
-                "Illicit"
+                "Turret"
             ]
         }
 
@@ -15983,13 +16058,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
-                "Turret"
+                "Device"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Device"
-                "Talent"
+                "Turret"
             ]
         }
 
@@ -16015,11 +16090,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Turret"
+                "Device"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Device"
+                "Turret"
             ]
         }
 
@@ -16045,12 +16120,12 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Turret"
+                "Illicit"
+                "Device"
                 "Modification"
                 "Modification"
                 "Tech"
-                "Device"
-                "Illicit"
+                "Turret"
             ]
         }
 
@@ -16079,13 +16154,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Tech"
-                "Tech"
-                "Modification"
+                "Force"
+                "Force"
                 "Missile"
+                "Modification"
                 "Configuration"
-                "Force"
-                "Force"
+                "Tech"
+                "Tech"
             ]
         }
 
@@ -16110,13 +16185,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Gunner"
-                "Tech"
-                "Tech"
+                "Cannon"
                 "Modification"
                 "Configuration"
-                "Talent"
-                "Cannon"
+                "Tech"
+                "Tech"
             ]
         }
 
@@ -16140,13 +16215,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Gunner"
-                "Tech"
-                "Tech"
-                "Modification"
-                "Missile"
-                "Configuration"
                 "Talent"
+                "Gunner"
+                "Missile"
+                "Modification"
+                "Configuration"
+                "Tech"
+                "Tech"
             ]
         }
 
@@ -16171,13 +16246,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Gunner"
-                "Tech"
-                "Tech"
-                "Modification"
-                "Missile"
-                "Configuration"
                 "Talent"
+                "Gunner"
+                "Missile"
+                "Modification"
+                "Configuration"
+                "Tech"
+                "Tech"
             ]
         }
 
@@ -16200,13 +16275,13 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Gunner"
-                "Tech"
-                "Tech"
-                "Modification"
-                "Missile"
-                "Configuration"
                 "Talent"
+                "Gunner"
+                "Missile"
+                "Modification"
+                "Configuration"
+                "Tech"
+                "Tech"
             ]
         }
 
@@ -16230,10 +16305,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Gunner"
-                "Tech"
-                "Tech"
-                "Modification"
                 "Missile"
+                "Modification"
+                "Tech"
+                "Tech"
             ]
         }
 
@@ -16261,14 +16336,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Gunner"
+                "Torpedo"
+                "Missile"
+                "Device"
+                "Device"
                 "Modification"
                 "Tech"
-                "Device"
-                "Device"
-                "Missile"
-                "Talent"
-                "Torpedo"
             ]
         }
 
@@ -16295,13 +16370,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Gunner"
+                "Missile"
+                "Device"
+                "Device"
                 "Modification"
                 "Tech"
-                "Device"
-                "Device"
-                "Missile"
-                "Talent"
             ]
         }
 
@@ -16327,13 +16402,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Gunner"
+                "Missile"
+                "Device"
+                "Device"
                 "Modification"
                 "Tech"
-                "Device"
-                "Device"
-                "Missile"
-                "Talent"
             ]
         }
 
@@ -16360,11 +16435,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Gunner"
+                "Missile"
+                "Device"
+                "Device"
                 "Modification"
                 "Tech"
-                "Device"
-                "Device"
-                "Missile"
             ]
         }
 
@@ -16390,12 +16465,12 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Gunner"
+                "Torpedo"
+                "Missile"
+                "Device"
+                "Device"
                 "Modification"
                 "Tech"
-                "Device"
-                "Device"
-                "Missile"
-                "Torpedo"
             ]
         }
 
@@ -16420,11 +16495,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Gunner"
+                "Missile"
+                "Device"
+                "Device"
                 "Modification"
                 "Tech"
-                "Device"
-                "Device"
-                "Missile"
             ]
         }
 
@@ -16450,10 +16525,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
-                "Torpedo"
                 "Talent"
+                "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -16477,9 +16552,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -16506,10 +16581,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
-                "Torpedo"
                 "Talent"
+                "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -16534,9 +16609,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -16562,9 +16637,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
-                "Illicit"
                 "Talent"
+                "Illicit"
+                "Modification"
             ]
         }
 
@@ -16585,8 +16660,8 @@ exportObj.basicCardData = ->
                 "Illicit"
             ]
             slotsxwa: [
-                "Modification"
                 "Illicit"
+                "Modification"
             ]
         }
 
@@ -16611,9 +16686,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -16621,14 +16696,14 @@ exportObj.basicCardData = ->
             name: "Bo-Katan Kryze"
             id: 506
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Device"
+                "Modification"
+                "Modification"
                 "Configuration"
-                "Talent"
                 "Title"
             ]
             loadoutxwa: 20
@@ -16662,14 +16737,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Device"
+                "Modification"
+                "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -16699,9 +16774,9 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Device"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -16734,14 +16809,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Device"
+                "Modification"
+                "Modification"
                 "Configuration"
-                "Talent"
                 "Title"
             ]
         }
@@ -16811,9 +16886,9 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Device"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -16846,15 +16921,15 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Force"
+                "Force"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Device"
+                "Modification"
+                "Modification"
                 "Configuration"
-                "Force"
-                "Force"
                 "Title"
             ]
         }
@@ -16884,9 +16959,9 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Device"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -16914,14 +16989,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Device"
+                "Modification"
+                "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -16948,14 +17023,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Device"
+                "Modification"
+                "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -16985,9 +17060,9 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Device"
+                "Modification"
+                "Modification"
                 "Configuration"
             ]
         }
@@ -17018,14 +17093,14 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Device"
+                "Modification"
+                "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -17052,15 +17127,15 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Device"
+                "Modification"
+                "Modification"
                 "Configuration"
                 "Title"
-                "Talent"
             ]
         }
 
@@ -17092,9 +17167,9 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Device"
+                "Modification"
+                "Modification"
                 "Configuration"
                 "Title"
             ]
@@ -17127,16 +17202,16 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
+                "Force"
+                "Force"
                 "Crew"
                 "Gunner"
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Device"
+                "Modification"
+                "Modification"
                 "Configuration"
                 "Title"
-                "Force"
-                "Force"
             ]
         }
 
@@ -17162,12 +17237,12 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Illicit"
                 "Illicit"
                 "Modification"
-                "Talent"
                 "Title"
             ]
         }
@@ -17195,12 +17270,12 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Illicit"
                 "Illicit"
                 "Modification"
-                "Talent"
                 "Title"
             ]
         }
@@ -17227,12 +17302,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
                 "Illicit"
                 "Illicit"
                 "Modification"
-                "Talent"
             ]
         }
 
@@ -17285,9 +17360,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Modification"
-                "Astromech"
                 "Force"
+                "Astromech"
+                "Modification"
             ]
         }
 
@@ -17312,9 +17387,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Modification"
-                "Astromech"
                 "Force"
+                "Astromech"
+                "Modification"
             ]
         }
 
@@ -17340,9 +17415,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Modification"
-                "Astromech"
                 "Force"
+                "Astromech"
+                "Modification"
             ]
         }
 
@@ -17369,9 +17444,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Modification"
-                "Astromech"
                 "Force"
+                "Astromech"
+                "Modification"
             ]
         }
 
@@ -17396,9 +17471,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Modification"
-                "Astromech"
                 "Force"
+                "Astromech"
+                "Modification"
             ]
         }
 
@@ -17423,8 +17498,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Modification"
                 "Astromech"
+                "Modification"
             ]
         }
 
@@ -17449,8 +17524,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Modification"
                 "Astromech"
+                "Modification"
             ]
         }
 
@@ -17474,8 +17549,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Modification"
                 "Astromech"
+                "Modification"
             ]
         }
 
@@ -17502,9 +17577,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Modification"
-                "Astromech"
                 "Force"
+                "Astromech"
+                "Modification"
             ]
         }
 
@@ -17534,13 +17609,13 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
-                "Illicit"
-                "Modification"
-                "Modification"
-                "Missile"
                 "Talent"
+                "Illicit"
+                "Cannon"
+                "Cannon"
+                "Missile"
+                "Modification"
+                "Modification"
                 "Title"
             ]
         }
@@ -17567,12 +17642,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
-                "Illicit"
-                "Modification"
-                "Modification"
                 "Talent"
+                "Illicit"
+                "Cannon"
+                "Cannon"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -17599,9 +17674,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
                 "Illicit"
+                "Cannon"
+                "Cannon"
                 "Modification"
                 "Modification"
             ]
@@ -17626,10 +17701,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Illicit"
-                "Modification"
-                "Modification"
                 "Cannon"
                 "Cannon"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -17660,14 +17735,14 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
-                "Illicit"
-                "Modification"
-                "Modification"
                 "Talent"
-                "Title"
+                "Illicit"
+                "Cannon"
+                "Cannon"
                 "Missile"
+                "Modification"
+                "Modification"
+                "Title"
             ]
         }
 
@@ -17692,11 +17767,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
-                "Modification"
-                "Modification"
                 "Talent"
+                "Cannon"
+                "Cannon"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -17721,11 +17796,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
-                "Modification"
-                "Modification"
                 "Talent"
+                "Cannon"
+                "Cannon"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -17778,11 +17853,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
-                "Modification"
-                "Modification"
                 "Talent"
+                "Cannon"
+                "Cannon"
+                "Modification"
+                "Modification"
             ]
             applies_condition: 'Guarded'.canonicalize()
         }
@@ -17835,9 +17910,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Sensor"
                 "Talent"
+                "Sensor"
+                "Modification"
             ]
         }
 
@@ -17866,8 +17941,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Sensor"
+                "Modification"
             ]
         }
 
@@ -17893,8 +17968,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Sensor"
+                "Modification"
             ]
         }
 
@@ -17919,8 +17994,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Sensor"
+                "Modification"
             ]
         }
 
@@ -17946,8 +18021,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Sensor"
+                "Modification"
             ]
         }
 
@@ -17972,8 +18047,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Sensor"
+                "Modification"
             ]
         }
 
@@ -17998,8 +18073,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Sensor"
+                "Modification"
             ]
         }
 
@@ -18025,8 +18100,8 @@ exportObj.basicCardData = ->
                 "VersatileShip"
             ]
             slotsxwa: [
-                "Modification"
                 "Sensor"
+                "Modification"
             ]
         }
 
@@ -18049,8 +18124,8 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
                 "Sensor"
+                "Modification"
             ]
         }
 
@@ -18072,8 +18147,8 @@ exportObj.basicCardData = ->
                 "VersatileShip"
             ]
             slotsxwa: [
-                "Modification"
                 "Sensor"
+                "Modification"
             ]
         }
 
@@ -19072,11 +19147,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Torpedo"
-                "Configuration"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -19102,11 +19177,11 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Torpedo"
-                "Configuration"
                 "Talent"
+                "Astromech"
+                "Torpedo"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -19131,10 +19206,10 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Missile"
-                "Configuration"
                 "Talent"
+                "Missile"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -19158,10 +19233,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
-                "Missile"
-                "Configuration"
                 "Force"
+                "Missile"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -19189,9 +19264,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Astromech"
-                "Modification"
-                "Device"
                 "Torpedo"
+                "Device"
+                "Modification"
                 "Turret"
             ]
         }
@@ -19218,12 +19293,12 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
+                "Talent"
                 "Gunner"
+                "Cannon"
+                "Cannon"
                 "Modification"
                 "Configuration"
-                "Talent"
             ]
         }
 
@@ -19247,11 +19322,11 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Missile"
+                "Talent"
+                "Talent"
                 "Sensor"
+                "Missile"
                 "Modification"
-                "Talent"
-                "Talent"
             ]
         }
 
@@ -19277,10 +19352,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
-                "Configuration"
                 "Force"
                 "Sensor"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -19302,8 +19377,8 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Modification"
             ]
         }
 
@@ -19325,8 +19400,8 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
                 "Talent"
+                "Modification"
             ]
         }
 
@@ -19355,16 +19430,16 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
+                "Talent"
                 "Crew"
                 "Crew"
                 "Gunner"
                 "Gunner"
                 "Illicit"
                 "Illicit"
-                "Modification"
                 "Missile"
-                "Talent"
-                "Talent"
+                "Modification"
                 "Title"
             ]
         }
@@ -19395,15 +19470,15 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Gunner"
-                "Gunner"
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Missile"
                 "Talent"
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Gunner"
+                "Illicit"
+                "Illicit"
+                "Missile"
+                "Modification"
                 "Title"
             ]
         }
@@ -19411,6 +19486,9 @@ exportObj.basicCardData = ->
         {
             name: "Venisa Doza"
             id: 606
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "venisadoza"
             unique: true
             faction: "Resistance"
@@ -19432,18 +19510,21 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Astromech"
-                "Modification"
-                "Tech"
-                "Configuration"
                 "Talent"
+                "Astromech"
                 "Missile"
+                "Modification"
+                "Configuration"
+                "Tech"
             ]
         }
 
         {
             name: "Zay Versio"
             id: 607
+            xwa_slots: [
+                "HardpointShip"
+            ]
             xws_name: "zayversio"
             unique: true
             faction: "Resistance"
@@ -19463,11 +19544,11 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
+                "Talent"
                 "Astromech"
                 "Modification"
-                "Tech"
                 "Configuration"
-                "Talent"
+                "Tech"
             ]
         }
 
@@ -19497,9 +19578,9 @@ exportObj.basicCardData = ->
                 "Astromech"
                 "Crew"
                 "Crew"
+                "Torpedo"
                 "Modification"
                 "Tech"
-                "Torpedo"
             ]
         }
 
@@ -19527,12 +19608,12 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Device"
+                "Modification"
                 "Title"
             ]
         }
@@ -19558,9 +19639,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
-                "Modification"
-                "Modification"
                 "Torpedo"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -19586,13 +19667,13 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Modification"
                 "Talent"
+                "Illicit"
+                "Illicit"
+                "Cannon"
+                "Cannon"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -19622,12 +19703,12 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Crew"
+                "Gunner"
                 "Illicit"
                 "Modification"
-                "Talent"
-                "Gunner"
             ]
         }
 
@@ -19650,9 +19731,9 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Modification"
-                "Modification"
                 "Talent"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -19679,11 +19760,11 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Sensor"
-                "Modification"
-                "Modification"
-                "Missile"
-                "Cannon"
                 "Illicit"
+                "Cannon"
+                "Missile"
+                "Modification"
+                "Modification"
             ]
             ship_override:
                 actions: [
@@ -19721,14 +19802,14 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
+                "Force"
                 "Crew"
                 "Illicit"
+                "Cannon"
                 "Missile"
-                "Modification"
                 "Device"
+                "Modification"
                 "Title"
-                "Force"
             ]
         }
 
@@ -19757,13 +19838,13 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Cannon"
-                "Cannon"
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Modification"
                 "Talent"
+                "Illicit"
+                "Illicit"
+                "Cannon"
+                "Cannon"
+                "Modification"
+                "Modification"
             ]
         }
 
@@ -19788,10 +19869,10 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Modification"
-                "Configuration"
                 "Missile"
                 "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -19849,11 +19930,11 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Configuration"
-                "Modification"
-                "Modification"
-                "Astromech"
                 "Force"
+                "Astromech"
+                "Modification"
+                "Modification"
+                "Configuration"
             ]
         }
 
@@ -19879,9 +19960,9 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Force"
-                "Modification"
-                "Astromech"
                 "Force"
+                "Astromech"
+                "Modification"
             ]
         }
 
@@ -19915,9 +19996,9 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Gunner"
                 "Gunner"
-                "Modification"
                 "Torpedo"
                 "Missile"
+                "Modification"
             ]
             applies_condition: 'Sickening Maneuver'.canonicalize()
         }
@@ -19945,12 +20026,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
                 "Force"
+                "Force"
+                "Talent"
                 "Astromech"
                 "Cannon"
                 "Modification"
-                "Force"
             ]
         }
 
@@ -20004,9 +20085,9 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Astromech"
-                "Modification"
-                "Torpedo"
                 "Sensor"
+                "Torpedo"
+                "Modification"
             ]
         }
 
@@ -20030,10 +20111,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Sensor"
+                "Modification"
+                "Tech"
                 "Tech"
             ]
         }
@@ -20063,14 +20144,14 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Gunner"
+                "Torpedo"
+                "Missile"
+                "Device"
+                "Device"
                 "Modification"
                 "Tech"
-                "Device"
-                "Device"
-                "Missile"
-                "Talent"
-                "Torpedo"
             ]
         }
 
@@ -20093,10 +20174,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Sensor"
+                "Modification"
+                "Tech"
             ]
         }
 
@@ -20119,10 +20200,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Sensor"
-                "Tech"
-                "Modification"
                 "Talent"
+                "Sensor"
+                "Modification"
+                "Tech"
             ]
             applies_condition: '''Primed For Speed'''.canonicalize()
         }
@@ -20149,12 +20230,12 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Tech"
-                "Tech"
+                "Talent"
                 "Crew"
                 "Crew"
                 "Modification"
-                "Talent"
+                "Tech"
+                "Tech"
             ]
             ship_override:
                 actions: [
@@ -20600,8 +20681,8 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Illicit"
                 "Illicit"
-                "Modification"
                 "Missile"
+                "Modification"
                 "Title"
             ]
         }
@@ -20680,8 +20761,8 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Illicit"
                 "Illicit"
-                "Modification"
                 "Missile"
+                "Modification"
                 "Title"
             ]
         }
