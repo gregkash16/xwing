@@ -1165,8 +1165,8 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Configuration",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Wedge Antilles",
@@ -1377,7 +1377,7 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Modification",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: '"Zeb" Orrelios (TIE Fighter)',
@@ -1438,8 +1438,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Talent",
       "Missile",
       "Missile",
@@ -1467,8 +1467,8 @@ exportObj.basicCardData = function() {
       "Crew",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Missile",
       "Missile",
       "Torpedo",
@@ -1498,8 +1498,8 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Device",
       "Device"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Missile",
       "Missile",
       "Torpedo",
@@ -1616,7 +1616,7 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Turret",
       "Torpedo",
@@ -1641,7 +1641,7 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Turret",
       "Torpedo",
@@ -1669,7 +1669,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Turret",
       "Torpedo",
@@ -1696,7 +1696,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Turret",
       "Torpedo",
       "Astromech",
@@ -1716,7 +1716,7 @@ exportObj.basicCardData = function() {
         slots: ["Turret",
       "Missile",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Turret",
       "Torpedo",
@@ -1737,7 +1737,7 @@ exportObj.basicCardData = function() {
         slots: ["Device",
       "Missile",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Turret",
       "Torpedo",
       "Astromech",
@@ -2164,7 +2164,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Crew",
       "Modification",
@@ -2188,7 +2188,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Crew",
       "Modification",
@@ -2212,7 +2212,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Crew",
       "Modification",
@@ -2231,8 +2231,8 @@ exportObj.basicCardData = function() {
         loadoutxwa: 5,
         slots: ["Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Crew",
       "Modification"]
       },
@@ -2509,7 +2509,7 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Modification",
       "Title",
-      "Force Power"]
+      "Force"]
       },
       {
         name: '"Chopper"',
@@ -2639,7 +2639,7 @@ exportObj.basicCardData = function() {
       "Crew",
       "Modification",
       "Title",
-      "Force Power"]
+      "Force"]
       },
       {
         name: '"Zeb" Orrelios',
@@ -2713,7 +2713,7 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Modification",
       "Title",
-      "Force Power"]
+      "Force"]
       },
       {
         name: '"Zeb" Orrelios (Sheathipede)',
@@ -2990,7 +2990,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Cannon",
       "Cannon",
@@ -3021,7 +3021,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Cannon",
       "Cannon",
@@ -3052,7 +3052,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Cannon",
       "Cannon",
@@ -3083,7 +3083,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Cannon",
       "Cannon",
@@ -3112,7 +3112,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Illicit",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Turret",
       "Missile",
@@ -3140,7 +3140,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Illicit",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Turret",
       "Missile",
@@ -3164,7 +3164,7 @@ exportObj.basicCardData = function() {
       "Missile",
       "Device",
       "Illicit"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Turret",
       "Missile",
       "Astromech",
@@ -3186,7 +3186,7 @@ exportObj.basicCardData = function() {
       "Missile",
       "Device",
       "Illicit"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Turret",
       "Missile",
       "Astromech",
@@ -3531,7 +3531,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Cannon",
       "Missile",
@@ -3561,7 +3561,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Cannon",
       "Missile",
@@ -3590,7 +3590,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Cannon",
       "Missile",
@@ -3620,7 +3620,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Cannon",
       "Missile",
@@ -3649,7 +3649,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Cannon",
       "Missile",
@@ -3673,7 +3673,7 @@ exportObj.basicCardData = function() {
       "Missile",
       "Device",
       "Illicit"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Cannon",
       "Missile",
       "Crew",
@@ -3773,7 +3773,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Crew",
       "Illicit",
@@ -3801,7 +3801,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Crew",
       "Illicit",
@@ -3825,7 +3825,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Crew",
       "Illicit",
       "Modification"]
@@ -4104,7 +4104,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Illicit",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Ketsu Onyo",
@@ -4424,7 +4424,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Illicit",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Crew",
       "Illicit",
@@ -4517,8 +4517,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Talent",
       "Turret",
       "Crew",
@@ -4545,8 +4545,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Talent",
       "Turret",
       "Crew",
@@ -4569,8 +4569,8 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Device",
       "Device"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Turret",
       "Crew",
       "Gunner",
@@ -5150,8 +5150,8 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Sensor",
       "Missile",
       "Modification",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Seventh Sister",
@@ -5174,7 +5174,7 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Sensor",
       "Missile",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Inquisitor",
@@ -5194,7 +5194,7 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Sensor",
       "Missile",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Baron of the Empire",
@@ -5241,8 +5241,8 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Sensor",
       "Missile",
       "Modification",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Maarek Stele",
@@ -5611,8 +5611,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Talent",
       "Sensor",
       "Missile",
@@ -5640,8 +5640,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Talent",
       "Sensor",
       "Missile",
@@ -5666,8 +5666,8 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Sensor",
       "Missile",
       "Missile",
@@ -5895,8 +5895,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Talent",
       "Missile",
       "Torpedo",
@@ -5921,8 +5921,8 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Talent",
       "Missile",
       "Torpedo",
@@ -5948,8 +5948,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Talent",
       "Missile",
       "Torpedo",
@@ -5973,8 +5973,8 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Missile",
       "Torpedo",
       "Modification"]
@@ -5995,8 +5995,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Talent",
       "Missile",
       "Torpedo",
@@ -6018,8 +6018,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Missile",
       "Torpedo",
       "Modification"]
@@ -6041,7 +6041,7 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Gunner"]
       },
       {
@@ -6060,7 +6060,7 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Gunner",
       "Modification"]
@@ -6082,7 +6082,7 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Gunner",
       "Modification",
@@ -6102,7 +6102,7 @@ exportObj.basicCardData = function() {
         slots: ["Talent",
       "Gunner",
       "Device"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Gunner",
       "Modification"]
@@ -6121,7 +6121,7 @@ exportObj.basicCardData = function() {
         slots: ["Gunner",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Gunner",
       "Modification"]
       },
@@ -6146,7 +6146,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Torpedo",
       "Crew",
@@ -6177,7 +6177,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Torpedo",
       "Crew",
@@ -6203,7 +6203,7 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Torpedo",
       "Crew",
       "Crew",
@@ -6455,7 +6455,7 @@ exportObj.basicCardData = function() {
         loadoutxwa: 5,
         slots: ["Device",
       "Illicit"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Crew",
       "Illicit",
       "Modification"]
@@ -6569,7 +6569,7 @@ exportObj.basicCardData = function() {
       "Torpedo",
       "Modification",
       "Configuration",
-      "Force Power"]
+      "Force"]
       },
       {
         name: '"Blackout"',
@@ -6768,8 +6768,8 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Title",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Han Solo (Resistance)",
@@ -6913,8 +6913,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Talent",
       "Sensor",
       "Tech",
@@ -7159,8 +7159,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Tech",
       "Crew",
       "Gunner",
@@ -7416,15 +7416,15 @@ exportObj.basicCardData = function() {
       "Modification",
       "Title",
       "Tactical Relay"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Sensor",
       "Torpedo",
       "Crew",
       "Crew",
       "Modification",
       "Title",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Anakin Skywalker",
@@ -7451,8 +7451,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Configuration",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Luminara Unduli",
@@ -7477,8 +7477,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Configuration",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Barriss Offee",
@@ -7503,7 +7503,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Configuration",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Ahsoka Tano",
@@ -7528,7 +7528,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Configuration",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Jedi Knight",
@@ -7552,7 +7552,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Configuration",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Obi-Wan Kenobi",
@@ -7580,8 +7580,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Configuration",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Trade Federation Drone",
@@ -7904,8 +7904,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Tech",
       "Crew",
       "Gunner",
@@ -7933,8 +7933,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Tech",
       "Crew",
       "Gunner",
@@ -7963,8 +7963,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Sensor",
       "Tech",
       "Crew",
@@ -7992,8 +7992,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Tech",
       "Crew",
       "Gunner",
@@ -8381,8 +8381,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Configuration",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Saesee Tiin",
@@ -8407,8 +8407,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Configuration",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Mace Windu",
@@ -8434,8 +8434,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Configuration",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: '"Kickback"',
@@ -8605,7 +8605,7 @@ exportObj.basicCardData = function() {
       "Torpedo",
       "Astromech",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Bravo Flight Officer",
@@ -8643,7 +8643,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Torpedo",
       "Modification",
       "Configuration"]
@@ -8665,8 +8665,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Modification"]
       },
       {
@@ -8687,7 +8687,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Torpedo",
       "Modification",
       "Configuration"]
@@ -8708,7 +8708,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Missile",
       "Modification",
       "Configuration"]
@@ -8730,7 +8730,7 @@ exportObj.basicCardData = function() {
       "Tactical Relay",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Sensor",
       "Tactical Relay",
       "Missile",
@@ -8762,7 +8762,7 @@ exportObj.basicCardData = function() {
       "Missile",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Missile",
       "Missile",
       "Modification",
@@ -8885,14 +8885,14 @@ exportObj.basicCardData = function() {
       "Modification",
       "Title",
       "Tactical Relay"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Sensor",
       "Crew",
       "Crew",
       "Modification",
       "Title",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "0-66",
@@ -8913,7 +8913,7 @@ exportObj.basicCardData = function() {
       "Crew",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Sensor",
       "Tactical Relay",
       "Torpedo",
@@ -8937,7 +8937,7 @@ exportObj.basicCardData = function() {
       "Torpedo",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Sensor",
       "Crew",
       "Crew",
@@ -9460,14 +9460,14 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Turret",
       "Torpedo",
       "Gunner",
       "Astromech",
       "Modification",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Shadow Squadron Veteran",
@@ -9487,7 +9487,7 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Turret",
       "Torpedo",
@@ -9512,7 +9512,7 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Astromech",
       "Device"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Turret",
       "Torpedo",
       "Gunner",
@@ -9539,7 +9539,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Turret",
       "Torpedo",
       "Crew",
@@ -9567,7 +9567,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Turret",
       "Torpedo",
       "Gunner",
@@ -9592,7 +9592,7 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Turret",
       "Torpedo",
       "Gunner",
@@ -9617,7 +9617,7 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Turret",
       "Torpedo",
@@ -9645,7 +9645,7 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Astromech",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Turret",
       "Torpedo",
@@ -9928,7 +9928,7 @@ exportObj.basicCardData = function() {
       "Configuration"],
         slotsxwa: ["Command",
       "Cargo",
-      "Payload",
+      "Device",
       "Tactical Relay",
       "Crew",
       "Crew",
@@ -9960,7 +9960,7 @@ exportObj.basicCardData = function() {
       "Configuration"],
         slotsxwa: ["Command",
       "Cargo",
-      "Payload",
+      "Device",
       "Crew",
       "Crew",
       "Illicit",
@@ -10273,8 +10273,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Talent",
       "Sensor",
       "Tech",
@@ -10400,7 +10400,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Title",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Fifth Brother",
@@ -10423,7 +10423,7 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Sensor",
       "Missile",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: '"Vagabond"',
@@ -10442,7 +10442,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Gunner",
       "Modification"]
       },
@@ -10468,7 +10468,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Torpedo",
       "Crew",
@@ -10691,7 +10691,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Missile",
       "Missile",
       "Modification",
@@ -10727,7 +10727,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Missile",
       "Missile",
       "Modification",
@@ -10753,7 +10753,7 @@ exportObj.basicCardData = function() {
       "Tactical Relay",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Cannon",
       "Cannon",
       "Modification",
@@ -10779,7 +10779,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Tactical Relay",
       "Missile",
       "Missile",
@@ -10806,7 +10806,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Tactical Relay",
       "Missile",
       "Missile",
@@ -10833,7 +10833,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Missile",
       "Missile",
       "Modification",
@@ -11217,7 +11217,7 @@ exportObj.basicCardData = function() {
         slots: ["Cannon",
       "Missile",
       "Device"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Cannon",
       "Missile",
       "Crew",
@@ -11244,7 +11244,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Cannon",
       "Missile",
       "Crew",
@@ -11274,7 +11274,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Cannon",
       "Missile",
@@ -11307,7 +11307,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Cannon",
       "Missile",
@@ -11464,7 +11464,7 @@ exportObj.basicCardData = function() {
       "Cannon",
       "Astromech",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Yoda",
@@ -11490,8 +11490,8 @@ exportObj.basicCardData = function() {
       "Cannon",
       "Astromech",
       "Modification",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Shaak Ti",
@@ -11518,8 +11518,8 @@ exportObj.basicCardData = function() {
       "Cannon",
       "Astromech",
       "Modification",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Aayla Secura",
@@ -11546,8 +11546,8 @@ exportObj.basicCardData = function() {
       "Cannon",
       "Astromech",
       "Modification",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Obi-Wan Kenobi (Eta-2)",
@@ -11574,8 +11574,8 @@ exportObj.basicCardData = function() {
       "Cannon",
       "Astromech",
       "Modification",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Anakin Skywalker (Eta-2)",
@@ -11603,8 +11603,8 @@ exportObj.basicCardData = function() {
       "Cannon",
       "Astromech",
       "Modification",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Poe Dameron (HoH)",
@@ -11994,11 +11994,11 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Crew",
       "Illicit",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Leema Kai",
@@ -12018,7 +12018,7 @@ exportObj.basicCardData = function() {
       "Missile",
       "Astromech",
       "Device"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Turret",
       "Torpedo",
@@ -12043,7 +12043,7 @@ exportObj.basicCardData = function() {
       "Missile",
       "Astromech",
       "Device"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Turret",
       "Torpedo",
@@ -12070,7 +12070,7 @@ exportObj.basicCardData = function() {
       "Astromech",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Turret",
       "Torpedo",
@@ -12141,8 +12141,8 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Missile",
       "Modification",
       "Configuration",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Netrem Pollard",
@@ -12277,8 +12277,8 @@ exportObj.basicCardData = function() {
       "Missile",
       "Modification",
       "Configuration",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Captain Dobbs",
@@ -12319,7 +12319,7 @@ exportObj.basicCardData = function() {
       "Torpedo",
       "Missile",
       "Device"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Turret",
       "Torpedo",
       "Astromech",
@@ -12341,7 +12341,7 @@ exportObj.basicCardData = function() {
       "Missile",
       "Astromech",
       "Device"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Turret",
       "Torpedo",
@@ -12368,7 +12368,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Crew",
       "Illicit",
@@ -12395,7 +12395,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Crew",
       "Illicit",
@@ -12489,7 +12489,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Illicit",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Turret",
       "Tech",
@@ -12519,7 +12519,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Turret",
       "Tech",
@@ -12548,7 +12548,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Turret",
       "Tech",
@@ -12575,7 +12575,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Turret",
       "Tech",
@@ -12603,7 +12603,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Turret",
       "Tech",
       "Astromech",
@@ -12630,7 +12630,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Turret",
       "Tech",
       "Astromech",
@@ -12657,7 +12657,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Illicit",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Turret",
       "Tech",
       "Astromech",
@@ -12685,7 +12685,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Turret",
       "Tech",
@@ -12711,7 +12711,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Turret",
       "Tech",
       "Astromech",
@@ -12736,7 +12736,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Illicit",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Turret",
       "Tech",
       "Astromech",
@@ -12772,8 +12772,8 @@ exportObj.basicCardData = function() {
       "Missile",
       "Modification",
       "Configuration",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: '"Wrath"',
@@ -12919,8 +12919,8 @@ exportObj.basicCardData = function() {
       "Gunner",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Talent",
       "Tech",
       "Missile",
@@ -12948,8 +12948,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Talent",
       "Tech",
       "Missile",
@@ -12975,8 +12975,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Talent",
       "Tech",
       "Missile",
@@ -13002,8 +13002,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Tech",
       "Missile",
       "Gunner",
@@ -13027,8 +13027,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Tech",
       "Missile",
       "Torpedo",
@@ -13052,8 +13052,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Device",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Tech",
       "Missile",
       "Gunner",
@@ -13216,7 +13216,7 @@ exportObj.basicCardData = function() {
       {
         name: "Bo-Katan Kryze",
         id: 506,
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Crew",
       "Gunner",
@@ -13252,7 +13252,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Crew",
       "Gunner",
@@ -13281,7 +13281,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Crew",
       "Gunner",
       "Illicit",
@@ -13314,7 +13314,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Title",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Crew",
       "Gunner",
@@ -13378,7 +13378,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Crew",
       "Gunner",
       "Illicit",
@@ -13412,7 +13412,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Title",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Crew",
       "Gunner",
       "Illicit",
@@ -13420,8 +13420,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "Title",
       "Configuration",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Shadow Collective Operator",
@@ -13442,7 +13442,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Illicit",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Crew",
       "Gunner",
       "Illicit",
@@ -13470,7 +13470,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Illicit",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Crew",
       "Gunner",
@@ -13499,7 +13499,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Crew",
       "Gunner",
@@ -13528,7 +13528,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Crew",
       "Gunner",
       "Illicit",
@@ -13559,7 +13559,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Crew",
       "Gunner",
@@ -13588,7 +13588,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Talent",
       "Crew",
       "Gunner",
@@ -13621,7 +13621,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Configuration",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Crew",
       "Gunner",
       "Illicit",
@@ -13655,7 +13655,7 @@ exportObj.basicCardData = function() {
       "Modification",
       "Title",
       "Configuration"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Crew",
       "Gunner",
       "Illicit",
@@ -13663,8 +13663,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "Title",
       "Configuration",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Q9-0",
@@ -13791,8 +13791,8 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Saesee Tiin (Delta-7b)",
@@ -13814,8 +13814,8 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Mace Windu (Delta-7b)",
@@ -13838,8 +13838,8 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Anakin Skywalker (Delta-7b)",
@@ -13863,8 +13863,8 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Luminara Unduli (Delta-7b)",
@@ -13886,8 +13886,8 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Barriss Offee (Delta-7b)",
@@ -13909,7 +13909,7 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Ahsoka Tano (Delta-7b)",
@@ -13931,7 +13931,7 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Jedi Knight (Delta-7b)",
@@ -13952,7 +13952,7 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Obi-Wan Kenobi (Delta-7b)",
@@ -13976,8 +13976,8 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Cad Bane",
@@ -15328,7 +15328,7 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Missile",
       "Modification",
       "Configuration",
-      "Force Power"]
+      "Force"]
       },
       {
         name: '"Pops" Krail',
@@ -15350,7 +15350,7 @@ exportObj.basicCardData = function() {
       "Device",
       "Missile",
       "Modification"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Turret",
       "Torpedo",
       "Astromech",
@@ -15427,7 +15427,7 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Sensor",
       "Modification",
       "Configuration",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Magna Tolvan",
@@ -15636,7 +15636,7 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Cannon",
       "Missile",
       "Crew",
@@ -15800,14 +15800,14 @@ exportObj.basicCardData = function() {
       "Illicit",
       "Modification",
       "Title"],
-        slotsxwa: ["Payload",
+        slotsxwa: ["Device",
       "Cannon",
       "Missile",
       "Crew",
       "Illicit",
       "Modification",
       "Title",
-      "Force Power"]
+      "Force"]
       },
       {
         name: "Durge (Separatist)",
@@ -15911,8 +15911,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "Modification",
       "Configuration",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: "Adi Gallia (Delta-7B)",
@@ -15935,8 +15935,8 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Astromech",
       "Modification",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: '"Sicko"',
@@ -15995,8 +15995,8 @@ exportObj.basicCardData = function() {
       "Cannon",
       "Astromech",
       "Modification",
-      "Force Power",
-      "Force Power"]
+      "Force",
+      "Force"]
       },
       {
         name: '"Slammer"',
@@ -16089,8 +16089,8 @@ exportObj.basicCardData = function() {
       "Device",
       "Modification",
       "Modification"],
-        slotsxwa: ["Payload",
-      "Payload",
+        slotsxwa: ["Device",
+      "Device",
       "Talent",
       "Tech",
       "Missile",
