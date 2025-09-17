@@ -22,7 +22,7 @@ NAME_RE = re.compile(r'^\s*name:\s*["\']([^"\']+)["\']\s*$')
 POINTSXWA_RE = re.compile(r'^(\s*pointsxwa:\s*)(\d+)(\s*)$')
 LOADOUTXWA_RE = re.compile(r'^(\s*loadoutxwa:\s*)(\d+)(\s*)$')
 SLOTSXWA_KEY_RE = re.compile(r'^\s*slotsxwa\s*:')
-SLOTS_KEY_RE = re.compile(r'^\s*slots\s*:')          # Coffee base slots
+SLOTS_KEY_RE = re.compile(r'^\s*slots\s*:')          # Coffee base slots (array)
 SLOT_COLON_RE = re.compile(r'^\s*slot\s*:')          # Coffee single 'slot:' (upgrades)
 POINTS_KEY_RE = re.compile(r'^\s*points\s*:\s*(\d+)') # existing points (not required to exist)
 
@@ -90,8 +90,7 @@ def discover_json_pilots(jsons_dir: Path) -> Dict[str, Dict]:
 
     for jf in sorted(jsons_dir.glob("*.json")):
         if jf.name.lower() == UPGRADES_FILENAME.lower():
-            # handled by a separate pass
-            continue
+            continue  # handled separately
         try:
             data = json.loads(jf.read_text(encoding="utf-8"))
             walk(data, jf.name, parent_key=None)
@@ -124,14 +123,14 @@ def discover_json_upgrades(jsons_dir: Path) -> Dict[str, Dict]:
                 cost = v.get("cost")
                 slots = v.get("slots", [])
                 if name and isinstance(cost, (int, float)):
-                    # prefer int
                     try:
                         icost = int(cost)
                     except Exception:
                         continue
-                    # last one wins, but note duplicates
                     if name in out:
-                        out.setdefault("__dupes__", []).append(f"Duplicate upgrade name in JSON: {name} (keys: {out[name].get('key')} and {k})")
+                        out.setdefault("__dupes__", []).append(
+                            f"Duplicate upgrade name in JSON: {name} (keys: {out[name].get('key')} and {k})"
+                        )
                     out[name] = {"cost": icost, "slots": slots, "key": k}
         else:
             out.setdefault("__errors__", []).append(f"{UPGRADES_FILENAME} is not a dict at top-level")
@@ -200,8 +199,7 @@ def parse_array_block(region: List[str], key_re: re.Pattern) -> Tuple[Optional[i
     arr_end_idx = min(j + 1, len(region))
 
     body = "".join(region[i:arr_end_idx])
-    # capture duplicates in order
-    items = re.findall(r'["\']([^"\']+)["\']', body)
+    items = re.findall(r'["\']([^"\']+)["\']', body)  # preserve duplicates in order
     return key_idx, arr_end_idx, items
 
 def render_array_block(key: str, key_indent: int, items: List[str]) -> List[str]:
@@ -213,25 +211,21 @@ def render_array_block(key: str, key_indent: int, items: List[str]) -> List[str]
     return out
 
 # =======================
-# APPLY UPDATES IN REGION (generic)
+# APPLY UPDATES IN REGION (generic; no success logging)
 # =======================
 def upsert_number_line(region: List[str], regex: re.Pattern, key: str, new_val: int,
-                       anchors: List[str], xws_indent: int, changes: List[str], xws_or_name: str) -> List[str]:
+                       anchors: List[str], xws_indent: int, _changes: List[str], _xws_or_name: str) -> List[str]:
     idx_match = None
-    old_val = None
     for i, ln in enumerate(region):
         m = regex.match(ln)
         if m:
             idx_match = i
-            old_val = int(m.group(2))
             break
 
     if idx_match is not None:
-        if old_val != new_val:
-            pre, _, post = regex.match(region[idx_match]).groups()
-            newline = "" if region[idx_match].endswith("\n") else "\n"
-            region[idx_match] = f"{pre}{new_val}{post}{newline}"
-            changes.append(f'{xws_or_name}: {key} {old_val} -> {new_val}')
+        pre, _, post = regex.match(region[idx_match]).groups()
+        newline = "" if region[idx_match].endswith("\n") else "\n"
+        region[idx_match] = f"{pre}{new_val}{post}{newline}"
         return region
 
     insert_at = 1
@@ -244,14 +238,13 @@ def upsert_number_line(region: List[str], regex: re.Pattern, key: str, new_val: 
 
     line = " " * base_indent + f"{key}: {new_val}\n"
     region.insert(insert_at, line)
-    changes.append(f'{xws_or_name}: inserted {key} = {new_val}')
     return region
 
 def upsert_slotsxwa(region: List[str], desired_items: List[str], xws_indent: int,
-                    anchors: List[str], changes: List[str], xws_name: str) -> List[str]:
+                    anchors: List[str], _changes: List[str], _xws_name: str) -> List[str]:
     """
-    Update/insert slotsxwa using an explicit desired_items list (Coffee names, ordered).
-    Rewrite if current items != desired_items (exact list/order, including duplicates).
+    Update/insert slotsxwa using an explicit desired_items list (including duplicates).
+    No success logging; we only log errors elsewhere.
     """
     key_idx, arr_end_idx, current_items = parse_array_block(region, SLOTSXWA_KEY_RE)
     needs_rewrite = (current_items != desired_items)
@@ -263,7 +256,6 @@ def upsert_slotsxwa(region: List[str], desired_items: List[str], xws_indent: int
             pre = region[:key_idx]
             post = region[arr_end_idx:]
             region[:] = pre + new_block + post
-            changes.append(f'{xws_name}: slotsxwa {current_items} -> {desired_items}')
         return region
 
     # Insert if missing
@@ -276,13 +268,12 @@ def upsert_slotsxwa(region: List[str], desired_items: List[str], xws_indent: int
             break
     new_block = render_array_block("slotsxwa", key_indent, desired_items)
     region[insert_at:insert_at] = new_block
-    changes.append(f'{xws_name}: inserted slotsxwa = {desired_items}')
     return region
 
 # =======================
 # PASS 1: PILOT SYNC (xws_name-based)
 # =======================
-def sync_pilots(lines: List[str], json_map: Dict[str, Dict], changes: List[str]) -> None:
+def sync_pilots(lines: List[str], json_map: Dict[str, Dict], errors: List[str]) -> None:
     anchors = ["upgrades:", "slots:", "slotsxwa:", "loadoutxwa:", "pointsxwa:",
                "loadout:", "points:", "skill:", "initiative:", "id:", "ship:", "faction:"]
     i = 0
@@ -312,22 +303,30 @@ def sync_pilots(lines: List[str], json_map: Dict[str, Dict], changes: List[str])
         xws_indent = get_indent(lines[i])
 
         # 1) numeric fields
-        region = upsert_number_line(region, POINTSXWA_RE, "pointsxwa", cost, anchors, xws_indent, changes, xws)
-        region = upsert_number_line(region, LOADOUTXWA_RE, "loadoutxwa", loadout, anchors, xws_indent, changes, xws)
+        region = upsert_number_line(region, POINTSXWA_RE, "pointsxwa", cost, anchors, xws_indent, errors, xws)
+        region = upsert_number_line(region, LOADOUTXWA_RE, "loadoutxwa", loadout, anchors, xws_indent, errors, xws)
 
-        # 2) count HardpointShip in Coffee 'slots:' and ensure slotsxwa has at least that many
+        # 2) check Coffee 'slots:' for HardpointShip and VersatileShip
         _slots_key_idx, _slots_arr_end_idx, coffee_slots_items = parse_array_block(region, SLOTS_KEY_RE)
         coffee_hp_count = sum(1 for s in coffee_slots_items if s == "HardpointShip")
         json_hp_count = sum(1 for s in mapped_from_json if s == "HardpointShip")
         extra_hp_needed = max(0, coffee_hp_count - json_hp_count)
+
+        coffee_has_versatile = any(s == "VersatileShip" for s in coffee_slots_items)
 
         desired_multiset = list(mapped_from_json) + (["HardpointShip"] * extra_hp_needed)
 
         # 3) order the full MULTISET (duplicates preserved)
         desired_ordered = sort_slots_coffee(desired_multiset)
 
-        # 4) write slotsxwa
-        region = upsert_slotsxwa(region, desired_ordered, xws_indent, anchors, changes, xws)
+        # 4) VersatileShip rule: if Coffee 'slots:' contains VersatileShip,
+        #    ensure slotsxwa has exactly one VersatileShip and it is the last element.
+        if coffee_has_versatile:
+            # remove any existing VersatileShip from the ordered list (if any) then append one at the end
+            desired_ordered = [s for s in desired_ordered if s != "VersatileShip"] + ["VersatileShip"]
+
+        # 5) write slotsxwa
+        region = upsert_slotsxwa(region, desired_ordered, xws_indent, anchors, errors, xws)
 
         # write region back
         lines[obj_start:obj_end] = region
@@ -337,35 +336,28 @@ def sync_pilots(lines: List[str], json_map: Dict[str, Dict], changes: List[str])
         i = obj_start + delta
         n = len(lines)
 
-    # JSON pilots missing in Coffee
-    missing_in_coffee = []
+    # JSON pilots missing in Coffee (error log)
     for k in json_map.keys():
         if k.startswith("__"):
             continue
         if k not in seen_xws:
-            missing_in_coffee.append(k)
-    if missing_in_coffee:
-        for k in sorted(missing_in_coffee):
-            changes.append(f'{k}: NOT FOUND in Coffee (present in JSON)')
+            errors.append(f'{k}: NOT FOUND in Coffee (present in JSON)')
 
 # =======================
 # PASS 2: UPGRADE SYNC (name-based from upgrades.json)
 # =======================
-def sync_upgrades(lines: List[str], upgrades_map: Dict[str, Dict], changes: List[str]) -> None:
+def sync_upgrades(lines: List[str], upgrades_map: Dict[str, Dict], errors: List[str]) -> None:
     """
     For every Coffee object that:
       - has a 'name:' field,
       - does NOT contain an 'xws_name:' within its region (to avoid pilots),
       - does contain a 'slot:' (singular) line (typical for upgrades),
     match the name to upgrades.json and set pointsxwa to JSON 'cost'.
-    Log misses both ways.
+    Log only errors both ways.
     """
-    # Anchors for where to insert pointsxwa if missing
     anchors = ["slot:", "points:", "charge:", "charges:", "id:", "restriction:", "limited:", "side:", "faction:", "name:"]
-    seen_in_json = set()   # names that we successfully looked up in JSON (Coffee→JSON matches)
-    seen_in_coffee = set() # names seen in Coffee that qualify as an upgrade object
+    seen_in_json = set()
 
-    # Build a case-insensitive index for upgrades, with exact-name preference
     upgrades_ci = {k.lower(): {"name": k, **v} for k, v in upgrades_map.items() if not k.startswith("__")}
     i = 0
     n = len(lines)
@@ -388,18 +380,13 @@ def sync_upgrades(lines: List[str], upgrades_map: Dict[str, Dict], changes: List
         region = lines[obj_start:obj_end]
         xws_indent = get_indent(lines[i])
 
-        # Skip if this is a pilot (has xws_name)
         if region_has_xws(region):
             i += 1
             continue
 
-        # Heuristic: only treat as upgrade if it has 'slot:' (singular)
         if not region_has_slot_colon(region):
             i += 1
             continue
-
-        # Track Coffee upgrade names we tried to process
-        seen_in_coffee.add(name)
 
         # Lookup in JSON map (exact match first, then case-insensitive)
         if name in upgrades_map:
@@ -411,12 +398,12 @@ def sync_upgrades(lines: List[str], upgrades_map: Dict[str, Dict], changes: List
                 desired_cost = ci["cost"]
                 json_name_key = ci["name"]
             else:
-                changes.append(f'UPGRADE "{name}": NOT FOUND in {UPGRADES_FILENAME}')
+                errors.append(f'UPGRADE "{name}": NOT FOUND in {UPGRADES_FILENAME}')
                 i += 1
                 continue
 
-        # Upsert pointsxwa
-        region = upsert_number_line(region, POINTSXWA_RE, "pointsxwa", int(desired_cost), anchors, xws_indent, changes, name)
+        # Upsert pointsxwa (no success logging)
+        region = upsert_number_line(region, POINTSXWA_RE, "pointsxwa", int(desired_cost), anchors, xws_indent, errors, name)
 
         # Write region back
         lines[obj_start:obj_end] = region
@@ -427,16 +414,12 @@ def sync_upgrades(lines: List[str], upgrades_map: Dict[str, Dict], changes: List
         i = obj_start + delta
         n = len(lines)
 
-    # Log JSON upgrades not seen in Coffee
-    json_not_in_coffee = []
+    # JSON upgrades not seen in Coffee (error log)
     for k in upgrades_map.keys():
         if k.startswith("__"):
             continue
         if k not in seen_in_json:
-            json_not_in_coffee.append(k)
-    if json_not_in_coffee:
-        for k in sorted(json_not_in_coffee):
-            changes.append(f'UPGRADE "{k}": present in {UPGRADES_FILENAME} but NOT FOUND in Coffee')
+            errors.append(f'UPGRADE "{k}": present in {UPGRADES_FILENAME} but NOT FOUND in Coffee')
 
 # =======================
 # MAIN SYNC
@@ -452,30 +435,30 @@ def main():
     # Discover pilots (all JSONs except upgrades.json)
     json_map = discover_json_pilots(JSONS_DIR)
 
-    changes: List[str] = []
+    errors: List[str] = []
     if "__errors__" in json_map:
-        changes.extend(json_map["__errors__"])
+        errors.extend(json_map["__errors__"])
 
-    # PASS 1: pilots by xws_name
-    sync_pilots(lines, json_map, changes)
+    # PASS 1: pilots by xws_name (with VersatileShip rule)
+    sync_pilots(lines, json_map, errors)
 
     # PASS 2: upgrades by name from upgrades.json
     upgrades_map = discover_json_upgrades(JSONS_DIR)
     if "__errors__" in upgrades_map:
-        changes.extend(upgrades_map["__errors__"])
+        errors.extend(upgrades_map["__errors__"])
     if "__dupes__" in upgrades_map:
-        changes.extend(upgrades_map["__dupes__"])
+        errors.extend(upgrades_map["__dupes__"])
 
-    sync_upgrades(lines, upgrades_map, changes)
+    sync_upgrades(lines, upgrades_map, errors)
 
     # Write outputs
     COFFEE_OUTPUT_PATH.write_text("".join(lines), encoding="utf-8")
-    LOG_PATH.write_text("\n".join(changes) + ("\n" if changes else ""), encoding="utf-8")
+    LOG_PATH.write_text("\n".join(errors) + ("\n" if errors else ""), encoding="utf-8")
 
     print("✅ Sync complete.")
     print(f"Backup:  {COFFEE_BACKUP_PATH}")
     print(f"Output:  {COFFEE_OUTPUT_PATH}")
-    print(f"Log:     {LOG_PATH}")
+    print(f"Log:     {LOG_PATH} (errors only)")
 
 if __name__ == "__main__":
     main()
