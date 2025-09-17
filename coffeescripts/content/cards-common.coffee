@@ -17827,6 +17827,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Sensor"
                 "Modification"
+                "VersatileShip"
             ]
         }
 
@@ -17857,6 +17858,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Sensor"
                 "Modification"
+                "VersatileShip"
             ]
         }
 
@@ -17884,6 +17886,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Sensor"
                 "Modification"
+                "VersatileShip"
             ]
         }
 
@@ -17910,6 +17913,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Sensor"
                 "Modification"
+                "VersatileShip"
             ]
         }
 
@@ -17937,6 +17941,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Sensor"
                 "Modification"
+                "VersatileShip"
             ]
         }
 
@@ -17963,6 +17968,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Sensor"
                 "Modification"
+                "VersatileShip"
             ]
         }
 
@@ -17989,6 +17995,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Sensor"
                 "Modification"
+                "VersatileShip"
             ]
         }
 
@@ -18016,6 +18023,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Sensor"
                 "Modification"
+                "VersatileShip"
             ]
         }
 
@@ -18040,6 +18048,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Sensor"
                 "Modification"
+                "VersatileShip"
             ]
         }
 
@@ -18063,6 +18072,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Sensor"
                 "Modification"
+                "VersatileShip"
             ]
         }
 

@@ -14255,7 +14255,8 @@ exportObj.basicCardData = function() {
         slotsxwa: ["Talent",
       "Talent",
       "Sensor",
-      "Modification"]
+      "Modification",
+      "VersatileShip"]
       },
       {
         name: '"Slider"',
@@ -14280,7 +14281,8 @@ exportObj.basicCardData = function() {
       "VersatileShip"],
         slotsxwa: ["Talent",
       "Sensor",
-      "Modification"]
+      "Modification",
+      "VersatileShip"]
       },
       {
         name: '"Hawk" (Z-95)',
@@ -14302,7 +14304,8 @@ exportObj.basicCardData = function() {
       "VersatileShip"],
         slotsxwa: ["Talent",
       "Sensor",
-      "Modification"]
+      "Modification",
+      "VersatileShip"]
       },
       {
         name: '"Warthog" (Z-95)',
@@ -14323,7 +14326,8 @@ exportObj.basicCardData = function() {
       "VersatileShip"],
         slotsxwa: ["Talent",
       "Sensor",
-      "Modification"]
+      "Modification",
+      "VersatileShip"]
       },
       {
         name: '"Boost"',
@@ -14345,7 +14349,8 @@ exportObj.basicCardData = function() {
       "VersatileShip"],
         slotsxwa: ["Talent",
       "Sensor",
-      "Modification"]
+      "Modification",
+      "VersatileShip"]
       },
       {
         name: '"Drift"',
@@ -14366,7 +14371,8 @@ exportObj.basicCardData = function() {
       "VersatileShip"],
         slotsxwa: ["Talent",
       "Sensor",
-      "Modification"]
+      "Modification",
+      "VersatileShip"]
       },
       {
         name: '"Stub"',
@@ -14387,7 +14393,8 @@ exportObj.basicCardData = function() {
       "VersatileShip"],
         slotsxwa: ["Talent",
       "Sensor",
-      "Modification"]
+      "Modification",
+      "VersatileShip"]
       },
       {
         name: '"Killer"',
@@ -14409,7 +14416,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "VersatileShip"],
         slotsxwa: ["Sensor",
-      "Modification"]
+      "Modification",
+      "VersatileShip"]
       },
       {
         name: "Reaper Squadron Scout",
@@ -14428,7 +14436,8 @@ exportObj.basicCardData = function() {
       "VersatileShip"],
         slotsxwa: ["Talent",
       "Sensor",
-      "Modification"]
+      "Modification",
+      "VersatileShip"]
       },
       {
         name: "7th Sky Corps Pilot",
@@ -14446,7 +14455,8 @@ exportObj.basicCardData = function() {
       "Modification",
       "VersatileShip"],
         slotsxwa: ["Sensor",
-      "Modification"]
+      "Modification",
+      "VersatileShip"]
       },
       {
         name: "Garven Dreis (BoY)",
