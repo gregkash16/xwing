@@ -22947,7 +22947,6 @@ exportObj.basicCardData = ->
             name: "Lando Calrissian"
             pointsxwa: 2
             id: 44
-            xws_name: "landocalrissian-crew-rebel"
             slot: "Crew"
             points: 2
             unique: true
