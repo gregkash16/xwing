@@ -12964,7 +12964,7 @@ exportObj.basicCardData = ->
             ship: "TIE/sf Fighter"
             points: 4
             loadout: 6
-            pointsxwa: 5
+            pointsxwa: 10
             loadoutxwa: 15
             slots: [
                 "Talent"
