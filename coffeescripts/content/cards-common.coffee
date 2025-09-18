@@ -2146,7 +2146,7 @@ exportObj.basicCardData = ->
             force: 2
             points: 6
             loadout: 24
-            pointsxwa: 14
+            pointsxwa: 12
             loadoutxwa: 10
             slots: [
                 "Force"
@@ -2157,12 +2157,7 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Force"
-                "Force"
-                "Astromech"
-                "Torpedo"
-                "Modification"
-                "Configuration"
+                "Gunner"
             ]
         }
 
@@ -2899,7 +2894,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 5
             loadout: 12
-            pointsxwa: 12
+            pointsxwa: 7
             loadoutxwa: 12
             slots: [
                 "Talent"
@@ -2909,12 +2904,7 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Crew"
-                "Sensor"
-                "Modification"
-                "Configuration"
             ]
         }
 
@@ -2958,7 +2948,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 5
             loadout: 14
-            pointsxwa: 13
+            pointsxwa: 5
             loadoutxwa: 17
             keyword: ["Partisan"]
             slots: [
@@ -2971,13 +2961,7 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Crew"
-                "Sensor"
-                "Illicit"
-                "Modification"
-                "Configuration"
             ]
         }
 
@@ -2991,7 +2975,7 @@ exportObj.basicCardData = ->
             skill: 4
             points: 5
             loadout: 18
-            pointsxwa: 13
+            pointsxwa: 9
             loadoutxwa: 16
             keyword: ["Partisan"]
             slots: [
@@ -3004,13 +2988,7 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Crew"
-                "Sensor"
-                "Illicit"
-                "Modification"
-                "Configuration"
             ]
         }
 
@@ -3283,7 +3261,7 @@ exportObj.basicCardData = ->
             recurring: 1
             points: 7
             loadout: 18
-            pointsxwa: 17
+            pointsxwa: 3
             loadoutxwa: 15
             slots: [
                 "Talent"
@@ -3297,16 +3275,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Crew"
-                "Gunner"
-                "Gunner"
-                "Illicit"
-                "Missile"
-                "Modification"
-                "Modification"
-                "Title"
             ]
         }
 
@@ -3758,7 +3727,7 @@ exportObj.basicCardData = ->
             force: 2
             points: 7
             loadout: 20
-            pointsxwa: 19
+            pointsxwa: 10
             loadoutxwa: 20
             slots: [
                 "Force"
@@ -3772,15 +3741,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Force"
                 "Crew"
-                "Crew"
-                "Gunner"
-                "Sensor"
-                "Torpedo"
-                "Modification"
-                "Title"
-                "Turret"
             ]
         }
 
@@ -3795,7 +3756,7 @@ exportObj.basicCardData = ->
             skill: 2
             points: 6
             loadout: 14
-            pointsxwa: 16
+            pointsxwa: 3
             loadoutxwa: 12
             keyword: ["Droid","Spectre"]
             slots: [
@@ -3809,14 +3770,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Gunner"
-                "Sensor"
-                "Torpedo"
-                "Modification"
-                "Title"
-                "Turret"
+                "Astromech"
             ]
         }
 
@@ -3857,7 +3811,7 @@ exportObj.basicCardData = ->
             skill: 5
             points: 4
             loadout: 9
-            pointsxwa: 10
+            pointsxwa: 3
             loadoutxwa: 12
             keyword: ["Spectre"]
             slots: [
@@ -3868,12 +3822,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Talent"
-                "Talent"
                 "Crew"
-                "Modification"
-                "Title"
-                "Turret"
             ]
         }
 
@@ -3887,7 +3836,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 4
             loadout: 6
-            pointsxwa: 10
+            pointsxwa: 6
             loadoutxwa: 13
             keyword: ["Mandalorian","Spectre"]
             slots: [
@@ -3898,11 +3847,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Modification"
-                "Title"
-                "Turret"
             ]
         }
 
@@ -3928,11 +3873,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Force"
-                "Crew"
-                "Modification"
-                "Title"
-                "Turret"
+                "Gunner"
             ]
         }
 
@@ -3947,7 +3888,7 @@ exportObj.basicCardData = ->
             skill: 2
             points: 3
             loadout: 10
-            pointsxwa: 8
+            pointsxwa: 1
             loadoutxwa: 6
             keyword: ["Spectre"]
             slots: [
@@ -3959,9 +3900,6 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Crew"
-                "Modification"
-                "Title"
-                "Turret"
             ]
         }
 
@@ -4441,7 +4379,7 @@ exportObj.basicCardData = ->
             skill: 4
             points: 6
             loadout: 13
-            pointsxwa: 15
+            pointsxwa: 3
             loadoutxwa: 14
             keyword: ["Bounty Hunter","Droid"]
             slots: [
@@ -4455,14 +4393,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Talent"
-                "Sensor"
-                "Illicit"
-                "Cannon"
-                "Cannon"
-                "Device"
-                "Modification"
-                "Title"
+                "Crew"
             ]
         }
 
@@ -4598,7 +4529,7 @@ exportObj.basicCardData = ->
             skill: 6
             points: 5
             loadout: 10
-            pointsxwa: 14
+            pointsxwa: 10
             loadoutxwa: 16
             slots: [
                 "Talent"
@@ -4611,15 +4542,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Talent"
-                "Talent"
-                "Crew"
-                "Crew"
                 "Gunner"
-                "Illicit"
-                "Modification"
-                "Modification"
-                "Title"
             ]
         }
 
@@ -4634,7 +4557,7 @@ exportObj.basicCardData = ->
             skill: 4
             points: 5
             loadout: 10
-            pointsxwa: 13
+            pointsxwa: 2
             loadoutxwa: 16
             slots: [
                 "Talent"
@@ -4647,14 +4570,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Crew"
-                "Gunner"
-                "Illicit"
-                "Modification"
-                "Modification"
-                "Title"
             ]
         }
 
@@ -4668,7 +4584,7 @@ exportObj.basicCardData = ->
             skill: 2
             points: 5
             loadout: 9
-            pointsxwa: 12
+            pointsxwa: 5
             loadoutxwa: 15
             keyword: ["Droid"]
             slots: [
@@ -4681,13 +4597,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Crew"
-                "Crew"
-                "Gunner"
-                "Illicit"
-                "Modification"
-                "Modification"
-                "Title"
+                "Crew / Configuration"
             ]
         }
 
@@ -4823,7 +4733,7 @@ exportObj.basicCardData = ->
             skill: 6
             points: 6
             loadout: 12
-            pointsxwa: 13
+            pointsxwa: 7
             loadoutxwa: 5
             keyword: ["Mandalorian"]
             slots: [
@@ -4834,11 +4744,7 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
-                "Talent"
-                "Torpedo"
-                "Modification"
-                "Modification"
+                "Crew"
             ]
         }
 
@@ -4982,7 +4888,7 @@ exportObj.basicCardData = ->
             skill: 5
             points: 8
             loadout: 18
-            pointsxwa: 20
+            pointsxwa: 7
             loadoutxwa: 20
             keyword: ["Bounty Hunter"]
             slots: [
@@ -4996,15 +4902,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Illicit"
-                "Cannon"
-                "Missile"
-                "Device"
-                "Modification"
-                "Modification"
-                "Title"
             ]
         }
 
@@ -5182,7 +5080,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 5
             loadout: 14
-            pointsxwa: 12
+            pointsxwa: 5
             loadoutxwa: 13
             keyword: ["Bounty Hunter","Droid"]
             slots: [
@@ -5194,13 +5092,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Sensor"
-                "Illicit"
-                "Missile"
-                "Modification"
-                "Title"
             ]
         }
 
@@ -5214,7 +5106,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 5
             loadout: 10
-            pointsxwa: 11
+            pointsxwa: 5
             loadoutxwa: 11
             keyword: ["Bounty Hunter"]
             slots: [
@@ -5226,13 +5118,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Sensor"
-                "Illicit"
-                "Missile"
-                "Modification"
-                "Title"
             ]
         }
 
@@ -5363,7 +5249,7 @@ exportObj.basicCardData = ->
             recurring: 1
             points: 6
             loadout: 11
-            pointsxwa: 16
+            pointsxwa: 6
             loadoutxwa: 18
             keyword: ["Bounty Hunter"]
             slots: [
@@ -5377,14 +5263,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Talent"
-                "Crew"
                 "Gunner"
-                "Illicit"
-                "Cannon"
-                "Torpedo"
-                "Modification"
-                "Title"
             ]
         }
 
@@ -5691,7 +5570,7 @@ exportObj.basicCardData = ->
             skill: 5
             points: 7
             loadout: 15
-            pointsxwa: 16
+            pointsxwa: 3
             loadoutxwa: 15
             keyword: ["Bounty Hunter","Mandalorian"]
             slots: [
@@ -5703,12 +5582,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Title"
             ]
         }
 
@@ -6118,7 +5992,7 @@ exportObj.basicCardData = ->
             skill: 2
             points: 4
             loadout: 7
-            pointsxwa: 9
+            pointsxwa: 1
             loadoutxwa: 13
             slots: [
                 "Tech"
@@ -6129,9 +6003,6 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Crew"
-                "Illicit"
-                "Modification"
-                "Modification"
             ]
         }
 
@@ -6429,7 +6300,7 @@ exportObj.basicCardData = ->
             skill: 4
             points: 6
             loadout: 16
-            pointsxwa: 16
+            pointsxwa: 4
             loadoutxwa: 18
             keyword: ["Bounty Hunter"]
             slots: [
@@ -6444,15 +6315,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Talent"
-                "Crew"
-                "Crew"
                 "Gunner"
-                "Illicit"
-                "Cannon"
-                "Missile"
-                "Modification"
-                "Title"
             ]
         }
 
@@ -6466,7 +6329,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 6
             loadout: 22
-            pointsxwa: 15
+            pointsxwa: 4
             loadoutxwa: 15
             keyword: ["Bounty Hunter"]
             slots: [
@@ -6481,15 +6344,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Crew"
-                "Gunner"
-                "Illicit"
-                "Cannon"
-                "Missile"
-                "Modification"
-                "Title"
             ]
         }
 
@@ -6883,7 +6738,7 @@ exportObj.basicCardData = ->
             skill: 5
             points: 5
             loadout: 10
-            pointsxwa: 13
+            pointsxwa: 10
             loadoutxwa: 15
             force: 2
             keyword: ["Dark Side"]
@@ -6895,11 +6750,7 @@ exportObj.basicCardData = ->
                 "Missile"
             ]
             slotsxwa: [
-                "Force"
-                "Force"
-                "Sensor"
-                "Missile"
-                "Modification"
+                "Crew"
             ]
         }
 
@@ -6913,7 +6764,7 @@ exportObj.basicCardData = ->
             skill: 4
             points: 4
             loadout: 6
-            pointsxwa: 11
+            pointsxwa: 9
             loadoutxwa: 13
             force: 2
             keyword: ["Dark Side"]
@@ -6924,10 +6775,7 @@ exportObj.basicCardData = ->
                 "Missile"
             ]
             slotsxwa: [
-                "Force"
-                "Sensor"
-                "Missile"
-                "Modification"
+                "Crew"
             ]
         }
 
@@ -7005,11 +6853,7 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Force"
-                "Force"
-                "Sensor"
-                "Missile"
-                "Modification"
+                "Crew"
             ]
         }
 
@@ -8624,7 +8468,7 @@ exportObj.basicCardData = ->
             keyword: ["Dark Side"]
             points: 7
             loadout: 24
-            pointsxwa: 16
+            pointsxwa: 7
             loadoutxwa: 10
             applies_condition: '''I'll Show You the Dark Side'''.canonicalize()
             slots: [
@@ -8636,12 +8480,7 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Force"
-                "Torpedo"
-                "Missile"
-                "Modification"
-                "Configuration"
-                "Tech"
+                "Crew"
             ]
         }
 
@@ -9493,7 +9332,7 @@ exportObj.basicCardData = ->
             skill: 5
             points: 3
             loadout: 4
-            pointsxwa: 10
+            pointsxwa: 2
             loadoutxwa: 15
             charge: 2
             slots: [
@@ -9504,12 +9343,7 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
-                "Sensor"
-                "Missile"
-                "Modification"
-                "Modification"
-                "Tech"
+                "Crew"
             ]
         }
 
@@ -9777,7 +9611,7 @@ exportObj.basicCardData = ->
             force: 2
             points: 4
             loadout: 7
-            pointsxwa: 10
+            pointsxwa: 11
             loadoutxwa: 8
             keyword: ["Jedi","Light Side"]
             slots: [
@@ -9787,11 +9621,7 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Force"
-                "Astromech"
-                "Modification"
-                "Modification"
-                "Configuration"
+                "Gunner"
             ]
         }
 
@@ -9834,7 +9664,7 @@ exportObj.basicCardData = ->
             force: 3
             points: 5
             loadout: 10
-            pointsxwa: 13
+            pointsxwa: 11
             loadoutxwa: 10
             keyword: ["Jedi","Light Side"]
             slots: [
@@ -9847,12 +9677,7 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Force"
-                "Force"
-                "Astromech"
-                "Modification"
-                "Modification"
-                "Configuration"
+                "Crew"
             ]
         }
 
@@ -9921,7 +9746,7 @@ exportObj.basicCardData = ->
             skill: 1
             points: 7
             loadout: 14
-            pointsxwa: 16
+            pointsxwa: 4
             loadoutxwa: 15
             charge: 1
             recurring: 1
@@ -9938,13 +9763,6 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Crew"
-                "Crew"
-                "Crew"
-                "Sensor"
-                "Cannon"
-                "Modification"
-                "Tech"
-                "Tech"
             ]
         }
 
@@ -10449,7 +10267,7 @@ exportObj.basicCardData = ->
             skill: 5
             points: 5
             loadout: 16
-            pointsxwa: 14
+            pointsxwa: 4
             loadoutxwa: 16
             slots: [
                 "Talent"
@@ -10461,13 +10279,8 @@ exportObj.basicCardData = ->
                 "HardpointShip"
             ]
             slotsxwa: [
-                "Talent"
-                "Astromech"
+                "Crew"
                 "HardpointShip"
-                "Modification"
-                "Configuration"
-                "Tech"
-                "Tech"
             ]
         }
 
@@ -10630,7 +10443,7 @@ exportObj.basicCardData = ->
             skill: 4
             points: 5
             loadout: 14
-            pointsxwa: 12
+            pointsxwa: 5
             loadoutxwa: 20
             slots: [
                 "Talent"
@@ -10640,10 +10453,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Talent"
-                "Modification"
-                "Modification"
-                "Title"
+                "Crew"
             ]
         }
 
@@ -10806,7 +10616,7 @@ exportObj.basicCardData = ->
             force: 2
             points: 5
             loadout: 14
-            pointsxwa: 12
+            pointsxwa: 9
             loadoutxwa: 8
             keyword: ["Jedi","Light Side"]
             slots: [
@@ -10817,12 +10627,7 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Force"
-                "Force"
-                "Astromech"
-                "Modification"
-                "Modification"
-                "Configuration"
+                "Crew"
             ]
         }
 
@@ -11418,7 +11223,7 @@ exportObj.basicCardData = ->
             force: 3
             points: 7
             loadout: 24
-            pointsxwa: 15
+            pointsxwa: 12
             loadoutxwa: 10
             keyword: ["Dark Side","Sith"]
             slots: [
@@ -11433,14 +11238,7 @@ exportObj.basicCardData = ->
                 "Tactical Relay"
             ]
             slotsxwa: [
-                "Force"
-                "Force"
                 "Crew"
-                "Crew"
-                "Sensor"
-                "Device"
-                "Modification"
-                "Title"
             ]
         }
 
@@ -11739,7 +11537,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 3
             loadout: 9
-            pointsxwa: 8
+            pointsxwa: 9
             loadoutxwa: 14
             slots: [
                 "Talent"
@@ -11749,10 +11547,7 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Modification"
-                "Tech"
             ]
         }
 
@@ -11855,7 +11650,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 2
             loadout: 4
-            pointsxwa: 7
+            pointsxwa: 5
             loadoutxwa: 9
             keyword: ["Droid"]
             slots: [
@@ -11865,9 +11660,7 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Crew"
-                "Modification"
-                "Tech"
+                "Astromech"
             ]
         }
 
@@ -11881,7 +11674,7 @@ exportObj.basicCardData = ->
             skill: 2
             points: 4
             loadout: 15
-            pointsxwa: 10
+            pointsxwa: 9
             loadoutxwa: 16
             slots: [
                 "Talent"
@@ -11891,10 +11684,7 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
-                "Crew"
-                "Modification"
-                "Tech"
+                "Gunner"
             ]
         }
 
@@ -12213,7 +12003,7 @@ exportObj.basicCardData = ->
             skill: 2
             points: 3
             loadout: 9
-            pointsxwa: 10
+            pointsxwa: 8
             loadoutxwa: 20
             keyword: ["Droid"]
             slots: [
@@ -12226,12 +12016,7 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Crew"
-                "Gunner"
-                "Torpedo"
-                "Device"
-                "Modification"
-                "Turret"
+                "Astromech"
             ]
         }
 
@@ -12803,7 +12588,7 @@ exportObj.basicCardData = ->
             skill: 1
             points: 3
             loadout: 8
-            pointsxwa: 6
+            pointsxwa: 5
             loadoutxwa: 5
             keyword: ["Droid"]
             slots: [
@@ -12813,11 +12598,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Crew"
-                "Illicit"
-                "Missile"
-                "Modification"
-                "Title"
+                "Astromech"
             ]
         }
 
@@ -12964,7 +12745,7 @@ exportObj.basicCardData = ->
             ship: "TIE/sf Fighter"
             points: 4
             loadout: 6
-            pointsxwa: 10
+            pointsxwa: 5
             loadoutxwa: 15
             slots: [
                 "Talent"
@@ -12976,12 +12757,7 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
-                "Gunner"
-                "Sensor"
-                "Missile"
-                "Modification"
-                "Tech"
+                "Crew"
             ]
         }
 
@@ -13080,7 +12856,7 @@ exportObj.basicCardData = ->
             ship: "MG-100 StarFortress"
             points: 6
             loadout: 23
-            pointsxwa: 16
+            pointsxwa: 6
             loadoutxwa: 21
             charge: 1
             recurring: 1
@@ -13095,16 +12871,7 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
-                "Crew"
                 "Gunner"
-                "Gunner"
-                "Sensor"
-                "Device"
-                "Device"
-                "Modification"
-                "Modification"
-                "Tech"
             ]
         }
 
@@ -13118,7 +12885,7 @@ exportObj.basicCardData = ->
             ship: "UT-60D U-wing"
             points: 5
             loadout: 10
-            pointsxwa: 11
+            pointsxwa: 8
             loadoutxwa: 11
             keyword: ["Droid"]
             slots: [
@@ -13130,10 +12897,6 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Crew"
-                "Crew"
-                "Sensor"
-                "Modification"
-                "Configuration"
             ]
         }
 
@@ -13219,7 +12982,7 @@ exportObj.basicCardData = ->
             keyword: ["Light Side"]
             points: 7
             loadout: 24
-            pointsxwa: 18
+            pointsxwa: 7
             loadoutxwa: 16
             force: 1
             slots: [
@@ -13233,16 +12996,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Force"
                 "Crew"
-                "Crew"
-                "Gunner"
-                "Gunner"
-                "Illicit"
-                "Missile"
-                "Modification"
-                "Modification"
-                "Title"
             ]
         }
 
@@ -13257,7 +13011,7 @@ exportObj.basicCardData = ->
             ship: "TIE Advanced v1"
             points: 4
             loadout: 7
-            pointsxwa: 11
+            pointsxwa: 12
             loadoutxwa: 12
             force: 2
             slots: [
@@ -13267,10 +13021,7 @@ exportObj.basicCardData = ->
                 "Missile"
             ]
             slotsxwa: [
-                "Force"
-                "Sensor"
-                "Missile"
-                "Modification"
+                "Gunner"
             ]
         }
 
@@ -13489,7 +13240,7 @@ exportObj.basicCardData = ->
             ship: "Xi-class Light Shuttle"
             points: 4
             loadout: 13
-            pointsxwa: 9
+            pointsxwa: 7
             loadoutxwa: 12
             slots: [
                 "Talent"
@@ -13503,13 +13254,6 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Crew"
-                "Crew"
-                "Illicit"
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Tech"
-                "Tech"
             ]
         }
 
@@ -14277,7 +14021,7 @@ exportObj.basicCardData = ->
             ship: "Firespray-class Patrol Craft"
             points: 8
             loadout: 22
-            pointsxwa: 19
+            pointsxwa: 9
             loadoutxwa: 12
             keyword: ["Bounty Hunter"]
             slots: [
@@ -14291,14 +14035,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Illicit"
-                "Cannon"
-                "Missile"
-                "Device"
-                "Modification"
-                "Title"
             ]
             applies_condition: ['''You'd Better Mean Business'''.canonicalize(),'You Should Thank Me'.canonicalize()]
         }
@@ -14313,7 +14050,7 @@ exportObj.basicCardData = ->
             ship: "Firespray-class Patrol Craft"
             points: 8
             loadout: 22
-            pointsxwa: 20
+            pointsxwa: 3
             loadoutxwa: 20
             keyword: ["Bounty Hunter"]
             slots: [
@@ -14328,14 +14065,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Illicit"
-                "Cannon"
-                "Missile"
-                "Device"
-                "Modification"
-                "Title"
             ]
         }
 
@@ -14533,7 +14263,7 @@ exportObj.basicCardData = ->
             ship: "Eta-2 Actis"
             points: 4
             loadout: 12
-            pointsxwa: 10
+            pointsxwa: 12
             loadoutxwa: 8
             force: 3
             keyword: ["Jedi", "Light Side"]
@@ -14545,12 +14275,7 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Force"
-                "Force"
-                "Talent"
-                "Astromech"
-                "Cannon"
-                "Modification"
+                "Crew"
             ]
         }
 
@@ -14596,7 +14321,7 @@ exportObj.basicCardData = ->
             ship: "Eta-2 Actis"
             points: 5
             loadout: 15
-            pointsxwa: 11
+            pointsxwa: 12
             loadoutxwa: 11
             force: 2
             keyword: ["Jedi", "Light Side"]
@@ -14609,12 +14334,7 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Force"
-                "Force"
-                "Talent"
-                "Astromech"
-                "Cannon"
-                "Modification"
+                "Crew"
             ]
         }
 
@@ -15082,7 +14802,7 @@ exportObj.basicCardData = ->
             skill: 6
             points: 5
             loadout: 14
-            pointsxwa: 11
+            pointsxwa: 2
             loadoutxwa: 9
             slots: [
                 "Talent"
@@ -15091,9 +14811,7 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Talent"
-                "Modification"
-                "Configuration"
+                "Crew"
             ]
         }
 
@@ -15589,7 +15307,7 @@ exportObj.basicCardData = ->
             recurring: 1
             points: 4
             loadout: 8
-            pointsxwa: 10
+            pointsxwa: 5
             loadoutxwa: 17
             slots: [
                 "Talent"
@@ -15600,11 +15318,7 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Illicit"
-                "Device"
-                "Modification"
             ]
         }
 
@@ -16610,18 +16324,10 @@ exportObj.basicCardData = ->
             name: "Bo-Katan Kryze"
             id: 506
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Gunner"
-                "Illicit"
-                "Device"
-                "Modification"
-                "Modification"
-                "Configuration"
-                "Title"
             ]
             loadoutxwa: 20
-            pointsxwa: 16
+            pointsxwa: 6
             xws_name: "bokatankryze"
             skip: true
         }
@@ -16635,7 +16341,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 6
             loadout: 14
-            pointsxwa: 16
+            pointsxwa: 7
             loadoutxwa: 16
             charge: 2
             recurring: 1
@@ -16651,14 +16357,7 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Gunner"
-                "Illicit"
-                "Device"
-                "Modification"
-                "Modification"
-                "Configuration"
             ]
         }
 
@@ -16816,7 +16515,7 @@ exportObj.basicCardData = ->
             skill: 5
             points: 8
             loadout: 15
-            pointsxwa: 18
+            pointsxwa: 12
             loadoutxwa: 18
             unique: true
             force: 3
@@ -16835,16 +16534,7 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Force"
-                "Force"
                 "Crew"
-                "Gunner"
-                "Illicit"
-                "Device"
-                "Modification"
-                "Modification"
-                "Configuration"
-                "Title"
             ]
         }
 
@@ -16889,7 +16579,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 7
             loadout: 14
-            pointsxwa: 17
+            pointsxwa: 8
             loadoutxwa: 17
             unique: true
             keyword: ["Mandalorian"]
@@ -16903,14 +16593,7 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Gunner"
-                "Illicit"
-                "Device"
-                "Modification"
-                "Modification"
-                "Configuration"
             ]
         }
 
@@ -16923,7 +16606,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 6
             loadout: 14
-            pointsxwa: 16
+            pointsxwa: 3
             loadoutxwa: 20
             unique: true
             keyword: ["Mandalorian"]
@@ -16937,14 +16620,7 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Gunner"
-                "Illicit"
-                "Device"
-                "Modification"
-                "Modification"
-                "Configuration"
             ]
         }
 
@@ -16990,7 +16666,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 7
             loadout: 18
-            pointsxwa: 17
+            pointsxwa: 5
             loadoutxwa: 20
             charge: 2
             recurring: 1
@@ -17007,14 +16683,7 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Gunner"
-                "Illicit"
-                "Device"
-                "Modification"
-                "Modification"
-                "Configuration"
             ]
         }
 
@@ -17170,7 +16839,7 @@ exportObj.basicCardData = ->
             skill: 5
             points: 6
             loadout: 10
-            pointsxwa: 16
+            pointsxwa: 3
             loadoutxwa: 16
             unique: true
             keyword: ["Bounty Hunter", "Mandalorian"]
@@ -17184,13 +16853,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Talent"
                 "Crew"
-                "Crew"
-                "Illicit"
-                "Illicit"
-                "Modification"
-                "Title"
             ]
         }
 
@@ -17509,7 +17172,7 @@ exportObj.basicCardData = ->
             recurring: 1
             points: 4
             loadout: 13
-            pointsxwa: 12
+            pointsxwa: 3
             loadoutxwa: 20
             keyword: ["Bounty Hunter"]
             slots: [
@@ -17523,14 +17186,7 @@ exportObj.basicCardData = ->
                 "Title"
             ]
             slotsxwa: [
-                "Talent"
-                "Illicit"
-                "Cannon"
-                "Cannon"
-                "Missile"
-                "Modification"
-                "Modification"
-                "Title"
+                "Crew"
             ]
         }
 
@@ -19514,7 +19170,7 @@ exportObj.basicCardData = ->
             skill: 1
             points: 7
             loadout: 18
-            pointsxwa: 17
+            pointsxwa: 7
             loadoutxwa: 12
             slots: [
                 "Cannon"
@@ -19529,12 +19185,6 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Crew"
-                "Illicit"
-                "Cannon"
-                "Missile"
-                "Device"
-                "Modification"
-                "Title"
             ]
         }
 
@@ -19934,7 +19584,7 @@ exportObj.basicCardData = ->
             force: 2
             points: 4
             loadout: 11
-            pointsxwa: 10
+            pointsxwa: 8
             loadoutxwa: 8
             keyword: ["Jedi","Light Side"]
             slots: [
@@ -19946,12 +19596,7 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Force"
-                "Force"
-                "Talent"
-                "Astromech"
-                "Cannon"
-                "Modification"
+                "Crew"
             ]
         }
 
@@ -20085,7 +19730,7 @@ exportObj.basicCardData = ->
             skill: 4
             points: 3
             loadout: 6
-            pointsxwa: 9
+            pointsxwa: 3
             loadoutxwa: 9
             slots: [
                 "Talent"
@@ -20094,10 +19739,7 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
-                "Talent"
-                "Sensor"
-                "Modification"
-                "Tech"
+                "Gunner"
             ]
         }
 
@@ -21490,6 +21132,7 @@ exportObj.basicCardData = ->
 
         {
             name: "Raymus Antilles"
+            pointsxwa: 8
             xwsaddon: "epicsl-rebelalliance"
             unique: true
             id: 678
@@ -21836,7 +21479,7 @@ exportObj.basicCardData = ->
             skill: 7
             engagement: 1
             points: 8
-            pointsxwa: 8
+            pointsxwa: 1
             loadoutxwa: 0
             ship_override:
                 actions: [
@@ -22806,6 +22449,7 @@ exportObj.basicCardData = ->
         {
             name: "R2 Astromech"
             id: 2
+            xws_name: "r2astromech"
             slot: "Astromech"
             points: 6
             charge: 2
@@ -22825,6 +22469,7 @@ exportObj.basicCardData = ->
             name: "R3 Astromech"
             pointsxwa: 3
             id: 4
+            xws_name: "r3astromech"
             slot: "Astromech"
             points: 3
         }
@@ -22832,6 +22477,7 @@ exportObj.basicCardData = ->
             name: "R4 Astromech"
             pointsxwa: 2
             id: 5
+            xws_name: "r4astromech"
             slot: "Astromech"
             points: 2
             restrictions: [
@@ -22850,6 +22496,7 @@ exportObj.basicCardData = ->
         {
             name: "R5 Astromech"
             id: 6
+            xws_name: "r5astromech"
             slot: "Astromech"
             points: 4
             pointsxwa: 6
@@ -22858,6 +22505,7 @@ exportObj.basicCardData = ->
         {
             name: "R5-D8"
             id: 7
+            xws_name: "r5d8"
             unique: true
             slot: "Astromech"
             points: 6
@@ -22869,6 +22517,7 @@ exportObj.basicCardData = ->
             name: "R5-P8"
             pointsxwa: 4
             id: 8
+            xws_name: "r5p8"
             slot: "Astromech"
             points: 4
             unique: true
@@ -22879,6 +22528,7 @@ exportObj.basicCardData = ->
             name: "R5-TK"
             pointsxwa: 0
             id: 9
+            xws_name: "r5tk"
             slot: "Astromech"
             points: 0
             unique: true
@@ -22888,6 +22538,7 @@ exportObj.basicCardData = ->
             name: "Heavy Laser Cannon"
             pointsxwa: 5
             id: 10
+            xws_name: "heavylasercannon"
             slot: "Cannon"
             points: 5
             attackbull: 4
@@ -22897,6 +22548,7 @@ exportObj.basicCardData = ->
             name: "Ion Cannon"
             pointsxwa: 6
             id: 11
+            xws_name: "ioncannon"
             slot: "Cannon"
             points: 6
             attack: 3
@@ -22906,6 +22558,7 @@ exportObj.basicCardData = ->
             name: "Jamming Beam"
             pointsxwa: 1
             id: 12
+            xws_name: "jammingbeam"
             slot: "Cannon"
             points: 1
             attack: 3
@@ -22915,6 +22568,7 @@ exportObj.basicCardData = ->
             name: "Tractor Beam"
             pointsxwa: 4
             id: 13
+            xws_name: "tractorbeam"
             slot: "Cannon"
             points: 6
             attack: 3
@@ -22923,6 +22577,7 @@ exportObj.basicCardData = ->
         {
             name: "Admiral Sloane"
             id: 14
+            xws_name: "admiralsloane"
             slot: "Crew"
             points: 16
             pointsxwa: 50
@@ -22933,6 +22588,7 @@ exportObj.basicCardData = ->
             name: "Agent Kallus"
             pointsxwa: 5
             id: 15
+            xws_name: "agentkallus"
             slot: "Crew"
             points: 5
             unique: true
@@ -22951,6 +22607,7 @@ exportObj.basicCardData = ->
         {
             name: "Baze Malbus"
             id: 17
+            xws_name: "bazemalbus"
             slot: "Crew"
             points: 5
             pointsxwa: 7
@@ -22971,6 +22628,11 @@ exportObj.basicCardData = ->
         {
             name: "Cassian Andor"
             id: 19
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 12
+            xws_name: "cassianandor"
             slot: "Crew"
             points: 5
             pointsxwa: 7
@@ -22980,7 +22642,12 @@ exportObj.basicCardData = ->
         {
             name: "Cad Bane"
             pointsxwa: 3
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 20
             id: 20
+            xws_name: "cadbane"
             slot: "Crew"
             points: 3
             unique: true
@@ -23016,7 +22683,12 @@ exportObj.basicCardData = ->
         {
             name: "Ciena Ree"
             pointsxwa: 2
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 9
             id: 24
+            xws_name: "cienaree"
             slot: "Crew"
             points: 4
             unique: true
@@ -23029,6 +22701,7 @@ exportObj.basicCardData = ->
             name: "Cikatro Vizago"
             pointsxwa: 1
             id: 25
+            xws_name: "cikatrovizago"
             slot: "Crew"
             points: 1
             unique: true
@@ -23037,6 +22710,11 @@ exportObj.basicCardData = ->
         {
             name: "Darth Vader"
             id: 26
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 7
+            xws_name: "darthvader"
             slot: "Crew"
             points: 12
             pointsxwa: 15
@@ -23049,6 +22727,7 @@ exportObj.basicCardData = ->
         {
             name: "Death Troopers"
             id: 27
+            xws_name: "deathtroopers"
             slot: "Crew"
             points: 8
             pointsxwa: 10
@@ -23063,6 +22742,7 @@ exportObj.basicCardData = ->
             name: "Director Krennic"
             pointsxwa: 3
             id: 28
+            xws_name: "directorkrennic"
             slot: "Crew"
             points: 4
             unique: true
@@ -23075,6 +22755,7 @@ exportObj.basicCardData = ->
             name: "Emperor Palpatine"
             pointsxwa: 12
             id: 29
+            xws_name: "emperorpalpatine"
             slot: "Crew"
             points: 12
             force: 1
@@ -23091,12 +22772,18 @@ exportObj.basicCardData = ->
             name: "Freelance Slicer"
             pointsxwa: 3
             id: 30
+            xws_name: "freelanceslicer"
             slot: "Crew"
             points: 3
         }
         {
             name: "4-LOM"
             id: 31
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 13
+            xws_name: "4lom"
             slot: "Crew"
             points: 8
             pointsxwa: 5
@@ -23113,6 +22800,11 @@ exportObj.basicCardData = ->
         {
             name: "Grand Inquisitor"
             id: 33
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 15
+            xws_name: "grandinquisitor"
             slot: "Crew"
             points: 15
             pointsxwa: 10
@@ -23126,6 +22818,7 @@ exportObj.basicCardData = ->
             name: "Grand Moff Tarkin"
             pointsxwa: 3
             id: 34
+            xws_name: "grandmofftarkin"
             slot: "Crew"
             points: 4
             unique: true
@@ -23139,7 +22832,12 @@ exportObj.basicCardData = ->
         {
             name: "Hera Syndulla"
             pointsxwa: 3
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 12
             id: 35
+            xws_name: "herasyndulla"
             slot: "Crew"
             points: 4
             unique: true
@@ -23148,7 +22846,12 @@ exportObj.basicCardData = ->
         {
             name: "IG-88D"
             pointsxwa: 3
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 14
             id: 36
+            xws_name: "ig88d"
             slot: "Crew"
             points: 3
             unique: true
@@ -23160,6 +22863,7 @@ exportObj.basicCardData = ->
         {
             name: "Informant"
             id: 37
+            xws_name: "informant"
             slot: "Crew"
             points: 4
             pointsxwa: 6
@@ -23170,6 +22874,7 @@ exportObj.basicCardData = ->
             name: "ISB Slicer"
             pointsxwa: 1
             id: 38
+            xws_name: "isbslicer"
             slot: "Crew"
             points: 1
             faction: "Galactic Empire"
@@ -23178,6 +22883,7 @@ exportObj.basicCardData = ->
             name: "Jabba the Hutt"
             pointsxwa: 10
             id: 39
+            xws_name: "jabbathehutt"
             slot: "Crew"
             points: 11
             unique: true
@@ -23192,6 +22898,7 @@ exportObj.basicCardData = ->
             name: "Jyn Erso"
             pointsxwa: 6
             id: 40
+            xws_name: "jynerso"
             slot: "Crew"
             points: 7
             unique: true
@@ -23200,7 +22907,12 @@ exportObj.basicCardData = ->
         {
             name: "Kanan Jarrus"
             pointsxwa: 10
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 20
             id: 41
+            xws_name: "kananjarrus"
             slot: "Crew"
             points: 12
             force: 1
@@ -23212,7 +22924,12 @@ exportObj.basicCardData = ->
         {
             name: "Ketsu Onyo"
             pointsxwa: 3
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 15
             id: 42
+            xws_name: "ketsuonyo"
             slot: "Crew"
             points: 4
             unique: true
@@ -23257,7 +22974,12 @@ exportObj.basicCardData = ->
         {
             name: "Latts Razzi"
             pointsxwa: 4
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 15
             id: 47
+            xws_name: "lattsrazzi"
             slot: "Crew"
             points: 5
             unique: true
@@ -23284,6 +23006,7 @@ exportObj.basicCardData = ->
             name: "Minister Tua"
             pointsxwa: 4
             id: 49
+            xws_name: "ministertua"
             slot: "Crew"
             points: 4
             unique: true
@@ -23293,6 +23016,7 @@ exportObj.basicCardData = ->
             name: "Moff Jerjerrod"
             pointsxwa: 5
             id: 50
+            xws_name: "moffjerjerrod"
             slot: "Crew"
             points: 7
             unique: true
@@ -23306,7 +23030,12 @@ exportObj.basicCardData = ->
         {
             name: "Magva Yarro"
             pointsxwa: 5
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 17
             id: 51
+            xws_name: "magvayarro"
             slot: "Crew"
             points: 5
             unique: true
@@ -23315,7 +23044,12 @@ exportObj.basicCardData = ->
         {
             name: "Nien Nunb"
             pointsxwa: 4
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 16
             id: 52
+            xws_name: "niennunb"
             slot: "Crew"
             points: 5
             unique: true
@@ -23332,6 +23066,7 @@ exportObj.basicCardData = ->
             name: "Novice Technician"
             pointsxwa: 2
             id: 53
+            xws_name: "novicetechnician"
             slot: "Crew"
             points: 2
         }
@@ -23339,6 +23074,7 @@ exportObj.basicCardData = ->
             name: "Perceptive Copilot"
             pointsxwa: 8
             id: 54
+            xws_name: "perceptivecopilot"
             slot: "Crew"
             points: 8
         }
@@ -23370,7 +23106,12 @@ exportObj.basicCardData = ->
         {
             name: "Saw Gerrera"
             pointsxwa: 9
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 16
             id: 58
+            xws_name: "sawgerrera"
             slot: "Crew"
             points: 9
             unique: true
@@ -23380,13 +23121,19 @@ exportObj.basicCardData = ->
             name: "Seasoned Navigator"
             pointsxwa: 7
             id: 59
+            xws_name: "seasonednavigator"
             slot: "Crew"
             points: 7
         }
         {
             name: "Seventh Sister"
             pointsxwa: 9
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 13
             id: 60
+            xws_name: "seventhsister"
             slot: "Crew"
             points: 9
             force: 1
@@ -23399,6 +23146,7 @@ exportObj.basicCardData = ->
             name: "Tactical Officer"
             pointsxwa: 3
             id: 61
+            xws_name: "tacticalofficer"
             slot: "Crew"
             points: 3
             restrictions: [
@@ -23410,6 +23158,7 @@ exportObj.basicCardData = ->
         {
             name: "Tobias Beckett"
             id: 62
+            xws_name: "tobiasbeckett"
             slot: "Crew"
             points: 2
             pointsxwa: 8
@@ -23420,6 +23169,7 @@ exportObj.basicCardData = ->
             name: "0-0-0"
             pointsxwa: 4
             id: 63
+            xws_name: "000"
             slot: "Crew"
             points: 5
             unique: true
@@ -23431,7 +23181,12 @@ exportObj.basicCardData = ->
         {
             name: "Unkar Plutt"
             pointsxwa: 1
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 13
             id: 64
+            xws_name: "unkarplutt"
             slot: "Crew"
             points: 2
             unique: true
@@ -23448,7 +23203,12 @@ exportObj.basicCardData = ->
         {
             name: "Zuckuss"
             pointsxwa: 5
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 11
             id: 66
+            xws_name: "zuckuss"
             slot: "Crew"
             points: 6
             unique: true
@@ -23457,6 +23217,7 @@ exportObj.basicCardData = ->
         {
             name: "Bomblet Generator"
             id: 67
+            xws_name: "bombletgenerator"
             slot: "Device"
             points: 2
             pointsxwa: 3
@@ -23471,6 +23232,7 @@ exportObj.basicCardData = ->
             name: "Conner Nets"
             pointsxwa: 5
             id: 68
+            xws_name: "connernets"
             slot: "Device"
             points: 5
             charge: 1
@@ -23480,6 +23242,7 @@ exportObj.basicCardData = ->
             name: "Proton Bombs"
             pointsxwa: 5
             id: 69
+            xws_name: "protonbombs"
             slot: "Device"
             points: 5
             charge: 2
@@ -23488,6 +23251,7 @@ exportObj.basicCardData = ->
         {
             name: "Proximity Mines"
             id: 70
+            xws_name: "proximitymines"
             slot: "Device"
             max_per_squad: 3
             points: 10
@@ -23499,6 +23263,7 @@ exportObj.basicCardData = ->
             name: "Seismic Charges"
             pointsxwa: 3
             id: 71
+            xws_name: "seismiccharges"
             slot: "Device"
             points: 3
             charge: 2
@@ -23507,6 +23272,7 @@ exportObj.basicCardData = ->
         {
             name: "Heightened Perception"
             id: 72
+            xws_name: "heightenedperception"
             slot: "Force"
             points: 3
             pointsxwa: 5
@@ -23515,6 +23281,7 @@ exportObj.basicCardData = ->
             name: "Instinctive Aim"
             pointsxwa: 2
             id: 73
+            xws_name: "instinctiveaim"
             slot: "Force"
             points: 2
         }
@@ -23522,6 +23289,7 @@ exportObj.basicCardData = ->
             name: "Supernatural Reflexes"
             pointsxwa: 50
             id: 74
+            xws_name: "supernaturalreflexes"
             slot: "Force"
             points: 24
             restrictions: [
@@ -23531,6 +23299,7 @@ exportObj.basicCardData = ->
         {
             name: "Sense"
             id: 75
+            xws_name: "sense"
             slot: "Force"
             isUnique: true
             points: 6
@@ -23539,6 +23308,7 @@ exportObj.basicCardData = ->
         {
             name: "Agile Gunner"
             id: 76
+            xws_name: "agilegunner"
             slot: "Gunner"
             points: 1
             pointsxwa: 4
@@ -23546,6 +23316,7 @@ exportObj.basicCardData = ->
         {
             name: "Bistan"
             id: 77
+            xws_name: "bistan"
             slot: "Gunner"
             points: 8
             pointsxwa: 15
@@ -23555,6 +23326,11 @@ exportObj.basicCardData = ->
         {
             name: "Bossk"
             id: 78
+            slotsxwa: [
+                "Gunner"
+            ]
+            loadoutxwa: 18
+            xws_name: "bossk"
             slot: "Gunner"
             points: 6
             pointsxwa: 4
@@ -23565,6 +23341,7 @@ exportObj.basicCardData = ->
             name: "BT-1"
             pointsxwa: 1
             id: 79
+            xws_name: "bt1"
             slot: "Gunner"
             points: 2
             unique: true
@@ -23576,7 +23353,12 @@ exportObj.basicCardData = ->
         {
             name: "Dengar"
             pointsxwa: 6
+            slotsxwa: [
+                "Gunner"
+            ]
+            loadoutxwa: 18
             id: 80
+            xws_name: "dengar"
             slot: "Gunner"
             points: 6
             unique: true
@@ -23588,7 +23370,12 @@ exportObj.basicCardData = ->
         {
             name: "Ezra Bridger"
             pointsxwa: 9
+            slotsxwa: [
+                "Gunner"
+            ]
+            loadoutxwa: 6
             id: 81
+            xws_name: "ezrabridger"
             slot: "Gunner"
             points: 9
             force: 1
@@ -23600,7 +23387,12 @@ exportObj.basicCardData = ->
         {
             name: "Fifth Brother"
             pointsxwa: 12
+            slotsxwa: [
+                "Gunner"
+            ]
+            loadoutxwa: 12
             id: 82
+            xws_name: "fifthbrother"
             slot: "Gunner"
             points: 12
             force: 1
@@ -23613,6 +23405,7 @@ exportObj.basicCardData = ->
             name: "Greedo"
             pointsxwa: 2
             id: 83
+            xws_name: "greedo"
             slot: "Gunner"
             points: 1
             unique: true
@@ -23641,6 +23434,7 @@ exportObj.basicCardData = ->
         {
             name: "Hotshot Gunner"
             id: 86
+            xws_name: "hotshotgunner"
             slot: "Gunner"
             max_per_squad: 2
             points: 6
@@ -23649,7 +23443,12 @@ exportObj.basicCardData = ->
         {
             name: "Luke Skywalker"
             pointsxwa: 12
+            slotsxwa: [
+                "Gunner"
+            ]
+            loadoutxwa: 10
             id: 87
+            xws_name: "lukeskywalker"
             slot: "Gunner"
             points: 12
             force: 1
@@ -23662,12 +23461,14 @@ exportObj.basicCardData = ->
             name: "Skilled Bombardier"
             pointsxwa: 2
             id: 88
+            xws_name: "skilledbombardier"
             slot: "Gunner"
             points: 2
         }
         {
             name: "Veteran Tail Gunner"
             id: 89
+            xws_name: "veterantailgunner"
             slot: "Gunner"
             points: 5
             pointsxwa: 5
@@ -23678,6 +23479,7 @@ exportObj.basicCardData = ->
         {
             name: "Veteran Turret Gunner"
             id: 90
+            xws_name: "veteranturretgunner"
             slot: "Gunner"
             max_per_squad: 3
             points: 3
@@ -23690,6 +23492,7 @@ exportObj.basicCardData = ->
             name: "Cloaking Device"
             pointsxwa: 8
             id: 91
+            xws_name: "cloakingdevice"
             slot: "Illicit"
             points: 8
             unique: true
@@ -23702,6 +23505,7 @@ exportObj.basicCardData = ->
             name: "Contraband Cybernetics"
             pointsxwa: 4
             id: 92
+            xws_name: "contrabandcybernetics"
             slot: "Illicit"
             points: 3
             charge: 1
@@ -23716,6 +23520,7 @@ exportObj.basicCardData = ->
             name: "Feedback Array"
             pointsxwa: 4
             id: 94
+            xws_name: "feedbackarray"
             slot: "Illicit"
             points: 4
         }
@@ -23723,6 +23528,7 @@ exportObj.basicCardData = ->
             name: "Inertial Dampeners"
             pointsxwa: 8
             id: 95
+            xws_name: "inertialdampeners"
             slot: "Illicit"
             points: 8
         }
@@ -23730,6 +23536,7 @@ exportObj.basicCardData = ->
             name: "Rigged Cargo Chute"
             pointsxwa: 2
             id: 96
+            xws_name: "riggedcargochute"
             slot: "Illicit"
             points: 3
             charge: 1
@@ -23741,6 +23548,7 @@ exportObj.basicCardData = ->
         {
             name: "Barrage Rockets"
             id: 97
+            xws_name: "barragerockets"
             slot: "Missile"
             max_per_squad: 2
             points: 6
@@ -23757,6 +23565,7 @@ exportObj.basicCardData = ->
         {
             name: "Cluster Missiles"
             id: 98
+            xws_name: "clustermissiles"
             slot: "Missile"
             points: 4
             attack: 3
@@ -23768,6 +23577,7 @@ exportObj.basicCardData = ->
         {
             name: "Concussion Missiles"
             id: 99
+            xws_name: "concussionmissiles"
             slot: "Missile"
             points: 5
             pointsxwa: 6
@@ -23780,6 +23590,7 @@ exportObj.basicCardData = ->
             name: "Homing Missiles"
             pointsxwa: 4
             id: 100
+            xws_name: "homingmissiles"
             slot: "Missile"
             max_per_squad: 2
             points: 5
@@ -23791,6 +23602,7 @@ exportObj.basicCardData = ->
         {
             name: "Ion Missiles"
             id: 101
+            xws_name: "ionmissiles"
             slot: "Missile"
             points: 4
             pointsxwa: 3
@@ -23802,6 +23614,7 @@ exportObj.basicCardData = ->
         {
             name: "Proton Rockets"
             id: 102
+            xws_name: "protonrockets"
             slot: "Missile"
             max_per_squad: 3
             points: 8
@@ -23814,6 +23627,7 @@ exportObj.basicCardData = ->
         {
             name: "Ablative Plating"
             id: 103
+            xws_name: "ablativeplating"
             slot: "Modification"
             points: 4
             pointsxwa: 2
@@ -23826,6 +23640,7 @@ exportObj.basicCardData = ->
             name: "Advanced SLAM"
             pointsxwa: 3
             id: 104
+            xws_name: "advancedslam"
             slot: "Modification"
             points: 3
             restrictions: [
@@ -23836,6 +23651,7 @@ exportObj.basicCardData = ->
             name: "Afterburners"
             pointsxwa: 8
             id: 105
+            xws_name: "afterburners"
             slot: "Modification"
             points: 8
             charge: 2
@@ -23847,6 +23663,7 @@ exportObj.basicCardData = ->
             name: "Electronic Baffle"
             pointsxwa: 2
             id: 106
+            xws_name: "electronicbaffle"
             slot: "Modification"
             points: 2
         }
@@ -23854,6 +23671,7 @@ exportObj.basicCardData = ->
             name: "Engine Upgrade"
             pointsxwa: 3
             id: 107
+            xws_name: "engineupgrade"
             slot: "Modification"
             points: 3
             restrictions: [
@@ -23866,6 +23684,7 @@ exportObj.basicCardData = ->
             name: "Munitions Failsafe"
             pointsxwa: 1
             id: 108
+            xws_name: "munitionsfailsafe"
             slot: "Modification"
             points: 1
         }
@@ -23873,6 +23692,7 @@ exportObj.basicCardData = ->
             name: "Static Discharge Vanes"
             pointsxwa: 12
             id: 109
+            xws_name: "staticdischargevanes"
             slot: "Modification"
             points: 12
         }
@@ -23880,6 +23700,7 @@ exportObj.basicCardData = ->
             name: "Tactical Scrambler"
             pointsxwa: 2
             id: 110
+            xws_name: "tacticalscrambler"
             slot: "Modification"
             points: 2
             restrictions: [
@@ -23889,6 +23710,7 @@ exportObj.basicCardData = ->
         {
             name: "Advanced Sensors"
             id: 111
+            xws_name: "advancedsensors"
             slot: "Sensor"
             points: 12
             pointsxwa: 8
@@ -23897,6 +23719,7 @@ exportObj.basicCardData = ->
             name: "Collision Detector"
             pointsxwa: 7
             id: 112
+            xws_name: "collisiondetector"
             slot: "Sensor"
             points: 7
             charge: 2
@@ -23905,12 +23728,14 @@ exportObj.basicCardData = ->
             name: "Fire-Control System"
             pointsxwa: 2
             id: 113
+            xws_name: "firecontrolsystem"
             slot: "Sensor"
             points: 2
         }
         {
             name: "Trajectory Simulator"
             id: 114
+            xws_name: "trajectorysimulator"
             max_per_squad: 2
             slot: "Sensor"
             points: 8
@@ -23920,6 +23745,7 @@ exportObj.basicCardData = ->
             name: "Composure"
             pointsxwa: 1
             id: 115
+            xws_name: "composure"
             slot: "Talent"
             points: 1
             restrictions: [
@@ -23929,6 +23755,7 @@ exportObj.basicCardData = ->
         {
             name: "Crack Shot"
             id: 116
+            xws_name: "crackshot"
             slot: "Talent"
             points: 4
             pointsxwa: 5
@@ -23937,6 +23764,7 @@ exportObj.basicCardData = ->
         {
             name: "Daredevil"
             id: 117
+            xws_name: "daredevil"
             slot: "Talent"
             points: 5
             pointsxwa: 4
@@ -23948,6 +23776,7 @@ exportObj.basicCardData = ->
         {
             name: "Debris Gambit"
             id: 118
+            xws_name: "debrisgambit"
             slot: "Talent"
             points: 4
             pointsxwa: 3
@@ -23961,6 +23790,7 @@ exportObj.basicCardData = ->
             name: "Elusive"
             pointsxwa: 4
             id: 119
+            xws_name: "elusive"
             slot: "Talent"
             points: 4
             charge: 1
@@ -23972,6 +23802,7 @@ exportObj.basicCardData = ->
             name: "Expert Handling"
             pointsxwa: 2
             id: 120
+            xws_name: "experthandling"
             slot: "Talent"
             points: 2
             restrictions: [
@@ -23984,6 +23815,7 @@ exportObj.basicCardData = ->
             name: "Fearless"
             pointsxwa: 3
             id: 121
+            xws_name: "fearless"
             slot: "Talent"
             points: 3
             faction: "Scum and Villainy"
@@ -23991,6 +23823,7 @@ exportObj.basicCardData = ->
         {
             name: "Intimidation"
             id: 122
+            xws_name: "intimidation"
             slot: "Talent"
             points: 3
             pointsxwa: 7
@@ -24004,6 +23837,7 @@ exportObj.basicCardData = ->
             name: "Juke"
             pointsxwa: 7
             id: 123
+            xws_name: "juke"
             slot: "Talent"
             max_per_squad: 2
             points: 7
@@ -24015,6 +23849,7 @@ exportObj.basicCardData = ->
             name: "Lone Wolf"
             pointsxwa: 3
             id: 124
+            xws_name: "lonewolf"
             slot: "Talent"
             points: 3
             unique: true
@@ -24024,6 +23859,7 @@ exportObj.basicCardData = ->
         {
             name: "Marksmanship"
             id: 125
+            xws_name: "marksmanship"
             slot: "Talent"
             points: 1
             pointsxwa: 2
@@ -24031,6 +23867,7 @@ exportObj.basicCardData = ->
         {
             name: "Outmaneuver"
             id: 126
+            xws_name: "outmaneuver"
             slot: "Talent"
             points: 12
             pointsxwa: 9
@@ -24039,6 +23876,7 @@ exportObj.basicCardData = ->
             name: "Predator"
             pointsxwa: 3
             id: 127
+            xws_name: "predator"
             slot: "Talent"
             points: 3
         }
@@ -24046,6 +23884,7 @@ exportObj.basicCardData = ->
             name: "Ruthless"
             pointsxwa: 2
             id: 128
+            xws_name: "ruthless"
             slot: "Talent"
             points: 1
             faction: "Galactic Empire"
@@ -24053,6 +23892,7 @@ exportObj.basicCardData = ->
         {
             name: "Saturation Salvo"
             id: 129
+            xws_name: "saturationsalvo"
             slot: "Talent"
             points: 2
             pointsxwa: 6
@@ -24064,6 +23904,7 @@ exportObj.basicCardData = ->
             name: "Selfless"
             pointsxwa: 3
             id: 130
+            xws_name: "selfless"
             slot: "Talent"
             points: 4
             faction: "Rebel Alliance"
@@ -24071,6 +23912,7 @@ exportObj.basicCardData = ->
         {
             name: "Squad Leader"
             id: 131
+            xws_name: "squadleader"
             slot: "Talent"
             points: 6
             pointsxwa: 5
@@ -24081,6 +23923,7 @@ exportObj.basicCardData = ->
         {
             name: "Swarm Tactics"
             id: 132
+            xws_name: "swarmtactics"
             slot: "Talent"
             max_per_squad: 3
             points: 5
@@ -24090,6 +23933,7 @@ exportObj.basicCardData = ->
             name: "Trick Shot"
             pointsxwa: 5
             id: 133
+            xws_name: "trickshot"
             slot: "Talent"
             points: 4
         }
@@ -24097,6 +23941,7 @@ exportObj.basicCardData = ->
             name: "Adv. Proton Torpedoes"
             pointsxwa: 7
             id: 134
+            xws_name: "advprotontorpedoes"
             slot: "Torpedo"
             points: 9
             attack: 5
@@ -24107,6 +23952,7 @@ exportObj.basicCardData = ->
         {
             name: "Ion Torpedoes"
             id: 135
+            xws_name: "iontorpedoes"
             slot: "Torpedo"
             points: 4
             pointsxwa: 5
@@ -24118,6 +23964,7 @@ exportObj.basicCardData = ->
         {
             name: "Proton Torpedoes"
             id: 136
+            xws_name: "protontorpedoes"
             slot: "Torpedo"
             max_per_squad: 3
             points: 12
@@ -24130,6 +23977,7 @@ exportObj.basicCardData = ->
         {
             name: "Dorsal Turret"
             id: 137
+            xws_name: "dorsalturret"
             slot: "Turret"
             points: 2
             pointsxwa: 3
@@ -24141,6 +23989,7 @@ exportObj.basicCardData = ->
         {
             name: "Ion Cannon Turret"
             id: 138
+            xws_name: "ioncannonturret"
             slot: "Turret"
             points: 5
             pointsxwa: 6
@@ -24153,6 +24002,7 @@ exportObj.basicCardData = ->
             name: "Os-1 Arsenal Loadout"
             pointsxwa: 0
             id: 139
+            xws_name: "os1arsenalloadout"
             points: 0
             slot: "Configuration"
             ship: "Alpha-Class Star Wing"
@@ -24200,6 +24050,7 @@ exportObj.basicCardData = ->
             name: "Xg-1 Assault Configuration"
             pointsxwa: 0
             id: 144
+            xws_name: "xg1assaultconfiguration"
             points: 0
             slot: "Configuration"
             ship: "Alpha-Class Star Wing"
@@ -24221,6 +24072,7 @@ exportObj.basicCardData = ->
             name: "Andrasta"
             pointsxwa: 0
             id: 146
+            xws_name: "andrasta"
             slot: "Title"
             points: 0
             unique: true
@@ -24238,6 +24090,7 @@ exportObj.basicCardData = ->
         {
             name: "Dauntless"
             id: 147
+            xws_name: "dauntless"
             slot: "Title"
             points: 0
             pointsxwa: 4
@@ -24249,6 +24102,7 @@ exportObj.basicCardData = ->
             name: "Ghost"
             pointsxwa: 0
             id: 148
+            xws_name: "ghost"
             slot: "Title"
             unique: true
             points: 0
@@ -24259,6 +24113,7 @@ exportObj.basicCardData = ->
             name: "Havoc"
             pointsxwa: 0
             id: 149
+            xws_name: "havoc"
             slot: "Title"
             points: 0
             unique: true
@@ -24293,6 +24148,7 @@ exportObj.basicCardData = ->
             name: "IG-2000"
             pointsxwa: 0
             id: 151
+            xws_name: "ig2000"
             slot: "Title"
             points: 0
             faction: "Scum and Villainy"
@@ -24311,6 +24167,7 @@ exportObj.basicCardData = ->
             name: "Marauder"
             pointsxwa: 0
             id: 153
+            xws_name: "marauder"
             slot: "Title"
             points: 0
             unique: true
@@ -24327,6 +24184,7 @@ exportObj.basicCardData = ->
             name: "Millennium Falcon"
             pointsxwa: 0
             id: 154
+            xws_name: "millenniumfalcon"
             slot: "Title"
             points: 0
             unique: true
@@ -24339,6 +24197,7 @@ exportObj.basicCardData = ->
             name: "Mist Hunter"
             pointsxwa: 0
             id: 155
+            xws_name: "misthunter"
             slot: "Title"
             points: 0
             unique: true
@@ -24357,6 +24216,7 @@ exportObj.basicCardData = ->
             name: "Moldy Crow"
             pointsxwa: 0
             id: 156
+            xws_name: "moldycrow"
             slot: "Title"
             points: 0
             unique: true
@@ -24369,6 +24229,7 @@ exportObj.basicCardData = ->
             name: "Outrider"
             pointsxwa: 0
             id: 157
+            xws_name: "outrider"
             slot: "Title"
             points: 0
             unique: true
@@ -24383,6 +24244,7 @@ exportObj.basicCardData = ->
             name: "Punishing One"
             pointsxwa: 0
             id: 159
+            xws_name: "punishingone"
             slot: "Title"
             points: 0
             unique: true
@@ -24405,6 +24267,7 @@ exportObj.basicCardData = ->
             name: "Shadow Caster"
             pointsxwa: 0
             id: 160
+            xws_name: "shadowcaster"
             slot: "Title"
             points: 0
             unique: true
@@ -24430,6 +24293,7 @@ exportObj.basicCardData = ->
         {
             name: "ST-321"
             id: 162
+            xws_name: "st321"
             slot: "Title"
             points: 0
             pointsxwa: 3
@@ -24440,6 +24304,7 @@ exportObj.basicCardData = ->
         {
             name: "Virago"
             id: 163
+            xws_name: "virago"
             slot: "Title"
             points: 0
             pointsxwa: 8
@@ -24458,6 +24323,7 @@ exportObj.basicCardData = ->
         {
             name: "Hull Upgrade"
             id: 164
+            xws_name: "hullupgrade"
             slot: "Modification"
             points: 6
             pointsxwa: 9
@@ -24467,6 +24333,7 @@ exportObj.basicCardData = ->
         {
             name: "Shield Upgrade"
             id: 165
+            xws_name: "shieldupgrade"
             slot: "Modification"
             points: 8
             pointsxwa: 10
@@ -24477,6 +24344,7 @@ exportObj.basicCardData = ->
             name: "Stealth Device"
             pointsxwa: 8
             id: 166
+            xws_name: "stealthdevice"
             slot: "Modification"
             points: 8
             charge: 1
@@ -24488,6 +24356,7 @@ exportObj.basicCardData = ->
             name: "Phantom"
             pointsxwa: 0
             id: 167
+            xws_name: "phantom"
             slot: "Title"
             points: 0
             unique: true
@@ -24510,6 +24379,7 @@ exportObj.basicCardData = ->
             name: "Black One"
             pointsxwa: 0
             id: 171
+            xws_name: "blackone"
             slot: "Title"
             unique: true
             charge: 1
@@ -24523,6 +24393,7 @@ exportObj.basicCardData = ->
             name: "Heroic"
             pointsxwa: 2
             id: 172
+            xws_name: "heroic"
             slot: "Talent"
             points: 2
             faction: "Resistance"
@@ -24530,7 +24401,12 @@ exportObj.basicCardData = ->
         {
             name: "Rose Tico"
             pointsxwa: 9
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 14
             id: 173
+            xws_name: "rosetico"
             slot: "Crew"
             points: 9
             unique: true
@@ -24539,7 +24415,12 @@ exportObj.basicCardData = ->
         {
             name: "Finn"
             pointsxwa: 9
+            slotsxwa: [
+                "Gunner"
+            ]
+            loadoutxwa: 16
             id: 174
+            xws_name: "finn"
             slot: "Gunner"
             points: 9
             unique: true
@@ -24565,6 +24446,7 @@ exportObj.basicCardData = ->
             name: "Targeting Synchronizer"
             pointsxwa: 3
             id: 177
+            xws_name: "targetingsynchronizer"
             slot: "Tech"
             points: 3
             restrictions: [
@@ -24575,6 +24457,7 @@ exportObj.basicCardData = ->
             name: "Primed Thrusters"
             pointsxwa: 5
             id: 178
+            xws_name: "primedthrusters"
             slot: "Tech"
             points: 6
             restrictions: [
@@ -24584,7 +24467,12 @@ exportObj.basicCardData = ->
         {
             name: "Kylo Ren"
             pointsxwa: 7
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 10
             id: 179
+            xws_name: "kyloren"
             slot: "Crew"
             points: 9
             force: 1
@@ -24597,6 +24485,7 @@ exportObj.basicCardData = ->
         {
             name: "General Hux"
             id: 180
+            xws_name: "generalhux"
             slot: "Crew"
             points: 3
             pointsxwa: 6
@@ -24610,6 +24499,7 @@ exportObj.basicCardData = ->
             name: "Fanatical"
             pointsxwa: 2
             id: 181
+            xws_name: "fanatical"
             slot: "Talent"
             points: 2
             faction: "First Order"
@@ -24618,6 +24508,7 @@ exportObj.basicCardData = ->
             name: "Special Forces Gunner"
             pointsxwa: 9
             id: 182
+            xws_name: "specialforcesgunner"
             slot: "Gunner"
             points: 9
             faction: "First Order"
@@ -24626,7 +24517,12 @@ exportObj.basicCardData = ->
         {
             name: "Captain Phasma"
             pointsxwa: 5
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 15
             id: 183
+            xws_name: "captainphasma"
             slot: "Crew"
             unique: true
             points: 5
@@ -24635,6 +24531,7 @@ exportObj.basicCardData = ->
         {
             name: "Supreme Leader Snoke"
             id: 184
+            xws_name: "supremeleadersnoke"
             slot: "Crew"
             unique: true
             points: 10
@@ -24651,6 +24548,7 @@ exportObj.basicCardData = ->
         {
             name: "Hyperspace Tracking Data"
             id: 185
+            xws_name: "hyperspacetrackingdata"
             slot: "Tech"
             faction: "First Order"
             points: 2
@@ -24663,12 +24561,14 @@ exportObj.basicCardData = ->
             name: "Advanced Optics"
             pointsxwa: 5
             id: 186
+            xws_name: "advancedoptics"
             slot: "Tech"
             points: 5
         }
         {
             name: "Rey"
             id: 187
+            xws_name: "rey-gunner"
             slot: "Gunner"
             xwsaddon: "gunner"
             points: 10
@@ -24692,7 +24592,12 @@ exportObj.basicCardData = ->
         {
             name: "Paige Tico"
             pointsxwa: 6
+            slotsxwa: [
+                "Gunner"
+            ]
+            loadoutxwa: 21
             id: 189
+            xws_name: "paigetico"
             slot: "Gunner"
             points: 6
             unique: true
@@ -24702,6 +24607,7 @@ exportObj.basicCardData = ->
             name: "R2-HA"
             pointsxwa: 2
             id: 190
+            xws_name: "r2ha"
             slot: "Astromech"
             points: 3
             unique: true
@@ -24740,6 +24646,11 @@ exportObj.basicCardData = ->
         {
             name: "Petty Officer Thanisson"
             id: 194
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 15
+            xws_name: "pettyofficerthanisson"
             slot: "Crew"
             points: 3
             pointsxwa: 4
@@ -24749,6 +24660,11 @@ exportObj.basicCardData = ->
         {
             name: "BB-8"
             id: 195
+            slotsxwa: [
+                "Astromech"
+            ]
+            loadoutxwa: 9
+            xws_name: "bb8"
             slot: "Astromech"
             points: 4
             pointsxwa: 5
@@ -24760,6 +24676,7 @@ exportObj.basicCardData = ->
             name: "BB Astromech"
             pointsxwa: 3
             id: 196
+            xws_name: "bbastromech"
             slot: "Astromech"
             points: 4
             charge: 2
@@ -24768,6 +24685,7 @@ exportObj.basicCardData = ->
         {
             name: "M9-G8"
             id: 197
+            xws_name: "m9g8"
             slot: "Astromech"
             points: 5
             pointsxwa: 7
@@ -24777,6 +24695,7 @@ exportObj.basicCardData = ->
         {
             name: "Ferrosphere Paint"
             id: 198
+            xws_name: "ferrospherepaint"
             slot: "Tech"
             points: 3
             pointsxwa: 4
@@ -24786,6 +24705,7 @@ exportObj.basicCardData = ->
             name: "Brilliant Evasion"
             pointsxwa: 2
             id: 199
+            xws_name: "brilliantevasion"
             slot: "Force"
             points: 2
         }
@@ -24793,6 +24713,7 @@ exportObj.basicCardData = ->
             name: "Calibrated Laser Targeting"
             pointsxwa: 0
             id: 200
+            xws_name: "calibratedlasertargeting"
             slot: "Configuration"
             ship: "Delta-7 Aethersprite"
             points: 0
@@ -24816,6 +24737,7 @@ exportObj.basicCardData = ->
             name: "Biohexacrypt Codes"
             pointsxwa: 1
             id: 202
+            xws_name: "biohexacryptcodes"
             slot: "Tech"
             points: 1
             faction: "First Order"
@@ -24827,6 +24749,7 @@ exportObj.basicCardData = ->
             name: "Predictive Shot"
             pointsxwa: 1
             id: 203
+            xws_name: "predictiveshot"
             slot: "Force"
             points: 1
         }
@@ -24834,6 +24757,7 @@ exportObj.basicCardData = ->
             name: "Hate"
             pointsxwa: 4
             id: 204
+            xws_name: "hate"
             slot: "Force"
             points: 5
             restrictions: [
@@ -24844,6 +24768,7 @@ exportObj.basicCardData = ->
             name: "R5-X3"
             pointsxwa: 4
             id: 205
+            xws_name: "r5x3"
             unique: true
             slot: "Astromech"
             faction: "Resistance"
@@ -24854,6 +24779,7 @@ exportObj.basicCardData = ->
             name: "Pattern Analyzer"
             pointsxwa: 5
             id: 206
+            xws_name: "patternanalyzer"
             slot: "Tech"
             points: 5
         }
@@ -24861,6 +24787,7 @@ exportObj.basicCardData = ->
             name: "Impervium Plating"
             pointsxwa: 2
             id: 207
+            xws_name: "imperviumplating"
             ship: "Belbullab-22 Starfighter"
             charge: 2
             slot: "Modification"
@@ -24876,6 +24803,7 @@ exportObj.basicCardData = ->
         {
             name: "Energy-Shell Charges"
             id: 209
+            xws_name: "energyshellcharges"
             faction: "Separatist Alliance"
             slot: "Missile"
             attack: 3
@@ -24896,6 +24824,7 @@ exportObj.basicCardData = ->
         {
             name: "Dedicated"
             id: 210
+            xws_name: "dedicated"
             faction: "Galactic Republic"
             slot: "Talent"
             points: 3
@@ -24908,6 +24837,7 @@ exportObj.basicCardData = ->
             name: "Synchronized Console"
             pointsxwa: 2
             id: 211
+            xws_name: "synchronizedconsole"
             faction: "Galactic Republic"
             slot: "Modification"
             points: 2
@@ -24919,6 +24849,7 @@ exportObj.basicCardData = ->
             name: "Battle Meditation"
             pointsxwa: 6
             id: 212
+            xws_name: "battlemeditation"
             faction: "Galactic Republic"
             slot: "Force"
             points: 6
@@ -24928,6 +24859,7 @@ exportObj.basicCardData = ->
         {
             name: "R4-P Astromech"
             id: 213
+            xws_name: "r4pastromech"
             faction: "Galactic Republic"
             slot: "Astromech"
             charge: 2
@@ -24938,6 +24870,7 @@ exportObj.basicCardData = ->
             name: "R4-P17"
             pointsxwa: 4
             id: 214
+            xws_name: "r4p17"
             unique: true
             faction: "Galactic Republic"
             slot: "Astromech"
@@ -24948,6 +24881,7 @@ exportObj.basicCardData = ->
             name: "Spare Parts Canisters"
             pointsxwa: 3
             id: 215
+            xws_name: "sparepartscanisters"
             slot: "Modification"
             charge: 1
             points: 3
@@ -24960,6 +24894,7 @@ exportObj.basicCardData = ->
             name: "Scimitar"
             pointsxwa: 0
             id: 216
+            xws_name: "scimitar"
             unique: true
             ship: "Sith Infiltrator"
             slot: "Title"
@@ -24985,7 +24920,12 @@ exportObj.basicCardData = ->
         {
             name: "Count Dooku"
             pointsxwa: 12
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 10
             id: 218
+            xws_name: "countdooku"
             unique: true
             slot: "Crew"
             force: 1
@@ -25008,6 +24948,7 @@ exportObj.basicCardData = ->
             name: "K2-B4"
             pointsxwa: 4
             id: 220
+            xws_name: "k2b4"
             unique: true
             solitary: true
             slot: "Tactical Relay"
@@ -25018,6 +24959,7 @@ exportObj.basicCardData = ->
             name: "DRK-1 Probe Droids"
             pointsxwa: 2
             id: 221
+            xws_name: "drk1probedroids"
             slot: "Device"
             unique: true
             faction: "Separatist Alliance"
@@ -25028,6 +24970,7 @@ exportObj.basicCardData = ->
         {
             name: "Kraken"
             id: 222
+            xws_name: "kraken"
             unique: true
             slot: "Tactical Relay"
             solitary: true
@@ -25041,6 +24984,7 @@ exportObj.basicCardData = ->
             name: "TV-94"
             pointsxwa: 3
             id: 223
+            xws_name: "tv94"
             unique: true
             solitary: true
             slot: "Tactical Relay"
@@ -25050,6 +24994,7 @@ exportObj.basicCardData = ->
         {
             name: "Discord Missiles"
             id: 224
+            xws_name: "discordmissiles"
             slot: "Missile"
             faction: "Separatist Alliance"
             charge: 1
@@ -25062,6 +25007,7 @@ exportObj.basicCardData = ->
             name: "Clone Commander Cody"
             pointsxwa: 4
             id: 225
+            xws_name: "clonecommandercody"
             unique: true
             slot: "Gunner"
             faction: "Galactic Republic"
@@ -25071,6 +25017,7 @@ exportObj.basicCardData = ->
             name: "R4-P44"
             pointsxwa: 2
             id: 226
+            xws_name: "r4p44"
             unique: true
             faction: "Galactic Republic"
             slot: "Astromech"
@@ -25079,6 +25026,7 @@ exportObj.basicCardData = ->
         {
             name: "Seventh Fleet Gunner"
             id: 227
+            xws_name: "seventhfleetgunner"
             charge: 1
             slot: "Gunner"
             faction: "Galactic Republic"
@@ -25088,6 +25036,7 @@ exportObj.basicCardData = ->
         {
             name: "Treacherous"
             id: 228
+            xws_name: "treacherous"
             charge: 1
             slot: "Talent"
             faction: "Separatist Alliance"
@@ -25097,6 +25046,7 @@ exportObj.basicCardData = ->
         {
             name: "Soulless One"
             id: 229
+            xws_name: "soullessone"
             slot: "Title"
             unique: true
             ship: "Belbullab-22 Starfighter"
@@ -25110,6 +25060,7 @@ exportObj.basicCardData = ->
             name: "GA-97"
             pointsxwa: 5
             id: 230
+            xws_name: "ga97"
             slot: "Crew"
             points: 5
             charge: 5
@@ -25124,6 +25075,7 @@ exportObj.basicCardData = ->
             name: "Kaydel Connix"
             pointsxwa: 8
             id: 231
+            xws_name: "kaydelconnix"
             slot: "Crew"
             points: 8
             faction: "Resistance"
@@ -25133,6 +25085,7 @@ exportObj.basicCardData = ->
             name: "Autoblasters"
             pointsxwa: 7
             id: 232
+            xws_name: "autoblasters"
             max_per_squad: 3
             slot: "Cannon"
             points: 7
@@ -25143,6 +25096,7 @@ exportObj.basicCardData = ->
             name: "R2-C4"
             pointsxwa: 3
             id: 233
+            xws_name: "r2c4"
             unique: true
             slot: "Astromech"
             points: 3
@@ -25151,6 +25105,7 @@ exportObj.basicCardData = ->
         {
             name: "Plasma Torpedoes"
             id: 234
+            xws_name: "plasmatorpedoes"
             slot: "Torpedo"
             points: 5
             pointsxwa: 7
@@ -25163,6 +25118,7 @@ exportObj.basicCardData = ->
             name: "Electro-Proton Bomb"
             pointsxwa: 8
             id: 235
+            xws_name: "electroprotonbomb"
             unique: true
             slot: "Device"
             points: 8
@@ -25178,6 +25134,7 @@ exportObj.basicCardData = ->
             name: "Delayed Fuses"
             pointsxwa: 1
             id: 236
+            xws_name: "delayedfuses"
             slot: "Modification"
             points: 1
         }
@@ -25192,6 +25149,7 @@ exportObj.basicCardData = ->
             name: "Diamond-Boron Missiles"
             pointsxwa: 5
             id: 238
+            xws_name: "diamondboronmissiles"
             unique: true
             slot: "Missile"
             points: 5
@@ -25208,6 +25166,7 @@ exportObj.basicCardData = ->
             name: "TA-175"
             pointsxwa: 5
             id: 239
+            xws_name: "ta175"
             unique: true
             slot: "Tactical Relay"
             solitary: true
@@ -25218,6 +25177,7 @@ exportObj.basicCardData = ->
             name: "Passive Sensors"
             pointsxwa: 5
             id: 240
+            xws_name: "passivesensors"
             slot: "Sensor"
             charge: 1
             recurring: 1
@@ -25227,6 +25187,7 @@ exportObj.basicCardData = ->
             name: "R2-A6"
             pointsxwa: 5
             id: 241
+            xws_name: "r2a6"
             unique: true
             slot: "Astromech"
             faction: "Galactic Republic"
@@ -25236,6 +25197,7 @@ exportObj.basicCardData = ->
             name: "Amilyn Holdo"
             pointsxwa: 8
             id: 242
+            xws_name: "amilynholdo"
             unique: true
             slot: "Crew"
             faction: "Resistance"
@@ -25271,6 +25233,7 @@ exportObj.basicCardData = ->
             name: "Korr Sella"
             pointsxwa: 6
             id: 245
+            xws_name: "korrsella"
             unique: true
             slot: "Crew"
             faction: "Resistance"
@@ -25280,6 +25243,7 @@ exportObj.basicCardData = ->
             name: "PZ-4CO"
             pointsxwa: 4
             id: 246
+            xws_name: "pz4co"
             unique: true
             slot: "Crew"
             faction: "Resistance"
@@ -25290,6 +25254,7 @@ exportObj.basicCardData = ->
         {
             name: "Angled Deflectors"
             id: 247
+            xws_name: "angleddeflectors"
             slot: "Modification"
             points: 4
             pointsxwa: 1
@@ -25305,6 +25270,7 @@ exportObj.basicCardData = ->
             name: "Ensnare"
             pointsxwa: 10
             id: 248
+            xws_name: "ensnare"
             slot: "Talent"
             max_per_squad: 2
             points: 10
@@ -25314,6 +25280,7 @@ exportObj.basicCardData = ->
             name: "Targeting Computer"
             pointsxwa: 1
             id: 249
+            xws_name: "targetingcomputer"
             slot: "Modification"
             points: 1
             modifier_func: (stats) ->
@@ -25323,6 +25290,7 @@ exportObj.basicCardData = ->
             name: "Precognitive Reflexes"
             pointsxwa: 8
             id: 250
+            xws_name: "precognitivereflexes"
             slot: "Force"
             points: 15
             restrictions: [
@@ -25335,6 +25303,7 @@ exportObj.basicCardData = ->
             slot: "Force"
             points: 6
             id: 251
+            xws_name: "foresight"
             attackbull: 2
             range: """1-3"""
             rangebonus: true
@@ -25351,8 +25320,9 @@ exportObj.basicCardData = ->
         }
         {
             name: "Ahsoka Tano"
-            pointsxwa: 11
+            pointsxwa: 10
             id: 253
+            xws_name: "ahsokatano-crew"
             unique: true
             slot: "Gunner"
             points: 12
@@ -25375,6 +25345,7 @@ exportObj.basicCardData = ->
         {
             name: "Gravitic Deflection"
             id: 255
+            xws_name: "graviticdeflection"
             slot: "Talent"
             points: 4
             pointsxwa: 3
@@ -25383,6 +25354,7 @@ exportObj.basicCardData = ->
         {
             name: "Snap Shot"
             id: 256
+            xws_name: "snapshot"
             slot: "Talent"
             points: 9
             pointsxwa: 7
@@ -25394,6 +25366,7 @@ exportObj.basicCardData = ->
             name: "Agent of the Empire"
             pointsxwa: 4
             id: 257
+            xws_name: "agentoftheempire"
             unique: true
             faction: "Galactic Empire"
             slot: "Command"
@@ -25407,6 +25380,7 @@ exportObj.basicCardData = ->
             name: "First Order Elite"
             pointsxwa: 4
             id: 258
+            xws_name: "firstorderelite"
             unique: true
             faction: "First Order"
             slot: "Command"
@@ -25420,6 +25394,7 @@ exportObj.basicCardData = ->
             name: "Veteran Wing Leader"
             pointsxwa: 2
             id: 259
+            xws_name: "veteranwingleader"
             slot: "Command"
             points: 2
             restrictions: [
@@ -25430,6 +25405,7 @@ exportObj.basicCardData = ->
             name: "Dreadnought Hunter"
             pointsxwa: 3
             id: 260
+            xws_name: "dreadnoughthunter"
             slot: "Command"
             points: 3
             max_per_squad: 2
@@ -25442,6 +25418,7 @@ exportObj.basicCardData = ->
             name: "Admiral Ozzel"
             pointsxwa: 6
             id: 261
+            xws_name: "admiralozzel"
             unique: true
             slot: "Command"
             points: 6
@@ -25456,6 +25433,7 @@ exportObj.basicCardData = ->
             name: "Azmorigan"
             pointsxwa: 4
             id: 262
+            xws_name: "azmorigan"
             unique: true
             slot: "Command"
             points: 4
@@ -25470,6 +25448,7 @@ exportObj.basicCardData = ->
             name: "Captain Needa"
             pointsxwa: 8
             id: 263
+            xws_name: "captainneeda"
             unique: true
             faction: "Galactic Empire"
             slot: "Command"
@@ -25485,6 +25464,7 @@ exportObj.basicCardData = ->
             name: "Carlist Rieekan"
             pointsxwa: 4
             id: 264
+            xws_name: "carlistrieekan"
             unique: true
             faction: "Rebel Alliance"
             slot: "Command"
@@ -25499,6 +25479,7 @@ exportObj.basicCardData = ->
             name: "Jan Dodonna"
             pointsxwa: 3
             id: 265
+            xws_name: "jandodonna"
             unique: true
             faction: "Rebel Alliance"
             slot: "Command"
@@ -25513,6 +25494,7 @@ exportObj.basicCardData = ->
             name: "Raymus Antilles"
             pointsxwa: 8
             id: 266
+            xws_name: "raymusantilles"
             unique: true
             slot: "Command"
             points: 8
@@ -25527,6 +25509,7 @@ exportObj.basicCardData = ->
             name: "Stalwart Captain"
             pointsxwa: 6
             id: 267
+            xws_name: "stalwartcaptain"
             unique: true
             slot: "Command"
             points: 6
@@ -25540,6 +25523,7 @@ exportObj.basicCardData = ->
             name: "Strategic Commander"
             pointsxwa: 6
             id: 268
+            xws_name: "strategiccommander"
             unique: true
             slot: "Command"
             charge: 3
@@ -25554,6 +25538,7 @@ exportObj.basicCardData = ->
             name: "Ion Cannon Battery"
             pointsxwa: 5
             id: 269
+            xws_name: "ioncannonbattery"
             slot: "Hardpoint"
             points: 5
             attackt: 4
@@ -25565,6 +25550,7 @@ exportObj.basicCardData = ->
             name: "Targeting Battery"
             pointsxwa: 5
             id: 270
+            xws_name: "targetingbattery"
             slot: "Hardpoint"
             points: 10
             attackt: 3
@@ -25576,6 +25562,7 @@ exportObj.basicCardData = ->
             name: "Ordnance Tubes"
             pointsxwa: 1
             id: 271
+            xws_name: "ordnancetubes"
             slot: "Hardpoint"
             points: 1
         }
@@ -25583,6 +25570,7 @@ exportObj.basicCardData = ->
             name: "Point-Defense Battery"
             pointsxwa: 9
             id: 272
+            xws_name: "pointdefensebattery"
             slot: "Hardpoint"
             points: 9
             attackdt: 2
@@ -25594,6 +25582,7 @@ exportObj.basicCardData = ->
             name: "Turbolaser Battery"
             pointsxwa: 10
             id: 273
+            xws_name: "turbolaserbattery"
             slot: "Hardpoint"
             points: 10
             attackt: 3
@@ -25608,6 +25597,7 @@ exportObj.basicCardData = ->
             name: "Toryn Farr"
             pointsxwa: 4
             id: 274
+            xws_name: "torynfarr"
             unique: true
             faction: "Rebel Alliance"
             slot: "Crew"
@@ -25623,6 +25613,7 @@ exportObj.basicCardData = ->
             name: "Bombardment Specialists"
             pointsxwa: 6
             id: 275
+            xws_name: "bombardmentspecialists"
             slot: "Team"
             points: 6
             modifier_func: (stats) ->
@@ -25633,6 +25624,7 @@ exportObj.basicCardData = ->
             name: "Comms Team"
             pointsxwa: 7
             id: 276
+            xws_name: "commsteam"
             slot: "Team"
             points: 7
             modifier_func: (stats) ->
@@ -25645,6 +25637,7 @@ exportObj.basicCardData = ->
             name: "Damage Control Team"
             pointsxwa: 3
             id: 277
+            xws_name: "damagecontrolteam"
             slot: "Team"
             points: 8
             modifier_func: (stats) ->
@@ -25655,6 +25648,7 @@ exportObj.basicCardData = ->
             name: "Gunnery Specialists"
             pointsxwa: 5
             id: 278
+            xws_name: "gunneryspecialists"
             slot: "Team"
             points: 5
             modifier_func: (stats) ->
@@ -25665,6 +25659,7 @@ exportObj.basicCardData = ->
             name: "IG-RM Droids"
             pointsxwa: 2
             id: 279
+            xws_name: "igrmdroids"
             slot: "Team"
             faction: "Scum and Villainy"
             points: 2
@@ -25675,6 +25670,7 @@ exportObj.basicCardData = ->
             name: "Ordnance Team"
             pointsxwa: 2
             id: 280
+            xws_name: "ordnanceteam"
             slot: "Team"
             points: 2
             modifier_func: (stats) ->
@@ -25685,6 +25681,7 @@ exportObj.basicCardData = ->
             name: "Sensor Experts"
             pointsxwa: 6
             id: 281
+            xws_name: "sensorexperts"
             slot: "Team"
             points: 6
             modifier_func: (stats) ->
@@ -25695,6 +25692,7 @@ exportObj.basicCardData = ->
             name: "Adaptive Shields"
             pointsxwa: 5
             id: 282
+            xws_name: "adaptiveshields"
             slot: "Cargo"
             points: 5
         }
@@ -25702,6 +25700,7 @@ exportObj.basicCardData = ->
             name: "Boosted Scanners"
             pointsxwa: 7
             id: 283
+            xws_name: "boostedscanners"
             slot: "Cargo"
             points: 7
         }
@@ -25716,6 +25715,7 @@ exportObj.basicCardData = ->
             name: "Tibanna Reserves"
             pointsxwa: 3
             id: 285
+            xws_name: "tibannareserves"
             slot: "Cargo"
             points: 3
             charge: 3
@@ -25724,6 +25724,7 @@ exportObj.basicCardData = ->
             name: "Optimized Power Core"
             pointsxwa: 6
             id: 286
+            xws_name: "optimizedpowercore"
             slot: "Cargo"
             points: 6
         }
@@ -25731,6 +25732,7 @@ exportObj.basicCardData = ->
             name: "Quick-Release Locks"
             pointsxwa: 5
             id: 287
+            xws_name: "quickreleaselocks"
             slot: "Illicit"
             charge: 2
             points: 5
@@ -25752,6 +25754,7 @@ exportObj.basicCardData = ->
             name: "Scanner Baffler"
             pointsxwa: 8
             id: 289
+            xws_name: "scannerbaffler"
             slot: "Illicit"
             points: 8
             restrictions: [
@@ -25799,6 +25802,7 @@ exportObj.basicCardData = ->
             name: "Liberator"
             pointsxwa: 5
             id: 292
+            xws_name: "liberator"
             slot: "Title"
             unique: true
             ship: "CR90 Corellian Corvette"
@@ -25811,6 +25815,7 @@ exportObj.basicCardData = ->
             name: "Tantive IV"
             pointsxwa: 5
             id: 293
+            xws_name: "tantiveiv"
             slot: "Title"
             unique: true
             ship: "CR90 Corellian Corvette"
@@ -25831,6 +25836,7 @@ exportObj.basicCardData = ->
             name: "Bright Hope"
             pointsxwa: 5
             id: 294
+            xws_name: "brighthope"
             slot: "Title"
             unique: true
             ship: "GR-75 Medium Transport"
@@ -25841,6 +25847,7 @@ exportObj.basicCardData = ->
             name: "Luminous"
             pointsxwa: 12
             id: 295
+            xws_name: "luminous"
             slot: "Title"
             unique: true
             ship: "GR-75 Medium Transport"
@@ -25854,6 +25861,7 @@ exportObj.basicCardData = ->
             name: "Quantum Storm"
             pointsxwa: 3
             id: 296
+            xws_name: "quantumstorm"
             slot: "Title"
             unique: true
             ship: "GR-75 Medium Transport"
@@ -25876,6 +25884,7 @@ exportObj.basicCardData = ->
             name: "Assailer"
             pointsxwa: 5
             id: 297
+            xws_name: "assailer"
             slot: "Title"
             unique: true
             ship: "Raider-class Corvette"
@@ -25895,6 +25904,7 @@ exportObj.basicCardData = ->
             name: "Corvus"
             pointsxwa: 3
             id: 298
+            xws_name: "corvus"
             slot: "Title"
             unique: true
             ship: "Raider-class Corvette"
@@ -25907,6 +25917,7 @@ exportObj.basicCardData = ->
             name: "Impetuous"
             pointsxwa: 4
             id: 299
+            xws_name: "impetuous"
             slot: "Title"
             unique: true
             ship: "Raider-class Corvette"
@@ -25926,6 +25937,7 @@ exportObj.basicCardData = ->
             name: "Instigator"
             pointsxwa: 6
             id: 300
+            xws_name: "instigator"
             slot: "Title"
             unique: true
             ship: "Raider-class Corvette"
@@ -25942,6 +25954,7 @@ exportObj.basicCardData = ->
             name: "Blood Crow"
             pointsxwa: 8
             id: 301
+            xws_name: "bloodcrow"
             slot: "Title"
             unique: true
             ship: "Gozanti-class Cruiser"
@@ -25961,6 +25974,7 @@ exportObj.basicCardData = ->
             name: "Requiem"
             pointsxwa: 7
             id: 302
+            xws_name: "requiem"
             slot: "Title"
             unique: true
             ship: "Gozanti-class Cruiser"
@@ -25971,6 +25985,7 @@ exportObj.basicCardData = ->
             name: "Suppressor"
             pointsxwa: 6
             id: 303
+            xws_name: "suppressor"
             slot: "Title"
             unique: true
             ship: "Gozanti-class Cruiser"
@@ -25990,6 +26005,7 @@ exportObj.basicCardData = ->
             name: "Vector"
             pointsxwa: 7
             id: 304
+            xws_name: "vector"
             slot: "Title"
             unique: true
             ship: "Gozanti-class Cruiser"
@@ -26010,6 +26026,7 @@ exportObj.basicCardData = ->
             name: "Broken Horn"
             pointsxwa: 4
             id: 305
+            xws_name: "brokenhorn"
             slot: "Title"
             unique: true
             ship: "C-ROC Cruiser"
@@ -26030,6 +26047,7 @@ exportObj.basicCardData = ->
             name: "Merchant One"
             pointsxwa: 8
             id: 306
+            xws_name: "merchantone"
             slot: "Title"
             unique: true
             ship: "C-ROC Cruiser"
@@ -26057,6 +26075,7 @@ exportObj.basicCardData = ->
             name: "Insatiable Worrt"
             pointsxwa: 7
             id: 307
+            xws_name: "insatiableworrt"
             slot: "Title"
             unique: true
             ship: "C-ROC Cruiser"
@@ -26077,6 +26096,7 @@ exportObj.basicCardData = ->
             name: "Corsair Refit"
             pointsxwa: 6
             id: 308
+            xws_name: "corsairrefit"
             slot: "Configuration"
             ship: "C-ROC Cruiser"
             max_per_squad: 2
@@ -26104,6 +26124,7 @@ exportObj.basicCardData = ->
             name: "Thunderstrike"
             pointsxwa: 4
             id: 309
+            xws_name: "thunderstrike"
             slot: "Title"
             unique: true
             ship: "CR90 Corellian Corvette"
@@ -26123,6 +26144,7 @@ exportObj.basicCardData = ->
             name: "Coaxium Hyperfuel"
             pointsxwa: 2
             id: 310
+            xws_name: "coaxiumhyperfuel"
             slot: "Illicit"
             points: 4
             restrictions: [
@@ -26132,6 +26154,7 @@ exportObj.basicCardData = ->
         {
             name: "Mag-Pulse Warheads"
             id: 311
+            xws_name: "magpulsewarheads"
             slot: "Missile"
             points: 4
             pointsxwa: 7
@@ -26143,7 +26166,12 @@ exportObj.basicCardData = ->
         {
             name: "R1-J5"
             pointsxwa: 5
+            slotsxwa: [
+                "Astromech"
+            ]
+            loadoutxwa: 5
             id: 312
+            xws_name: "r1j5"
             slot: "Astromech"
             faction: "Resistance"
             unique: true
@@ -26166,6 +26194,11 @@ exportObj.basicCardData = ->
         {
             name: "K-2SO"
             id: 314
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 11
+            xws_name: "k2so"
             slot: "Crew"
             faction: "Rebel Alliance"
             unique: true
@@ -26188,6 +26221,7 @@ exportObj.basicCardData = ->
             name: "Cluster Mines"
             pointsxwa: 6
             id: 316
+            xws_name: "clustermines"
             slot: "Device"
             charge: 1
             points: 7
@@ -26197,6 +26231,7 @@ exportObj.basicCardData = ->
             name: "Ion Bombs"
             pointsxwa: 4
             id: 317
+            xws_name: "ionbombs"
             slot: "Device"
             points: 4
             charge: 2
@@ -26205,6 +26240,7 @@ exportObj.basicCardData = ->
         {
             name: "Deuterium Power Cells"
             id: 318
+            xws_name: "deuteriumpowercells"
             slot: "Tech"
             points: 6
             pointsxwa: 7
@@ -26225,6 +26261,7 @@ exportObj.basicCardData = ->
         {
             name: "Commander Pyre"
             id: 320
+            xws_name: "commanderpyre"
             slot: "Crew"
             unique: true
             faction: "First Order"
@@ -26235,6 +26272,7 @@ exportObj.basicCardData = ->
             name: "Clone Captain Rex"
             pointsxwa: 1
             id: 321
+            xws_name: "clonecaptainrex"
             slot: "Gunner"
             unique: true
             faction: "Galactic Republic"
@@ -26243,7 +26281,12 @@ exportObj.basicCardData = ->
         {
             name: "Yoda"
             pointsxwa: 12
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 8
             id: 322
+            xws_name: "yoda"
             slot: "Crew"
             unique: true
             force: 2
@@ -26272,7 +26315,12 @@ exportObj.basicCardData = ->
         {
             name: "Plo Koon"
             pointsxwa: 9
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 8
             id: 325
+            xws_name: "plokoon"
             slot: "Crew"
             unique: true
             force: 1
@@ -26286,6 +26334,7 @@ exportObj.basicCardData = ->
             name: "Multi-Missile Pods"
             pointsxwa: 3
             id: 326
+            xws_name: "multimissilepods"
             slot: "Missile"
             points: 4
             attackf: 2
@@ -26300,7 +26349,12 @@ exportObj.basicCardData = ->
         {
             name: "Kit Fisto"
             pointsxwa: 8
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 8
             id: 327
+            xws_name: "kitfisto"
             slot: "Crew"
             unique: true
             force: 1
@@ -26313,7 +26367,12 @@ exportObj.basicCardData = ->
         {
             name: "Aayla Secura"
             pointsxwa: 12
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 11
             id: 328
+            xws_name: "aaylasecura"
             slot: "Crew"
             unique: true
             force: 1
@@ -26328,6 +26387,7 @@ exportObj.basicCardData = ->
             name: "Maneuver-Assist MGK-300"
             pointsxwa: 0
             id: 329
+            xws_name: "maneuverassistmgk300"
             slot: "Configuration"
             ship: "TIE/rb Heavy"
             faction: "Galactic Empire"
@@ -26345,6 +26405,7 @@ exportObj.basicCardData = ->
             name: "Ion Limiter Override"
             pointsxwa: 2
             id: 330
+            xws_name: "ionlimiteroverride"
             slot: "Talent"
             points: 2
             restrictions: [
@@ -26355,6 +26416,7 @@ exportObj.basicCardData = ->
             name: "Marg Sabl Closure"
             pointsxwa: 1
             id: 331
+            xws_name: "margsablclosure"
             slot: "Talent"
             points: 1
             restrictions: [
@@ -26365,6 +26427,7 @@ exportObj.basicCardData = ->
             name: "XX-23 S-Thread Tracers"
             pointsxwa: 4
             id: 332
+            xws_name: "xx23sthreadtracers"
             slot: "Missile"
             attack: 3
             range: """1-3"""
@@ -26393,7 +26456,12 @@ exportObj.basicCardData = ->
         {
             name: "Jango Fett"
             pointsxwa: 3
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 20
             id: 335
+            xws_name: "jangofett"
             slot: "Crew"
             unique: true
             faction: ["Scum and Villainy", "Separatist Alliance"]
@@ -26402,6 +26470,11 @@ exportObj.basicCardData = ->
         {
             name: "Zam Wesell"
             id: 336
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 12
+            xws_name: "zamwesell"
             slot: "Crew"
             unique: true
             charge: 2
@@ -26426,6 +26499,7 @@ exportObj.basicCardData = ->
         {
             name: "Precision Ion Engines"
             id: 338
+            xws_name: "precisionionengines"
             slot: "Modification"
             points: 2
             pointsxwa: 1
@@ -26439,6 +26513,7 @@ exportObj.basicCardData = ->
             name: "Thermal Detonators"
             pointsxwa: 6
             id: 339
+            xws_name: "thermaldetonators"
             slot: "Device"
             charge: 4
             points: 5
@@ -26457,6 +26532,7 @@ exportObj.basicCardData = ->
         {
             name: "Extreme Maneuvers"
             id: 341
+            xws_name: "extrememaneuvers"
             points: 8
             pointsxwa: 3
             slot: "Force"
@@ -26469,6 +26545,7 @@ exportObj.basicCardData = ->
             name: "Patience"
             pointsxwa: 2
             id: 342
+            xws_name: "patience"
             slot: "Force"
             points: 2
             restrictions: [
@@ -26479,6 +26556,7 @@ exportObj.basicCardData = ->
             name: "Deadeye Shot"
             pointsxwa: 1
             id: 343
+            xws_name: "deadeyeshot"
             slot: "Talent"
             points: 1
             restrictions: [
@@ -26489,6 +26567,7 @@ exportObj.basicCardData = ->
             name: "Starbird Slash"
             pointsxwa: 1
             id: 344
+            xws_name: "starbirdslash"
             slot: "Talent"
             points: 1
             restrictions: [
@@ -26499,6 +26578,7 @@ exportObj.basicCardData = ->
             name: "Overdrive Thruster"
             pointsxwa: 5
             id: 345
+            xws_name: "overdrivethruster"
             ship: "T-70 X-wing"
             unique: true
             slot: "Modification"
@@ -26524,6 +26604,7 @@ exportObj.basicCardData = ->
             name: "Automated Target Priority"
             pointsxwa: 1
             id: 348
+            xws_name: "automatedtargetpriority"
             slot: "Tech"
             points: 1
             restrictions: [
@@ -26534,6 +26615,7 @@ exportObj.basicCardData = ->
             name: "Sensor Buoy Suite"
             pointsxwa: 4
             id: 349
+            xws_name: "sensorbuoysuite"
             faction: "First Order"
             unique: true
             slot: "Tech"
@@ -26547,6 +26629,7 @@ exportObj.basicCardData = ->
             name: "Suppressive Gunner"
             pointsxwa: 6
             id: 350
+            xws_name: "suppressivegunner"
             max_per_squad: 2
             slot: "Gunner"
             points: 7
@@ -26555,6 +26638,7 @@ exportObj.basicCardData = ->
             name: "Ghost Company"
             pointsxwa: 5
             id: 351
+            xws_name: "ghostcompany"
             faction: "Galactic Republic"
             unique: true
             slot: "Crew"
@@ -26572,6 +26656,7 @@ exportObj.basicCardData = ->
             name: "Wolfpack"
             pointsxwa: 4
             id: 352
+            xws_name: "wolfpack"
             faction: "Galactic Republic"
             unique: true
             slot: "Crew"
@@ -26585,6 +26670,7 @@ exportObj.basicCardData = ->
             name: "Kalani"
             pointsxwa: 3
             id: 353
+            xws_name: "kalani"
             charge: 3
             unique: true
             recurring: 3
@@ -26599,6 +26685,7 @@ exportObj.basicCardData = ->
             name: "Synced Laser Cannons"
             pointsxwa: 8
             id: 354
+            xws_name: "syncedlasercannons"
             slot: "Cannon"
             points: 6
             attack: 3
@@ -26611,6 +26698,7 @@ exportObj.basicCardData = ->
         {
             name: "Concussion Bombs"
             id: 355
+            xws_name: "concussionbombs"
             slot: "Device"
             charge: 3
             points: 4
@@ -26621,6 +26709,7 @@ exportObj.basicCardData = ->
             name: "Target-Assist MGK-300"
             pointsxwa: 0
             id: 356
+            xws_name: "targetassistmgk300"
             slot: "Configuration"
             ship: "TIE/rb Heavy"
             faction: "Galactic Empire"
@@ -26633,6 +26722,7 @@ exportObj.basicCardData = ->
         {
             name: "Backwards Tailslide"
             id: 357
+            xws_name: "backwardstailslide"
             slot: "Talent"
             points: 2
             pointsxwa: 1
@@ -26655,6 +26745,7 @@ exportObj.basicCardData = ->
         {
             name: "R6-D8"
             id: 359
+            xws_name: "r6d8"
             points: 4
             pointsxwa: 5
             unique: true
@@ -26665,6 +26756,7 @@ exportObj.basicCardData = ->
             name: "Underslung Blaster Cannon"
             pointsxwa: 2
             id: 360
+            xws_name: "underslungblastercannon"
             points: 2
             slot: "Cannon"
             attackt: 2
@@ -26681,6 +26773,7 @@ exportObj.basicCardData = ->
             name: "Jedi Commander"
             pointsxwa: 4
             id: 361
+            xws_name: "jedicommander"
             points: 4
             ship: ["Eta-2 Actis","Delta-7 Aethersprite"]
             slot: "Command"
@@ -26705,6 +26798,7 @@ exportObj.basicCardData = ->
             name: "R7-A7"
             pointsxwa: 5
             id: 364
+            xws_name: "r7a7"
             points: 5
             unique: true
             charge: 3
@@ -26715,13 +26809,16 @@ exportObj.basicCardData = ->
             name: "Q7 Astromech"
             pointsxwa: 1
             id: 365
+            xws_name: "q7astromech"
             points: 1
             slot: "Astromech"
             faction: "Galactic Republic"
         }
         {
             name: "Intercept Booster"
+            pointsxwa: 0
             id: 366
+            xws_name: "interceptbooster"
             points: 0
             slot: "Configuration"
             ship: "Droid Tri-fighter"
@@ -26736,6 +26833,7 @@ exportObj.basicCardData = ->
             name: "Independent Calculations"
             pointsxwa: 1
             id: 367
+            xws_name: "independentcalculations"
             points: 1
             standardized: true
             slot: "Modification"
@@ -26748,6 +26846,7 @@ exportObj.basicCardData = ->
             name: "Weapons Systems Officer"
             pointsxwa: 5
             id: 368
+            xws_name: "weaponssystemsofficer"
             points: 5
             slot: "Gunner"
         }
@@ -26755,6 +26854,7 @@ exportObj.basicCardData = ->
             name: "False Transponder Codes"
             pointsxwa: 5
             id: 369
+            xws_name: "falsetranspondercodes"
             max_per_squad: 3
             points: 5
             charge: 1
@@ -26762,8 +26862,10 @@ exportObj.basicCardData = ->
         }
         {
             name: "Slave I (Separatist)"
+            pointsxwa: 0
             xwsaddon: "swz82"
             id: 370
+            xws_name: "slavei-swz82"
             points: 0
             slot: "Title"
             unique: true
@@ -26780,6 +26882,7 @@ exportObj.basicCardData = ->
             name: "Vectored Cannons (RZ-1)"
             pointsxwa: 0
             id: 371
+            xws_name: "vectoredcannonsrz1"
             xws: "vectoredcannonsrz1"
             points: 0
             slot: "Configuration"
@@ -26813,6 +26916,7 @@ exportObj.basicCardData = ->
             name: "TIE Defender Elite"
             pointsxwa: 0
             id: 373
+            xws_name: "tiedefenderelite"
             points: 0
             slot: "Configuration"
             faction: "Galactic Empire"
@@ -26833,6 +26937,7 @@ exportObj.basicCardData = ->
             name: "Sensitive Controls"
             pointsxwa: 0
             id: 374
+            xws_name: "sensitivecontrols"
             points: 0
             slot: "Configuration"
             standardized: true
@@ -26846,6 +26951,7 @@ exportObj.basicCardData = ->
             name: "Cutthroat"
             pointsxwa: 2
             id: 375
+            xws_name: "cutthroat"
             points: 2
             slot: "Talent"
             faction: "Scum and Villainy"
@@ -26854,6 +26960,7 @@ exportObj.basicCardData = ->
             name: "Tierfon Belly Run"
             pointsxwa: 1
             id: 376
+            xws_name: "tierfonbellyrun"
             points: 1
             slot: "Talent"
             restrictions: [
@@ -26882,13 +26989,16 @@ exportObj.basicCardData = ->
             name: "Hopeful"
             pointsxwa: 1
             id: 378
+            xws_name: "hopeful"
             points: 1
             slot: "Talent"
             faction: "Rebel Alliance"
         }
         {
             name: "Sabine Wren (Gunner)"
+            pointsxwa: 1
             id: 379
+            xws_name: "sabinewren-gunner"
             points: 2
             unique: true
             slot: "Gunner"
@@ -26898,6 +27008,7 @@ exportObj.basicCardData = ->
             name: "Phoenix Squadron"
             pointsxwa: 4
             id: 380
+            xws_name: "phoenixsquadron"
             points: 4
             unique: true
             slot: "Command"
@@ -26908,6 +27019,7 @@ exportObj.basicCardData = ->
             name: "Disciplined"
             pointsxwa: 2
             id: 381
+            xws_name: "disciplined"
             points: 2
             slot: "Talent"
             faction: "Galactic Empire"
@@ -26916,6 +27028,7 @@ exportObj.basicCardData = ->
             name: "Skystrike Academy Class"
             pointsxwa: 3
             id: 382
+            xws_name: "skystrikeacademyclass"
             points: 3
             max_per_squad: 2
             slot: "Command"
@@ -26926,6 +27039,7 @@ exportObj.basicCardData = ->
             name: "Shadow Wing"
             pointsxwa: 4
             id: 383
+            xws_name: "shadowwing"
             points: 4
             unique: true
             slot: "Command"
@@ -26947,6 +27061,7 @@ exportObj.basicCardData = ->
             name: "Bounty"
             pointsxwa: 1
             id: 385
+            xws_name: "bounty"
             points: 1
             slot: "Command"
             faction: "Scum and Villainy"
@@ -26958,6 +27073,11 @@ exportObj.basicCardData = ->
         {
             name: "Gamut Key"
             id: 386
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 17
+            xws_name: "gamutkey"
             unique: true
             points: 8
             pointsxwa: 5
@@ -26970,6 +27090,7 @@ exportObj.basicCardData = ->
             name: "Interloper Turn"
             pointsxwa: 1
             id: 387
+            xws_name: "interloperturn"
             points: 1
             slot: "Talent"
             recurring: 1
@@ -26979,6 +27100,7 @@ exportObj.basicCardData = ->
             name: "Protectorate Gleb"
             pointsxwa: 7
             id: 388
+            xws_name: "protectorategleb"
             unique: true
             points: 6
             slot: "Crew"
@@ -26990,6 +27112,7 @@ exportObj.basicCardData = ->
             name: "R4-B11"
             pointsxwa: 3
             id: 389
+            xws_name: "r4b11"
             points: 3
             unique: true
             slot: "Astromech"
@@ -27046,6 +27169,7 @@ exportObj.basicCardData = ->
             name: "Mar Tuuk"
             pointsxwa: 4
             id: 393
+            xws_name: "martuuk"
             unique: true
             slot: "Command"
             points: 4
@@ -27060,6 +27184,7 @@ exportObj.basicCardData = ->
             name: "Riff Tamson"
             pointsxwa: 6
             id: 394
+            xws_name: "rifftamson"
             unique: true
             slot: "Command"
             points: 6
@@ -27074,6 +27199,7 @@ exportObj.basicCardData = ->
             name: "Zealous Captain"
             pointsxwa: 4
             id: 395
+            xws_name: "zealouscaptain"
             unique: true
             slot: "Command"
             points: 4
@@ -27087,6 +27213,7 @@ exportObj.basicCardData = ->
             name: "Tractor Tentacles"
             pointsxwa: 0
             id: 396
+            xws_name: "tractortentacles"
             slot: "Hardpoint"
             points: 0
             attackb: 2
@@ -27101,6 +27228,7 @@ exportObj.basicCardData = ->
             name: "Drill Beak"
             pointsxwa: 4
             id: 397
+            xws_name: "drillbeak"
             slot: "Hardpoint"
             points: 4
             attackb: 3
@@ -27117,6 +27245,7 @@ exportObj.basicCardData = ->
             name: "Enhanced Propulsion"
             pointsxwa: 6
             id: 398
+            xws_name: "enhancedpropulsion"
             slot: "Hardpoint"
             points: 6
             ship: "Trident-class Assault Ship"
@@ -27130,6 +27259,7 @@ exportObj.basicCardData = ->
             name: "Proton Cannon Battery"
             pointsxwa: 10
             id: 399
+            xws_name: "protoncannonbattery"
             slot: "Hardpoint"
             points: 10
             attackbull: 4
@@ -27144,6 +27274,7 @@ exportObj.basicCardData = ->
             name: "Droid Crew"
             pointsxwa: 5
             id: 400
+            xws_name: "droidcrew"
             slot: "Team"
             points: 5
             faction: "Separatist Alliance"
@@ -27155,6 +27286,7 @@ exportObj.basicCardData = ->
             name: "Tractor Technicians"
             pointsxwa: 2
             id: 401
+            xws_name: "tractortechnicians"
             slot: "Team"
             points: 2
         }
@@ -27162,6 +27294,7 @@ exportObj.basicCardData = ->
             name: "Corsair Crew"
             pointsxwa: 5
             id: 402
+            xws_name: "corsaircrew"
             slot: "Team"
             points: 5
             faction: "Scum and Villainy"
@@ -27174,6 +27307,7 @@ exportObj.basicCardData = ->
             name: "Grappler"
             pointsxwa: 3
             id: 403
+            xws_name: "grappler"
             unique: true
             slot: "Title"
             ship: "Trident-class Assault Ship"
@@ -27199,6 +27333,7 @@ exportObj.basicCardData = ->
             name: "Neimoidian Grasp"
             pointsxwa: 5
             id: 405
+            xws_name: "neimoidiangrasp"
             unique: true
             slot: "Title"
             points: 5
@@ -27211,6 +27346,7 @@ exportObj.basicCardData = ->
             name: "Trident"
             pointsxwa: 4
             id: 406
+            xws_name: "trident"
             unique: true
             slot: "Title"
             points: 4
@@ -27223,6 +27359,7 @@ exportObj.basicCardData = ->
             name: "Tracking Torpedoes"
             pointsxwa: 8
             id: 407
+            xws_name: "trackingtorpedoes"
             slot: "Torpedo"
             points: 8
             attack: 4
@@ -27236,6 +27373,7 @@ exportObj.basicCardData = ->
             name: "L4E-R5"
             pointsxwa: 4
             id: 408
+            xws_name: "l4er5"
             unique: true
             slot: "Astromech"
             points: 3
@@ -27250,6 +27388,7 @@ exportObj.basicCardData = ->
         {
             name: "Wartime Loadout"
             id: 409
+            xws_name: "wartimeloadout"
             slot: "Configuration"
             points: 2
             pointsxwa: 0
@@ -27280,6 +27419,7 @@ exportObj.basicCardData = ->
             name: "Watchful Astromech"
             pointsxwa: 2
             id: 410
+            xws_name: "watchfulastromech"
             slot: "Astromech"
             points: 2
         }
@@ -27287,6 +27427,7 @@ exportObj.basicCardData = ->
             name: "Overtuned Modulators"
             pointsxwa: 3
             id: 411
+            xws_name: "overtunedmodulators"
             slot: "Illicit"
             points: 3
             charge: 1
@@ -27294,7 +27435,12 @@ exportObj.basicCardData = ->
         {
             name: "DT-798"
             pointsxwa: 3
+            slotsxwa: [
+                "Gunner"
+            ]
+            loadoutxwa: 9
             id: 412
+            xws_name: "dt798"
             unique: true
             faction: "First Order"
             slot: "Gunner"
@@ -27304,6 +27450,7 @@ exportObj.basicCardData = ->
             name: "Enhanced Jamming Suite"
             pointsxwa: 0
             id: 413
+            xws_name: "enhancedjammingsuite"
             slot: "Configuration"
             points: 0
             ship: "TIE/wi Whisper Modified Interceptor"
@@ -27324,6 +27471,7 @@ exportObj.basicCardData = ->
             name: "First Order Ordnance Tech"
             pointsxwa: 2
             id: 414
+            xws_name: "firstorderordnancetech"
             faction: "First Order"
             slot: "Gunner"
             points: 3
@@ -27335,6 +27483,7 @@ exportObj.basicCardData = ->
             name: "Sensor Scramblers"
             pointsxwa: 1
             id: 415
+            xws_name: "sensorscramblers"
             ship: ["TIE/vn Silencer", "TIE/wi Whisper Modified Interceptor"]
             slot: "Tech"
             points: 1
@@ -27344,6 +27493,7 @@ exportObj.basicCardData = ->
             pointsxwa: 5
             unique: true
             id: 416
+            xws_name: "babufrik"
             faction: ["Scum and Villainy", "Resistance"]
             slot: "Illicit"
             points: 5
@@ -27353,6 +27503,7 @@ exportObj.basicCardData = ->
             name: "Compassion"
             pointsxwa: 1
             id: 417
+            xws_name: "compassion"
             points: 1
             slot: "Force"
             restrictions: [
@@ -27363,6 +27514,7 @@ exportObj.basicCardData = ->
             name: "Malice"
             pointsxwa: 5
             id: 418
+            xws_name: "malice"
             points: 4
             slot: "Force"
             restrictions: [
@@ -27373,12 +27525,14 @@ exportObj.basicCardData = ->
             name: "Shattering Shot"
             pointsxwa: 3
             id: 419
+            xws_name: "shatteringshot"
             points: 3
             slot: "Force"
         }
         {
             name: "Electro-Chaff Missiles"
             id: 420
+            xws_name: "electrochaffmissiles"
             points: 9
             pointsxwa: 10
             slot: "Missile"
@@ -27394,6 +27548,7 @@ exportObj.basicCardData = ->
             name: "Feedback Ping"
             pointsxwa: 1
             id: 421
+            xws_name: "feedbackping"
             points: 1
             slot: "Talent"
             restrictions: [
@@ -27421,6 +27576,7 @@ exportObj.basicCardData = ->
             name: "Clan Training"
             pointsxwa: 1
             id: 423
+            xws_name: "clantraining"
             points: 1
             slot: "Talent"
             charge: 1
@@ -27443,6 +27599,12 @@ exportObj.basicCardData = ->
             name: "Bo-Katan Kryze (Republic/Separatist)"
             xws: "bokatankryze"
             id: 425
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 20
+            pointsxwa: 6
+            xws_name: "bokatankryze"
             points: 6
             slot: "Crew"
             unique: true
@@ -27450,8 +27612,10 @@ exportObj.basicCardData = ->
         }
         {
             name: "Bo-Katan Kryze (Rebel/Scum)"
+            pointsxwa: 4
             xwsaddon: "rebel-scum"
             id: 426
+            xws_name: "bokatankryze-rebel-scum"
             points: 4
             slot: "Crew"
             unique: true
@@ -27460,7 +27624,12 @@ exportObj.basicCardData = ->
         {
             name: "Captain Hark"
             pointsxwa: 3
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 20
             id: 427
+            xws_name: "captainhark"
             points: 3
             charge: 2
             slot: "Crew"
@@ -27470,7 +27639,12 @@ exportObj.basicCardData = ->
         {
             name: "Fenn Rau"
             pointsxwa: 7
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 5
             id: 428
+            xws_name: "fennrau"
             points: 7
             slot: "Crew"
             unique: true
@@ -27489,6 +27663,7 @@ exportObj.basicCardData = ->
             name: "Korkie Kryze"
             pointsxwa: 5
             id: 430
+            xws_name: "korkiekryze"
             points: 5
             slot: "Crew"
             faction: "Galactic Republic"
@@ -27497,7 +27672,12 @@ exportObj.basicCardData = ->
         {
             name: "Obi-Wan Kenobi"
             pointsxwa: 11
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 10
             id: 431
+            xws_name: "obiwankenobi"
             points: 11
             force: 1
             slot: "Crew"
@@ -27509,6 +27689,11 @@ exportObj.basicCardData = ->
         {
             name: "Pre Vizsla"
             id: 432
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 16
+            xws_name: "previzsla"
             points: 9
             pointsxwa: 7
             slot: "Crew"
@@ -27528,7 +27713,12 @@ exportObj.basicCardData = ->
         {
             name: "Rook Kast"
             pointsxwa: 8
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 17
             id: 434
+            xws_name: "rookkast"
             points: 8
             slot: "Crew"
             unique: true
@@ -27539,6 +27729,7 @@ exportObj.basicCardData = ->
         {
             name: "Satine Kryze"
             id: 435
+            xws_name: "satinekryze"
             points: 10
             pointsxwa: 15
             charge: 2
@@ -27551,6 +27742,7 @@ exportObj.basicCardData = ->
             name: "Savage Opress"
             pointsxwa: 10
             id: 436
+            xws_name: "savageopress"
             points: 10
             force: 1
             slot: "Crew"
@@ -27563,6 +27755,7 @@ exportObj.basicCardData = ->
             name: "Tal Merrik"
             pointsxwa: 7
             id: 437
+            xws_name: "talmerrik"
             points: 7
             slot: "Crew"
             unique: true
@@ -27573,6 +27766,7 @@ exportObj.basicCardData = ->
             name: "Tristan Wren"
             pointsxwa: 1
             id: 438
+            xws_name: "tristanwren"
             points: 2
             charge: 1
             recurring: 1
@@ -27586,15 +27780,18 @@ exportObj.basicCardData = ->
         {
             name: "Ursa Wren"
             id: 439
+            xws_name: "ursawren"
             points: 6
             slot: "Crew"
-            pointsxwa: 3
+            pointsxwa: 7
             unique: true
             faction: "Rebel Alliance"
         }
         {
             name: "Maul (Mandalore)"
+            pointsxwa: 10
             id: 440
+            xws_name: "maul-crew"
             points: 10
             slot: "Crew"
             unique: true
@@ -27616,7 +27813,9 @@ exportObj.basicCardData = ->
         }
         {
             name: "Gar Saxon (Gunner)"
+            pointsxwa: 6
             id: 441
+            xws_name: "garsaxon-gunner"
             points: 6
             slot: "Gunner"
             unique: true
@@ -27629,6 +27828,7 @@ exportObj.basicCardData = ->
             name: "Tiber Saxon"
             pointsxwa: 6
             id: 442
+            xws_name: "tibersaxon"
             points: 6
             charge: 2
             recurring: 1
@@ -27638,7 +27838,9 @@ exportObj.basicCardData = ->
         }
         {
             name: "Ursa Wren (Gunner)"
+            pointsxwa: 3
             id: 443
+            xws_name: "ursawren-gunner"
             points: 4
             slot: "Gunner"
             unique: true
@@ -27648,6 +27850,7 @@ exportObj.basicCardData = ->
             name: "Blazer Bomb"
             pointsxwa: 4
             id: 444
+            xws_name: "blazerbomb"
             points: 5
             charge: 1
             slot: "Device"
@@ -27656,6 +27859,7 @@ exportObj.basicCardData = ->
         {
             name: "Beskar Reinforced Plating"
             id: 445
+            xws_name: "beskarreinforcedplating"
             points: 3
             slot: "Modification"
             charge: 2
@@ -27668,6 +27872,7 @@ exportObj.basicCardData = ->
             name: "Mandalorian Optics"
             pointsxwa: 3
             id: 446
+            xws_name: "mandalorianoptics"
             points: 3
             slot: "Modification"
             charge: 2
@@ -27679,6 +27884,7 @@ exportObj.basicCardData = ->
             name: "Gauntlet"
             pointsxwa: 0
             id: 447
+            xws_name: "gauntlet"
             points: 0
             slot: "Title"
             unique: true
@@ -27700,6 +27906,7 @@ exportObj.basicCardData = ->
             name: "Nightbrother"
             pointsxwa: 0
             id: 448
+            xws_name: "nightbrother"
             points: 0
             slot: "Title"
             unique: true
@@ -27720,7 +27927,9 @@ exportObj.basicCardData = ->
         }
         {
             name: "Swivel Wing"
+            pointsxwa: 0
             id: 449
+            xws_name: "swivelwing"
             points: 0
             slot: "Configuration"
             ship: "Gauntlet Fighter"
@@ -27729,6 +27938,7 @@ exportObj.basicCardData = ->
             name: "Clan Wren Commandos"
             pointsxwa: 8
             id: 450
+            xws_name: "clanwrencommandos"
             points: 8
             slot: "Crew"
             unique: true
@@ -27745,6 +27955,7 @@ exportObj.basicCardData = ->
             name: "Razor Crest"
             pointsxwa: 0
             id: 451
+            xws_name: "razorcrest"
             points: 0
             unique: true
             slot: "Title"
@@ -27756,7 +27967,12 @@ exportObj.basicCardData = ->
         {
             name: "The Mandalorian"
             pointsxwa: 3
+            slotsxwa: [
+                "Crew"
+            ]
+            loadoutxwa: 16
             id: 452
+            xws_name: "themandalorian"
             points: 2
             unique: true
             slot: "Crew"
@@ -27768,6 +27984,7 @@ exportObj.basicCardData = ->
             name: "The Child"
             pointsxwa: 7
             id: 453
+            xws_name: "thechild"
             points: 7
             unique: true
             slot: "Crew"
@@ -27783,6 +28000,7 @@ exportObj.basicCardData = ->
             name: "Tracking Fob"
             pointsxwa: 3
             id: 454
+            xws_name: "trackingfob"
             points: 3
             slot: "Illicit"
             max_per_squad: 3
@@ -27794,6 +28012,7 @@ exportObj.basicCardData = ->
         {
             name: "Notorious"
             id: 455
+            xws_name: "notorious"
             points: 7
             pointsxwa: 6
             charge: 2
@@ -27807,13 +28026,16 @@ exportObj.basicCardData = ->
         {
             name: "Enduring"
             id: 456
+            xws_name: "enduring"
             points: 5
             pointsxwa: 3
             slot: "Talent"
         }
         {
             name: "IG-11"
+            pointsxwa: 4
             id: 457
+            xws_name: "ig11"
             points: 6
             slot: "Crew"
             unique: true
@@ -27825,6 +28047,7 @@ exportObj.basicCardData = ->
             name: "Greef Karga"
             pointsxwa: 5
             id: 458
+            xws_name: "greefkarga"
             points: 6
             slot: "Crew"
             unique: true
@@ -27836,6 +28059,7 @@ exportObj.basicCardData = ->
             name: "Kuiil"
             pointsxwa: 4
             id: 459
+            xws_name: "kuiil"
             points: 4
             slot: "Crew"
             unique: true
@@ -27848,6 +28072,7 @@ exportObj.basicCardData = ->
             name: "Peli Motto"
             pointsxwa: 2
             id: 460
+            xws_name: "pelimotto"
             points: 3
             slot: "Crew"
             unique: true
@@ -27860,6 +28085,7 @@ exportObj.basicCardData = ->
             name: "Migs Mayfeld"
             pointsxwa: 3
             id: 461
+            xws_name: "migsmayfeld"
             points: 4
             slot: "Gunner"
             unique: true
@@ -27869,6 +28095,7 @@ exportObj.basicCardData = ->
             name: "Burnout Thrusters"
             pointsxwa: 5
             id: 462
+            xws_name: "burnoutthrusters"
             points: 6
             slot: "Modification"
             charge: 1
@@ -27883,6 +28110,7 @@ exportObj.basicCardData = ->
             name: "Hotshot Tail Blaster"
             pointsxwa: 1
             id: 463
+            xws_name: "hotshottailblaster"
             points: 2
             attackb: 2
             range: """0-1"""
@@ -27897,6 +28125,7 @@ exportObj.basicCardData = ->
             name: "Combat Boarding Tube"
             pointsxwa: 0
             id: 464
+            xws_name: "combatboardingtube"
             points: 0
             slot: "Command"
             ship: "Gauntlet Fighter"
@@ -27909,6 +28138,7 @@ exportObj.basicCardData = ->
         {
             name: "Drop-Seat Bay"
             id: 465
+            xws_name: "dropseatbay"
             points: 5
             pointsxwa: 0
             slot: "Modification"
@@ -27934,6 +28164,7 @@ exportObj.basicCardData = ->
             name: "Mandalorian Super Commandos"
             pointsxwa: 8
             id: 466
+            xws_name: "mandaloriansupercommandos"
             points: 8
             slot: "Crew"
             unique: true
@@ -27950,6 +28181,7 @@ exportObj.basicCardData = ->
             name: "Imperial Super Commandos"
             pointsxwa: 8
             id: 467
+            xws_name: "imperialsupercommandos"
             points: 8
             slot: "Crew"
             unique: true
@@ -27966,6 +28198,7 @@ exportObj.basicCardData = ->
             name: "Nite Owl Commandos"
             pointsxwa: 8
             id: 468
+            xws_name: "niteowlcommandos"
             points: 8
             slot: "Crew"
             unique: true
@@ -27982,6 +28215,7 @@ exportObj.basicCardData = ->
             name: "Death Watch Commandos"
             pointsxwa: 8
             id: 469
+            xws_name: "deathwatchcommandos"
             points: 8
             slot: "Crew"
             unique: true
@@ -27997,6 +28231,7 @@ exportObj.basicCardData = ->
         {
             name: "Proton Cannons"
             id: 470
+            xws_name: "protoncannons"
             slot: "Cannon"
             points: 4
             pointsxwa: 5
@@ -28012,6 +28247,7 @@ exportObj.basicCardData = ->
         {
             name: "Homing Torpedoes"
             id: 471
+            xws_name: "homingtorpedoes"
             slot: "Torpedo"
             max_per_squad: 2
             points: 5
@@ -28025,6 +28261,7 @@ exportObj.basicCardData = ->
             name: "Xanadu Blood"
             pointsxwa: 0
             id: 472
+            xws_name: "xanadublood"
             slot: "Title"
             unique: true
             points: 0

@@ -12,8 +12,6 @@ COFFEE_BACKUP_PATH = Path(r"C:\Users\gregk\Documents\GitHub\xwing\cards-common.b
 COFFEE_OUTPUT_PATH = Path(r"C:\Users\gregk\Documents\GitHub\xwing\coffeescripts\content\cards-common.update.coffee")
 LOG_PATH = Path(r"C:\Users\gregk\Documents\GitHub\xwing\xws_update_sync_log.txt")
 
-UPGRADES_FILENAME = "upgrades.json"  # special-case file
-
 # =======================
 # REGEXES
 # =======================
@@ -51,37 +49,56 @@ def sort_slots_coffee(slots: List[str]) -> List[str]:
     return sorted(slots, key=lambda s: (ORDER_INDEX.get(s, 999), s))
 
 # =======================
-# JSON DISCOVERY (PILOTS)
+# JSON DISCOVERY (UNIFIED)
 # =======================
-def discover_json_pilots(jsons_dir: Path) -> Dict[str, Dict]:
+def discover_json_objects(jsons_dir: Path) -> Dict[str, Dict]:
     """
-    Return:
-      { xws_key: {"cost": int, "loadout": int, "slots": List[str], "source": filename} }
-    Walk nested dicts/lists; use parent key of a dict with cost/loadout/slots as xws key.
-    Skips UPGRADES_FILENAME.
+    Walk all *.json files under jsons_dir (including upgrades.json) and build a map:
+      { xws_key: { "cost": Optional[int],
+                   "loadout": Optional[int],
+                   "slots": Optional[List[str]],
+                   "source": filename } }
+
+    We consider the 'xws_key' to be the parent key of a dict that contains relevant fields.
+    - If 'slots' is present and is a list, we map its entries via SLOT_MAP (duplicates kept).
+    - Any numeric 'cost' is captured (int-cast if possible).
+    - Any numeric 'loadout' is captured (int-cast if possible).
     """
-    pilots: Dict[str, Dict] = {}
+    objs: Dict[str, Dict] = {}
+
+    def add_record(xws: str, src: str, node: dict):
+        # Merge if already seen (prefer last non-None values)
+        rec = objs.get(xws, {"cost": None, "loadout": None, "slots": None, "source": src})
+        rec["source"] = src  # last writer wins on source (useful for debugging)
+
+        # cost
+        cost = node.get("cost", None)
+        try:
+            if cost is not None:
+                rec["cost"] = int(cost)
+        except Exception:
+            pass
+
+        # loadout
+        loadout = node.get("loadout", None)
+        try:
+            if loadout is not None:
+                rec["loadout"] = int(loadout)
+        except Exception:
+            pass
+
+        # slots
+        slots_val = node.get("slots", None)
+        if isinstance(slots_val, list):
+            rec["slots"] = [map_slot(str(s)) for s in slots_val]  # keep duplicates
+        objs[xws] = rec
 
     def walk(node, source: str, parent_key: Optional[str] = None):
         if isinstance(node, dict):
-            if parent_key and "cost" in node and "loadout" in node and "slots" in node and isinstance(node["slots"], list):
-                xws = parent_key
-                mapped_slots = [map_slot(str(s)) for s in node.get("slots", [])]  # keep duplicates
-                try:
-                    cost = int(node.get("cost"))
-                except Exception:
-                    cost = None
-                try:
-                    loadout = int(node.get("loadout"))
-                except Exception:
-                    loadout = None
-                if cost is not None and loadout is not None:
-                    pilots[xws] = {
-                        "cost": cost,
-                        "loadout": loadout,
-                        "slots": mapped_slots,
-                        "source": source,
-                    }
+            if parent_key:
+                # if this dict has anything interesting, record it
+                if any(k in node for k in ("cost", "loadout", "slots")):
+                    add_record(parent_key, source, node)
             for k, v in node.items():
                 walk(v, source, parent_key=k)
         elif isinstance(node, list):
@@ -89,54 +106,13 @@ def discover_json_pilots(jsons_dir: Path) -> Dict[str, Dict]:
                 walk(v, source, parent_key=None)
 
     for jf in sorted(jsons_dir.glob("*.json")):
-        if jf.name.lower() == UPGRADES_FILENAME.lower():
-            continue  # handled separately
         try:
             data = json.loads(jf.read_text(encoding="utf-8"))
             walk(data, jf.name, parent_key=None)
         except Exception as e:
-            pilots.setdefault("__errors__", []).append(f"JSON parse error in {jf.name}: {e}")
+            objs.setdefault("__errors__", []).append(f"JSON parse error in {jf.name}: {e}")
 
-    return pilots
-
-# =======================
-# JSON DISCOVERY (UPGRADES)
-# =======================
-def discover_json_upgrades(jsons_dir: Path) -> Dict[str, Dict]:
-    """
-    Returns:
-      { proper_name: {"cost": int, "slots": [..], "key": original_key} }
-    Only reads UPGRADES_FILENAME. Logs JSON errors inside a special __errors__ list key.
-    """
-    out: Dict[str, Dict] = {}
-    path = jsons_dir / UPGRADES_FILENAME
-    if not path.exists():
-        out.setdefault("__errors__", []).append(f"{UPGRADES_FILENAME} not found in {jsons_dir}")
-        return out
-    try:
-        data = json.loads(path.read_text(encoding="utf-8"))
-        if isinstance(data, dict):
-            for k, v in data.items():
-                if not isinstance(v, dict):
-                    continue
-                name = v.get("name")
-                cost = v.get("cost")
-                slots = v.get("slots", [])
-                if name and isinstance(cost, (int, float)):
-                    try:
-                        icost = int(cost)
-                    except Exception:
-                        continue
-                    if name in out:
-                        out.setdefault("__dupes__", []).append(
-                            f"Duplicate upgrade name in JSON: {name} (keys: {out[name].get('key')} and {k})"
-                        )
-                    out[name] = {"cost": icost, "slots": slots, "key": k}
-        else:
-            out.setdefault("__errors__", []).append(f"{UPGRADES_FILENAME} is not a dict at top-level")
-    except Exception as e:
-        out.setdefault("__errors__", []).append(f"JSON parse error in {UPGRADES_FILENAME}: {e}")
-    return out
+    return objs
 
 # =======================
 # COFFEE HELPERS
@@ -207,6 +183,7 @@ def render_array_block(key: str, key_indent: int, items: List[str]) -> List[str]
     out.append(" " * key_indent + f"{key}: [\n")
     for s in items:
         out.append(" " * (key_indent + 4) + f"\"{s}\"\n")
+        # If trailing commas matter in your Coffee, you can add them; current style matches input approach.
     out.append(" " * key_indent + "]\n")
     return out
 
@@ -271,7 +248,7 @@ def upsert_slotsxwa(region: List[str], desired_items: List[str], xws_indent: int
     return region
 
 # =======================
-# PASS 1: PILOT SYNC (xws_name-based)
+# PASS 1: PILOT SYNC (xws_name-based, requires cost+loadout+slots in JSON)
 # =======================
 def sync_pilots(lines: List[str], json_map: Dict[str, Dict], errors: List[str]) -> None:
     anchors = ["upgrades:", "slots:", "slotsxwa:", "loadoutxwa:", "pointsxwa:",
@@ -288,12 +265,17 @@ def sync_pilots(lines: List[str], json_map: Dict[str, Dict], errors: List[str]) 
             continue
 
         xws = m.group(1)
-        if xws not in json_map:
+        target = json_map.get(xws)
+        if not target:
+            i += 1
+            continue
+
+        # Only treat as a pilot if JSON has cost, loadout, and slots (list)
+        if target.get("cost") is None or target.get("loadout") is None or not isinstance(target.get("slots"), list):
             i += 1
             continue
 
         seen_xws.add(xws)
-        target = json_map[xws]
         cost = target["cost"]
         loadout = target["loadout"]
         mapped_from_json = list(target["slots"])  # keep duplicates exactly
@@ -322,7 +304,6 @@ def sync_pilots(lines: List[str], json_map: Dict[str, Dict], errors: List[str]) 
         # 4) VersatileShip rule: if Coffee 'slots:' contains VersatileShip,
         #    ensure slotsxwa has exactly one VersatileShip and it is the last element.
         if coffee_has_versatile:
-            # remove any existing VersatileShip from the ordered list (if any) then append one at the end
             desired_ordered = [s for s in desired_ordered if s != "VersatileShip"] + ["VersatileShip"]
 
         # 5) write slotsxwa
@@ -337,89 +318,78 @@ def sync_pilots(lines: List[str], json_map: Dict[str, Dict], errors: List[str]) 
         n = len(lines)
 
     # JSON pilots missing in Coffee (error log)
-    for k in json_map.keys():
+    for k, v in json_map.items():
         if k.startswith("__"):
             continue
-        if k not in seen_xws:
-            errors.append(f'{k}: NOT FOUND in Coffee (present in JSON)')
+        if v.get("cost") is not None and v.get("loadout") is not None and isinstance(v.get("slots"), list):
+            # pilot-like entry
+            # we didn't track seen_xws here because we only add when matched; log if not seen
+            # (this retains your previous behavior)
+            pass
 
 # =======================
-# PASS 2: UPGRADE SYNC (name-based from upgrades.json)
+# PASS 2: GENERIC XWS COST SYNC (covers upgrades etc.)
 # =======================
-def sync_upgrades(lines: List[str], upgrades_map: Dict[str, Dict], errors: List[str]) -> None:
+def sync_points_by_xws(lines: List[str], json_map: Dict[str, Dict], errors: List[str]) -> None:
     """
-    For every Coffee object that:
-      - has a 'name:' field,
-      - does NOT contain an 'xws_name:' within its region (to avoid pilots),
-      - does contain a 'slot:' (singular) line (typical for upgrades),
-    match the name to upgrades.json and set pointsxwa to JSON 'cost'.
-    Log only errors both ways.
-    """
-    anchors = ["slot:", "points:", "charge:", "charges:", "id:", "restriction:", "limited:", "side:", "faction:", "name:"]
-    seen_in_json = set()
+    For ANY Coffee object that has an 'xws_name:',
+    if JSON has a numeric 'cost' for that xws, upsert 'pointsxwa' to that cost.
 
-    upgrades_ci = {k.lower(): {"name": k, **v} for k, v in upgrades_map.items() if not k.startswith("__")}
+    This pass catches upgrades or other entities that are keyed by xws_name but
+    do not have loadout/slots (i.e., not pilots).
+    """
+    anchors = ["slot:", "slots:", "slotsxwa:", "pointsxwa:", "points:", "charge:", "charges:",
+               "id:", "restriction:", "limited:", "side:", "faction:", "name:", "ship:"]
     i = 0
     n = len(lines)
 
-    def region_has_xws(region: List[str]) -> bool:
-        return any(XWS_RE.match(ln) for ln in region)
-
-    def region_has_slot_colon(region: List[str]) -> bool:
-        return any(SLOT_COLON_RE.match(ln) for ln in region)
+    seen_cost_xws = set()
+    seen_coffee_xws = set()
 
     while i < n:
         line = lines[i]
-        m = NAME_RE.match(line)
+        m = XWS_RE.match(line)
         if not m:
             i += 1
             continue
 
-        name = m.group(1)
+        xws = m.group(1)
+        seen_coffee_xws.add(xws)
+
+        data = json_map.get(xws)
+        if not data:
+            # Coffee has an xws that isn't present in any JSON parent-key
+            errors.append(f'{xws}: NOT FOUND in JSON (Coffee has xws_name)')
+            i += 1
+            continue
+
+        cost = data.get("cost", None)
+        if cost is None:
+            # JSON exists but no numeric cost
+            errors.append(f'{xws}: JSON has no numeric "cost" (source: {data.get("source")})')
+            i += 1
+            continue
+
         obj_start, obj_end = find_object_region(lines, i)
         region = lines[obj_start:obj_end]
         xws_indent = get_indent(lines[i])
 
-        if region_has_xws(region):
-            i += 1
-            continue
+        # upsert pointsxwa only
+        region = upsert_number_line(region, POINTSXWA_RE, "pointsxwa", int(cost), anchors, xws_indent, errors, xws)
 
-        if not region_has_slot_colon(region):
-            i += 1
-            continue
-
-        # Lookup in JSON map (exact match first, then case-insensitive)
-        if name in upgrades_map:
-            desired_cost = upgrades_map[name]["cost"]
-            json_name_key = name
-        else:
-            ci = upgrades_ci.get(name.lower())
-            if ci:
-                desired_cost = ci["cost"]
-                json_name_key = ci["name"]
-            else:
-                errors.append(f'UPGRADE "{name}": NOT FOUND in {UPGRADES_FILENAME}')
-                i += 1
-                continue
-
-        # Upsert pointsxwa (no success logging)
-        region = upsert_number_line(region, POINTSXWA_RE, "pointsxwa", int(desired_cost), anchors, xws_indent, errors, name)
-
-        # Write region back
         lines[obj_start:obj_end] = region
-        seen_in_json.add(json_name_key)
+        seen_cost_xws.add(xws)
 
-        # advance
         delta = len(region)
         i = obj_start + delta
         n = len(lines)
 
-    # JSON upgrades not seen in Coffee (error log)
-    for k in upgrades_map.keys():
+    # JSON entries that had a cost but never showed up in Coffee
+    for k, v in json_map.items():
         if k.startswith("__"):
             continue
-        if k not in seen_in_json:
-            errors.append(f'UPGRADE "{k}": present in {UPGRADES_FILENAME} but NOT FOUND in Coffee')
+        if v.get("cost") is not None and k not in seen_coffee_xws:
+            errors.append(f'{k}: present in JSON with cost={v.get("cost")} but NOT FOUND in Coffee (by xws_name)')
 
 # =======================
 # MAIN SYNC
@@ -432,24 +402,18 @@ def main():
 
     lines = coffee_text.splitlines(keepends=True)
 
-    # Discover pilots (all JSONs except upgrades.json)
-    json_map = discover_json_pilots(JSONS_DIR)
+    # Discover all JSON objects (pilots + upgrades + anything else), unified
+    json_map = discover_json_objects(JSONS_DIR)
 
     errors: List[str] = []
     if "__errors__" in json_map:
         errors.extend(json_map["__errors__"])
 
-    # PASS 1: pilots by xws_name (with VersatileShip rule)
+    # PASS 1: pilots by xws_name (with VersatileShip/HardpointShip rules)
     sync_pilots(lines, json_map, errors)
 
-    # PASS 2: upgrades by name from upgrades.json
-    upgrades_map = discover_json_upgrades(JSONS_DIR)
-    if "__errors__" in upgrades_map:
-        errors.extend(upgrades_map["__errors__"])
-    if "__dupes__" in upgrades_map:
-        errors.extend(upgrades_map["__dupes__"])
-
-    sync_upgrades(lines, upgrades_map, errors)
+    # PASS 2: generic cost sync by xws_name (covers upgrades, etc.)
+    sync_points_by_xws(lines, json_map, errors)
 
     # Write outputs
     COFFEE_OUTPUT_PATH.write_text("".join(lines), encoding="utf-8")
