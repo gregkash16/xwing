@@ -1,5 +1,5 @@
 {
-    "chopper": {
+    "chopper-astromech": {
         "name": "“Chopper”",
         "cost": 3,
         "limited": 1,
@@ -47,7 +47,7 @@
             "Astromech"
         ]
     },
-    "r2d2": {
+    "r2d2-astromech-rebel": {
         "name": "R2-D2",
         "cost": 8,
         "limited": 1,
@@ -197,7 +197,7 @@
             "Astromech"
         ]
     },
-    "bb8": {
+    "bb8-astromech": {
         "name": "BB-8",
         "cost": 5,
         "limited": 1,
@@ -359,7 +359,7 @@
             "Astromech"
         ]
     },
-    "r1j5": {
+    "r1j5-astromech": {
         "name": "R1-J5",
         "cost": 5,
         "limited": 1,
@@ -1554,7 +1554,7 @@
             "Crew"
         ]
     },
-    "zeborrelios": {
+    "zeborrelios-crew": {
         "name": "“Zeb” Orrelios",
         "cost": 1,
         "limited": 1,
@@ -1593,7 +1593,7 @@
             "Crew"
         ]
     },
-    "4lom": {
+    "4lom-crew": {
         "name": "4-LOM",
         "cost": 5,
         "limited": 1,
@@ -1665,7 +1665,7 @@
             "Crew"
         ]
     },
-    "bobafett": {
+    "bobafett-crew": {
         "name": "Boba Fett",
         "cost": 7,
         "limited": 1,
@@ -1701,7 +1701,7 @@
             "Crew"
         ]
     },
-    "cadbane": {
+    "cadbane-crew": {
         "name": "Cad Bane",
         "cost": 3,
         "limited": 1,
@@ -1737,7 +1737,7 @@
             "Crew"
         ]
     },
-    "cassianandor": {
+    "cassianandor-crew": {
         "name": "Cassian Andor",
         "cost": 7,
         "limited": 1,
@@ -1755,7 +1755,7 @@
             "Crew"
         ]
     },
-    "chewbacca": {
+    "chewbacca-crew-rebel": {
         "name": "Chewbacca",
         "cost": 3,
         "limited": 1,
@@ -1791,7 +1791,7 @@
             "Crew"
         ]
     },
-    "cienaree": {
+    "cienaree-crew": {
         "name": "Ciena Ree",
         "cost": 2,
         "limited": 1,
@@ -1832,7 +1832,7 @@
             "Crew"
         ]
     },
-    "darthvader": {
+    "darthvader-crew-empire": {
         "name": "Darth Vader",
         "cost": 15,
         "limited": 1,
@@ -1953,7 +1953,7 @@
             "Crew"
         ]
     },
-    "grandinquisitor": {
+    "grandinquisitor-crew": {
         "name": "Grand Inquisitor",
         "cost": 10,
         "limited": 1,
@@ -1994,7 +1994,7 @@
             "Crew"
         ]
     },
-    "herasyndulla": {
+    "herasyndulla-crew": {
         "name": "Hera Syndulla",
         "cost": 3,
         "limited": 1,
@@ -2012,7 +2012,7 @@
             "Crew"
         ]
     },
-    "ig88d": {
+    "ig88d-crew": {
         "name": "IG-88D",
         "cost": 3,
         "limited": 1,
@@ -2097,7 +2097,7 @@
             "Crew"
         ]
     },
-    "kananjarrus": {
+    "kananjarrus-crew": {
         "name": "Kanan Jarrus",
         "cost": 10,
         "limited": 1,
@@ -2115,7 +2115,7 @@
             "Crew"
         ]
     },
-    "ketsuonyo": {
+    "ketsuonyo-crew": {
         "name": "Ketsu Onyo",
         "cost": 3,
         "limited": 1,
@@ -2133,7 +2133,7 @@
             "Crew"
         ]
     },
-    "kyloren": {
+    "kyloren-crew": {
         "name": "Kylo Ren",
         "cost": 7,
         "limited": 1,
@@ -2151,7 +2151,7 @@
             "Crew"
         ]
     },
-    "l337": {
+    "l337-crew": {
         "name": "L3-37 / + \nL3-37's Programming",
         "cost": 5,
         "limited": 1,
@@ -2187,7 +2187,7 @@
             "Crew"
         ]
     },
-    "landocalrissian": {
+    "landocalrissian-crew-rebel": {
         "name": "Lando Calrissian",
         "cost": 2,
         "limited": 1,
@@ -2205,7 +2205,7 @@
             "Crew"
         ]
     },
-    "lattsrazzi": {
+    "lattsrazzi-crew": {
         "name": "Latts Razzi",
         "cost": 4,
         "limited": 1,
@@ -2223,7 +2223,7 @@
             "Crew"
         ]
     },
-    "leiaorgana": {
+    "leiaorgana-crew-rebel": {
         "name": "Leia Organa",
         "cost": 7,
         "limited": 1,
@@ -2241,7 +2241,7 @@
             "Crew"
         ]
     },
-    "magvayarro": {
+    "magvayarro-crew": {
         "name": "Magva Yarro",
         "cost": 5,
         "limited": 1,
@@ -2259,7 +2259,7 @@
             "Crew"
         ]
     },
-    "maul": {
+    "maul-crew-scum": {
         "name": "Maul",
         "cost": 12,
         "limited": 1,
@@ -2321,7 +2321,7 @@
             "Crew"
         ]
     },
-    "niennunb": {
+    "niennunb-crew": {
         "name": "Nien Nunb",
         "cost": 4,
         "limited": 1,
@@ -2363,7 +2363,7 @@
             "Crew"
         ]
     },
-    "pettyofficerthanisson": {
+    "pettyofficerthanisson-crew": {
         "name": "Petty Officer Thanisson",
         "cost": 4,
         "limited": 1,
@@ -2417,7 +2417,7 @@
             "Crew"
         ]
     },
-    "sabinewren": {
+    "sabinewren-crew": {
         "name": "Sabine Wren",
         "cost": 6,
         "limited": 1,
@@ -2435,7 +2435,7 @@
             "Crew"
         ]
     },
-    "sawgerrera": {
+    "sawgerrera-crew": {
         "name": "Saw Gerrera",
         "cost": 9,
         "limited": 1,
@@ -2465,7 +2465,7 @@
             "Crew"
         ]
     },
-    "seventhsister": {
+    "seventhsister-crew": {
         "name": "Seventh Sister",
         "cost": 9,
         "limited": 1,
@@ -2539,7 +2539,7 @@
             "Crew"
         ]
     },
-    "unkarplutt": {
+    "unkarplutt-crew": {
         "name": "Unkar Plutt",
         "cost": 1,
         "limited": 1,
@@ -2557,7 +2557,7 @@
             "Crew"
         ]
     },
-    "zuckuss": {
+    "zuckuss-crew": {
         "name": "Zuckuss",
         "cost": 5,
         "limited": 1,
@@ -2629,7 +2629,7 @@
             "Crew"
         ]
     },
-    "rosetico": {
+    "rosetico-crew": {
         "name": "Rose Tico",
         "cost": 9,
         "limited": 1,
@@ -2666,7 +2666,7 @@
             "Crew"
         ]
     },
-    "countdooku": {
+    "countdooku-crew": {
         "name": "Count Dooku",
         "cost": 12,
         "limited": 1,
@@ -2684,7 +2684,7 @@
             "Crew"
         ]
     },
-    "generalgrievous": {
+    "generalgrievous-crew": {
         "name": "General Grievous",
         "cost": 5,
         "limited": 1,
@@ -2847,7 +2847,7 @@
             "Crew"
         ]
     },
-    "aaylasecura": {
+    "aaylasecura-crew": {
         "name": "Aayla Secura",
         "cost": 12,
         "limited": 1,
@@ -2865,7 +2865,7 @@
             "Crew"
         ]
     },
-    "agentterex": {
+    "agentterex-crew": {
         "name": "Agent Terex / + \nAgent Terex (Cyborg)",
         "cost": 7,
         "limited": 1,
@@ -2883,7 +2883,7 @@
             "Crew"
         ]
     },
-    "k2so": {
+    "k2so-crew": {
         "name": "K-2SO",
         "cost": 8,
         "limited": 1,
@@ -2901,7 +2901,7 @@
             "Crew"
         ]
     },
-    "plokoon": {
+    "plokoon-crew": {
         "name": "Plo Koon",
         "cost": 9,
         "limited": 1,
@@ -2931,7 +2931,7 @@
             "Crew"
         ]
     },
-    "kitfisto": {
+    "kitfisto-crew": {
         "name": "Kit Fisto",
         "cost": 8,
         "limited": 1,
@@ -2949,7 +2949,7 @@
             "Crew"
         ]
     },
-    "yoda": {
+    "yoda-crew": {
         "name": "Yoda",
         "cost": 12,
         "limited": 1,
@@ -3004,7 +3004,7 @@
             "Gunner"
         ]
     },
-    "commandermalarus": {
+    "commandermalarus-crew": {
         "name": "Commander Malarus / + \nCommander Malarus (Perfected)",
         "cost": 2,
         "limited": 1,
@@ -3064,7 +3064,7 @@
             "Crew"
         ]
     },
-    "hondoohnaka": {
+    "hondoohnaka-crew": {
         "name": "Hondo Ohnaka",
         "cost": 7,
         "limited": 1,
@@ -3076,7 +3076,7 @@
             "Crew"
         ]
     },
-    "jangofett": {
+    "jangofett-crew": {
         "name": "Jango Fett",
         "cost": 3,
         "limited": 1,
@@ -3095,7 +3095,7 @@
             "Crew"
         ]
     },
-    "zamwesell": {
+    "zamwesell-crew": {
         "name": "Zam Wesell",
         "cost": 9,
         "limited": 1,
@@ -3114,7 +3114,7 @@
             "Crew"
         ]
     },
-    "gamutkey": {
+    "gamutkey-crew": {
         "name": "Gamut Key",
         "cost": 5,
         "limited": 1,
@@ -3152,7 +3152,7 @@
             "Crew"
         ]
     },
-    "themandalorian": {
+    "themandalorian-crew": {
         "name": "The Mandalorian",
         "cost": 3,
         "limited": 1,
@@ -3287,7 +3287,7 @@
             "Crew"
         ]
     },
-    "rookkast": {
+    "rookkast-crew": {
         "name": "Rook Kast",
         "cost": 8,
         "limited": 1,
@@ -3305,7 +3305,7 @@
             "Crew"
         ]
     },
-    "obiwankenobi": {
+    "obiwankenobi-crew": {
         "name": "Obi-Wan Kenobi",
         "cost": 11,
         "limited": 1,
@@ -3323,7 +3323,7 @@
             "Crew"
         ]
     },
-    "bokatankryze": {
+    "bokatankryze-crew": {
         "name": "Bo-Katan Kryze",
         "cost": 6,
         "limited": 1,
@@ -3434,7 +3434,7 @@
             "Crew"
         ]
     },
-    "fennrau": {
+    "fennrau-crew": {
         "name": "Fenn Rau",
         "cost": 7,
         "limited": 1,
@@ -3453,7 +3453,7 @@
             "Crew"
         ]
     },
-    "garsaxon": {
+    "garsaxon-crew": {
         "name": "Gar Saxon",
         "cost": 5,
         "limited": 1,
@@ -3471,7 +3471,7 @@
             "Crew"
         ]
     },
-    "previzsla": {
+    "previzsla-crew": {
         "name": "Pre Vizsla",
         "cost": 7,
         "limited": 1,
@@ -3529,7 +3529,7 @@
             "Crew"
         ]
     },
-    "captainhark": {
+    "captainhark-crew": {
         "name": "Captain Hark",
         "cost": 3,
         "limited": 1,
@@ -4169,7 +4169,7 @@
             "Gunner"
         ]
     },
-    "bossk": {
+    "bossk-gunner": {
         "name": "Bossk",
         "cost": 4,
         "limited": 1,
@@ -4187,7 +4187,7 @@
             "Gunner"
         ]
     },
-    "dengar": {
+    "dengar-gunner": {
         "name": "Dengar",
         "cost": 6,
         "limited": 1,
@@ -4205,7 +4205,7 @@
             "Gunner"
         ]
     },
-    "ezrabridger": {
+    "ezrabridger-gunner": {
         "name": "Ezra Bridger",
         "cost": 9,
         "limited": 1,
@@ -4259,7 +4259,7 @@
             "Gunner"
         ]
     },
-    "hansolo": {
+    "hansolo-gunner-rebel": {
         "name": "Han Solo",
         "cost": 10,
         "limited": 1,
@@ -4313,7 +4313,7 @@
             "Gunner"
         ]
     },
-    "lukeskywalker": {
+    "lukeskywalker-gunner": {
         "name": "Luke Skywalker",
         "cost": 12,
         "limited": 1,
@@ -4425,7 +4425,7 @@
             "Gunner"
         ]
     },
-    "paigetico": {
+    "paigetico-gunner": {
         "name": "Paige Tico",
         "cost": 6,
         "limited": 1,
@@ -4497,7 +4497,7 @@
             "Gunner"
         ]
     },
-    "ahsokatano": {
+    "ahsokatano-gunner": {
         "name": "Ahsoka Tano",
         "cost": 11,
         "limited": 1,
@@ -4600,7 +4600,7 @@
             "Gunner"
         ]
     },
-    "dt798": {
+    "dt798-gunner": {
         "name": "DT-798",
         "cost": 3,
         "limited": 1,
