@@ -11881,7 +11881,7 @@ exportObj.basicCardData = ->
             skill: 2
             points: 4
             loadout: 15
-            pointsxwa: 9
+            pointsxwa: 10
             loadoutxwa: 16
             slots: [
                 "Talent"
