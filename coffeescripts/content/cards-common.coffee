@@ -11662,7 +11662,7 @@ exportObj.basicCardData = ->
             charge: 1
             points: 4
             loadout: 9
-            pointsxwa: 11
+            pointsxwa: 12
             loadoutxwa: 12
             keyword: ["Clone"]
             slots: [
@@ -25141,7 +25141,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Battle Meditation"
-            pointsxwa: 2
+            pointsxwa: 6
             max_per_squad: 3
             id: 212
             xws_name: "battlemeditation"
