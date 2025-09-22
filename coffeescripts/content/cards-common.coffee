@@ -7293,7 +7293,7 @@ exportObj.basicCardData = ->
             points: 4
             loadout: 12
             pointsxwa: 9
-            loadoutxwa: 7
+            loadoutxwa: 5
             slots: [
                 "Crew"
                 "Crew"
@@ -9905,7 +9905,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Astromech"
                 "Gunner"
-                "Gunner"
+                "Crew"
                 "Torpedo"
                 "Modification"
             ]
@@ -11028,8 +11028,8 @@ exportObj.basicCardData = ->
             skill: 3
             points: 4
             loadout: 4
-            pointsxwa: 8
-            loadoutxwa: 10
+            pointsxwa: 9
+            loadoutxwa: 12
             keyword: ["Clone"]
             slots: [
                 "Missile"
@@ -11037,6 +11037,7 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Talent"
+                "Missile"
                 "Missile"
                 "Modification"
                 "Modification"
@@ -11539,8 +11540,8 @@ exportObj.basicCardData = ->
             skill: 5
             points: 4
             loadout: 7
-            pointsxwa: 12
-            loadoutxwa: 12
+            pointsxwa: 11
+            loadoutxwa: 8
             keyword: ["Clone"]
             slots: [
                 "Talent"
@@ -11556,7 +11557,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Astromech"
                 "Gunner"
-                "Gunner"
+                "Crew"
                 "Torpedo"
                 "Modification"
             ]
@@ -11587,7 +11588,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Gunner"
-                "Gunner"
+                "Crew"
                 "Torpedo"
                 "Modification"
             ]
@@ -11616,7 +11617,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Astromech"
                 "Gunner"
-                "Gunner"
+                "Crew"
                 "Torpedo"
                 "Modification"
             ]
@@ -11644,7 +11645,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Astromech"
                 "Gunner"
-                "Gunner"
+                "Crew"
                 "Torpedo"
                 "Modification"
             ]
@@ -11662,7 +11663,7 @@ exportObj.basicCardData = ->
             points: 4
             loadout: 9
             pointsxwa: 11
-            loadoutxwa: 9
+            loadoutxwa: 12
             keyword: ["Clone"]
             slots: [
                 "Talent"
@@ -11676,7 +11677,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Astromech"
                 "Gunner"
-                "Gunner"
+                "Crew"
                 "Torpedo"
                 "Modification"
             ]
@@ -13462,8 +13463,8 @@ exportObj.basicCardData = ->
             ship: "Xi-class Light Shuttle"
             points: 4
             loadout: 10
-            pointsxwa: 8
-            loadoutxwa: 8
+            pointsxwa: 9
+            loadoutxwa: 13
             slots: [
                 "Tech"
                 "Tech"
@@ -13819,8 +13820,8 @@ exportObj.basicCardData = ->
             ship: "LAAT/i Gunship"
             points: 6
             loadout: 20
-            pointsxwa: 11
-            loadoutxwa: 8
+            pointsxwa: 10
+            loadoutxwa: 5
             keyword: ["Clone"]
             slots: [
                 "Sensor"
@@ -13838,6 +13839,7 @@ exportObj.basicCardData = ->
                 "Gunner"
                 "Gunner"
                 "Torpedo"
+                "Missile"
                 "Missile"
                 "Modification"
             ]
@@ -13876,6 +13878,7 @@ exportObj.basicCardData = ->
                 "Gunner"
                 "Torpedo"
                 "Missile"
+                "Missile"
                 "Modification"
             ]
         }
@@ -13912,6 +13915,7 @@ exportObj.basicCardData = ->
                 "Gunner"
                 "Gunner"
                 "Torpedo"
+                "Missile"
                 "Missile"
                 "Modification"
             ]
@@ -16272,7 +16276,7 @@ exportObj.basicCardData = ->
             points: 3
             loadout: 7
             pointsxwa: 10
-            loadoutxwa: 14
+            loadoutxwa: 12
             slots: [
                 "Talent"
                 "Tech"
@@ -16286,6 +16290,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Gunner"
+                "Missile"
                 "Missile"
                 "Device"
                 "Device"
@@ -16305,7 +16310,7 @@ exportObj.basicCardData = ->
             points: 3
             loadout: 8
             pointsxwa: 9
-            loadoutxwa: 12
+            loadoutxwa: 9
             slots: [
                 "Tech"
                 "Torpedo"
@@ -16318,6 +16323,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Talent"
                 "Gunner"
+                "Missile"
                 "Missile"
                 "Device"
                 "Device"
@@ -16350,6 +16356,7 @@ exportObj.basicCardData = ->
             slotsxwa: [
                 "Gunner"
                 "Missile"
+                "Torpedo"
                 "Device"
                 "Device"
                 "Modification"
@@ -19918,6 +19925,7 @@ exportObj.basicCardData = ->
                 "Gunner"
                 "Torpedo"
                 "Missile"
+                "Missile"
                 "Modification"
             ]
             applies_condition: 'Sickening Maneuver'.canonicalize()
@@ -20021,8 +20029,8 @@ exportObj.basicCardData = ->
             skill: 5
             points: 3
             loadout: 7
-            pointsxwa: 10
-            loadoutxwa: 14
+            pointsxwa: 9
+            loadoutxwa: 10
             slots: [
                 "Talent"
                 "Tech"
@@ -23636,7 +23644,7 @@ exportObj.basicCardData = ->
             xws_name: "bistan"
             slot: "Gunner"
             points: 8
-            pointsxwa: 15
+            pointsxwa: 16
             unique: true
             faction: "Rebel Alliance"
         }
@@ -25133,7 +25141,8 @@ exportObj.basicCardData = ->
         }
         {
             name: "Battle Meditation"
-            pointsxwa: 6
+            pointsxwa: 2
+            max_per_squad: 3
             id: 212
             xws_name: "battlemeditation"
             faction: "Galactic Republic"
@@ -25650,6 +25659,7 @@ exportObj.basicCardData = ->
             slot: "Talent"
             points: 9
             pointsxwa: 7
+            max_per_squad: 3
             attack: 2
             range: """2"""
             rangebonus: true
@@ -26584,7 +26594,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Kit Fisto"
-            pointsxwa: 8
+            pointsxwa: 9
             id: 327
             xws_name: "kitfisto-crew"
             slot: "Crew"
