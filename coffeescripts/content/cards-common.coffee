@@ -16405,7 +16405,7 @@ exportObj.basicCardData = ->
             points: 4
             loadout: 8
             pointsxwa: 9
-            loadoutxwa: 10
+            loadoutxwa: 9
             slots: [
                 "Tech"
                 "Tech"
@@ -16416,6 +16416,7 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Gunner"
+                "Missile"
                 "Missile"
                 "Device"
                 "Device"
