@@ -3346,7 +3346,7 @@ exportObj.basicCardData = ->
             points: 6
             loadout: 10
             pointsxwa: 15
-            loadoutxwa: 12
+            loadoutxwa: 15
             slots: [
                 "Talent"
                 "Crew"
@@ -15593,8 +15593,8 @@ exportObj.basicCardData = ->
             recurring: 1
             points: 4
             loadout: 8
-            pointsxwa: 10
-            loadoutxwa: 17
+            pointsxwa: 8
+            loadoutxwa: 7
             slots: [
                 "Talent"
                 "Crew"
@@ -15730,8 +15730,8 @@ exportObj.basicCardData = ->
             skill: 5
             points: 4
             loadout: 9
-            pointsxwa: 9
-            loadoutxwa: 10
+            pointsxwa: 10
+            loadoutxwa: 16
             charge: 1
             recurring: 1
             slots: [
@@ -15931,7 +15931,7 @@ exportObj.basicCardData = ->
             points: 3
             loadout: 8
             pointsxwa: 9
-            loadoutxwa: 17
+            loadoutxwa: 15
             slots: [
                 "Tech"
                 "Turret"
@@ -16025,8 +16025,8 @@ exportObj.basicCardData = ->
             skill: 2
             points: 4
             loadout: 4
-            pointsxwa: 8
-            loadoutxwa: 10
+            pointsxwa: 9
+            loadoutxwa: 14
             slots: [
                 "Tech"
                 "Turret"
