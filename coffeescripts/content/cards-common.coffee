@@ -18338,12 +18338,12 @@ exportObj.basicCardData = ->
             loadoutxwa: 0
             force: 3
             keyword: ["Dark Side", "Sith"]
-            ship_override:
+            ship_override: 
                 shields: 3
-                upgrades: [
-                    "Marksmanship"
-                    "Hate"
-                    "Afterburners"
+            upgrades: [
+                "Marksmanship"
+                "Hate"
+                "Afterburners"
                 ]
         }
 

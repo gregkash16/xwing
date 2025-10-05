@@ -14670,11 +14670,11 @@ exportObj.basicCardData = function() {
         keyword: ["Dark Side",
       "Sith"],
         ship_override: {
-          shields: 3,
-          upgrades: ["Marksmanship",
+          shields: 3
+        },
+        upgrades: ["Marksmanship",
       "Hate",
       "Afterburners"]
-        }
       },
       {
         name: '"Backstabber" (BoY)',
