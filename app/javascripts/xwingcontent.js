@@ -2406,6 +2406,7 @@ exportObj.basicCardData = function() {
       "Modification"],
         slotsxwa: ["Talent",
       "Crew",
+      "Modification",
       "Modification"]
       },
       {
@@ -2424,8 +2425,10 @@ exportObj.basicCardData = function() {
       "Crew",
       "Crew",
       "Modification"],
-        slotsxwa: ["Crew",
-      "Modification"]
+        slotsxwa: ["Talent",
+      "Crew",
+      "Modification",
+      "Modifcation"]
       },
       {
         name: "Kashyyyk Defender",
@@ -2441,6 +2444,7 @@ exportObj.basicCardData = function() {
         slots: ["Crew",
       "Modification"],
         slotsxwa: ["Crew",
+      "Modification",
       "Modification"]
       },
       {
@@ -3580,8 +3584,8 @@ exportObj.basicCardData = function() {
         skill: 4,
         points: 7,
         loadout: 18,
-        pointsxwa: 16,
-        loadoutxwa: 9,
+        pointsxwa: 15,
+        loadoutxwa: 8,
         slots: ["Talent",
       "Cannon",
       "Missile",
@@ -3610,7 +3614,7 @@ exportObj.basicCardData = function() {
         points: 7,
         loadout: 16,
         pointsxwa: 16,
-        loadoutxwa: 10,
+        loadoutxwa: 13,
         keyword: ["Bounty Hunter"],
         slots: ["Talent",
       "Cannon",
@@ -8595,7 +8599,7 @@ exportObj.basicCardData = function() {
         points: 5,
         loadout: 20,
         pointsxwa: 9,
-        loadoutxwa: 6,
+        loadoutxwa: 7,
         keyword: ["Light Side"],
         slots: ["Talent",
       "Sensor",
@@ -12187,7 +12191,7 @@ exportObj.basicCardData = function() {
         points: 4,
         loadout: 8,
         pointsxwa: 10,
-        loadoutxwa: 6,
+        loadoutxwa: 4,
         slots: ["Talent",
       "Modification",
       "Configuration"],
@@ -18826,7 +18830,7 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Jabba the Hutt",
-        pointsxwa: 10,
+        pointsxwa: 11,
         id: 39,
         xws_name: "jabbathehutt",
         slot: "Crew",
@@ -18894,7 +18898,7 @@ exportObj.basicCardData = function() {
       },
       {
         name: "Lando Calrissian (Scum)",
-        pointsxwa: 6,
+        pointsxwa: 7,
         id: 45,
         xws_name: "landocalrissian-crew",
         slot: "Crew",

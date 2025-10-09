@@ -3660,6 +3660,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Crew"
                 "Modification"
+                "Modification"
             ]
         }
 
@@ -3682,8 +3683,10 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
             slotsxwa: [
+                "Talent"
                 "Crew"
                 "Modification"
+                "Modifcation"
             ]
         }
 
@@ -3704,6 +3707,7 @@ exportObj.basicCardData = ->
             ]
             slotsxwa: [
                 "Crew"
+                "Modification"
                 "Modification"
             ]
         }
@@ -5052,8 +5056,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 7
             loadout: 18
-            pointsxwa: 16
-            loadoutxwa: 9
+            pointsxwa: 15
+            loadoutxwa: 8
             slots: [
                 "Talent"
                 "Cannon"
@@ -5087,7 +5091,7 @@ exportObj.basicCardData = ->
             points: 7
             loadout: 16
             pointsxwa: 16
-            loadoutxwa: 10
+            loadoutxwa: 13
             keyword: ["Bounty Hunter"]
             slots: [
                 "Talent"
@@ -11080,7 +11084,7 @@ exportObj.basicCardData = ->
             points: 5
             loadout: 20
             pointsxwa: 9
-            loadoutxwa: 6
+            loadoutxwa: 7
             keyword: ["Light Side"]
             slots: [
                 "Talent"
@@ -15377,7 +15381,7 @@ exportObj.basicCardData = ->
             points: 4
             loadout: 8
             pointsxwa: 10
-            loadoutxwa: 6
+            loadoutxwa: 4
             slots: [
                 "Talent"
                 "Modification"
@@ -23229,7 +23233,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Jabba the Hutt"
-            pointsxwa: 10
+            pointsxwa: 11
             id: 39
             xws_name: "jabbathehutt"
             slot: "Crew"
@@ -23297,7 +23301,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Lando Calrissian (Scum)"
-            pointsxwa: 6
+            pointsxwa: 7
             id: 45
             xws_name: "landocalrissian-crew"
             slot: "Crew"
