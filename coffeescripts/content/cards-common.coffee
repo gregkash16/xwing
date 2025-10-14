@@ -7403,7 +7403,7 @@ exportObj.basicCardData = ->
             points: 4
             loadout: 12
             pointsxwa: 8
-            loadoutxwa: 10
+            loadoutxwa: 9
             slots: [
                 "Talent"
                 "Turret"
@@ -7556,8 +7556,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 7
             loadout: 10
-            pointsxwa: 18
-            loadoutxwa: 16
+            pointsxwa: 17
+            loadoutxwa: 12
             slots: [
                 "Talent"
                 "Sensor"
@@ -8445,7 +8445,7 @@ exportObj.basicCardData = ->
             points: 2
             loadout: 0
             pointsxwa: 6
-            loadoutxwa: 5
+            loadoutxwa: 4
             slots: [
                 "Talent"
                 "Modification"
@@ -17618,7 +17618,7 @@ exportObj.basicCardData = ->
             points: 4
             loadout: 5
             pointsxwa: 9
-            loadoutxwa: 8
+            loadoutxwa: 7
             slots: [
                 "Cannon"
                 "Cannon"
@@ -17682,8 +17682,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 4
             loadout: 11
-            pointsxwa: 9
-            loadoutxwa: 10
+            pointsxwa: 10
+            loadoutxwa: 12
             chassis: "Networked Calculations"
             keyword: ["Droid"]
             slots: [
@@ -17711,8 +17711,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 4
             loadout: 11
-            pointsxwa: 9
-            loadoutxwa: 9
+            pointsxwa: 10
+            loadoutxwa: 11
             chassis: "Networked Calculations"
             keyword: ["Droid"]
             slots: [
@@ -17740,8 +17740,8 @@ exportObj.basicCardData = ->
             skill: 1
             points: 4
             loadout: 12
-            pointsxwa: 10
-            loadoutxwa: 11
+            pointsxwa: 9
+            loadoutxwa: 7
             chassis: "Networked Calculations"
             keyword: ["Droid"]
             slots: [
@@ -17798,7 +17798,7 @@ exportObj.basicCardData = ->
             points: 4
             loadout: 6
             pointsxwa: 9
-            loadoutxwa: 11
+            loadoutxwa: 8
             chassis: "Networked Calculations"
             keyword: ["Droid"]
             slots: [
@@ -19353,7 +19353,7 @@ exportObj.basicCardData = ->
             recurring: 1
             points: 7
             loadout: 25
-            pointsxwa: 19
+            pointsxwa: 20
             loadoutxwa: 24
             slots: [
                 "Talent"
@@ -21150,7 +21150,7 @@ exportObj.basicCardData = ->
             ship: "TIE/d Defender"
             skill: 6
             points: 7
-            pointsxwa: 19
+            pointsxwa: 20
             loadoutxwa: 0
             chassis: "Chiss Engineering"
             ship_override:
@@ -21233,7 +21233,7 @@ exportObj.basicCardData = ->
             skill: 6
             charge: 2
             points: 5
-            pointsxwa: 13
+            pointsxwa: 14
             loadoutxwa: 0
             chassis: "Sensitive Controls"
             upgrades: [
@@ -22688,7 +22688,7 @@ exportObj.basicCardData = ->
             ship: "Rogue-class Starfighter"
             skill: 4
             points: 4
-            pointsxwa: 10
+            pointsxwa: 11
             loadoutxwa: 0
             charge: 2
             recurring: 1
