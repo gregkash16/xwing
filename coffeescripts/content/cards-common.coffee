@@ -4341,7 +4341,7 @@ exportObj.basicCardData = ->
             points: 7
             loadout: 16
             pointsxwa: 17
-            loadoutxwa: 20
+            loadoutxwa: 22
             keyword: ["Bounty Hunter","Droid"]
             slots: [
                 "Talent"
@@ -4376,7 +4376,7 @@ exportObj.basicCardData = ->
             points: 7
             loadout: 16
             pointsxwa: 16
-            loadoutxwa: 16
+            loadoutxwa: 18
             keyword: ["Bounty Hunter","Droid"]
             slots: [
                 "Talent"
@@ -4411,7 +4411,7 @@ exportObj.basicCardData = ->
             points: 7
             loadout: 16
             pointsxwa: 16
-            loadoutxwa: 16
+            loadoutxwa: 18
             keyword: ["Bounty Hunter","Droid"]
             slots: [
                 "Talent"
@@ -4446,7 +4446,7 @@ exportObj.basicCardData = ->
             points: 6
             loadout: 13
             pointsxwa: 15
-            loadoutxwa: 14
+            loadoutxwa: 16
             keyword: ["Bounty Hunter","Droid"]
             slots: [
                 "Talent"
@@ -6693,7 +6693,7 @@ exportObj.basicCardData = ->
             points: 5
             loadout: 14
             pointsxwa: 10
-            loadoutxwa: 14
+            loadoutxwa: 13
             slots: [
                 "Talent"
                 "Sensor"
@@ -7296,8 +7296,8 @@ exportObj.basicCardData = ->
             skill: 2
             points: 4
             loadout: 12
-            pointsxwa: 9
-            loadoutxwa: 5
+            pointsxwa: 10
+            loadoutxwa: 9
             slots: [
                 "Crew"
                 "Crew"
@@ -8856,8 +8856,8 @@ exportObj.basicCardData = ->
             skill: 5
             points: 7
             loadout: 25
-            pointsxwa: 20
-            loadoutxwa: 23
+            pointsxwa: 19
+            loadoutxwa: 21
             force: 2
             slots: [
                 "Force"
