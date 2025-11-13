@@ -4320,7 +4320,7 @@ exportObj.basicCardData = ->
             ship: "Lancer-Class Pursuit Craft"
             skill: 5
             points: 16
-            loadout: 15
+            loadout: 16
             keyword: ["Bounty Hunter","Mandalorian"]
             slots: [
                 "Talent"
