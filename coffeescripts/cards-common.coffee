@@ -15545,7 +15545,7 @@ exportObj.basicCardData = ->
             ]
         }
 
-        #tu dodaje moje proby stwozenia nowego pilota
+        
         {
             name: "Hera Syndulla (LaR)"
             id: 732
@@ -21553,7 +21553,6 @@ exportObj.basicCardData = ->
             charge: 2
             recurring: 1
         }
-        #tu dodaje nowe upgrady
         
         {
             name: "Ahsoka Tano (LaR)"
@@ -21751,7 +21750,6 @@ exportObj.basicCardData = ->
         {
             name: "Parting Gift (LaR)"
             id: 635
-            #id: 620
             slot: "Talent"
             points: 2
         }

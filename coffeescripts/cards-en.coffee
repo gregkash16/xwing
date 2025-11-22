@@ -234,7 +234,7 @@ exportObj.cardLoaders.English = () ->
       # rename all ships back to their original name. Otherwise translations would stick when changing back to english. 
 
     pilot_translations =
-#tu dodajje moja probe dodania nowego pilota (nowa hera)
+
 
         "Hera Syndulla (LaR)":
            display_name: """Hera Syndulla (LaR)"""
@@ -262,79 +262,7 @@ exportObj.cardLoaders.English = () ->
          "DIS-L9B2 (LaR)":
             display_name: """DIS-L9B2 (LaR)"""
             text: """At the start of the Engagment Phase, if there is an enemy ship in your %BULLSEYEARC%, spend 1%CHARGE%.%LINEBREAK%During the Engagment Phase, if your %CHARGE% is active, treat your initiative value as 1."""
-      ###
-         "Ahsoka Tano (LaR)":
-            display_name: """Ahsoka Tano (LaR)"""
-            text: """Before you activate, you may spend 1%FORCE% to ignore obstacles until the end of this phase. If you do, and you move through an obstacle, you may acquire a lock on an enemy ship in your %FRONTARC% at range 1."""  
-         
-         "Grand Admiral Thrawn (LaR)":
-            display_name: """Grand Admiral Thrawn (LaR)"""
-            text: """<strong>Setup:</strong> Start in reserve. %LINEBREAK%At the start of the round, if all %CHARGE% in this upgrade are inactive, you <strong>must</strong> deploy, placing yourself within range 1 of any table edge. After you deploy this way, you may coordinate up to 2 friendly ships at range 1-3.""" 
-         "Fennec Shand (LaR)":
-            display_name: """Fennec Shand (LaR)"""
-            text: """After you fully execute a maneuver, or preform a %BARRELROLL% or %BOOST%, you may spend 1 %CHARGE%. If you do, choose an enemy ship in your %BULLSEYEARC%. That ship gains 1 strain token and you may acquire a lock on it.""" 
-         "Zori Bliss (LaR)":
-            display_name: """Zori Bliss (LaR)"""
-            text: """After a jammed enemy ship at range 1-2 removes a green token, you may spend 1 %CHARGE% to gain a matching token.""" 
-         "Wedge Antilles (LaR)":
-            display_name: """Wedge Antilles (LaR)"""
-            text: """While you preform a %TURRETARC% attack, if you are not in the defender's firing arc, the defender rolls 1 fewer defense die.""" 
-         "Captive (LaR)":
-            display_name: """Captive (LaR)"""
-            text: """While you defend, if the attacker modifies their dice, you may spend 1 %CHARGE%. If you do, the attacker gains 1 stress token.""" 
-         "Gravitic Well (LaR)":
-            display_name: """Gravitic Well (LaR)"""
-            text: """At the start of the Engament Phase, if you are tractored, each other small ship at range 0-1 gains a strain token. %LINEBREAK%Replace any 'if the defender is tractored' in your pilot ability with 'if you are tractored'.""" 
-         "R7-T1 (LaR)":
-            display_name: """R7-T1 (LaR)"""
-            text: """<i class = flavor_text> flavor text!</i>""" 
-         "Modified R4-P Unit (LaR)":
-            display_name: """Modified R4-P Unit (LaR)"""
-            text: """Before you execute a red maneuver, you may spend 1 %CHARGE%. If you do, while you execute that maneuver, reduce it's difficulty.""" 
-         "Flight-Assist Astromech (LaR)":
-            display_name: """Flight-Assist Astromech (LaR)"""
-            text: """While you preform a white %BOOST% or %BARRELROLL% action, you may spend 1 %CHARGE%. If you do, treat the action as red, use a speed 2 template while preforming the action.""" 
-         
-         "Unhinged Astromech (LaR)":
-            display_name: """Unhinged Astromech (LaR)"""
-            text: """Decrease the difficulty of your speed 3 basic maneuvers (%TURNLEFT%, %BANKLEFT%, %STRAIGHT%, %BANKRIGHT%, %TURNRIGHT%).""" 
-         "Roiling Anger (LaR)":
-            display_name: """Roiling Anger (LaR)"""
-            text: """At the start of the Engagment Phase, if you are in an enemy ship's %FRONTARC%, you may gain 1 strain token to recover 1%FORCE%.""" 
-         "Seeker Missiles (LaR)":
-            display_name: """Seeker Missiles (LaR)"""
-            text: """<strong>Attack (%LOCK%):</strong> Spend 1 %CHARGE%. During the Modify Attack Dice step, you may spend up to 2 additional %CHARGE%. Change 1 %FOCUS% result to a %HIT% result for each %CHARGE% spent this way.""" 
-         "Retrofitted Autothrusters (LaR)":
-            display_name: """Retrofitted Autothrusters (LaR)"""
-            text: """After you preform a speed 3 turn [%TURNLEFT% or %TURNRIGHT%], bank [%BANKLEFT% or %BANKRIGHT%], Talon Roll [%TROLLLEFT% or %TROLLRIGHT%] or Segnor's Loop [%SLOOPLEFT% or %SLOOPRIGHT%] maneuver, you may spend 1 %CHARGE% to preform a %BARRELROLL% action, even while stressed.""" 
-         "Targeting Matrix (LaR)":
-            display_name: """Targeting Matrix (LaR)"""
-            text: """While attacking, you may spend 1%FOCUS% result at the end of the Neutralize Results step. If you do, after the attack is resolved, the defender gains a strain token."""
-         "Automated Loaders (LaR)":
-            display_name: """Automated Loaders (LaR)"""
-            text: """After you preform a primary attack, you may spend 1 %CHARGE% to preform a %RELOAD% action.""" 
-         "Parting Gift (LaR)":
-            display_name: """Parting Gift (LaR)"""
-            text: """When you are destroyed, before you are removed, you may spend 1 %CHARGE% on an equipped %PAYLOAD% upgrade to drop or launch a bomb using a speed 1 straight or bank [%BANKLEFT%, %STRAIGHT%, %BANKRIGHT%] template.""" 
-         "Blindspot Targeter (LaR)":
-            display_name: """Blindspot Targeter (LaR)"""
-            text: """While you preform a primary attack, if you are not in the defender's firing arc, you may change 1 %FOCUS% result into a %HIT% result.""" 
-         "Targeting Relay (LaR)":
-            display_name: """Targeting Relay (LaR)"""
-            text: """After a friendly ship acquires a lock on an enemy ship at range 0-1 of you, you may spend 1%CHARGE% and gain a stress token. If you do, that friendly ship may gain a calculate token.""" 
-         "Vulnerability Scanner (LaR)":
-            display_name: """Vulnerability Scanner (LaR)"""
-            text: """While preforming a primary attack, if the defender does not have any green tokens, you may reroll 1 attack die.""" 
-         "Winged Reversal (LaR)":
-            display_name: """Winged Reversal (LaR)"""
-            text: """After you reveal a turn [%TURNLEFT% or %TURNRIGHT%] maneuver, you may spend 1 %CHARGE%, gain 1 strain token and increase it's difficulty. If you do, preform that maneuver as a Tallon Roll [%TROLLLEFT% or %TROLLRIGHT%] maneuver in the same direction instead.""" 
-         "Precision Tuned Cannons (LaR)":
-            display_name: """Precision Tuned Cannons (LaR)"""
-            text: """<strong>Attack:</strong> If the defender is in your %BULLSEYEARC%, add 1%FOCUS% result.""" 
-         "Burst Laser Turret (LaR)":
-            display_name: """Burst Laser Turret (LaR)"""
-            text: """<strong>Attack:</strong> Spend 1%CHARGE%. You may spend 1%CHARGE% to roll 1 additional attack die, to a maximum of 3.""" 
-      ###
+      
 
 
         "0-66":
@@ -3464,7 +3392,7 @@ exportObj.cardLoaders.English = () ->
          
          
          "Grand Admiral Thrawn (LaR)":
-           #display_name: """Grand Admiral Thrawn (LaR)"""
+           display_name: """Grand Admiral Thrawn (LaR)"""
            text: """<strong>Setup:</strong> Start in reserve. %LINEBREAK%At the start of the round, if all %CHARGE% in this upgrade are inactive, you <strong>must</strong> deploy, placing yourself within range 1 of any table edge. After you deploy this way, you may coordinate up to 2 friendly ships at range 1-3."""
          
          
@@ -3474,7 +3402,7 @@ exportObj.cardLoaders.English = () ->
          
          
          "Zori Bliss (LaR)":
-           #display_name: """Zori Bliss (LaR)"""
+           display_name: """Zori Bliss (LaR)"""
            text: """After a jammed enemy ship at range 1-2 removes a green token, you may spend 1 %CHARGE% to gain a matching token.""" 
          
          "Wedge Antilles (LaR)":
@@ -3486,7 +3414,7 @@ exportObj.cardLoaders.English = () ->
            text: """While you defend, if the attacker modifies their dice, you may spend 1 %CHARGE%. If you do, the attacker gains 1 stress token.""" 
          
          "Gravitic Well (LaR)":
-           #display_name: """Gravitic Well (LaR)"""
+           display_name: """Gravitic Well (LaR)"""
            text: """At the start of the Engament Phase, if you are tractored, each other small ship at range 0-1 gains a strain token. %LINEBREAK%Replace any 'if the defender is tractored' in your pilot ability with 'if you are tractored'.""" 
          
          
@@ -3509,11 +3437,11 @@ exportObj.cardLoaders.English = () ->
          
          
          "Roiling Anger (LaR)":
-           #display_name: """Roiling Anger (LaR)"""
+           display_name: """Roiling Anger (LaR)"""
            text: """At the start of the Engagment Phase, if you are in an enemy ship's %FRONTARC%, you may gain 1 strain token to recover 1%FORCE%.""" 
          
          "Seeker Missiles (LaR)":
-           #display_name: """Seeker Missiles (LaR)"""
+           display_name: """Seeker Missiles (LaR)"""
            text: """<strong>Attack (%LOCK%):</strong> Spend 1 %CHARGE%. During the Modify Attack Dice step, you may spend up to 2 additional %CHARGE%. Change 1 %FOCUS% result to a %HIT% result for each %CHARGE% spent this way.""" 
          
          
