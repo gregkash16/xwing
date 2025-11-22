@@ -8214,6 +8214,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Modification"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -8228,6 +8229,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Modification"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -8243,6 +8245,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Modification"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -8259,6 +8262,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Modification"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -8276,6 +8280,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Modification"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -8292,6 +8297,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Modification"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -15538,6 +15544,149 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
         }
+
+        #tu dodaje moje proby stwozenia nowego pilota
+        {
+            name: "Hera Syndulla (LaR)"
+            id: 732
+            unique: true
+            faction: "Rebel Alliance"
+            ship: "VCX-100 Light Freighter"
+            skill: 6
+            points: 19
+            loadout: 20
+            keyword: ["Spectre"]
+            slots: [
+                "Talent"
+                "Talent"
+                "Torpedo"
+                "Sensor"
+                "Turret"
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Carnor Jax (LaR)"
+            id: 733
+            unique: true
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            skill: 5
+            force: 1
+            points: 13
+            loadout: 8
+            slots: [
+                "Force"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Thweek (LaR)"
+            id: 734
+            unique: true
+            faction: "Scum and Villainy"
+            ship: "StarViper-class Attack Platform"
+            skill: 4
+            points: 12
+            loadout: 11
+            slots: [
+                "Talent"
+                "Sensor"
+                "Torpedo"
+                "Illicit"
+                "Modification"
+            ]
+        }
+        {
+            name: "DT-533 (LaR)"
+            id: 735
+            unique: true
+            faction: "First Order"
+            ship: "TIE/fo Fighter"
+            skill: 4
+            points: 9
+            loadout: 8
+            slots: [
+                "Talent"
+                "Sensor"
+                "Missile"
+                "Tech"
+                "Modification"
+                "Modification"
+            ]
+        }
+        {
+            name: "Quinlan Vos (LaR)"
+            id: 736
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Eta-2 Actis"
+            skill: 4
+            force: 2
+            points: 11
+            loadout: 13
+            keyword: ["Jedi","Dark Side","Light Side"]
+            slots: [
+                "Force"
+                "Force"
+                "Talent"
+                "Cannon"
+                "Illicit"
+                "Astromech"
+                "Modification"
+            ]
+        }
+        {
+            name: "Ursa Wren (LaR)"
+            id: 737
+            faction: "Galactic Republic"
+            ship: "Gauntlet Fighter"
+            skill: 3
+            points: 15
+            loadout: 17
+            keyword: ["Mandalorian"]
+            unique: true
+            slots: [
+                "Talent"
+                "Crew"
+                "Gunner"
+                "Device"
+                "Illicit"
+                "Modification"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "DIS-L9B2 (LaR)"
+            id: 738
+            faction: "Separatist Alliance"
+            skill: 6
+            charge: 1
+            recurring: 1
+            unique: true
+            ship: "Droid Tri-fighter"
+            points: 11
+            loadout: 10
+            slots: [
+                "Talent"
+                "Sensor"
+                "Missile"
+                "Cannon"
+                "Modification"
+                "Modification"
+                "Configuration"
+            ]
+        }
+
+
+
+
     ]
 
     upgradesById: [
@@ -21404,6 +21553,260 @@ exportObj.basicCardData = ->
             charge: 2
             recurring: 1
         }
+        #tu dodaje nowe upgrady
+        
+        {
+            name: "Ahsoka Tano (LaR)"
+            id: 619
+            slot: "Crew"
+            points: 10
+            force: 1
+            unique: true
+            faction: "Rebel Alliance"
+            modifier_func: (stats) ->
+                stats.force += 1
+        }
+        
+        
+        {
+            name: "Grand Admiral Thrawn (LaR)"
+            id: 620
+            slot: "Crew"
+            points: 6
+            unique: true
+            charge:2
+            recurring: -1
+            faction: "Galactic Empire"
+            restrictions: [
+                ["Slot", "Crew"],["AgilityEquals",1]
+            ]
+            also_occupies_upgrades: [ "Crew" ]
+        }
+        
+        
+        {
+            name: "Fennec Shand (LaR)"
+            id: 621
+            slot: "Crew"
+            points: 6
+            charge: 2
+            unique: true
+            faction: "Scum and Villainy"
+        }
+        
+        
+        {
+            name: "Zori Bliss (LaR)"
+            id: 622
+            slot: "Crew"
+            points: 5
+            unique: true
+            charge:1
+            recurring:1
+            faction: "Resistance"
+            restrictions: [
+                ["Action", "R-Jam"]
+            ]
+            modifier_func: (stats) ->
+                stats.actions.push 'Jam'
+        }
+        
+        {
+            name: "Wedge Antilles (LaR)"
+            id: 623
+            slot: "Gunner"
+            points: 10
+            unique: true
+            faction: "Resistance"
+        }
+        
+        {
+            name: "Captive (LaR)"
+            id: 624
+            slot: "Crew"
+            points: 10
+            unique: true
+            charge: 1
+            recurring: 1
+            faction: ["Galactic Empire", "Separatist Alliance", "First Order"]
+            restrictions: [
+                ["Slot", "Crew"]
+            ]
+            also_occupies_upgrades: [ "Crew" ]
+        }
+        
+        {
+            name: "Gravitic Well (LaR)"
+            id: 625
+            slot: "Configuration"
+            points: 5
+            standardized: true
+            ship: "Nantex-Class Starfighter"
+        }
+        
+        
+        {
+            name: "R7-T1 (LaR)"
+            id: 626
+            slot: "Astromech"
+            points: 5
+            unique: true
+            faction: ["Resistance", "Rebel Alliance"]
+            restrictions: [
+                ["Action", "W-Lock"],["Base", "Small"]
+            ]
+            modifier_func: (stats) ->
+                stats.actions.push 'Lock'
+                stats.actions.push 'R-> Boost'
+        }
+        
+        {
+            name: "Modified R4-P Unit (LaR)"
+            id: 627
+            slot: "Astromech"
+            points: 5
+            charge: 1
+            faction: "Rebel Alliance"
+            
+        }
+        {
+            name: "Flight-Assist Astromech (LaR)"
+            id: 628
+            slot: "Astromech"
+            unique: true
+            points: 3
+            charge: 2
+            restrictions: [
+                ["Base", "Small"]
+            ]
+            
+        }
+        
+        
+        {
+            name: "Unhinged Astromech (LaR)"
+            id: 629
+            slot: "Astromech"
+            points: 3
+            modifier_func: (stats) ->
+                if stats.maneuvers[3]?
+                    for turn in [0 ... stats.maneuvers[3].length]
+                        if turn > 4
+                            continue
+                        if stats.maneuvers[3][turn] > 1
+                            stats.maneuvers[3][turn]--
+        }
+        
+        
+        {
+            name: "Roiling Anger (LaR)"
+            id: 630
+            slot: "Force"
+            restrictions: [
+                ["Keyword", "Dark Side"]
+            ]
+            points: 2
+        }
+        
+        {
+            name: "Seeker Missiles (LaR)"
+            id: 631
+            slot: "Missile"
+            points: 10
+            attack: 3
+            range: """2-3"""
+            rangebonus: true
+            charge: 4
+        }
+        
+        
+        {
+            name: "Retrofitted Autothrusters (LaR)"
+            id: 632
+            slot: "Modification"
+            points: 6
+            charge: 2
+            restrictions: [
+                ["Base", "Small"]
+            ]
+        }
+        {
+            name: "Targeting Matrix (LaR)"
+            id: 633
+            slot: "Modification"
+            points: 5
+        }
+        {
+            name: "Automated Loaders (LaR)"
+            id: 634
+            slot: "Modification"
+            points: 4
+            charge: 1
+            restrictions: [
+                ["Action", "Reload"]
+            ]
+        }
+        
+        
+        {
+            name: "Parting Gift (LaR)"
+            id: 635
+            #id: 620
+            slot: "Talent"
+            points: 2
+        }
+        
+        
+        {
+            name: "Blindspot Targeter (LaR)"
+            id: 636
+            slot: "Sensor"
+            points: 6
+        }
+        {
+            name: "Targeting Relay (LaR)"
+            id: 637
+            slot: "Tech"
+            points: 3
+            charge: 2
+        }
+        {
+            name: "Vulnerability Scanner (LaR)"
+            id: 638
+            slot: "Tech"
+            points: 6
+        }
+        
+        {
+            name: "Winged Reversal (LaR)"
+            id: 639
+            slot: "Configuration"
+            points: 0
+            standardized: true
+            ship: ["UT-60D U-wing","Gauntlet Fighter"]
+            charge: 2
+        }
+        {
+            name: "Precision Tuned Cannons (LaR)"
+            id: 640
+            slot: "Cannon"
+            points: 3
+            attack: 2
+            range: """2-3"""
+        }
+        {
+            name: "Burst Laser Turret (LaR)"
+            id: 641
+            slot: "Turret"
+            charge: 2
+            recurring: 1
+            points: 4
+            attackt: 2
+            range: """1-2"""
+            modifier_func: (stats) ->
+                stats.actions.push 'Rotate Arc' if 'Rotate Arc' not in stats.actions
+        }
+        
     ]
 
 
