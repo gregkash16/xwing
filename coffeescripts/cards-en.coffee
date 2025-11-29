@@ -3401,8 +3401,8 @@ exportObj.cardLoaders.English = () ->
            text: """After you fully execute a maneuver, or preform a %BARRELROLL% or %BOOST%, you may spend 1 %CHARGE%. If you do, choose an enemy ship in your %BULLSEYEARC%. That ship gains 1 strain token and you may acquire a lock on it."""
          
          
-         "Zori Bliss (LaR)":
-           display_name: """Zori Bliss (LaR)"""
+         "Zorii Bliss (LaR)":
+           display_name: """Zorii Bliss (LaR)"""
            text: """After a jammed enemy ship at range 1-2 removes a green token, you may spend 1 %CHARGE% to gain a matching token.""" 
          
          "Wedge Antilles (LaR)":
