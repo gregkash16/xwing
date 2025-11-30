@@ -21596,7 +21596,7 @@ exportObj.basicCardData = ->
         
         
         {
-            name: "Zori Bliss (LaR)"
+            name: "Zorii Bliss (LaR)"
             id: 622
             slot: "Crew"
             points: 5
