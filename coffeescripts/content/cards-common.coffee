@@ -15577,8 +15577,8 @@ exportObj.basicCardData = ->
             ship: "TIE/in Interceptor"
             skill: 5
             force: 1
-            points: 13
-            loadout: 8
+            points: 12
+            loadout: 4
             slots: [
                 "Force"
                 "Modification"
@@ -15629,7 +15629,7 @@ exportObj.basicCardData = ->
             skill: 4
             force: 2
             points: 11
-            loadout: 13
+            loadout: 14
             keyword: ["Jedi","Dark Side","Light Side"]
             slots: [
                 "Force"
@@ -15672,7 +15672,7 @@ exportObj.basicCardData = ->
             unique: true
             ship: "Droid Tri-fighter"
             points: 11
-            loadout: 10
+            loadout: 11
             slots: [
                 "Talent"
                 "Sensor"
@@ -21623,7 +21623,7 @@ exportObj.basicCardData = ->
             name: "Captive (LaR)"
             id: 624
             slot: "Crew"
-            points: 10
+            points: 8
             unique: true
             charge: 1
             recurring: 1
@@ -21733,13 +21733,13 @@ exportObj.basicCardData = ->
             name: "Targeting Matrix (LaR)"
             id: 633
             slot: "Modification"
-            points: 5
+            points: 4
         }
         {
             name: "Automated Loaders (LaR)"
             id: 634
             slot: "Modification"
-            points: 4
+            points: 3
             charge: 1
             restrictions: [
                 ["Action", "Reload"]
@@ -21759,7 +21759,7 @@ exportObj.basicCardData = ->
             name: "Blindspot Targeter (LaR)"
             id: 636
             slot: "Sensor"
-            points: 6
+            points: 8
         }
         {
             name: "Targeting Relay (LaR)"
