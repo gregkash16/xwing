@@ -238,31 +238,33 @@ exportObj.cardLoaders.English = () ->
 
         "Hera Syndulla (LaR)":
            display_name: """Hera Syndulla (LaR)"""
-           text: """After you fully execute a red maneuver, you may preform a %COORDINATE% action, even while stressed."""
+           text: """After you fully execute a red maneuver, you may coordinate a friendly ship at range 0-3."""
 
          "Carnor Jax (LaR)":
            display_name: """Carnor Jax (LaR)"""
-           text: """While an enemy ship at range 0-1 in your %FRONTARC% defends or preforms an attack, before the Roll Attack Dice step, you may spend 1 %FORCE%. If you do, that ship's dice cannot be modified."""
+           text: """While an enemy ship at range 0-1 in your %FRONTARC% defends or performs an attack, before the Roll Attack Dice step, you may spend 1 %FORCE%. If you do, that ship's dice cannot be modified."""
          "Thweek (LaR)":
             display_name: """Thweek (LaR)"""
             text: """During the System Phase, you may gain a tractor token. At the start of the Engament Phase, you may gain a deplete token to remove a tractor token."""         
          "DT-533 (LaR)":
             display_name: """DT-533 (LaR)"""
-            text: """While a ship you are locking preforms an attack, you may choose 1 attack die. If you do, the attacker rerolls that die."""
-           
-           
+            text: """While a ship you are locking performs an attack, you may choose 1 attack die. If you do, the attacker rerolls that die."""
          "Quinlan Vos (LaR)":
             display_name: """Quinlan Vos (LaR)"""
-            text: """After you aquire a lock on an enemy ship, if that ship is in your %BULLSEYEARC%, you may recover 1%FORCE%."""
+            text: """After you perform a %BARRELROLL% or %BOOST% action you may aquire a lock on an enemy ship in your %BULLSEYEARC%."""
             
             
          "Ursa Wren (LaR)":
             display_name: """Ursa Wren (LaR)"""
-            text: """After you aquire a lock on an enemy ship, if there is no enemy ships at range 0-1 of you, you may gain 1 reinforce token."""
+            text: """After you aquire a lock on an enemy ship, if there is no enemies at range 0-1 of you, you may gain 1 reinforce token."""
          "DIS-L9B2 (LaR)":
             display_name: """DIS-L9B2 (LaR)"""
             text: """At the start of the Engagment Phase, if there is an enemy ship in your %BULLSEYEARC%, spend 1%CHARGE%.%LINEBREAK%During the Engagment Phase, if your %CHARGE% is active, treat your initiative value as 1."""
-      
+        
+        "Kazuda Xiono (LaR)":
+           display_name: """Kazuda Xiono (LaR)"""
+           text: """While you defend or perform an attack, if the enemy ship has more damage cards than you have, you may change a %FOCUS% result to an %EVADE% or a %HIT% result."""
+
 
 
         "0-66":
@@ -3393,12 +3395,12 @@ exportObj.cardLoaders.English = () ->
          
          "Grand Admiral Thrawn (LaR)":
            display_name: """Grand Admiral Thrawn (LaR)"""
-           text: """<strong>Setup:</strong> Start in reserve. %LINEBREAK%At the start of the round, if all %CHARGE% in this upgrade are inactive, you <strong>must</strong> deploy, placing yourself within range 1 of any table edge. After you deploy this way, you may coordinate up to 2 friendly ships at range 1-3."""
+           text: """While you perform a %JAM% or %COORDINATE% action, you may spend 1%CHARGE% to increase the range requirement for that action by 1.%LINEBREAK%After you perform a %JAM% or %COORDINATE% action, you may spend 2%CHARGE% to perform a %JAM% or %COORDINATE% action, treating it as red."""
          
          
          "Fennec Shand (LaR)":
            display_name: """Fennec Shand (LaR)"""
-           text: """After you fully execute a maneuver, or preform a %BARRELROLL% or %BOOST%, you may spend 1 %CHARGE%. If you do, choose an enemy ship in your %BULLSEYEARC%. That ship gains 1 strain token and you may acquire a lock on it."""
+           text: """After you fully execute a maneuver, or perform a %BARRELROLL% or %BOOST% action, you may spend 1 %CHARGE%. If you do, choose an enemy ship in your %BULLSEYEARC%. That ship gains 1 strain token and you may acquire a lock on it."""
          
          
          "Zorii Bliss (LaR)":
@@ -3407,7 +3409,7 @@ exportObj.cardLoaders.English = () ->
          
          "Wedge Antilles (LaR)":
            display_name: """Wedge Antilles (LaR)"""
-           text: """While you preform a %SINGLETURRETARC% attack, if you are not in the defender's firing arc, the defender rolls 1 fewer defense die.""" 
+           text: """While you perform a %SINGLETURRETARC% attack, if you are not in the defender's firing arc, the defender rolls 1 fewer defense die.""" 
          
          "Captive (LaR)":
            display_name: """Captive (LaR)"""
@@ -3427,7 +3429,7 @@ exportObj.cardLoaders.English = () ->
            text: """Before you execute a red maneuver, you may spend 1 %CHARGE%. If you do, while you execute that maneuver, reduce it's difficulty.""" 
          "Flight-Assist Astromech (LaR)":
            display_name: """Flight-Assist Astromech (LaR)"""
-           text: """While you preform a white %BOOST% or %BARRELROLL% action, you may spend 1 %CHARGE%. If you do, treat the action as red, use a speed 2 template while preforming the action.""" 
+           text: """While you perform a white %BOOST% or %BARRELROLL% action, you may spend 1 %CHARGE%. If you do, treat the action as red, and use a speed 2 template while performing the action.""" 
          
 
          
@@ -3447,13 +3449,13 @@ exportObj.cardLoaders.English = () ->
          
          "Retrofitted Autothrusters (LaR)":
            display_name: """Retrofitted Autothrusters (LaR)"""
-           text: """After you preform a speed 3 turn [%TURNLEFT% or %TURNRIGHT%], bank [%BANKLEFT% or %BANKRIGHT%], Talon Roll [%TROLLLEFT% or %TROLLRIGHT%] or Segnor's Loop [%SLOOPLEFT% or %SLOOPRIGHT%] maneuver, you may spend 1 %CHARGE% to preform a %BARRELROLL% action, even while stressed.""" 
+           text: """After you fully execute a speed 3 turn [%TURNLEFT% or %TURNRIGHT%], bank [%BANKLEFT% or %BANKRIGHT%], Talon Roll [%TROLLLEFT% or %TROLLRIGHT%] or Segnor's Loop [%SLOOPLEFT% or %SLOOPRIGHT%] maneuver, you may spend 1 %CHARGE% to perform a %BARRELROLL% action, even while stressed.""" 
          "Targeting Matrix (LaR)":
            display_name: """Targeting Matrix (LaR)"""
            text: """While attacking, you may spend 1%FOCUS% result at the end of the Neutralize Results step. If you do, after the attack is resolved, the defender gains a strain token."""
          "Automated Loaders (LaR)":
            display_name: """Automated Loaders (LaR)"""
-           text: """After you preform a primary attack, you may spend 1 %CHARGE% to preform a %RELOAD% action.""" 
+           text: """After you perform a primary attack, you may spend 1 %CHARGE% to perform a %RELOAD% action.""" 
          
          
          "Parting Gift (LaR)":
@@ -3463,17 +3465,17 @@ exportObj.cardLoaders.English = () ->
          
          "Blindspot Targeter (LaR)":
            display_name: """Blindspot Targeter (LaR)"""
-           text: """While you preform a primary attack, if you are not in the defender's firing arc, you may change 1 %FOCUS% result into a %HIT% result.""" 
+           text: """While you perform a primary attack, if you are not in the defender's firing arc, you may change 1 %FOCUS% result into a %HIT% result.""" 
          "Targeting Relay (LaR)":
            display_name: """Targeting Relay (LaR)"""
            text: """After a friendly ship acquires a lock on an enemy ship at range 0-1 of you, you may spend 1%CHARGE% and gain a stress token. If you do, that friendly ship may gain a calculate token.""" 
          "Vulnerability Scanner (LaR)":
            display_name: """Vulnerability Scanner (LaR)"""
-           text: """While preforming a primary attack, if the defender does not have any green tokens, you may reroll 1 attack die.""" 
+           text: """While performing a primary attack, if the defender does not have any green tokens, you may reroll 1 attack die.""" 
          
          "Winged Reversal (LaR)":
            display_name: """Winged Reversal (LaR)"""
-           text: """After you reveal a turn [%TURNLEFT% or %TURNRIGHT%] maneuver, you may spend 1 %CHARGE%, gain 1 strain token and increase it's difficulty. If you do, preform that maneuver as a Tallon Roll [%TROLLLEFT% or %TROLLRIGHT%] maneuver in the same direction instead.""" 
+           text: """After you reveal a turn [%TURNLEFT% or %TURNRIGHT%] maneuver, you may spend 1 %CHARGE%, gain 1 strain token and increase it's difficulty. If you do, perform that maneuver as a Tallon Roll [%TROLLLEFT% or %TROLLRIGHT%] maneuver in the same direction instead.""" 
          "Precision Tuned Cannons (LaR)":
            display_name: """Precision Tuned Cannons (LaR)"""
            text: """<strong>Attack:</strong> If the defender is in your %BULLSEYEARC%, add 1%FOCUS% result.""" 
