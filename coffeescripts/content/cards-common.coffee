@@ -15683,6 +15683,24 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
         }
+        {
+            name: "Kazuda Xiono (LaR)"
+            id: 739
+            unique: true
+            faction: "Resistance"
+            ship: "T-70 X-wing"
+            skill: 4
+            points: 12
+            loadout: 11
+            slots: [
+                "Talent"
+                "Astromech"
+                "Tech"
+                "Modification"
+                "Configuration"
+                "HardpointShip"
+            ]
+        }
 
 
 
@@ -21574,12 +21592,11 @@ exportObj.basicCardData = ->
             points: 6
             unique: true
             charge:2
-            recurring: -1
+            recurring: 1
             faction: "Galactic Empire"
-            restrictions: [
-                ["Slot", "Crew"],["AgilityEquals",1]
-            ]
-            also_occupies_upgrades: [ "Crew" ]
+            modifier_func: (stats) ->
+                stats.actions.push 'R-Jam'
+            
         }
         
         
@@ -21672,7 +21689,6 @@ exportObj.basicCardData = ->
             name: "Flight-Assist Astromech (LaR)"
             id: 628
             slot: "Astromech"
-            unique: true
             points: 3
             charge: 2
             restrictions: [
