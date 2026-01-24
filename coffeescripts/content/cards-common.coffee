@@ -21640,15 +21640,11 @@ exportObj.basicCardData = ->
             name: "Captive (LaR)"
             id: 624
             slot: "Crew"
-            points: 8
+            points: 7
             unique: true
             charge: 1
             recurring: 1
             faction: ["Galactic Empire", "Separatist Alliance", "First Order"]
-            restrictions: [
-                ["Slot", "Crew"]
-            ]
-            also_occupies_upgrades: [ "Crew" ]
         }
         
         {

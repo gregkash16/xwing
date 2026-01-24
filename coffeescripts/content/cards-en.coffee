@@ -3413,7 +3413,7 @@ exportObj.cardLoaders.English = () ->
          
          "Captive (LaR)":
            display_name: """Captive (LaR)"""
-           text: """While you defend, if the attacker modifies their dice, you may spend 1 %CHARGE%. If you do, the attacker gains 1 stress token.""" 
+           text: """After you are declared the defender of an attack, you may spend 1 %CHARGE% to assign the attacker 1 deplete token.""" 
          
          "Gravitic Well (LaR)":
            display_name: """Gravitic Well (LaR)"""
