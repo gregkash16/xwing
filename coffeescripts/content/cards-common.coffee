@@ -15577,6 +15577,7 @@ exportObj.basicCardData = ->
             ship: "TIE/in Interceptor"
             skill: 5
             force: 1
+            keyword: ["Dark Side","Sith"]
             points: 12
             loadout: 4
             slots: [
