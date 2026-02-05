@@ -3469,8 +3469,8 @@ exportObj.cardLoaders.English = () ->
          "Targeting Relay (LaR)":
            display_name: """Targeting Relay (LaR)"""
            text: """After a friendly ship acquires a lock on an enemy ship at range 0-1 of you, you may spend 1%CHARGE% and gain a stress token. If you do, that friendly ship may gain a calculate token.""" 
-         "Vulnerability Scanner (LaR)":
-           display_name: """Vulnerability Scanner (LaR)"""
+         "T-SJ1A Targeting Computer (LaR)":
+           display_name: """T-SJ1A Targeting Computer (LaR)"""
            text: """While performing a primary attack, if the defender does not have any green tokens, you may reroll 1 attack die.""" 
          
          "Winged Reversal (LaR)":

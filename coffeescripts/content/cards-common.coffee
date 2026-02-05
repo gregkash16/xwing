@@ -21782,7 +21782,7 @@ exportObj.basicCardData = ->
             charge: 2
         }
         {
-            name: "Vulnerability Scanner (LaR)"
+            name: "T-SJ1A Targeting Computer (LaR)"
             id: 638
             slot: "Tech"
             points: 6
