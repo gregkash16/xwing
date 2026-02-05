@@ -3471,7 +3471,7 @@ exportObj.cardLoaders.English = () ->
            text: """After a friendly ship acquires a lock on an enemy ship at range 0-1 of you, you may spend 1%CHARGE% and gain a stress token. If you do, that friendly ship may gain a calculate token.""" 
          "T-SJ1A Targeting Computer (LaR)":
            display_name: """T-SJ1A Targeting Computer (LaR)"""
-           text: """While you perform a primary attack, if the defender does not have any green tokens, you may spend 1 %CHARGE% and cancel 1 %CRITICALHIT% result. If you do, add 2 %HIT% results.""" 
+           text: """While you perform a primary attack, if the defender does not have any green tokens, you may spend 1 %CHARGE% and cancel 1 %CRIT% result. If you do, add 2 %HIT% results.""" 
          
          "Winged Reversal (LaR)":
            display_name: """Winged Reversal (LaR)"""
