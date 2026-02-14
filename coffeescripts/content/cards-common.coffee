@@ -21785,6 +21785,7 @@ exportObj.basicCardData = ->
             name: "T-SJ1A Targeting Computer (LaR)"
             id: 638
             slot: "Tech"
+            faction: "First Order"
             points: 6
         }
         
