@@ -6790,6 +6790,7 @@ exportObj.basicCardData = ->
                 "Torpedo"
                 "Crew"
                 "Crew"
+                "Tech"
                 "Device"
                 "Modification"
                 "Title"
@@ -11208,7 +11209,6 @@ exportObj.basicCardData = ->
                 "Illicit"
                 "Modification"
                 "Modification"
-                "Tech"
                 "Title"
                 "Configuration"
             ]
