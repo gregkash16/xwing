@@ -7903,6 +7903,7 @@ exportObj.basicCardData = ->
                 "Sensor"
                 "Crew"
                 "Crew"
+                "Tech"
                 "Device"
                 "Modification"
                 "Title"
@@ -7925,6 +7926,7 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Tactical Relay"
                 "Device"
+                "Tech"
                 "Modification"
                 "Title"
             ]
@@ -7942,6 +7944,7 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Crew"
                 "Device"
+                "Tech"
                 "Modification"
             ]
         }
@@ -11205,6 +11208,7 @@ exportObj.basicCardData = ->
                 "Illicit"
                 "Modification"
                 "Modification"
+                "Tech"
                 "Title"
                 "Configuration"
             ]
@@ -13670,7 +13674,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "YT-2400 Light Freighter"
             skill: 5
-            points: 17
+            points: 16
             upgrades: [
                 "Mercenary (YLF)"
                 "Seeker Missiles (YLF)"
@@ -13723,7 +13727,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "YT-2400 Light Freighter"
             skill: 3
-            points: 16
+            points: 15
             upgrades: [
                 "Efficient Processing (YLF)"
                 "Seeker Missiles (YLF)"
@@ -15628,6 +15632,7 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Sensor"
                 "Torpedo"
+                "Tech"
                 "Illicit"
                 "Modification"
             ]
