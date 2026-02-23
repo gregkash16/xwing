@@ -3790,7 +3790,7 @@ exportObj.basicCardData = ->
             ship: "Fang Fighter"
             skill: 6
             points: 16
-            loadout: 10
+            loadout: 12
             keyword: ["Mandalorian"]
             slots: [
                 "Talent"
@@ -7817,14 +7817,15 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "Naboo Royal N-1 Starfighter"
             skill: 1
-            points: 9
-            loadout: 9
+            points: 8
+            loadout: 5
             applies_condition: '''Decoyed'''.canonicalize()
             slots: [
                 "Talent"
                 "Torpedo"
                 "Sensor"
                 "Astromech"
+                "Tech"
                 "Modification"
             ]
         }
@@ -13772,7 +13773,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "RZ-1 A-wing"
             skill: 3
-            points: 10
+            points: 9
             chassis: "Vectored Cannons"
             upgrades: [
                 "It's A Trap! (BoE)"
