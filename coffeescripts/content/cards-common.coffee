@@ -2729,12 +2729,13 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "YT-2400 Light Freighter"
             skill: 5
-            points: 20
+            points: 19
             loadout: 20
             slots: [
                 "Talent"
                 "Missile"
                 "Crew"
+                "Gunner"
                 "Illicit"
                 "Illicit"
                 "Modification"
@@ -2750,13 +2751,14 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "YT-2400 Light Freighter"
             skill: 3
-            points: 20
+            points: 19
             loadout: 19
             keyword: ["Droid"]
             slots: [
                 "Talent"
                 "Missile"
                 "Crew"
+                "Gunner"
                 "Illicit"
                 "Illicit"
                 "Modification"
@@ -3111,7 +3113,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "VCX-100 Light Freighter"
             skill: 5
-            points: 18
+            points: 17
             loadout: 19
             keyword: ["Spectre"]
             slots: [
@@ -3136,7 +3138,7 @@ exportObj.basicCardData = ->
             skill: 3
             keyword: ["Light Side", "Jedi", "Spectre"]
             force: 2
-            points: 19
+            points: 18
             loadout: 20
             slots: [
                 "Force"
@@ -5450,8 +5452,8 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE/ca Punisher"
             skill: 4
-            points: 12
-            loadout: 19
+            points: 13
+            loadout: 24
             slots: [
                 "Talent"
                 "Sensor"
@@ -6300,8 +6302,8 @@ exportObj.basicCardData = ->
             ship: "Scavenged YT-1300"
             keyword: ["Light Side"]
             skill: 5
-            points: 18
-            loadout: 17
+            points: 19
+            loadout: 23
             force: 2
             slots: [
                 "Force"
@@ -8320,7 +8322,7 @@ exportObj.basicCardData = ->
             ship: "Nantex-Class Starfighter"
             skill: 5
             points: 9
-            loadout: 11
+            loadout: 9
             slots: [
                 "Talent"
                 "Talent"
@@ -9651,7 +9653,7 @@ exportObj.basicCardData = ->
             skill: 5
             charge: 4
             ship: "Firespray-class Patrol Craft"
-            points: 19
+            points: 18
             loadout: 12
             keyword: ["Bounty Hunter"]
             slots: [
@@ -9673,7 +9675,7 @@ exportObj.basicCardData = ->
             skill: 6
             unique: true
             ship: "Firespray-class Patrol Craft"
-            points: 20
+            points: 19
             loadout: 20
             keyword: ["Bounty Hunter"]
             slots: [
@@ -13654,12 +13656,13 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "YT-2400 Light Freighter"
             skill: 5
-            points: 19
+            points: 18
             loadout: 20
             slots: [
                 "Talent"
                 "Missile"
                 "Crew"
+                "Gunner"
                 "Illicit"
                 "Illicit"
                 "Modification"
@@ -13706,13 +13709,14 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "YT-2400 Light Freighter"
             skill: 3
-            points: 17
+            points: 16
             loadout: 10
             keyword: ["Droid"]
             slots: [
                 "Talent"
                 "Missile"
                 "Crew"
+                "Gunner"
                 "Illicit"
                 "Illicit"
                 "Modification"
@@ -15586,7 +15590,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "VCX-100 Light Freighter"
             skill: 6
-            points: 19
+            points: 18
             loadout: 20
             keyword: ["Spectre"]
             slots: [
@@ -21817,7 +21821,7 @@ exportObj.basicCardData = ->
             id: 638
             slot: "Tech"
             faction: "First Order"
-            points: 6
+            points: 4
         }
         
         {
