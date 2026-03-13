@@ -1,6 +1,6 @@
 {
   "name": "yasb",
-  "description": "Squad builder for Atomic Mass Games ' X-Wing Miniatures Game",
+  "description": "Squad builder for Atomic Mass Games' X-Wing Miniatures Game",
   "version": "2.5.0",
   "author": [
     "Geordan Rosario <geordan@gmail.com>",
@@ -8,9 +8,16 @@
     "Patrick Mischke <Patschke>"
   ],
   "license": "MIT",
-  "main": "app/index.html",
   "private": "true",
+  "scripts": {
+    "dev": "next dev",
+    "build": "grunt && next build",
+    "start": "next start"
+  },
   "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "bower": "*",
     "coffeescript": "*",
     "grunt": "*",
@@ -23,13 +30,18 @@
     "jstransformer-coffee-script": "*",
     "jstransformer-markdown": "*",
     "sass": "*",
-    "phantomjs-prebuilt": "*"
-  },
-  "engines": {
-    "node": "*"
+    "phantomjs-prebuilt": "*",
+    "typescript": "^5"
   },
   "dependencies": {
     "install": "^0.13.0",
+    "iron-session": "^8.0.1",
+    "next": "^14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
     "sass": "^1.85.0"
+  },
+  "engines": {
+    "node": "*"
   }
 }
