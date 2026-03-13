@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getIronSession } from 'iron-session'
-import { sessionOptions } from '@/lib/session'
 import { cookies } from 'next/headers'
+import { sessionOptions, SessionUser } from '@/lib/session'
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url)
@@ -64,7 +64,7 @@ export async function GET(req: NextRequest) {
     }
 
     // 4. Create session
-    const session = await getIronSession(cookies(), sessionOptions)
+    const session = await getIronSession<{ user?: SessionUser }>(cookies(), sessionOptions)
     session.user = {
       id: userData.id,
       username: userData.username,
