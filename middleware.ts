@@ -48,5 +48,5 @@ export async function middleware(req: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/builder/:path*'],
+  matcher: ['/builder/:path*', '/yasb/:path*'],
 }
