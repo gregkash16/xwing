@@ -1,3 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  outputFileTracingIncludes: {
+    '/yasb/(.*)': ['./yasb-build/**/*'],
+  },
+}
 module.exports = nextConfig

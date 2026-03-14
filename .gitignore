@@ -13,3 +13,4 @@ bower_components
 *.*~
 pushlive.sh
 .env.local
+yasb-build/

@@ -8,13 +8,13 @@ module.exports = (grunt) ->
                     runtime: 'window'
                     sourceMap: true
                 files:
-                    'public/yasb/javascripts/xwing.js': ['coffeescripts/system/*.coffee']
-                    'public/yasb/javascripts/xwingcontent.js': ['coffeescripts/content/cards-common.coffee']
-                    'public/yasb/javascripts/manifest.js': ['coffeescripts/content/manifest.coffee']
-                    'public/yasb/javascripts/translation-en.js': ['coffeescripts/content/cards-en.coffee']
-                    'public/yasb/javascripts/xwingquickbuilds.js': ['coffeescripts/content/cards-quickbuilds.coffee']
-                    'public/yasb/javascripts/xwingrules.js': ['coffeescripts/content/rules-en.coffee']
-                    'public/yasb/javascripts/translations.js': ['coffeescripts/translations/*.coffee']
+                    'yasb/build/javascripts/xwing.js': ['coffeescripts/system/*.coffee']
+                    'yasb/build/javascripts/xwingcontent.js': ['coffeescripts/content/cards-common.coffee']
+                    'yasb/build/javascripts/manifest.js': ['coffeescripts/content/manifest.coffee']
+                    'yasb/build/javascripts/translation-en.js': ['coffeescripts/content/cards-en.coffee']
+                    'yasb/build/javascripts/xwingquickbuilds.js': ['coffeescripts/content/cards-quickbuilds.coffee']
+                    'yasb/build/javascripts/xwingrules.js': ['coffeescripts/content/rules-en.coffee']
+                    'yasb/build/javascripts/translations.js': ['coffeescripts/translations/*.coffee']
         sass:
             options:
                 implementation: require('sass')
@@ -22,19 +22,19 @@ module.exports = (grunt) ->
                 expand: true
                 cwd: 'stylesheets/'
                 src: ['*.sass']
-                dest: 'public/yasb/stylesheets/'
+                dest: 'yasb/build/stylesheets/'
                 ext: '.css'
         pug:
             compile:
                 expand: true
                 cwd: 'jade/'
                 src: ['**/*.jade']
-                dest: 'public/yasb/'
+                dest: 'yasb/build/'
                 ext: '.html'
         bower:
             install:
                 options:
-                    targetDir: 'public/yasb/bower_components'
+                    targetDir: 'yasb/build/bower_components'
                     verbose: false
                     cleanTargetDir: false
                     cleanBowerDir: false
@@ -44,15 +44,15 @@ module.exports = (grunt) ->
             compile:
                 options:
                     sourceMap: true
-                    sourceMapIn: 'public/yasb/javascripts/xwing.js.map'
+                    sourceMapIn: 'yasb/build/javascripts/xwing.js.map'
                 files:
-                    'public/yasb/javascripts/xwing.min.js': 'public/yasb/javascripts/xwing.js'
-                    'public/yasb/javascripts/manifest.min.js': 'public/yasb/javascripts/manifest.js'
-                    'public/yasb/javascripts/xwingcontent.min.js': 'public/yasb/javascripts/xwingcontent.js'
-                    'public/yasb/javascripts/translation-en.min.js': 'public/yasb/javascripts/translation-en.js'
-                    'public/yasb/javascripts/xwingquickbuilds.min.js': 'public/yasb/javascripts/xwingquickbuilds.js'
-                    'public/yasb/javascripts/xwingrules.min.js': 'public/yasb/javascripts/xwingrules.js'
-                    'public/yasb/javascripts/translations.min.js': 'public/yasb/javascripts/translations.js'
+                    'yasb/build/javascripts/xwing.min.js': 'yasb/build/javascripts/xwing.js'
+                    'yasb/build/javascripts/manifest.min.js': 'yasb/build/javascripts/manifest.js'
+                    'yasb/build/javascripts/xwingcontent.min.js': 'yasb/build/javascripts/xwingcontent.js'
+                    'yasb/build/javascripts/translation-en.min.js': 'yasb/build/javascripts/translation-en.js'
+                    'yasb/build/javascripts/xwingquickbuilds.min.js': 'yasb/build/javascripts/xwingquickbuilds.js'
+                    'yasb/build/javascripts/xwingrules.min.js': 'yasb/build/javascripts/xwingrules.js'
+                    'yasb/build/javascripts/translations.min.js': 'yasb/build/javascripts/translations.js'
         copy:
             main:
                 expand: true
@@ -61,10 +61,10 @@ module.exports = (grunt) ->
                     'bootstrap/**'
                     'images/**'
                 ]
-                dest: 'public/yasb/'
+                dest: 'yasb/build/'
             gh_pages:
                 expand: true
-                cwd: 'public/yasb'
+                cwd: 'yasb/build'
                 src: '**'
                 dest: '../xwing_page'
 
