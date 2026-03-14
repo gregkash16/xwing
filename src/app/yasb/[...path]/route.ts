@@ -22,37 +22,41 @@ const MIME_TYPES: Record<string, string> = {
   '.eot': 'application/vnd.ms-fontobject',
   '.json': 'application/json',
   '.map': 'application/json',
+  '.otf': 'font/otf',
 }
 
 export async function GET(
   req: NextRequest,
   { params }: { params: { path: string[] } }
 ) {
-  // Auth check
+  // Auth check — must have a valid session
   const session = await getIronSession<{ user?: SessionUser }>(cookies(), sessionOptions)
 
   if (!session.user) {
     return NextResponse.redirect(new URL('/login', req.url))
   }
 
-  // Check Discord role
-  const memberRes = await fetch(
-    `https://discord.com/api/guilds/${process.env.DISCORD_GUILD_ID}/members/${session.user.id}`,
-    {
-      headers: { Authorization: `Bot ${process.env.DISCORD_BOT_TOKEN}` },
-      cache: 'no-store',
+  // Only check Discord role for HTML requests, not every asset (CSS/JS/fonts/images)
+  const reqExt = path.extname(params.path[params.path.length - 1])
+  if (!reqExt || reqExt === '.html') {
+    const memberRes = await fetch(
+      `https://discord.com/api/guilds/${process.env.DISCORD_GUILD_ID}/members/${session.user.id}`,
+      {
+        headers: { Authorization: `Bot ${process.env.DISCORD_BOT_TOKEN}` },
+        cache: 'no-store',
+      }
+    )
+
+    if (!memberRes.ok) {
+      return NextResponse.redirect(new URL('/denied?reason=not_in_server', req.url))
     }
-  )
 
-  if (!memberRes.ok) {
-    return NextResponse.redirect(new URL('/denied?reason=not_in_server', req.url))
-  }
+    const memberData = await memberRes.json()
+    const hasRole = memberData.roles.includes(process.env.DISCORD_ROLE_ID!)
 
-  const memberData = await memberRes.json()
-  const hasRole = memberData.roles.includes(process.env.DISCORD_ROLE_ID!)
-
-  if (!hasRole) {
-    return NextResponse.redirect(new URL('/denied?reason=no_role', req.url))
+    if (!hasRole) {
+      return NextResponse.redirect(new URL('/denied?reason=no_role', req.url))
+    }
   }
 
   // Serve the file
