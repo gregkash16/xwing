@@ -13656,7 +13656,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "YT-2400 Light Freighter"
             skill: 5
-            points: 19
+            points: 18
             loadout: 24
             slots: [
                 "Talent"
