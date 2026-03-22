@@ -15373,7 +15373,7 @@ exportObj.basicCardData = ->
             ship: "BTA-NR2-W Y-wing"
             skill: 5
             points: 12
-            loadout: 15
+            loadout: 20
             charge: 1
             recurring: 1
             slots: [
