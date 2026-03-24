@@ -13693,7 +13693,7 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "YT-2400 Light Freighter"
             skill: 5
-            points: 10
+            points: 16
             upgrades: [
                 "Mercenary (YLF)"
                 "Seeker Missiles (YLF)"
