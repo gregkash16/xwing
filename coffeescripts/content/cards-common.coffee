@@ -13731,7 +13731,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "YT-2400 Light Freighter"
             skill: 3
-            points: 10
+            points: 15
             upgrades: [
                 "Efficient Processing (YLF)"
                 "Seeker Missiles (YLF)"
